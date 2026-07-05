@@ -1,17 +1,16 @@
-import { Bot, Building2, Clock, Database, Factory, FileText, Menu, Search, Settings, Star } from "lucide-react";
+import { BookmarkCheck, Clock3, Database, Layers3, Menu, Radar, Route, Search, Star } from "lucide-react";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 const nav = [
   { href: "/search", label: "Search", icon: Search },
+  { href: "/search?q=Fast%20Money%20opportunities", label: "Fast Money", icon: Clock3 },
+  { href: "/search?q=Pipeline%20opportunities", label: "Pipeline", icon: Route },
+  { href: "/search?q=Early%20Signals", label: "Early Signals", icon: Radar },
   { href: "/saved-searches", label: "Saved Searches", icon: Star },
-  { href: "/saved-projects", label: "Saved Projects", icon: Building2 },
-  { href: "/saved-companies", label: "Saved Companies", icon: Factory },
-  { href: "/recent-activity", label: "Recent Activity", icon: Clock },
+  { href: "/saved-projects", label: "Saved Opportunities", icon: BookmarkCheck },
   { href: "/sources", label: "Sources", icon: Database },
-  { href: "/assistant", label: "AI Assistant", icon: Bot },
-  { href: "/admin", label: "Admin", icon: FileText },
-  { href: "/settings", label: "Settings", icon: Settings },
+  { href: "/dashboard", label: "Workspace", icon: Layers3 },
 ];
 
 export function AppShell({ children, wide = false }: { children: React.ReactNode; wide?: boolean }) {
@@ -26,7 +25,7 @@ export function AppShell({ children, wide = false }: { children: React.ReactNode
             <div className="absolute left-0 top-12 z-40 w-72 rounded-lg border border-zinc-200 bg-white p-2 shadow-xl">
               <Link href="/" className="mb-2 block rounded-md px-3 py-2">
                 <span className="block text-sm font-semibold">Sentinel Projects</span>
-                <span className="block text-xs text-zinc-500">Construction intelligence search</span>
+                <span className="block text-xs text-zinc-500">Construction opportunity search</span>
               </Link>
               <nav className="space-y-1">
                 {nav.map((item, index) => (
@@ -42,10 +41,13 @@ export function AppShell({ children, wide = false }: { children: React.ReactNode
           <form action="/search" className="mx-auto flex w-full max-w-2xl items-center">
             <input
               name="q"
-              placeholder="Search construction activity..."
+              placeholder="Search by trade, location, project type, or timeline..."
               className="h-10 w-full rounded-lg border border-zinc-200 bg-zinc-50 px-4 text-sm outline-none focus:border-zinc-400 focus:bg-white"
             />
           </form>
+          <Link href="/dashboard" className="hidden rounded-md border border-zinc-200 px-3 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-50 md:block">
+            Workspace
+          </Link>
         </div>
       </header>
       <main className={cn("mx-auto w-full px-4 py-6 sm:px-6 lg:px-8", wide ? "max-w-7xl" : "max-w-6xl")}>{children}</main>

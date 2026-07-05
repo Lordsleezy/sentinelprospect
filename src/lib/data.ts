@@ -1,6 +1,8 @@
 import { companies, documents, permits, projectCompanies, projects, signals, sources } from "./seed-data";
+import { collectedPermits, collectedProjects, collectedSignals, getCollectedProject, getCollectedProjectDetails } from "./collected-data";
 import { getSupabase } from "./supabase";
-import type { Company, Document, Permit, Project, ProjectDetail, ProjectStatus, ProjectType, Signal } from "./types";
+import { generateOpportunities } from "./opportunities";
+import type { Company, Document, Opportunity, Permit, Project, ProjectDetail, ProjectStatus, ProjectType, Signal } from "./types";
 
 type ProjectFilters = {
   q?: string;
@@ -17,6 +19,8 @@ type PermitFilters = {
   status?: string;
   date?: string;
 };
+
+type PermitWithProjectSummary = Permit & { projects: Pick<Project, "city" | "county" | "name"> };
 
 function includes(value: unknown, q: string) {
   return String(value ?? "").toLowerCase().includes(q.toLowerCase());
@@ -36,6 +40,7 @@ export async function getProjects(filters: ProjectFilters = {}) {
   }
 
   return projects
+    .concat(collectedProjects)
     .filter((p) => !filters.city || p.city === filters.city)
     .filter((p) => !filters.county || p.county === filters.county)
     .filter((p) => !filters.project_type || p.project_type === filters.project_type)
@@ -69,7 +74,7 @@ export async function getProject(id: string): Promise<ProjectDetail | null> {
   }
 
   const project = projects.find((item) => item.id === id);
-  if (!project) return null;
+  if (!project) return getCollectedProject(id);
   return {
     ...project,
     permits: permits.filter((permit) => permit.project_id === id),
@@ -81,6 +86,31 @@ export async function getProject(id: string): Promise<ProjectDetail | null> {
   };
 }
 
+export async function getOpportunities(filters: { q?: string; horizon?: string; trade?: string; county?: string } = {}): Promise<Opportunity[]> {
+  const db = getSupabase();
+  if (db) {
+    let query = db.from("opportunities").select("*").order("score", { ascending: false });
+    if (filters.horizon) query = query.eq("horizon", filters.horizon);
+    if (filters.trade) query = query.eq("trade", filters.trade);
+    if (filters.county) query = query.eq("county", filters.county);
+    if (filters.q) query = query.textSearch("search_vector", filters.q, { type: "websearch" });
+    const { data, error } = await query;
+    if (!error && data) return data as Opportunity[];
+  }
+
+  const projectDetails = [
+    ...getCollectedProjectDetails(),
+    ...(await Promise.all(projects.slice(0, 200).map((project) => getProject(project.id)))).filter(Boolean) as ProjectDetail[],
+  ];
+  return projectDetails
+    .flatMap((project) => generateOpportunities(project))
+    .filter((opportunity) => !filters.horizon || opportunity.horizon === filters.horizon)
+    .filter((opportunity) => !filters.trade || opportunity.trade === filters.trade)
+    .filter((opportunity) => !filters.county || opportunity.county === filters.county)
+    .filter((opportunity) => !filters.q || [opportunity.title, opportunity.trade, opportunity.horizon, opportunity.city, opportunity.county, opportunity.recommended_action].some((value) => includes(value, filters.q!)))
+    .sort((a, b) => b.score - a.score || a.horizon.localeCompare(b.horizon));
+}
+
 export async function getSignals(projectId?: string) {
   const db = getSupabase();
   if (db) {
@@ -89,7 +119,7 @@ export async function getSignals(projectId?: string) {
     const { data, error } = await query;
     if (!error && data) return data as Signal[];
   }
-  return signals
+  return signals.concat(collectedSignals)
     .filter((signal) => !projectId || signal.project_id === projectId)
     .sort((a, b) => b.importance_score - a.importance_score);
 }
@@ -109,8 +139,14 @@ export async function getPermits(filters: PermitFilters = {}) {
     }
   }
 
-  return permits
-    .map((permit) => ({ ...permit, projects: projects.find((project) => project.id === permit.project_id)! }))
+  const seedPermits: PermitWithProjectSummary[] = permits
+    .map((permit) => {
+      const project = projects.find((item) => item.id === permit.project_id)!;
+      return { ...permit, projects: { city: project.city, county: project.county, name: project.name } };
+    });
+
+  return seedPermits
+    .concat(collectedPermits)
     .filter((permit) => !filters.permit_type || permit.permit_type === filters.permit_type)
     .filter((permit) => !filters.county || permit.projects.county === filters.county)
     .filter((permit) => !filters.status || permit.permit_status === filters.status)
@@ -154,11 +190,11 @@ export async function getDashboardStats() {
 
 export async function getFilterOptions() {
   return {
-    cities: [...new Set(projects.map((p) => p.city))].sort(),
-    counties: [...new Set(projects.map((p) => p.county))].sort(),
-    projectTypes: [...new Set(projects.map((p) => p.project_type))].sort() as ProjectType[],
-    statuses: [...new Set(projects.map((p) => p.status))].sort() as ProjectStatus[],
-    permitTypes: [...new Set(permits.map((p) => p.permit_type))].sort(),
-    permitStatuses: [...new Set(permits.map((p) => p.permit_status))].sort(),
+    cities: [...new Set(projects.concat(collectedProjects).map((p) => p.city))].sort(),
+    counties: [...new Set(projects.concat(collectedProjects).map((p) => p.county))].sort(),
+    projectTypes: [...new Set(projects.concat(collectedProjects).map((p) => p.project_type))].sort() as ProjectType[],
+    statuses: [...new Set(projects.concat(collectedProjects).map((p) => p.status))].sort() as ProjectStatus[],
+    permitTypes: [...new Set([...permits, ...collectedPermits].map((p) => p.permit_type))].sort(),
+    permitStatuses: [...new Set([...permits, ...collectedPermits].map((p) => p.permit_status))].sort(),
   };
 }

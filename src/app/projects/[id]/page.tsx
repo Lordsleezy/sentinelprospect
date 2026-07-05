@@ -10,6 +10,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Table, Td, Th } from "@/components/ui/table";
 import { getProject } from "@/lib/data";
 import { contactRoleLabels, getPrimaryContact, getProjectSize, scoreOpportunity, statusStages } from "@/lib/intelligence";
+import { generateOpportunities } from "@/lib/opportunities";
 import { cn, money, shortDate } from "@/lib/utils";
 
 export default async function ProjectDetailPage({ params }: { params: Promise<{ id: string }> }) {
@@ -22,6 +23,8 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
   const developer = project.companies.find((company) => company.role === "developer");
   const builder = project.companies.find((company) => company.role === "builder");
   const opportunity = scoreOpportunity(project);
+  const generatedOpportunities = generateOpportunities(project);
+  const primaryGeneratedOpportunity = generatedOpportunities[0];
   const currentStageIndex = statusStages.indexOf(project.status);
 
   return (
@@ -92,6 +95,117 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
               </div>
             </CardContent>
           </Card>
+
+          {primaryGeneratedOpportunity ? (
+            <Card>
+              <CardHeader>
+                <h2 className="text-base font-semibold">Generated Opportunity</h2>
+                <p className="mt-1 text-sm text-zinc-500">Generated from collected signals and supporting evidence.</p>
+              </CardHeader>
+              <CardContent className="space-y-5">
+                <div className="grid gap-3 md:grid-cols-5">
+                  <HeaderFact label="Trade" value={primaryGeneratedOpportunity.trade} />
+                  <HeaderFact label="Horizon" value={primaryGeneratedOpportunity.horizon} />
+                  <HeaderFact label="Score" value={String(primaryGeneratedOpportunity.score)} strong />
+                  <HeaderFact label="Estimated Opportunity Value" value={primaryGeneratedOpportunity.estimated_value_label ?? formatRevenueWindow(primaryGeneratedOpportunity.estimated_revenue_low, primaryGeneratedOpportunity.estimated_revenue_high)} />
+                  <HeaderFact label="Start Window" value={formatMonthWindow(primaryGeneratedOpportunity.estimated_start_months, primaryGeneratedOpportunity.estimated_completion_months)} />
+                </div>
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div className="rounded-md border border-zinc-100 bg-zinc-50 p-3">
+                    <div className="flex items-center justify-between gap-3">
+                      <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Revenue Reasoning</p>
+                      <span className="text-xs font-medium text-zinc-500">Confidence {Math.round((primaryGeneratedOpportunity.revenue_estimate?.confidence ?? 0) * 100)}%</span>
+                    </div>
+                    <p className="mt-2 text-sm font-semibold text-zinc-950">{formatRevenueWindow(primaryGeneratedOpportunity.revenue_estimate?.low, primaryGeneratedOpportunity.revenue_estimate?.high)}</p>
+                    <ul className="mt-2 space-y-1 text-sm text-zinc-600">
+                      {primaryGeneratedOpportunity.revenue_estimate?.reasoning.map((reason) => <li key={reason}>+ {reason}</li>)}
+                    </ul>
+                  </div>
+                  <div className="rounded-md border border-zinc-100 bg-zinc-50 p-3">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Why This Trade</p>
+                    {primaryGeneratedOpportunity.trade_evidence?.length ? (
+                      <ul className="mt-2 space-y-1 text-sm text-zinc-600">
+                        {primaryGeneratedOpportunity.trade_evidence.map((item) => (
+                          <li key={`${item.evidence_id}-${item.reason}`}>+ {item.reason} <span className="text-xs text-zinc-500">({Math.round(item.confidence * 100)}%)</span></li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p className="mt-2 text-sm text-zinc-500">No strong source-supported trade evidence was found.</p>
+                    )}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Transparent Score Explanation</p>
+                  <div className="mt-2 space-y-2">
+                    {primaryGeneratedOpportunity.score_explanations.map((item) => (
+                      <div key={`${item.factor}-${item.points}`} className="rounded-md border border-zinc-100 bg-zinc-50 p-3">
+                        <div className="flex items-center justify-between gap-3">
+                          <p className="font-semibold text-zinc-950">{item.factor}</p>
+                          <Badge className={item.points >= 0 ? "border-emerald-200 bg-emerald-50 text-emerald-700" : "border-amber-200 bg-amber-50 text-amber-700"}>{item.points > 0 ? "+" : ""}{item.points}</Badge>
+                        </div>
+                        <p className="mt-1 text-sm text-zinc-600">{item.reason}</p>
+                        <p className="mt-1 text-xs text-zinc-500">Evidence: {item.evidence_ids.join(", ") || "No evidence id attached"}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div className="grid gap-4 md:grid-cols-2">
+                  <div className="md:col-span-2">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Who To Contact</p>
+                    {primaryGeneratedOpportunity.contacts?.length ? (
+                      <div className="mt-2 overflow-x-auto rounded-md border border-zinc-100">
+                        <table className="w-full text-left text-sm">
+                          <thead className="bg-zinc-50 text-xs uppercase tracking-wide text-zinc-500">
+                            <tr><th className="p-2">Company</th><th className="p-2">Contact</th><th className="p-2">Phone</th><th className="p-2">Email</th><th className="p-2">Website</th><th className="p-2">Role</th><th className="p-2">Confidence</th><th className="p-2">Source</th></tr>
+                          </thead>
+                          <tbody>
+                            {primaryGeneratedOpportunity.contacts.map((contact) => (
+                              <tr key={`${contact.company}-${contact.role}-${contact.source}`} className="border-t border-zinc-100">
+                                <td className="p-2 font-medium text-zinc-950">{contact.company}</td>
+                                <td className="p-2">{contact.name ?? "Not listed"}</td>
+                                <td className="p-2">{contact.phone ?? "Not listed"}</td>
+                                <td className="p-2">{contact.email ?? "Not listed"}</td>
+                                <td className="p-2">{contact.website ? <a href={contact.website} className="underline" target="_blank" rel="noreferrer">Open</a> : "Not listed"}</td>
+                                <td className="p-2">{contact.role}</td>
+                                <td className="p-2">{Math.round(contact.confidence * 100)}%</td>
+                                <td className="p-2">{contact.source}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    ) : (
+                      <p className="mt-2 text-sm text-zinc-500">No source-supported contact information was found.</p>
+                    )}
+                  </div>
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Next Action</p>
+                    <p className="mt-2 text-sm text-zinc-700">{primaryGeneratedOpportunity.nextAction ?? primaryGeneratedOpportunity.recommended_action}</p>
+                    <ul className="mt-2 space-y-1 text-sm text-zinc-600">
+                      {primaryGeneratedOpportunity.recommendation_explanations?.map((line) => <li key={line}>+ {line}</li>)}
+                    </ul>
+                  </div>
+                </div>
+                <div>
+                  <div className="flex items-center justify-between gap-3">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Confidence Breakdown</p>
+                    <span className="text-xs font-medium text-zinc-500">Resolution confidence {Math.round((primaryGeneratedOpportunity.resolutionConfidence ?? 0) * 100)}%</span>
+                  </div>
+                  <div className="mt-2 grid gap-2 md:grid-cols-2">
+                    {primaryGeneratedOpportunity.confidenceBreakdown?.map((item) => (
+                      <div key={item.factor} className="rounded-md border border-zinc-100 bg-zinc-50 p-3">
+                        <div className="flex items-center justify-between gap-3">
+                          <p className="text-sm font-semibold text-zinc-950">{item.factor}</p>
+                          <span className="text-sm font-semibold text-zinc-700">{Math.round(item.confidence * 100)}%</span>
+                        </div>
+                        <p className="mt-1 text-sm text-zinc-600">{item.explanation}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          ) : null}
 
           <Card className="border-zinc-950">
             <CardHeader>
@@ -211,15 +325,26 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
 
       <Card className="mt-6">
         <CardHeader>
-          <h2 className="text-base font-semibold">Source Records</h2>
+          <h2 className="text-base font-semibold">Evidence Panel</h2>
         </CardHeader>
-        <CardContent className="space-y-3 text-sm text-zinc-600">
-          <p>{project.address}</p>
-          <p>{project.source_name}</p>
-          <a href={project.source_url} className="inline-flex items-center gap-2 font-medium text-zinc-950 underline" target="_blank" rel="noreferrer">
-            Open source record
-            <ExternalLink className="size-4" />
-          </a>
+        <CardContent className="space-y-3">
+          {(primaryGeneratedOpportunity?.evidence ?? []).map((evidence) => (
+            <div key={evidence.id} className="rounded-md border border-zinc-100 p-3 text-sm">
+              <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                <div>
+                  <p className="font-semibold text-zinc-950">{evidence.title}</p>
+                  <p className="mt-1 text-zinc-600">{evidence.summary}</p>
+                  <p className="mt-2 text-xs text-zinc-500">{evidence.record_type} - {evidence.source_name} - confidence {Math.round(evidence.confidence * 100)}%</p>
+                </div>
+                {evidence.source_url ? (
+                  <a href={evidence.source_url} className="inline-flex shrink-0 items-center gap-2 font-medium text-zinc-950 underline" target="_blank" rel="noreferrer">
+                    Open source
+                    <ExternalLink className="size-4" />
+                  </a>
+                ) : null}
+              </div>
+            </div>
+          ))}
         </CardContent>
       </Card>
 
@@ -243,4 +368,15 @@ function HeaderFact({ label, value, strong }: { label: string; value: string; st
 function ContactLine({ icon, value }: { icon: React.ReactNode; value: string | null }) {
   if (!value) return <p className="flex items-center gap-2 text-zinc-500">{icon}No contact information available</p>;
   return <p className="flex items-center gap-2 text-zinc-700">{icon}{value}</p>;
+}
+
+function formatRevenueWindow(low?: number | null, high?: number | null) {
+  if (!low && !high) return "Not estimated";
+  return `${money(low ?? 0)} - ${money(high ?? low ?? 0)}`;
+}
+
+function formatMonthWindow(start?: number | null, completion?: number | null) {
+  if (start === null || start === undefined) return "Unknown";
+  if (completion === null || completion === undefined) return `${start}+ months`;
+  return `${start}-${completion} months`;
 }

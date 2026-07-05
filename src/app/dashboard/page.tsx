@@ -1,4 +1,4 @@
-import { Activity, Bookmark, Clock, SearchCheck } from "lucide-react";
+import { Activity, Bookmark, Clock, Radar } from "lucide-react";
 import Link from "next/link";
 import { AppShell } from "@/components/layout/app-shell";
 import { PageTitle } from "@/components/layout/page-title";
@@ -17,15 +17,15 @@ export default async function Dashboard() {
   ]);
   const savedSearches = ["Roseville subdivisions", "Fence opportunities", "Warehouse developments"];
   const metrics = [
-    { label: "Saved Searches", value: savedSearches.length, icon: SearchCheck },
-    { label: "Tracked Projects", value: recentProjects.slice(0, 24).length, icon: Bookmark },
-    { label: "Recent Activity", value: 18, icon: Clock },
-    { label: "Active Sources", value: stats.activeSources, icon: Activity },
+    { label: "Saved Opportunity Searches", value: savedSearches.length, icon: Radar },
+    { label: "Tracked Opportunities", value: recentProjects.slice(0, 24).length, icon: Bookmark },
+    { label: "New Source Activity", value: 18, icon: Clock },
+    { label: "Active Intelligence Sources", value: stats.activeSources, icon: Activity },
   ];
 
   return (
     <AppShell>
-      <PageTitle title="Dashboard" eyebrow="Supporting workspace" />
+      <PageTitle title="Opportunity Workspace" eyebrow="Saved leads, watches, and source health" />
       <div className="grid gap-4 md:grid-cols-4">
         {metrics.map((metric) => (
           <Card key={metric.label}>
@@ -41,7 +41,7 @@ export default async function Dashboard() {
       </div>
       <div className="mt-6 grid gap-6 xl:grid-cols-[.75fr_1.25fr]">
         <Card>
-          <CardHeader><h2 className="font-semibold">Saved Searches</h2></CardHeader>
+          <CardHeader><h2 className="font-semibold">Saved Opportunity Searches</h2></CardHeader>
           <CardContent className="space-y-3">
             {savedSearches.map((search) => (
               <Link key={search} href={`/search?q=${encodeURIComponent(search)}`} className="block rounded-md border border-zinc-100 p-3 text-sm font-medium hover:bg-zinc-50">
@@ -51,12 +51,12 @@ export default async function Dashboard() {
           </CardContent>
         </Card>
         <Card>
-          <CardHeader><h2 className="font-semibold">Tracked Projects</h2></CardHeader>
+          <CardHeader><h2 className="font-semibold">Tracked Opportunity Records</h2></CardHeader>
           <ProjectTable rows={recentProjects.slice(0, 6)} />
         </Card>
       </div>
       <Card className="mt-6">
-        <CardHeader><h2 className="font-semibold">Source Health</h2></CardHeader>
+        <CardHeader><h2 className="font-semibold">Source Coverage Health</h2></CardHeader>
         <Table>
           <thead><tr><Th>Source</Th><Th>Type</Th><Th>Status</Th><Th>Last Sync</Th><Th>Records</Th></tr></thead>
           <tbody>
@@ -75,4 +75,3 @@ export default async function Dashboard() {
     </AppShell>
   );
 }
-

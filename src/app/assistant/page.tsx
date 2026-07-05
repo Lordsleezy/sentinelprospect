@@ -9,10 +9,10 @@ import { scoreOpportunity } from "@/lib/intelligence";
 import { globalSearch } from "@/lib/search";
 
 const prompts = [
-  "Are there fencing opportunities in Sacramento that could be completed within 6 months?",
+  "Fencing opportunities in Sacramento that could be completed within 6 months",
   "Show me projects where contractors may not be selected yet.",
-  "What should a fencing contractor call on this week?",
-  "What are the best opportunities in Placer County?",
+  "Fencing contractor call list for this week",
+  "Best opportunities in Placer County",
 ];
 
 export default async function AssistantPage({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {
@@ -26,17 +26,17 @@ export default async function AssistantPage({ searchParams }: { searchParams: Pr
 
   return (
     <AppShell>
-      <PageTitle title="AI Assistant" eyebrow="Transparent construction analysis" />
+      <PageTitle title="Sentinel Analysis" eyebrow="Supporting analysis for opportunity searches" />
       <Card className="mb-5 p-4">
         <form className="flex flex-col gap-3 sm:flex-row">
-          <Input name="q" placeholder="Ask about opportunities, timing, contractors, counties, trades..." defaultValue={q} className="h-12 text-base" />
-          <Button className="h-12 px-6">Ask</Button>
+          <Input name="q" placeholder="Analyze opportunities by trade, timing, contractor, county, or source..." defaultValue={q} className="h-12 text-base" />
+          <Button className="h-12 px-6">Analyze</Button>
         </form>
       </Card>
 
       {!q ? (
         <Card>
-          <CardHeader><h2 className="font-semibold">Try asking</h2></CardHeader>
+          <CardHeader><h2 className="font-semibold">Popular Analysis Searches</h2></CardHeader>
           <CardContent className="grid gap-2">
             {prompts.map((prompt) => (
               <Link key={prompt} href={`/assistant?q=${encodeURIComponent(prompt)}`} className="rounded-md border border-zinc-100 p-3 text-sm font-medium hover:bg-zinc-50">
@@ -50,7 +50,7 @@ export default async function AssistantPage({ searchParams }: { searchParams: Pr
           <section className="space-y-4">
             <Card>
               <CardHeader>
-                <h2 className="font-semibold">Sentinel Answer</h2>
+                <h2 className="font-semibold">Sentinel Analysis</h2>
               </CardHeader>
               <CardContent className="space-y-3 text-sm text-zinc-700">
                 <p>
@@ -108,4 +108,3 @@ export default async function AssistantPage({ searchParams }: { searchParams: Pr
     </AppShell>
   );
 }
-

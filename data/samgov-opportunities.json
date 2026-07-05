@@ -1,0 +1,21 @@
+{
+  "sourceName": "SAM.gov Contract Opportunities",
+  "sourceType": "SAM.gov Opportunities API",
+  "sourceUrl": "https://api.sam.gov/opportunities/v2/search",
+  "capturedAt": "2026-07-05T07:22:57.112Z",
+  "query": {
+    "keywords": [
+      "fencing",
+      "site work",
+      "concrete",
+      "roofing",
+      "HVAC",
+      "electrical",
+      "utility"
+    ]
+  },
+  "sourceNotes": [
+    "SAM.gov Opportunities API requires SAM_GOV_API_KEY. No federal opportunities were collected in this run."
+  ],
+  "records": []
+}

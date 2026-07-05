@@ -19,10 +19,40 @@ export const STATUS_TYPES = [
 export type ProjectType = (typeof PROJECT_TYPES)[number];
 export type ProjectStatus = (typeof STATUS_TYPES)[number];
 export type CompanyRole = "developer" | "builder" | "contractor" | "architect" | "engineer";
+export const OPPORTUNITY_HORIZONS = ["Fast Money", "Pipeline", "Early Signals"] as const;
+export type OpportunityHorizon = (typeof OPPORTUNITY_HORIZONS)[number];
+export type EvidenceRecordType = "project" | "permit" | "signal" | "document" | "company" | "source_record";
+export type OpportunityTrade = "Fencing" | "Concrete" | "HVAC" | "Roofing" | "Electrical" | "Landscaping" | "Site work" | "Security fencing" | "General";
+export type ContactIntelligenceRole = "Developer" | "General Contractor" | "Applicant" | "Builder" | "Property Owner" | "Engineer" | "Architect" | "Government Contact";
+export type ContactIntelligence = {
+  name: string | null;
+  company: string;
+  phone: string | null;
+  email: string | null;
+  website: string | null;
+  role: ContactIntelligenceRole;
+  confidence: number;
+  source: string;
+};
+export type TradeEvidence = {
+  trade: OpportunityTrade;
+  reason: string;
+  evidence_id: string;
+  confidence: number;
+};
+export type RevenueEstimate = {
+  label: "$25k-$75k" | "$75k-$250k" | "$250k-$1M" | "$1M+" | "Under $25k" | "Not estimated";
+  low: number | null;
+  high: number | null;
+  confidence: number;
+  reasoning: string[];
+};
 export type SignalType =
   | "Land Purchase"
+  | "Parcel Split"
   | "Rezoning"
   | "Planning Application"
+  | "CEQA"
   | "Subdivision Filing"
   | "Environmental Review"
   | "Permit"
@@ -103,12 +133,67 @@ export type Source = {
 
 export type Signal = {
   id: string;
-  project_id: string;
+  project_id: string | null;
   signal_type: SignalType;
   signal_date: string;
   description: string;
   source: string;
+  source_url?: string | null;
+  external_id?: string | null;
+  parcel_number?: string | null;
+  jurisdiction?: string | null;
   importance_score: number;
+};
+
+export type EvidenceRecord = {
+  id: string;
+  record_type: EvidenceRecordType;
+  record_id: string;
+  source_name: string;
+  source_url: string | null;
+  title: string;
+  summary: string;
+  captured_at: string;
+  confidence: number;
+  metadata?: Record<string, unknown>;
+};
+
+export type OpportunityScoreExplanation = {
+  factor: string;
+  points: number;
+  reason: string;
+  evidence_ids: string[];
+};
+
+export type Opportunity = {
+  id: string;
+  title: string;
+  trade: OpportunityTrade;
+  horizon: OpportunityHorizon;
+  project_id: string | null;
+  city: string;
+  county: string;
+  state: string;
+  score: number;
+  score_explanations: OpportunityScoreExplanation[];
+  evidence: EvidenceRecord[];
+  recommended_action: string;
+  nextAction?: string;
+  recommendation_explanations?: string[];
+  confidenceBreakdown?: Array<{ factor: string; confidence: number; explanation: string }>;
+  resolutionConfidence?: number;
+  estimated_start_months: number | null;
+  estimated_completion_months: number | null;
+  estimated_value: number | null;
+  estimated_revenue_low?: number | null;
+  estimated_revenue_high?: number | null;
+  estimated_value_label?: string;
+  revenue_estimate?: RevenueEstimate;
+  contact_intelligence?: string[];
+  contacts?: ContactIntelligence[];
+  trade_evidence?: TradeEvidence[];
+  created_at: string;
+  updated_at: string;
 };
 
 export type ProjectDetail = Project & {
@@ -116,4 +201,5 @@ export type ProjectDetail = Project & {
   documents: Document[];
   companies: Array<Company & { role: CompanyRole }>;
   signals: Signal[];
+  evidence_records?: EvidenceRecord[];
 };

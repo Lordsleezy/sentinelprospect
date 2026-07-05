@@ -6,7 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "collect:sacramento": "node scripts/run-sacramento-county-collector.mjs",
+    "collect:placer": "node scripts/run-placer-county-collector.mjs",
+    "collect:samgov": "node scripts/run-samgov-collector.mjs",
+    "collect:all": "npm run collect:sacramento -- --limit=75 --min-valuation=50000 && npm run collect:placer -- --limit=75 && npm run collect:samgov",
+    "report:intelligence": "node scripts/generate-intelligence-report.mjs",
+    "report:contractor": "node scripts/generate-contractor-reports.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.110.0",

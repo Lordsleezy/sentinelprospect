@@ -29,6 +29,14 @@ export function getEstimatedTimeline(project: ProjectDetail) {
   return "Completed";
 }
 
+export function getTimingFit(project: ProjectDetail) {
+  if (project.status === "Permitted") return "Likely 0-6 months";
+  if (project.status === "Approved") return "Likely 3-9 months";
+  if (project.status === "Under Construction") return "Active, verify open scopes";
+  if (project.status === "Planning" || project.status === "Proposed") return "Early, monitor approvals";
+  return "Low timing fit";
+}
+
 export function getContractorCategories(project: ProjectDetail) {
   const categories = new Set<string>();
   if (project.project_type === "Residential" || project.name.toLowerCase().includes("subdivision")) {
@@ -124,8 +132,38 @@ export function scoreOpportunity(project: ProjectDetail) {
     risks: risks.slice(0, 3),
     evidence,
     timeline: getEstimatedTimeline(project),
+    timingFit: getTimingFit(project),
     contractorCategories: getContractorCategories(project),
   };
+}
+
+export function getOpportunityFitLabel(score: number) {
+  if (score >= 82) return "Strong match";
+  if (score >= 68) return "Worth pursuing";
+  if (score >= 52) return "Monitor";
+  return "Weak fit";
+}
+
+export function getNextAction(project: ProjectDetail) {
+  const primary = getPrimaryContact(project);
+  if (project.status === "Permitted") {
+    return primary ? `Call ${primary.name} and ask who is bidding trade packages.` : "Pull the permit packet and identify the owner or applicant.";
+  }
+  if (project.status === "Approved") return "Check conditions of approval, improvement plans, and bid timing.";
+  if (project.status === "Under Construction") return "Verify whether specialty scopes are still open before spending sales time.";
+  if (project.status === "Planning" || project.status === "Proposed") return "Save this opportunity and watch for hearings, approvals, and permit filings.";
+  return "Archive unless new source activity appears.";
+}
+
+export function getSourceCoverage(project: ProjectDetail) {
+  const coverage = new Set<string>();
+  if (project.permits.length) coverage.add("Permits");
+  if (project.signals.some((signal) => ["Planning Application", "Subdivision Filing", "Rezoning"].includes(signal.signal_type))) coverage.add("Planning records");
+  if (project.signals.some((signal) => ["Infrastructure Project", "Utility Expansion"].includes(signal.signal_type))) coverage.add("Public works");
+  if (project.documents.length) coverage.add("Documents");
+  if (project.companies.length) coverage.add("Companies");
+  coverage.add(project.source_name);
+  return [...coverage].slice(0, 5);
 }
 
 export const contactRoleLabels: Array<{ role: CompanyRole; label: string }> = [

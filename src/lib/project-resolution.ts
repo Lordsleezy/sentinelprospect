@@ -1,4 +1,5 @@
 import { generateOpportunities } from "./opportunities";
+import { isPlaceholderContact } from "./contact-quality";
 import type { CanonicalProjectOpportunity, ContactIntelligence, EvidenceRecord, Opportunity, ProjectDetail } from "./types";
 
 export const CONTACT_CONFIDENCE_THRESHOLD = 0.65;
@@ -58,11 +59,6 @@ export function isActionableContact(contact: ContactIntelligence) {
   if (!contact.company || contact.confidence < CONTACT_CONFIDENCE_THRESHOLD) return false;
   if (isPlaceholderContact(contact)) return false;
   return Boolean(contact.phone || contact.email || contact.website);
-}
-
-export function isPlaceholderContact(contact: ContactIntelligence) {
-  const blob = [contact.company, contact.phone, contact.email, contact.website, contact.source].join(" ").toLowerCase();
-  return blob.includes("example.com") || blob.includes("example.gov") || /\b555[-\s]?\d{4}\b/.test(blob);
 }
 
 function getEligibility(project: ProjectDetail, evidence: EvidenceRecord[], contacts: ContactIntelligence[], contactConfidence: number) {
@@ -152,4 +148,3 @@ function normalizeKey(value: string) {
     .trim()
     .replace(/\s+/g, " ");
 }
-

@@ -214,16 +214,28 @@ function isActionableContact(contact) {
 
 function isPlaceholderContact(contact) {
   const blob = [contact?.name, contact?.phone, contact?.email, contact?.website, contact?.notes].join(" ").toLowerCase();
-  return blob.includes("example.com") || blob.includes("example.gov") || /\b555[-\s]?\d{4}\b/.test(blob);
+  return isPlaceholderText(blob);
 }
 
 function isPlaceholderRecord(record) {
   const blob = JSON.stringify(record).toLowerCase();
-  return blob.includes("example.com") || blob.includes("example.gov") || /\b555[-\s]?\d{4}\b/.test(blob);
+  return isPlaceholderText(blob);
+}
+
+function isPlaceholderText(blob) {
+  return [
+    /example\.(com|gov|org)/i,
+    /\b555[-\s]?\d{4}\b/i,
+    /\b(to be determined|tbd|unknown|n\/a|none)\b/i,
+    /select edit below/i,
+    /enter name/i,
+    /\b(owner builder|owner-builder)\b/i,
+    /\b(contact|developer|project manager)\s+\d+\b/i,
+    /\b\w+\s+(construction|development|builders|contractor|developer)\s+\d+\b/i,
+  ].some((pattern) => pattern.test(blob));
 }
 
 function percent(value, total) {
   if (!total) return "0%";
   return `${Math.round((value / total) * 100)}%`;
 }
-

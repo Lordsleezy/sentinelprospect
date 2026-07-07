@@ -206,12 +206,27 @@ function valueLabel(value) {
 
 function contactFor(record) {
   const company = record.normalized.contactCompany;
-  if (company) return { company: company.name, phone: company.phone, email: company.email };
+  if (company && isSourceBackedCompanyName(company.name)) return { company: company.name, phone: company.phone, email: company.email };
   const contractor = record.normalized.evidence?.metadata?.contractor;
-  if (typeof contractor === "string" && contractor.trim()) return { company: contractor.trim(), phone: null, email: null };
+  if (typeof contractor === "string" && isSourceBackedCompanyName(contractor)) return { company: contractor.trim(), phone: null, email: null };
   const agency = record.normalized.evidence?.metadata?.agency;
-  if (typeof agency === "string" && agency.trim()) return { company: agency.trim(), phone: null, email: null };
+  if (typeof agency === "string" && isSourceBackedCompanyName(agency)) return { company: agency.trim(), phone: null, email: null };
   return { company: null, phone: null, email: null };
+}
+
+function isSourceBackedCompanyName(name) {
+  if (!name) return false;
+  const blob = String(name).toLowerCase();
+  return ![
+    /example\.(com|gov|org)/i,
+    /\b555[-\s]?\d{4}\b/i,
+    /\b(to be determined|tbd|unknown|n\/a|none)\b/i,
+    /select edit below/i,
+    /enter name/i,
+    /\b(owner builder|owner-builder)\b/i,
+    /\b(contact|developer|project manager)\s+\d+\b/i,
+    /\b\w+\s+(construction|development|builders|contractor|developer)\s+\d+\b/i,
+  ].some((pattern) => pattern.test(blob));
 }
 
 function nextAction(record, horizon) {

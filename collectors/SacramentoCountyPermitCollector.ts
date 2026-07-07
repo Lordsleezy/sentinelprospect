@@ -1,4 +1,5 @@
 import { BaseCollector } from "./BaseCollector";
+import { isSourceBackedCompanyName } from "../src/lib/contact-quality";
 import type { NormalizedProjectRecord, RawSourceRecord } from "./types";
 import type { EvidenceRecord, OpportunityTrade, ProjectStatus, ProjectType, SignalType } from "../src/lib/types";
 
@@ -233,7 +234,7 @@ function inferUnits(payload: Record<string, unknown>) {
 
 function extractContactCompany(payload: Record<string, unknown>) {
   const contractor = text(payload.Contractor);
-  if (!contractor || contractor.toLowerCase() === "owner builder") return null;
+  if (!isSourceBackedCompanyName(contractor)) return null;
   return {
     name: contractor,
     company_type: "Contractor",

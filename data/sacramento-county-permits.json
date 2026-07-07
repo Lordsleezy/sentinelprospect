@@ -1988,7 +1988,7 @@
             "application": "CBAC2026-00331",
             "application_status": "Accepted-Pay Plan Review",
             "parcel_number": "21402900370000",
-            "contractor": "TO BE DETERMINED",
+            "contractor": null,
             "inferred_trades": [
               "Roofing",
               "HVAC",
@@ -2036,18 +2036,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company-to-be-determined",
-          "name": "TO BE DETERMINED",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "RIO LINDA",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit CBAC2026-00331.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "Roofing",
           "HVAC",
@@ -4145,7 +4134,7 @@
             "application": "CBRC2026-00465",
             "application_status": "Pending Violation Review",
             "parcel_number": "29201800480000",
-            "contractor": "****SELECT EDIT BELOW AND ENTER NAME, ADDRESS AND  PHONE NUMBER**",
+            "contractor": null,
             "inferred_trades": [
               "General"
             ],
@@ -4183,18 +4172,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company--select-edit-below-and-enter-name-address-and-phone-number-",
-          "name": "****SELECT EDIT BELOW AND ENTER NAME, ADDRESS AND  PHONE NUMBER**",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "SACRAMENTO",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit CBRC2026-00465.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "General"
         ],
@@ -4297,7 +4275,7 @@
             "application": "CBNR2026-00573",
             "application_status": "Submittal Incomplete",
             "parcel_number": "20600610010000",
-            "contractor": "****SELECT EDIT BELOW AND ENTER NAME, ADDRESS AND  PHONE NUMBER**",
+            "contractor": null,
             "inferred_trades": [
               "Fencing",
               "Roofing",
@@ -4350,18 +4328,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company--select-edit-below-and-enter-name-address-and-phone-number-",
-          "name": "****SELECT EDIT BELOW AND ENTER NAME, ADDRESS AND  PHONE NUMBER**",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "RIO LINDA",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit CBNR2026-00573.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "Fencing",
           "Roofing",
@@ -4974,7 +4941,7 @@
             "application": "CBNC2026-00206",
             "application_status": "In Plan Review",
             "parcel_number": "21503500270002",
-            "contractor": "TO BE DETERMINED",
+            "contractor": null,
             "inferred_trades": [
               "Electrical"
             ],
@@ -5012,18 +4979,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company-to-be-determined",
-          "name": "TO BE DETERMINED",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "MCCLELLAN",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit CBNC2026-00206.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "Electrical"
         ],
@@ -5278,7 +5234,7 @@
             "application": "CBNR2026-00570",
             "application_status": "Submittal Incomplete",
             "parcel_number": "23505000480000",
-            "contractor": "****SELECT EDIT BELOW AND ENTER NAME, ADDRESS AND  PHONE NUMBER**",
+            "contractor": null,
             "inferred_trades": [
               "Fencing",
               "Electrical"
@@ -5321,18 +5277,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company--select-edit-below-and-enter-name-address-and-phone-number-",
-          "name": "****SELECT EDIT BELOW AND ENTER NAME, ADDRESS AND  PHONE NUMBER**",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "FAIR OAKS",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit CBNR2026-00570.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "Fencing",
           "Electrical"
@@ -5592,7 +5537,7 @@
             "application": "CBRR2026-00719",
             "application_status": "Application Received",
             "parcel_number": "27202420190000",
-            "contractor": "TO BE DETERMINED",
+            "contractor": null,
             "inferred_trades": [
               "Roofing"
             ],
@@ -5630,18 +5575,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company-to-be-determined",
-          "name": "TO BE DETERMINED",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "CARMICHAEL",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit CBRR2026-00719.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "Roofing"
         ],
@@ -5896,7 +5830,7 @@
             "application": "CBAC2026-00329",
             "application_status": "Submittal Incomplete",
             "parcel_number": "21503100570000",
-            "contractor": "TO BE DETERMINED",
+            "contractor": null,
             "inferred_trades": [
               "Fencing"
             ],
@@ -5934,18 +5868,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company-to-be-determined",
-          "name": "TO BE DETERMINED",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "MCCLELLAN",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit CBAC2026-00329.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "Fencing"
         ],
@@ -7152,7 +7075,7 @@
             "application": "CBNR2026-00563",
             "application_status": "Accepted-Pay Plan Review",
             "parcel_number": "20800840050000",
-            "contractor": "****SELECT EDIT BELOW AND ENTER NAME, ADDRESS AND  PHONE NUMBER**",
+            "contractor": null,
             "inferred_trades": [
               "Fencing",
               "Electrical"
@@ -7195,18 +7118,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company--select-edit-below-and-enter-name-address-and-phone-number-",
-          "name": "****SELECT EDIT BELOW AND ENTER NAME, ADDRESS AND  PHONE NUMBER**",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "NORTH HIGHLANDS",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit CBNR2026-00563.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "Fencing",
           "Electrical"
@@ -10045,7 +9957,7 @@
             "application": "MHCR2026-00017",
             "application_status": "Submittal Incomplete",
             "parcel_number": "13600100330000",
-            "contractor": "****SELECT EDIT BELOW AND ENTER NAME, ADDRESS AND  PHONE NUMBER**",
+            "contractor": null,
             "inferred_trades": [
               "Concrete"
             ],
@@ -10083,18 +9995,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company--select-edit-below-and-enter-name-address-and-phone-number-",
-          "name": "****SELECT EDIT BELOW AND ENTER NAME, ADDRESS AND  PHONE NUMBER**",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "WILTON",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit MHCR2026-00017.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "Concrete"
         ],
@@ -10349,7 +10250,7 @@
             "application": "CBNR2026-00559",
             "application_status": "Pending Application Review",
             "parcel_number": "05003220460000",
-            "contractor": "****SELECT EDIT BELOW AND ENTER NAME, ADDRESS AND  PHONE NUMBER**",
+            "contractor": null,
             "inferred_trades": [
               "Fencing",
               "Electrical"
@@ -10392,18 +10293,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company--select-edit-below-and-enter-name-address-and-phone-number-",
-          "name": "****SELECT EDIT BELOW AND ENTER NAME, ADDRESS AND  PHONE NUMBER**",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "SACRAMENTO",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit CBNR2026-00559.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "Fencing",
           "Electrical"
@@ -10663,7 +10553,7 @@
             "application": "CBAC2026-00323",
             "application_status": "In Plan Review",
             "parcel_number": "29401100150000",
-            "contractor": "TO BE DETERMINED",
+            "contractor": null,
             "inferred_trades": [
               "Fencing",
               "Roofing",
@@ -10726,18 +10616,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company-to-be-determined",
-          "name": "TO BE DETERMINED",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "SACRAMENTO",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit CBAC2026-00323.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "Fencing",
           "Roofing",
@@ -11178,7 +11057,7 @@
             "application": "CBNC2026-00189",
             "application_status": "Submittal Incomplete",
             "parcel_number": "27202800230000",
-            "contractor": "TO BE DETERMINED",
+            "contractor": null,
             "inferred_trades": [
               "Electrical"
             ],
@@ -11216,18 +11095,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company-to-be-determined",
-          "name": "TO BE DETERMINED",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "CARMICHAEL",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit CBNC2026-00189.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "Electrical"
         ],
@@ -11653,7 +11521,7 @@
             "application": "CBNR2026-00557",
             "application_status": "In Plan Review",
             "parcel_number": "13403330230000",
-            "contractor": "TO BE DETERMINED",
+            "contractor": null,
             "inferred_trades": [
               "Fencing",
               "Electrical"
@@ -11696,18 +11564,7 @@
             }
           }
         },
-        "contactCompany": {
-          "id": "sac-company-to-be-determined",
-          "name": "TO BE DETERMINED",
-          "company_type": "Contractor",
-          "website": null,
-          "phone": null,
-          "email": null,
-          "city": "Sacramento",
-          "state": "CA",
-          "notes": "Contractor listed on Sacramento County permit CBNR2026-00557.",
-          "role": "contractor"
-        },
+        "contactCompany": null,
         "inferredTrades": [
           "Fencing",
           "Electrical"

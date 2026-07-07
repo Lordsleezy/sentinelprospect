@@ -1,6 +1,7 @@
 import sacramentoCountyPermits from "../../data/sacramento-county-permits.json";
 import placerCountyRecords from "../../data/placer-county-records.json";
 import samGovOpportunities from "../../data/samgov-opportunities.json";
+import { isSourceBackedCompanyName } from "./contact-quality";
 import type { Company, EvidenceRecord, Permit, Project, ProjectDetail, Signal } from "./types";
 
 type CachedRecord = {
@@ -70,7 +71,7 @@ export function getCollectedProject(id: string): ProjectDetail | null {
   const record = records.find((item) => item.normalized.project.id === id);
   if (!record) return null;
   const project = stripExternalId(record.normalized.project);
-  const company = record.normalized.contactCompany;
+  const company = sourceBackedCompany(record.normalized.contactCompany);
   return {
     ...project,
     permits: [{ ...record.normalized.permit, project_id: project.id }],
@@ -91,6 +92,11 @@ export function getCollectedProject(id: string): ProjectDetail | null {
 
 export function getCollectedProjectDetails() {
   return records.map((record) => getCollectedProject(record.normalized.project.id)).filter(Boolean) as ProjectDetail[];
+}
+
+function sourceBackedCompany(company: (Company & { role: "contractor" }) | null) {
+  if (!company || !isSourceBackedCompanyName(company.name)) return null;
+  return company;
 }
 
 function stripExternalId(project: Project & { external_id?: string }): Project {

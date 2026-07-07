@@ -1,4 +1,5 @@
 import { getContractorCategories, getPrimaryContact, getProjectSize } from "./intelligence";
+import { isPlaceholderContact, isSourceBackedCompanyName } from "./contact-quality";
 import type {
   Document,
   ContactIntelligence,
@@ -424,7 +425,7 @@ function getContactIntelligence(project: ProjectDetail) {
   }
   for (const evidence of project.evidence_records ?? []) {
     const contractor = evidence.metadata?.contractor;
-    if (typeof contractor === "string" && contractor.trim()) {
+    if (typeof contractor === "string" && isSourceBackedCompanyName(contractor)) {
       lines.push(`Source record lists contractor: ${contractor.trim()}.`);
     }
   }
@@ -449,7 +450,7 @@ function getStructuredContacts(project: ProjectDetail): ContactIntelligence[] {
   for (const evidence of project.evidence_records ?? []) {
     const metadata = evidence.metadata ?? {};
     const contractor = textValue(metadata.contractor);
-    if (contractor) {
+    if (contractor && isSourceBackedCompanyName(contractor)) {
       contacts.push({
         name: null,
         company: contractor,
@@ -490,6 +491,7 @@ function companyRoleToContactRole(role: string): ContactIntelligence["role"] {
 function dedupeContacts(contacts: ContactIntelligence[]) {
   const seen = new Set<string>();
   return contacts.filter((contact) => {
+    if (isPlaceholderContact(contact)) return false;
     const key = `${contact.company}-${contact.role}-${contact.source}`.toLowerCase();
     if (seen.has(key)) return false;
     seen.add(key);

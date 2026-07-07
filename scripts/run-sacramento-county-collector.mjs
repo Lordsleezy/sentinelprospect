@@ -228,7 +228,7 @@ function inferUnits(attributes) {
 
 function extractContactCompany(attributes) {
   const contractor = text(attributes.Contractor);
-  if (!contractor || contractor.toLowerCase() === "owner builder") return null;
+  if (!isSourceBackedCompanyName(contractor)) return null;
   return {
     id: `sac-company-${contractor.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`,
     name: contractor,
@@ -241,6 +241,21 @@ function extractContactCompany(attributes) {
     notes: `Contractor listed on Sacramento County permit ${text(attributes.Application)}.`,
     role: "contractor",
   };
+}
+
+function isSourceBackedCompanyName(name) {
+  if (!name) return false;
+  const blob = String(name).toLowerCase();
+  return ![
+    /example\.(com|gov|org)/i,
+    /\b555[-\s]?\d{4}\b/i,
+    /\b(to be determined|tbd|unknown|n\/a|none)\b/i,
+    /select edit below/i,
+    /enter name/i,
+    /\b(owner builder|owner-builder)\b/i,
+    /\b(contact|developer|project manager)\s+\d+\b/i,
+    /\b\w+\s+(construction|development|builders|contractor|developer)\s+\d+\b/i,
+  ].some((pattern) => pattern.test(blob));
 }
 
 function inferCity(address) {

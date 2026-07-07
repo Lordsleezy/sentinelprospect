@@ -1,0 +1,2178 @@
+[
+  {
+    "id": "company-a-1-electrical-gc-profile",
+    "company_profile_id": "company-a-1-electrical",
+    "company_name": "A 1 ELECTRICAL",
+    "project_count": 11,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 11
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 11
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 11
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Concrete",
+        "count": 11
+      },
+      {
+        "name": "Electrical",
+        "count": 11
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.35,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Self Performs",
+        "evidence_count": 11,
+        "confidence": 0.85
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Self Performs",
+        "evidence_count": 11,
+        "confidence": 0.85
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-gc-profile",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "company_name": "ROBERT L SCHEID CONSTRUCTION",
+    "project_count": 11,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 11
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 11
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 11
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 11
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.35,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Self Performs",
+        "evidence_count": 11,
+        "confidence": 0.85
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-advanced-roof-design-gc-profile",
+    "company_profile_id": "company-advanced-roof-design",
+    "company_name": "ADVANCED ROOF DESIGN INC",
+    "project_count": 2,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 2
+      }
+    ],
+    "cities": [
+      {
+        "name": "FAIR OAKS",
+        "count": 1
+      },
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 2
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Roofing",
+        "count": 2
+      }
+    ],
+    "procurement_path_count": 1,
+    "opportunity_likelihood": 0.25,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 2,
+        "confidence": 0.61
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-duramax-roofing-gc-profile",
+    "company_profile_id": "company-duramax-roofing",
+    "company_name": "DURAMAX ROOFING INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "ELVERTA",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Roofing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 1,
+    "opportunity_likelihood": 0.22,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-waters-construction-gc-profile",
+    "company_profile_id": "company-waters-construction",
+    "company_name": "WATERS CONSTRUCTION COMPANY LLC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "CARMICHAEL",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 1,
+    "opportunity_likelihood": 0.22,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-alltech-gates-and-entry-controls-gc-profile",
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "company_name": "ALLTECH GATES AND ENTRY CONTROLS INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "APT# 1",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 1,
+    "opportunity_likelihood": 0.12,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-famand-gc-profile",
+    "company_profile_id": "company-famand",
+    "company_name": "FAMAND INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "HVAC",
+        "count": 1
+      },
+      {
+        "name": "Roofing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 1,
+    "opportunity_likelihood": 0.12,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-3-generations-improvements-gc-profile",
+    "company_profile_id": "company-3-generations-improvements",
+    "company_name": "3 GENERATIONS IMPROVEMENTS INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "CARMICHAEL",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-american-buildings-j-s-gc-profile",
+    "company_profile_id": "company-american-buildings-j-s",
+    "company_name": "AMERICAN BUILDINGS J&S",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "ANTELOPE",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Concrete",
+        "count": 1
+      },
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-american-carports-gc-profile",
+    "company_profile_id": "company-american-carports",
+    "company_name": "AMERICAN CARPORTS INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "GALT",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Concrete",
+        "count": 1
+      },
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-burns-construction-gc-profile",
+    "company_profile_id": "company-burns-construction",
+    "company_name": "BURNS CONSTRUCTION",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-california-renewable-energy-gc-profile",
+    "company_profile_id": "company-california-renewable-energy",
+    "company_name": "CALIFORNIA RENEWABLE ENERGY",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "ORANGEVALE",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "HVAC",
+        "count": 1
+      },
+      {
+        "name": "Roofing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-deome-2-builders-gc-profile",
+    "company_profile_id": "company-deome-2-builders",
+    "company_name": "DEOME 2 BUILDERS INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "FAIR OAKS",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-dyer-construction-gc-profile",
+    "company_profile_id": "company-dyer-construction",
+    "company_name": "DYER CONSTRUCTION INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Roofing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-fdc-nor-cal-gc-profile",
+    "company_profile_id": "company-fdc-nor-cal",
+    "company_name": "FDC NOR-CAL CORP",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "LOT# 11",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-gigawatt-california-gc-profile",
+    "company_profile_id": "company-gigawatt-california",
+    "company_name": "GIGAWATT CALIFORNIA LLC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "ANTELOPE",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-group-one-builders-gc-profile",
+    "company_profile_id": "company-group-one-builders",
+    "company_name": "GROUP ONE BUILDERS INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-kenneth-development-gc-profile",
+    "company_profile_id": "company-kenneth-development",
+    "company_name": "KENNETH DEVELOPMENT INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-kustom-us-gc-profile",
+    "company_profile_id": "company-kustom-us",
+    "company_name": "KUSTOM US INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "HERALD",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Concrete",
+        "count": 1
+      },
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      },
+      {
+        "name": "Roofing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-master-roofing-solutions-gc-profile",
+    "company_profile_id": "company-master-roofing-solutions",
+    "company_name": "MASTER ROOFING SOLUTIONS LLC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "WILTON",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Roofing",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-o-connor-pool-solutions-gc-profile",
+    "company_profile_id": "company-o-connor-pool-solutions",
+    "company_name": "O'CONNOR POOL SOLUTIONS INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "FAIR OAKS",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-phillip-isaacs-construction-gc-profile",
+    "company_profile_id": "company-phillip-isaacs-construction",
+    "company_name": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "FAIR OAKS",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-prime-home-solutions-gc-profile",
+    "company_profile_id": "company-prime-home-solutions",
+    "company_name": "PRIME HOME SOLUTIONS INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "CARMICHAEL",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-sunsource-gc-profile",
+    "company_profile_id": "company-sunsource",
+    "company_name": "SUNSOURCE INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "CARMICHAEL",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      },
+      {
+        "name": "HVAC",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-veerkamp-doug-general-engineering-gc-profile",
+    "company_profile_id": "company-veerkamp-doug-general-engineering",
+    "company_name": "VEERKAMP DOUG GENERAL ENGINEERING INC",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Concrete",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      },
+      {
+        "name": "Site work",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  },
+  {
+    "id": "company-west-coast-flooring-gc-profile",
+    "company_profile_id": "company-west-coast-flooring",
+    "company_name": "WEST COAST FLOORING",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "ORANGEVALE",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.04,
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      }
+    },
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  }
+]

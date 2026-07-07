@@ -1,0 +1,3050 @@
+[
+  {
+    "id": "company-lennar-homes-of-california-behavior",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "company_name": "LENNAR HOMES OF CALIFORNIA LLC",
+    "company_type": "Developer",
+    "project_count": 2,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 2
+      }
+    ],
+    "cities": [
+      {
+        "name": "LOT# 9",
+        "count": 1
+      },
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 2
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 2
+      },
+      {
+        "name": "Fencing",
+        "count": 2
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "trade_partner",
+        "path_url": "https://www.lennar.com/contact/business-inquiry",
+        "contractor_value": "High",
+        "confidence": 0.76
+      },
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.lennar.com/contact/business-inquiry",
+        "contractor_value": "Medium",
+        "confidence": 0.72
+      }
+    ],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Sometimes Outsources",
+        "evidence_count": 2,
+        "confidence": 0.61
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Sometimes Outsources",
+        "evidence_count": 2,
+        "confidence": 0.61
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.71,
+    "evidence_count": 4,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-phcr2026-00562",
+          "project_name": "SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation A- Lot 9",
+          "project_type": "Residential",
+          "city": "LOT# 9",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical",
+            "Fencing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00562"
+        },
+        {
+          "project_id": "sac-phcr2026-00561",
+          "project_name": "SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8",
+          "project_type": "Residential",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical",
+            "Fencing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00561"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-a-1-electrical-behavior",
+    "company_profile_id": "company-a-1-electrical",
+    "company_name": "A 1 ELECTRICAL",
+    "company_type": "General Contractor",
+    "project_count": 11,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 11
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 11
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 11
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Concrete",
+        "count": 11
+      },
+      {
+        "name": "Electrical",
+        "count": 11
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Self Performs",
+        "evidence_count": 11,
+        "confidence": 0.85
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Self Performs",
+        "evidence_count": 11,
+        "confidence": 0.85
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.35,
+    "evidence_count": 11,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbnc2026-00200",
+          "project_name": "REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00200"
+        },
+        {
+          "project_id": "sac-cbnc2026-00201",
+          "project_name": "REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00201"
+        },
+        {
+          "project_id": "sac-cbnc2026-00196",
+          "project_name": "REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00196"
+        },
+        {
+          "project_id": "sac-cbnc2026-00197",
+          "project_name": "REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00197"
+        },
+        {
+          "project_id": "sac-cbnc2026-00198",
+          "project_name": "REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00198"
+        },
+        {
+          "project_id": "sac-cbnc2026-00199",
+          "project_name": "REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00199"
+        },
+        {
+          "project_id": "sac-cbnc2026-00192",
+          "project_name": "REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00192"
+        },
+        {
+          "project_id": "sac-cbnc2026-00193",
+          "project_name": "REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00193"
+        },
+        {
+          "project_id": "sac-cbnc2026-00194",
+          "project_name": "REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00194"
+        },
+        {
+          "project_id": "sac-cbnc2026-00195",
+          "project_name": "REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00195"
+        },
+        {
+          "project_id": "sac-cbnc2026-00191",
+          "project_name": "REPAIR (PATIO w/ FOOTINGS) - 609 WOODSIDE SIERRA",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00191"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-robert-l-scheid-construction-behavior",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "company_name": "ROBERT L SCHEID CONSTRUCTION",
+    "company_type": "General Contractor",
+    "project_count": 11,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 11
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 11
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 11
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 11
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Self Performs",
+        "evidence_count": 11,
+        "confidence": 0.85
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.35,
+    "evidence_count": 11,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbnc2026-00216",
+          "project_name": "REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 9",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00216"
+        },
+        {
+          "project_id": "sac-cbnc2026-00217",
+          "project_name": "REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 10",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00217"
+        },
+        {
+          "project_id": "sac-cbnc2026-00218",
+          "project_name": "REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 11",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00218"
+        },
+        {
+          "project_id": "sac-cbnc2026-00219",
+          "project_name": "REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 12",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00219"
+        },
+        {
+          "project_id": "sac-cbnc2026-00211",
+          "project_name": "REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 4",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00211"
+        },
+        {
+          "project_id": "sac-cbnc2026-00212",
+          "project_name": "REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 5",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00212"
+        },
+        {
+          "project_id": "sac-cbnc2026-00213",
+          "project_name": "REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 6",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00213"
+        },
+        {
+          "project_id": "sac-cbnc2026-00214",
+          "project_name": "REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 7",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00214"
+        },
+        {
+          "project_id": "sac-cbnc2026-00215",
+          "project_name": "REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 8",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00215"
+        },
+        {
+          "project_id": "sac-cbnc2026-00209",
+          "project_name": "REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 2",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00209"
+        },
+        {
+          "project_id": "sac-cbnc2026-00210",
+          "project_name": "REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 3",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00210"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-advanced-roof-design-behavior",
+    "company_profile_id": "company-advanced-roof-design",
+    "company_name": "ADVANCED ROOF DESIGN INC",
+    "company_type": "General Contractor",
+    "project_count": 2,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 2
+      }
+    ],
+    "cities": [
+      {
+        "name": "FAIR OAKS",
+        "count": 1
+      },
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 2
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Roofing",
+        "count": 2
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+        "contractor_value": "Medium",
+        "confidence": 0.78
+      }
+    ],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 2,
+        "confidence": 0.61
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.25,
+    "evidence_count": 3,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-rerc2026-00187",
+          "project_name": "326 squares TPO overlay",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Roofing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00187"
+        },
+        {
+          "project_id": "sac-rerc2026-00186",
+          "project_name": "install TPO over existing capsheet",
+          "project_type": "Commercial",
+          "city": "FAIR OAKS",
+          "county": "Sacramento County",
+          "trades": [
+            "Roofing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00186"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-duramax-roofing-behavior",
+    "company_profile_id": "company-duramax-roofing",
+    "company_name": "DURAMAX ROOFING INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "ELVERTA",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Roofing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://duramaxroofing.net/contact",
+        "contractor_value": "Medium",
+        "confidence": 0.74
+      }
+    ],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.22,
+    "evidence_count": 2,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-rerc2026-00185",
+          "project_name": "install PVC membrane over existing roof",
+          "project_type": "Commercial",
+          "city": "ELVERTA",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical",
+            "Roofing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00185"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-waters-construction-behavior",
+    "company_profile_id": "company-waters-construction",
+    "company_name": "WATERS CONSTRUCTION COMPANY LLC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "CARMICHAEL",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://watersconco.com/",
+        "contractor_value": "Medium",
+        "confidence": 0.72
+      }
+    ],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.22,
+    "evidence_count": 2,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbnr2026-00571",
+          "project_name": "AREA: R04:  Rear house addition.",
+          "project_type": "Residential",
+          "city": "CARMICHAEL",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical",
+            "Fencing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00571"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-alltech-gates-and-entry-controls-behavior",
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "company_name": "ALLTECH GATES AND ENTRY CONTROLS INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "APT# 1",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
+        "contractor_value": "Low",
+        "confidence": 0.55
+      }
+    ],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.12,
+    "evidence_count": 2,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbnc2026-00207",
+          "project_name": "NEW (GATES) - 7575 POWER INN RD",
+          "project_type": "Commercial",
+          "city": "APT# 1",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical",
+            "Fencing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00207"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-famand-behavior",
+    "company_profile_id": "company-famand",
+    "company_name": "FAMAND INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "HVAC",
+        "count": 1
+      },
+      {
+        "name": "Roofing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
+        "contractor_value": "Low",
+        "confidence": 0.62
+      }
+    ],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.12,
+    "evidence_count": 2,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-misc2026-01229",
+          "project_name": "Like for Like 4 roof top Package unit change out",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical",
+            "HVAC",
+            "Roofing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01229"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-3-generations-improvements-behavior",
+    "company_profile_id": "company-3-generations-improvements",
+    "company_name": "3 GENERATIONS IMPROVEMENTS INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "CARMICHAEL",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbrr2026-00703",
+          "project_name": "AREA: R05:  Siding and window replacement.",
+          "project_type": "Residential",
+          "city": "CARMICHAEL",
+          "county": "Sacramento County",
+          "trades": [
+            "General"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00703"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-american-buildings-j-s-behavior",
+    "company_profile_id": "company-american-buildings-j-s",
+    "company_name": "AMERICAN BUILDINGS J&S",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "ANTELOPE",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Concrete",
+        "count": 1
+      },
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbnr2026-00564",
+          "project_name": "AREA: R01:  proposed 28'x40' pre fab metal ag storage building",
+          "project_type": "Residential",
+          "city": "ANTELOPE",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical",
+            "Fencing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00564"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-american-carports-behavior",
+    "company_profile_id": "company-american-carports",
+    "company_name": "AMERICAN CARPORTS INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "GALT",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Concrete",
+        "count": 1
+      },
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbnr2026-00558",
+          "project_name": "AREA: R10:  Installation of accessory structure",
+          "project_type": "Residential",
+          "city": "GALT",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical",
+            "Fencing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00558"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-burns-construction-behavior",
+    "company_profile_id": "company-burns-construction",
+    "company_name": "BURNS CONSTRUCTION",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbar2026-00640",
+          "project_name": "AREA: R08:  Kitchen and Living Room Remodel",
+          "project_type": "Residential",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00640"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-california-renewable-energy-behavior",
+    "company_profile_id": "company-california-renewable-energy",
+    "company_name": "CALIFORNIA RENEWABLE ENERGY",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "ORANGEVALE",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "HVAC",
+        "count": 1
+      },
+      {
+        "name": "Roofing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-misr2026-01941",
+          "project_name": "SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15.",
+          "project_type": "Residential",
+          "city": "ORANGEVALE",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical",
+            "HVAC",
+            "Roofing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01941"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-deome-2-builders-behavior",
+    "company_profile_id": "company-deome-2-builders",
+    "company_name": "DEOME 2 BUILDERS INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "FAIR OAKS",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbnr2026-00560",
+          "project_name": "AREA: R04:  HOLBUS DECK",
+          "project_type": "Residential",
+          "city": "FAIR OAKS",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical",
+            "Fencing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00560"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-dyer-construction-behavior",
+    "company_profile_id": "company-dyer-construction",
+    "company_name": "DYER CONSTRUCTION INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Roofing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbar2026-00648",
+          "project_name": "AREA: R06:  remodel/alteration",
+          "project_type": "Residential",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Roofing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00648"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-fdc-nor-cal-behavior",
+    "company_profile_id": "company-fdc-nor-cal",
+    "company_name": "FDC NOR-CAL CORP",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "LOT# 11",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-phcr2026-00560",
+          "project_name": "SOLAR : AREA: R03: Blossom Ridge-Plan 2704-Elevation C-Lot 11",
+          "project_type": "Residential",
+          "city": "LOT# 11",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical",
+            "Fencing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00560"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-gigawatt-california-behavior",
+    "company_profile_id": "company-gigawatt-california",
+    "company_name": "GIGAWATT CALIFORNIA LLC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "ANTELOPE",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-solr2026-00223",
+          "project_name": "AREA: R01:  NEW PHOTOVOLTAIC SYSTEM 9.24 KW DC/11.50 KW AC, WITH ESS",
+          "project_type": "Residential",
+          "city": "ANTELOPE",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00223"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-group-one-builders-behavior",
+    "company_profile_id": "company-group-one-builders",
+    "company_name": "GROUP ONE BUILDERS INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbnr2026-00562",
+          "project_name": "AREA: R06:  House Addition-Remodel",
+          "project_type": "Residential",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical",
+            "Fencing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00562"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-kenneth-development-behavior",
+    "company_profile_id": "company-kenneth-development",
+    "company_name": "KENNETH DEVELOPMENT INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbnr2026-00576",
+          "project_name": "AREA: R06:  New Home Construction",
+          "project_type": "Residential",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical",
+            "Fencing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00576"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-kustom-us-behavior",
+    "company_profile_id": "company-kustom-us",
+    "company_name": "KUSTOM US INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "HERALD",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Concrete",
+        "count": 1
+      },
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      },
+      {
+        "name": "Roofing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbar2026-00636",
+          "project_name": "AREA: R10:  AREA: R10:  Minor fire damage repair to sunroom",
+          "project_type": "Residential",
+          "city": "HERALD",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Electrical",
+            "Fencing",
+            "Roofing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00636"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-master-roofing-solutions-behavior",
+    "company_profile_id": "company-master-roofing-solutions",
+    "company_name": "MASTER ROOFING SOLUTIONS LLC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "WILTON",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Roofing",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-rerr2026-00205",
+          "project_name": "AREA: R10:  Non-structural reroofing, will replace tile roofing, underl",
+          "project_type": "Residential",
+          "city": "WILTON",
+          "county": "Sacramento County",
+          "trades": [
+            "Roofing"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERR2026-00205"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-o-connor-pool-solutions-behavior",
+    "company_profile_id": "company-o-connor-pool-solutions",
+    "company_name": "O'CONNOR POOL SOLUTIONS INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "FAIR OAKS",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-spcr2026-00132",
+          "project_name": "AREA: R04:  Install new in ground pool & spa",
+          "project_type": "Residential",
+          "city": "FAIR OAKS",
+          "county": "Sacramento County",
+          "trades": [
+            "General"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASPCR2026-00132"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-phillip-isaacs-construction-behavior",
+    "company_profile_id": "company-phillip-isaacs-construction",
+    "company_name": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "FAIR OAKS",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbrr2026-00705",
+          "project_name": "AREA: R03:  Replace all windows & install siding on front of home",
+          "project_type": "Residential",
+          "city": "FAIR OAKS",
+          "county": "Sacramento County",
+          "trades": [
+            "General"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00705"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-prime-home-solutions-behavior",
+    "company_profile_id": "company-prime-home-solutions",
+    "company_name": "PRIME HOME SOLUTIONS INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "CARMICHAEL",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-solr2026-00227",
+          "project_name": "AREA: R04:  23.76kW PV + ESS Installation",
+          "project_type": "Residential",
+          "city": "CARMICHAEL",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00227"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-sunsource-behavior",
+    "company_profile_id": "company-sunsource",
+    "company_name": "SUNSOURCE INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "CARMICHAEL",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      },
+      {
+        "name": "HVAC",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-misc2026-01228",
+          "project_name": "SOLAR : Solar PV Installation",
+          "project_type": "Commercial",
+          "city": "CARMICHAEL",
+          "county": "Sacramento County",
+          "trades": [
+            "Electrical",
+            "Fencing",
+            "HVAC"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01228"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-veerkamp-doug-general-engineering-behavior",
+    "company_profile_id": "company-veerkamp-doug-general-engineering",
+    "company_name": "VEERKAMP DOUG GENERAL ENGINEERING INC",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Commercial",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Concrete",
+        "count": 1
+      },
+      {
+        "name": "Fencing",
+        "count": 1
+      },
+      {
+        "name": "Site work",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-dmoc2026-00045",
+          "project_name": "DEMO (SHED) - 2736 AUBURN BLVD",
+          "project_type": "Commercial",
+          "city": "SACRAMENTO",
+          "county": "Sacramento County",
+          "trades": [
+            "Concrete",
+            "Fencing",
+            "Site work"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOC2026-00045"
+        }
+      ]
+    }
+  },
+  {
+    "id": "company-west-coast-flooring-behavior",
+    "company_profile_id": "company-west-coast-flooring",
+    "company_name": "WEST COAST FLOORING",
+    "company_type": "General Contractor",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "ORANGEVALE",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "General",
+        "count": 1
+      }
+    ],
+    "procurement_paths": [],
+    "outsourcing_by_trade": {
+      "Fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Concrete": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "HVAC": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Roofing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Electrical": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Landscaping": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Site work": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "Security fencing": {
+        "status": "Unknown",
+        "evidence_count": 0,
+        "confidence": 0.15
+      },
+      "General": {
+        "status": "Unknown",
+        "evidence_count": 1,
+        "confidence": 0.53
+      }
+    },
+    "opportunity_likelihood": 0.04,
+    "evidence_count": 1,
+    "last_verified": "2026-07-07T22:06:33.248Z",
+    "metadata": {
+      "projects": [
+        {
+          "project_id": "sac-cbar2026-00651",
+          "project_name": "AREA: R03:  remodeling living room",
+          "project_type": "Residential",
+          "city": "ORANGEVALE",
+          "county": "Sacramento County",
+          "trades": [
+            "General"
+          ],
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00651"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "id": "company-lennar-homes-of-california-developer-profile",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "company_name": "LENNAR HOMES OF CALIFORNIA LLC",
+    "project_count": 2,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 2
+      }
+    ],
+    "cities": [
+      {
+        "name": "LOT# 9",
+        "count": 1
+      },
+      {
+        "name": "SACRAMENTO",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento County",
+        "count": 2
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Electrical",
+        "count": 2
+      },
+      {
+        "name": "Fencing",
+        "count": 2
+      }
+    ],
+    "procurement_path_count": 2,
+    "opportunity_likelihood": 0.71,
+    "last_verified": "2026-07-07T22:06:33.248Z"
+  }
+]

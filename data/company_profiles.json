@@ -12,9 +12,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 11,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -96,7 +100,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -113,9 +120,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 11,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -197,7 +208,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -209,14 +223,18 @@
     "official_website": "https://www.ardroofing.com/",
     "phone": "(916)381-2266",
     "linkedin_company_page": null,
-    "contact_page_url": null,
+    "contact_page_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
     "bid_opportunities_page_url": null,
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
-    "source_count": 4,
-    "profile_confidence": 0.73,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 5,
+    "profile_confidence": 0.89,
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -238,11 +256,13 @@
       ],
       "missing_fields": [
         "LinkedIn Company Page",
-        "Contact Page",
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -250,18 +270,22 @@
     "id": "company-lennar-homes-of-california",
     "company_name": "LENNAR HOMES OF CALIFORNIA LLC",
     "normalized_name": "lennar homes of california",
-    "company_type": "General Contractor",
-    "official_website": null,
+    "company_type": "Developer",
+    "official_website": "https://www.lennar.com/",
     "phone": null,
     "linkedin_company_page": null,
-    "contact_page_url": null,
+    "contact_page_url": "https://www.lennar.com/contact/business-inquiry",
     "bid_opportunities_page_url": null,
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
-    "source_count": 2,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 4,
+    "profile_confidence": 0.75,
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -282,14 +306,15 @@
         }
       ],
       "missing_fields": [
-        "Official Website",
         "Phone",
         "LinkedIn Company Page",
-        "Contact Page",
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -306,9 +331,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -330,7 +359,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -347,9 +379,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 2,
-    "profile_confidence": 0.53,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "profile_confidence": 0.57,
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -370,7 +406,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -387,9 +426,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -411,7 +454,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -428,9 +474,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -452,7 +502,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -469,9 +522,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -493,7 +550,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -510,9 +570,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -534,7 +598,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -551,9 +618,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -575,7 +646,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -592,9 +666,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 4,
-    "profile_confidence": 0.81,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "profile_confidence": 0.89,
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -613,7 +691,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -630,9 +711,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -654,7 +739,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -671,9 +759,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 2,
-    "profile_confidence": 0.53,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "profile_confidence": 0.57,
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -694,7 +786,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -711,9 +806,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -735,7 +834,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -752,9 +854,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -776,7 +882,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -793,9 +902,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -817,7 +930,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -834,9 +950,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -858,7 +978,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -875,9 +998,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -899,7 +1026,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -916,9 +1046,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -940,7 +1074,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -957,9 +1094,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -981,7 +1122,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -998,9 +1142,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1022,7 +1170,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -1039,9 +1190,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1063,7 +1218,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -1080,9 +1238,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1104,7 +1266,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -1121,9 +1286,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1145,7 +1314,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -1162,9 +1334,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 4,
-    "profile_confidence": 0.81,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "profile_confidence": 0.89,
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1183,7 +1359,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   },
@@ -1200,9 +1379,13 @@
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
     "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T19:13:58.237Z",
+    "last_verified": "2026-07-07T21:05:03.661Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1224,7 +1407,10 @@
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
-        "Trade Partner Portal"
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
       ]
     }
   }

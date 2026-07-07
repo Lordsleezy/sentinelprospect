@@ -41,6 +41,10 @@ create table if not exists company_web_sources (
       'vendor_registration_page',
       'subcontractor_registration_page',
       'trade_partner_portal',
+      'plan_room',
+      'procurement_portal',
+      'estimating_department',
+      'procurement_path',
       'public_profile'
     )
   ),
@@ -64,6 +68,7 @@ create table if not exists company_intelligence (
       'web_presence',
       'vendor_access',
       'subcontractor_access',
+      'procurement_access',
       'missing_fields'
     )
   ),

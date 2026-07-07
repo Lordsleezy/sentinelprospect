@@ -3,6 +3,18 @@
     "company_name": "ADVANCED ROOF DESIGN INC",
     "official_website": "https://www.ardroofing.com/",
     "phone": "(916)381-2266",
+    "contact_page_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+        "source_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+        "source_type": "public_profile",
+        "confidence": 0.78,
+        "contractor_value": "Medium",
+        "evidence_summary": "Industry directory lists a named contact, phone, and email for Advanced Roof Design."
+      }
+    ],
     "sources": [
       {
         "source_type": "official_website",
@@ -19,12 +31,31 @@
         "field_name": "phone",
         "field_value": "(916)381-2266",
         "excerpt": "Public member profile lists Advanced Roof Design, Inc. with phone and website."
+      },
+      {
+        "source_type": "contact_page",
+        "source_name": "California Apartment Association industry directory",
+        "source_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+        "field_name": "contact_page_url",
+        "field_value": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+        "excerpt": "Industry directory includes Advanced Roof Design contact details."
       }
     ]
   },
   {
     "company_name": "FAMAND INC",
     "phone": "+1 916-988-8808",
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
+        "source_url": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
+        "source_type": "public_profile",
+        "confidence": 0.62,
+        "contractor_value": "Low",
+        "evidence_summary": "Vendor profile provides a company phone, but no dedicated bid or subcontractor intake path."
+      }
+    ],
     "sources": [
       {
         "source_type": "public_profile",
@@ -41,6 +72,17 @@
     "official_website": "https://watersconco.com/",
     "phone": "916.594.8912",
     "contact_page_url": "https://watersconco.com/",
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://watersconco.com/",
+        "source_url": "https://watersconco.com/",
+        "source_type": "official_website",
+        "confidence": 0.72,
+        "contractor_value": "Medium",
+        "evidence_summary": "Official site displays Contact Us and a phone number."
+      }
+    ],
     "sources": [
       {
         "source_type": "official_website",
@@ -73,6 +115,17 @@
     "official_website": "https://duramaxroofing.net/",
     "phone": "(916) 849-5024",
     "contact_page_url": "https://duramaxroofing.net/contact",
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://duramaxroofing.net/contact",
+        "source_url": "https://duramaxroofing.net/steel-roofing-systems",
+        "source_type": "contact_page",
+        "confidence": 0.74,
+        "contractor_value": "Medium",
+        "evidence_summary": "Official site navigation exposes a contact page."
+      }
+    ],
     "sources": [
       {
         "source_type": "official_website",
@@ -103,6 +156,17 @@
   {
     "company_name": "ALLTECH GATES AND ENTRY CONTROLS INC",
     "phone": "(916) 599-6629",
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
+        "source_url": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
+        "source_type": "public_profile",
+        "confidence": 0.55,
+        "contractor_value": "Low",
+        "evidence_summary": "Public listing provides a company phone, but no dedicated bid or subcontractor intake path."
+      }
+    ],
     "sources": [
       {
         "source_type": "public_profile",
@@ -111,6 +175,50 @@
         "field_name": "phone",
         "field_value": "(916) 599-6629",
         "excerpt": "Public listing includes Alltech Gates and Entry Controls, Inc. with phone number."
+      }
+    ]
+  },
+  {
+    "company_name": "LENNAR HOMES OF CALIFORNIA LLC",
+    "company_type": "Developer",
+    "official_website": "https://www.lennar.com/",
+    "contact_page_url": "https://www.lennar.com/contact/business-inquiry",
+    "procurement_paths": [
+      {
+        "path_type": "trade_partner",
+        "path_url": "https://www.lennar.com/contact/business-inquiry",
+        "source_url": "https://www.lennar.com/contact/business-inquiry",
+        "source_type": "contact_page",
+        "confidence": 0.76,
+        "contractor_value": "High",
+        "evidence_summary": "Lennar business inquiry form routes business-related inquiries to an appropriate Lennar associate."
+      },
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.lennar.com/contact/business-inquiry",
+        "source_url": "https://www.lennar.com/contact/business-inquiry",
+        "source_type": "contact_page",
+        "confidence": 0.72,
+        "contractor_value": "Medium",
+        "evidence_summary": "Business inquiry form provides a source-backed way to reach Lennar for non-consumer business inquiries."
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "official_website",
+        "source_name": "Lennar official website",
+        "source_url": "https://www.lennar.com/",
+        "field_name": "official_website",
+        "field_value": "https://www.lennar.com/",
+        "excerpt": "Official Lennar website identifies Lennar as a national homebuilder."
+      },
+      {
+        "source_type": "contact_page",
+        "source_name": "Lennar business inquiry form",
+        "source_url": "https://www.lennar.com/contact/business-inquiry",
+        "field_name": "contact_page_url",
+        "field_value": "https://www.lennar.com/contact/business-inquiry",
+        "excerpt": "Business inquiries form says the appropriate Lennar Associate will contact the submitter."
       }
     ]
   }

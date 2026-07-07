@@ -43,7 +43,7 @@
     "id": "company-a-1-electrical-missing-fields",
     "company_profile_id": "company-a-1-electrical",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-a-1-electrical-collector-1",
@@ -103,7 +103,7 @@
     "id": "company-robert-l-scheid-construction-missing-fields",
     "company_profile_id": "company-robert-l-scheid-construction",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-robert-l-scheid-construction-collector-1",
@@ -123,13 +123,14 @@
     "id": "company-advanced-roof-design-coverage-summary",
     "company_profile_id": "company-advanced-roof-design",
     "intelligence_type": "coverage_summary",
-    "summary": "Actionable company intelligence exists through at least one web, phone, contact, vendor, subcontractor, or trade partner route.",
-    "confidence": 0.73,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.89,
     "evidence_source_ids": [
       "company-advanced-roof-design-collector-1",
       "company-advanced-roof-design-collector-2",
       "company-advanced-roof-design-official-website-official-website-https-www-ardroofing-com",
-      "company-advanced-roof-design-public-profile-phone-https-rcac-wildapricot-org-widget-sys-publicprofile-31728650-3832090"
+      "company-advanced-roof-design-public-profile-phone-https-rcac-wildapricot-org-widget-sys-publicprofile-31728650-3832090",
+      "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design"
     ]
   },
   {
@@ -147,13 +148,14 @@
     "id": "company-advanced-roof-design-missing-fields",
     "company_profile_id": "company-advanced-roof-design",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: LinkedIn Company Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-advanced-roof-design-collector-1",
       "company-advanced-roof-design-collector-2",
       "company-advanced-roof-design-official-website-official-website-https-www-ardroofing-com",
-      "company-advanced-roof-design-public-profile-phone-https-rcac-wildapricot-org-widget-sys-publicprofile-31728650-3832090"
+      "company-advanced-roof-design-public-profile-phone-https-rcac-wildapricot-org-widget-sys-publicprofile-31728650-3832090",
+      "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design"
     ]
   },
   {
@@ -161,28 +163,45 @@
     "company_profile_id": "company-advanced-roof-design",
     "intelligence_type": "web_presence",
     "summary": "Company has source-backed web or phone presence.",
-    "confidence": 0.73,
+    "confidence": 0.89,
     "evidence_source_ids": [
       "company-advanced-roof-design-official-website-official-website-https-www-ardroofing-com",
-      "company-advanced-roof-design-public-profile-phone-https-rcac-wildapricot-org-widget-sys-publicprofile-31728650-3832090"
+      "company-advanced-roof-design-public-profile-phone-https-rcac-wildapricot-org-widget-sys-publicprofile-31728650-3832090",
+      "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design"
+    ]
+  },
+  {
+    "id": "company-advanced-roof-design-procurement-access",
+    "company_profile_id": "company-advanced-roof-design",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.78,
+    "evidence_source_ids": [
+      "company-advanced-roof-design-collector-1",
+      "company-advanced-roof-design-collector-2",
+      "company-advanced-roof-design-official-website-official-website-https-www-ardroofing-com",
+      "company-advanced-roof-design-public-profile-phone-https-rcac-wildapricot-org-widget-sys-publicprofile-31728650-3832090",
+      "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design"
     ]
   },
   {
     "id": "company-lennar-homes-of-california-coverage-summary",
     "company_profile_id": "company-lennar-homes-of-california",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.75,
     "evidence_source_ids": [
       "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2"
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-official-website-official-website-https-www-lennar-com",
+      "company-lennar-homes-of-california-contact-page-contact-page-url-https-www-lennar-com-contact-business-inquiry"
     ]
   },
   {
     "id": "company-lennar-homes-of-california-company-type",
     "company_profile_id": "company-lennar-homes-of-california",
     "intelligence_type": "company_type_evidence",
-    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "summary": "Company type resolved as Developer from collector role evidence.",
     "confidence": 0.7,
     "evidence_source_ids": [
       "company-lennar-homes-of-california-collector-1",
@@ -193,11 +212,63 @@
     "id": "company-lennar-homes-of-california-missing-fields",
     "company_profile_id": "company-lennar-homes-of-california",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Phone, LinkedIn Company Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2"
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-official-website-official-website-https-www-lennar-com",
+      "company-lennar-homes-of-california-contact-page-contact-page-url-https-www-lennar-com-contact-business-inquiry"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-web-presence",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.75,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-official-website-official-website-https-www-lennar-com",
+      "company-lennar-homes-of-california-contact-page-contact-page-url-https-www-lennar-com-contact-business-inquiry"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-vendor-access",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "vendor_access",
+    "summary": "Company has a source-backed vendor, trade partner, bid, procurement, or plan-room route.",
+    "confidence": 0.85,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-official-website-official-website-https-www-lennar-com",
+      "company-lennar-homes-of-california-contact-page-contact-page-url-https-www-lennar-com-contact-business-inquiry"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-procurement-access",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: trade partner.",
+    "confidence": 0.76,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-official-website-official-website-https-www-lennar-com",
+      "company-lennar-homes-of-california-contact-page-contact-page-url-https-www-lennar-com-contact-business-inquiry"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-subcontractor-access",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "subcontractor_access",
+    "summary": "Company has a source-backed subcontractor or trade partner access route.",
+    "confidence": 0.85,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-official-website-official-website-https-www-lennar-com",
+      "company-lennar-homes-of-california-contact-page-contact-page-url-https-www-lennar-com-contact-business-inquiry"
     ]
   },
   {
@@ -224,7 +295,7 @@
     "id": "company-3-generations-improvements-missing-fields",
     "company_profile_id": "company-3-generations-improvements",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-3-generations-improvements-collector-1"
@@ -234,8 +305,8 @@
     "id": "company-alltech-gates-and-entry-controls-coverage-summary",
     "company_profile_id": "company-alltech-gates-and-entry-controls",
     "intelligence_type": "coverage_summary",
-    "summary": "Actionable company intelligence exists through at least one web, phone, contact, vendor, subcontractor, or trade partner route.",
-    "confidence": 0.53,
+    "summary": "Company has general contact intelligence, but no dedicated procurement path has been verified.",
+    "confidence": 0.57,
     "evidence_source_ids": [
       "company-alltech-gates-and-entry-controls-collector-1",
       "company-alltech-gates-and-entry-controls-public-profile-phone-https-ru-scribd-com-document-746633276-inbound3501281419727076426"
@@ -255,7 +326,7 @@
     "id": "company-alltech-gates-and-entry-controls-missing-fields",
     "company_profile_id": "company-alltech-gates-and-entry-controls",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-alltech-gates-and-entry-controls-collector-1",
@@ -267,8 +338,19 @@
     "company_profile_id": "company-alltech-gates-and-entry-controls",
     "intelligence_type": "web_presence",
     "summary": "Company has source-backed web or phone presence.",
-    "confidence": 0.53,
+    "confidence": 0.57,
     "evidence_source_ids": [
+      "company-alltech-gates-and-entry-controls-public-profile-phone-https-ru-scribd-com-document-746633276-inbound3501281419727076426"
+    ]
+  },
+  {
+    "id": "company-alltech-gates-and-entry-controls-procurement-access",
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.55,
+    "evidence_source_ids": [
+      "company-alltech-gates-and-entry-controls-collector-1",
       "company-alltech-gates-and-entry-controls-public-profile-phone-https-ru-scribd-com-document-746633276-inbound3501281419727076426"
     ]
   },
@@ -296,7 +378,7 @@
     "id": "company-american-buildings-j-s-missing-fields",
     "company_profile_id": "company-american-buildings-j-s",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-american-buildings-j-s-collector-1"
@@ -326,7 +408,7 @@
     "id": "company-american-carports-missing-fields",
     "company_profile_id": "company-american-carports",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-american-carports-collector-1"
@@ -356,7 +438,7 @@
     "id": "company-burns-construction-missing-fields",
     "company_profile_id": "company-burns-construction",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-burns-construction-collector-1"
@@ -386,7 +468,7 @@
     "id": "company-california-renewable-energy-missing-fields",
     "company_profile_id": "company-california-renewable-energy",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-california-renewable-energy-collector-1"
@@ -416,7 +498,7 @@
     "id": "company-deome-2-builders-missing-fields",
     "company_profile_id": "company-deome-2-builders",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-deome-2-builders-collector-1"
@@ -426,8 +508,8 @@
     "id": "company-duramax-roofing-coverage-summary",
     "company_profile_id": "company-duramax-roofing",
     "intelligence_type": "coverage_summary",
-    "summary": "Actionable company intelligence exists through at least one web, phone, contact, vendor, subcontractor, or trade partner route.",
-    "confidence": 0.81,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.89,
     "evidence_source_ids": [
       "company-duramax-roofing-collector-1",
       "company-duramax-roofing-official-website-official-website-https-duramaxroofing-net",
@@ -449,7 +531,7 @@
     "id": "company-duramax-roofing-missing-fields",
     "company_profile_id": "company-duramax-roofing",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: LinkedIn Company Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: LinkedIn Company Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-duramax-roofing-collector-1",
@@ -463,8 +545,21 @@
     "company_profile_id": "company-duramax-roofing",
     "intelligence_type": "web_presence",
     "summary": "Company has source-backed web or phone presence.",
-    "confidence": 0.81,
+    "confidence": 0.89,
     "evidence_source_ids": [
+      "company-duramax-roofing-official-website-official-website-https-duramaxroofing-net",
+      "company-duramax-roofing-contact-page-contact-page-url-https-duramaxroofing-net-steel-roofing-systems",
+      "company-duramax-roofing-phone-source-phone-https-www-buildzoom-com-contractor-duramax-roofing"
+    ]
+  },
+  {
+    "id": "company-duramax-roofing-procurement-access",
+    "company_profile_id": "company-duramax-roofing",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.74,
+    "evidence_source_ids": [
+      "company-duramax-roofing-collector-1",
       "company-duramax-roofing-official-website-official-website-https-duramaxroofing-net",
       "company-duramax-roofing-contact-page-contact-page-url-https-duramaxroofing-net-steel-roofing-systems",
       "company-duramax-roofing-phone-source-phone-https-www-buildzoom-com-contractor-duramax-roofing"
@@ -494,7 +589,7 @@
     "id": "company-dyer-construction-missing-fields",
     "company_profile_id": "company-dyer-construction",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-dyer-construction-collector-1"
@@ -504,8 +599,8 @@
     "id": "company-famand-coverage-summary",
     "company_profile_id": "company-famand",
     "intelligence_type": "coverage_summary",
-    "summary": "Actionable company intelligence exists through at least one web, phone, contact, vendor, subcontractor, or trade partner route.",
-    "confidence": 0.53,
+    "summary": "Company has general contact intelligence, but no dedicated procurement path has been verified.",
+    "confidence": 0.57,
     "evidence_source_ids": [
       "company-famand-collector-1",
       "company-famand-public-profile-phone-https-govtribe-com-vendors-famand-dot-indoor-environmental-services-3gmp5"
@@ -525,7 +620,7 @@
     "id": "company-famand-missing-fields",
     "company_profile_id": "company-famand",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-famand-collector-1",
@@ -537,8 +632,19 @@
     "company_profile_id": "company-famand",
     "intelligence_type": "web_presence",
     "summary": "Company has source-backed web or phone presence.",
-    "confidence": 0.53,
+    "confidence": 0.57,
     "evidence_source_ids": [
+      "company-famand-public-profile-phone-https-govtribe-com-vendors-famand-dot-indoor-environmental-services-3gmp5"
+    ]
+  },
+  {
+    "id": "company-famand-procurement-access",
+    "company_profile_id": "company-famand",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.62,
+    "evidence_source_ids": [
+      "company-famand-collector-1",
       "company-famand-public-profile-phone-https-govtribe-com-vendors-famand-dot-indoor-environmental-services-3gmp5"
     ]
   },
@@ -566,7 +672,7 @@
     "id": "company-fdc-nor-cal-missing-fields",
     "company_profile_id": "company-fdc-nor-cal",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-fdc-nor-cal-collector-1"
@@ -596,7 +702,7 @@
     "id": "company-gigawatt-california-missing-fields",
     "company_profile_id": "company-gigawatt-california",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-gigawatt-california-collector-1"
@@ -626,7 +732,7 @@
     "id": "company-group-one-builders-missing-fields",
     "company_profile_id": "company-group-one-builders",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-group-one-builders-collector-1"
@@ -656,7 +762,7 @@
     "id": "company-kenneth-development-missing-fields",
     "company_profile_id": "company-kenneth-development",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-kenneth-development-collector-1"
@@ -686,7 +792,7 @@
     "id": "company-kustom-us-missing-fields",
     "company_profile_id": "company-kustom-us",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-kustom-us-collector-1"
@@ -716,7 +822,7 @@
     "id": "company-master-roofing-solutions-missing-fields",
     "company_profile_id": "company-master-roofing-solutions",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-master-roofing-solutions-collector-1"
@@ -746,7 +852,7 @@
     "id": "company-o-connor-pool-solutions-missing-fields",
     "company_profile_id": "company-o-connor-pool-solutions",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-o-connor-pool-solutions-collector-1"
@@ -776,7 +882,7 @@
     "id": "company-phillip-isaacs-construction-missing-fields",
     "company_profile_id": "company-phillip-isaacs-construction",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-phillip-isaacs-construction-collector-1"
@@ -806,7 +912,7 @@
     "id": "company-prime-home-solutions-missing-fields",
     "company_profile_id": "company-prime-home-solutions",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-prime-home-solutions-collector-1"
@@ -836,7 +942,7 @@
     "id": "company-sunsource-missing-fields",
     "company_profile_id": "company-sunsource",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-sunsource-collector-1"
@@ -866,7 +972,7 @@
     "id": "company-veerkamp-doug-general-engineering-missing-fields",
     "company_profile_id": "company-veerkamp-doug-general-engineering",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-veerkamp-doug-general-engineering-collector-1"
@@ -876,8 +982,8 @@
     "id": "company-waters-construction-coverage-summary",
     "company_profile_id": "company-waters-construction",
     "intelligence_type": "coverage_summary",
-    "summary": "Actionable company intelligence exists through at least one web, phone, contact, vendor, subcontractor, or trade partner route.",
-    "confidence": 0.81,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.89,
     "evidence_source_ids": [
       "company-waters-construction-collector-1",
       "company-waters-construction-official-website-official-website-https-watersconco-com",
@@ -899,7 +1005,7 @@
     "id": "company-waters-construction-missing-fields",
     "company_profile_id": "company-waters-construction",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: LinkedIn Company Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: LinkedIn Company Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-waters-construction-collector-1",
@@ -913,8 +1019,21 @@
     "company_profile_id": "company-waters-construction",
     "intelligence_type": "web_presence",
     "summary": "Company has source-backed web or phone presence.",
-    "confidence": 0.81,
+    "confidence": 0.89,
     "evidence_source_ids": [
+      "company-waters-construction-official-website-official-website-https-watersconco-com",
+      "company-waters-construction-phone-source-phone-https-watersconco-com",
+      "company-waters-construction-contact-page-contact-page-url-https-watersconco-com"
+    ]
+  },
+  {
+    "id": "company-waters-construction-procurement-access",
+    "company_profile_id": "company-waters-construction",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.72,
+    "evidence_source_ids": [
+      "company-waters-construction-collector-1",
       "company-waters-construction-official-website-official-website-https-watersconco-com",
       "company-waters-construction-phone-source-phone-https-watersconco-com",
       "company-waters-construction-contact-page-contact-page-url-https-watersconco-com"
@@ -944,7 +1063,7 @@
     "id": "company-west-coast-flooring-missing-fields",
     "company_profile_id": "company-west-coast-flooring",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-west-coast-flooring-collector-1"

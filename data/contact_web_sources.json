@@ -1,0 +1,36 @@
+[
+  {
+    "company_name": "ADVANCED ROOF DESIGN INC",
+    "website": "https://www.ardroofing.com/",
+    "phone": "(916)381-2266",
+    "contact_name": "Tim Balbi",
+    "contact_title": "President/CEO",
+    "contact_role": "CEO",
+    "sources": [
+      {
+        "source_name": "Roofing Contractors Association of California public profile",
+        "source_url": "https://rcac.wildapricot.org/widget/Sys/PublicProfile/31728650/3832090",
+        "evidence_type": "public_profile_company",
+        "excerpt": "Public member profile lists Tim Balbi, Advanced Roof Design, Inc., business phone, and website."
+      },
+      {
+        "source_name": "LinkedIn public profile",
+        "source_url": "https://www.linkedin.com/in/tim-balbi-advanced-roof-design-inc-40b562a",
+        "evidence_type": "public_profile_person",
+        "excerpt": "Public profile identifies Tim Balbi as President/CEO of Advanced Roof Design, Inc."
+      }
+    ]
+  },
+  {
+    "company_name": "FAMAND INC",
+    "phone": "+1 916-988-8808",
+    "sources": [
+      {
+        "source_name": "GovTribe vendor profile",
+        "source_url": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
+        "evidence_type": "public_profile_phone",
+        "excerpt": "Vendor profile lists Famand, Inc. with phone number +1 916-988-8808."
+      }
+    ]
+  }
+]

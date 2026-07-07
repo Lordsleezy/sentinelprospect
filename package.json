@@ -14,6 +14,7 @@
     "report:intelligence": "node scripts/generate-intelligence-report.mjs",
     "report:contractor": "node scripts/generate-contractor-reports.mjs",
     "report:trust": "node scripts/generate-trust-audits.mjs",
+    "harvest:contacts": "node scripts/harvest-contact-intelligence.mjs",
     "graph:export": "tsx scripts/export-intelligence-graph.mjs",
     "graph:sync": "tsx scripts/sync-neo4j.mjs",
     "obsidian:export": "tsx scripts/export-obsidian-vault.mjs"

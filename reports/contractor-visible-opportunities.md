@@ -1,166 +1,90 @@
 # Contractor Visible Opportunities
 
-Generated: 2026-07-07T18:48:45.506Z
+Generated: 2026-07-08T03:43:12.450Z
 
 ## Summary
 
-- Project records audited: 150
-- Records passing trust requirements: 0
-- Visible opportunity rows: 0
+- Evidence-backed opportunities: 157
+- Actionable opportunities: 9
+- Research required: 6
+- Opportunities with no known access route yet: 142
 
-_No current records pass all trust requirements. The main blockers are missing actionable contact routes and unknown awarding authority._
+Phone or email is no longer required for contractor visibility. Opportunities are shown when evidence exists, then labeled by access readiness.
 
-## Hidden Records By Trust Failure
-
-| Project | Location | Contact Confidence | Awarding Authority | Evidence Count | Hidden Because |
-| --- | --- | --- | --- | --- | --- |
-| 326 squares TPO overlay | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| install TPO over existing capsheet | FAIR OAKS, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| HVAC conversion to HP | FAIR OAKS, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Like for Like 4 roof top Package unit change out | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| SOLAR : Solar PV Installation | CARMICHAEL, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation | SACRAMENTO, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation | SACRAMENTO, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-09 Elevation | SACRAMENTO, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-08 Elevation | SACRAMENTO, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15. | ORANGEVALE, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| AREA: R06:  New Home Construction | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| SOLAR : AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-09A  LOT 276 | LOT# 276, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| TI (INT EQPT CURB) 6233 BALCKTOP RD | RIO LINDA, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R01:  Roof mounted residential solar with main panel upgrade | ELVERTA, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 9 | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 10 | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 11 | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 12 | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 4 | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 5 | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 6 | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 7 | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 8 | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 2 | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 3 | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| install PVC membrane over existing roof | ELVERTA, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (DECK) - 258 SELBY RANCH RD | SACRAMENTO, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| AREA: R01:  7240 Rio Linda 3, Rio Linda, CA. SFR | RIO LINDA, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R07:  Repairs After Fire Damage | SACRAMENTO, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R04:  Rear house addition. | CARMICHAEL, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| NEW (GATES) - 7575 POWER INN RD | APT# 1, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| STRUC (EXT CANOPY) 2031 DOME LN | MCCLELLAN, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R03:  remodeling living room | ORANGEVALE, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route; Insufficient package availability evidence |
-| AREA: R03:  REMOVING 2 EXTERIOR WALLS AND (1) INTERIOR WALL. ADDITION O | FAIR OAKS, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R04:  23.76kW PV + ESS Installation | CARMICHAEL, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| AREA: R05:  Demolish existing roof/deck structures around stairs and re | CARMICHAEL, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R10:  Non-structural reroofing, will replace tile roofing, underl | WILTON, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| TI (INTERIOR DEMO) - 5411 LUCE AVE (BLDG242) | MCCLELLAN, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R01:  NEW PHOTOVOLTAIC SYSTEM 9.24 KW DC/11.50 KW AC, WITH ESS | ANTELOPE, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation A- Lot 9 | LOT# 9, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8 | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| AREA: R03:  Replace all windows & install siding on front of home | FAIR OAKS, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route; Insufficient package availability evidence |
-| AREA: R06:  remodel/alteration | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| AREA: R05:  Siding and window replacement. | CARMICHAEL, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route; Insufficient package availability evidence |
-| AREA: R01:  proposed 28'x40' pre fab metal ag storage building | ANTELOPE, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| AREA: R01:  Magnolia	1184	70 Entry porch 134 Rear porch | NORTH HIGHLANDS, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| REROOF PROJECT-DWELLING; Re-roof or Overlay Only. | SACRAMENTO, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R06:  bathroom remodel | SACRAMENTO, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| AREA: R03:  SolarApp \| SA20260325-2133-109-15606-B \| 10.250kW PV Roof M | ORANGEVALE, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R06:  House Addition-Remodel | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| DEMO (SHED) - 2736 AUBURN BLVD | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| REPAIR (PATIO w/ FOOTINGS) - 609 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| AREA: R04:  HOLBUS DECK | FAIR OAKS, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| AREA: R10:  add a mobile home to be used as an ADU | WILTON, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R08:  Kitchen and Living Room Remodel | SACRAMENTO, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| AREA: R07:  DETACHED ADU | SACRAMENTO, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R04:  Install new in ground pool & spa | FAIR OAKS, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route; Insufficient package availability evidence |
-| TI (3xINTERIOR REMODEL) - 533 PAVILIONS LN | SACRAMENTO, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| SOLAR : AREA: R03: Blossom Ridge-Plan 2704-Elevation C-Lot 11 | LOT# 11, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| AREA: R02:  SolarApp \| SA20260316-2133-87-15606-B \| 18.450kW PV Roof Mo | SACRAMENTO, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| EVCS (8 CHARGERS) - 6019 FAIR OAKS BLVD | CARMICHAEL, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R08:  7.38kW DC PV roof mount w/ 1 Tesla PW3 | SACRAMENTO, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R10:  Installation of accessory structure | GALT, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| SOLAR : AREA: R10:  Construction of a new single family residence | Sacramento, Sacramento County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| AREA: R10:  AREA: R10:  Minor fire damage repair to sunroom | HERALD, Sacramento County, CA | 60% | General Contractor Candidate | 3 | No actionable contact route |
-| RIVARD -DECK DEMO | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| Hopkins Village - Lot 29 ***DIGITAL REVIEW*** | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Hopkins Village - Lot 35 ***DIGITAL REVIEW*** | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| BORRET HVAC C/O | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| FITZGERALD HVAC | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| BREWER - DETACHED GARAGE | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Indian Hill Condo - Deck Rail replacement | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| GARCIA - REMODEL / CONVERSION | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Ko - Garage Addition***Digital Submittal*** | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Campbell-Reroof | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| WOLFE - SOLAR RM / ESS | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| EMERSON - HVAC C/O | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| HAM - ENERGY STORAGE | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| SCHAEFER- HVAC CHANGE OUT | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Garcia - HVAC C/O LIKE FOR LIKE | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| MONSOUR - DECK ADDITION AND REBUILD | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| Baldetti Deck Addition | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| SPRINGHILL SUITES SIGN AND ROCK WALL | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| TNHC - EUREKA GROVE - THE COTTAGES - MASTER PLAN #1 LOT 47 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Placer Vineyards - Property IB - Molise - Lot 205 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| LENNAR HOMES - Molise - PLACER VINEYARDS 1B - MASTER PLAN #3  Lot 213 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS -  LOT 84 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| KOLAR- SFD  ***DIGITAL REVIEW*** | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| GATZ - ADDITION | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| LOCKE MECHANICAL | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| BEHRENS - SINGLE FAMILY DWELLING   PAPER SUBMITTAL | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| GOLD WATER HEATER | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| RICHARDS WATER PLUMBING REPLACEMENT | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| PRESBYTERIAN CHURCH PATIO COVER | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| BLACKWELL SHED | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| Lieberman Addition | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| FECHNER - SFD    ****PAPER REVIEW**** | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Pinyon Creek II  Unit 13 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| JAEGAR GARAGE | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| MASTER PLAN Placer Vineyards 1A - 2756 Plan #11 | Roseville, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Gallery - Detached Garage | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| MASTER PLAN Placer Vineyards 1A - 2579 Plan #10 | Roseville, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Pinyon Creek II  Unit 6-C2 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| CARROLL - ADDITION / REMODEL | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| NEAL ADDITION | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| CAMERON ELECTRICAL UPGRADE | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| ESSY STORAGE BUILDING | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| CHEN - Ground mount solar project | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Blakely Remodel/Addition***Digital Submittal*** | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| HOLZMULLER RM SOLAR | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Hopkins Village - Unit 42 ***DIGITAL REVIEW*** | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| TNHC - EUREKA GROVE - THE COTTAGES - MASTER PLAN # 2 LOT 46 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| LEVCO - DETACHED GARAGE | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Gist Covered Entry | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| FRANSCELLA - POOL | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| POTTER - RESIDENTIAL REROOF | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| NEVADA WAY PROPERTIES SIDING REPAIR | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| Icenogle - SFD | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| Hopkins Village - Unit 16 ***DIGITAL REVIEW*** | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| YALANJI  STUCCO REPAIR | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| DURK POOL | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Rodriggs DEMO ** Paper Plans** | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| 6980 WLB LLC - SFD, Lot #5 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Village Walk Townhomes Unit #21 ***DIGITAL REVIEW*** | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| HECKENDORN - POOL SOLAR | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| HURLEY ADDITION | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| ALVAREZ-GENERATOR    ****DIGITAL REVIEW**** | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| BOCO- HVAC C/O | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| KOPP - UNDERGROUND ELECTRICAL SERVICE | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Village Walk Townhomes Unit #27 ******DIGITAL REVIEW***** | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| ANDREWS - ELECTRICAL | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| WOODSIDE HOMES - BRADY VINEYARDS - MASTER PLAN #6 - LOT 98 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| Emilia - Lot 63 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| MARIOPSA LOT 44 MASTER PLAN 2  / ELEV A / GAR R | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority; Insufficient package availability evidence |
-| Lennar Homes - Emilia  - Placer Vineyards Property 1A  MASTER PLAN #9 Lot 124 | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
-| SAEED - SOLAR RM | Placer County, Placer County, CA | 0% | Unknown | 3 | No actionable contact route; Unknown awarding authority |
+| Project | Location | State | Qualification | Access Score | Fence Probability | Developer | GC | Entry Method | Access Route | Next Step |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Gerber Creek Re-Alignment | South Sacramento | Actionable Opportunity | 78 | 82 | 22% | Lennar Homes of California | Lund Construction Co | Trade Partner Registration | trade_partner: https://www.lennar.com/contact/business-inquiry | Open https://www.lennar.com/contact/business-inquiry and submit a trade partner/business inquiry for Twin Rivers Fence referencing Gerber Creek Re-Alignment. |
+| SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8 | SACRAMENTO, Sacramento County, CA | Actionable Opportunity | 70 | 82 | 82% | Lennar Homes of California | Unknown | Trade Partner Registration | trade_partner: https://www.lennar.com/contact/business-inquiry | Open https://www.lennar.com/contact/business-inquiry and submit a trade partner/business inquiry for Twin Rivers Fence referencing SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8. |
+| SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation A- Lot 9 | LOT# 9, Sacramento County, CA | Actionable Opportunity | 62 | 72 | 82% | Lennar Homes of California | Unknown | Trade Partner Registration | trade_partner: https://www.lennar.com/contact/business-inquiry | Register through Lennar Homes of California's trade partner route: https://www.lennar.com/contact/business-inquiry. |
+| Northlake 36 Homes | North Natomas, Sacramento | Actionable Opportunity | 52 | 72 | 22% | Lennar Homes of California | Unknown | Trade Partner Registration | trade_partner: https://www.lennar.com/contact/business-inquiry | Register through Lennar Homes of California's trade partner route: https://www.lennar.com/contact/business-inquiry. |
+| Northlake Lakelet | North Natomas, Sacramento | Actionable Opportunity | 52 | 72 | 22% | Lennar Homes of California | Unknown | Trade Partner Registration | trade_partner: https://www.lennar.com/contact/business-inquiry | Register through Lennar Homes of California's trade partner route: https://www.lennar.com/contact/business-inquiry. |
+| Gerber Creek and Lelani Village Subdivisions | Sacramento County | Actionable Opportunity | 49 | 72 | 22% | Lennar Homes of California | Unknown | Trade Partner Registration | trade_partner: https://www.lennar.com/contact/business-inquiry | Register through Lennar Homes of California's trade partner route: https://www.lennar.com/contact/business-inquiry. |
+| Gerber Creek Unit 1 and Unit 2 | Sacramento County | Actionable Opportunity | 49 | 72 | 22% | Lennar Homes of California | Unknown | Trade Partner Registration | trade_partner: https://www.lennar.com/contact/business-inquiry | Register through Lennar Homes of California's trade partner route: https://www.lennar.com/contact/business-inquiry. |
+| Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village | Sacramento County | Actionable Opportunity | 49 | 72 | 22% | Lennar Homes of California | Unknown | Trade Partner Registration | trade_partner: https://www.lennar.com/contact/business-inquiry | Register through Lennar Homes of California's trade partner route: https://www.lennar.com/contact/business-inquiry. |
+| Trunk Drainage Facilities Zone 11A | Sacramento County | Actionable Opportunity | 49 | 72 | 22% | Lennar Homes of California | Unknown | Trade Partner Registration | trade_partner: https://www.lennar.com/contact/business-inquiry | Register through Lennar Homes of California's trade partner route: https://www.lennar.com/contact/business-inquiry. |
+| 326 squares TPO overlay | SACRAMENTO, Sacramento County, CA | Research Required | 74 | 64 | 12% | Unknown | ADVANCED ROOF DESIGN INC | General Contact Route | general_contact: https://caanet.org/industry-directory/advanced-roof-design-inc/ | Call Tim Balbi at (916)381-2266 about 326 squares TPO overlay; reference the source record and ask who handles subcontractor pricing. |
+| install TPO over existing capsheet | FAIR OAKS, Sacramento County, CA | Research Required | 74 | 64 | 12% | Unknown | ADVANCED ROOF DESIGN INC | General Contact Route | general_contact: https://caanet.org/industry-directory/advanced-roof-design-inc/ | Call Tim Balbi at (916)381-2266 about install TPO over existing capsheet; reference the source record and ask who handles subcontractor pricing. |
+| AREA: R04:  Rear house addition. | CARMICHAEL, Sacramento County, CA | Research Required | 70 | 64 | 82% | Unknown | WATERS CONSTRUCTION COMPANY LLC | General Contact Route | general_contact: https://watersconco.com/ | Open https://watersconco.com/ and use the source-backed contact route to ask who handles subcontractor or fencing estimates for AREA: R04:  Rear house addition. |
+| install PVC membrane over existing roof | ELVERTA, Sacramento County, CA | Research Required | 56 | 44 | 22% | Unknown | DURAMAX ROOFING INC | General Contact Route | general_contact: https://duramaxroofing.net/contact | Use DURAMAX ROOFING INC's source-backed access route and ask how contractors enter install PVC membrane over existing roof: https://duramaxroofing.net/contact. |
+| NEW (GATES) - 7575 POWER INN RD | APT# 1, Sacramento County, CA | Research Required | 47 | 32 | 100% | Unknown | ALLTECH GATES AND ENTRY CONTROLS INC | General Contact Route | general_contact: https://ru.scribd.com/document/746633276/inbound3501281419727076426 | Use ALLTECH GATES AND ENTRY CONTROLS INC's source-backed access route and ask how contractors enter NEW (GATES) - 7575 POWER INN RD: https://ru.scribd.com/document/746633276/inbound3501281419727076426. |
+| Like for Like 4 roof top Package unit change out | SACRAMENTO, Sacramento County, CA | Research Required | 33 | 32 | 22% | Unknown | FAMAND INC | General Contact Route | general_contact: https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5 | Use FAMAND INC's source-backed access route and ask how contractors enter Like for Like 4 roof top Package unit change out: https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5. |
+| AREA: R01:  proposed 28'x40' pre fab metal ag storage building | ANTELOPE, Sacramento County, CA | Opportunity | 44 | 0 | 82% | Unknown | AMERICAN BUILDINGS J&S | Subcontractor Intake Research | Unknown | Research AMERICAN BUILDINGS J&S's subcontractor intake path before outreach. |
+| AREA: R04:  HOLBUS DECK | FAIR OAKS, Sacramento County, CA | Opportunity | 44 | 0 | 82% | Unknown | DEOME 2 BUILDERS INC | Subcontractor Intake Research | Unknown | Research DEOME 2 BUILDERS INC's subcontractor intake path before outreach. |
+| AREA: R06:  House Addition-Remodel | SACRAMENTO, Sacramento County, CA | Opportunity | 44 | 0 | 82% | Unknown | GROUP ONE BUILDERS INC | Subcontractor Intake Research | Unknown | Research GROUP ONE BUILDERS INC's subcontractor intake path before outreach. |
+| AREA: R06:  New Home Construction | SACRAMENTO, Sacramento County, CA | Opportunity | 44 | 0 | 82% | Unknown | KENNETH DEVELOPMENT INC | Subcontractor Intake Research | Unknown | Research KENNETH DEVELOPMENT INC's subcontractor intake path before outreach. |
+| AREA: R10:  AREA: R10:  Minor fire damage repair to sunroom | HERALD, Sacramento County, CA | Opportunity | 44 | 0 | 82% | Unknown | KUSTOM US INC | Subcontractor Intake Research | Unknown | Research KUSTOM US INC's subcontractor intake path before outreach. |
+| AREA: R10:  Installation of accessory structure | GALT, Sacramento County, CA | Opportunity | 44 | 0 | 82% | Unknown | AMERICAN CARPORTS INC | Subcontractor Intake Research | Unknown | Research AMERICAN CARPORTS INC's subcontractor intake path before outreach. |
+| DEMO (SHED) - 2736 AUBURN BLVD | SACRAMENTO, Sacramento County, CA | Opportunity | 44 | 0 | 82% | Unknown | VEERKAMP DOUG GENERAL ENGINEERING INC | Subcontractor Intake Research | Unknown | Research VEERKAMP DOUG GENERAL ENGINEERING INC's subcontractor intake path before outreach. |
+| SOLAR : AREA: R03: Blossom Ridge-Plan 2704-Elevation C-Lot 11 | LOT# 11, Sacramento County, CA | Opportunity | 44 | 0 | 82% | Unknown | FDC NOR-CAL CORP | Subcontractor Intake Research | Unknown | Research FDC NOR-CAL CORP's subcontractor intake path before outreach. |
+| SOLAR : Solar PV Installation | CARMICHAEL, Sacramento County, CA | Opportunity | 44 | 0 | 82% | Unknown | SUNSOURCE INC | Subcontractor Intake Research | Unknown | Research SUNSOURCE INC's subcontractor intake path before outreach. |
+| AREA: R01:  Magnolia	1184	70 Entry porch 134 Rear porch | NORTH HIGHLANDS, Sacramento County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| AREA: R07:  DETACHED ADU | SACRAMENTO, Sacramento County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation | SACRAMENTO, Sacramento County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation | SACRAMENTO, Sacramento County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| AREA: R07:  Repairs After Fire Damage | SACRAMENTO, Sacramento County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| BEHRENS - SINGLE FAMILY DWELLING   PAPER SUBMITTAL | Placer County, Placer County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| Blakely Remodel/Addition***Digital Submittal*** | Placer County, Placer County, CA | Opportunity | 32 | 0 | 72% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| GARCIA - REMODEL / CONVERSION | Placer County, Placer County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143 | Placer County, Placer County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| HAM - ENERGY STORAGE | Placer County, Placer County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| Hopkins Village - Lot 29 ***DIGITAL REVIEW*** | Placer County, Placer County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| HURLEY ADDITION | Placer County, Placer County, CA | Opportunity | 32 | 0 | 72% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| Ko - Garage Addition***Digital Submittal*** | Placer County, Placer County, CA | Opportunity | 32 | 0 | 72% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241 | Placer County, Placer County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| LEVCO - DETACHED GARAGE | Placer County, Placer County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| Lieberman Addition | Placer County, Placer County, CA | Opportunity | 32 | 0 | 72% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| MASTER PLAN Placer Vineyards 1A - 2756 Plan #11 | Roseville, Placer County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS -  LOT 84 | Placer County, Placer County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE | Placer County, Placer County, CA | Opportunity | 32 | 0 | 72% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping | Placer County, Placer County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| POTTER - RESIDENTIAL REROOF | Placer County, Placer County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| PRESBYTERIAN CHURCH PATIO COVER | Placer County, Placer County, CA | Opportunity | 32 | 0 | 72% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| SOLAR : AREA: R10:  Construction of a new single family residence | Sacramento, Sacramento County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| TI (3xINTERIOR REMODEL) - 533 PAVILIONS LN | SACRAMENTO, Sacramento County, CA | Opportunity | 32 | 0 | 82% | Unknown | Unknown | Unknown | Unknown | Keep as an opportunity; find the awarding company or procurement workflow before outreach. |
+| AREA: R03:  Replace all windows & install siding on front of home | FAIR OAKS, Sacramento County, CA | Opportunity | 30 | 0 | 12% | Unknown | PHILLIP ISAACS' CONSTRUCTION INCORPORATED | Subcontractor Intake Research | Unknown | Research PHILLIP ISAACS' CONSTRUCTION INCORPORATED's subcontractor intake path before outreach. |
+| AREA: R04:  Install new in ground pool & spa | FAIR OAKS, Sacramento County, CA | Opportunity | 30 | 0 | 12% | Unknown | O'CONNOR POOL SOLUTIONS INC | Subcontractor Intake Research | Unknown | Research O'CONNOR POOL SOLUTIONS INC's subcontractor intake path before outreach. |
+| AREA: R05:  Siding and window replacement. | CARMICHAEL, Sacramento County, CA | Opportunity | 30 | 0 | 12% | Unknown | 3 GENERATIONS IMPROVEMENTS INC | Subcontractor Intake Research | Unknown | Research 3 GENERATIONS IMPROVEMENTS INC's subcontractor intake path before outreach. |
+| AREA: R06:  remodel/alteration | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 12% | Unknown | DYER CONSTRUCTION INC | Subcontractor Intake Research | Unknown | Research DYER CONSTRUCTION INC's subcontractor intake path before outreach. |
+| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 10 | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | ROBERT L SCHEID CONSTRUCTION | Subcontractor Intake Research | Unknown | Research ROBERT L SCHEID CONSTRUCTION's subcontractor intake path before outreach. |
+| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 11 | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | ROBERT L SCHEID CONSTRUCTION | Subcontractor Intake Research | Unknown | Research ROBERT L SCHEID CONSTRUCTION's subcontractor intake path before outreach. |
+| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 12 | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | ROBERT L SCHEID CONSTRUCTION | Subcontractor Intake Research | Unknown | Research ROBERT L SCHEID CONSTRUCTION's subcontractor intake path before outreach. |
+| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 2 | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | ROBERT L SCHEID CONSTRUCTION | Subcontractor Intake Research | Unknown | Research ROBERT L SCHEID CONSTRUCTION's subcontractor intake path before outreach. |
+| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 3 | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | ROBERT L SCHEID CONSTRUCTION | Subcontractor Intake Research | Unknown | Research ROBERT L SCHEID CONSTRUCTION's subcontractor intake path before outreach. |
+| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 4 | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | ROBERT L SCHEID CONSTRUCTION | Subcontractor Intake Research | Unknown | Research ROBERT L SCHEID CONSTRUCTION's subcontractor intake path before outreach. |
+| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 5 | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | ROBERT L SCHEID CONSTRUCTION | Subcontractor Intake Research | Unknown | Research ROBERT L SCHEID CONSTRUCTION's subcontractor intake path before outreach. |
+| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 6 | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | ROBERT L SCHEID CONSTRUCTION | Subcontractor Intake Research | Unknown | Research ROBERT L SCHEID CONSTRUCTION's subcontractor intake path before outreach. |
+| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 7 | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | ROBERT L SCHEID CONSTRUCTION | Subcontractor Intake Research | Unknown | Research ROBERT L SCHEID CONSTRUCTION's subcontractor intake path before outreach. |
+| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 8 | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | ROBERT L SCHEID CONSTRUCTION | Subcontractor Intake Research | Unknown | Research ROBERT L SCHEID CONSTRUCTION's subcontractor intake path before outreach. |
+| REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 9 | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | ROBERT L SCHEID CONSTRUCTION | Subcontractor Intake Research | Unknown | Research ROBERT L SCHEID CONSTRUCTION's subcontractor intake path before outreach. |
+| REPAIR (PATIO w/ FOOTINGS) - 609 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | A 1 ELECTRICAL | Subcontractor Intake Research | Unknown | Research A 1 ELECTRICAL's subcontractor intake path before outreach. |
+| REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | A 1 ELECTRICAL | Subcontractor Intake Research | Unknown | Research A 1 ELECTRICAL's subcontractor intake path before outreach. |
+| REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | A 1 ELECTRICAL | Subcontractor Intake Research | Unknown | Research A 1 ELECTRICAL's subcontractor intake path before outreach. |
+| REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | A 1 ELECTRICAL | Subcontractor Intake Research | Unknown | Research A 1 ELECTRICAL's subcontractor intake path before outreach. |
+| REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | A 1 ELECTRICAL | Subcontractor Intake Research | Unknown | Research A 1 ELECTRICAL's subcontractor intake path before outreach. |
+| REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | A 1 ELECTRICAL | Subcontractor Intake Research | Unknown | Research A 1 ELECTRICAL's subcontractor intake path before outreach. |
+| REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | A 1 ELECTRICAL | Subcontractor Intake Research | Unknown | Research A 1 ELECTRICAL's subcontractor intake path before outreach. |
+| REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | A 1 ELECTRICAL | Subcontractor Intake Research | Unknown | Research A 1 ELECTRICAL's subcontractor intake path before outreach. |
+| REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | A 1 ELECTRICAL | Subcontractor Intake Research | Unknown | Research A 1 ELECTRICAL's subcontractor intake path before outreach. |
+| REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | A 1 ELECTRICAL | Subcontractor Intake Research | Unknown | Research A 1 ELECTRICAL's subcontractor intake path before outreach. |
+| REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA | SACRAMENTO, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | A 1 ELECTRICAL | Subcontractor Intake Research | Unknown | Research A 1 ELECTRICAL's subcontractor intake path before outreach. |
+| SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15. | ORANGEVALE, Sacramento County, CA | Opportunity | 30 | 0 | 22% | Unknown | CALIFORNIA RENEWABLE ENERGY | Subcontractor Intake Research | Unknown | Research CALIFORNIA RENEWABLE ENERGY's subcontractor intake path before outreach. |

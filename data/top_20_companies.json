@@ -12,7 +12,11 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-robert-l-scheid-construction",
@@ -27,7 +31,11 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-lennar-homes-of-california",
@@ -41,8 +49,12 @@
     "needs_research_opportunities": 7,
     "best_procurement_path": "trade_partner",
     "confidence": 0.75,
-    "actionable_opportunities": 2,
-    "relationship_count": 10
+    "actionable_opportunities": 9,
+    "relationship_count": 10,
+    "entry_method": "Trade Partner Registration",
+    "access_score": 100,
+    "access_routes": 2,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-advanced-roof-design",
@@ -56,8 +68,12 @@
     "needs_research_opportunities": 0,
     "best_procurement_path": "general_contact",
     "confidence": 0.89,
-    "actionable_opportunities": 2,
-    "relationship_count": 0
+    "actionable_opportunities": 0,
+    "relationship_count": 0,
+    "entry_method": "General Contact Route",
+    "access_score": 100,
+    "access_routes": 1,
+    "research_required_opportunities": 2
   },
   {
     "company_profile_id": "company-kevin-l-cook-architect",
@@ -71,8 +87,12 @@
     "needs_research_opportunities": 2,
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
-    "actionable_opportunities": 0,
-    "relationship_count": 4
+    "actionable_opportunities": 2,
+    "relationship_count": 4,
+    "entry_method": "Unknown",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-waters-construction",
@@ -86,8 +106,12 @@
     "needs_research_opportunities": 0,
     "best_procurement_path": "general_contact",
     "confidence": 0.89,
-    "actionable_opportunities": 1,
-    "relationship_count": 0
+    "actionable_opportunities": 0,
+    "relationship_count": 0,
+    "entry_method": "General Contact Route",
+    "access_score": 100,
+    "access_routes": 1,
+    "research_required_opportunities": 1
   },
   {
     "company_profile_id": "company-alltech-gates-and-entry-controls",
@@ -102,7 +126,11 @@
     "best_procurement_path": "general_contact",
     "confidence": 0.57,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "General Contact Route",
+    "access_score": 72,
+    "access_routes": 1,
+    "research_required_opportunities": 1
   },
   {
     "company_profile_id": "company-duramax-roofing",
@@ -117,7 +145,11 @@
     "best_procurement_path": "general_contact",
     "confidence": 0.89,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "General Contact Route",
+    "access_score": 100,
+    "access_routes": 1,
+    "research_required_opportunities": 1
   },
   {
     "company_profile_id": "company-famand",
@@ -132,7 +164,11 @@
     "best_procurement_path": "general_contact",
     "confidence": 0.57,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "General Contact Route",
+    "access_score": 72,
+    "access_routes": 1,
+    "research_required_opportunities": 1
   },
   {
     "company_profile_id": "company-american-buildings-j-s",
@@ -147,7 +183,11 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-american-carports",
@@ -162,7 +202,11 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-deome-2-builders",
@@ -177,7 +221,11 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-fdc-nor-cal",
@@ -192,7 +240,11 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-group-one-builders",
@@ -207,7 +259,11 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-kenneth-development",
@@ -222,7 +278,11 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-kustom-us",
@@ -237,7 +297,11 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-sunsource",
@@ -252,7 +316,11 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-veerkamp-doug-general-engineering",
@@ -267,7 +335,11 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-lund-construction",
@@ -282,7 +354,11 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 1,
-    "relationship_count": 3
+    "relationship_count": 3,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   },
   {
     "company_profile_id": "company-3-generations-improvements",
@@ -297,6 +373,10 @@
     "best_procurement_path": "Unknown",
     "confidence": 0.35,
     "actionable_opportunities": 0,
-    "relationship_count": 0
+    "relationship_count": 0,
+    "entry_method": "Subcontractor Intake Research",
+    "access_score": 35,
+    "access_routes": 0,
+    "research_required_opportunities": 0
   }
 ]

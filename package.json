@@ -20,6 +20,7 @@
     "intelligence:behavior": "node scripts/build-behavior-intelligence.mjs",
     "intelligence:qualify": "node scripts/build-opportunity-qualification.mjs",
     "intelligence:actions": "node scripts/build-contractor-actions.mjs",
+    "intelligence:access": "node scripts/build-access-intelligence.mjs",
     "graph:relationships": "node scripts/build-relationship-graph.mjs",
     "graph:export": "tsx scripts/export-intelligence-graph.mjs",
     "graph:sync": "tsx scripts/sync-neo4j.mjs",

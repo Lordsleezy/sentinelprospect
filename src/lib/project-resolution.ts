@@ -2,6 +2,8 @@ import { generateOpportunities } from "./opportunities";
 import { isPlaceholderContact } from "./contact-quality";
 import type { CanonicalProjectOpportunity, ContactIntelligence, EvidenceRecord, Opportunity, ProjectDetail } from "./types";
 
+type AccessState = CanonicalProjectOpportunity["eligibility"]["access_state"];
+
 export const CONTACT_CONFIDENCE_THRESHOLD = 0.65;
 
 export function resolveCanonicalProject(project: ProjectDetail): CanonicalProjectOpportunity {
@@ -46,7 +48,7 @@ export function resolveCanonicalProjects(projects: ProjectDetail[]) {
 }
 
 export function getContractorVisibleProjects(projects: ProjectDetail[]) {
-  return resolveCanonicalProjects(projects).filter((item) => item.eligibility.contractor_visible);
+  return resolveCanonicalProjects(projects).filter((item) => item.eligibility.access_state !== "Opportunity" || item.evidence.length > 0);
 }
 
 export function canonicalProjectKey(project: ProjectDetail) {
@@ -64,7 +66,7 @@ export function isActionableContact(contact: ContactIntelligence) {
 function getEligibility(project: ProjectDetail, evidence: EvidenceRecord[], contacts: ContactIntelligence[], contactConfidence: number) {
   const missing: string[] = [];
   const reasons: string[] = [];
-  if (!contacts.length) missing.push("No actionable contact above confidence threshold");
+  if (!contacts.length) reasons.push("No source-backed phone or email yet; access route research may still make this usable.");
   else reasons.push(`Actionable contact found: ${contacts[0].company} (${Math.round(contactConfidence * 100)}% confidence)`);
   if (!evidence.length) missing.push("No supporting evidence");
   else reasons.push(`${evidence.length} evidence record(s) attached`);
@@ -72,11 +74,35 @@ function getEligibility(project: ProjectDetail, evidence: EvidenceRecord[], cont
   else reasons.push("Location is present");
   if (!project.name || !project.id) missing.push("Missing project identity");
   else reasons.push("Project identity is present");
+  const accessScore = getAccessScore(project, evidence, contacts);
+  const accessState = getAccessState(evidence, accessScore, contacts);
+  if (accessState === "Opportunity") reasons.push("Opportunity evidence exists, but no known access route is attached yet.");
+  if (accessState === "Research Required") reasons.push("Some access intelligence exists, but the contractor entry path is incomplete.");
+  if (accessState === "Actionable Opportunity") reasons.push("Known contact or access route gives a contractor a next step.");
   return {
-    contractor_visible: missing.length === 0,
+    contractor_visible: evidence.length > 0 && Boolean(project.name && project.id),
+    access_state: accessState,
+    access_score: accessScore,
     reasons,
     missing,
   };
+}
+
+function getAccessScore(project: ProjectDetail, evidence: EvidenceRecord[], contacts: ContactIntelligence[]) {
+  let score = 0;
+  if (contacts.length) score += 45;
+  if (evidence.length) score += Math.min(25, evidence.length * 8);
+  if (project.companies.length) score += 15;
+  if (project.signals.some((signal) => ["Planning Application", "Subdivision Filing", "Infrastructure Project", "Utility Expansion", "Permit"].includes(signal.signal_type))) score += 10;
+  if (project.source_url) score += 5;
+  return Math.min(100, score);
+}
+
+function getAccessState(evidence: EvidenceRecord[], accessScore: number, contacts: ContactIntelligence[]): AccessState {
+  if (contacts.length || accessScore >= 70) return "Actionable Opportunity";
+  if (accessScore >= 35) return "Research Required";
+  if (evidence.length) return "Opportunity";
+  return "Opportunity";
 }
 
 function mergeResolved(a: CanonicalProjectOpportunity, b: CanonicalProjectOpportunity): CanonicalProjectOpportunity {

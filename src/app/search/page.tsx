@@ -1,19 +1,15 @@
 import Link from "next/link";
-import { Clock3, Database, FileSearch, MapPin, Radar } from "lucide-react";
+import { Clock3, Database, FileSearch, MapPin, Radar, Route } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { AppShell } from "@/components/layout/app-shell";
 import { PageTitle } from "@/components/layout/page-title";
-import { ProjectResultCard } from "@/components/search/project-result-card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { getProject } from "@/lib/data";
-import { getNextAction, getOpportunityFitLabel, getSourceCoverage, scoreOpportunity } from "@/lib/intelligence";
-import { generateOpportunities } from "@/lib/opportunities";
-import { getContractorVisibleProjects } from "@/lib/project-resolution";
+import { getAccessSearchResults, type AccessOpportunity } from "@/lib/access-intelligence";
 import { globalSearch } from "@/lib/search";
-import type { Opportunity, OpportunityTrade } from "@/lib/types";
+import type { OpportunityTrade } from "@/lib/types";
 
 const popularSearches = [
   "Fence opportunities in Sacramento",
@@ -34,26 +30,14 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const params = await searchParams;
   const q = params.q ?? "";
   const results = await globalSearch(q);
-  const projectDetails = (await Promise.all(results.projects.map((project) => getProject(project.id)))).filter(Boolean);
-  const visibleProjects = getContractorVisibleProjects(projectDetails as NonNullable<typeof projectDetails[number]>[]).map((item) => item.project);
-  const desiredTrade = inferQueryTrade(q);
-  const wantsFastMoney = /\b(6 months|six months|90 days|fast money|starting|start)\b/i.test(q);
-  const ranked = visibleProjects
-    .map((project) => {
-      const generated = pickGeneratedOpportunity(project, desiredTrade, wantsFastMoney);
-      const opportunity = scoreOpportunity(project);
-      const evidenceBoost = (generated?.evidence.length ?? 0) * 2;
-      const tradeBoost = desiredTrade && generated?.trade === desiredTrade ? 25 : 0;
-      const horizonBoost = wantsFastMoney && generated?.horizon === "Fast Money" ? 20 : 0;
-      const rankScore = opportunity.score + Math.round((generated?.score ?? 0) * 0.35) + evidenceBoost + tradeBoost + horizonBoost;
-      return { project, opportunity, generated, rankScore };
-    })
-    .sort((a, b) => b.rankScore - a.rankScore);
+  const ranked = getAccessSearchResults(q);
   const top = ranked[0];
-  const generatedMatches = ranked.map((item) => item.generated).filter(Boolean) as Opportunity[];
-  const fastMoneyCount = generatedMatches.filter((item) => item.horizon === "Fast Money").length;
-  const pipelineCount = generatedMatches.filter((item) => item.horizon === "Pipeline").length;
-  const earlyCount = generatedMatches.filter((item) => item.horizon === "Early Signals").length;
+  const desiredTrade = inferQueryTrade(q);
+  const actionableCount = ranked.filter((item) => item.opportunity_state === "Actionable Opportunity").length;
+  const researchCount = ranked.filter((item) => item.opportunity_state === "Research Required").length;
+  const opportunityCount = ranked.filter((item) => item.opportunity_state === "Opportunity").length;
+  const fastMoneyCount = ranked.filter((item) => item.fast_money_potential === "High").length;
+  const fenceCount = ranked.filter((item) => item.fence_probability >= 50).length;
   const tradeLabel = desiredTrade ? `${desiredTrade.toLowerCase()} ` : "";
   const sourceCount = results.signals.length + results.permits.length + results.companies.length;
 
@@ -104,39 +88,39 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                     Sentinel Analysis
                   </div>
                   <h2 className="mt-2 text-2xl font-semibold tracking-tight text-zinc-950">
-                    {top ? `Found ${ranked.length} likely ${tradeLabel}opportunities. Top match: ${top.project.name}.` : "No likely opportunities found yet."}
+                    {top ? `Found ${ranked.length} ${tradeLabel}opportunities with access intelligence. Top match: ${top.project_name}.` : "No matching access intelligence found yet."}
                   </h2>
-                  {top?.generated ? (
+                  {top ? (
                     <div className="mt-3 space-y-2 text-sm leading-6 text-zinc-600">
-                      <p>Fast Money: {fastMoneyCount} | Pipeline: {pipelineCount} | Early Signals: {earlyCount}</p>
-                      <p><span className="font-semibold text-zinc-950">Why top match:</span> {analysisWhy(top.generated)}</p>
+                      <p>Actionable: {actionableCount} | Research Required: {researchCount} | Opportunity: {opportunityCount} | Fast Money: {fastMoneyCount} | Fence Signals: {fenceCount}</p>
+                      <p><span className="font-semibold text-zinc-950">How to get in:</span> {top.entry_method}. {top.recommended_next_step}</p>
                     </div>
                   ) : (
-                    <p className="mt-2 max-w-3xl text-sm leading-6 text-zinc-600">Try a trade plus a location, timing window, source, or project type so Sentinel can connect records into work.</p>
+                    <p className="mt-2 max-w-3xl text-sm leading-6 text-zinc-600">Try a trade plus a location, timing window, source, or project type. Sentinel no longer hides opportunities only because a phone number is unknown.</p>
                   )}
                 </div>
                 {top ? (
                   <div className="rounded-md border border-emerald-100 bg-emerald-50 p-4 md:w-64">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">{getOpportunityFitLabel(top.opportunity.score)}</p>
-                    <p className="mt-2 text-3xl font-semibold text-emerald-950">{top.generated?.score ?? top.opportunity.score}</p>
-                    <p className="mt-1 text-sm font-medium text-emerald-900">{top.generated?.horizon ?? top.opportunity.timingFit}</p>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">{top.opportunity_state}</p>
+                    <p className="mt-2 text-3xl font-semibold text-emerald-950">{top.access_score}</p>
+                    <p className="mt-1 text-sm font-medium text-emerald-900">Access Score</p>
                   </div>
                 ) : null}
               </div>
               {top ? (
                 <div className="mt-5 grid gap-3 md:grid-cols-3">
-                  <AnalysisFact icon={Clock3} label="Timing" value={top.opportunity.timeline} />
-                  <AnalysisFact icon={MapPin} label="Location" value={`${top.project.city}, ${top.project.county}`} />
-                  <AnalysisFact icon={FileSearch} label="Next Action" value={top.generated?.nextAction ?? getNextAction(top.project)} />
+                  <AnalysisFact icon={Clock3} label="Fast Money" value={top.fast_money_potential} />
+                  <AnalysisFact icon={MapPin} label="Location" value={`${top.city}, ${top.county}`} />
+                  <AnalysisFact icon={Route} label="Entry Method" value={top.entry_method} />
                 </div>
               ) : null}
             </section>
-            {ranked.length ? ranked.map(({ project }) => <ProjectResultCard key={project.id} project={project} />) : (
+            {ranked.length ? ranked.map((opportunity) => <AccessOpportunityCard key={opportunity.id} opportunity={opportunity} />) : (
               <Card>
-                <CardHeader><h2 className="font-semibold">No contractor-visible opportunities yet</h2></CardHeader>
+                <CardHeader><h2 className="font-semibold">No matching access intelligence yet</h2></CardHeader>
                 <CardContent className="space-y-2 text-sm text-zinc-600">
-                  <p>Matching records may exist internally, but Sentinel Prospects now hides records without actionable contact intelligence.</p>
-                  <p>No contact = no opportunity. Enrich contact data before this appears in contractor-facing results.</p>
+                  <p>Sentinel searches opportunities, research-required leads, and actionable access routes. No phone number is required for an opportunity to appear.</p>
+                  <p>Try broader terms such as subdivision fencing, utility expansion, public works fencing, or perimeter security.</p>
                 </CardContent>
               </Card>
             )}
@@ -148,24 +132,17 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                 <p className="mt-1 text-sm text-zinc-500">Prioritized by fit, timing, and evidence.</p>
               </CardHeader>
               <CardContent className="space-y-4">
-                {ranked.slice(0, 4).map(({ project, opportunity }, index) => (
-                  <div key={project.id} className="rounded-md border border-zinc-100 p-3">
-                    <Link href={`/projects/${project.id}`} className="font-semibold underline">{index + 1}. {project.name}</Link>
+                {ranked.slice(0, 4).map((opportunity, index) => (
+                  <div key={opportunity.id} className="rounded-md border border-zinc-100 p-3">
+                    <p className="font-semibold">{index + 1}. {opportunity.project_name}</p>
                     <div className="mt-2 flex flex-wrap gap-2">
-                      <Badge className="border-zinc-950 bg-zinc-950 text-white">{opportunity.score}</Badge>
-                      <Badge className="border-emerald-200 bg-emerald-50 text-emerald-700">{opportunity.timingFit}</Badge>
+                      <Badge className="border-zinc-950 bg-zinc-950 text-white">Access {opportunity.access_score}</Badge>
+                      <Badge className="border-emerald-200 bg-emerald-50 text-emerald-700">{opportunity.opportunity_state}</Badge>
                     </div>
                     <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Why</p>
-                    <ul className="mt-1 space-y-1 text-sm text-zinc-600">
-                      {opportunity.reasons.slice(0, 4).map((reason) => <li key={reason}>+ {reason}</li>)}
-                    </ul>
+                    <p className="mt-1 text-sm text-zinc-600">{opportunity.entry_method}. Qualification {opportunity.qualification_score}, fence probability {opportunity.fence_probability}%.</p>
                     <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Sources</p>
-                    <p className="mt-1 text-sm text-zinc-600">{getSourceCoverage(project).join(", ")}</p>
-                    <div className="mt-2 flex flex-wrap gap-2">
-                      {opportunity.evidence.slice(0, 2).map((item) => (
-                        <Link key={item.label} href={item.href} className="text-xs font-medium underline">Evidence: {item.label}</Link>
-                      ))}
-                    </div>
+                    <Link href={opportunity.source_url} className="mt-1 block text-sm font-medium underline">Evidence source</Link>
                   </div>
                 ))}
               </CardContent>
@@ -187,9 +164,10 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
               <CardContent className="space-y-2 text-sm text-zinc-600">
                 <p>Permits and permit status</p>
                 <p>Planning and subdivision signals</p>
+                <p>Access routes and procurement workflows</p>
                 <p>Public works and bid-style terms</p>
                 <p>Developers, builders, and contractors</p>
-                <p>Timing language such as six months</p>
+                <p>Fence-adjacent terms like utility, perimeter, gate, subdivision, and site work</p>
               </CardContent>
             </Card>
           </aside>
@@ -198,6 +176,53 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
         <Card><CardContent><p className="text-sm text-zinc-500">Search for a trade, place, source, project type, or timing window. Sentinel will return ranked opportunities instead of a raw record list.</p></CardContent></Card>
       )}
     </AppShell>
+  );
+}
+
+function AccessOpportunityCard({ opportunity }: { opportunity: AccessOpportunity }) {
+  return (
+    <article className="rounded-lg border border-zinc-200 bg-white p-5 shadow-sm hover:border-zinc-300">
+      <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+        <div className="min-w-0">
+          <p className="mb-2 text-sm font-semibold text-emerald-700">{opportunity.opportunity_state}</p>
+          <h3 className="text-xl font-semibold text-zinc-950">{opportunity.project_name}</h3>
+          <div className="mt-2 flex flex-wrap gap-2">
+            <Badge className="border-zinc-950 bg-zinc-950 text-white">Access {opportunity.access_score}</Badge>
+            <Badge>Qualification {opportunity.qualification_score}</Badge>
+            <Badge>Fence Probability {opportunity.fence_probability}%</Badge>
+            <Badge>{opportunity.fast_money_potential} Fast Money</Badge>
+          </div>
+          <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-3">
+            <AnalysisDatum label="Project" value={opportunity.project_name} />
+            <AnalysisDatum label="Developer" value={opportunity.developer} />
+            <AnalysisDatum label="GC" value={opportunity.general_contractor} />
+            <AnalysisDatum label="Architect" value={opportunity.architect} />
+            <AnalysisDatum label="Procurement Route" value={opportunity.procurement_route} />
+            <AnalysisDatum label="Entry Method" value={opportunity.entry_method} />
+            <AnalysisDatum label="Access Route" value={opportunity.access_route} />
+            <AnalysisDatum label="Trade" value={opportunity.trade} />
+            <AnalysisDatum label="Location" value={`${opportunity.city}, ${opportunity.county}`} />
+          </dl>
+          <div className="mt-4 rounded-md border border-emerald-100 bg-emerald-50 p-3">
+            <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Recommended Next Step</p>
+            <p className="mt-2 text-sm font-medium leading-6 text-emerald-950">{opportunity.recommended_next_step}</p>
+          </div>
+        </div>
+        <Link href={opportunity.source_url} className="inline-flex shrink-0 items-center justify-center gap-2 rounded-md bg-zinc-950 px-4 py-2 text-sm font-medium text-white">
+          Evidence
+          <FileSearch className="size-4" />
+        </Link>
+      </div>
+    </article>
+  );
+}
+
+function AnalysisDatum({ label, value }: { label: string; value: string | number | boolean }) {
+  return (
+    <div>
+      <dt className="text-xs font-semibold uppercase tracking-wide text-zinc-500">{label}</dt>
+      <dd className="mt-1 break-words font-medium text-zinc-800">{String(value || "Unknown")}</dd>
+    </div>
   );
 }
 
@@ -211,22 +236,6 @@ function inferQueryTrade(query: string): OpportunityTrade | null {
   if (q.includes("landscap")) return "Landscaping";
   if (q.includes("site work") || q.includes("utility")) return "Site work";
   return null;
-}
-
-function pickGeneratedOpportunity(project: NonNullable<Awaited<ReturnType<typeof getProject>>>, desiredTrade: OpportunityTrade | null, wantsFastMoney: boolean) {
-  const generated = generateOpportunities(project);
-  const matchingTrade = desiredTrade ? generated.find((item) => item.trade === desiredTrade) : null;
-  if (matchingTrade && (!wantsFastMoney || matchingTrade.horizon === "Fast Money")) return matchingTrade;
-  if (matchingTrade) return matchingTrade;
-  if (wantsFastMoney) return generated.find((item) => item.horizon === "Fast Money") ?? generated[0];
-  return generated[0];
-}
-
-function analysisWhy(opportunity: Opportunity) {
-  const tradeReason = opportunity.trade_evidence?.[0]?.reason;
-  const scoreReason = opportunity.score_explanations.find((item) => item.points > 0)?.reason;
-  const source = opportunity.evidence.find((item) => item.record_type === "source_record")?.source_name;
-  return [tradeReason, scoreReason, source ? `Source: ${source}.` : ""].filter(Boolean).join(" ");
 }
 
 function AnalysisFact({ icon: Icon, label, value }: { icon: LucideIcon; label: string; value: string }) {

@@ -209,6 +209,8 @@ export type CanonicalProjectOpportunity = {
   resolution_confidence: number;
   eligibility: {
     contractor_visible: boolean;
+    access_state: "Opportunity" | "Research Required" | "Actionable Opportunity";
+    access_score: number;
     reasons: string[];
     missing: string[];
   };

@@ -1,0 +1,46 @@
+[
+  {
+    "company_name": "Lennar Homes of California",
+    "contacts": [
+      {
+        "name": "Lennar Sacramento Division",
+        "title": "Regional Office",
+        "phone": "(916) 746-8515",
+        "email": null,
+        "contact_type": "regional",
+        "confidence": 0.85,
+        "source": "Roseville Area Chamber of Commerce directory",
+        "source_url": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+        "evidence": [
+          "Directory lists Lennar Homes in Roseville with office address and phone number."
+        ]
+      },
+      {
+        "name": "Lennar Sacramento New Home Consultant",
+        "title": "Sales Office",
+        "phone": "(916) 304-9711",
+        "email": null,
+        "contact_type": "sales",
+        "confidence": 0.75,
+        "source": "Lennar Northlake community page",
+        "source_url": "https://www.lennar.com/new-homes/california/sacramento/sacramento/northlake",
+        "evidence": [
+          "Lennar Northlake page lists a Sacramento sales phone for speaking with a consultant."
+        ]
+      },
+      {
+        "name": null,
+        "title": "Business Inquiry",
+        "phone": null,
+        "email": null,
+        "contact_type": "trade_partner",
+        "confidence": 0.55,
+        "source": "Lennar business inquiry form",
+        "source_url": "https://www.lennar.com/contact/business-inquiry",
+        "evidence": [
+          "Business inquiry form states that the appropriate Lennar associate will contact the submitter."
+        ]
+      }
+    ]
+  }
+]

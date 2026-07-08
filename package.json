@@ -21,6 +21,7 @@
     "intelligence:qualify": "node scripts/build-opportunity-qualification.mjs",
     "intelligence:actions": "node scripts/build-contractor-actions.mjs",
     "intelligence:access": "node scripts/build-access-intelligence.mjs",
+    "intelligence:human-contacts": "node scripts/build-human-contacts.mjs",
     "graph:relationships": "node scripts/build-relationship-graph.mjs",
     "graph:export": "tsx scripts/export-intelligence-graph.mjs",
     "graph:sync": "tsx scripts/sync-neo4j.mjs",

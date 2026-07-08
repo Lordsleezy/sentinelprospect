@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Table, Td, Th } from "@/components/ui/table";
 import { getProject } from "@/lib/data";
+import { formatHumanContact, getOpportunityHumanContactForProject, type HumanContact } from "@/lib/human-contact-discovery";
 import { contactRoleLabels, getPrimaryContact, getProjectSize, scoreOpportunity, statusStages } from "@/lib/intelligence";
 import { generateOpportunities } from "@/lib/opportunities";
 import { resolveCanonicalProject } from "@/lib/project-resolution";
@@ -27,6 +28,8 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
   const resolved = resolveCanonicalProject(project);
   const generatedOpportunities = generateOpportunities(project);
   const primaryGeneratedOpportunity = generatedOpportunities[0];
+  const humanContactRoute = getOpportunityHumanContactForProject(project.id, project.name);
+  const bestHumanContact = humanContactRoute?.best_contact ?? null;
   const currentStageIndex = statusStages.indexOf(project.status);
 
   return (
@@ -81,6 +84,44 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
       </Card>
 
       <div className="space-y-5">
+          <Card className="border-sky-200 bg-sky-50">
+            <CardHeader>
+              <h2 className="text-base font-semibold">Best Available Contact</h2>
+              <p className="mt-1 text-sm text-sky-900">Highest-ranked source-backed route for reaching a human before falling back to procurement access.</p>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              {bestHumanContact ? (
+                <>
+                  <div className="grid gap-3 md:grid-cols-4">
+                    <HeaderFact label="Contact" value={formatHumanContact(bestHumanContact)} strong />
+                    <HeaderFact label="Company" value={bestHumanContact.company} />
+                    <HeaderFact label="Contact Type" value={humanizeContactType(bestHumanContact.contactType)} />
+                    <HeaderFact label="Confidence" value={`${Math.round(bestHumanContact.confidence * 100)}%`} strong={bestHumanContact.confidence >= 0.8} />
+                  </div>
+                  <div className="flex flex-wrap gap-2 text-sm">
+                    {bestHumanContact.phone ? <span className="inline-flex items-center gap-2 rounded-md bg-white px-3 py-2 font-medium text-sky-950"><Phone className="size-4" /> {bestHumanContact.phone}</span> : null}
+                    {bestHumanContact.email ? <span className="inline-flex items-center gap-2 rounded-md bg-white px-3 py-2 font-medium text-sky-950"><Mail className="size-4" /> {bestHumanContact.email}</span> : null}
+                    {bestHumanContact.source.startsWith("http") ? (
+                      <a href={bestHumanContact.source} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-md bg-white px-3 py-2 font-medium text-sky-950 underline">
+                        <ExternalLink className="size-4" />
+                        Source
+                      </a>
+                    ) : null}
+                  </div>
+                  <p className="text-sm leading-6 text-sky-950">{humanContactRoute?.recommended_next_step}</p>
+                  {bestHumanContact.evidence.length ? <p className="text-sm text-sky-900">Evidence: {bestHumanContact.evidence[0]}</p> : null}
+                </>
+              ) : (
+                <div className="grid gap-3 md:grid-cols-[1fr_2fr]">
+                  <HeaderFact label="Contact" value="Unknown" />
+                  <p className="text-sm leading-6 text-sky-900">
+                    No source-backed human contact is available yet. Use the known access route or continue research before direct outreach.
+                  </p>
+                </div>
+              )}
+            </CardContent>
+          </Card>
+
           <Card>
             <CardHeader>
               <h2 className="text-base font-semibold">Opportunity Analysis</h2>
@@ -388,6 +429,10 @@ function HeaderFact({ label, value, strong }: { label: string; value: string; st
       <p className="mt-1 truncate font-semibold" title={value}>{value}</p>
     </div>
   );
+}
+
+function humanizeContactType(value: HumanContact["contactType"]) {
+  return value.replace("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
 function ContactLine({ icon, value }: { icon: React.ReactNode; value: string | null }) {

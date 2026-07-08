@@ -1,0 +1,546 @@
+[
+  {
+    "company_profile_id": "company-a-1-electrical",
+    "company": "A 1 ELECTRICAL",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "company": "ROBERT L SCHEID CONSTRUCTION",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-lennar-homes-of-california",
+    "company": "Lennar Homes of California",
+    "company_type": "Developer",
+    "best_contact": {
+      "name": "Lennar Sacramento Division",
+      "title": "Regional Office",
+      "company": "Lennar Homes of California",
+      "phone": "(916) 746-8515",
+      "contactType": "regional",
+      "confidence": 0.85,
+      "source": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+      "evidence": [
+        "Directory lists Lennar Homes in Roseville with office address and phone number."
+      ]
+    },
+    "contacts": [
+      {
+        "name": "Lennar Sacramento Division",
+        "title": "Regional Office",
+        "company": "Lennar Homes of California",
+        "phone": "(916) 746-8515",
+        "contactType": "regional",
+        "confidence": 0.85,
+        "source": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+        "evidence": [
+          "Directory lists Lennar Homes in Roseville with office address and phone number."
+        ]
+      },
+      {
+        "name": "Lennar Sacramento New Home Consultant",
+        "title": "Sales Office",
+        "company": "Lennar Homes of California",
+        "phone": "(916) 304-9711",
+        "contactType": "sales",
+        "confidence": 0.75,
+        "source": "https://www.lennar.com/new-homes/california/sacramento/sacramento/northlake",
+        "evidence": [
+          "Lennar Northlake page lists a Sacramento sales phone for speaking with a consultant."
+        ]
+      },
+      {
+        "title": "Business Inquiry",
+        "company": "Lennar Homes of California",
+        "contactType": "trade_partner",
+        "confidence": 0.55,
+        "source": "https://www.lennar.com/contact/business-inquiry",
+        "evidence": [
+          "Business inquiry form states that the appropriate Lennar associate will contact the submitter."
+        ]
+      }
+    ],
+    "contact_count": 3,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-advanced-roof-design",
+    "company": "ADVANCED ROOF DESIGN INC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "name": "Tim Balbi",
+      "title": "President/CEO",
+      "company": "ADVANCED ROOF DESIGN INC",
+      "phone": "(916)381-2266",
+      "contactType": "direct",
+      "confidence": 0.95,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00187",
+      "evidence": [
+        "Source-backed contact Tim Balbi listed for ADVANCED ROOF DESIGN INC."
+      ]
+    },
+    "contacts": [
+      {
+        "name": "Tim Balbi",
+        "title": "President/CEO",
+        "company": "ADVANCED ROOF DESIGN INC",
+        "phone": "(916)381-2266",
+        "contactType": "direct",
+        "confidence": 0.95,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00187",
+        "evidence": [
+          "Source-backed contact Tim Balbi listed for ADVANCED ROOF DESIGN INC."
+        ]
+      },
+      {
+        "name": "Tim Balbi",
+        "title": "President/CEO",
+        "company": "ADVANCED ROOF DESIGN INC",
+        "phone": "(916)381-2266",
+        "contactType": "direct",
+        "confidence": 0.95,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00186",
+        "evidence": [
+          "Source-backed contact Tim Balbi listed for ADVANCED ROOF DESIGN INC."
+        ]
+      },
+      {
+        "name": "Tim Balbi",
+        "title": "President/CEO",
+        "company": "ADVANCED ROOF DESIGN INC",
+        "phone": "(916)381-2266",
+        "contactType": "direct",
+        "confidence": 0.95,
+        "source": "https://rcac.wildapricot.org/widget/Sys/PublicProfile/31728650/3832090",
+        "evidence": [
+          "Public member profile lists Tim Balbi, Advanced Roof Design, Inc., business phone, and website.",
+          "Public profile identifies Tim Balbi as President/CEO of Advanced Roof Design, Inc."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "ADVANCED ROOF DESIGN INC",
+        "phone": "(916)381-2266",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+        "evidence": [
+          "Company profile lists phone (916)381-2266 for ADVANCED ROOF DESIGN INC."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "ADVANCED ROOF DESIGN INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+        "evidence": [
+          "Generic source-backed access route exists for ADVANCED ROOF DESIGN INC."
+        ]
+      }
+    ],
+    "contact_count": 5,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-kevin-l-cook-architect",
+    "company": "Kevin L Cook Architect Inc.",
+    "company_type": "Architect",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-3-generations-improvements",
+    "company": "3 GENERATIONS IMPROVEMENTS INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "Construction Office",
+      "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+      "phone": "(916) 599-6629",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "Company profile",
+      "evidence": [
+        "Company profile lists phone (916) 599-6629 for ALLTECH GATES AND ENTRY CONTROLS INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "Construction Office",
+        "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+        "phone": "(916) 599-6629",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (916) 599-6629 for ALLTECH GATES AND ENTRY CONTROLS INC."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
+        "evidence": [
+          "Generic source-backed access route exists for ALLTECH GATES AND ENTRY CONTROLS INC."
+        ]
+      }
+    ],
+    "contact_count": 2,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-american-buildings-j-s",
+    "company": "AMERICAN BUILDINGS J&S",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-american-carports",
+    "company": "AMERICAN CARPORTS INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-burns-construction",
+    "company": "BURNS CONSTRUCTION",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-california-renewable-energy",
+    "company": "CALIFORNIA RENEWABLE ENERGY",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-deome-2-builders",
+    "company": "DEOME 2 BUILDERS INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-duramax-roofing",
+    "company": "DURAMAX ROOFING INC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "Construction Office",
+      "company": "DURAMAX ROOFING INC",
+      "phone": "(916) 849-5024",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://duramaxroofing.net/contact",
+      "evidence": [
+        "Company profile lists phone (916) 849-5024 for DURAMAX ROOFING INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "Construction Office",
+        "company": "DURAMAX ROOFING INC",
+        "phone": "(916) 849-5024",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://duramaxroofing.net/contact",
+        "evidence": [
+          "Company profile lists phone (916) 849-5024 for DURAMAX ROOFING INC."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "DURAMAX ROOFING INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://duramaxroofing.net/contact",
+        "evidence": [
+          "Generic source-backed access route exists for DURAMAX ROOFING INC."
+        ]
+      }
+    ],
+    "contact_count": 2,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-dyer-construction",
+    "company": "DYER CONSTRUCTION INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-famand",
+    "company": "FAMAND INC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "FAMAND INC",
+      "phone": "+1 916-988-8808",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01229",
+      "evidence": [
+        "Source-backed company route listed for FAMAND INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "FAMAND INC",
+        "phone": "+1 916-988-8808",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01229",
+        "evidence": [
+          "Source-backed company route listed for FAMAND INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "FAMAND INC",
+        "phone": "+1 916-988-8808",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone +1 916-988-8808 for FAMAND INC."
+        ]
+      },
+      {
+        "company": "FAMAND INC",
+        "phone": "+1 916-988-8808",
+        "contactType": "corporate",
+        "confidence": 0.65,
+        "source": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
+        "evidence": [
+          "Vendor profile lists Famand, Inc. with phone number +1 916-988-8808."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "FAMAND INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
+        "evidence": [
+          "Generic source-backed access route exists for FAMAND INC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-fdc-nor-cal",
+    "company": "FDC NOR-CAL CORP",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-gigawatt-california",
+    "company": "GIGAWATT CALIFORNIA LLC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-group-one-builders",
+    "company": "GROUP ONE BUILDERS INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-integral-communities",
+    "company": "Integral Communities",
+    "company_type": "Developer",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-kenneth-development",
+    "company": "KENNETH DEVELOPMENT INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-kustom-us",
+    "company": "KUSTOM US INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-lund-construction",
+    "company": "Lund Construction Co",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-master-roofing-solutions",
+    "company": "MASTER ROOFING SOLUTIONS LLC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-o-connor-pool-solutions",
+    "company": "O'CONNOR POOL SOLUTIONS INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-phillip-isaacs-construction",
+    "company": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-prime-home-solutions",
+    "company": "PRIME HOME SOLUTIONS INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-sunsource",
+    "company": "SUNSOURCE INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-taylor-morrison-of-california",
+    "company": "Taylor Morrison of California",
+    "company_type": "Developer",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-veerkamp-doug-general-engineering",
+    "company": "VEERKAMP DOUG GENERAL ENGINEERING INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-waters-construction",
+    "company": "WATERS CONSTRUCTION COMPANY LLC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "Construction Office",
+      "company": "WATERS CONSTRUCTION COMPANY LLC",
+      "phone": "916.594.8912",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://watersconco.com/",
+      "evidence": [
+        "Company profile lists phone 916.594.8912 for WATERS CONSTRUCTION COMPANY LLC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "Construction Office",
+        "company": "WATERS CONSTRUCTION COMPANY LLC",
+        "phone": "916.594.8912",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://watersconco.com/",
+        "evidence": [
+          "Company profile lists phone 916.594.8912 for WATERS CONSTRUCTION COMPANY LLC."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "WATERS CONSTRUCTION COMPANY LLC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://watersconco.com/",
+        "evidence": [
+          "Generic source-backed access route exists for WATERS CONSTRUCTION COMPANY LLC."
+        ]
+      }
+    ],
+    "contact_count": 2,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  },
+  {
+    "company_profile_id": "company-west-coast-flooring",
+    "company": "WEST COAST FLOORING",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-08T17:01:54.289Z"
+  }
+]

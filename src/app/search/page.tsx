@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Clock3, Database, FileSearch, MapPin, Radar, Route } from "lucide-react";
+import { Clock3, Database, FileSearch, Mail, MapPin, Phone, Radar, Route } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { AppShell } from "@/components/layout/app-shell";
 import { PageTitle } from "@/components/layout/page-title";
@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { getAccessSearchResults, type AccessOpportunity } from "@/lib/access-intelligence";
+import { formatHumanContact, getOpportunityHumanContact, type HumanContact } from "@/lib/human-contact-discovery";
 import { globalSearch } from "@/lib/search";
 import type { OpportunityTrade } from "@/lib/types";
 
@@ -180,6 +181,10 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
 }
 
 function AccessOpportunityCard({ opportunity }: { opportunity: AccessOpportunity }) {
+  const humanContact = getOpportunityHumanContact(opportunity.id);
+  const bestContact = humanContact?.best_contact ?? null;
+  const nextStep = humanContact?.recommended_next_step ?? opportunity.recommended_next_step;
+
   return (
     <article className="rounded-lg border border-zinc-200 bg-white p-5 shadow-sm hover:border-zinc-300">
       <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
@@ -203,9 +208,10 @@ function AccessOpportunityCard({ opportunity }: { opportunity: AccessOpportunity
             <AnalysisDatum label="Trade" value={opportunity.trade} />
             <AnalysisDatum label="Location" value={`${opportunity.city}, ${opportunity.county}`} />
           </dl>
+          <HumanContactPanel contact={bestContact} backupRoute={humanContact?.backup_access_route ?? opportunity.access_route} />
           <div className="mt-4 rounded-md border border-emerald-100 bg-emerald-50 p-3">
             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Recommended Next Step</p>
-            <p className="mt-2 text-sm font-medium leading-6 text-emerald-950">{opportunity.recommended_next_step}</p>
+            <p className="mt-2 text-sm font-medium leading-6 text-emerald-950">{nextStep}</p>
           </div>
         </div>
         <Link href={opportunity.source_url} className="inline-flex shrink-0 items-center justify-center gap-2 rounded-md bg-zinc-950 px-4 py-2 text-sm font-medium text-white">
@@ -215,6 +221,39 @@ function AccessOpportunityCard({ opportunity }: { opportunity: AccessOpportunity
       </div>
     </article>
   );
+}
+
+function HumanContactPanel({ contact, backupRoute }: { contact: HumanContact | null; backupRoute: string }) {
+  const sourceIsLink = contact?.source?.startsWith("http");
+
+  return (
+    <div className="mt-4 rounded-md border border-sky-100 bg-sky-50 p-3">
+      <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Best Available Contact</p>
+      {contact ? (
+        <div className="mt-2 space-y-3">
+          <div>
+            <p className="text-base font-semibold text-sky-950">{formatHumanContact(contact)}</p>
+            <p className="mt-1 text-sm text-sky-900">{contact.company} - {humanizeContactType(contact.contactType)} - {Math.round(contact.confidence * 100)}% confidence</p>
+          </div>
+          <div className="flex flex-wrap gap-2 text-sm">
+            {contact.phone ? <span className="inline-flex items-center gap-1 rounded-md bg-white px-2 py-1 font-medium text-sky-950"><Phone className="size-3.5" /> {contact.phone}</span> : null}
+            {contact.email ? <span className="inline-flex items-center gap-1 rounded-md bg-white px-2 py-1 font-medium text-sky-950"><Mail className="size-3.5" /> {contact.email}</span> : null}
+            {sourceIsLink ? <Link href={contact.source} className="inline-flex items-center gap-1 rounded-md bg-white px-2 py-1 font-medium text-sky-950 underline">Source</Link> : null}
+          </div>
+          <p className="text-sm leading-6 text-sky-900">{contact.evidence[0] ?? "Source-backed contact route."}</p>
+        </div>
+      ) : (
+        <div className="mt-2 space-y-2">
+          <p className="text-base font-semibold text-sky-950">Unknown</p>
+          <p className="text-sm leading-6 text-sky-900">No source-backed human contact is available yet. Use the backup access route: {backupRoute || "Unknown"}.</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function humanizeContactType(value: HumanContact["contactType"]) {
+  return value.replace("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
 function AnalysisDatum({ label, value }: { label: string; value: string | number | boolean }) {

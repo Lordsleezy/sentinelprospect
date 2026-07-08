@@ -10,7 +10,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-robert-l-scheid-construction",
@@ -23,7 +25,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-lennar-homes-of-california",
@@ -36,7 +40,9 @@
     "qualified_opportunities": 2,
     "needs_research_opportunities": 7,
     "best_procurement_path": "trade_partner",
-    "confidence": 0.75
+    "confidence": 0.75,
+    "actionable_opportunities": 2,
+    "relationship_count": 10
   },
   {
     "company_profile_id": "company-advanced-roof-design",
@@ -49,7 +55,9 @@
     "qualified_opportunities": 2,
     "needs_research_opportunities": 0,
     "best_procurement_path": "general_contact",
-    "confidence": 0.89
+    "confidence": 0.89,
+    "actionable_opportunities": 2,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-kevin-l-cook-architect",
@@ -62,7 +70,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 2,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 4
   },
   {
     "company_profile_id": "company-waters-construction",
@@ -75,7 +85,9 @@
     "qualified_opportunities": 1,
     "needs_research_opportunities": 0,
     "best_procurement_path": "general_contact",
-    "confidence": 0.89
+    "confidence": 0.89,
+    "actionable_opportunities": 1,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-alltech-gates-and-entry-controls",
@@ -88,7 +100,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 1,
     "best_procurement_path": "general_contact",
-    "confidence": 0.57
+    "confidence": 0.57,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-duramax-roofing",
@@ -101,7 +115,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 1,
     "best_procurement_path": "general_contact",
-    "confidence": 0.89
+    "confidence": 0.89,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-famand",
@@ -114,7 +130,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "general_contact",
-    "confidence": 0.57
+    "confidence": 0.57,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-american-buildings-j-s",
@@ -127,7 +145,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-american-carports",
@@ -140,7 +160,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-deome-2-builders",
@@ -153,7 +175,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-fdc-nor-cal",
@@ -166,7 +190,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-group-one-builders",
@@ -179,7 +205,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-kenneth-development",
@@ -192,7 +220,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-kustom-us",
@@ -205,7 +235,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-sunsource",
@@ -218,7 +250,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-veerkamp-doug-general-engineering",
@@ -231,7 +265,9 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   },
   {
     "company_profile_id": "company-lund-construction",
@@ -244,7 +280,9 @@
     "qualified_opportunities": 1,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 1,
+    "relationship_count": 3
   },
   {
     "company_profile_id": "company-3-generations-improvements",
@@ -257,6 +295,8 @@
     "qualified_opportunities": 0,
     "needs_research_opportunities": 0,
     "best_procurement_path": "Unknown",
-    "confidence": 0.35
+    "confidence": 0.35,
+    "actionable_opportunities": 0,
+    "relationship_count": 0
   }
 ]

@@ -19,6 +19,7 @@
     "intelligence:companies": "node scripts/build-company-intelligence.mjs",
     "intelligence:behavior": "node scripts/build-behavior-intelligence.mjs",
     "intelligence:qualify": "node scripts/build-opportunity-qualification.mjs",
+    "intelligence:actions": "node scripts/build-contractor-actions.mjs",
     "graph:relationships": "node scripts/build-relationship-graph.mjs",
     "graph:export": "tsx scripts/export-intelligence-graph.mjs",
     "graph:sync": "tsx scripts/sync-neo4j.mjs",

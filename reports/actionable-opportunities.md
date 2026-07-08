@@ -1,0 +1,11 @@
+# Actionable Opportunities
+
+Generated: 2026-07-08T03:00:27.981Z
+
+| Project | Location | Trade | Action | Next Step | Developer | GC | Contact | Phone | Route | Actionability |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 326 squares TPO overlay | SACRAMENTO, Sacramento County, CA | Roofing | Research General Contractor | Call Tim Balbi at (916)381-2266 about 326 squares TPO overlay; reference the source record and ask who handles subcontractor pricing. | Unknown | ADVANCED ROOF DESIGN INC | Tim Balbi (President/CEO) | (916)381-2266 | https://caanet.org/industry-directory/advanced-roof-design-inc/ | 86 |
+| install TPO over existing capsheet | FAIR OAKS, Sacramento County, CA | Roofing | Research General Contractor | Call Tim Balbi at (916)381-2266 about install TPO over existing capsheet; reference the source record and ask who handles subcontractor pricing. | Unknown | ADVANCED ROOF DESIGN INC | Tim Balbi (President/CEO) | (916)381-2266 | https://caanet.org/industry-directory/advanced-roof-design-inc/ | 86 |
+| Gerber Creek Re-Alignment | South Sacramento | Earthwork, Site work | Register Trade Partner | Open https://www.lennar.com/contact/business-inquiry and submit a trade partner/business inquiry for Twin Rivers Fence referencing Gerber Creek Re-Alignment. | Lennar Homes of California | Lund Construction Co | Unknown | Unknown | https://www.lennar.com/contact/business-inquiry | 72 |
+| SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8 | SACRAMENTO, Sacramento County, CA | Electrical, Fencing | Register Trade Partner | Open https://www.lennar.com/contact/business-inquiry and submit a trade partner/business inquiry for Twin Rivers Fence referencing SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8. | Lennar Homes of California | Unknown | Unknown | Unknown | https://www.lennar.com/contact/business-inquiry | 72 |
+| AREA: R04:  Rear house addition. | CARMICHAEL, Sacramento County, CA | Electrical, Fencing | Research General Contractor | Open https://watersconco.com/ and use the source-backed contact route to ask who handles subcontractor or fencing estimates for AREA: R04:  Rear house addition. | Unknown | WATERS CONSTRUCTION COMPANY LLC | Unknown | 916.594.8912 | https://watersconco.com/ | 72 |

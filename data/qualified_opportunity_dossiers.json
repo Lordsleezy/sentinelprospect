@@ -1,0 +1,269 @@
+[
+  {
+    "id": "sac-rerc2026-00187",
+    "project_name": "326 squares TPO overlay",
+    "project_location": "SACRAMENTO, Sacramento County, CA",
+    "city": "SACRAMENTO",
+    "county": "Sacramento County",
+    "developer": "Unknown",
+    "general_contractor": "ADVANCED ROOF DESIGN INC",
+    "architect": "Unknown",
+    "engineer": "Unknown",
+    "known_relationships": [
+      "Unknown"
+    ],
+    "evidence_sources": [
+      "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00187"
+    ],
+    "procurement_paths": [
+      {
+        "company_profile_id": "company-advanced-roof-design",
+        "company_name": "ADVANCED ROOF DESIGN INC",
+        "path_type": "general_contact",
+        "contractor_value": "Medium",
+        "confidence": 0.78,
+        "path_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/"
+      }
+    ],
+    "fencing_signals": "No",
+    "fast_money_score": 100,
+    "qualification_score": 74,
+    "confidence": 0.87,
+    "actionability_score": 86,
+    "recommended_action": "Research General Contractor",
+    "exact_next_step": "Call Tim Balbi at (916)381-2266 about 326 squares TPO overlay; reference the source record and ask who handles subcontractor pricing.",
+    "contact_route": {
+      "known_contact": "Tim Balbi (President/CEO)",
+      "known_website": "https://www.ardroofing.com/",
+      "known_phone": "(916)381-2266",
+      "known_procurement_path": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+      "known_registration_portal": "Unknown",
+      "known_bid_portal": "Unknown",
+      "source_evidence": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+      "confidence": 1
+    },
+    "source_evidence": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00187",
+    "evidence_quality": "High",
+    "evidence_count": 5,
+    "project_stage": "Planning",
+    "trade": "Roofing",
+    "last_verified": "2026-07-08T03:00:27.973Z"
+  },
+  {
+    "id": "sac-rerc2026-00186",
+    "project_name": "install TPO over existing capsheet",
+    "project_location": "FAIR OAKS, Sacramento County, CA",
+    "city": "FAIR OAKS",
+    "county": "Sacramento County",
+    "developer": "Unknown",
+    "general_contractor": "ADVANCED ROOF DESIGN INC",
+    "architect": "Unknown",
+    "engineer": "Unknown",
+    "known_relationships": [
+      "Unknown"
+    ],
+    "evidence_sources": [
+      "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00186"
+    ],
+    "procurement_paths": [
+      {
+        "company_profile_id": "company-advanced-roof-design",
+        "company_name": "ADVANCED ROOF DESIGN INC",
+        "path_type": "general_contact",
+        "contractor_value": "Medium",
+        "confidence": 0.78,
+        "path_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/"
+      }
+    ],
+    "fencing_signals": "No",
+    "fast_money_score": 100,
+    "qualification_score": 74,
+    "confidence": 0.87,
+    "actionability_score": 86,
+    "recommended_action": "Research General Contractor",
+    "exact_next_step": "Call Tim Balbi at (916)381-2266 about install TPO over existing capsheet; reference the source record and ask who handles subcontractor pricing.",
+    "contact_route": {
+      "known_contact": "Tim Balbi (President/CEO)",
+      "known_website": "https://www.ardroofing.com/",
+      "known_phone": "(916)381-2266",
+      "known_procurement_path": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+      "known_registration_portal": "Unknown",
+      "known_bid_portal": "Unknown",
+      "source_evidence": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+      "confidence": 1
+    },
+    "source_evidence": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00186",
+    "evidence_quality": "High",
+    "evidence_count": 5,
+    "project_stage": "Planning",
+    "trade": "Roofing",
+    "last_verified": "2026-07-08T03:00:27.973Z"
+  },
+  {
+    "id": "evidence-lund-gerber-creek",
+    "project_name": "Gerber Creek Re-Alignment",
+    "project_location": "South Sacramento",
+    "city": "South Sacramento",
+    "county": "Unknown",
+    "developer": "Lennar Homes of California",
+    "general_contractor": "Lund Construction Co",
+    "architect": "Unknown",
+    "engineer": "Unknown",
+    "known_relationships": [
+      "Lennar Homes of California -> Lund Construction Co (developer_gc, 50%)",
+      "Lennar Homes of California -> Lund Construction Co (developer_trade_contractor, 82%)"
+    ],
+    "evidence_sources": [
+      "https://www.lundconst.com/portfolio-item/gerbercreek/"
+    ],
+    "procurement_paths": [
+      {
+        "company_profile_id": "company-lennar-homes-of-california",
+        "company_name": "Lennar Homes of California",
+        "path_type": "trade_partner",
+        "contractor_value": "High",
+        "confidence": 0.76,
+        "path_url": "https://www.lennar.com/contact/business-inquiry"
+      },
+      {
+        "company_profile_id": "company-lennar-homes-of-california",
+        "company_name": "Lennar Homes of California",
+        "path_type": "general_contact",
+        "contractor_value": "Medium",
+        "confidence": 0.72,
+        "path_url": "https://www.lennar.com/contact/business-inquiry"
+      }
+    ],
+    "fencing_signals": "No",
+    "fast_money_score": 100,
+    "qualification_score": 78,
+    "confidence": 0.72,
+    "actionability_score": 72,
+    "recommended_action": "Register Trade Partner",
+    "exact_next_step": "Open https://www.lennar.com/contact/business-inquiry and submit a trade partner/business inquiry for Twin Rivers Fence referencing Gerber Creek Re-Alignment.",
+    "contact_route": {
+      "known_contact": "Unknown",
+      "known_website": "https://www.lennar.com/",
+      "known_phone": "Unknown",
+      "known_procurement_path": "https://www.lennar.com/contact/business-inquiry",
+      "known_registration_portal": "https://www.lennar.com/contact/business-inquiry",
+      "known_bid_portal": "Unknown",
+      "source_evidence": "https://www.lennar.com/contact/business-inquiry",
+      "confidence": 0.76
+    },
+    "source_evidence": "https://www.lundconst.com/portfolio-item/gerbercreek/",
+    "evidence_quality": "High",
+    "evidence_count": 6,
+    "project_stage": "Active",
+    "trade": "Earthwork, Site work",
+    "last_verified": "2026-07-08T03:00:27.973Z"
+  },
+  {
+    "id": "sac-phcr2026-00561",
+    "project_name": "SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8",
+    "project_location": "SACRAMENTO, Sacramento County, CA",
+    "city": "SACRAMENTO",
+    "county": "Sacramento County",
+    "developer": "Lennar Homes of California",
+    "general_contractor": "Unknown",
+    "architect": "Unknown",
+    "engineer": "Unknown",
+    "known_relationships": [
+      "Unknown"
+    ],
+    "evidence_sources": [
+      "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00561"
+    ],
+    "procurement_paths": [
+      {
+        "company_profile_id": "company-lennar-homes-of-california",
+        "company_name": "Lennar Homes of California",
+        "path_type": "trade_partner",
+        "contractor_value": "High",
+        "confidence": 0.76,
+        "path_url": "https://www.lennar.com/contact/business-inquiry"
+      },
+      {
+        "company_profile_id": "company-lennar-homes-of-california",
+        "company_name": "Lennar Homes of California",
+        "path_type": "general_contact",
+        "contractor_value": "Medium",
+        "confidence": 0.72,
+        "path_url": "https://www.lennar.com/contact/business-inquiry"
+      }
+    ],
+    "fencing_signals": "Yes",
+    "fast_money_score": 100,
+    "qualification_score": 70,
+    "confidence": 0.79,
+    "actionability_score": 72,
+    "recommended_action": "Register Trade Partner",
+    "exact_next_step": "Open https://www.lennar.com/contact/business-inquiry and submit a trade partner/business inquiry for Twin Rivers Fence referencing SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8.",
+    "contact_route": {
+      "known_contact": "Unknown",
+      "known_website": "https://www.lennar.com/",
+      "known_phone": "Unknown",
+      "known_procurement_path": "https://www.lennar.com/contact/business-inquiry",
+      "known_registration_portal": "https://www.lennar.com/contact/business-inquiry",
+      "known_bid_portal": "Unknown",
+      "source_evidence": "https://www.lennar.com/contact/business-inquiry",
+      "confidence": 0.76
+    },
+    "source_evidence": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00561",
+    "evidence_quality": "High",
+    "evidence_count": 6,
+    "project_stage": "Planning",
+    "trade": "Electrical, Fencing",
+    "last_verified": "2026-07-08T03:00:27.973Z"
+  },
+  {
+    "id": "sac-cbnr2026-00571",
+    "project_name": "AREA: R04:  Rear house addition.",
+    "project_location": "CARMICHAEL, Sacramento County, CA",
+    "city": "CARMICHAEL",
+    "county": "Sacramento County",
+    "developer": "Unknown",
+    "general_contractor": "WATERS CONSTRUCTION COMPANY LLC",
+    "architect": "Unknown",
+    "engineer": "Unknown",
+    "known_relationships": [
+      "Unknown"
+    ],
+    "evidence_sources": [
+      "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00571"
+    ],
+    "procurement_paths": [
+      {
+        "company_profile_id": "company-waters-construction",
+        "company_name": "WATERS CONSTRUCTION COMPANY LLC",
+        "path_type": "general_contact",
+        "contractor_value": "Medium",
+        "confidence": 0.72,
+        "path_url": "https://watersconco.com/"
+      }
+    ],
+    "fencing_signals": "Yes",
+    "fast_money_score": 100,
+    "qualification_score": 70,
+    "confidence": 0.77,
+    "actionability_score": 72,
+    "recommended_action": "Research General Contractor",
+    "exact_next_step": "Open https://watersconco.com/ and use the source-backed contact route to ask who handles subcontractor or fencing estimates for AREA: R04:  Rear house addition.",
+    "contact_route": {
+      "known_contact": "Unknown",
+      "known_website": "https://watersconco.com/",
+      "known_phone": "916.594.8912",
+      "known_procurement_path": "https://watersconco.com/",
+      "known_registration_portal": "Unknown",
+      "known_bid_portal": "Unknown",
+      "source_evidence": "https://watersconco.com/",
+      "confidence": 0.89
+    },
+    "source_evidence": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00571",
+    "evidence_quality": "High",
+    "evidence_count": 5,
+    "project_stage": "Planning",
+    "trade": "Electrical, Fencing",
+    "last_verified": "2026-07-08T03:00:27.973Z"
+  }
+]

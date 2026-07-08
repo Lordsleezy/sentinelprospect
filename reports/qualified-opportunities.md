@@ -1,0 +1,27 @@
+# Qualified Opportunities
+
+Generated: 2026-07-08T02:47:54.568Z
+
+## Summary
+
+- Opportunities evaluated: 157
+- Qualified: 5
+- Needs Research: 9
+- Internal Only: 55
+
+| Project | Location | Trade | State | Score | Contact | Procurement Path | Developer | GC | Relationships | Stage | Evidence | Fast Money | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Gerber Creek Re-Alignment | South Sacramento | Earthwork, Site work | Qualified | 78 | Unknown | Available | Lennar Homes of California | Lund Construction Co | Yes | Active | High (6) | High | https://www.lundconst.com/portfolio-item/gerbercreek/ |
+| 326 squares TPO overlay | SACRAMENTO, Sacramento County, CA | Roofing | Qualified | 74 | Available | Available | Unknown | ADVANCED ROOF DESIGN INC | No | Planning | High (5) | High | https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00187 |
+| install TPO over existing capsheet | FAIR OAKS, Sacramento County, CA | Roofing | Qualified | 74 | Available | Available | Unknown | ADVANCED ROOF DESIGN INC | No | Planning | High (5) | High | https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00186 |
+| SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8 | SACRAMENTO, Sacramento County, CA | Electrical, Fencing | Qualified | 70 | Unknown | Available | Lennar Homes of California | Unknown | No | Planning | High (6) | High | https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00561 |
+| AREA: R04:  Rear house addition. | CARMICHAEL, Sacramento County, CA | Electrical, Fencing | Qualified | 70 | Unknown | Available | Unknown | WATERS CONSTRUCTION COMPANY LLC | No | Planning | High (5) | High | https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00571 |
+| SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation A- Lot 9 | LOT# 9, Sacramento County, CA | Electrical, Fencing | Needs Research | 62 | Unknown | Available | Lennar Homes of California | Unknown | No | Internal Only | High (6) | High | https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00562 |
+| install PVC membrane over existing roof | ELVERTA, Sacramento County, CA | Electrical, Roofing | Needs Research | 56 | Unknown | Available | Unknown | DURAMAX ROOFING INC | No | Planning | High (5) | High | https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00185 |
+| Northlake Lakelet | North Natomas, Sacramento | Landscaping, Residential | Needs Research | 52 | Unknown | Available | Lennar Homes of California | Unknown | Yes | Early | High (8) | Low | https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html |
+| Northlake 36 Homes | North Natomas, Sacramento | Landscaping, Residential | Needs Research | 52 | Unknown | Available | Lennar Homes of California | Unknown | Yes | Early | High (6) | Low | https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html |
+| Gerber Creek Unit 1 and Unit 2 | Sacramento County | Site work, Utilities | Needs Research | 49 | Unknown | Available | Lennar Homes of California | Unknown | No | Early | Medium (5) | High | https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/ |
+| Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village | Sacramento County | Residential, Site work | Needs Research | 49 | Unknown | Available | Lennar Homes of California | Unknown | No | Early | Medium (5) | High | https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223 |
+| Trunk Drainage Facilities Zone 11A | Sacramento County | Site work, Utilities | Needs Research | 49 | Unknown | Available | Lennar Homes of California | Unknown | No | Early | Medium (5) | High | https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977 |
+| Gerber Creek and Lelani Village Subdivisions | Sacramento County | Residential, Site work | Needs Research | 49 | Unknown | Available | Lennar Homes of California | Unknown | No | Early | Medium (4) | High | https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf |
+| NEW (GATES) - 7575 POWER INN RD | APT# 1, Sacramento County, CA | Electrical, Fencing | Needs Research | 47 | Unknown | Unknown | Unknown | ALLTECH GATES AND ENTRY CONTROLS INC | No | Planning | High (5) | Medium | https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00207 |

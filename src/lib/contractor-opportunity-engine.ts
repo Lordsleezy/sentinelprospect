@@ -1,0 +1,206 @@
+import contractorRows from "../../data/contractor_opportunities.json";
+
+export type ScopeSize = "Tiny" | "Small" | "Medium" | "Large" | "Major";
+export type SubcontractorLikelihood = "High" | "Medium" | "Low" | "Unknown";
+
+export type TradeScore = {
+  trade: string;
+  trade_relevance: number;
+  contractor_opportunity_score: number;
+  existing_contractor_saturation_penalty: number;
+  noise_penalty: number;
+};
+
+export type ContractorOpportunity = {
+  id: string;
+  project_name: string;
+  project_location: string;
+  city: string;
+  county: string;
+  opportunity_state: string;
+  opportunity_score: number;
+  qualification_score: number;
+  fence_probability: number;
+  access_score: number;
+  developer: string;
+  general_contractor: string;
+  architect: string;
+  procurement_route: string;
+  entry_method: string;
+  access_route: string;
+  recommended_next_step: string;
+  known_access_routes: string[];
+  approval_required: boolean | "Often";
+  evidence_quality: string;
+  evidence_count: number;
+  fencing_signal_presence: boolean;
+  fast_money_potential: string;
+  trade: string;
+  source_url: string;
+  contractor_opportunity_score: number;
+  primary_contractor_trade: string;
+  trade_relevance: number;
+  subcontractor_likelihood: SubcontractorLikelihood;
+  subcontractor_likelihood_score: number;
+  scope_size: ScopeSize;
+  scope_size_score: number;
+  opportunity_size: string;
+  opportunity_size_score: number;
+  project_stage: string;
+  project_stage_score: number;
+  existing_contractor_saturation: string;
+  existing_contractor_saturation_penalty: number;
+  contractor_visible: boolean;
+  suppress_reasons: string[];
+  trade_scores: Record<string, TradeScore>;
+  qualification_reason: string;
+};
+
+const contractorOpportunities = contractorRows as ContractorOpportunity[];
+const contractorOpportunityByProjectName = new Map(contractorOpportunities.map((opportunity) => [normalizeKey(opportunity.project_name), opportunity]));
+
+const aliases: Record<string, string[]> = {
+  fence: ["Fencing"],
+  fencing: ["Fencing"],
+  gate: ["Fencing", "Security"],
+  gates: ["Fencing", "Security"],
+  concrete: ["Concrete"],
+  roofer: ["Roofing"],
+  roofers: ["Roofing"],
+  roofing: ["Roofing"],
+  roof: ["Roofing"],
+  electrician: ["Electrical"],
+  electricians: ["Electrical"],
+  electrical: ["Electrical"],
+  plumber: ["Plumbing"],
+  plumbers: ["Plumbing"],
+  plumbing: ["Plumbing"],
+  hvac: ["HVAC"],
+  mechanical: ["HVAC"],
+  landscaper: ["Landscaping"],
+  landscapers: ["Landscaping"],
+  landscaping: ["Landscaping"],
+  demolition: ["Demolition"],
+  demo: ["Demolition"],
+  utility: ["Utility", "Site work"],
+  utilities: ["Utility", "Site work"],
+  sitework: ["Site work"],
+  "site work": ["Site work"],
+  solar: ["Solar", "Electrical"],
+  security: ["Security"],
+  asphalt: ["Asphalt"],
+  paving: ["Asphalt", "Site work"],
+  gc: ["General Contractor"],
+  contractor: [],
+  contractors: [],
+};
+
+export function getContractorOpportunitySearchResults(query: string) {
+  const trimmed = query.trim();
+  if (!trimmed) return [];
+  const queryTerms = terms(trimmed);
+  const targetTrades = inferSearchTrades(trimmed);
+
+  return contractorOpportunities
+    .map((opportunity) => {
+      const tradeScore = bestTradeScoreForQuery(opportunity, targetTrades);
+      return {
+        opportunity: applySearchTradeScore(opportunity, tradeScore),
+        score: scoreContractorOpportunity(opportunity, queryTerms, targetTrades, tradeScore),
+      };
+    })
+    .filter((item) => item.score >= 35)
+    .sort((a, b) =>
+      b.score - a.score ||
+      b.opportunity.contractor_opportunity_score - a.opportunity.contractor_opportunity_score ||
+      b.opportunity.access_score - a.opportunity.access_score
+    )
+    .slice(0, 30)
+    .map((item) => item.opportunity);
+}
+
+export function getContractorOpportunityByProjectId(id: string) {
+  return contractorOpportunities.find((opportunity) => opportunity.id === id) ?? null;
+}
+
+export function getContractorOpportunityForProject(projectId: string, projectName: string) {
+  return (
+    getContractorOpportunityByProjectId(projectId)
+    ?? getContractorOpportunityByProjectId(`sac-${projectId}`)
+    ?? contractorOpportunityByProjectName.get(normalizeKey(projectName))
+    ?? null
+  );
+}
+
+export function inferSearchTrades(query: string) {
+  const normalized = query.toLowerCase();
+  const trades = new Set<string>();
+  for (const [alias, values] of Object.entries(aliases)) {
+    if (normalized.includes(alias)) values.forEach((trade) => trades.add(trade));
+  }
+  return [...trades];
+}
+
+function bestTradeScoreForQuery(opportunity: ContractorOpportunity, targetTrades: string[]) {
+  const scores = targetTrades.length
+    ? targetTrades.map((trade) => opportunity.trade_scores[trade]).filter(Boolean)
+    : Object.values(opportunity.trade_scores);
+  return [...scores].sort((a, b) => b.contractor_opportunity_score - a.contractor_opportunity_score)[0] ?? null;
+}
+
+function applySearchTradeScore(opportunity: ContractorOpportunity, tradeScore: TradeScore | null): ContractorOpportunity {
+  if (!tradeScore) return opportunity;
+  return {
+    ...opportunity,
+    contractor_opportunity_score: tradeScore.contractor_opportunity_score,
+    primary_contractor_trade: tradeScore.trade,
+    trade_relevance: tradeScore.trade_relevance,
+    existing_contractor_saturation_penalty: tradeScore.existing_contractor_saturation_penalty,
+    suppress_reasons: searchSuppressReasons(opportunity, tradeScore),
+  };
+}
+
+function scoreContractorOpportunity(opportunity: ContractorOpportunity, queryTerms: string[], targetTrades: string[], tradeScore: TradeScore | null) {
+  if (!tradeScore) return 0;
+  const adjusted = applySearchTradeScore(opportunity, tradeScore);
+  const text = [
+    opportunity.project_name,
+    opportunity.project_location,
+    opportunity.city,
+    opportunity.county,
+    opportunity.trade,
+    opportunity.developer,
+    opportunity.general_contractor,
+    opportunity.architect,
+    opportunity.procurement_route,
+    opportunity.entry_method,
+    opportunity.access_route,
+    opportunity.qualification_reason,
+  ].join(" ").toLowerCase();
+
+  let score = tradeScore.contractor_opportunity_score;
+  score += queryTerms.reduce((sum, term) => sum + (text.includes(term) ? 3 : 0), 0);
+  if (targetTrades.length && tradeScore.trade_relevance < 35) score -= 30;
+  if (adjusted.suppress_reasons.length) score -= adjusted.suppress_reasons.length * 22;
+  if (/sacramento/i.test(text) && queryTerms.includes("sacramento")) score += 8;
+  if (opportunity.access_score >= 70) score += 5;
+  return Math.max(0, Math.min(100, Math.round(score)));
+}
+
+function searchSuppressReasons(opportunity: ContractorOpportunity, tradeScore: TradeScore) {
+  const reasons = [...opportunity.suppress_reasons.filter((reason) => reason !== "Weak trade relevance")];
+  if (tradeScore.trade_relevance < 25) reasons.push("Weak trade relevance");
+  if (tradeScore.existing_contractor_saturation_penalty >= 40 && !reasons.includes("Existing GC appears to be the searched trade contractor")) {
+    reasons.push("Existing GC appears to be the searched trade contractor");
+  }
+  if (tradeScore.noise_penalty > 0 && !reasons.includes("Likely noise match")) reasons.push("Likely noise match");
+  return [...new Set(reasons)];
+}
+
+function terms(query: string) {
+  return [...new Set(query.toLowerCase().split(/[^a-z0-9]+/).filter((term) => term.length > 1))];
+}
+
+function normalizeKey(value: string) {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}

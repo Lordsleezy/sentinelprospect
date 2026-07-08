@@ -8,6 +8,7 @@ import { PermitExplorer } from "@/components/projects/permit-explorer";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Table, Td, Th } from "@/components/ui/table";
+import { getContractorOpportunityForProject } from "@/lib/contractor-opportunity-engine";
 import { getProject } from "@/lib/data";
 import { formatHumanContact, getOpportunityHumanContactForProject, type HumanContact } from "@/lib/human-contact-discovery";
 import { contactRoleLabels, getPrimaryContact, getProjectSize, scoreOpportunity, statusStages } from "@/lib/intelligence";
@@ -30,6 +31,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
   const primaryGeneratedOpportunity = generatedOpportunities[0];
   const humanContactRoute = getOpportunityHumanContactForProject(project.id, project.name);
   const bestHumanContact = humanContactRoute?.best_contact ?? null;
+  const contractorOpportunity = getContractorOpportunityForProject(project.id, project.name);
   const currentStageIndex = statusStages.indexOf(project.status);
 
   return (
@@ -84,6 +86,23 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
       </Card>
 
       <div className="space-y-5">
+          {contractorOpportunity ? (
+            <Card className="border-emerald-200 bg-emerald-50">
+              <CardHeader>
+                <h2 className="text-base font-semibold">Contractor Opportunity Qualification</h2>
+                <p className="mt-1 text-sm text-emerald-900">{contractorOpportunity.qualification_reason}</p>
+              </CardHeader>
+              <CardContent className="grid gap-3 md:grid-cols-3 lg:grid-cols-6">
+                <HeaderFact label="Contractor Score" value={String(contractorOpportunity.contractor_opportunity_score)} strong />
+                <HeaderFact label="Trade Relevance" value={`${contractorOpportunity.trade_relevance}%`} />
+                <HeaderFact label="Subcontractor Likelihood" value={contractorOpportunity.subcontractor_likelihood} />
+                <HeaderFact label="Scope Size" value={contractorOpportunity.scope_size} />
+                <HeaderFact label="Opportunity Size" value={contractorOpportunity.opportunity_size} />
+                <HeaderFact label="Project Stage" value={contractorOpportunity.project_stage} />
+              </CardContent>
+            </Card>
+          ) : null}
+
           <Card className="border-sky-200 bg-sky-50">
             <CardHeader>
               <h2 className="text-base font-semibold">Best Available Contact</h2>

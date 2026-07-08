@@ -1,0 +1,50 @@
+[
+  {
+    "id": "evidence-lund-gerber-creek-relationship-1",
+    "evidence_document_id": "evidence-lund-gerber-creek",
+    "from_company": "Lennar Homes",
+    "to_company": "Lund Construction Co",
+    "relationship_type": "developer_trade_contractor",
+    "project_name": "Gerber Creek Re-Alignment",
+    "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
+    "evidence_summary": "Gerber Creek project page lists Lennar Homes as client and Lund Construction as project company for earthwork.",
+    "confidence": 0.82,
+    "last_verified": "2026-07-08T02:13:04.962Z"
+  },
+  {
+    "id": "evidence-northlake-sfyimby-2020-11-relationship-1",
+    "evidence_document_id": "evidence-northlake-sfyimby-2020-11",
+    "from_company": "Lennar Homes of California Inc.",
+    "to_company": "Kevin L Cook Architect Inc.",
+    "relationship_type": "developer_architect",
+    "project_name": "Northlake Lakelet",
+    "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
+    "evidence_summary": "Northlake article identifies Lennar as responsible developer and Kevin L Cook Architect as designer.",
+    "confidence": 0.82,
+    "last_verified": "2026-07-08T02:13:04.962Z"
+  },
+  {
+    "id": "evidence-northlake-sfyimby-2020-11-relationship-2",
+    "evidence_document_id": "evidence-northlake-sfyimby-2020-11",
+    "from_company": "Integral Communities",
+    "to_company": "Kevin L Cook Architect Inc.",
+    "relationship_type": "developer_architect",
+    "project_name": "Northlake Lakelet",
+    "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
+    "evidence_summary": "Northlake article identifies Integral Communities as responsible developer and Kevin L Cook Architect as designer.",
+    "confidence": 0.82,
+    "last_verified": "2026-07-08T02:13:04.962Z"
+  },
+  {
+    "id": "evidence-northlake-sfyimby-2020-12-relationship-1",
+    "evidence_document_id": "evidence-northlake-sfyimby-2020-12",
+    "from_company": "Lennar Homes of California Inc.",
+    "to_company": "Kevin L Cook Architect Inc.",
+    "relationship_type": "developer_architect",
+    "project_name": "Northlake 36 Homes",
+    "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
+    "evidence_summary": "Northlake article identifies Lennar as applicant and Kevin L Cook Architect as designer.",
+    "confidence": 0.82,
+    "last_verified": "2026-07-08T02:13:04.962Z"
+  }
+]

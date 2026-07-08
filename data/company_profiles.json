@@ -18,7 +18,7 @@
     "estimating_department_url": null,
     "source_count": 11,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -126,7 +126,7 @@
     "estimating_department_url": null,
     "source_count": 11,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -216,6 +216,107 @@
     }
   },
   {
+    "id": "company-lennar-homes-of-california",
+    "company_name": "Lennar Homes of California",
+    "normalized_name": "lennar homes of california",
+    "company_type": "Developer",
+    "official_website": "https://www.lennar.com/",
+    "phone": null,
+    "linkedin_company_page": null,
+    "contact_page_url": "https://www.lennar.com/contact/business-inquiry",
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 12,
+    "profile_confidence": 0.75,
+    "last_verified": "2026-07-08T02:13:14.733Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor",
+        "Developer"
+      ],
+      "collector_project_count": 10,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00562",
+          "project_name": "SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation A- Lot 9",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00561",
+          "project_name": "SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Lund Construction Co project portfolio",
+          "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
+          "project_name": "Gerber Creek Re-Alignment",
+          "role": "Developer"
+        },
+        {
+          "source_name": "SF YIMBY",
+          "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
+          "project_name": "Northlake Lakelet",
+          "role": "Developer"
+        },
+        {
+          "source_name": "SF YIMBY",
+          "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
+          "project_name": "Northlake 36 Homes",
+          "role": "Developer"
+        },
+        {
+          "source_name": "Central Valley Regional Water Quality Control Board",
+          "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
+          "project_name": "Gerber Creek Unit 1 and Unit 2",
+          "role": "Developer"
+        },
+        {
+          "source_name": "Central Valley Regional Water Quality Control Board",
+          "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
+          "project_name": "Gerber Creek Unit 1 and Unit 2",
+          "role": "Developer"
+        },
+        {
+          "source_name": "Southgate Recreation and Park District",
+          "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf",
+          "project_name": "Gerber Creek and Lelani Village Subdivisions",
+          "role": "Developer"
+        },
+        {
+          "source_name": "Sacramento County Board of Supervisors",
+          "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977",
+          "project_name": "Trunk Drainage Facilities Zone 11A",
+          "role": "Developer"
+        },
+        {
+          "source_name": "Sacramento County Board of Supervisors",
+          "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223",
+          "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
+          "role": "Developer"
+        }
+      ],
+      "missing_fields": [
+        "Phone",
+        "LinkedIn Company Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
     "id": "company-advanced-roof-design",
     "company_name": "ADVANCED ROOF DESIGN INC",
     "normalized_name": "advanced roof design",
@@ -234,7 +335,7 @@
     "estimating_department_url": null,
     "source_count": 5,
     "profile_confidence": 0.89,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -267,14 +368,14 @@
     }
   },
   {
-    "id": "company-lennar-homes-of-california",
-    "company_name": "LENNAR HOMES OF CALIFORNIA LLC",
-    "normalized_name": "lennar homes of california",
-    "company_type": "Developer",
-    "official_website": "https://www.lennar.com/",
+    "id": "company-kevin-l-cook-architect",
+    "company_name": "Kevin L Cook Architect Inc.",
+    "normalized_name": "kevin l cook architect",
+    "company_type": "Architect",
+    "official_website": null,
     "phone": null,
     "linkedin_company_page": null,
-    "contact_page_url": "https://www.lennar.com/contact/business-inquiry",
+    "contact_page_url": null,
     "bid_opportunities_page_url": null,
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
@@ -283,31 +384,33 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 4,
-    "profile_confidence": 0.75,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "source_count": 2,
+    "profile_confidence": 0.35,
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
-        "General Contractor"
+        "Architect"
       ],
       "collector_project_count": 2,
       "collector_source_records": [
         {
-          "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00562",
-          "project_name": "SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation A- Lot 9",
-          "role": "General Contractor"
+          "source_name": "SF YIMBY",
+          "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
+          "project_name": "Northlake Lakelet",
+          "role": "Architect"
         },
         {
-          "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00561",
-          "project_name": "SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8",
-          "role": "General Contractor"
+          "source_name": "SF YIMBY",
+          "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
+          "project_name": "Northlake 36 Homes",
+          "role": "Architect"
         }
       ],
       "missing_fields": [
+        "Official Website",
         "Phone",
         "LinkedIn Company Page",
+        "Contact Page",
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
@@ -337,7 +440,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -385,7 +488,7 @@
     "estimating_department_url": null,
     "source_count": 2,
     "profile_confidence": 0.57,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -432,7 +535,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -480,7 +583,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -528,7 +631,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -576,7 +679,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -624,7 +727,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -672,7 +775,7 @@
     "estimating_department_url": null,
     "source_count": 4,
     "profile_confidence": 0.89,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -717,7 +820,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -765,7 +868,7 @@
     "estimating_department_url": null,
     "source_count": 2,
     "profile_confidence": 0.57,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -812,7 +915,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -860,7 +963,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -908,7 +1011,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -920,6 +1023,54 @@
           "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00562",
           "project_name": "AREA: R06:  House Addition-Remodel",
           "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Phone",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-integral-communities",
+    "company_name": "Integral Communities",
+    "normalized_name": "integral communities",
+    "company_type": "Developer",
+    "official_website": null,
+    "phone": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 1,
+    "profile_confidence": 0.35,
+    "last_verified": "2026-07-08T02:13:14.733Z",
+    "metadata": {
+      "collector_roles": [
+        "Developer"
+      ],
+      "collector_project_count": 1,
+      "collector_source_records": [
+        {
+          "source_name": "SF YIMBY",
+          "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
+          "project_name": "Northlake Lakelet",
+          "role": "Developer"
         }
       ],
       "missing_fields": [
@@ -956,7 +1107,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1004,7 +1155,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1015,6 +1166,54 @@
           "source_name": "Sacramento County Permits",
           "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00636",
           "project_name": "AREA: R10:  AREA: R10:  Minor fire damage repair to sunroom",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Phone",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-lund-construction",
+    "company_name": "Lund Construction Co",
+    "normalized_name": "lund construction",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 1,
+    "profile_confidence": 0.35,
+    "last_verified": "2026-07-08T02:13:14.733Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 1,
+      "collector_source_records": [
+        {
+          "source_name": "Lund Construction Co project portfolio",
+          "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
+          "project_name": "Gerber Creek Re-Alignment",
           "role": "General Contractor"
         }
       ],
@@ -1052,7 +1251,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1100,7 +1299,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1148,7 +1347,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1196,7 +1395,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1244,7 +1443,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1256,6 +1455,54 @@
           "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01228",
           "project_name": "SOLAR : Solar PV Installation",
           "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Phone",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-taylor-morrison-of-california",
+    "company_name": "Taylor Morrison of California",
+    "normalized_name": "taylor morrison of california",
+    "company_type": "Developer",
+    "official_website": null,
+    "phone": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 1,
+    "profile_confidence": 0.35,
+    "last_verified": "2026-07-08T02:13:14.733Z",
+    "metadata": {
+      "collector_roles": [
+        "Developer"
+      ],
+      "collector_project_count": 1,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Board of Supervisors",
+          "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223",
+          "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
+          "role": "Developer"
         }
       ],
       "missing_fields": [
@@ -1292,7 +1539,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1340,7 +1587,7 @@
     "estimating_department_url": null,
     "source_count": 4,
     "profile_confidence": 0.89,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1385,7 +1632,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"

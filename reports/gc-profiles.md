@@ -1,6 +1,6 @@
 # GC Profiles
 
-Generated: 2026-07-07T22:06:33.260Z
+Generated: 2026-07-08T02:13:20.357Z
 
 | GC | Projects | Project Types | Cities | Known Trades | Fencing Outsourcing | Fencing Evidence | Procurement Paths | Opportunity Likelihood |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -23,6 +23,7 @@ Generated: 2026-07-07T22:06:33.260Z
 | GROUP ONE BUILDERS INC | 1 | Residential (1) | SACRAMENTO (1) | Electrical (1), Fencing (1) | Unknown | 1 | 0 | 4% |
 | KENNETH DEVELOPMENT INC | 1 | Residential (1) | SACRAMENTO (1) | Electrical (1), Fencing (1) | Unknown | 1 | 0 | 4% |
 | KUSTOM US INC | 1 | Residential (1) | HERALD (1) | Concrete (1), Electrical (1), Fencing (1), Roofing (1) | Unknown | 1 | 0 | 4% |
+| Lund Construction Co | 1 | Residential (1) | Sacramento (1) | Earthwork (1), Site work (1) | Unknown | 0 | 0 | 4% |
 | MASTER ROOFING SOLUTIONS LLC | 1 | Residential (1) | WILTON (1) | Roofing (1) | Unknown | 0 | 0 | 4% |
 | O'CONNOR POOL SOLUTIONS INC | 1 | Residential (1) | FAIR OAKS (1) | General (1) | Unknown | 0 | 0 | 4% |
 | PHILLIP ISAACS' CONSTRUCTION INCORPORATED | 1 | Residential (1) | FAIR OAKS (1) | General (1) | Unknown | 0 | 0 | 4% |

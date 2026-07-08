@@ -2,15 +2,19 @@
   {
     "id": "company-lennar-homes-of-california-developer-profile",
     "company_profile_id": "company-lennar-homes-of-california",
-    "company_name": "LENNAR HOMES OF CALIFORNIA LLC",
-    "project_count": 2,
+    "company_name": "Lennar Homes of California",
+    "project_count": 9,
     "project_types": [
       {
         "name": "Residential",
-        "count": 2
+        "count": 9
       }
     ],
     "cities": [
+      {
+        "name": "Sacramento",
+        "count": 7
+      },
       {
         "name": "LOT# 9",
         "count": 1
@@ -22,11 +26,23 @@
     ],
     "counties": [
       {
+        "name": "Sacramento",
+        "count": 7
+      },
+      {
         "name": "Sacramento County",
         "count": 2
       }
     ],
     "known_trades": [
+      {
+        "name": "Site work",
+        "count": 5
+      },
+      {
+        "name": "Residential",
+        "count": 4
+      },
       {
         "name": "Electrical",
         "count": 2
@@ -34,10 +50,96 @@
       {
         "name": "Fencing",
         "count": 2
+      },
+      {
+        "name": "Landscaping",
+        "count": 2
+      },
+      {
+        "name": "Utilities",
+        "count": 2
+      },
+      {
+        "name": "Earthwork",
+        "count": 1
       }
     ],
     "procurement_path_count": 2,
-    "opportunity_likelihood": 0.71,
-    "last_verified": "2026-07-07T22:06:33.248Z"
+    "opportunity_likelihood": 0.95,
+    "last_verified": "2026-07-08T02:13:20.331Z"
+  },
+  {
+    "id": "company-integral-communities-developer-profile",
+    "company_profile_id": "company-integral-communities",
+    "company_name": "Integral Communities",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "Sacramento",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Landscaping",
+        "count": 1
+      },
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.12,
+    "last_verified": "2026-07-08T02:13:20.331Z"
+  },
+  {
+    "id": "company-taylor-morrison-of-california-developer-profile",
+    "company_profile_id": "company-taylor-morrison-of-california",
+    "company_name": "Taylor Morrison of California",
+    "project_count": 1,
+    "project_types": [
+      {
+        "name": "Residential",
+        "count": 1
+      }
+    ],
+    "cities": [
+      {
+        "name": "Sacramento",
+        "count": 1
+      }
+    ],
+    "counties": [
+      {
+        "name": "Sacramento",
+        "count": 1
+      }
+    ],
+    "known_trades": [
+      {
+        "name": "Residential",
+        "count": 1
+      },
+      {
+        "name": "Site work",
+        "count": 1
+      }
+    ],
+    "procurement_path_count": 0,
+    "opportunity_likelihood": 0.12,
+    "last_verified": "2026-07-08T02:13:20.331Z"
   }
 ]

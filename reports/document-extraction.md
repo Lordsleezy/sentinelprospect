@@ -1,0 +1,13 @@
+# Document Extraction
+
+Generated: 2026-07-08T02:13:05.024Z
+
+| Document | Project | Location | Developer | General Contractor | Architect | Engineer | Property Owner | Trades | Known Relationships | Award Information | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Gerber Creek Re-Alignment | Gerber Creek Re-Alignment | South Sacramento | Lennar Homes | Lund Construction Co | Unknown | Unknown | Unknown | Earthwork, Site work | 1 | Unknown | https://www.lundconst.com/portfolio-item/gerbercreek/ |
+| Permits Filed for New Housing at Northlake Development in North Natomas | Northlake Lakelet | North Natomas, Sacramento | Lennar Homes of California Inc., Integral Communities | Unknown | Kevin L Cook Architect Inc. | Unknown | Unknown | Residential, Landscaping | 2 | Unknown | https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html |
+| Permits Filed for 36 Homes at Northlake Development, North Natomas | Northlake 36 Homes | North Natomas, Sacramento | Lennar Homes of California Inc. | Unknown | Kevin L Cook Architect Inc. | Unknown | Unknown | Residential, Landscaping | 1 | Unknown | https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html |
+| 401 Water Quality Certifications - Lennar Gerber Creek | Gerber Creek Unit 1 and Unit 2 | Sacramento County | Lennar, Lennar Homes of California, Inc. | Unknown | Unknown | Unknown | Unknown | Site work, Utilities | 0 | Unknown | https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/ |
+| Southgate Recreation and Park District Minutes - Annexation No. 2 | Gerber Creek and Lelani Village Subdivisions | Sacramento County | Lennar Homes of California LLC | Unknown | Unknown | Unknown | Unknown | Residential, Site work | 0 | Unknown | https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf |
+| Sacramento County Board Agenda - Credit Agreement With Lennar | Trunk Drainage Facilities Zone 11A | Sacramento County | Lennar Homes of California, LLC | Unknown | Unknown | Unknown | Unknown | Utilities, Site work | 0 | Credit agreement for trunk drainage facilities. | https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977 |
+| Sacramento County Board Agenda - Park Fee Credits | Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village | Sacramento County | Lennar Homes of California, LLC, Taylor Morrison of California | Unknown | Unknown | Unknown | Unknown | Residential, Site work | 0 | Unknown | https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223 |

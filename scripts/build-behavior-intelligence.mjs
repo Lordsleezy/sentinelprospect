@@ -7,14 +7,18 @@ const cacheFiles = [
   "data/samgov-opportunities.json",
 ];
 
-const tradeNames = ["Fencing", "Concrete", "HVAC", "Roofing", "Electrical", "Landscaping", "Site work", "Security fencing", "General"];
+const tradeNames = ["Fencing", "Concrete", "HVAC", "Roofing", "Electrical", "Landscaping", "Site work", "Security fencing", "Earthwork", "Utilities", "Residential", "General"];
 const caches = (await Promise.all(cacheFiles.map(readJson))).filter(Boolean);
 const records = caches.flatMap((cache) => cache.records ?? []);
 const companyProfiles = await readJson("data/company_profiles.json") ?? [];
 const procurementPaths = await readJson("data/company_procurement_paths.json") ?? [];
+const documentExtractions = await readJson("data/document_extraction_results.json") ?? [];
 const capturedAt = new Date().toISOString();
 
-const projectFacts = records.map(projectFact).filter(Boolean);
+const projectFacts = [
+  ...records.map(projectFact).filter(Boolean),
+  ...documentExtractions.map(documentProjectFact).filter(Boolean),
+];
 const behaviorRows = buildCompanyBehavior(projectFacts, companyProfiles, procurementPaths, capturedAt);
 const developer_profiles = behaviorRows.filter((row) => row.company_type === "Developer").map(developerProfile);
 const gc_profiles = behaviorRows.filter((row) => row.company_type === "General Contractor").map(gcProfile);
@@ -76,6 +80,32 @@ function projectFact(record) {
     trades,
     companies,
     source_url: record.sourceUrl ?? project.source_url,
+  };
+}
+
+function documentProjectFact(document) {
+  const companies = [];
+  for (const company of document.companies ?? []) {
+    if (!company.name || !isSourceBackedText(company.name)) continue;
+    const profile = profileForCompany(company.name);
+    if (!profile) continue;
+    companies.push({
+      profile_id: profile.id,
+      company_name: profile.company_name,
+      company_type: profile.company_type,
+      role: profile.company_type,
+    });
+  }
+  return {
+    project_id: document.evidence_document_id,
+    project_name: document.project_name,
+    project_type: projectTypeFromDocument(document),
+    city: cityFromLocation(document.location),
+    county: countyFromLocation(document.location),
+    status: "Evidence Document",
+    trades: normalizedTrades(document.trades),
+    companies,
+    source_url: document.source_url,
   };
 }
 
@@ -348,6 +378,26 @@ function normalizedTrades(trades) {
   return [...new Set((Array.isArray(trades) ? trades : ["General"]).filter((trade) => tradeNames.includes(trade)))].sort();
 }
 
+function projectTypeFromDocument(document) {
+  const blob = `${document.project_name ?? ""} ${(document.trades ?? []).join(" ")} ${document.summary ?? ""}`.toLowerCase();
+  if (blob.includes("residential") || blob.includes("homes") || blob.includes("subdivision")) return "Residential";
+  if (blob.includes("drainage") || blob.includes("utilities")) return "Infrastructure";
+  return "Unknown";
+}
+
+function cityFromLocation(location) {
+  const value = String(location ?? "");
+  if (/sacramento/i.test(value)) return "Sacramento";
+  if (/natomas/i.test(value)) return "Sacramento";
+  return value.split(",")[0]?.trim() || "Unknown";
+}
+
+function countyFromLocation(location) {
+  const value = String(location ?? "");
+  if (/sacramento/i.test(value)) return "Sacramento";
+  return "Unknown";
+}
+
 function countValues(values) {
   const counts = new Map();
   for (const value of values.filter(Boolean)) counts.set(value, (counts.get(value) ?? 0) + 1);
@@ -381,11 +431,17 @@ function pct(value) {
 }
 
 function normalizeName(value) {
-  return String(value ?? "")
+  const normalized = String(value ?? "")
     .toLowerCase()
     .replace(/\b(llc|inc|corp|corporation|incorporated|company|co|limited|the)\b/g, "")
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
+  if (normalized.includes("lennar")) return "lennar homes of california";
+  if (normalized.includes("kevin l cook architect")) return "kevin l cook architect";
+  if (normalized.includes("lund construction")) return "lund construction";
+  if (normalized.includes("taylor morrison")) return "taylor morrison of california";
+  if (normalized.includes("integral communities")) return "integral communities";
+  return normalized;
 }
 
 function isSourceBackedText(value) {

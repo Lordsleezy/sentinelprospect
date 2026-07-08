@@ -1,0 +1,214 @@
+[
+  {
+    "id": "evidence-lund-gerber-creek",
+    "title": "Gerber Creek Re-Alignment",
+    "source_type": "project_website",
+    "source_name": "Lund Construction Co project portfolio",
+    "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
+    "project_name": "Gerber Creek Re-Alignment",
+    "location": "South Sacramento",
+    "summary": "Lund Construction portfolio page identifies Gerber Creek Re-Alignment, client Lennar Homes, value $1.6M, and earthwork service.",
+    "companies": [
+      {
+        "name": "Lennar Homes",
+        "role": "Developer"
+      },
+      {
+        "name": "Lund Construction Co",
+        "role": "General Contractor"
+      }
+    ],
+    "trades": [
+      "Earthwork",
+      "Site work"
+    ],
+    "relationships": [
+      {
+        "from_company": "Lennar Homes",
+        "to_company": "Lund Construction Co",
+        "relationship_type": "developer_trade_contractor",
+        "evidence_summary": "Gerber Creek project page lists Lennar Homes as client and Lund Construction as project company for earthwork."
+      }
+    ],
+    "award_information": null,
+    "captured_at": "2026-07-08T02:13:04.962Z"
+  },
+  {
+    "id": "evidence-northlake-sfyimby-2020-11",
+    "title": "Permits Filed for New Housing at Northlake Development in North Natomas",
+    "source_type": "construction_news",
+    "source_name": "SF YIMBY",
+    "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
+    "project_name": "Northlake Lakelet",
+    "location": "North Natomas, Sacramento",
+    "summary": "Construction news article identifies Lennar Homes of California Inc. with Integral Communities as responsible for the development and Kevin L Cook Architect Inc. as designer.",
+    "companies": [
+      {
+        "name": "Lennar Homes of California Inc.",
+        "role": "Developer"
+      },
+      {
+        "name": "Integral Communities",
+        "role": "Developer"
+      },
+      {
+        "name": "Kevin L Cook Architect Inc.",
+        "role": "Architect"
+      }
+    ],
+    "trades": [
+      "Residential",
+      "Landscaping"
+    ],
+    "relationships": [
+      {
+        "from_company": "Lennar Homes of California Inc.",
+        "to_company": "Kevin L Cook Architect Inc.",
+        "relationship_type": "developer_architect",
+        "evidence_summary": "Northlake article identifies Lennar as responsible developer and Kevin L Cook Architect as designer."
+      },
+      {
+        "from_company": "Integral Communities",
+        "to_company": "Kevin L Cook Architect Inc.",
+        "relationship_type": "developer_architect",
+        "evidence_summary": "Northlake article identifies Integral Communities as responsible developer and Kevin L Cook Architect as designer."
+      }
+    ],
+    "award_information": null,
+    "captured_at": "2026-07-08T02:13:04.962Z"
+  },
+  {
+    "id": "evidence-northlake-sfyimby-2020-12",
+    "title": "Permits Filed for 36 Homes at Northlake Development, North Natomas",
+    "source_type": "construction_news",
+    "source_name": "SF YIMBY",
+    "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
+    "project_name": "Northlake 36 Homes",
+    "location": "North Natomas, Sacramento",
+    "summary": "Construction news article identifies Lennar Homes of California Inc. as applicant and Kevin L Cook Architect Inc. as designer for 36 homes at Northlake.",
+    "companies": [
+      {
+        "name": "Lennar Homes of California Inc.",
+        "role": "Developer"
+      },
+      {
+        "name": "Kevin L Cook Architect Inc.",
+        "role": "Architect"
+      }
+    ],
+    "trades": [
+      "Residential",
+      "Landscaping"
+    ],
+    "relationships": [
+      {
+        "from_company": "Lennar Homes of California Inc.",
+        "to_company": "Kevin L Cook Architect Inc.",
+        "relationship_type": "developer_architect",
+        "evidence_summary": "Northlake article identifies Lennar as applicant and Kevin L Cook Architect as designer."
+      }
+    ],
+    "award_information": null,
+    "captured_at": "2026-07-08T02:13:04.962Z"
+  },
+  {
+    "id": "evidence-waterboards-lennar-gerber-creek",
+    "title": "401 Water Quality Certifications - Lennar Gerber Creek",
+    "source_type": "environmental_document",
+    "source_name": "Central Valley Regional Water Quality Control Board",
+    "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
+    "project_name": "Gerber Creek Unit 1 and Unit 2",
+    "location": "Sacramento County",
+    "summary": "Water Board certification index lists Lennar and Lennar Homes of California for Gerber Creek projects and related amendments.",
+    "companies": [
+      {
+        "name": "Lennar",
+        "role": "Developer"
+      },
+      {
+        "name": "Lennar Homes of California, Inc.",
+        "role": "Developer"
+      }
+    ],
+    "trades": [
+      "Site work",
+      "Utilities"
+    ],
+    "relationships": [],
+    "award_information": null,
+    "captured_at": "2026-07-08T02:13:04.962Z"
+  },
+  {
+    "id": "evidence-southgate-minutes-2022-08-16",
+    "title": "Southgate Recreation and Park District Minutes - Annexation No. 2",
+    "source_type": "meeting_minutes",
+    "source_name": "Southgate Recreation and Park District",
+    "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf",
+    "project_name": "Gerber Creek and Lelani Village Subdivisions",
+    "location": "Sacramento County",
+    "summary": "Meeting minutes identify Lennar Homes of California LLC with Gerber Creek and Lelani Village subdivisions.",
+    "companies": [
+      {
+        "name": "Lennar Homes of California LLC",
+        "role": "Developer"
+      }
+    ],
+    "trades": [
+      "Residential",
+      "Site work"
+    ],
+    "relationships": [],
+    "award_information": null,
+    "captured_at": "2026-07-08T02:13:04.962Z"
+  },
+  {
+    "id": "evidence-sacramento-board-7977",
+    "title": "Sacramento County Board Agenda - Credit Agreement With Lennar",
+    "source_type": "board_agenda",
+    "source_name": "Sacramento County Board of Supervisors",
+    "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977",
+    "project_name": "Trunk Drainage Facilities Zone 11A",
+    "location": "Sacramento County",
+    "summary": "Board agenda includes a credit agreement with Lennar Homes of California, LLC for trunk drainage facilities.",
+    "companies": [
+      {
+        "name": "Lennar Homes of California, LLC",
+        "role": "Developer"
+      }
+    ],
+    "trades": [
+      "Utilities",
+      "Site work"
+    ],
+    "relationships": [],
+    "award_information": "Credit agreement for trunk drainage facilities.",
+    "captured_at": "2026-07-08T02:13:04.962Z"
+  },
+  {
+    "id": "evidence-sacramento-board-10223",
+    "title": "Sacramento County Board Agenda - Park Fee Credits",
+    "source_type": "board_agenda",
+    "source_name": "Sacramento County Board of Supervisors",
+    "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223",
+    "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
+    "location": "Sacramento County",
+    "summary": "Board agenda references Gerber Creek, Gardner Parke, Lelani Village, Lennar Homes of California, LLC, and Taylor Morrison of California.",
+    "companies": [
+      {
+        "name": "Lennar Homes of California, LLC",
+        "role": "Developer"
+      },
+      {
+        "name": "Taylor Morrison of California",
+        "role": "Developer"
+      }
+    ],
+    "trades": [
+      "Residential",
+      "Site work"
+    ],
+    "relationships": [],
+    "award_information": null,
+    "captured_at": "2026-07-08T02:13:04.962Z"
+  }
+]

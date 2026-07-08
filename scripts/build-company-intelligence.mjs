@@ -10,10 +10,11 @@ const cacheFiles = [
 const caches = (await Promise.all(cacheFiles.map(readJson))).filter(Boolean);
 const records = caches.flatMap((cache) => cache.records ?? []);
 const webSources = await readJson("data/company_web_sources.json") ?? [];
+const documentExtractions = await readJson("data/document_extraction_results.json") ?? [];
 const webSourceByCompany = new Map(webSources.map((item) => [normalizeName(item.company_name), item]));
 const capturedAt = new Date().toISOString();
 
-const discovered = discoverCompanies(records);
+const discovered = discoverCompanies(records, documentExtractions);
 const company_profiles = discovered.map((company) => buildProfile(company, webSourceByCompany.get(company.normalized_name), capturedAt));
 const company_web_sources = company_profiles.flatMap((profile) => buildWebSources(profile, webSourceByCompany.get(profile.normalized_name), capturedAt));
 const company_procurement_paths = company_profiles.flatMap((profile) => buildProcurementPaths(profile, webSourceByCompany.get(profile.normalized_name), capturedAt));
@@ -51,7 +52,7 @@ async function writeJson(file, value) {
   await writeFile(resolve(file), `${JSON.stringify(value, null, 2)}\n`);
 }
 
-function discoverCompanies(sourceRecords) {
+function discoverCompanies(sourceRecords, extractionDocuments = []) {
   const companies = new Map();
   for (const record of sourceRecords) {
     const contactCompany = record.normalized?.contactCompany;
@@ -73,6 +74,30 @@ function discoverCompanies(sourceRecords) {
       role: roleFromCompany(contactCompany),
     });
     companies.set(key, existing);
+  }
+
+  for (const document of extractionDocuments) {
+    for (const company of document.companies ?? []) {
+      if (!company.name || !isSourceBackedText(company.name)) continue;
+      const key = normalizeName(company.name);
+      const existing = companies.get(key) ?? {
+        company_name: canonicalCompanyName(company.name),
+        normalized_name: key,
+        collector_roles: new Set(),
+        project_count: 0,
+        source_records: [],
+      };
+      existing.company_name = canonicalCompanyName(existing.company_name);
+      existing.collector_roles.add(roleFromCompany(company));
+      existing.project_count += 1;
+      existing.source_records.push({
+        source_name: document.source_name ?? "Evidence document",
+        source_url: document.source_url ?? "",
+        project_name: document.project_name ?? "Unknown project",
+        role: roleFromCompany(company),
+      });
+      companies.set(key, existing);
+    }
   }
 
   return [...companies.values()].map((company) => ({
@@ -609,11 +634,27 @@ function isSourceBackedText(value) {
 }
 
 function normalizeName(value) {
-  return String(value ?? "")
+  const normalized = String(value ?? "")
     .toLowerCase()
     .replace(/\b(llc|inc|corp|corporation|incorporated|company|co|limited|the)\b/g, "")
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
+  if (normalized.includes("lennar")) return "lennar homes of california";
+  if (normalized.includes("kevin l cook architect")) return "kevin l cook architect";
+  if (normalized.includes("lund construction")) return "lund construction";
+  if (normalized.includes("taylor morrison")) return "taylor morrison of california";
+  if (normalized.includes("integral communities")) return "integral communities";
+  return normalized;
+}
+
+function canonicalCompanyName(value) {
+  const normalized = normalizeName(value);
+  if (normalized === "lennar homes of california") return "Lennar Homes of California";
+  if (normalized === "kevin l cook architect") return "Kevin L Cook Architect Inc.";
+  if (normalized === "lund construction") return "Lund Construction Co";
+  if (normalized === "taylor morrison of california") return "Taylor Morrison of California";
+  if (normalized === "integral communities") return "Integral Communities";
+  return String(value ?? "").trim();
 }
 
 function table(rows, columns) {

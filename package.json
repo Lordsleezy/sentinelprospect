@@ -15,6 +15,7 @@
     "report:contractor": "node scripts/generate-contractor-reports.mjs",
     "report:trust": "node scripts/generate-trust-audits.mjs",
     "harvest:contacts": "node scripts/harvest-contact-intelligence.mjs",
+    "intelligence:evidence": "node scripts/build-evidence-expansion.mjs",
     "intelligence:companies": "node scripts/build-company-intelligence.mjs",
     "intelligence:behavior": "node scripts/build-behavior-intelligence.mjs",
     "graph:export": "tsx scripts/export-intelligence-graph.mjs",

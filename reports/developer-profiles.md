@@ -1,7 +1,9 @@
 # Developer Profiles
 
-Generated: 2026-07-07T22:06:33.259Z
+Generated: 2026-07-08T02:13:20.356Z
 
 | Developer | Projects | Project Types | Cities | Counties | Known Trades | Procurement Paths | Opportunity Likelihood | Fencing Signal |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LENNAR HOMES OF CALIFORNIA LLC | 2 | Residential (2) | LOT# 9 (1), SACRAMENTO (1) | Sacramento County (2) | Electrical (2), Fencing (2) | 2 | 71% | 2 fencing-related project(s) |
+| Lennar Homes of California | 9 | Residential (9) | Sacramento (7), LOT# 9 (1), SACRAMENTO (1) | Sacramento (7), Sacramento County (2) | Site work (5), Residential (4), Electrical (2), Fencing (2), Landscaping (2) | 2 | 95% | 2 fencing-related project(s) |
+| Integral Communities | 1 | Residential (1) | Sacramento (1) | Sacramento (1) | Landscaping (1), Residential (1) | 0 | 12% | No current fencing signal |
+| Taylor Morrison of California | 1 | Residential (1) | Sacramento (1) | Sacramento (1) | Residential (1), Site work (1) | 0 | 12% | No current fencing signal |

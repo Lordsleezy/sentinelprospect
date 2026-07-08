@@ -120,6 +120,141 @@
     ]
   },
   {
+    "id": "company-lennar-homes-of-california-coverage-summary",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.75,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-collector-3",
+      "company-lennar-homes-of-california-collector-4",
+      "company-lennar-homes-of-california-collector-5",
+      "company-lennar-homes-of-california-collector-6",
+      "company-lennar-homes-of-california-collector-7",
+      "company-lennar-homes-of-california-collector-8",
+      "company-lennar-homes-of-california-collector-9",
+      "company-lennar-homes-of-california-collector-10",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-lennar-homes-of-california"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-company-type",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as Developer from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-collector-3",
+      "company-lennar-homes-of-california-collector-4",
+      "company-lennar-homes-of-california-collector-5",
+      "company-lennar-homes-of-california-collector-6",
+      "company-lennar-homes-of-california-collector-7",
+      "company-lennar-homes-of-california-collector-8",
+      "company-lennar-homes-of-california-collector-9",
+      "company-lennar-homes-of-california-collector-10"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-missing-fields",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Phone, LinkedIn Company Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-collector-3",
+      "company-lennar-homes-of-california-collector-4",
+      "company-lennar-homes-of-california-collector-5",
+      "company-lennar-homes-of-california-collector-6",
+      "company-lennar-homes-of-california-collector-7",
+      "company-lennar-homes-of-california-collector-8",
+      "company-lennar-homes-of-california-collector-9",
+      "company-lennar-homes-of-california-collector-10",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-lennar-homes-of-california"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-web-presence",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.75,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-lennar-homes-of-california"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-vendor-access",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "vendor_access",
+    "summary": "Company has a source-backed vendor, trade partner, bid, procurement, or plan-room route.",
+    "confidence": 0.85,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-collector-3",
+      "company-lennar-homes-of-california-collector-4",
+      "company-lennar-homes-of-california-collector-5",
+      "company-lennar-homes-of-california-collector-6",
+      "company-lennar-homes-of-california-collector-7",
+      "company-lennar-homes-of-california-collector-8",
+      "company-lennar-homes-of-california-collector-9",
+      "company-lennar-homes-of-california-collector-10",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-lennar-homes-of-california"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-procurement-access",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: trade partner.",
+    "confidence": 0.76,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-collector-3",
+      "company-lennar-homes-of-california-collector-4",
+      "company-lennar-homes-of-california-collector-5",
+      "company-lennar-homes-of-california-collector-6",
+      "company-lennar-homes-of-california-collector-7",
+      "company-lennar-homes-of-california-collector-8",
+      "company-lennar-homes-of-california-collector-9",
+      "company-lennar-homes-of-california-collector-10",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-lennar-homes-of-california"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-subcontractor-access",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "subcontractor_access",
+    "summary": "Company has a source-backed subcontractor or trade partner access route.",
+    "confidence": 0.85,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-collector-3",
+      "company-lennar-homes-of-california-collector-4",
+      "company-lennar-homes-of-california-collector-5",
+      "company-lennar-homes-of-california-collector-6",
+      "company-lennar-homes-of-california-collector-7",
+      "company-lennar-homes-of-california-collector-8",
+      "company-lennar-homes-of-california-collector-9",
+      "company-lennar-homes-of-california-collector-10",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-lennar-homes-of-california"
+    ]
+  },
+  {
     "id": "company-advanced-roof-design-coverage-summary",
     "company_profile_id": "company-advanced-roof-design",
     "intelligence_type": "coverage_summary",
@@ -185,90 +320,36 @@
     ]
   },
   {
-    "id": "company-lennar-homes-of-california-coverage-summary",
-    "company_profile_id": "company-lennar-homes-of-california",
+    "id": "company-kevin-l-cook-architect-coverage-summary",
+    "company_profile_id": "company-kevin-l-cook-architect",
     "intelligence_type": "coverage_summary",
-    "summary": "Procurement path intelligence exists for this company.",
-    "confidence": 0.75,
+    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
+    "confidence": 0.35,
     "evidence_source_ids": [
-      "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2",
-      "company-lennar-homes-of-california-official-website-official-website-https-www-lennar-com",
-      "company-lennar-homes-of-california-contact-page-contact-page-url-https-www-lennar-com-contact-business-inquiry"
+      "company-kevin-l-cook-architect-collector-1",
+      "company-kevin-l-cook-architect-collector-2"
     ]
   },
   {
-    "id": "company-lennar-homes-of-california-company-type",
-    "company_profile_id": "company-lennar-homes-of-california",
+    "id": "company-kevin-l-cook-architect-company-type",
+    "company_profile_id": "company-kevin-l-cook-architect",
     "intelligence_type": "company_type_evidence",
-    "summary": "Company type resolved as Developer from collector role evidence.",
+    "summary": "Company type resolved as Architect from collector role evidence.",
     "confidence": 0.7,
     "evidence_source_ids": [
-      "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2"
+      "company-kevin-l-cook-architect-collector-1",
+      "company-kevin-l-cook-architect-collector-2"
     ]
   },
   {
-    "id": "company-lennar-homes-of-california-missing-fields",
-    "company_profile_id": "company-lennar-homes-of-california",
+    "id": "company-kevin-l-cook-architect-missing-fields",
+    "company_profile_id": "company-kevin-l-cook-architect",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Phone, LinkedIn Company Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2",
-      "company-lennar-homes-of-california-official-website-official-website-https-www-lennar-com",
-      "company-lennar-homes-of-california-contact-page-contact-page-url-https-www-lennar-com-contact-business-inquiry"
-    ]
-  },
-  {
-    "id": "company-lennar-homes-of-california-web-presence",
-    "company_profile_id": "company-lennar-homes-of-california",
-    "intelligence_type": "web_presence",
-    "summary": "Company has source-backed web or phone presence.",
-    "confidence": 0.75,
-    "evidence_source_ids": [
-      "company-lennar-homes-of-california-official-website-official-website-https-www-lennar-com",
-      "company-lennar-homes-of-california-contact-page-contact-page-url-https-www-lennar-com-contact-business-inquiry"
-    ]
-  },
-  {
-    "id": "company-lennar-homes-of-california-vendor-access",
-    "company_profile_id": "company-lennar-homes-of-california",
-    "intelligence_type": "vendor_access",
-    "summary": "Company has a source-backed vendor, trade partner, bid, procurement, or plan-room route.",
-    "confidence": 0.85,
-    "evidence_source_ids": [
-      "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2",
-      "company-lennar-homes-of-california-official-website-official-website-https-www-lennar-com",
-      "company-lennar-homes-of-california-contact-page-contact-page-url-https-www-lennar-com-contact-business-inquiry"
-    ]
-  },
-  {
-    "id": "company-lennar-homes-of-california-procurement-access",
-    "company_profile_id": "company-lennar-homes-of-california",
-    "intelligence_type": "procurement_access",
-    "summary": "Best procurement path: trade partner.",
-    "confidence": 0.76,
-    "evidence_source_ids": [
-      "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2",
-      "company-lennar-homes-of-california-official-website-official-website-https-www-lennar-com",
-      "company-lennar-homes-of-california-contact-page-contact-page-url-https-www-lennar-com-contact-business-inquiry"
-    ]
-  },
-  {
-    "id": "company-lennar-homes-of-california-subcontractor-access",
-    "company_profile_id": "company-lennar-homes-of-california",
-    "intelligence_type": "subcontractor_access",
-    "summary": "Company has a source-backed subcontractor or trade partner access route.",
-    "confidence": 0.85,
-    "evidence_source_ids": [
-      "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2",
-      "company-lennar-homes-of-california-official-website-official-website-https-www-lennar-com",
-      "company-lennar-homes-of-california-contact-page-contact-page-url-https-www-lennar-com-contact-business-inquiry"
+      "company-kevin-l-cook-architect-collector-1",
+      "company-kevin-l-cook-architect-collector-2"
     ]
   },
   {
@@ -739,6 +820,36 @@
     ]
   },
   {
+    "id": "company-integral-communities-coverage-summary",
+    "company_profile_id": "company-integral-communities",
+    "intelligence_type": "coverage_summary",
+    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
+    "confidence": 0.35,
+    "evidence_source_ids": [
+      "company-integral-communities-collector-1"
+    ]
+  },
+  {
+    "id": "company-integral-communities-company-type",
+    "company_profile_id": "company-integral-communities",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as Developer from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-integral-communities-collector-1"
+    ]
+  },
+  {
+    "id": "company-integral-communities-missing-fields",
+    "company_profile_id": "company-integral-communities",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-integral-communities-collector-1"
+    ]
+  },
+  {
     "id": "company-kenneth-development-coverage-summary",
     "company_profile_id": "company-kenneth-development",
     "intelligence_type": "coverage_summary",
@@ -796,6 +907,36 @@
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-kustom-us-collector-1"
+    ]
+  },
+  {
+    "id": "company-lund-construction-coverage-summary",
+    "company_profile_id": "company-lund-construction",
+    "intelligence_type": "coverage_summary",
+    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
+    "confidence": 0.35,
+    "evidence_source_ids": [
+      "company-lund-construction-collector-1"
+    ]
+  },
+  {
+    "id": "company-lund-construction-company-type",
+    "company_profile_id": "company-lund-construction",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-lund-construction-collector-1"
+    ]
+  },
+  {
+    "id": "company-lund-construction-missing-fields",
+    "company_profile_id": "company-lund-construction",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-lund-construction-collector-1"
     ]
   },
   {
@@ -946,6 +1087,36 @@
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-sunsource-collector-1"
+    ]
+  },
+  {
+    "id": "company-taylor-morrison-of-california-coverage-summary",
+    "company_profile_id": "company-taylor-morrison-of-california",
+    "intelligence_type": "coverage_summary",
+    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
+    "confidence": 0.35,
+    "evidence_source_ids": [
+      "company-taylor-morrison-of-california-collector-1"
+    ]
+  },
+  {
+    "id": "company-taylor-morrison-of-california-company-type",
+    "company_profile_id": "company-taylor-morrison-of-california",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as Developer from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-taylor-morrison-of-california-collector-1"
+    ]
+  },
+  {
+    "id": "company-taylor-morrison-of-california-missing-fields",
+    "company_profile_id": "company-taylor-morrison-of-california",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-taylor-morrison-of-california-collector-1"
     ]
   },
   {

@@ -1,1 +1,67 @@
-[]
+[
+  {
+    "id": "relationship-lennar-homes-of-california-kevin-l-cook-architect-developer_architect",
+    "from_company_profile_id": "company-lennar-homes-of-california",
+    "to_company_profile_id": "company-kevin-l-cook-architect",
+    "relationship_type": "developer_architect",
+    "project_count": 2,
+    "projects": [
+      {
+        "project_id": "evidence-northlake-sfyimby-2020-11",
+        "project_name": "Northlake Lakelet",
+        "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+      },
+      {
+        "project_id": "evidence-northlake-sfyimby-2020-12",
+        "project_name": "Northlake 36 Homes",
+        "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+      }
+    ],
+    "trades": [
+      "Landscaping",
+      "Residential"
+    ],
+    "confidence": 0.65,
+    "last_verified": "2026-07-08T02:13:20.331Z"
+  },
+  {
+    "id": "relationship-integral-communities-kevin-l-cook-architect-developer_architect",
+    "from_company_profile_id": "company-integral-communities",
+    "to_company_profile_id": "company-kevin-l-cook-architect",
+    "relationship_type": "developer_architect",
+    "project_count": 1,
+    "projects": [
+      {
+        "project_id": "evidence-northlake-sfyimby-2020-11",
+        "project_name": "Northlake Lakelet",
+        "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+      }
+    ],
+    "trades": [
+      "Landscaping",
+      "Residential"
+    ],
+    "confidence": 0.5,
+    "last_verified": "2026-07-08T02:13:20.331Z"
+  },
+  {
+    "id": "relationship-lennar-homes-of-california-lund-construction-developer_gc",
+    "from_company_profile_id": "company-lennar-homes-of-california",
+    "to_company_profile_id": "company-lund-construction",
+    "relationship_type": "developer_gc",
+    "project_count": 1,
+    "projects": [
+      {
+        "project_id": "evidence-lund-gerber-creek",
+        "project_name": "Gerber Creek Re-Alignment",
+        "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/"
+      }
+    ],
+    "trades": [
+      "Earthwork",
+      "Site work"
+    ],
+    "confidence": 0.5,
+    "last_verified": "2026-07-08T02:13:20.331Z"
+  }
+]

@@ -1,17 +1,5 @@
 [
   {
-    "id": "company-advanced-roof-design-procurement-1-general_contact",
-    "company_profile_id": "company-advanced-roof-design",
-    "path_type": "general_contact",
-    "path_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
-    "source_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
-    "source_type": "public_profile",
-    "confidence": 0.78,
-    "contractor_value": "Medium",
-    "last_verified": "2026-07-07T21:05:03.661Z",
-    "evidence_summary": "Industry directory lists a named contact, phone, and email for Advanced Roof Design."
-  },
-  {
     "id": "company-lennar-homes-of-california-procurement-1-trade_partner",
     "company_profile_id": "company-lennar-homes-of-california",
     "path_type": "trade_partner",
@@ -20,7 +8,7 @@
     "source_type": "contact_page",
     "confidence": 0.76,
     "contractor_value": "High",
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "evidence_summary": "Lennar business inquiry form routes business-related inquiries to an appropriate Lennar associate."
   },
   {
@@ -32,8 +20,20 @@
     "source_type": "contact_page",
     "confidence": 0.72,
     "contractor_value": "Medium",
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "evidence_summary": "Business inquiry form provides a source-backed way to reach Lennar for non-consumer business inquiries."
+  },
+  {
+    "id": "company-advanced-roof-design-procurement-1-general_contact",
+    "company_profile_id": "company-advanced-roof-design",
+    "path_type": "general_contact",
+    "path_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+    "source_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+    "source_type": "public_profile",
+    "confidence": 0.78,
+    "contractor_value": "Medium",
+    "last_verified": "2026-07-08T02:13:14.733Z",
+    "evidence_summary": "Industry directory lists a named contact, phone, and email for Advanced Roof Design."
   },
   {
     "id": "company-alltech-gates-and-entry-controls-procurement-1-general_contact",
@@ -44,7 +44,7 @@
     "source_type": "public_profile",
     "confidence": 0.55,
     "contractor_value": "Low",
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "evidence_summary": "Public listing provides a company phone, but no dedicated bid or subcontractor intake path."
   },
   {
@@ -56,7 +56,7 @@
     "source_type": "contact_page",
     "confidence": 0.74,
     "contractor_value": "Medium",
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "evidence_summary": "Official site navigation exposes a contact page."
   },
   {
@@ -68,7 +68,7 @@
     "source_type": "public_profile",
     "confidence": 0.62,
     "contractor_value": "Low",
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "evidence_summary": "Vendor profile provides a company phone, but no dedicated bid or subcontractor intake path."
   },
   {
@@ -80,7 +80,7 @@
     "source_type": "official_website",
     "confidence": 0.72,
     "contractor_value": "Medium",
-    "last_verified": "2026-07-07T21:05:03.661Z",
+    "last_verified": "2026-07-08T02:13:14.733Z",
     "evidence_summary": "Official site displays Contact Us and a phone number."
   }
 ]

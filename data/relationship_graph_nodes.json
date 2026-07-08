@@ -1,0 +1,1012 @@
+[
+  {
+    "id": "architect:kevin-l-cook-architect",
+    "type": "Architect",
+    "name": "Kevin L Cook Architect Inc.",
+    "evidence_count": 4,
+    "project_count": 2,
+    "relationship_count": 5,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-kevin-l-cook-architect",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Landscaping",
+          "count": 2
+        },
+        {
+          "name": "Residential",
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "city:sacramento",
+    "type": "City",
+    "name": "Sacramento",
+    "evidence_count": 7,
+    "project_count": 1,
+    "relationship_count": 7,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.7,
+    "metadata": {}
+  },
+  {
+    "id": "county:sacramento",
+    "type": "County",
+    "name": "Sacramento",
+    "evidence_count": 7,
+    "project_count": 1,
+    "relationship_count": 7,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.7,
+    "metadata": {}
+  },
+  {
+    "id": "developer:lennar-homes-of-california",
+    "type": "Developer",
+    "name": "Lennar Homes of California",
+    "evidence_count": 20,
+    "project_count": 10,
+    "relationship_count": 11,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.75,
+    "metadata": {
+      "company_profile_id": "company-lennar-homes-of-california",
+      "website": "https://www.lennar.com/",
+      "procurement_path_count": 2,
+      "known_trades": [
+        {
+          "name": "Site work",
+          "count": 5
+        },
+        {
+          "name": "Residential",
+          "count": 4
+        },
+        {
+          "name": "Electrical",
+          "count": 2
+        },
+        {
+          "name": "Fencing",
+          "count": 2
+        },
+        {
+          "name": "Landscaping",
+          "count": 2
+        },
+        {
+          "name": "Utilities",
+          "count": 2
+        },
+        {
+          "name": "Earthwork",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "developer:integral-communities",
+    "type": "Developer",
+    "name": "Integral Communities",
+    "evidence_count": 2,
+    "project_count": 1,
+    "relationship_count": 2,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-integral-communities",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Landscaping",
+          "count": 1
+        },
+        {
+          "name": "Residential",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "developer:taylor-morrison-of-california",
+    "type": "Developer",
+    "name": "Taylor Morrison of California",
+    "evidence_count": 2,
+    "project_count": 1,
+    "relationship_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-taylor-morrison-of-california",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Residential",
+          "count": 1
+        },
+        {
+          "name": "Site work",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:a-1-electrical",
+    "type": "General Contractor",
+    "name": "A 1 ELECTRICAL",
+    "evidence_count": 11,
+    "project_count": 11,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-a-1-electrical",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Concrete",
+          "count": 11
+        },
+        {
+          "name": "Electrical",
+          "count": 11
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:robert-l-scheid-construction",
+    "type": "General Contractor",
+    "name": "ROBERT L SCHEID CONSTRUCTION",
+    "evidence_count": 11,
+    "project_count": 11,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-robert-l-scheid-construction",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 11
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:advanced-roof-design",
+    "type": "General Contractor",
+    "name": "ADVANCED ROOF DESIGN INC",
+    "evidence_count": 5,
+    "project_count": 2,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.89,
+    "metadata": {
+      "company_profile_id": "company-advanced-roof-design",
+      "website": "https://www.ardroofing.com/",
+      "procurement_path_count": 1,
+      "known_trades": [
+        {
+          "name": "Roofing",
+          "count": 2
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:3-generations-improvements",
+    "type": "General Contractor",
+    "name": "3 GENERATIONS IMPROVEMENTS INC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-3-generations-improvements",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "General",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:alltech-gates-and-entry-controls",
+    "type": "General Contractor",
+    "name": "ALLTECH GATES AND ENTRY CONTROLS INC",
+    "evidence_count": 2,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.57,
+    "metadata": {
+      "company_profile_id": "company-alltech-gates-and-entry-controls",
+      "website": null,
+      "procurement_path_count": 1,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "Fencing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:american-buildings-j-s",
+    "type": "General Contractor",
+    "name": "AMERICAN BUILDINGS J&S",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-american-buildings-j-s",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Concrete",
+          "count": 1
+        },
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "Fencing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:american-carports",
+    "type": "General Contractor",
+    "name": "AMERICAN CARPORTS INC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-american-carports",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Concrete",
+          "count": 1
+        },
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "Fencing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:burns-construction",
+    "type": "General Contractor",
+    "name": "BURNS CONSTRUCTION",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-burns-construction",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:california-renewable-energy",
+    "type": "General Contractor",
+    "name": "CALIFORNIA RENEWABLE ENERGY",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-california-renewable-energy",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "HVAC",
+          "count": 1
+        },
+        {
+          "name": "Roofing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:deome-2-builders",
+    "type": "General Contractor",
+    "name": "DEOME 2 BUILDERS INC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-deome-2-builders",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "Fencing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:duramax-roofing",
+    "type": "General Contractor",
+    "name": "DURAMAX ROOFING INC",
+    "evidence_count": 4,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.89,
+    "metadata": {
+      "company_profile_id": "company-duramax-roofing",
+      "website": "https://duramaxroofing.net/",
+      "procurement_path_count": 1,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "Roofing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:dyer-construction",
+    "type": "General Contractor",
+    "name": "DYER CONSTRUCTION INC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-dyer-construction",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Roofing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:famand",
+    "type": "General Contractor",
+    "name": "FAMAND INC",
+    "evidence_count": 2,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.57,
+    "metadata": {
+      "company_profile_id": "company-famand",
+      "website": null,
+      "procurement_path_count": 1,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "HVAC",
+          "count": 1
+        },
+        {
+          "name": "Roofing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:fdc-nor-cal",
+    "type": "General Contractor",
+    "name": "FDC NOR-CAL CORP",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-fdc-nor-cal",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "Fencing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:gigawatt-california",
+    "type": "General Contractor",
+    "name": "GIGAWATT CALIFORNIA LLC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-gigawatt-california",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:group-one-builders",
+    "type": "General Contractor",
+    "name": "GROUP ONE BUILDERS INC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-group-one-builders",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "Fencing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:kenneth-development",
+    "type": "General Contractor",
+    "name": "KENNETH DEVELOPMENT INC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-kenneth-development",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "Fencing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:kustom-us",
+    "type": "General Contractor",
+    "name": "KUSTOM US INC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-kustom-us",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Concrete",
+          "count": 1
+        },
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "Fencing",
+          "count": 1
+        },
+        {
+          "name": "Roofing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:lund-construction",
+    "type": "General Contractor",
+    "name": "Lund Construction Co",
+    "evidence_count": 2,
+    "project_count": 1,
+    "relationship_count": 3,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-lund-construction",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Earthwork",
+          "count": 1
+        },
+        {
+          "name": "Site work",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:master-roofing-solutions",
+    "type": "General Contractor",
+    "name": "MASTER ROOFING SOLUTIONS LLC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-master-roofing-solutions",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Roofing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:o-connor-pool-solutions",
+    "type": "General Contractor",
+    "name": "O'CONNOR POOL SOLUTIONS INC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-o-connor-pool-solutions",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "General",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:phillip-isaacs-construction",
+    "type": "General Contractor",
+    "name": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-phillip-isaacs-construction",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "General",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:prime-home-solutions",
+    "type": "General Contractor",
+    "name": "PRIME HOME SOLUTIONS INC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-prime-home-solutions",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:sunsource",
+    "type": "General Contractor",
+    "name": "SUNSOURCE INC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-sunsource",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "Fencing",
+          "count": 1
+        },
+        {
+          "name": "HVAC",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:veerkamp-doug-general-engineering",
+    "type": "General Contractor",
+    "name": "VEERKAMP DOUG GENERAL ENGINEERING INC",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-veerkamp-doug-general-engineering",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "Concrete",
+          "count": 1
+        },
+        {
+          "name": "Fencing",
+          "count": 1
+        },
+        {
+          "name": "Site work",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:waters-construction",
+    "type": "General Contractor",
+    "name": "WATERS CONSTRUCTION COMPANY LLC",
+    "evidence_count": 4,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.89,
+    "metadata": {
+      "company_profile_id": "company-waters-construction",
+      "website": "https://watersconco.com/",
+      "procurement_path_count": 1,
+      "known_trades": [
+        {
+          "name": "Electrical",
+          "count": 1
+        },
+        {
+          "name": "Fencing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "general-contractor:west-coast-flooring",
+    "type": "General Contractor",
+    "name": "WEST COAST FLOORING",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 0,
+    "first_seen": "2026-07-08T02:27:39.344Z",
+    "last_seen": "2026-07-08T02:27:39.344Z",
+    "confidence": 0.35,
+    "metadata": {
+      "company_profile_id": "company-west-coast-flooring",
+      "website": null,
+      "procurement_path_count": 0,
+      "known_trades": [
+        {
+          "name": "General",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": "project:gerber-creek-and-lelani-village-subdivisions",
+    "type": "Project",
+    "name": "Gerber Creek and Lelani Village Subdivisions",
+    "evidence_count": 4,
+    "project_count": 1,
+    "relationship_count": 5,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.71,
+    "metadata": {
+      "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf",
+      "source_type": "meeting_minutes",
+      "location": "Sacramento County"
+    }
+  },
+  {
+    "id": "project:gerber-creek-re-alignment",
+    "type": "Project",
+    "name": "Gerber Creek Re-Alignment",
+    "evidence_count": 6,
+    "project_count": 1,
+    "relationship_count": 6,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.73,
+    "metadata": {
+      "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
+      "source_type": "project_website",
+      "location": "South Sacramento"
+    }
+  },
+  {
+    "id": "project:gerber-creek-unit-1-and-unit-2",
+    "type": "Project",
+    "name": "Gerber Creek Unit 1 and Unit 2",
+    "evidence_count": 5,
+    "project_count": 1,
+    "relationship_count": 5,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.73,
+    "metadata": {
+      "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
+      "source_type": "environmental_document",
+      "location": "Sacramento County"
+    }
+  },
+  {
+    "id": "project:gerber-creek-gerber-creek-unit-3-gardner-parke-lelani-village",
+    "type": "Project",
+    "name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
+    "evidence_count": 5,
+    "project_count": 1,
+    "relationship_count": 6,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.73,
+    "metadata": {
+      "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223",
+      "source_type": "board_agenda",
+      "location": "Sacramento County"
+    }
+  },
+  {
+    "id": "project:northlake-36-homes",
+    "type": "Project",
+    "name": "Northlake 36 Homes",
+    "evidence_count": 6,
+    "project_count": 1,
+    "relationship_count": 6,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.73,
+    "metadata": {
+      "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
+      "source_type": "construction_news",
+      "location": "North Natomas, Sacramento"
+    }
+  },
+  {
+    "id": "project:northlake-lakelet",
+    "type": "Project",
+    "name": "Northlake Lakelet",
+    "evidence_count": 8,
+    "project_count": 1,
+    "relationship_count": 7,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.74,
+    "metadata": {
+      "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
+      "source_type": "construction_news",
+      "location": "North Natomas, Sacramento"
+    }
+  },
+  {
+    "id": "project:trunk-drainage-facilities-zone-11a",
+    "type": "Project",
+    "name": "Trunk Drainage Facilities Zone 11A",
+    "evidence_count": 5,
+    "project_count": 1,
+    "relationship_count": 5,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.72,
+    "metadata": {
+      "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977",
+      "source_type": "board_agenda",
+      "location": "Sacramento County"
+    }
+  },
+  {
+    "id": "trade:earthwork",
+    "type": "Trade",
+    "name": "Earthwork",
+    "evidence_count": 1,
+    "project_count": 1,
+    "relationship_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.68,
+    "metadata": {}
+  },
+  {
+    "id": "trade:landscaping",
+    "type": "Trade",
+    "name": "Landscaping",
+    "evidence_count": 2,
+    "project_count": 1,
+    "relationship_count": 2,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.68,
+    "metadata": {}
+  },
+  {
+    "id": "trade:residential",
+    "type": "Trade",
+    "name": "Residential",
+    "evidence_count": 4,
+    "project_count": 1,
+    "relationship_count": 4,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.68,
+    "metadata": {}
+  },
+  {
+    "id": "trade:site-work",
+    "type": "Trade",
+    "name": "Site work",
+    "evidence_count": 5,
+    "project_count": 1,
+    "relationship_count": 5,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.68,
+    "metadata": {}
+  },
+  {
+    "id": "trade:utilities",
+    "type": "Trade",
+    "name": "Utilities",
+    "evidence_count": 2,
+    "project_count": 1,
+    "relationship_count": 2,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "confidence": 0.68,
+    "metadata": {}
+  }
+]

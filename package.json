@@ -18,6 +18,7 @@
     "intelligence:evidence": "node scripts/build-evidence-expansion.mjs",
     "intelligence:companies": "node scripts/build-company-intelligence.mjs",
     "intelligence:behavior": "node scripts/build-behavior-intelligence.mjs",
+    "graph:relationships": "node scripts/build-relationship-graph.mjs",
     "graph:export": "tsx scripts/export-intelligence-graph.mjs",
     "graph:sync": "tsx scripts/sync-neo4j.mjs",
     "obsidian:export": "tsx scripts/export-obsidian-vault.mjs"

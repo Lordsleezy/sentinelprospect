@@ -1,0 +1,931 @@
+[
+  {
+    "id": "edge-lennar-homes-of-california",
+    "from_node_id": "developer:lennar-homes-of-california",
+    "to_node_id": "architect:kevin-l-cook-architect",
+    "relationship_type": "developer_architect",
+    "relationship_count": 2,
+    "evidence_count": 2,
+    "project_count": 2,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:20.331Z",
+    "projects": [
+      {
+        "project_name": "Northlake 36 Homes",
+        "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+      },
+      {
+        "project_name": "Northlake Lakelet",
+        "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
+      "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.82
+  },
+  {
+    "id": "edge-kevin-l-cook-architect",
+    "from_node_id": "developer:integral-communities",
+    "to_node_id": "architect:kevin-l-cook-architect",
+    "relationship_type": "developer_architect",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:20.331Z",
+    "projects": [
+      {
+        "project_name": "Northlake Lakelet",
+        "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.82
+  },
+  {
+    "id": "edge-lennar-homes-of-california",
+    "from_node_id": "developer:lennar-homes-of-california",
+    "to_node_id": "general-contractor:lund-construction",
+    "relationship_type": "developer_gc",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:20.331Z",
+    "last_seen": "2026-07-08T02:13:20.331Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Re-Alignment",
+        "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/"
+      }
+    ],
+    "source_urls": [
+      "https://www.lundconst.com/portfolio-item/gerbercreek/"
+    ],
+    "confidence": 0.5
+  },
+  {
+    "id": "edge-lennar-homes-of-california",
+    "from_node_id": "developer:lennar-homes-of-california",
+    "to_node_id": "general-contractor:lund-construction",
+    "relationship_type": "developer_trade_contractor",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Re-Alignment",
+        "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/"
+      }
+    ],
+    "source_urls": [
+      "https://www.lundconst.com/portfolio-item/gerbercreek/"
+    ],
+    "confidence": 0.82
+  },
+  {
+    "id": "edge-kevin-l-cook-architect",
+    "from_node_id": "project:northlake-lakelet",
+    "to_node_id": "architect:kevin-l-cook-architect",
+    "relationship_type": "project_architect",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake Lakelet",
+        "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "edge-kevin-l-cook-architect",
+    "from_node_id": "project:northlake-36-homes",
+    "to_node_id": "architect:kevin-l-cook-architect",
+    "relationship_type": "project_architect",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake 36 Homes",
+        "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "edge-project-gerber-creek-re-alignment-city-sacramento-project-city",
+    "from_node_id": "project:gerber-creek-re-alignment",
+    "to_node_id": "city:sacramento",
+    "relationship_type": "project_city",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Re-Alignment",
+        "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/"
+      }
+    ],
+    "source_urls": [
+      "https://www.lundconst.com/portfolio-item/gerbercreek/"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-northlake-lakelet-city-sacramento-project-city",
+    "from_node_id": "project:northlake-lakelet",
+    "to_node_id": "city:sacramento",
+    "relationship_type": "project_city",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake Lakelet",
+        "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-northlake-36-homes-city-sacramento-project-city",
+    "from_node_id": "project:northlake-36-homes",
+    "to_node_id": "city:sacramento",
+    "relationship_type": "project_city",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake 36 Homes",
+        "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-gerber-creek-unit-1-and-unit-2-city-sacramento-project-city",
+    "from_node_id": "project:gerber-creek-unit-1-and-unit-2",
+    "to_node_id": "city:sacramento",
+    "relationship_type": "project_city",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Unit 1 and Unit 2",
+        "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/"
+      }
+    ],
+    "source_urls": [
+      "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-gerber-creek-and-lelani-village-subdivisions-city-sacramento-project-city",
+    "from_node_id": "project:gerber-creek-and-lelani-village-subdivisions",
+    "to_node_id": "city:sacramento",
+    "relationship_type": "project_city",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek and Lelani Village Subdivisions",
+        "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf"
+      }
+    ],
+    "source_urls": [
+      "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-trunk-drainage-facilities-zone-11a-city-sacramento-project-city",
+    "from_node_id": "project:trunk-drainage-facilities-zone-11a",
+    "to_node_id": "city:sacramento",
+    "relationship_type": "project_city",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Trunk Drainage Facilities Zone 11A",
+        "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977"
+      }
+    ],
+    "source_urls": [
+      "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-gerber-creek-gerber-creek-unit-3-gardner-parke-lelani-village-city-sacramento-project-city",
+    "from_node_id": "project:gerber-creek-gerber-creek-unit-3-gardner-parke-lelani-village",
+    "to_node_id": "city:sacramento",
+    "relationship_type": "project_city",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
+        "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223"
+      }
+    ],
+    "source_urls": [
+      "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-gerber-creek-re-alignment-county-sacramento-project-county",
+    "from_node_id": "project:gerber-creek-re-alignment",
+    "to_node_id": "county:sacramento",
+    "relationship_type": "project_county",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Re-Alignment",
+        "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/"
+      }
+    ],
+    "source_urls": [
+      "https://www.lundconst.com/portfolio-item/gerbercreek/"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-northlake-lakelet-county-sacramento-project-county",
+    "from_node_id": "project:northlake-lakelet",
+    "to_node_id": "county:sacramento",
+    "relationship_type": "project_county",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake Lakelet",
+        "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-northlake-36-homes-county-sacramento-project-county",
+    "from_node_id": "project:northlake-36-homes",
+    "to_node_id": "county:sacramento",
+    "relationship_type": "project_county",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake 36 Homes",
+        "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-gerber-creek-unit-1-and-unit-2-county-sacramento-project-county",
+    "from_node_id": "project:gerber-creek-unit-1-and-unit-2",
+    "to_node_id": "county:sacramento",
+    "relationship_type": "project_county",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Unit 1 and Unit 2",
+        "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/"
+      }
+    ],
+    "source_urls": [
+      "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-gerber-creek-and-lelani-village-subdivisions-county-sacramento-project-county",
+    "from_node_id": "project:gerber-creek-and-lelani-village-subdivisions",
+    "to_node_id": "county:sacramento",
+    "relationship_type": "project_county",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek and Lelani Village Subdivisions",
+        "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf"
+      }
+    ],
+    "source_urls": [
+      "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-trunk-drainage-facilities-zone-11a-county-sacramento-project-county",
+    "from_node_id": "project:trunk-drainage-facilities-zone-11a",
+    "to_node_id": "county:sacramento",
+    "relationship_type": "project_county",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Trunk Drainage Facilities Zone 11A",
+        "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977"
+      }
+    ],
+    "source_urls": [
+      "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-project-gerber-creek-gerber-creek-unit-3-gardner-parke-lelani-village-county-sacramento-project-county",
+    "from_node_id": "project:gerber-creek-gerber-creek-unit-3-gardner-parke-lelani-village",
+    "to_node_id": "county:sacramento",
+    "relationship_type": "project_county",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
+        "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223"
+      }
+    ],
+    "source_urls": [
+      "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "edge-lennar-homes-of-california",
+    "from_node_id": "project:gerber-creek-re-alignment",
+    "to_node_id": "developer:lennar-homes-of-california",
+    "relationship_type": "project_developer",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Re-Alignment",
+        "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/"
+      }
+    ],
+    "source_urls": [
+      "https://www.lundconst.com/portfolio-item/gerbercreek/"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "edge-lennar-homes-of-california",
+    "from_node_id": "project:northlake-lakelet",
+    "to_node_id": "developer:lennar-homes-of-california",
+    "relationship_type": "project_developer",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake Lakelet",
+        "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "edge-integral-communities",
+    "from_node_id": "project:northlake-lakelet",
+    "to_node_id": "developer:integral-communities",
+    "relationship_type": "project_developer",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake Lakelet",
+        "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "edge-lennar-homes-of-california",
+    "from_node_id": "project:northlake-36-homes",
+    "to_node_id": "developer:lennar-homes-of-california",
+    "relationship_type": "project_developer",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake 36 Homes",
+        "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "edge-lennar-homes-of-california",
+    "from_node_id": "project:gerber-creek-unit-1-and-unit-2",
+    "to_node_id": "developer:lennar-homes-of-california",
+    "relationship_type": "project_developer",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Unit 1 and Unit 2",
+        "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/"
+      }
+    ],
+    "source_urls": [
+      "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "edge-lennar-homes-of-california",
+    "from_node_id": "project:gerber-creek-and-lelani-village-subdivisions",
+    "to_node_id": "developer:lennar-homes-of-california",
+    "relationship_type": "project_developer",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek and Lelani Village Subdivisions",
+        "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf"
+      }
+    ],
+    "source_urls": [
+      "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "edge-lennar-homes-of-california",
+    "from_node_id": "project:trunk-drainage-facilities-zone-11a",
+    "to_node_id": "developer:lennar-homes-of-california",
+    "relationship_type": "project_developer",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Trunk Drainage Facilities Zone 11A",
+        "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977"
+      }
+    ],
+    "source_urls": [
+      "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "edge-lennar-homes-of-california",
+    "from_node_id": "project:gerber-creek-gerber-creek-unit-3-gardner-parke-lelani-village",
+    "to_node_id": "developer:lennar-homes-of-california",
+    "relationship_type": "project_developer",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
+        "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223"
+      }
+    ],
+    "source_urls": [
+      "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "edge-taylor-morrison-of-california",
+    "from_node_id": "project:gerber-creek-gerber-creek-unit-3-gardner-parke-lelani-village",
+    "to_node_id": "developer:taylor-morrison-of-california",
+    "relationship_type": "project_developer",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
+        "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223"
+      }
+    ],
+    "source_urls": [
+      "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "edge-lund-construction",
+    "from_node_id": "project:gerber-creek-re-alignment",
+    "to_node_id": "general-contractor:lund-construction",
+    "relationship_type": "project_gc",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Re-Alignment",
+        "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/"
+      }
+    ],
+    "source_urls": [
+      "https://www.lundconst.com/portfolio-item/gerbercreek/"
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "edge-project-gerber-creek-re-alignment-trade-earthwork-project-trade",
+    "from_node_id": "project:gerber-creek-re-alignment",
+    "to_node_id": "trade:earthwork",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Re-Alignment",
+        "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/"
+      }
+    ],
+    "source_urls": [
+      "https://www.lundconst.com/portfolio-item/gerbercreek/"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-gerber-creek-re-alignment-trade-site-work-project-trade",
+    "from_node_id": "project:gerber-creek-re-alignment",
+    "to_node_id": "trade:site-work",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Re-Alignment",
+        "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/"
+      }
+    ],
+    "source_urls": [
+      "https://www.lundconst.com/portfolio-item/gerbercreek/"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-northlake-lakelet-trade-residential-project-trade",
+    "from_node_id": "project:northlake-lakelet",
+    "to_node_id": "trade:residential",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake Lakelet",
+        "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-northlake-lakelet-trade-landscaping-project-trade",
+    "from_node_id": "project:northlake-lakelet",
+    "to_node_id": "trade:landscaping",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake Lakelet",
+        "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-northlake-36-homes-trade-residential-project-trade",
+    "from_node_id": "project:northlake-36-homes",
+    "to_node_id": "trade:residential",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake 36 Homes",
+        "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-northlake-36-homes-trade-landscaping-project-trade",
+    "from_node_id": "project:northlake-36-homes",
+    "to_node_id": "trade:landscaping",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Northlake 36 Homes",
+        "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+      }
+    ],
+    "source_urls": [
+      "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-gerber-creek-unit-1-and-unit-2-trade-site-work-project-trade",
+    "from_node_id": "project:gerber-creek-unit-1-and-unit-2",
+    "to_node_id": "trade:site-work",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Unit 1 and Unit 2",
+        "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/"
+      }
+    ],
+    "source_urls": [
+      "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-gerber-creek-unit-1-and-unit-2-trade-utilities-project-trade",
+    "from_node_id": "project:gerber-creek-unit-1-and-unit-2",
+    "to_node_id": "trade:utilities",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek Unit 1 and Unit 2",
+        "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/"
+      }
+    ],
+    "source_urls": [
+      "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-gerber-creek-and-lelani-village-subdivisions-trade-residential-project-trade",
+    "from_node_id": "project:gerber-creek-and-lelani-village-subdivisions",
+    "to_node_id": "trade:residential",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek and Lelani Village Subdivisions",
+        "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf"
+      }
+    ],
+    "source_urls": [
+      "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-gerber-creek-and-lelani-village-subdivisions-trade-site-work-project-trade",
+    "from_node_id": "project:gerber-creek-and-lelani-village-subdivisions",
+    "to_node_id": "trade:site-work",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek and Lelani Village Subdivisions",
+        "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf"
+      }
+    ],
+    "source_urls": [
+      "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-trunk-drainage-facilities-zone-11a-trade-utilities-project-trade",
+    "from_node_id": "project:trunk-drainage-facilities-zone-11a",
+    "to_node_id": "trade:utilities",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Trunk Drainage Facilities Zone 11A",
+        "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977"
+      }
+    ],
+    "source_urls": [
+      "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-trunk-drainage-facilities-zone-11a-trade-site-work-project-trade",
+    "from_node_id": "project:trunk-drainage-facilities-zone-11a",
+    "to_node_id": "trade:site-work",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Trunk Drainage Facilities Zone 11A",
+        "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977"
+      }
+    ],
+    "source_urls": [
+      "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-gerber-creek-gerber-creek-unit-3-gardner-parke-lelani-village-trade-residential-project-trade",
+    "from_node_id": "project:gerber-creek-gerber-creek-unit-3-gardner-parke-lelani-village",
+    "to_node_id": "trade:residential",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
+        "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223"
+      }
+    ],
+    "source_urls": [
+      "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223"
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "edge-project-gerber-creek-gerber-creek-unit-3-gardner-parke-lelani-village-trade-site-work-project-trade",
+    "from_node_id": "project:gerber-creek-gerber-creek-unit-3-gardner-parke-lelani-village",
+    "to_node_id": "trade:site-work",
+    "relationship_type": "project_trade",
+    "relationship_count": 1,
+    "evidence_count": 1,
+    "project_count": 1,
+    "first_seen": "2026-07-08T02:13:04.962Z",
+    "last_seen": "2026-07-08T02:13:04.962Z",
+    "projects": [
+      {
+        "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
+        "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223"
+      }
+    ],
+    "source_urls": [
+      "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223"
+    ],
+    "confidence": 0.68
+  }
+]

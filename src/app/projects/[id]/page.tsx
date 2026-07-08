@@ -89,16 +89,25 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
           {contractorOpportunity ? (
             <Card className="border-emerald-200 bg-emerald-50">
               <CardHeader>
-                <h2 className="text-base font-semibold">Contractor Opportunity Qualification</h2>
-                <p className="mt-1 text-sm text-emerald-900">{contractorOpportunity.qualification_reason}</p>
+                <h2 className="text-base font-semibold">Recommended Action</h2>
+                <p className="mt-1 text-sm text-emerald-900">{contractorOpportunity.recommended_action}</p>
               </CardHeader>
-              <CardContent className="grid gap-3 md:grid-cols-3 lg:grid-cols-6">
-                <HeaderFact label="Contractor Score" value={String(contractorOpportunity.contractor_opportunity_score)} strong />
-                <HeaderFact label="Trade Relevance" value={`${contractorOpportunity.trade_relevance}%`} />
-                <HeaderFact label="Subcontractor Likelihood" value={contractorOpportunity.subcontractor_likelihood} />
-                <HeaderFact label="Scope Size" value={contractorOpportunity.scope_size} />
-                <HeaderFact label="Opportunity Size" value={contractorOpportunity.opportunity_size} />
-                <HeaderFact label="Project Stage" value={contractorOpportunity.project_stage} />
+              <CardContent className="space-y-4">
+                <div className="grid gap-3 md:grid-cols-3 lg:grid-cols-6">
+                  <HeaderFact label="Actionability" value={String(contractorOpportunity.actionability_score)} strong />
+                  <HeaderFact label="Contractor Score" value={String(contractorOpportunity.contractor_opportunity_score)} />
+                  <HeaderFact label="Likely Scope" value={contractorOpportunity.likely_scope} />
+                  <HeaderFact label="Access Path" value={contractorOpportunity.access_path.type} />
+                  <HeaderFact label="Subcontractor Likelihood" value={contractorOpportunity.subcontractor_likelihood} />
+                  <HeaderFact label="Project Stage" value={contractorOpportunity.project_stage} />
+                </div>
+                <div className="rounded-md border border-emerald-100 bg-white p-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">What To Say</p>
+                  <p className="mt-2 text-sm leading-6 text-emerald-950">{contractorOpportunity.outreach_script}</p>
+                </div>
+                {contractorOpportunity.missing_intelligence.length ? (
+                  <p className="text-sm text-emerald-900">Additional intelligence not yet discovered: {contractorOpportunity.missing_intelligence.join(", ")}.</p>
+                ) : null}
               </CardContent>
             </Card>
           ) : null}
@@ -132,9 +141,8 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                 </>
               ) : (
                 <div className="grid gap-3 md:grid-cols-[1fr_2fr]">
-                  <HeaderFact label="Contact" value="Unknown" />
                   <p className="text-sm leading-6 text-sky-900">
-                    No source-backed human contact is available yet. Use the known access route or continue research before direct outreach.
+                    Additional contact intelligence not yet discovered. Use the known access route or continue research before direct outreach.
                   </p>
                 </div>
               )}

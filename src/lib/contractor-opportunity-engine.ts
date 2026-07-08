@@ -1,4 +1,5 @@
 import contractorRows from "../../data/contractor_opportunities.json";
+import actionRows from "../../data/contractor_action_opportunities.json";
 
 export type ScopeSize = "Tiny" | "Small" | "Medium" | "Large" | "Major";
 export type SubcontractorLikelihood = "High" | "Medium" | "Low" | "Unknown";
@@ -54,9 +55,25 @@ export type ContractorOpportunity = {
   suppress_reasons: string[];
   trade_scores: Record<string, TradeScore>;
   qualification_reason: string;
+  actionability_score: number;
+  recommended_action: string;
+  outreach_script: string;
+  likely_scope: string;
+  best_contact?: { name?: string; company: string; phone?: string; email?: string };
+  access_path: { type: string; value: string };
+  populated_fields: Record<string, string | undefined>;
+  missing_intelligence: string[];
 };
 
-const contractorOpportunities = contractorRows as ContractorOpportunity[];
+type ContractorActionFields = Pick<ContractorOpportunity, "actionability_score" | "recommended_action" | "outreach_script" | "likely_scope" | "best_contact" | "access_path" | "populated_fields" | "missing_intelligence"> & {
+  opportunity_id: string;
+};
+
+const actionsByOpportunity = new Map(((actionRows as unknown) as ContractorActionFields[]).map((row) => [row.opportunity_id, row]));
+const contractorOpportunities = ((contractorRows as unknown) as ContractorOpportunity[]).map((opportunity) => ({
+  ...opportunity,
+  ...(actionsByOpportunity.get(opportunity.id) ?? {}),
+})) as ContractorOpportunity[];
 const contractorOpportunityByProjectName = new Map(contractorOpportunities.map((opportunity) => [normalizeKey(opportunity.project_name), opportunity]));
 
 const aliases: Record<string, string[]> = {
@@ -109,8 +126,9 @@ export function getContractorOpportunitySearchResults(query: string) {
         score: scoreContractorOpportunity(opportunity, queryTerms, targetTrades, tradeScore),
       };
     })
-    .filter((item) => item.score >= 35)
+    .filter((item) => item.score >= 35 && item.opportunity.suppress_reasons.length === 0)
     .sort((a, b) =>
+      b.opportunity.actionability_score - a.opportunity.actionability_score ||
       b.score - a.score ||
       b.opportunity.contractor_opportunity_score - a.opportunity.contractor_opportunity_score ||
       b.opportunity.access_score - a.opportunity.access_score
@@ -150,6 +168,7 @@ function bestTradeScoreForQuery(opportunity: ContractorOpportunity, targetTrades
 
 function applySearchTradeScore(opportunity: ContractorOpportunity, tradeScore: TradeScore | null): ContractorOpportunity {
   if (!tradeScore) return opportunity;
+  const likelyScope = likelyScopeForTrade(opportunity, tradeScore.trade);
   return {
     ...opportunity,
     contractor_opportunity_score: tradeScore.contractor_opportunity_score,
@@ -157,6 +176,9 @@ function applySearchTradeScore(opportunity: ContractorOpportunity, tradeScore: T
     trade_relevance: tradeScore.trade_relevance,
     existing_contractor_saturation_penalty: tradeScore.existing_contractor_saturation_penalty,
     suppress_reasons: searchSuppressReasons(opportunity, tradeScore),
+    likely_scope: likelyScope,
+    recommended_action: recommendedActionForTrade(opportunity, tradeScore.trade, likelyScope),
+    outreach_script: outreachScriptForTrade(opportunity, tradeScore.trade, likelyScope),
   };
 }
 
@@ -178,7 +200,7 @@ function scoreContractorOpportunity(opportunity: ContractorOpportunity, queryTer
     opportunity.qualification_reason,
   ].join(" ").toLowerCase();
 
-  let score = tradeScore.contractor_opportunity_score;
+  let score = Math.round((adjusted.actionability_score ?? 0) * 0.55 + tradeScore.contractor_opportunity_score * 0.35);
   score += queryTerms.reduce((sum, term) => sum + (text.includes(term) ? 3 : 0), 0);
   if (targetTrades.length && tradeScore.trade_relevance < 35) score -= 30;
   if (adjusted.suppress_reasons.length) score -= adjusted.suppress_reasons.length * 22;
@@ -199,6 +221,46 @@ function searchSuppressReasons(opportunity: ContractorOpportunity, tradeScore: T
 
 function terms(query: string) {
   return [...new Set(query.toLowerCase().split(/[^a-z0-9]+/).filter((term) => term.length > 1))];
+}
+
+function likelyScopeForTrade(opportunity: ContractorOpportunity, trade: string) {
+  const text = `${opportunity.project_name} ${opportunity.trade} ${opportunity.qualification_reason}`.toLowerCase();
+  if (trade === "Fencing") {
+    if (/park/.test(text)) return "Park fencing";
+    if (/school/.test(text)) return "School perimeter fencing";
+    if (/utility|drainage|trunk|corridor/.test(text)) return "Utility corridor fencing";
+    if (/industrial|security|warehouse/.test(text)) return "Security fencing";
+    if (/subdivision|village|master plan|lot|unit|homes|residential/.test(text)) return "Residential perimeter fencing";
+    if (/gate/.test(text)) return "Gates";
+    return "Construction fencing";
+  }
+  return trade === opportunity.primary_contractor_trade ? opportunity.likely_scope : `${trade} scope`;
+}
+
+function recommendedActionForTrade(opportunity: ContractorOpportunity, trade: string, likelyScope: string) {
+  const projectName = cleanProjectName(opportunity.project_name);
+  const scope = likelyScope.toLowerCase();
+  const contact = opportunity.best_contact;
+  if (contact?.phone) {
+    return `Call ${contact.name ?? contact.company} and ask for the site development, estimating, or purchasing department regarding ${scope} opportunities for ${projectName}.`;
+  }
+  if (contact?.email) {
+    return `Email ${contact.name ?? contact.company} and ask who handles subcontractor pricing for ${scope} work on ${projectName}.`;
+  }
+  if (opportunity.access_path?.type && opportunity.access_path.type !== "Unknown") {
+    return `Use the ${opportunity.access_path.type.toLowerCase()} access path for ${projectName} and ask how ${trade.toLowerCase()} subcontractors should be considered.`;
+  }
+  return `Research the developer or general contractor for ${projectName} before outreach.`;
+}
+
+function outreachScriptForTrade(opportunity: ContractorOpportunity, trade: string, likelyScope: string) {
+  const contact = opportunity.best_contact;
+  const company = contact?.company ?? opportunity.populated_fields.general_contractor ?? opportunity.populated_fields.developer ?? "your project team";
+  return `Hi, this is [Name] with [Company]. I'm calling about ${cleanProjectName(opportunity.project_name)}. I saw source evidence for the project and wanted to ask who handles ${likelyScope.toLowerCase()} or ${trade.toLowerCase()} subcontractor pricing for ${company}.`;
+}
+
+function cleanProjectName(value: string) {
+  return value.replace(/\s+/g, " ").trim().replace(/[.]+$/, "");
 }
 
 function normalizeKey(value: string) {

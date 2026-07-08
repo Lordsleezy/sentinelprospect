@@ -38,6 +38,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const opportunityCount = ranked.filter((item) => item.opportunity_state === "Opportunity").length;
   const highSubcontractCount = ranked.filter((item) => item.subcontractor_likelihood === "High").length;
   const majorScopeCount = ranked.filter((item) => item.scope_size === "Major" || item.scope_size === "Large").length;
+  const actionableNowCount = ranked.filter((item) => item.actionability_score >= 70).length;
   const tradeLabel = desiredTrade ? `${desiredTrade.toLowerCase()} ` : "";
   const sourceCount = results.signals.length + results.permits.length + results.companies.length;
 
@@ -92,8 +93,8 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                   </h2>
                   {top ? (
                     <div className="mt-3 space-y-2 text-sm leading-6 text-zinc-600">
-                      <p>Actionable: {actionableCount} | Research Required: {researchCount} | Opportunity: {opportunityCount} | High Subcontract Likelihood: {highSubcontractCount} | Large/Major Scope: {majorScopeCount}</p>
-                      <p><span className="font-semibold text-zinc-950">Why it ranks:</span> {top.qualification_reason}</p>
+                      <p>Actionable Now: {actionableNowCount} | Actionable: {actionableCount} | Research Required: {researchCount} | Opportunity: {opportunityCount} | High Subcontract Likelihood: {highSubcontractCount} | Large/Major Scope: {majorScopeCount}</p>
+                      <p><span className="font-semibold text-zinc-950">What to do:</span> {top.recommended_action}</p>
                     </div>
                   ) : (
                     <p className="mt-2 max-w-3xl text-sm leading-6 text-zinc-600">Try a trade plus a location, timing window, source, or project type. Sentinel suppresses tiny repairs, noise matches, and projects already controlled by the searched trade contractor.</p>
@@ -102,16 +103,16 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                 {top ? (
                   <div className="rounded-md border border-emerald-100 bg-emerald-50 p-4 md:w-64">
                     <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">{top.primary_contractor_trade}</p>
-                    <p className="mt-2 text-3xl font-semibold text-emerald-950">{top.contractor_opportunity_score}</p>
-                    <p className="mt-1 text-sm font-medium text-emerald-900">Contractor Opportunity Score</p>
+                    <p className="mt-2 text-3xl font-semibold text-emerald-950">{top.actionability_score}</p>
+                    <p className="mt-1 text-sm font-medium text-emerald-900">Actionability Score</p>
                   </div>
                 ) : null}
               </div>
               {top ? (
                 <div className="mt-5 grid gap-3 md:grid-cols-3">
-                  <AnalysisFact icon={Clock3} label="Subcontractor Likelihood" value={top.subcontractor_likelihood} />
+                  <AnalysisFact icon={Clock3} label="Likely Scope" value={top.likely_scope} />
                   <AnalysisFact icon={MapPin} label="Location" value={`${top.city}, ${top.county}`} />
-                  <AnalysisFact icon={Route} label="Scope Size" value={top.scope_size} />
+                  <AnalysisFact icon={Route} label="Access Path" value={top.access_path.type} />
                 </div>
               ) : null}
             </section>
@@ -136,11 +137,11 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                   <div key={opportunity.id} className="rounded-md border border-zinc-100 p-3">
                     <p className="font-semibold">{index + 1}. {opportunity.project_name}</p>
                     <div className="mt-2 flex flex-wrap gap-2">
-                      <Badge className="border-zinc-950 bg-zinc-950 text-white">Contractor {opportunity.contractor_opportunity_score}</Badge>
+                      <Badge className="border-zinc-950 bg-zinc-950 text-white">Actionability {opportunity.actionability_score}</Badge>
                       <Badge className="border-emerald-200 bg-emerald-50 text-emerald-700">{opportunity.primary_contractor_trade}</Badge>
                     </div>
                     <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Why</p>
-                    <p className="mt-1 text-sm text-zinc-600">{opportunity.scope_size} scope, {opportunity.subcontractor_likelihood.toLowerCase()} subcontractor likelihood, trade relevance {opportunity.trade_relevance}%.</p>
+                    <p className="mt-1 text-sm text-zinc-600">{opportunity.recommended_action}</p>
                     <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Sources</p>
                     <Link href={opportunity.source_url} className="mt-1 block text-sm font-medium underline">Evidence source</Link>
                   </div>
@@ -191,28 +192,39 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
           <p className="mb-2 text-sm font-semibold text-emerald-700">{opportunity.primary_contractor_trade} Contractor Opportunity</p>
           <h3 className="text-xl font-semibold text-zinc-950">{opportunity.project_name}</h3>
           <div className="mt-2 flex flex-wrap gap-2">
-            <Badge className="border-zinc-950 bg-zinc-950 text-white">Contractor Opportunity {opportunity.contractor_opportunity_score}</Badge>
+            <Badge className="border-zinc-950 bg-zinc-950 text-white">Actionability {opportunity.actionability_score}</Badge>
+            <Badge>Contractor Opportunity {opportunity.contractor_opportunity_score}</Badge>
             <Badge>Trade Relevance {opportunity.trade_relevance}%</Badge>
             <Badge>{opportunity.subcontractor_likelihood} Subcontractor Likelihood</Badge>
             <Badge>{opportunity.scope_size} Scope</Badge>
           </div>
+          <div className="mt-4 rounded-md border border-emerald-100 bg-emerald-50 p-3">
+            <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Recommended Action</p>
+            <p className="mt-2 text-sm font-medium leading-6 text-emerald-950">{opportunity.recommended_action}</p>
+          </div>
           <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-3">
             <AnalysisDatum label="Project" value={opportunity.project_name} />
+            <AnalysisDatum label="Actionability Score" value={opportunity.actionability_score} />
+            <AnalysisDatum label="Likely Fence Scope" value={opportunity.likely_scope} />
+            <AnalysisDatum label="Access Path" value={opportunity.access_path.type} />
             <AnalysisDatum label="Trade Relevance" value={`${opportunity.trade_relevance}%`} />
             <AnalysisDatum label="Contractor Opportunity Score" value={opportunity.contractor_opportunity_score} />
             <AnalysisDatum label="Subcontractor Likelihood" value={opportunity.subcontractor_likelihood} />
             <AnalysisDatum label="Scope Size" value={opportunity.scope_size} />
             <AnalysisDatum label="Opportunity Size" value={opportunity.opportunity_size} />
             <AnalysisDatum label="Project Stage" value={opportunity.project_stage} />
-            <AnalysisDatum label="Developer" value={opportunity.developer} />
-            <AnalysisDatum label="GC" value={opportunity.general_contractor} />
-            <AnalysisDatum label="Architect" value={opportunity.architect} />
+            <OptionalDatum label="Developer" value={opportunity.populated_fields.developer} />
+            <OptionalDatum label="GC" value={opportunity.populated_fields.general_contractor} />
+            <OptionalDatum label="Architect" value={opportunity.populated_fields.architect} />
             <AnalysisDatum label="Existing Contractor Saturation" value={opportunity.existing_contractor_saturation_penalty ? `${opportunity.existing_contractor_saturation} penalty ${opportunity.existing_contractor_saturation_penalty}` : opportunity.existing_contractor_saturation} />
-            <AnalysisDatum label="Procurement Route" value={opportunity.procurement_route} />
-            <AnalysisDatum label="Entry Method" value={opportunity.entry_method} />
-            <AnalysisDatum label="Access Route" value={opportunity.access_route} />
+            <OptionalDatum label="Procurement Route" value={knownValue(opportunity.procurement_route)} />
+            <OptionalDatum label="Entry Method" value={knownValue(opportunity.entry_method)} />
+            <OptionalDatum label="Access Route" value={knownValue(opportunity.access_route)} />
             <AnalysisDatum label="Location" value={`${opportunity.city}, ${opportunity.county}`} />
           </dl>
+          {opportunity.missing_intelligence.length ? (
+            <p className="mt-3 text-sm text-zinc-500">Additional intelligence not yet discovered: {opportunity.missing_intelligence.join(", ")}.</p>
+          ) : null}
           {opportunity.suppress_reasons.length ? (
             <div className="mt-4 rounded-md border border-amber-100 bg-amber-50 p-3">
               <p className="text-xs font-semibold uppercase tracking-wide text-amber-700">Suppression Reasons</p>
@@ -220,9 +232,10 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
             </div>
           ) : null}
           <HumanContactPanel contact={bestContact} backupRoute={humanContact?.backup_access_route ?? opportunity.access_route} />
-          <div className="mt-4 rounded-md border border-emerald-100 bg-emerald-50 p-3">
-            <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Recommended Next Step</p>
-            <p className="mt-2 text-sm font-medium leading-6 text-emerald-950">{nextStep}</p>
+          <div className="mt-4 rounded-md border border-zinc-100 bg-zinc-50 p-3">
+            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">What To Say</p>
+            <p className="mt-2 text-sm font-medium leading-6 text-zinc-800">{opportunity.outreach_script}</p>
+            <p className="mt-2 text-xs text-zinc-500">Backup next step: {nextStep}</p>
           </div>
         </div>
         <Link href={opportunity.source_url} className="inline-flex shrink-0 items-center justify-center gap-2 rounded-md bg-zinc-950 px-4 py-2 text-sm font-medium text-white">
@@ -255,8 +268,7 @@ function HumanContactPanel({ contact, backupRoute }: { contact: HumanContact | n
         </div>
       ) : (
         <div className="mt-2 space-y-2">
-          <p className="text-base font-semibold text-sky-950">Unknown</p>
-          <p className="text-sm leading-6 text-sky-900">No source-backed human contact is available yet. Use the backup access route: {backupRoute || "Unknown"}.</p>
+          <p className="text-sm leading-6 text-sky-900">Additional contact intelligence not yet discovered. Use the backup access route: {backupRoute || "Unknown"}.</p>
         </div>
       )}
     </div>
@@ -274,6 +286,16 @@ function AnalysisDatum({ label, value }: { label: string; value: string | number
       <dd className="mt-1 break-words font-medium text-zinc-800">{String(value || "Unknown")}</dd>
     </div>
   );
+}
+
+function OptionalDatum({ label, value }: { label: string; value?: string }) {
+  if (!value) return null;
+  return <AnalysisDatum label={label} value={value} />;
+}
+
+function knownValue(value: string) {
+  if (!value || value === "Unknown") return undefined;
+  return value;
 }
 
 function inferQueryTrade(query: string) {

@@ -1,5 +1,6 @@
 import contractorRows from "../../data/contractor_opportunities.json";
 import actionRows from "../../data/contractor_action_opportunities.json";
+import scopeRows from "../../data/scope_intelligence.json";
 
 export type ScopeSize = "Tiny" | "Small" | "Medium" | "Large" | "Major";
 export type SubcontractorLikelihood = "High" | "Medium" | "Low" | "Unknown";
@@ -63,6 +64,17 @@ export type ContractorOpportunity = {
   access_path: { type: string; value: string };
   populated_fields: Record<string, string | undefined>;
   missing_intelligence: string[];
+  project_summary: string;
+  scope_summary: string;
+  project_categories: string[];
+  work_categories: string[];
+  fence_signal_score: number;
+  fence_signals_found: string[];
+  fence_signals_missing: string[];
+  fence_scope_confidence: string;
+  potential_fencing_scope: string[];
+  why_fencing_relevant: string;
+  confidence_reasoning: string;
 };
 
 type ContractorActionFields = Pick<ContractorOpportunity, "actionability_score" | "recommended_action" | "outreach_script" | "likely_scope" | "best_contact" | "access_path" | "populated_fields" | "missing_intelligence"> & {
@@ -70,9 +82,11 @@ type ContractorActionFields = Pick<ContractorOpportunity, "actionability_score" 
 };
 
 const actionsByOpportunity = new Map(((actionRows as unknown) as ContractorActionFields[]).map((row) => [row.opportunity_id, row]));
+const scopesByOpportunity = new Map(((scopeRows as unknown) as Array<{ opportunity_id: string }>).map((row) => [row.opportunity_id, row]));
 const contractorOpportunities = ((contractorRows as unknown) as ContractorOpportunity[]).map((opportunity) => ({
   ...opportunity,
   ...(actionsByOpportunity.get(opportunity.id) ?? {}),
+  ...(scopesByOpportunity.get(opportunity.id) ?? {}),
 })) as ContractorOpportunity[];
 const contractorOpportunityByProjectName = new Map(contractorOpportunities.map((opportunity) => [normalizeKey(opportunity.project_name), opportunity]));
 
@@ -126,7 +140,7 @@ export function getContractorOpportunitySearchResults(query: string) {
         score: scoreContractorOpportunity(opportunity, queryTerms, targetTrades, tradeScore),
       };
     })
-    .filter((item) => item.score >= 35 && item.opportunity.suppress_reasons.length === 0)
+    .filter((item) => item.score >= 35 && item.opportunity.suppress_reasons.length === 0 && scopeMatchesSearch(item.opportunity, targetTrades))
     .sort((a, b) =>
       b.opportunity.actionability_score - a.opportunity.actionability_score ||
       b.score - a.score ||
@@ -219,6 +233,11 @@ function searchSuppressReasons(opportunity: ContractorOpportunity, tradeScore: T
   return [...new Set(reasons)];
 }
 
+function scopeMatchesSearch(opportunity: ContractorOpportunity, targetTrades: string[]) {
+  if (!targetTrades.includes("Fencing")) return true;
+  return opportunity.fence_scope_confidence !== "No Meaningful Fence Opportunity";
+}
+
 function terms(query: string) {
   return [...new Set(query.toLowerCase().split(/[^a-z0-9]+/).filter((term) => term.length > 1))];
 }
@@ -226,6 +245,7 @@ function terms(query: string) {
 function likelyScopeForTrade(opportunity: ContractorOpportunity, trade: string) {
   const text = `${opportunity.project_name} ${opportunity.trade} ${opportunity.qualification_reason}`.toLowerCase();
   if (trade === "Fencing") {
+    if (opportunity.potential_fencing_scope?.length) return opportunity.potential_fencing_scope[0];
     if (/park/.test(text)) return "Park fencing";
     if (/school/.test(text)) return "School perimeter fencing";
     if (/utility|drainage|trunk|corridor/.test(text)) return "Utility corridor fencing";

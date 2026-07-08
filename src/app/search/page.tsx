@@ -94,6 +94,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                   {top ? (
                     <div className="mt-3 space-y-2 text-sm leading-6 text-zinc-600">
                       <p>Actionable Now: {actionableNowCount} | Actionable: {actionableCount} | Research Required: {researchCount} | Opportunity: {opportunityCount} | High Subcontract Likelihood: {highSubcontractCount} | Large/Major Scope: {majorScopeCount}</p>
+                      <p><span className="font-semibold text-zinc-950">What this is:</span> {top.project_summary}</p>
                       <p><span className="font-semibold text-zinc-950">What to do:</span> {top.recommended_action}</p>
                     </div>
                   ) : (
@@ -202,12 +203,34 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
             <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Recommended Action</p>
             <p className="mt-2 text-sm font-medium leading-6 text-emerald-950">{opportunity.recommended_action}</p>
           </div>
+          <div className="mt-4 rounded-md border border-zinc-100 bg-zinc-50 p-3">
+            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Project Summary</p>
+            <p className="mt-2 text-sm leading-6 text-zinc-800">{opportunity.project_summary}</p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {opportunity.project_categories.map((category) => <Badge key={category}>{category}</Badge>)}
+            </div>
+          </div>
+          <div className="mt-4 rounded-md border border-amber-100 bg-amber-50 p-3">
+            <p className="text-xs font-semibold uppercase tracking-wide text-amber-700">Why Fencing Is Relevant</p>
+            <p className="mt-2 text-sm font-medium leading-6 text-amber-950">{opportunity.fence_scope_confidence}</p>
+            <p className="mt-2 text-sm leading-6 text-amber-950">{opportunity.why_fencing_relevant}</p>
+            {opportunity.fence_signals_found.length ? (
+              <ul className="mt-2 space-y-1 text-sm text-amber-950">
+                {opportunity.fence_signals_found.map((signal) => <li key={signal}>+ {signal}</li>)}
+              </ul>
+            ) : null}
+            {opportunity.potential_fencing_scope.length ? (
+              <p className="mt-2 text-sm text-amber-950">Potential scope: {opportunity.potential_fencing_scope.join(", ")}</p>
+            ) : null}
+            <p className="mt-2 text-xs text-amber-800">{opportunity.confidence_reasoning}</p>
+          </div>
           <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-3">
             <AnalysisDatum label="Project" value={opportunity.project_name} />
             <AnalysisDatum label="Actionability Score" value={opportunity.actionability_score} />
-            <AnalysisDatum label="Likely Fence Scope" value={opportunity.likely_scope} />
+            <AnalysisDatum label="Fence Scope Confidence" value={opportunity.fence_scope_confidence} />
+            <AnalysisDatum label="Fence Signal Score" value={opportunity.fence_signal_score} />
+            <AnalysisDatum label="Likely Scope" value={opportunity.likely_scope} />
             <AnalysisDatum label="Access Path" value={opportunity.access_path.type} />
-            <AnalysisDatum label="Trade Relevance" value={`${opportunity.trade_relevance}%`} />
             <AnalysisDatum label="Contractor Opportunity Score" value={opportunity.contractor_opportunity_score} />
             <AnalysisDatum label="Subcontractor Likelihood" value={opportunity.subcontractor_likelihood} />
             <AnalysisDatum label="Scope Size" value={opportunity.scope_size} />

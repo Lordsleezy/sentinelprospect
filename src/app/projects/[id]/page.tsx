@@ -112,6 +112,35 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
             </Card>
           ) : null}
 
+          {contractorOpportunity ? (
+            <Card className="border-amber-200 bg-amber-50">
+              <CardHeader>
+                <h2 className="text-base font-semibold">Scope Intelligence</h2>
+                <p className="mt-1 text-sm text-amber-950">{contractorOpportunity.project_summary}</p>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="flex flex-wrap gap-2">
+                  {contractorOpportunity.project_categories.map((category) => <Badge key={category}>{category}</Badge>)}
+                </div>
+                <div className="grid gap-3 md:grid-cols-3">
+                  <HeaderFact label="Fence Scope" value={contractorOpportunity.fence_scope_confidence} strong={contractorOpportunity.fence_scope_confidence === "Primary Scope"} />
+                  <HeaderFact label="Fence Signal Score" value={String(contractorOpportunity.fence_signal_score)} />
+                  <HeaderFact label="Potential Scope" value={contractorOpportunity.potential_fencing_scope.join(", ") || "Unknown"} />
+                </div>
+                <div className="rounded-md border border-amber-100 bg-white p-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-amber-700">Why Fencing Is Relevant</p>
+                  <p className="mt-2 text-sm leading-6 text-amber-950">{contractorOpportunity.why_fencing_relevant}</p>
+                  {contractorOpportunity.fence_signals_found.length ? (
+                    <ul className="mt-2 space-y-1 text-sm text-amber-950">
+                      {contractorOpportunity.fence_signals_found.map((signal) => <li key={signal}>+ {signal}</li>)}
+                    </ul>
+                  ) : null}
+                  <p className="mt-2 text-xs text-amber-800">{contractorOpportunity.confidence_reasoning}</p>
+                </div>
+              </CardContent>
+            </Card>
+          ) : null}
+
           <Card className="border-sky-200 bg-sky-50">
             <CardHeader>
               <h2 className="text-base font-semibold">Best Available Contact</h2>

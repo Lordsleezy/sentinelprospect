@@ -73,7 +73,7 @@
     "missing_intelligence": [],
     "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "evidence-northlake-sfyimby-2020-12",
@@ -151,7 +151,7 @@
     ],
     "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "evidence-northlake-sfyimby-2020-11",
@@ -229,11 +229,11 @@
     ],
     "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnr2026-00571",
-    "project_name": "AREA: R04:  Rear house addition.",
+    "project_name": "AREA: R04:  304 sf Rear house addition.",
     "primary_contractor_trade": "Fencing",
     "contractor_opportunity_score": 57,
     "actionability_score": 82,
@@ -279,8 +279,8 @@
       "value": "https://watersconco.com/"
     },
     "likely_scope": "Residential perimeter fencing",
-    "recommended_action": "Call WATERS CONSTRUCTION COMPANY LLC and ask for the site development, estimating, or purchasing department regarding residential perimeter fencing opportunities for AREA: R04: Rear house addition.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R04: Rear house addition. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for WATERS CONSTRUCTION COMPANY LLC.",
+    "recommended_action": "Call WATERS CONSTRUCTION COMPANY LLC and ask for the site development, estimating, or purchasing department regarding residential perimeter fencing opportunities for AREA: R04: 304 sf Rear house addition.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R04: 304 sf Rear house addition. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for WATERS CONSTRUCTION COMPANY LLC.",
     "populated_fields": {
       "general_contractor": "WATERS CONSTRUCTION COMPANY LLC",
       "phone": "916.594.8912",
@@ -292,7 +292,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00571",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-rerc2026-00185",
@@ -355,7 +355,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00185",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00207",
@@ -418,11 +418,11 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00207",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-misc2026-01229",
-    "project_name": "Like for Like 4 roof top Package unit change out",
+    "project_name": "MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE",
     "primary_contractor_trade": "Roofing",
     "contractor_opportunity_score": 42,
     "actionability_score": 82,
@@ -489,8 +489,8 @@
       "value": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5"
     },
     "likely_scope": "Roofing scope",
-    "recommended_action": "Call FAMAND INC and ask for the site development, estimating, or purchasing department regarding roofing scope opportunities for Like for Like 4 roof top Package unit change out.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about Like for Like 4 roof top Package unit change out. I saw source evidence for the project and wanted to ask who handles roofing scope or subcontractor pricing for FAMAND INC.",
+    "recommended_action": "Call FAMAND INC and ask for the site development, estimating, or purchasing department regarding roofing scope opportunities for MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE. I saw source evidence for the project and wanted to ask who handles roofing scope or subcontractor pricing for FAMAND INC.",
     "populated_fields": {
       "general_contractor": "FAMAND INC",
       "phone": "+1 916-988-8808",
@@ -502,13 +502,76 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01229",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnc2026-00169",
+    "project_name": "NEW (GATES) - 3401 BALMORAL DR",
+    "primary_contractor_trade": "Electrical",
+    "contractor_opportunity_score": 40,
+    "actionability_score": 82,
+    "developer": null,
+    "general_contractor": "ALLTECH GATES AND ENTRY CONTROLS INC",
+    "architect": null,
+    "best_contact": {
+      "title": "Construction Office",
+      "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+      "phone": "(916) 599-6629",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "Company profile",
+      "evidence": [
+        "Company profile lists phone (916) 599-6629 for ALLTECH GATES AND ENTRY CONTROLS INC."
+      ]
+    },
+    "contact_candidates": [
+      {
+        "title": "Construction Office",
+        "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+        "phone": "(916) 599-6629",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (916) 599-6629 for ALLTECH GATES AND ENTRY CONTROLS INC."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
+        "evidence": [
+          "Generic source-backed access route exists for ALLTECH GATES AND ENTRY CONTROLS INC."
+        ]
+      }
+    ],
+    "access_path": {
+      "type": "Direct GC",
+      "value": "https://ru.scribd.com/document/746633276/inbound3501281419727076426"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Call ALLTECH GATES AND ENTRY CONTROLS INC and ask for the site development, estimating, or purchasing department regarding residential perimeter fencing opportunities for NEW (GATES) - 3401 BALMORAL DR.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about NEW (GATES) - 3401 BALMORAL DR. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for ALLTECH GATES AND ENTRY CONTROLS INC.",
+    "populated_fields": {
+      "general_contractor": "ALLTECH GATES AND ENTRY CONTROLS INC",
+      "phone": "(916) 599-6629",
+      "access_path": "Direct GC",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00169"
+    },
+    "missing_intelligence": [
+      "developer"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00169",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-rerc2026-00187",
-    "project_name": "326 squares TPO overlay",
+    "project_name": "REROOF (OVERLAY 326 SQ) - 3800 WATT AVE",
     "primary_contractor_trade": "General Contractor",
-    "contractor_opportunity_score": 34,
+    "contractor_opportunity_score": 30,
     "actionability_score": 82,
     "developer": null,
     "general_contractor": "ADVANCED ROOF DESIGN INC",
@@ -590,8 +653,8 @@
       "value": "https://caanet.org/industry-directory/advanced-roof-design-inc/"
     },
     "likely_scope": "General Contractor scope",
-    "recommended_action": "Call Tim Balbi and ask for the site development, estimating, or purchasing department regarding general contractor scope opportunities for 326 squares TPO overlay.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about 326 squares TPO overlay. I saw source evidence for the project and wanted to ask who handles general contractor scope or subcontractor pricing for ADVANCED ROOF DESIGN INC.",
+    "recommended_action": "Call Tim Balbi and ask for the site development, estimating, or purchasing department regarding general contractor scope opportunities for REROOF (OVERLAY 326 SQ) - 3800 WATT AVE.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about REROOF (OVERLAY 326 SQ) - 3800 WATT AVE. I saw source evidence for the project and wanted to ask who handles general contractor scope or subcontractor pricing for ADVANCED ROOF DESIGN INC.",
     "populated_fields": {
       "general_contractor": "ADVANCED ROOF DESIGN INC",
       "phone": "(916)381-2266",
@@ -603,13 +666,13 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00187",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-rerc2026-00186",
-    "project_name": "install TPO over existing capsheet",
+    "project_name": "REROOF (OVERLAY 81 SQ) - 11707 FAIR OAKS BLVD",
     "primary_contractor_trade": "General Contractor",
-    "contractor_opportunity_score": 34,
+    "contractor_opportunity_score": 30,
     "actionability_score": 82,
     "developer": null,
     "general_contractor": "ADVANCED ROOF DESIGN INC",
@@ -691,8 +754,8 @@
       "value": "https://caanet.org/industry-directory/advanced-roof-design-inc/"
     },
     "likely_scope": "General Contractor scope",
-    "recommended_action": "Call Tim Balbi and ask for the site development, estimating, or purchasing department regarding general contractor scope opportunities for install TPO over existing capsheet.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about install TPO over existing capsheet. I saw source evidence for the project and wanted to ask who handles general contractor scope or subcontractor pricing for ADVANCED ROOF DESIGN INC.",
+    "recommended_action": "Call Tim Balbi and ask for the site development, estimating, or purchasing department regarding general contractor scope opportunities for REROOF (OVERLAY 81 SQ) - 11707 FAIR OAKS BLVD.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about REROOF (OVERLAY 81 SQ) - 11707 FAIR OAKS BLVD. I saw source evidence for the project and wanted to ask who handles general contractor scope or subcontractor pricing for ADVANCED ROOF DESIGN INC.",
     "populated_fields": {
       "general_contractor": "ADVANCED ROOF DESIGN INC",
       "phone": "(916)381-2266",
@@ -704,7 +767,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00186",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "evidence-sacramento-board-7977",
@@ -781,7 +844,7 @@
     ],
     "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "evidence-southgate-minutes-2022-08-16",
@@ -858,7 +921,7 @@
     ],
     "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-phcr2026-00561",
@@ -935,7 +998,392 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00561",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-phcr2026-00578",
+    "project_name": "AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 1 - 3161 Elevation C - Lot 48",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 82,
+    "actionability_score": 80,
+    "developer": "Lennar Homes of California",
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": {
+      "name": "Lennar Sacramento Division",
+      "title": "Regional Office",
+      "company": "Lennar Homes of California",
+      "phone": "(916) 746-8515",
+      "contactType": "regional",
+      "confidence": 0.85,
+      "source": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+      "evidence": [
+        "Directory lists Lennar Homes in Roseville with office address and phone number."
+      ]
+    },
+    "contact_candidates": [
+      {
+        "name": "Lennar Sacramento Division",
+        "title": "Regional Office",
+        "company": "Lennar Homes of California",
+        "phone": "(916) 746-8515",
+        "contactType": "regional",
+        "confidence": 0.85,
+        "source": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+        "evidence": [
+          "Directory lists Lennar Homes in Roseville with office address and phone number."
+        ]
+      },
+      {
+        "name": "Lennar Sacramento New Home Consultant",
+        "title": "Sales Office",
+        "company": "Lennar Homes of California",
+        "phone": "(916) 304-9711",
+        "contactType": "sales",
+        "confidence": 0.75,
+        "source": "https://www.lennar.com/new-homes/california/sacramento/sacramento/northlake",
+        "evidence": [
+          "Lennar Northlake page lists a Sacramento sales phone for speaking with a consultant."
+        ]
+      },
+      {
+        "title": "Business Inquiry",
+        "company": "Lennar Homes of California",
+        "contactType": "trade_partner",
+        "confidence": 0.55,
+        "source": "https://www.lennar.com/contact/business-inquiry",
+        "evidence": [
+          "Business inquiry form states that the appropriate Lennar associate will contact the submitter."
+        ]
+      }
+    ],
+    "access_path": {
+      "type": "Developer",
+      "value": "https://www.lennar.com/contact/business-inquiry"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Call Lennar Sacramento Division and ask for the site development, estimating, or purchasing department regarding residential perimeter fencing opportunities for AREA: R07: VILLAGES AT ELDER CREEK-UNIT 1 - 3161 Elevation C - Lot 48.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: VILLAGES AT ELDER CREEK-UNIT 1 - 3161 Elevation C - Lot 48. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for Lennar Homes of California.",
+    "populated_fields": {
+      "developer": "Lennar Homes of California",
+      "phone": "(916) 746-8515",
+      "access_path": "Developer",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00578"
+    },
+    "missing_intelligence": [
+      "general contractor"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00578",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-phcr2026-00576",
+    "project_name": "AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3141 Elevation A - Lot 39",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 82,
+    "actionability_score": 80,
+    "developer": "Lennar Homes of California",
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": {
+      "name": "Lennar Sacramento Division",
+      "title": "Regional Office",
+      "company": "Lennar Homes of California",
+      "phone": "(916) 746-8515",
+      "contactType": "regional",
+      "confidence": 0.85,
+      "source": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+      "evidence": [
+        "Directory lists Lennar Homes in Roseville with office address and phone number."
+      ]
+    },
+    "contact_candidates": [
+      {
+        "name": "Lennar Sacramento Division",
+        "title": "Regional Office",
+        "company": "Lennar Homes of California",
+        "phone": "(916) 746-8515",
+        "contactType": "regional",
+        "confidence": 0.85,
+        "source": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+        "evidence": [
+          "Directory lists Lennar Homes in Roseville with office address and phone number."
+        ]
+      },
+      {
+        "name": "Lennar Sacramento New Home Consultant",
+        "title": "Sales Office",
+        "company": "Lennar Homes of California",
+        "phone": "(916) 304-9711",
+        "contactType": "sales",
+        "confidence": 0.75,
+        "source": "https://www.lennar.com/new-homes/california/sacramento/sacramento/northlake",
+        "evidence": [
+          "Lennar Northlake page lists a Sacramento sales phone for speaking with a consultant."
+        ]
+      },
+      {
+        "title": "Business Inquiry",
+        "company": "Lennar Homes of California",
+        "contactType": "trade_partner",
+        "confidence": 0.55,
+        "source": "https://www.lennar.com/contact/business-inquiry",
+        "evidence": [
+          "Business inquiry form states that the appropriate Lennar associate will contact the submitter."
+        ]
+      }
+    ],
+    "access_path": {
+      "type": "Developer",
+      "value": "https://www.lennar.com/contact/business-inquiry"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Call Lennar Sacramento Division and ask for the site development, estimating, or purchasing department regarding residential perimeter fencing opportunities for AREA: R07: VILLAGES AT ELDER CREEK-UNIT 2 - 3141 Elevation A - Lot 39.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: VILLAGES AT ELDER CREEK-UNIT 2 - 3141 Elevation A - Lot 39. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for Lennar Homes of California.",
+    "populated_fields": {
+      "developer": "Lennar Homes of California",
+      "phone": "(916) 746-8515",
+      "access_path": "Developer",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00576"
+    },
+    "missing_intelligence": [
+      "general contractor"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00576",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-phcr2026-00577",
+    "project_name": "AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation B - Lot 40",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 82,
+    "actionability_score": 80,
+    "developer": "Lennar Homes of California",
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": {
+      "name": "Lennar Sacramento Division",
+      "title": "Regional Office",
+      "company": "Lennar Homes of California",
+      "phone": "(916) 746-8515",
+      "contactType": "regional",
+      "confidence": 0.85,
+      "source": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+      "evidence": [
+        "Directory lists Lennar Homes in Roseville with office address and phone number."
+      ]
+    },
+    "contact_candidates": [
+      {
+        "name": "Lennar Sacramento Division",
+        "title": "Regional Office",
+        "company": "Lennar Homes of California",
+        "phone": "(916) 746-8515",
+        "contactType": "regional",
+        "confidence": 0.85,
+        "source": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+        "evidence": [
+          "Directory lists Lennar Homes in Roseville with office address and phone number."
+        ]
+      },
+      {
+        "name": "Lennar Sacramento New Home Consultant",
+        "title": "Sales Office",
+        "company": "Lennar Homes of California",
+        "phone": "(916) 304-9711",
+        "contactType": "sales",
+        "confidence": 0.75,
+        "source": "https://www.lennar.com/new-homes/california/sacramento/sacramento/northlake",
+        "evidence": [
+          "Lennar Northlake page lists a Sacramento sales phone for speaking with a consultant."
+        ]
+      },
+      {
+        "title": "Business Inquiry",
+        "company": "Lennar Homes of California",
+        "contactType": "trade_partner",
+        "confidence": 0.55,
+        "source": "https://www.lennar.com/contact/business-inquiry",
+        "evidence": [
+          "Business inquiry form states that the appropriate Lennar associate will contact the submitter."
+        ]
+      }
+    ],
+    "access_path": {
+      "type": "Developer",
+      "value": "https://www.lennar.com/contact/business-inquiry"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Call Lennar Sacramento Division and ask for the site development, estimating, or purchasing department regarding residential perimeter fencing opportunities for AREA: R07: VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation B - Lot 40.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation B - Lot 40. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for Lennar Homes of California.",
+    "populated_fields": {
+      "developer": "Lennar Homes of California",
+      "phone": "(916) 746-8515",
+      "access_path": "Developer",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00577"
+    },
+    "missing_intelligence": [
+      "general contractor"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00577",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-phcr2026-00574",
+    "project_name": "AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation C - Lot 17",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 82,
+    "actionability_score": 80,
+    "developer": "Lennar Homes of California",
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": {
+      "name": "Lennar Sacramento Division",
+      "title": "Regional Office",
+      "company": "Lennar Homes of California",
+      "phone": "(916) 746-8515",
+      "contactType": "regional",
+      "confidence": 0.85,
+      "source": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+      "evidence": [
+        "Directory lists Lennar Homes in Roseville with office address and phone number."
+      ]
+    },
+    "contact_candidates": [
+      {
+        "name": "Lennar Sacramento Division",
+        "title": "Regional Office",
+        "company": "Lennar Homes of California",
+        "phone": "(916) 746-8515",
+        "contactType": "regional",
+        "confidence": 0.85,
+        "source": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+        "evidence": [
+          "Directory lists Lennar Homes in Roseville with office address and phone number."
+        ]
+      },
+      {
+        "name": "Lennar Sacramento New Home Consultant",
+        "title": "Sales Office",
+        "company": "Lennar Homes of California",
+        "phone": "(916) 304-9711",
+        "contactType": "sales",
+        "confidence": 0.75,
+        "source": "https://www.lennar.com/new-homes/california/sacramento/sacramento/northlake",
+        "evidence": [
+          "Lennar Northlake page lists a Sacramento sales phone for speaking with a consultant."
+        ]
+      },
+      {
+        "title": "Business Inquiry",
+        "company": "Lennar Homes of California",
+        "contactType": "trade_partner",
+        "confidence": 0.55,
+        "source": "https://www.lennar.com/contact/business-inquiry",
+        "evidence": [
+          "Business inquiry form states that the appropriate Lennar associate will contact the submitter."
+        ]
+      }
+    ],
+    "access_path": {
+      "type": "Developer",
+      "value": "https://www.lennar.com/contact/business-inquiry"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Call Lennar Sacramento Division and ask for the site development, estimating, or purchasing department regarding residential perimeter fencing opportunities for AREA: R07: VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation C - Lot 17.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation C - Lot 17. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for Lennar Homes of California.",
+    "populated_fields": {
+      "developer": "Lennar Homes of California",
+      "phone": "(916) 746-8515",
+      "access_path": "Developer",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00574"
+    },
+    "missing_intelligence": [
+      "general contractor"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00574",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-phcr2026-00575",
+    "project_name": "AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - Plan 1950 Elevation A - Lo",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 82,
+    "actionability_score": 80,
+    "developer": "Lennar Homes of California",
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": {
+      "name": "Lennar Sacramento Division",
+      "title": "Regional Office",
+      "company": "Lennar Homes of California",
+      "phone": "(916) 746-8515",
+      "contactType": "regional",
+      "confidence": 0.85,
+      "source": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+      "evidence": [
+        "Directory lists Lennar Homes in Roseville with office address and phone number."
+      ]
+    },
+    "contact_candidates": [
+      {
+        "name": "Lennar Sacramento Division",
+        "title": "Regional Office",
+        "company": "Lennar Homes of California",
+        "phone": "(916) 746-8515",
+        "contactType": "regional",
+        "confidence": 0.85,
+        "source": "https://business.rosevillechamber.com/directory/Details/lennar-homes-2389743",
+        "evidence": [
+          "Directory lists Lennar Homes in Roseville with office address and phone number."
+        ]
+      },
+      {
+        "name": "Lennar Sacramento New Home Consultant",
+        "title": "Sales Office",
+        "company": "Lennar Homes of California",
+        "phone": "(916) 304-9711",
+        "contactType": "sales",
+        "confidence": 0.75,
+        "source": "https://www.lennar.com/new-homes/california/sacramento/sacramento/northlake",
+        "evidence": [
+          "Lennar Northlake page lists a Sacramento sales phone for speaking with a consultant."
+        ]
+      },
+      {
+        "title": "Business Inquiry",
+        "company": "Lennar Homes of California",
+        "contactType": "trade_partner",
+        "confidence": 0.55,
+        "source": "https://www.lennar.com/contact/business-inquiry",
+        "evidence": [
+          "Business inquiry form states that the appropriate Lennar associate will contact the submitter."
+        ]
+      }
+    ],
+    "access_path": {
+      "type": "Developer",
+      "value": "https://www.lennar.com/contact/business-inquiry"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Call Lennar Sacramento Division and ask for the site development, estimating, or purchasing department regarding residential perimeter fencing opportunities for AREA: R07: VILLAGES AT ELDER CREEK-UNIT 2 - Plan 1950 Elevation A - Lo.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: VILLAGES AT ELDER CREEK-UNIT 2 - Plan 1950 Elevation A - Lo. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for Lennar Homes of California.",
+    "populated_fields": {
+      "developer": "Lennar Homes of California",
+      "phone": "(916) 746-8515",
+      "access_path": "Developer",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00575"
+    },
+    "missing_intelligence": [
+      "general contractor"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00575",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-phcr2026-00562",
@@ -1012,7 +1460,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00562",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "evidence-waterboards-lennar-gerber-creek",
@@ -1089,7 +1537,7 @@
     ],
     "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "evidence-sacramento-board-10223",
@@ -1166,7 +1614,7 @@
     ],
     "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnr2026-00562",
@@ -1198,12 +1646,12 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00562",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnr2026-00576",
-    "project_name": "AREA: R06:  New Home Construction",
-    "primary_contractor_trade": "Fencing",
+    "project_name": "SOLAR : AREA: R06:  New Home Construction",
+    "primary_contractor_trade": "Electrical",
     "contractor_opportunity_score": 46,
     "actionability_score": 24,
     "developer": null,
@@ -1216,8 +1664,8 @@
       "value": "Unknown"
     },
     "likely_scope": "Residential perimeter fencing",
-    "recommended_action": "Research the developer or general contractor for AREA: R06: New Home Construction before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R06: New Home Construction. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for KENNETH DEVELOPMENT INC.",
+    "recommended_action": "Research the developer or general contractor for SOLAR : AREA: R06: New Home Construction before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about SOLAR : AREA: R06: New Home Construction. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for KENNETH DEVELOPMENT INC.",
     "populated_fields": {
       "general_contractor": "KENNETH DEVELOPMENT INC",
       "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00576"
@@ -1230,11 +1678,43 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00576",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-misc2026-00862",
+    "project_name": "NEW (GATES) - 5800 FAIR OAKS BLVD",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 43,
+    "actionability_score": 24,
+    "developer": null,
+    "general_contractor": "A 1 ELECTRICAL",
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for NEW (GATES) - 5800 FAIR OAKS BLVD before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about NEW (GATES) - 5800 FAIR OAKS BLVD. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for A 1 ELECTRICAL.",
+    "populated_fields": {
+      "general_contractor": "A 1 ELECTRICAL",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00862"
+    },
+    "missing_intelligence": [
+      "developer",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00862",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-misc2026-01228",
-    "project_name": "SOLAR : Solar PV Installation",
+    "project_name": "SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY",
     "primary_contractor_trade": "Electrical",
     "contractor_opportunity_score": 43,
     "actionability_score": 24,
@@ -1248,8 +1728,8 @@
       "value": "Unknown"
     },
     "likely_scope": "Residential perimeter fencing",
-    "recommended_action": "Research the developer or general contractor for SOLAR : Solar PV Installation before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about SOLAR : Solar PV Installation. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for SUNSOURCE INC.",
+    "recommended_action": "Research the developer or general contractor for SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for SUNSOURCE INC.",
     "populated_fields": {
       "general_contractor": "SUNSOURCE INC",
       "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01228"
@@ -1262,7 +1742,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01228",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbar2026-00648",
@@ -1294,39 +1774,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00648",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
-  },
-  {
-    "opportunity_id": "sac-cbar2026-00640",
-    "project_name": "AREA: R08:  Kitchen and Living Room Remodel",
-    "primary_contractor_trade": "Electrical",
-    "contractor_opportunity_score": 43,
-    "actionability_score": 24,
-    "developer": null,
-    "general_contractor": "BURNS CONSTRUCTION",
-    "architect": null,
-    "best_contact": null,
-    "contact_candidates": [],
-    "access_path": {
-      "type": "Unknown",
-      "value": "Unknown"
-    },
-    "likely_scope": "Electrical scope",
-    "recommended_action": "Research the developer or general contractor for AREA: R08: Kitchen and Living Room Remodel before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R08: Kitchen and Living Room Remodel. I saw source evidence for the project and wanted to ask who handles electrical scope or subcontractor pricing for BURNS CONSTRUCTION.",
-    "populated_fields": {
-      "general_contractor": "BURNS CONSTRUCTION",
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00640"
-    },
-    "missing_intelligence": [
-      "developer",
-      "human contact",
-      "phone",
-      "access path"
-    ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00640",
-    "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-misr2026-01941",
@@ -1358,7 +1806,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01941",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnr2026-00564",
@@ -1390,43 +1838,11 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00564",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
-    "opportunity_id": "sac-cbnr2026-00560",
-    "project_name": "AREA: R04:  HOLBUS DECK",
-    "primary_contractor_trade": "Fencing",
-    "contractor_opportunity_score": 35,
-    "actionability_score": 24,
-    "developer": null,
-    "general_contractor": "DEOME 2 BUILDERS INC",
-    "architect": null,
-    "best_contact": null,
-    "contact_candidates": [],
-    "access_path": {
-      "type": "Unknown",
-      "value": "Unknown"
-    },
-    "likely_scope": "Residential perimeter fencing",
-    "recommended_action": "Research the developer or general contractor for AREA: R04: HOLBUS DECK before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R04: HOLBUS DECK. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for DEOME 2 BUILDERS INC.",
-    "populated_fields": {
-      "general_contractor": "DEOME 2 BUILDERS INC",
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00560"
-    },
-    "missing_intelligence": [
-      "developer",
-      "human contact",
-      "phone",
-      "access path"
-    ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00560",
-    "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
-  },
-  {
-    "opportunity_id": "sac-phcr2026-00560",
-    "project_name": "SOLAR : AREA: R03: Blossom Ridge-Plan 2704-Elevation C-Lot 11",
+    "opportunity_id": "sac-phcr2026-00571",
+    "project_name": "SOLAR : AREA: R03:  Blossom Ridge-Plan 2230-Elevation C-Lot 8",
     "primary_contractor_trade": "Electrical",
     "contractor_opportunity_score": 34,
     "actionability_score": 24,
@@ -1440,11 +1856,11 @@
       "value": "Unknown"
     },
     "likely_scope": "Residential perimeter fencing",
-    "recommended_action": "Research the developer or general contractor for SOLAR : AREA: R03: Blossom Ridge-Plan 2704-Elevation C-Lot 11 before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about SOLAR : AREA: R03: Blossom Ridge-Plan 2704-Elevation C-Lot 11. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for FDC NOR-CAL CORP.",
+    "recommended_action": "Research the developer or general contractor for SOLAR : AREA: R03: Blossom Ridge-Plan 2230-Elevation C-Lot 8 before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about SOLAR : AREA: R03: Blossom Ridge-Plan 2230-Elevation C-Lot 8. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for FDC NOR-CAL CORP.",
     "populated_fields": {
       "general_contractor": "FDC NOR-CAL CORP",
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00560"
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00571"
     },
     "missing_intelligence": [
       "developer",
@@ -1452,9 +1868,73 @@
       "phone",
       "access path"
     ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00560",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00571",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-phcr2026-00566",
+    "project_name": "SOLAR : AREA: R03:  Blossom Ridge-Plan 2704-Elevation B-Lot 9",
+    "primary_contractor_trade": "Electrical",
+    "contractor_opportunity_score": 34,
+    "actionability_score": 24,
+    "developer": null,
+    "general_contractor": "FDC NOR-CAL CORP",
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for SOLAR : AREA: R03: Blossom Ridge-Plan 2704-Elevation B-Lot 9 before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about SOLAR : AREA: R03: Blossom Ridge-Plan 2704-Elevation B-Lot 9. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for FDC NOR-CAL CORP.",
+    "populated_fields": {
+      "general_contractor": "FDC NOR-CAL CORP",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00566"
+    },
+    "missing_intelligence": [
+      "developer",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00566",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-phcr2026-00573",
+    "project_name": "SOLAR : AREA: R03:  Blossom Ridge-Plan 2984-Elevation A-Lot 7",
+    "primary_contractor_trade": "Electrical",
+    "contractor_opportunity_score": 34,
+    "actionability_score": 24,
+    "developer": null,
+    "general_contractor": "FDC NOR-CAL CORP",
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for SOLAR : AREA: R03: Blossom Ridge-Plan 2984-Elevation A-Lot 7 before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about SOLAR : AREA: R03: Blossom Ridge-Plan 2984-Elevation A-Lot 7. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for FDC NOR-CAL CORP.",
+    "populated_fields": {
+      "general_contractor": "FDC NOR-CAL CORP",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00573"
+    },
+    "missing_intelligence": [
+      "developer",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00573",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-solr2026-00227",
@@ -1486,7 +1966,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00227",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-dmoc2026-00045",
@@ -1518,7 +1998,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOC2026-00045",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00217",
@@ -1550,7 +2030,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00217",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00218",
@@ -1582,7 +2062,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00218",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00219",
@@ -1614,7 +2094,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00219",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00209",
@@ -1646,7 +2126,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00209",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00210",
@@ -1678,7 +2158,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00210",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00211",
@@ -1710,7 +2190,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00211",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00212",
@@ -1742,7 +2222,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00212",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00213",
@@ -1774,7 +2254,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00213",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00214",
@@ -1806,7 +2286,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00214",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00215",
@@ -1838,7 +2318,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00215",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00216",
@@ -1870,7 +2350,39 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00216",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-solr2026-00249",
+    "project_name": "AREA: R01:  installation of NEW PHOTOVOLTAIC SYSTEM 7.92 KW DC/11.50 KW",
+    "primary_contractor_trade": "Electrical",
+    "contractor_opportunity_score": 31,
+    "actionability_score": 24,
+    "developer": null,
+    "general_contractor": "GIGAWATT CALIFORNIA LLC",
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Electrical scope",
+    "recommended_action": "Research the developer or general contractor for AREA: R01: installation of NEW PHOTOVOLTAIC SYSTEM 7.92 KW DC/11.50 KW before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R01: installation of NEW PHOTOVOLTAIC SYSTEM 7.92 KW DC/11.50 KW. I saw source evidence for the project and wanted to ask who handles electrical scope or subcontractor pricing for GIGAWATT CALIFORNIA LLC.",
+    "populated_fields": {
+      "general_contractor": "GIGAWATT CALIFORNIA LLC",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00249"
+    },
+    "missing_intelligence": [
+      "developer",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00249",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-solr2026-00223",
@@ -1902,39 +2414,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00223",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
-  },
-  {
-    "opportunity_id": "sac-cbnr2026-00558",
-    "project_name": "AREA: R10:  Installation of accessory structure",
-    "primary_contractor_trade": "Fencing",
-    "contractor_opportunity_score": 27,
-    "actionability_score": 24,
-    "developer": null,
-    "general_contractor": "AMERICAN CARPORTS INC",
-    "architect": null,
-    "best_contact": null,
-    "contact_candidates": [],
-    "access_path": {
-      "type": "Unknown",
-      "value": "Unknown"
-    },
-    "likely_scope": "Residential perimeter fencing",
-    "recommended_action": "Research the developer or general contractor for AREA: R10: Installation of accessory structure before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R10: Installation of accessory structure. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for AMERICAN CARPORTS INC.",
-    "populated_fields": {
-      "general_contractor": "AMERICAN CARPORTS INC",
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00558"
-    },
-    "missing_intelligence": [
-      "developer",
-      "human contact",
-      "phone",
-      "access path"
-    ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00558",
-    "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbar2026-00651",
@@ -1966,39 +2446,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00651",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
-  },
-  {
-    "opportunity_id": "sac-cbar2026-00636",
-    "project_name": "AREA: R10:  AREA: R10:  Minor fire damage repair to sunroom",
-    "primary_contractor_trade": "Fencing",
-    "contractor_opportunity_score": 23,
-    "actionability_score": 24,
-    "developer": null,
-    "general_contractor": "KUSTOM US INC",
-    "architect": null,
-    "best_contact": null,
-    "contact_candidates": [],
-    "access_path": {
-      "type": "Unknown",
-      "value": "Unknown"
-    },
-    "likely_scope": "Residential perimeter fencing",
-    "recommended_action": "Research the developer or general contractor for AREA: R10: AREA: R10: Minor fire damage repair to sunroom before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R10: AREA: R10: Minor fire damage repair to sunroom. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for KUSTOM US INC.",
-    "populated_fields": {
-      "general_contractor": "KUSTOM US INC",
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00636"
-    },
-    "missing_intelligence": [
-      "developer",
-      "human contact",
-      "phone",
-      "access path"
-    ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00636",
-    "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbrr2026-00705",
@@ -2030,39 +2478,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00705",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
-  },
-  {
-    "opportunity_id": "sac-cbnc2026-00191",
-    "project_name": "REPAIR (PATIO w/ FOOTINGS) - 609 WOODSIDE SIERRA",
-    "primary_contractor_trade": "Concrete",
-    "contractor_opportunity_score": 20,
-    "actionability_score": 24,
-    "developer": null,
-    "general_contractor": "A 1 ELECTRICAL",
-    "architect": null,
-    "best_contact": null,
-    "contact_candidates": [],
-    "access_path": {
-      "type": "Unknown",
-      "value": "Unknown"
-    },
-    "likely_scope": "Concrete scope",
-    "recommended_action": "Research the developer or general contractor for REPAIR (PATIO w/ FOOTINGS) - 609 WOODSIDE SIERRA before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about REPAIR (PATIO w/ FOOTINGS) - 609 WOODSIDE SIERRA. I saw source evidence for the project and wanted to ask who handles concrete scope or subcontractor pricing for A 1 ELECTRICAL.",
-    "populated_fields": {
-      "general_contractor": "A 1 ELECTRICAL",
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00191"
-    },
-    "missing_intelligence": [
-      "developer",
-      "human contact",
-      "phone",
-      "access path"
-    ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00191",
-    "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00192",
@@ -2094,7 +2510,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00192",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00193",
@@ -2126,7 +2542,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00193",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00194",
@@ -2158,7 +2574,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00194",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00196",
@@ -2190,7 +2606,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00196",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00195",
@@ -2222,7 +2638,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00195",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00197",
@@ -2254,7 +2670,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00197",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00198",
@@ -2286,7 +2702,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00198",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00199",
@@ -2318,7 +2734,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00199",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00200",
@@ -2350,7 +2766,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00200",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00201",
@@ -2382,39 +2798,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00201",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
-  },
-  {
-    "opportunity_id": "sac-spcr2026-00132",
-    "project_name": "AREA: R04:  Install new in ground pool & spa",
-    "primary_contractor_trade": "HVAC",
-    "contractor_opportunity_score": 19,
-    "actionability_score": 24,
-    "developer": null,
-    "general_contractor": "O'CONNOR POOL SOLUTIONS INC",
-    "architect": null,
-    "best_contact": null,
-    "contact_candidates": [],
-    "access_path": {
-      "type": "Unknown",
-      "value": "Unknown"
-    },
-    "likely_scope": "HVAC scope",
-    "recommended_action": "Research the developer or general contractor for AREA: R04: Install new in ground pool & spa before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R04: Install new in ground pool & spa. I saw source evidence for the project and wanted to ask who handles hvac scope or subcontractor pricing for O'CONNOR POOL SOLUTIONS INC.",
-    "populated_fields": {
-      "general_contractor": "O'CONNOR POOL SOLUTIONS INC",
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASPCR2026-00132"
-    },
-    "missing_intelligence": [
-      "developer",
-      "human contact",
-      "phone",
-      "access path"
-    ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASPCR2026-00132",
-    "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-rerr2026-00205",
@@ -2446,7 +2830,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERR2026-00205",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbrr2026-00703",
@@ -2478,7 +2862,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00703",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld22-00093-5990",
@@ -2510,7 +2894,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-06713-6023",
@@ -2542,7 +2926,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-02807-6058",
@@ -2574,7 +2958,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-01215-5986",
@@ -2606,7 +2990,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-05713-6037",
@@ -2638,7 +3022,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-06712-6021",
@@ -2670,7 +3054,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-07295-6011",
@@ -2702,7 +3086,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-07296-6040",
@@ -2734,7 +3118,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld22-00227-5989",
@@ -2766,7 +3150,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-00993-5999",
@@ -2798,7 +3182,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-00999-5992",
@@ -2830,7 +3214,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-02804-6057",
@@ -2862,7 +3246,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-04742-6004",
@@ -2894,7 +3278,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-04762-6012",
@@ -2926,11 +3310,11 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
-    "opportunity_id": "sac-phcr2026-00572",
-    "project_name": "AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation",
+    "opportunity_id": "sac-phcr2026-00579",
+    "project_name": "AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 1850 D Lot 94",
     "primary_contractor_trade": "Fencing",
     "contractor_opportunity_score": 74,
     "actionability_score": 8,
@@ -2944,10 +3328,10 @@
       "value": "Unknown"
     },
     "likely_scope": "Residential perimeter fencing",
-    "recommended_action": "Research the developer or general contractor for AREA: R07: Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "recommended_action": "Research the developer or general contractor for AREA: R01: THE LAKES AT ANTELOPE UNIT 4 – 1850 D Lot 94 before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R01: THE LAKES AT ANTELOPE UNIT 4 – 1850 D Lot 94. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
     "populated_fields": {
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00572"
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00579"
     },
     "missing_intelligence": [
       "developer",
@@ -2956,13 +3340,13 @@
       "phone",
       "access path"
     ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00572",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00579",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
-    "opportunity_id": "sac-phcr2026-00570",
-    "project_name": "AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation",
+    "opportunity_id": "sac-phcr2026-00580",
+    "project_name": "AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 2126 A Lot 93",
     "primary_contractor_trade": "Fencing",
     "contractor_opportunity_score": 74,
     "actionability_score": 8,
@@ -2976,10 +3360,10 @@
       "value": "Unknown"
     },
     "likely_scope": "Residential perimeter fencing",
-    "recommended_action": "Research the developer or general contractor for AREA: R07: Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "recommended_action": "Research the developer or general contractor for AREA: R01: THE LAKES AT ANTELOPE UNIT 4 – 2126 A Lot 93 before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R01: THE LAKES AT ANTELOPE UNIT 4 – 2126 A Lot 93. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
     "populated_fields": {
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00570"
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00580"
     },
     "missing_intelligence": [
       "developer",
@@ -2988,9 +3372,9 @@
       "phone",
       "access path"
     ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00570",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00580",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld22-00878-6039",
@@ -3022,7 +3406,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-02647-5997",
@@ -3054,7 +3438,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-phcr2026-00567",
@@ -3086,7 +3470,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00567",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-phcr2026-00568",
@@ -3118,7 +3502,71 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00568",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-phcr2026-00572",
+    "project_name": "AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 74,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R07: Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00572"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00572",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-phcr2026-00570",
+    "project_name": "AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 74,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R07: Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00570"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00570",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-phcr2026-00565",
@@ -3150,7 +3598,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00565",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld19-05796-5987",
@@ -3182,7 +3630,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld19-01827-6025",
@@ -3214,7 +3662,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld19-06407-6020",
@@ -3246,11 +3694,107 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
-    "opportunity_id": "sac-solr2026-00214",
-    "project_name": "AREA: R02:  SolarApp | SA20260316-2133-87-15606-B | 18.450kW PV Roof Mo",
+    "opportunity_id": "sac-hacr2026-01311",
+    "project_name": "8991 Golden Gate Ave: HVAC Changeout.",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 55,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for 8991 Golden Gate Ave: HVAC Changeout before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about 8991 Golden Gate Ave: HVAC Changeout. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AHACR2026-01311"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AHACR2026-01311",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnr2026-00389",
+    "project_name": "AREA: R08:  Pouring Driveway over culvert with an automatic gate and bu",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 55,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R08: Pouring Driveway over culvert with an automatic gate and bu before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R08: Pouring Driveway over culvert with an automatic gate and bu. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00389"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00389",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnr2025-01034-rev01",
+    "project_name": "1.\tUpdating the previously approved location of the shop on the site. 2.\tProvide a revision letter for the new stem walls that will be required along the perimeter of the shop.",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 51,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for 1. Updating the previously approved location of the shop on the site. 2. Provide a revision letter for the new stem walls that will be required along the perimeter of the shop before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about 1. Updating the previously approved location of the shop on the site. 2. Provide a revision letter for the new stem walls that will be required along the perimeter of the shop. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2025-01034-REV01"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2025-01034-REV01",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-solr2026-00226",
+    "project_name": "AREA: R02:  SOLAR : HAKIM HUSSAINI",
     "primary_contractor_trade": "Electrical",
     "contractor_opportunity_score": 51,
     "actionability_score": 8,
@@ -3263,11 +3807,11 @@
       "type": "Unknown",
       "value": "Unknown"
     },
-    "likely_scope": "Electrical scope",
-    "recommended_action": "Research the developer or general contractor for AREA: R02: SolarApp | SA20260316-2133-87-15606-B | 18.450kW PV Roof Mo before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R02: SolarApp | SA20260316-2133-87-15606-B | 18.450kW PV Roof Mo. I saw source evidence for the project and wanted to ask who handles electrical scope or subcontractor pricing for your project team.",
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R02: SOLAR : HAKIM HUSSAINI before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R02: SOLAR : HAKIM HUSSAINI. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
     "populated_fields": {
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00214"
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00226"
     },
     "missing_intelligence": [
       "developer",
@@ -3276,9 +3820,265 @@
       "phone",
       "access path"
     ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00214",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00226",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-misr2026-01118",
+    "project_name": "SOLAR : Rooftop Solar",
+    "primary_contractor_trade": "Electrical",
+    "contractor_opportunity_score": 51,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for SOLAR : Rooftop Solar before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about SOLAR : Rooftop Solar. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01118"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01118",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-misr2026-01277",
+    "project_name": "SOLAR : Installation of roof mounted solar system along with batter",
+    "primary_contractor_trade": "Electrical",
+    "contractor_opportunity_score": 51,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for SOLAR : Installation of roof mounted solar system along with batter before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about SOLAR : Installation of roof mounted solar system along with batter. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01277"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01277",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbac2026-00144",
+    "project_name": "TI (INTERIOR & EXTERIOR) - 4640 NORTHGATE BLVD (STE 100)",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 51,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for TI (INTERIOR & EXTERIOR) - 4640 NORTHGATE BLVD (STE 100) before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about TI (INTERIOR & EXTERIOR) - 4640 NORTHGATE BLVD (STE 100). I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00144"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00144",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnr2026-00556",
+    "project_name": "AREA: R06:  raise fence height to 7 ft max",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 51,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R06: raise fence height to 7 ft max before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R06: raise fence height to 7 ft max. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00556"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00556",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnr2026-00319",
+    "project_name": "Building a 9 foot steel gate",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 51,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for Building a 9 foot steel gate before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about Building a 9 foot steel gate. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00319"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00319",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnc2026-00185",
+    "project_name": "Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 51,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00185"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00185",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnc2026-00161",
+    "project_name": "NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 51,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00161"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00161",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-misr2026-01237",
+    "project_name": "SOLAR : Install a roof-mounted 4.6 kW DC solar system with 10 REC46",
+    "primary_contractor_trade": "Electrical",
+    "contractor_opportunity_score": 51,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for SOLAR : Install a roof-mounted 4.6 kW DC solar system with 10 REC46 before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about SOLAR : Install a roof-mounted 4.6 kW DC solar system with 10 REC46. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01237"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01237",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-solr2026-00218",
@@ -3310,7 +4110,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00218",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-02547-5985",
@@ -3342,7 +4142,103 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-dmor2026-00064",
+    "project_name": "AREA: R02:  Full Pool Demolition",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 50,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R02: Full Pool Demolition before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R02: Full Pool Demolition. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00064"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00064",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-dmor2026-00065",
+    "project_name": "AREA: R06:  Demolition of existing house to framing and stemwalls.",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 50,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R06: Demolition of existing house to framing and stemwalls before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R06: Demolition of existing house to framing and stemwalls. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00065"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00065",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-misc2026-01071",
+    "project_name": "MECH (HVAC C/O) - 7460 PERSIMMON AVE",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 50,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for MECH (HVAC C/O) - 7460 PERSIMMON AVE before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about MECH (HVAC C/O) - 7460 PERSIMMON AVE. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01071"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01071",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnr2026-00573",
@@ -3374,7 +4270,231 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00573",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-misr2026-01568",
+    "project_name": "AREA: R05:  Repipe house drain system",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 50,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R05: Repipe house drain system before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R05: Repipe house drain system. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01568"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01568",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-misc2026-00910",
+    "project_name": "ELEC (100 A SERVICE) - 11583 VALENSIN RD",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 50,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for ELEC (100 A SERVICE) - 11583 VALENSIN RD before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about ELEC (100 A SERVICE) - 11583 VALENSIN RD. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00910"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00910",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-hacr2026-01443",
+    "project_name": "HVAC change out: HVAC Changeout.",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 50,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for HVAC change out: HVAC Changeout before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about HVAC change out: HVAC Changeout. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AHACR2026-01443"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AHACR2026-01443",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnc2026-00154",
+    "project_name": "NEW (TELECOMMUNICATIONS FACILITY / ANTENNAS) - 10590 REIGL RD",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 50,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for NEW (TELECOMMUNICATIONS FACILITY / ANTENNAS) - 10590 REIGL RD before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about NEW (TELECOMMUNICATIONS FACILITY / ANTENNAS) - 10590 REIGL RD. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00154"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00154",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-sgnc2026-00065",
+    "project_name": "SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 48,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115 before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASGNC2026-00065"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASGNC2026-00065",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnc2026-00122-rev03",
+    "project_name": "Installation of electric sliding gate",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 48,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for Installation of electric sliding gate before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about Installation of electric sliding gate. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00122-REV03"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00122-REV03",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbrr2026-00454",
+    "project_name": "AREA: R01:  Fence",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 48,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R01: Fence before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R01: Fence. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00454"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00454",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-03502-6056",
@@ -3406,7 +4526,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-06112-6026",
@@ -3438,7 +4558,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-03155-6035",
@@ -3470,7 +4590,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-05333-5995",
@@ -3502,7 +4622,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnr2026-00563",
@@ -3534,11 +4654,11 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00563",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
-    "opportunity_id": "sac-cbnr2026-00559",
-    "project_name": "AREA: R07:  DETACHED ADU",
+    "opportunity_id": "sac-spcr2026-00105",
+    "project_name": "AREA: R03:  swimming pool remodel",
     "primary_contractor_trade": "Fencing",
     "contractor_opportunity_score": 46,
     "actionability_score": 8,
@@ -3552,10 +4672,10 @@
       "value": "Unknown"
     },
     "likely_scope": "Residential perimeter fencing",
-    "recommended_action": "Research the developer or general contractor for AREA: R07: DETACHED ADU before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: DETACHED ADU. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "recommended_action": "Research the developer or general contractor for AREA: R03: swimming pool remodel before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R03: swimming pool remodel. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
     "populated_fields": {
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00559"
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASPCR2026-00105"
     },
     "missing_intelligence": [
       "developer",
@@ -3564,9 +4684,201 @@
       "phone",
       "access path"
     ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00559",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASPCR2026-00105",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-spcr2026-00127",
+    "project_name": "AREA: R03:  Swimming Pool Remodel",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 46,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R03: Swimming Pool Remodel before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R03: Swimming Pool Remodel. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASPCR2026-00127"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASPCR2026-00127",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnr2026-00371",
+    "project_name": "AREA: R04:  Construction of a Steel Building",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 46,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R04: Construction of a Steel Building before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R04: Construction of a Steel Building. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00371"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00371",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnr2026-00481",
+    "project_name": "AREA: R06:  Addition and remodel",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 46,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R06: Addition and remodel before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R06: Addition and remodel. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00481"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00481",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnr2026-00582",
+    "project_name": "AREA: R07:  Extension of house, update roof geometry, new siding, remod",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 46,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R07: Extension of house, update roof geometry, new siding, remod before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: Extension of house, update roof geometry, new siding, remod. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00582"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00582",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnr2026-00494",
+    "project_name": "Building Compliance: AREA: R05:  CARPORT",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 46,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for Building Compliance: AREA: R05: CARPORT before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about Building Compliance: AREA: R05: CARPORT. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00494"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00494",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-slcr2026-00042",
+    "project_name": "Change to SOLR2025-00308: AREA: R08:  AREA: R08:  PV + ESS",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 46,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for Change to SOLR2025-00308: AREA: R08: AREA: R08: PV + ESS before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about Change to SOLR2025-00308: AREA: R08: AREA: R08: PV + ESS. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASLCR2026-00042"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASLCR2026-00042",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-01537-6051",
@@ -3598,7 +4910,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-07259-6036",
@@ -3630,7 +4942,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-03519-6007",
@@ -3662,11 +4974,11 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
-    "opportunity_id": "sac-cbac2026-00323",
-    "project_name": "TI (3xINTERIOR REMODEL) - 533 PAVILIONS LN",
+    "opportunity_id": "sac-cbnr2026-00354",
+    "project_name": "AREA: R02:  Built a retaining wall in front yard of home",
     "primary_contractor_trade": "Fencing",
     "contractor_opportunity_score": 46,
     "actionability_score": 8,
@@ -3680,10 +4992,10 @@
       "value": "Unknown"
     },
     "likely_scope": "Residential perimeter fencing",
-    "recommended_action": "Research the developer or general contractor for TI (3xINTERIOR REMODEL) - 533 PAVILIONS LN before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about TI (3xINTERIOR REMODEL) - 533 PAVILIONS LN. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "recommended_action": "Research the developer or general contractor for AREA: R02: Built a retaining wall in front yard of home before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R02: Built a retaining wall in front yard of home. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
     "populated_fields": {
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00323"
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00354"
     },
     "missing_intelligence": [
       "developer",
@@ -3692,9 +5004,73 @@
       "phone",
       "access path"
     ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00323",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00354",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnc2026-00135",
+    "project_name": "CELL TOWER MOD - 6851 WATT AVE",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 46,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for CELL TOWER MOD - 6851 WATT AVE before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about CELL TOWER MOD - 6851 WATT AVE. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00135"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00135",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnr2026-00533",
+    "project_name": "AREA: R03:  Masonry wall construction",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 46,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R03: Masonry wall construction before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R03: Masonry wall construction. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00533"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00533",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnr2026-00570",
@@ -3726,7 +5102,39 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00570",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-misr2026-01338-rev01",
+    "project_name": "AREA: R06:  ESS",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 46,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R06: ESS before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R06: ESS. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01338-REV01"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01338-REV01",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-solr2026-00234",
@@ -3758,39 +5166,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00234",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
-  },
-  {
-    "opportunity_id": "sac-solr2026-00211",
-    "project_name": "AREA: R08:  7.38kW DC PV roof mount w/ 1 Tesla PW3",
-    "primary_contractor_trade": "Electrical",
-    "contractor_opportunity_score": 46,
-    "actionability_score": 8,
-    "developer": null,
-    "general_contractor": null,
-    "architect": null,
-    "best_contact": null,
-    "contact_candidates": [],
-    "access_path": {
-      "type": "Unknown",
-      "value": "Unknown"
-    },
-    "likely_scope": "Electrical scope",
-    "recommended_action": "Research the developer or general contractor for AREA: R08: 7.38kW DC PV roof mount w/ 1 Tesla PW3 before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R08: 7.38kW DC PV roof mount w/ 1 Tesla PW3. I saw source evidence for the project and wanted to ask who handles electrical scope or subcontractor pricing for your project team.",
-    "populated_fields": {
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00211"
-    },
-    "missing_intelligence": [
-      "developer",
-      "general contractor",
-      "human contact",
-      "phone",
-      "access path"
-    ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00211",
-    "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld22-00811-6013",
@@ -3822,7 +5198,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-rrzr2026-01430",
@@ -3854,7 +5230,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARRZR2026-01430",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-06664-6048",
@@ -3886,7 +5262,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld22-01839-6049",
@@ -3918,7 +5294,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-01365-5998",
@@ -3950,7 +5326,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld19-04817-6015",
@@ -3982,7 +5358,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-07509-6033",
@@ -4014,7 +5390,39 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbac2026-00334",
+    "project_name": "259,635 tenant improvement for Cardinal Health",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 43,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for 259,635 tenant improvement for Cardinal Health before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about 259,635 tenant improvement for Cardinal Health. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00334"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00334",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-trp20-90274-6014",
@@ -4046,7 +5454,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-02032-6046",
@@ -4078,7 +5486,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld18-01308-5996",
@@ -4110,7 +5518,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-trp21-90022-6050",
@@ -4142,7 +5550,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-trp18-90133-6027",
@@ -4174,12 +5582,12 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
-    "opportunity_id": "sac-cbnr2026-00557",
-    "project_name": "SOLAR : AREA: R10:  Construction of a new single family residence",
-    "primary_contractor_trade": "Electrical",
+    "opportunity_id": "sac-phcr2025-00843-rev01",
+    "project_name": "AREA: R07:  AREA: R07:  AREA: R07:  AREA: R07:  Plot Plan Revision. Fen",
+    "primary_contractor_trade": "Fencing",
     "contractor_opportunity_score": 43,
     "actionability_score": 8,
     "developer": null,
@@ -4192,10 +5600,10 @@
       "value": "Unknown"
     },
     "likely_scope": "Residential perimeter fencing",
-    "recommended_action": "Research the developer or general contractor for SOLAR : AREA: R10: Construction of a new single family residence before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about SOLAR : AREA: R10: Construction of a new single family residence. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "recommended_action": "Research the developer or general contractor for AREA: R07: AREA: R07: AREA: R07: AREA: R07: Plot Plan Revision. Fen before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: AREA: R07: AREA: R07: AREA: R07: Plot Plan Revision. Fen. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
     "populated_fields": {
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00557"
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2025-00843-REV01"
     },
     "missing_intelligence": [
       "developer",
@@ -4204,9 +5612,9 @@
       "phone",
       "access path"
     ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00557",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2025-00843-REV01",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-01210-6019",
@@ -4238,7 +5646,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-04612-5988",
@@ -4270,7 +5678,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-04057-6034",
@@ -4302,7 +5710,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-trp19-90024-6009",
@@ -4334,7 +5742,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-03260-6024",
@@ -4366,7 +5774,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-00530-6018",
@@ -4398,7 +5806,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-05324-6038",
@@ -4430,7 +5838,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld22-01030-6001",
@@ -4462,7 +5870,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-00971-6041",
@@ -4494,7 +5902,39 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-misr2026-00962-rev01",
+    "project_name": "AREA: R01:  Chris Foster - Garmisch Ct",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 43,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R01: Chris Foster - Garmisch Ct before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R01: Chris Foster - Garmisch Ct. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-00962-REV01"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-00962-REV01",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbac2026-00329",
@@ -4526,7 +5966,39 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00329",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-spcr2026-00067",
+    "project_name": "AREA: R04:  Swimming Pool Remodel",
+    "primary_contractor_trade": "Concrete",
+    "contractor_opportunity_score": 43,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Concrete scope",
+    "recommended_action": "Research the developer or general contractor for AREA: R04: Swimming Pool Remodel before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R04: Swimming Pool Remodel. I saw source evidence for the project and wanted to ask who handles concrete scope or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASPCR2026-00067"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASPCR2026-00067",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld19-04877-6054",
@@ -4558,7 +6030,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbac2026-00331",
@@ -4590,7 +6062,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00331",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-trp19-90136-6000",
@@ -4622,7 +6094,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-misc2026-01230",
@@ -4654,7 +6126,39 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01230",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-dmor2026-00044",
+    "project_name": "AREA: R02:  Pool Demolition (Partial)",
+    "primary_contractor_trade": "Concrete",
+    "contractor_opportunity_score": 43,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Concrete scope",
+    "recommended_action": "Research the developer or general contractor for AREA: R02: Pool Demolition (Partial) before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R02: Pool Demolition (Partial). I saw source evidence for the project and wanted to ask who handles concrete scope or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00044"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00044",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld22-01936-5991",
@@ -4686,7 +6190,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-02741-5994",
@@ -4718,7 +6222,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-03587-6055",
@@ -4750,7 +6254,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld22-01519-6017",
@@ -4782,7 +6286,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld22-01198-6002",
@@ -4814,7 +6318,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-07073-6047",
@@ -4846,7 +6350,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld22-01768-6008",
@@ -4878,7 +6382,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-02755-5993",
@@ -4910,7 +6414,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld22-00104-6045",
@@ -4942,7 +6446,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbnc2026-00206",
@@ -4974,11 +6478,11 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00206",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
-    "opportunity_id": "sac-mhcr2026-00017",
-    "project_name": "AREA: R10:  add a mobile home to be used as an ADU",
+    "opportunity_id": "sac-ccbp2025-00050-rev01",
+    "project_name": "RCCC WILD HORSE PROGRAM HAY BARN CARPORT",
     "primary_contractor_trade": "Concrete",
     "contractor_opportunity_score": 43,
     "actionability_score": 8,
@@ -4992,10 +6496,10 @@
       "value": "Unknown"
     },
     "likely_scope": "Concrete scope",
-    "recommended_action": "Research the developer or general contractor for AREA: R10: add a mobile home to be used as an ADU before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R10: add a mobile home to be used as an ADU. I saw source evidence for the project and wanted to ask who handles concrete scope or subcontractor pricing for your project team.",
+    "recommended_action": "Research the developer or general contractor for RCCC WILD HORSE PROGRAM HAY BARN CARPORT before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about RCCC WILD HORSE PROGRAM HAY BARN CARPORT. I saw source evidence for the project and wanted to ask who handles concrete scope or subcontractor pricing for your project team.",
     "populated_fields": {
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMHCR2026-00017"
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACCBP2025-00050-REV01"
     },
     "missing_intelligence": [
       "developer",
@@ -5004,41 +6508,9 @@
       "phone",
       "access path"
     ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMHCR2026-00017",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACCBP2025-00050-REV01",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
-  },
-  {
-    "opportunity_id": "sac-cbnc2026-00189",
-    "project_name": "EVCS (8 CHARGERS) - 6019 FAIR OAKS BLVD",
-    "primary_contractor_trade": "Electrical",
-    "contractor_opportunity_score": 43,
-    "actionability_score": 8,
-    "developer": null,
-    "general_contractor": null,
-    "architect": null,
-    "best_contact": null,
-    "contact_candidates": [],
-    "access_path": {
-      "type": "Unknown",
-      "value": "Unknown"
-    },
-    "likely_scope": "Electrical scope",
-    "recommended_action": "Research the developer or general contractor for EVCS (8 CHARGERS) - 6019 FAIR OAKS BLVD before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about EVCS (8 CHARGERS) - 6019 FAIR OAKS BLVD. I saw source evidence for the project and wanted to ask who handles electrical scope or subcontractor pricing for your project team.",
-    "populated_fields": {
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00189"
-    },
-    "missing_intelligence": [
-      "developer",
-      "general contractor",
-      "human contact",
-      "phone",
-      "access path"
-    ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00189",
-    "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld19-06467-6032",
@@ -5070,7 +6542,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-01556-6010",
@@ -5102,7 +6574,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-06544-6053",
@@ -5134,7 +6606,167 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbar2026-00667",
+    "project_name": "AREA: R07:  Addition/Remodel",
+    "primary_contractor_trade": "General Contractor",
+    "contractor_opportunity_score": 39,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "General Contractor scope",
+    "recommended_action": "Research the developer or general contractor for AREA: R07: Addition/Remodel before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R07: Addition/Remodel. I saw source evidence for the project and wanted to ask who handles general contractor scope or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00667"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00667",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-panr2026-00722",
+    "project_name": "REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair.",
+    "primary_contractor_trade": "Electrical",
+    "contractor_opportunity_score": 36,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Electrical scope",
+    "recommended_action": "Research the developer or general contractor for REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair. I saw source evidence for the project and wanted to ask who handles electrical scope or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APANR2026-00722"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APANR2026-00722",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-panr2026-00727",
+    "project_name": "UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair.",
+    "primary_contractor_trade": "Electrical",
+    "contractor_opportunity_score": 36,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Electrical scope",
+    "recommended_action": "Research the developer or general contractor for UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair. I saw source evidence for the project and wanted to ask who handles electrical scope or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APANR2026-00727"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APANR2026-00727",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnr2026-00379",
+    "project_name": "AREA: R03:  Issue permits for deck and 117' linear foot retaining wall already built.",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 35,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R03: Issue permits for deck and 117' linear foot retaining wall already built before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R03: Issue permits for deck and 117' linear foot retaining wall already built. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00379"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00379",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-misr2026-01474",
+    "project_name": "AREA: R03:  Like-for-like replacement of tankless water heater and gas",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 35,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for AREA: R03: Like-for-like replacement of tankless water heater and gas before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R03: Like-for-like replacement of tankless water heater and gas. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01474"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01474",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbrr2026-00723",
@@ -5166,7 +6798,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00723",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-02541-6029",
@@ -5198,7 +6830,135 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-sewr2026-00059",
+    "project_name": "Pipe Burst, Inversion Liner, Drain Repipe: Sewer Line Replacement or Repair.",
+    "primary_contractor_trade": "Fencing",
+    "contractor_opportunity_score": 32,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Residential perimeter fencing",
+    "recommended_action": "Research the developer or general contractor for Pipe Burst, Inversion Liner, Drain Repipe: Sewer Line Replacement or Repair before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about Pipe Burst, Inversion Liner, Drain Repipe: Sewer Line Replacement or Repair. I saw source evidence for the project and wanted to ask who handles residential perimeter fencing or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASEWR2026-00059"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASEWR2026-00059",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbrc2026-00336",
+    "project_name": "REPAIR (DRY ROT) - 3131 EL CAMINO AVE",
+    "primary_contractor_trade": "Concrete",
+    "contractor_opportunity_score": 32,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Concrete scope",
+    "recommended_action": "Research the developer or general contractor for REPAIR (DRY ROT) - 3131 EL CAMINO AVE before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about REPAIR (DRY ROT) - 3131 EL CAMINO AVE. I saw source evidence for the project and wanted to ask who handles concrete scope or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00336"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00336",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbrc2026-00323",
+    "project_name": "REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14)",
+    "primary_contractor_trade": "Concrete",
+    "contractor_opportunity_score": 32,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Concrete scope",
+    "recommended_action": "Research the developer or general contractor for REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14) before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14). I saw source evidence for the project and wanted to ask who handles concrete scope or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00323"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00323",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbrc2026-00390",
+    "project_name": "REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97)",
+    "primary_contractor_trade": "Concrete",
+    "contractor_opportunity_score": 32,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Concrete scope",
+    "recommended_action": "Research the developer or general contractor for REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97) before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97). I saw source evidence for the project and wanted to ask who handles concrete scope or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00390"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00390",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbrr2026-00719",
@@ -5230,7 +6990,39 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00719",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbnr2023-01164-rev02",
+    "project_name": "AREA: R03:  Foundation Repair",
+    "primary_contractor_trade": "Concrete",
+    "contractor_opportunity_score": 32,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "Concrete scope",
+    "recommended_action": "Research the developer or general contractor for AREA: R03: Foundation Repair before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about AREA: R03: Foundation Repair. I saw source evidence for the project and wanted to ask who handles concrete scope or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2023-01164-REV02"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2023-01164-REV02",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-05251-6044",
@@ -5262,7 +7054,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-trp18-90238-6005",
@@ -5294,7 +7086,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "sac-cbar2026-00645",
@@ -5326,7 +7118,7 @@
     ],
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00645",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-07092-6016",
@@ -5358,7 +7150,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-05632-6031",
@@ -5390,7 +7182,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld14-00840-6030",
@@ -5422,7 +7214,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-trp15-90188-6042",
@@ -5454,7 +7246,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-trp19-90185-6043",
@@ -5486,7 +7278,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld22-02150-6022",
@@ -5518,7 +7310,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-05042-6052",
@@ -5550,7 +7342,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld20-03601-6006",
@@ -5582,39 +7374,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
-  },
-  {
-    "opportunity_id": "sac-cbrc2026-00465",
-    "project_name": "REPAIR (DECK) - 258 SELBY RANCH RD",
-    "primary_contractor_trade": "HVAC",
-    "contractor_opportunity_score": 20,
-    "actionability_score": 8,
-    "developer": null,
-    "general_contractor": null,
-    "architect": null,
-    "best_contact": null,
-    "contact_candidates": [],
-    "access_path": {
-      "type": "Unknown",
-      "value": "Unknown"
-    },
-    "likely_scope": "HVAC scope",
-    "recommended_action": "Research the developer or general contractor for REPAIR (DECK) - 258 SELBY RANCH RD before outreach.",
-    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about REPAIR (DECK) - 258 SELBY RANCH RD. I saw source evidence for the project and wanted to ask who handles hvac scope or subcontractor pricing for your project team.",
-    "populated_fields": {
-      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00465"
-    },
-    "missing_intelligence": [
-      "developer",
-      "general contractor",
-      "human contact",
-      "phone",
-      "access path"
-    ],
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00465",
-    "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld19-05699-6059",
@@ -5646,7 +7406,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld19-04462-6003",
@@ -5678,7 +7438,7 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
   },
   {
     "opportunity_id": "placer-bld21-05070-6028",
@@ -5710,6 +7470,38 @@
     ],
     "source_url": "https://gis-placercounty.opendata.arcgis.com/maps/7a3b4d080af04cdaa9f2c41b7ae0f55a",
     "permit_source_available": true,
-    "last_verified": "2026-07-08T18:27:01.873Z"
+    "last_verified": "2026-07-09T05:32:01.450Z"
+  },
+  {
+    "opportunity_id": "sac-cbrc2026-00465",
+    "project_name": "REPAIR (DECK) - 258 SELBY RANCH RD",
+    "primary_contractor_trade": "HVAC",
+    "contractor_opportunity_score": 20,
+    "actionability_score": 8,
+    "developer": null,
+    "general_contractor": null,
+    "architect": null,
+    "best_contact": null,
+    "contact_candidates": [],
+    "access_path": {
+      "type": "Unknown",
+      "value": "Unknown"
+    },
+    "likely_scope": "HVAC scope",
+    "recommended_action": "Research the developer or general contractor for REPAIR (DECK) - 258 SELBY RANCH RD before outreach.",
+    "outreach_script": "Hi, this is [Name] with [Company]. I'm calling about REPAIR (DECK) - 258 SELBY RANCH RD. I saw source evidence for the project and wanted to ask who handles hvac scope or subcontractor pricing for your project team.",
+    "populated_fields": {
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00465"
+    },
+    "missing_intelligence": [
+      "developer",
+      "general contractor",
+      "human contact",
+      "phone",
+      "access path"
+    ],
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00465",
+    "permit_source_available": true,
+    "last_verified": "2026-07-09T05:32:01.450Z"
   }
 ]

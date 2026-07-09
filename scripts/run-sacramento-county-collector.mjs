@@ -13,23 +13,52 @@ const args = new Map(process.argv.slice(2).map((arg) => {
 const minValuation = Number(args.get("min-valuation") ?? 50_000);
 const recordLimit = Number(args.get("limit") ?? 50);
 const since = args.get("since") ?? monthsAgo(12);
+const fenceLimit = Number(args.get("fence-limit") ?? 50);
 
-const params = new URLSearchParams({
-  where: `APPLIED_DATE >= timestamp '${since} 00:00:00' AND Valuation >= ${minValuation}`,
-  outFields: "*",
-  orderByFields: "APPLIED_DATE DESC",
-  resultRecordCount: String(recordLimit),
-  outSR: "4326",
-  f: "json",
-});
+async function queryPermits(where, limit) {
+  const params = new URLSearchParams({
+    where,
+    outFields: "*",
+    orderByFields: "APPLIED_DATE DESC",
+    resultRecordCount: String(limit),
+    outSR: "4326",
+    f: "json",
+  });
+  const response = await fetch(`${featureServiceUrl}?${params.toString()}`);
+  if (!response.ok) throw new Error(`Sacramento County ArcGIS request failed: ${response.status}`);
+  const payload = await response.json();
+  if (payload.error) throw new Error(payload.error.message ?? "Sacramento County ArcGIS returned an error.");
+  return payload.features ?? [];
+}
 
-const response = await fetch(`${featureServiceUrl}?${params.toString()}`);
-if (!response.ok) throw new Error(`Sacramento County ArcGIS request failed: ${response.status}`);
-const payload = await response.json();
-if (payload.error) throw new Error(payload.error.message ?? "Sacramento County ArcGIS returned an error.");
+const valuationWhere = `APPLIED_DATE >= timestamp '${since} 00:00:00' AND Valuation >= ${minValuation}`;
+const fenceWhere = [
+  `APPLIED_DATE >= timestamp '${since} 00:00:00'`,
+  "AND (",
+  "UPPER(ProjectName) LIKE '%FENCE%'",
+  "OR UPPER(ProjectName) LIKE '%FENCING%'",
+  "OR UPPER(ProjectName) LIKE '%GATE%'",
+  "OR UPPER(WorkDescription) LIKE '%FENCE%'",
+  "OR UPPER(WorkDescription) LIKE '%FENCING%'",
+  "OR UPPER(WorkDescription) LIKE '%GATE%'",
+  "OR UPPER(WorkDescription) LIKE '%PERIMETER%'",
+  "OR UPPER(WorkDescription) LIKE '%CHAIN LINK%'",
+  ")",
+].join(" ");
+
+const [valuationFeatures, fenceFeatures] = await Promise.all([
+  queryPermits(valuationWhere, recordLimit),
+  queryPermits(fenceWhere, fenceLimit),
+]);
+
+const featureByApplication = new Map();
+for (const feature of [...valuationFeatures, ...fenceFeatures]) {
+  const application = text(feature.attributes?.Application, `OBJECTID-${feature.attributes?.OBJECTID}`);
+  if (!featureByApplication.has(application)) featureByApplication.set(application, feature);
+}
 
 const capturedAt = new Date().toISOString();
-const records = (payload.features ?? []).map((feature) => {
+const records = [...featureByApplication.values()].map((feature) => {
   const attributes = feature.attributes ?? {};
   const application = text(attributes.Application, `OBJECTID-${attributes.OBJECTID}`);
   const sourceUrl = `${sourceRecordUrl}?filters=Application%3A${encodeURIComponent(application)}`;
@@ -57,6 +86,9 @@ const artifact = {
     since,
     minValuation,
     recordLimit,
+    fenceLimit,
+    valuationWhere,
+    fenceWhere,
   },
   records,
 };
@@ -66,6 +98,7 @@ await writeFile(outputPath, `${JSON.stringify(artifact, null, 2)}\n`);
 
 const opportunityCount = records.reduce((total, record) => total + record.normalized.inferredTrades.length, 0);
 console.log(`Stored ${records.length} Sacramento County source records at ${outputPath}`);
+console.log(`Included ${valuationFeatures.length} valuation-matched and ${fenceFeatures.length} fence-keyword permits (${featureByApplication.size} unique).`);
 console.log(`Generated ${records.length} permit signals and ${opportunityCount} inferred trade opportunities.`);
 
 function normalizeRecord(attributes, geometry, sourceUrl, capturedAt) {

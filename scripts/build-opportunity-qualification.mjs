@@ -84,6 +84,7 @@ function recordOpportunity(record) {
   return buildOpportunity({
     id: project.id,
     project_name: project.name,
+    project_description: project.description ?? "",
     location: locationLabel(project.city, project.county, project.state),
     trade: trades.join(", ") || "Unknown",
     source_type: record.sourceName ?? project.source_name ?? "Collector Record",
@@ -123,6 +124,7 @@ function documentOpportunity(document) {
   return buildOpportunity({
     id: document.evidence_document_id,
     project_name: document.project_name,
+    project_description: document.summary ?? "",
     location: document.location,
     trade: trades.join(", ") || "Unknown",
     source_type: document.source_type,
@@ -143,6 +145,7 @@ function buildOpportunity(input) {
   return {
     id: input.id,
     project_name: input.project_name,
+    project_description: input.project_description ?? "",
     location: input.location,
     trade: input.trade,
     opportunity_state: opportunityState(score, input.factors),

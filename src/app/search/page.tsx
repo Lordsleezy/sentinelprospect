@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { getContractorOpportunitySearchResults, type ContractorOpportunity } from "@/lib/contractor-opportunity-engine";
+import { getContractorOpportunitySearchResults, positiveFenceEvidence, type ContractorOpportunity } from "@/lib/contractor-opportunity-engine";
 import { formatHumanContact, getOpportunityHumanContact, type HumanContact } from "@/lib/human-contact-discovery";
 import { globalSearch } from "@/lib/search";
 
@@ -187,10 +187,13 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
   const displayContact = bestContact ?? opportunity.best_contact ?? null;
   const nextStep = humanContact?.recommended_next_step ?? opportunity.recommended_next_step;
   const probability = fencingProbability(opportunity);
-  const developer = opportunity.populated_fields.developer ?? "Not identified";
-  const generalContractor = opportunity.populated_fields.general_contractor ?? "Not identified";
+  const developer = realValue(opportunity.populated_fields.developer);
+  const generalContractor = realValue(opportunity.populated_fields.general_contractor);
+  const contactName = realValue(displayContactName(displayContact));
+  const contactPhone = realValue(displayContactPhone(displayContact));
   const summary = conciseProjectSummary(opportunity.project_dossier?.project_summary ?? opportunity.project_summary);
   const whyFencingMatters = buildWhyFencingMatters(opportunity);
+  const evidenceSnippets = opportunity.evidence_snippets ?? opportunity.project_dossier?.evidence_snippets ?? [];
 
   return (
     <article className="rounded-lg border border-zinc-200 bg-white p-5 shadow-sm hover:border-zinc-300">
@@ -199,10 +202,10 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
 
         <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-4">
           <VisibleDatum label="Fencing Probability" value={`${probability.percent}% - ${probability.label}`} className={probability.className} />
-          <VisibleDatum label="Developer" value={developer} />
-          <VisibleDatum label="General Contractor" value={generalContractor} />
-          <VisibleDatum label="Best Contact" value={displayContactName(displayContact)} />
-          <VisibleDatum label="Phone Number" value={displayContactPhone(displayContact)} />
+          <OptionalVisibleDatum label="Developer" value={developer} />
+          <OptionalVisibleDatum label="General Contractor" value={generalContractor} />
+          <OptionalVisibleDatum label="Best Contact" value={contactName} />
+          <OptionalVisibleDatum label="Phone Number" value={contactPhone} />
         </dl>
 
         <div className="mt-4 rounded-md border border-zinc-100 bg-zinc-50 p-3">
@@ -216,6 +219,26 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
             {whyFencingMatters.map((bullet) => <li key={bullet}>- {bullet}</li>)}
           </ul>
         </div>
+
+        {evidenceSnippets.length ? (
+          <div className="mt-4 rounded-md border border-sky-100 bg-sky-50 p-3">
+            <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Evidence</p>
+            <ul className="mt-2 space-y-3 text-sm leading-6 text-sky-950">
+              {evidenceSnippets.slice(0, 4).map((item) => (
+                <li key={`${item.source_document_id ?? item.source}-${item.signal}-${item.snippet ?? item.text}`}>
+                  <p className="font-medium">“{item.text ?? item.snippet}”</p>
+                  <p className="mt-1 text-xs text-sky-800">
+                    Source: {item.source_document ?? item.source}
+                    {item.confidence ? ` · Confidence: ${item.confidence}` : " · Confidence: direct"}
+                  </p>
+                  <Link href={item.source_url} className="mt-1 inline-block text-xs font-medium underline">
+                    Open source document
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
 
         <details className="mt-4 rounded-md border border-zinc-200 bg-white p-3">
           <summary className="cursor-pointer text-sm font-semibold text-zinc-800">View Supporting Evidence</summary>
@@ -231,7 +254,7 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
             )}
             {opportunity.project_dossier?.supporting_evidence.length ? (
               <ul className="space-y-1">
-                {opportunity.project_dossier.supporting_evidence.slice(0, 8).map((source) => <li key={source}>- {source}</li>)}
+                {opportunity.project_dossier.evidence_sources.slice(0, 8).map((source) => <li key={source.source_url}>- <Link href={source.source_url} className="underline">{source.label}</Link></li>)}
               </ul>
             ) : null}
             <Link href={opportunity.source_url} className="inline-flex items-center gap-2 font-medium text-zinc-950 underline">
@@ -302,17 +325,24 @@ function VisibleDatum({ label, value, className = "text-zinc-800" }: { label: st
   );
 }
 
+function OptionalVisibleDatum({ label, value }: { label: string; value?: string }) {
+  if (!value) return null;
+  return <VisibleDatum label={label} value={value} />;
+}
+
 function conciseProjectSummary(summary: string) {
   const sentences = summary.match(/[^.!?]+[.!?]+|[^.!?]+$/g)?.map((sentence) => sentence.trim()).filter(Boolean) ?? [];
   return (sentences.slice(0, 2).join(" ") || "Project details are available in the supporting evidence.").trim();
 }
 
 function fencingProbability(opportunity: ContractorOpportunity) {
-  if (["Primary Scope", "Primary Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: 85, label: "High", className: "text-emerald-700" };
-  if (["Secondary Scope", "Secondary Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: 70, label: "Likely", className: "text-sky-700" };
-  if (["Possible Scope", "Possible Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: 50, label: "Possible", className: "text-amber-700" };
-  if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: 20, label: "Weak Signal", className: "text-zinc-700" };
-  return { percent: 5, label: "Unlikely", className: "text-red-700" };
+  const evidenceCount = positiveFenceEvidence(opportunity).length;
+  if (!evidenceCount || ["No Evidence", "No Meaningful Fence Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: 0, label: "No Evidence", className: "text-red-700" };
+  if (["Primary Scope", "Primary Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: Math.min(100, 80 + evidenceCount * 5), label: "Primary Opportunity", className: "text-emerald-700" };
+  if (["Secondary Scope", "Secondary Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: Math.min(80, 60 + evidenceCount * 5), label: "Secondary Opportunity", className: "text-sky-700" };
+  if (["Possible Scope", "Possible Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: Math.min(50, 30 + evidenceCount * 5), label: "Possible Opportunity", className: "text-amber-700" };
+  if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: Math.min(25, 10 + evidenceCount * 5), label: "Weak Opportunity", className: "text-zinc-700" };
+  return { percent: 0, label: "No Evidence", className: "text-red-700" };
 }
 
 function displayContactName(contact: HumanContact | NonNullable<ContractorOpportunity["best_contact"]> | null) {
@@ -322,6 +352,12 @@ function displayContactName(contact: HumanContact | NonNullable<ContractorOpport
 
 function displayContactPhone(contact: HumanContact | NonNullable<ContractorOpportunity["best_contact"]> | null) {
   return contact?.phone ?? "Not available";
+}
+
+function realValue(value?: string | null) {
+  if (!value) return undefined;
+  if (["not identified", "not available", "no contact information available", "unknown"].includes(value.trim().toLowerCase())) return undefined;
+  return value;
 }
 
 function buildWhyFencingMatters(opportunity: ContractorOpportunity) {
@@ -334,15 +370,27 @@ function buildWhyFencingMatters(opportunity: ContractorOpportunity) {
   }
 
   const bullets = new Set<string>();
+  const snippets = opportunity.evidence_snippets ?? opportunity.project_dossier?.evidence_snippets ?? [];
   const directEvidence = opportunity.fence_evidence ?? [];
   const negativeEvidence = opportunity.negative_fence_evidence ?? opportunity.project_dossier?.evidence_negative_signals?.map((signal) => signal.signal) ?? [];
+
+  if (opportunity.why_fencing_matters && !/No direct fencing references found/i.test(opportunity.why_fencing_matters)) {
+    bullets.add(opportunity.why_fencing_matters);
+  }
+
+  for (const snippet of snippets) {
+    const text = snippet.text ?? snippet.snippet;
+    if (!text) continue;
+    bullets.add(`Source evidence: "${text}"`);
+    if (bullets.size >= 5) break;
+  }
 
   if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) {
     bullets.add("No direct fencing references found in the connected evidence.");
     bullets.add("Temporary construction fencing is possible but unconfirmed.");
   }
 
-  const signals = directEvidence.length ? directEvidence : (opportunity.evidence_fence_signals?.map((signal) => signal.signal) ?? []);
+  const signals = directEvidence.length ? directEvidence : (opportunity.evidence_fence_signals?.map((signal) => signal.snippet ?? signal.signal) ?? []);
 
   for (const signal of signals) {
     const bullet = summarizeFenceSignal(signal);
@@ -359,7 +407,7 @@ function buildWhyFencingMatters(opportunity: ContractorOpportunity) {
   }
 
   if (!bullets.size) {
-    bullets.add("No direct fencing references found.");
+    bullets.add("Positive fence evidence is not yet available in the connected source records.");
     bullets.add("Additional document review is required before treating this as a fencing lead.");
   }
 

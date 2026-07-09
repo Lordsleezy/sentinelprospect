@@ -5,37 +5,54 @@ const evidenceDocuments = await readJson("data/evidence_documents.json") ?? [];
 const existingContactEvidence = await readJson("data/contact_source_evidence.json") ?? [];
 const contractorOpportunities = await readJson("data/contractor_opportunities.json") ?? [];
 const scopeIntelligence = await readJson("data/scope_intelligence.json") ?? [];
+const sacramentoPermits = await readJson("data/sacramento-county-permits.json");
+const placerRecords = await readJson("data/placer-county-records.json");
 const capturedAt = new Date().toISOString();
 
 validateEvidenceDocuments(evidenceDocuments);
 
-const resolvedDocuments = evidenceDocuments.map((document) => ({
+const permitSourceDocuments = buildPermitSourceDocuments([
+  ...(sacramentoPermits?.records ?? []),
+  ...(placerRecords?.records ?? []),
+], capturedAt);
+const opportunitySourceDocuments = buildOpportunitySourceDocuments(contractorOpportunities, capturedAt);
+const allEvidenceDocuments = [
+  ...evidenceDocuments,
+  ...permitSourceDocuments,
+  ...opportunitySourceDocuments.filter((document) => !permitSourceDocuments.some((permit) => permit.id === document.id)),
+];
+
+const resolvedDocuments = allEvidenceDocuments.map((document) => ({
   ...document,
   captured_at: capturedAt,
 }));
-const document_extraction_results = evidenceDocuments.map((document) => extractDocument(document, capturedAt));
-const relationship_evidence = document_extraction_results.flatMap((document) => document.relationships);
-const extractionRows = document_extraction_results.flatMap((document) => document.extractions);
+const curated_document_extraction_results = evidenceDocuments.map((document) => extractDocument(document, capturedAt));
+const document_extraction_results = allEvidenceDocuments.map((document) => extractDocument(document, capturedAt));
+const relationship_evidence = curated_document_extraction_results.flatMap((document) => document.relationships);
+const extractionRows = curated_document_extraction_results.flatMap((document) => document.extractions);
 const evidence_expansion = contractorOpportunities.map((opportunity) => buildEvidenceExpansion(opportunity, document_extraction_results));
 
 await mkdir(resolve("data"), { recursive: true });
 await mkdir(resolve("reports"), { recursive: true });
 await Promise.all([
   writeJson("data/evidence_documents_resolved.json", resolvedDocuments),
-  writeJson("data/document_extraction_results.json", document_extraction_results),
+  writeJson("data/document_extraction_results.json", curated_document_extraction_results),
   writeJson("data/relationship_evidence.json", relationship_evidence),
   writeJson("data/evidence_expansion.json", evidence_expansion),
-  writeFile(resolve("reports/evidence-coverage.md"), renderEvidenceCoverage(document_extraction_results, extractionRows, relationship_evidence, existingContactEvidence)),
+  writeFile(resolve("reports/evidence-coverage.md"), renderEvidenceCoverage(curated_document_extraction_results, extractionRows, relationship_evidence, existingContactEvidence)),
   writeFile(resolve("reports/relationship-evidence.md"), renderRelationshipEvidence(relationship_evidence)),
-  writeFile(resolve("reports/document-extraction.md"), renderDocumentExtraction(document_extraction_results)),
+  writeFile(resolve("reports/document-extraction.md"), renderDocumentExtraction(curated_document_extraction_results)),
   writeFile(resolve("reports/evidence-expansion.md"), renderEvidenceExpansion(evidence_expansion)),
   writeFile(resolve("reports/project-dossiers.md"), renderProjectDossiers(evidence_expansion)),
 ]);
 
-console.log(`Evidence documents processed: ${document_extraction_results.length}.`);
+console.log(`Curated evidence documents processed: ${curated_document_extraction_results.length}.`);
+console.log(`Source documents searched for snippets: ${document_extraction_results.length}.`);
 console.log(`Document extractions: ${extractionRows.length}.`);
 console.log(`Relationship evidence rows: ${relationship_evidence.length}.`);
 console.log(`Evidence expansion dossiers: ${evidence_expansion.length}.`);
+console.log(`Opportunities with fence snippets: ${evidence_expansion.filter((row) => (row.evidence_snippets ?? []).length > 0).length}.`);
+console.log(`Total fence snippets: ${evidence_expansion.reduce((sum, row) => sum + (row.evidence_snippets ?? []).length, 0)}.`);
 
 async function readJson(file) {
   try {
@@ -66,6 +83,73 @@ function validateEvidenceDocuments(documents) {
       }
     }
   }
+}
+
+function buildPermitSourceDocuments(records, lastVerified) {
+  return records.map((record) => {
+    const project = record.normalized?.project;
+    if (!project?.id || !project?.name) return null;
+    const sourceUrl = record.sourceUrl ?? project.source_url;
+    if (!safeUrl(sourceUrl)) return null;
+    const description = cleanSourceDescription(project.description || "");
+    const companies = [];
+    if (record.normalized?.contactCompany?.name && safeText(record.normalized.contactCompany.name)) {
+      companies.push({
+        name: record.normalized.contactCompany.name,
+        role: record.normalized.contactCompany.role === "contractor" ? "General Contractor" : "Known Contractor",
+      });
+    }
+    return {
+      id: project.id,
+      title: `${project.external_id ?? project.id} ${record.normalized?.permit?.permit_type ?? "Permit"}`,
+      source_type: "permit_record",
+      source_name: project.source_name ?? record.sourceName ?? "Permit Record",
+      source_url: sourceUrl,
+      project_name: project.name,
+      location: [project.city, project.county].filter(Boolean).join(", ") || "Unknown",
+      summary: description || project.name,
+      full_text: [project.name, description, record.payload?.WorkDescription, record.payload?.ProjectName].filter(Boolean).join(". "),
+      companies,
+      trades: record.normalized?.inferredTrades ?? [],
+      relationships: [],
+      award_information: null,
+      captured_at: lastVerified,
+    };
+  }).filter(Boolean);
+}
+
+function buildOpportunitySourceDocuments(opportunities, lastVerified) {
+  return opportunities.map((opportunity) => {
+    if (!safeText(opportunity.id) || !safeText(opportunity.project_name) || !safeUrl(opportunity.source_url)) return null;
+    const description = cleanSourceDescription(opportunity.project_description || "");
+    return {
+      id: `opportunity-source-${opportunity.id}`,
+      title: opportunity.project_name,
+      source_type: "opportunity_record",
+      source_name: "Contractor Opportunity Record",
+      source_url: opportunity.source_url,
+      project_name: opportunity.project_name,
+      location: opportunity.project_location ?? ([opportunity.city, opportunity.county].filter(Boolean).join(", ") || "Unknown"),
+      summary: description || opportunity.project_name,
+      full_text: [opportunity.project_name, description].filter(Boolean).join(". "),
+      companies: (opportunity.companies ?? []).map((company) => ({
+        name: company.company_name,
+        role: company.company_type,
+      })).filter((company) => safeText(company.name) && safeText(company.role)),
+      trades: String(opportunity.trade ?? "").split(",").map((trade) => trade.trim()).filter(Boolean),
+      relationships: [],
+      award_information: null,
+      captured_at: lastVerified,
+    };
+  }).filter(Boolean);
+}
+
+function cleanSourceDescription(value) {
+  return String(value ?? "")
+    .replace(/\s+/g, " ")
+    .replace(/\s+-\s+New Building or Addition.*$/i, "")
+    .replace(/\s+-\s+Miscellaneous,.*$/i, "")
+    .trim();
 }
 
 function extractDocument(document, lastVerified) {
@@ -145,6 +229,7 @@ function extractDocument(document, lastVerified) {
     project_name: document.project_name ?? "Unknown project",
     location: document.location ?? "Unknown",
     summary: document.summary ?? "",
+    full_text: document.full_text ?? document.summary ?? "",
     companies,
     trades,
     relationships,
@@ -260,7 +345,7 @@ function renderDocumentExtraction(documents) {
 function buildEvidenceExpansion(opportunity, documents) {
   const scope = scopeIntelligence.find((row) => row.opportunity_id === opportunity.id);
   const identity = projectIdentity(opportunity, scope);
-  const relatedEvidence = relatedDocuments(identity, documents);
+  const relatedEvidence = relatedDocuments(identity, documents, opportunity.id);
   const evidenceSignals = evidenceFenceSignals(relatedEvidence);
   const contradiction = contradictionStatus(scope, evidenceSignals);
   const projectDossier = projectDossierFor(opportunity, identity, relatedEvidence, scope, evidenceSignals, contradiction);
@@ -278,6 +363,9 @@ function buildEvidenceExpansion(opportunity, documents) {
     supporting_evidence: projectDossier.supporting_evidence,
     evidence_fence_signals: evidenceSignals.positive,
     evidence_negative_signals: evidenceSignals.negative,
+    evidence_snippets: evidenceSignals.snippets,
+    evidence_sources: projectDossier.evidence_sources,
+    why_fencing_matters: projectDossier.why_fencing_is_relevant,
     evidence_fence_signal_score: evidenceSignals.score,
     evidence_strength_score: evidenceStrengthScore(relatedEvidence, evidenceSignals),
     source_count: relatedEvidence.length,
@@ -309,7 +397,7 @@ function projectIdentity(opportunity, scope) {
   };
 }
 
-function relatedDocuments(identity, documents) {
+function relatedDocuments(identity, documents, opportunityId) {
   const identityTerms = [
     identity.project_name,
     identity.project_number,
@@ -323,11 +411,27 @@ function relatedDocuments(identity, documents) {
     identity.address,
   ].filter(Boolean);
 
-  return documents
+  // Permit/opportunity source records may only attach to their own opportunity.
+  // Fuzzy matching is reserved for curated public evidence documents.
+  const selfMatches = documents.filter((document) =>
+    document.evidence_document_id === opportunityId
+    || document.evidence_document_id === `opportunity-source-${opportunityId}`
+  );
+
+  const curated = documents.filter((document) => !["permit_record", "opportunity_record"].includes(document.source_type));
+  const scored = curated
     .map((document) => ({ document, score: evidenceMatchScore(document, identity, identityTerms) }))
     .filter((item) => item.score >= 20)
     .sort((a, b) => b.score - a.score)
     .map((item) => item.document);
+
+  const merged = [...selfMatches, ...scored];
+  const seen = new Set();
+  return merged.filter((document) => {
+    if (seen.has(document.evidence_document_id)) return false;
+    seen.add(document.evidence_document_id);
+    return true;
+  });
 }
 
 function evidenceMatchScore(document, identity, identityTerms) {
@@ -362,33 +466,66 @@ function evidenceFenceSignals(documents) {
   const positive = [];
   const negative = [];
   for (const document of documents) {
-    const text = `${document.project_name} ${document.title} ${document.summary} ${document.trades.join(" ")}`.toLowerCase();
-    addSignal(positive, text, /\bfenc(?:e|es|ing)\b/, "Direct fence reference", document);
-    addSignal(positive, text, /chain[-\s]?link/, "Chain link fencing reference", document);
-    addSignal(positive, text, /ornamental iron|wood fence|vinyl fence/, "Fence material reference", document);
-    addSignal(positive, text, /security fence|perimeter fence|temporary fence|construction fence|community perimeter/, "Specific fence scope reference", document);
-    addSignal(positive, text, /access gate|vehicle gate|pedestrian gate|controlled access|access control/, "Gate or controlled-access reference", document);
-    addSignal(positive, text, /screen wall|boundary wall|enclosure/, "Wall or enclosure reference", document);
-    addSignal(positive, text, /dog park fencing|school fencing|sports field fencing/, "Recreation or school fencing reference", document);
-    addSignal(negative, text, /creek restoration|creek|water quality|drainage|stormwater|hydrology/, "Creek, drainage, or water-quality work without fence reference", document);
-    addSignal(negative, text, /pipeline|utility relocation|water main|sewer|trunk/, "Pipeline or utility work without fence reference", document);
-    addSignal(negative, text, /electrical upgrade|solar|photovoltaic|pv|energy storage/, "Electrical or solar retrofit evidence", document);
-    addSignal(negative, text, /roof replacement|roof|reroof|tpo|membrane|capsheet/, "Roof replacement evidence", document);
-    addSignal(negative, text, /hvac|mechanical|package unit|air conditioning/, "HVAC-only replacement evidence", document);
-    addSignal(negative, text, /interior remodel|kitchen|bathroom|flooring|painting|tenant improvement/, "Interior or tenant-improvement-only evidence", document);
+    const sourceText = documentSearchText(document);
+    addSignal(positive, sourceText, /\bfenc(?:e|es|ing)\b/i, "Direct fence reference", document, isIntentionalFenceMention);
+    addSignal(positive, sourceText, /\bgates?\b/i, "Gate reference", document, isIntentionalGateMention);
+    addSignal(positive, sourceText, /\bperimeter(?:\s+(?:fence|fencing|security|wall))\b/i, "Perimeter or perimeter-security reference", document);
+    addSignal(positive, sourceText, /access control|controlled access/i, "Access-control reference", document);
+    addSignal(positive, sourceText, /\benclosure\b/i, "Enclosure reference", document);
+    addSignal(positive, sourceText, /screen wall/i, "Screen-wall reference", document);
+    addSignal(positive, sourceText, /retaining wall[^.]{0,80}\bfenc(?:e|ing)?\b|\bfenc(?:e|ing)?\b[^.]{0,80}retaining wall/i, "Retaining-wall fencing reference", document);
+    addSignal(positive, sourceText, /detention basin[^.]{0,80}\bfenc(?:e|ing)?\b|\bfenc(?:e|ing)?\b[^.]{0,80}detention basin/i, "Detention basin fencing reference", document);
+    addSignal(positive, sourceText, /park fencing|trail fencing|school fencing|sports field fencing/i, "Public facility fencing reference", document);
+    addSignal(positive, sourceText, /chain[-\s]?link/i, "Chain-link fencing reference", document);
+    addSignal(positive, sourceText, /ornamental iron|wrought iron/i, "Ornamental or wrought-iron reference", document);
+    addSignal(positive, sourceText, /security barrier|bollards|security improvements/i, "Security barrier improvement reference", document);
+    addSignal(negative, sourceText, /creek restoration|creek|water quality|drainage|stormwater|hydrology/i, "Creek, drainage, or water-quality work without fence reference", document);
+    addSignal(negative, sourceText, /pipeline|utility relocation|water main|sewer|trunk/i, "Pipeline or utility work without fence reference", document);
+    addSignal(negative, sourceText, /electrical upgrade|solar|photovoltaic|pv|energy storage/i, "Electrical or solar retrofit evidence", document);
+    addSignal(negative, sourceText, /roof replacement|roof|reroof|tpo|membrane|capsheet/i, "Roof replacement evidence", document);
+    addSignal(negative, sourceText, /hvac|mechanical|package unit|air conditioning/i, "HVAC-only replacement evidence", document);
+    addSignal(negative, sourceText, /interior remodel|kitchen|bathroom|flooring|painting|tenant improvement/i, "Interior or tenant-improvement-only evidence", document);
   }
-  const score = Math.max(0, Math.min(100, positive.length * 28 - negative.length * 18));
-  return { positive: dedupeSignals(positive), negative: dedupeSignals(negative), score };
+  const positiveSignals = dedupeSignals(positive);
+  // Negative signals only suppress when no positive fence evidence exists.
+  const negativeSignals = positiveSignals.length ? [] : dedupeSignals(negative);
+  const score = Math.max(0, Math.min(100, positiveSignals.length * 28 - negativeSignals.length * 18));
+  return { positive: positiveSignals, negative: negativeSignals, snippets: positiveSignals.map(signalToSnippet), score };
 }
 
-function addSignal(signals, text, pattern, label, document) {
-  if (!pattern.test(text)) return;
+function addSignal(signals, text, pattern, label, document, validator = null) {
+  const match = text.match(pattern);
+  if (!match) return;
+  const snippet = snippetForMatch(text, match.index ?? 0);
+  if (validator && !validator(snippet, match[0])) return;
   signals.push({
     signal: label,
+    snippet,
     source: document.title,
+    source_document_id: document.evidence_document_id,
     source_url: document.source_url,
     source_type: document.source_type,
   });
+}
+
+function isIntentionalFenceMention(snippet) {
+  const value = String(snippet ?? "").toLowerCase();
+  if (/\b(install|raise|new|build|building|construct|provide|supply|replace|pool safety|security fence|fence height|fencing with|gates\/fence|new fence|permit for fence|fence built)\b/i.test(value)) return true;
+  if (/\b(behind|in front of)\b[^.]*\bfence\b|\bfrom (?:the )?fence\/property line\b|\bfor fence or structure\b|\bfence note revised\b|\btowards back fence\b|\bthere is a fence\b|\bremove the fence\b|\bif needed only\b/i.test(value)) return false;
+  if (/\bhvac\b|\bsewer\b|\bsolar\b|\bcarport\b|\baddition and remodel\b|\bpipe burst\b|\binversion liner\b/i.test(value) && !/\b(fence|fencing)\b.{0,40}\b(install|new|raise|build|provide|permit)\b|\b(install|new|raise|build|provide|permit).{0,40}\b(fence|fencing)\b/i.test(value)) return false;
+  return /\b(fence|fences|fencing)\b/i.test(value);
+}
+
+function isIntentionalGateMention(snippet) {
+  const value = String(snippet ?? "").toLowerCase();
+  if (/golden\s+gate/.test(value)) return false;
+  if (/a-gate/.test(value)) return false;
+  if (/\b(ave|avenue|rd|road|st|street|blvd|drive|dr|way|ln|lane)\b/.test(value) && !/\b(install|new|build|automatic|sliding|security|entry|ped|vehicle|fence|gates?)\b.{0,40}\bgates?\b|\bgates?\b.{0,40}\b(install|new|build|automatic|sliding|security|entry|ped|vehicle|fence)\b/i.test(value)) {
+    // Street-name only mentions such as "Golden Gate Ave" already rejected; plain "Gate Ave" style leftovers.
+    if (!/\b(new\s*\(?gates?|install|sliding gate|automatic gate|entry gate|security gate|ped gate|vehicle gate)\b/i.test(value)) return false;
+  }
+  if (/\b(hvac|solar|battery|reroof|roof|sewer|pipe burst)\b/i.test(value) && !/\b(install|new|build|automatic|sliding|security|entry|ped|vehicle|fence)\b/i.test(value)) return false;
+  return /\bgates?\b/i.test(value);
 }
 
 function contradictionStatus(scope, evidenceSignals) {
@@ -396,7 +533,19 @@ function contradictionStatus(scope, evidenceSignals) {
   let likelyFenceScope = scope?.potential_fencing_scope?.[0] ?? "Unknown";
   const notes = [];
 
-  if (evidenceSignals.score >= 72 && ["Weak Opportunity", "No Evidence"].includes(fenceScopeConfidence)) {
+  if (evidenceSignals.positive.length) {
+    if (evidenceSignals.score >= 72 || evidenceSignals.positive.length >= 2) {
+      fenceScopeConfidence = fenceScopeConfidence === "Primary Opportunity" ? "Primary Opportunity" : "Secondary Opportunity";
+      notes.push("Direct fence evidence from source documents supports fencing scope.");
+    } else {
+      fenceScopeConfidence = ["Primary Opportunity", "Secondary Opportunity"].includes(fenceScopeConfidence)
+        ? fenceScopeConfidence
+        : "Possible Opportunity";
+      notes.push("Direct fence evidence raised classification above No Evidence.");
+    }
+    likelyFenceScope = scope?.potential_fencing_scope?.[0]
+      ?? (/\bgate/i.test(evidenceSignals.positive.map((signal) => signal.signal).join(" ")) ? "Gates and access control" : "Source-backed fencing scope");
+  } else if (evidenceSignals.score >= 72 && ["Weak Opportunity", "No Evidence"].includes(fenceScopeConfidence)) {
     fenceScopeConfidence = "Possible Opportunity";
     notes.push("Direct fence evidence raised a weak/no-evidence classification to possible opportunity.");
   }
@@ -449,13 +598,24 @@ function projectDossierFor(opportunity, identity, documents, scope, evidenceSign
     supporting_evidence: support.map((item) => item.label),
     evidence_fence_signals: evidenceSignals.positive,
     evidence_negative_signals: evidenceSignals.negative,
-    why_fencing_is_relevant: whyFenceEvidenceMatters(contradiction, evidenceSignals),
+    evidence_snippets: evidenceSignals.snippets,
+    why_fencing_is_relevant: whyFenceEvidenceMatters(contradiction, evidenceSignals, associatedImprovements),
+    why_fencing_matters: whyFenceEvidenceMatters(contradiction, evidenceSignals, associatedImprovements),
     confidence_reasoning: confidenceReasoningFor(contradiction, documents, evidenceSignals),
   };
 }
 
 function summaryFromEvidence(opportunity, documents, scope) {
   const best = documents[0];
+  const sourceText = best ? documentSearchText(best) : "";
+  const unitMatch = sourceText.match(/\b\d{1,5}\s+(?:planned\s+)?(?:residential\s+)?(?:lots|homes|units|apartments)\b/i);
+  const improvements = associatedImprovementsFor(documents, scope).map((item) => item.toLowerCase());
+  const cleanedOpportunityDescription = cleanSourceDescription(opportunity.project_description || "");
+  if (cleanedOpportunityDescription && /\bfenc|\bgate/i.test(cleanedOpportunityDescription)) return cleanedOpportunityDescription;
+  if (best?.summary && /\bfenc|\bgate/i.test(best.summary)) return cleanSourceDescription(best.summary);
+  if (unitMatch && improvements.length) return `${unitMatch[0]} project including ${toSentenceList(improvements)}.`;
+  if (unitMatch) return `${unitMatch[0]} project with source-backed development evidence.`;
+  if (cleanedOpportunityDescription) return cleanedOpportunityDescription;
   if (best?.summary) return best.summary;
   if (scope?.project_summary) return scope.project_summary;
   return `${opportunity.project_name} has limited source-backed evidence. Use the original opportunity record before making outreach decisions.`;
@@ -502,12 +662,30 @@ function evidenceStrengthScore(documents, evidenceSignals) {
   return Math.max(0, Math.min(100, sourceCountScore + sourceTypeScore + positiveSignalScore - negativePenalty));
 }
 
-function whyFenceEvidenceMatters(contradiction, evidenceSignals) {
+function whyFenceEvidenceMatters(contradiction, evidenceSignals, associatedImprovements = []) {
   if (contradiction.fence_scope_confidence === "No Evidence") return "No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.";
   if (contradiction.fence_scope_confidence === "Weak Opportunity") return "Fence relevance is weak; specific scope is intentionally withheld until stronger evidence is found.";
-  return evidenceSignals.positive.length
-    ? `Fence relevance is supported by: ${evidenceSignals.positive.map((signal) => `${signal.signal} (${signal.source})`).join("; ")}.`
-    : "No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.";
+  if (!evidenceSignals.positive.length) return "No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.";
+  const top = evidenceSignals.positive[0];
+  const snippet = top?.snippet;
+  if (snippet) {
+    if (/detention basin/i.test(snippet)) {
+      return `Detention basin construction often requires perimeter safety fencing. Source document references: "${snippet}"`;
+    }
+    if (/school/i.test(snippet)) {
+      return `School site improvements commonly include perimeter fencing and controlled access points. Source: "${snippet}"`;
+    }
+    if (/\bgates?\b/i.test(snippet) && /\bfenc/i.test(snippet)) {
+      return `Source document specifies gate and fencing installation: "${snippet}"`;
+    }
+    if (/\bgates?\b/i.test(snippet)) {
+      return `Source document references gate work that is fencing-relevant: "${snippet}"`;
+    }
+    const improvementContext = associatedImprovements.length ? `${toSentenceList(associatedImprovements.map((item) => item.toLowerCase()))} scope is documented. ` : "";
+    return `${improvementContext}Fence relevance is supported by source evidence: "${snippet}" (${top.source}).`;
+  }
+  const improvementContext = associatedImprovements.length ? `${toSentenceList(associatedImprovements.map((item) => item.toLowerCase()))} scope is documented. ` : "";
+  return `${improvementContext}Fence relevance is supported by source snippets: ${evidenceSignals.positive.map((signal) => `"${signal.snippet}" (${signal.source})`).join("; ")}.`;
 }
 
 function confidenceReasoningFor(contradiction, documents, evidenceSignals) {
@@ -555,12 +733,53 @@ function renderProjectDossiers(rows) {
       `- Applicant: ${row.project_dossier.applicant}`,
       `- Work Categories: ${row.project_dossier.work_categories.join(", ") || "Unknown"}`,
       `- Evidence Sources: ${row.project_dossier.supporting_evidence.join("; ") || "Unknown"}`,
-      `- Fence Signals: ${row.evidence_fence_signals.map((signal) => `${signal.signal} (${signal.source})`).join("; ") || "None"}`,
+      `- Fence Signals: ${row.evidence_fence_signals.map((signal) => `${signal.signal}: ${signal.snippet} (${signal.source})`).join("; ") || "None"}`,
+      `- Evidence Snippets: ${row.evidence_snippets.map((snippet) => `${snippet.snippet} (${snippet.source})`).join("; ") || "None"}`,
       `- Why Fencing Is Relevant: ${row.why_fencing_is_relevant}`,
       `- Confidence Reasoning: ${row.project_dossier.confidence_reasoning}`,
       "",
     ].join("\n")),
   ].join("\n");
+}
+
+function documentSearchText(document) {
+  // Intentionally exclude inferred trade labels so "Fencing" trade tags cannot create fake fence evidence.
+  return [
+    document.project_name,
+    document.title,
+    document.summary,
+    document.full_text,
+    document.award_information,
+    ...(document.relationships ?? []).map((relationship) => relationship.evidence_summary),
+  ].filter(Boolean).join(". ");
+}
+
+function snippetForMatch(text, index) {
+  const start = Math.max(0, text.lastIndexOf(".", index - 1) + 1);
+  const nextPeriod = text.indexOf(".", index);
+  const end = nextPeriod === -1 ? Math.min(text.length, index + 180) : nextPeriod + 1;
+  return text.slice(start, end).replace(/\s+/g, " ").trim();
+}
+
+function signalToSnippet(signal) {
+  return {
+    text: signal.snippet,
+    snippet: signal.snippet,
+    signal: signal.signal,
+    source: signal.source,
+    source_document: signal.source,
+    source_document_id: signal.source_document_id,
+    source_url: signal.source_url,
+    source_type: signal.source_type,
+    confidence: "direct",
+  };
+}
+
+function toSentenceList(values) {
+  const clean = [...new Set(values.filter(Boolean))];
+  if (clean.length <= 1) return clean[0] ?? "";
+  if (clean.length === 2) return `${clean[0]} and ${clean[1]}`;
+  return `${clean.slice(0, -1).join(", ")}, and ${clean.at(-1)}`;
 }
 
 function evidenceReference(document) {
@@ -611,11 +830,15 @@ function tokenSet(value) {
 function dedupeSignals(signals) {
   const seen = new Set();
   return signals.filter((signal) => {
-    const key = `${signal.signal}|${signal.source}`;
+    const key = `${signal.signal}|${normalizeSnippetKey(signal.snippet)}`;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
   });
+}
+
+function normalizeSnippetKey(value) {
+  return String(value ?? "").toLowerCase().replace(/\s+/g, " ").trim().slice(0, 160);
 }
 
 function roleFromDocuments(documents, role) {

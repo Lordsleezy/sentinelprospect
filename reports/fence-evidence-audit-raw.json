@@ -1,0 +1,529 @@
+{
+  "fileReports": [
+    {
+      "file": "data/evidence_documents.json",
+      "total_hits": 4,
+      "counts": {
+        "fence": 0,
+        "fencing": 0,
+        "gate": 4,
+        "gates": 0,
+        "perimeter": 0,
+        "security": 0,
+        "access control": 0,
+        "enclosure": 0,
+        "screen wall": 0,
+        "chain link": 0,
+        "ornamental iron": 0,
+        "wrought iron": 0,
+        "detention basin": 0,
+        "park fencing": 0,
+        "trail fencing": 0,
+        "school fencing": 0,
+        "sports field fencing": 0
+      }
+    },
+    {
+      "file": "data/contractor_opportunities.json",
+      "total_hits": 1123,
+      "counts": {
+        "fence": 159,
+        "fencing": 632,
+        "gate": 10,
+        "gates": 8,
+        "perimeter": 0,
+        "security": 314,
+        "access control": 0,
+        "enclosure": 0,
+        "screen wall": 0,
+        "chain link": 0,
+        "ornamental iron": 0,
+        "wrought iron": 0,
+        "detention basin": 0,
+        "park fencing": 0,
+        "trail fencing": 0,
+        "school fencing": 0,
+        "sports field fencing": 0
+      }
+    },
+    {
+      "file": "data/sacramento-county-permits.json",
+      "total_hits": 161,
+      "counts": {
+        "fence": 0,
+        "fencing": 109,
+        "gate": 26,
+        "gates": 16,
+        "perimeter": 0,
+        "security": 0,
+        "access control": 0,
+        "enclosure": 10,
+        "screen wall": 0,
+        "chain link": 0,
+        "ornamental iron": 0,
+        "wrought iron": 0,
+        "detention basin": 0,
+        "park fencing": 0,
+        "trail fencing": 0,
+        "school fencing": 0,
+        "sports field fencing": 0
+      }
+    },
+    {
+      "file": "data/placer-county-records.json",
+      "total_hits": 93,
+      "counts": {
+        "fence": 5,
+        "fencing": 68,
+        "gate": 15,
+        "gates": 5,
+        "perimeter": 0,
+        "security": 0,
+        "access control": 0,
+        "enclosure": 0,
+        "screen wall": 0,
+        "chain link": 0,
+        "ornamental iron": 0,
+        "wrought iron": 0,
+        "detention basin": 0,
+        "park fencing": 0,
+        "trail fencing": 0,
+        "school fencing": 0,
+        "sports field fencing": 0
+      }
+    },
+    {
+      "file": "data/samgov-opportunities.json",
+      "total_hits": 1,
+      "counts": {
+        "fence": 0,
+        "fencing": 1,
+        "gate": 0,
+        "gates": 0,
+        "perimeter": 0,
+        "security": 0,
+        "access control": 0,
+        "enclosure": 0,
+        "screen wall": 0,
+        "chain link": 0,
+        "ornamental iron": 0,
+        "wrought iron": 0,
+        "detention basin": 0,
+        "park fencing": 0,
+        "trail fencing": 0,
+        "school fencing": 0,
+        "sports field fencing": 0
+      }
+    },
+    {
+      "file": "data/scope_intelligence.json",
+      "total_hits": 2153,
+      "counts": {
+        "fence": 1283,
+        "fencing": 843,
+        "gate": 7,
+        "gates": 3,
+        "perimeter": 0,
+        "security": 17,
+        "access control": 0,
+        "enclosure": 0,
+        "screen wall": 0,
+        "chain link": 0,
+        "ornamental iron": 0,
+        "wrought iron": 0,
+        "detention basin": 0,
+        "park fencing": 0,
+        "trail fencing": 0,
+        "school fencing": 0,
+        "sports field fencing": 0
+      }
+    },
+    {
+      "file": "data/document_extraction_results.json",
+      "total_hits": 13,
+      "counts": {
+        "fence": 0,
+        "fencing": 0,
+        "gate": 13,
+        "gates": 0,
+        "perimeter": 0,
+        "security": 0,
+        "access control": 0,
+        "enclosure": 0,
+        "screen wall": 0,
+        "chain link": 0,
+        "ornamental iron": 0,
+        "wrought iron": 0,
+        "detention basin": 0,
+        "park fencing": 0,
+        "trail fencing": 0,
+        "school fencing": 0,
+        "sports field fencing": 0
+      }
+    },
+    {
+      "file": "data/evidence_expansion.json",
+      "total_hits": 3186,
+      "counts": {
+        "fence": 851,
+        "fencing": 2144,
+        "gate": 187,
+        "gates": 4,
+        "perimeter": 0,
+        "security": 0,
+        "access control": 0,
+        "enclosure": 0,
+        "screen wall": 0,
+        "chain link": 0,
+        "ornamental iron": 0,
+        "wrought iron": 0,
+        "detention basin": 0,
+        "park fencing": 0,
+        "trail fencing": 0,
+        "school fencing": 0,
+        "sports field fencing": 0
+      }
+    }
+  ],
+  "corpusHits": {
+    "evidence_documents": {
+      "fence": {
+        "count": 0,
+        "sample": null
+      },
+      "fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "gate": {
+        "count": 1,
+        "sample": "Southgate Recreation and Park District Minutes - Annexation No. 2 | Meeting minutes identify Lennar Homes of California LLC with Gerber Creek and Lelani Village subdivisions. | Gerber Creek and Lelani Village Subdivision"
+      },
+      "gates": {
+        "count": 0,
+        "sample": null
+      },
+      "perimeter": {
+        "count": 0,
+        "sample": null
+      },
+      "security": {
+        "count": 0,
+        "sample": null
+      },
+      "access control": {
+        "count": 0,
+        "sample": null
+      },
+      "enclosure": {
+        "count": 0,
+        "sample": null
+      },
+      "screen wall": {
+        "count": 0,
+        "sample": null
+      },
+      "chain link": {
+        "count": 0,
+        "sample": null
+      },
+      "ornamental iron": {
+        "count": 0,
+        "sample": null
+      },
+      "wrought iron": {
+        "count": 0,
+        "sample": null
+      },
+      "detention basin": {
+        "count": 0,
+        "sample": null
+      },
+      "park fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "trail fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "school fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "sports field fencing": {
+        "count": 0,
+        "sample": null
+      }
+    },
+    "sacramento_permits": {
+      "fence": {
+        "count": 0,
+        "sample": null
+      },
+      "fencing": {
+        "count": 26,
+        "sample": "Sacramento County Permits | {\"project\":{\"id\":\"sac-misc2026-01228\",\"external_id\":\"MISC2026-01228\",\"name\":\"SOLAR : Solar PV Installation\",\"description\":\"SOLAR : Solar PV Installation - 8.265 kW Mission Solar Energy with 1 "
+      },
+      "gate": {
+        "count": 1,
+        "sample": "Sacramento County Permits | {\"project\":{\"id\":\"sac-cbnc2026-00207\",\"external_id\":\"CBNC2026-00207\",\"name\":\"NEW (GATES) - 7575 POWER INN RD\",\"description\":\"NEW (GATES) - 7575 POWER INN RD - Supply and install automated slid"
+      },
+      "gates": {
+        "count": 1,
+        "sample": "Sacramento County Permits | {\"project\":{\"id\":\"sac-cbnc2026-00207\",\"external_id\":\"CBNC2026-00207\",\"name\":\"NEW (GATES) - 7575 POWER INN RD\",\"description\":\"NEW (GATES) - 7575 POWER INN RD - Supply and install automated slid"
+      },
+      "perimeter": {
+        "count": 0,
+        "sample": null
+      },
+      "security": {
+        "count": 0,
+        "sample": null
+      },
+      "access control": {
+        "count": 0,
+        "sample": null
+      },
+      "enclosure": {
+        "count": 1,
+        "sample": "Sacramento County Permits | {\"project\":{\"id\":\"sac-cbar2026-00636\",\"external_id\":\"CBAR2026-00636\",\"name\":\"AREA: R10:  AREA: R10:  Minor fire damage repair to sunroom\",\"description\":\"AREA: R10:  AREA: R10:  Minor fire dama"
+      },
+      "screen wall": {
+        "count": 0,
+        "sample": null
+      },
+      "chain link": {
+        "count": 0,
+        "sample": null
+      },
+      "ornamental iron": {
+        "count": 0,
+        "sample": null
+      },
+      "wrought iron": {
+        "count": 0,
+        "sample": null
+      },
+      "detention basin": {
+        "count": 0,
+        "sample": null
+      },
+      "park fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "trail fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "school fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "sports field fencing": {
+        "count": 0,
+        "sample": null
+      }
+    },
+    "placer_records": {
+      "fence": {
+        "count": 1,
+        "sample": "Placer County Active Building Permits | {\"project\":{\"id\":\"placer-bld21-07259-6036\",\"external_id\":\"BLD21-07259-6036\",\"name\":\"MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS -  LOT 84\",\"description\":\"MODEL HOME WOODSIDE HOMES "
+      },
+      "fencing": {
+        "count": 34,
+        "sample": "Placer County Active Building Permits | {\"project\":{\"id\":\"placer-bld21-02807-6058\",\"external_id\":\"BLD21-02807-6058\",\"name\":\"Hopkins Village - Lot 29 ***DIGITAL REVIEW***\",\"description\":\"Hopkins Village - Lot 29 ***DIGITA"
+      },
+      "gate": {
+        "count": 2,
+        "sample": "Placer County Active Building Permits | {\"project\":{\"id\":\"placer-bld20-02032-6046\",\"external_id\":\"BLD20-02032-6046\",\"name\":\"HAM - ENERGY STORAGE\",\"description\":\"HAM - ENERGY STORAGE - RESIDENTIAL ENERGY STORAGE\\r\\n(E) PV"
+      },
+      "gates": {
+        "count": 1,
+        "sample": "Placer County Active Building Permits | {\"project\":{\"id\":\"placer-bld20-02647-5997\",\"external_id\":\"BLD20-02647-5997\",\"name\":\"PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping\",\"description\":\"PLACER VINEYA"
+      },
+      "perimeter": {
+        "count": 0,
+        "sample": null
+      },
+      "security": {
+        "count": 0,
+        "sample": null
+      },
+      "access control": {
+        "count": 0,
+        "sample": null
+      },
+      "enclosure": {
+        "count": 0,
+        "sample": null
+      },
+      "screen wall": {
+        "count": 0,
+        "sample": null
+      },
+      "chain link": {
+        "count": 0,
+        "sample": null
+      },
+      "ornamental iron": {
+        "count": 0,
+        "sample": null
+      },
+      "wrought iron": {
+        "count": 0,
+        "sample": null
+      },
+      "detention basin": {
+        "count": 0,
+        "sample": null
+      },
+      "park fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "trail fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "school fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "sports field fencing": {
+        "count": 0,
+        "sample": null
+      }
+    },
+    "contractor_opportunity_source_fields": {
+      "fence": {
+        "count": 0,
+        "sample": null
+      },
+      "fencing": {
+        "count": 60,
+        "sample": "SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8 | SACRAMENTO, Sacramento County, CA | Electrical, Fencing | Electrical score 83: Large scope, high subcontractor likelihood, high opportunity size, open s"
+      },
+      "gate": {
+        "count": 2,
+        "sample": "Gerber Creek and Lelani Village Subdivisions | Sacramento County | Residential, Site work | Site work score 84: Major scope, high subcontractor likelihood, very high opportunity size, open stage. | https://southgaterecan"
+      },
+      "gates": {
+        "count": 1,
+        "sample": "NEW (GATES) - 7575 POWER INN RD | APT# 1, Sacramento County, CA | Electrical, Fencing | Electrical score 44: Medium scope, unknown subcontractor likelihood, low opportunity size, open stage. | https://data.saccounty.gov/"
+      },
+      "perimeter": {
+        "count": 0,
+        "sample": null
+      },
+      "security": {
+        "count": 0,
+        "sample": null
+      },
+      "access control": {
+        "count": 0,
+        "sample": null
+      },
+      "enclosure": {
+        "count": 0,
+        "sample": null
+      },
+      "screen wall": {
+        "count": 0,
+        "sample": null
+      },
+      "chain link": {
+        "count": 0,
+        "sample": null
+      },
+      "ornamental iron": {
+        "count": 0,
+        "sample": null
+      },
+      "wrought iron": {
+        "count": 0,
+        "sample": null
+      },
+      "detention basin": {
+        "count": 0,
+        "sample": null
+      },
+      "park fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "trail fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "school fencing": {
+        "count": 0,
+        "sample": null
+      },
+      "sports field fencing": {
+        "count": 0,
+        "sample": null
+      }
+    }
+  },
+  "samplePermit": {
+    "keys_normalized": [
+      "project",
+      "permit",
+      "signal",
+      "evidence",
+      "contactCompany",
+      "inferredTrades",
+      "revenueWindows"
+    ],
+    "description": null,
+    "workDescription": null,
+    "projectName": null,
+    "permitType": null,
+    "sample": [
+      {
+        "id": "sac-county-permit-RERC2026-00187",
+        "desc": ""
+      },
+      {
+        "id": "sac-county-permit-RERC2026-00186",
+        "desc": ""
+      },
+      {
+        "id": "sac-county-permit-MISC2026-01230",
+        "desc": ""
+      },
+      {
+        "id": "sac-county-permit-MISC2026-01229",
+        "desc": ""
+      },
+      {
+        "id": "sac-county-permit-MISC2026-01228",
+        "desc": ""
+      }
+    ]
+  },
+  "samplePlacer": [
+    {
+      "id": "placer-active-permit-BLD19-05699-6059",
+      "desc": ""
+    },
+    {
+      "id": "placer-active-permit-BLD21-02807-6058",
+      "desc": ""
+    },
+    {
+      "id": "placer-active-permit-BLD21-02804-6057",
+      "desc": ""
+    },
+    {
+      "id": "placer-active-permit-BLD21-03502-6056",
+      "desc": ""
+    },
+    {
+      "id": "placer-active-permit-BLD21-03587-6055",
+      "desc": ""
+    }
+  ]
+}

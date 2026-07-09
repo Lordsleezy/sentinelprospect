@@ -39,21 +39,30 @@ async function writeJson(file, value) {
 function buildScopeIntelligence(opportunity) {
   const document = documentsById.get(opportunity.id) ?? documentsByProject.get(normalizeKey(opportunity.project_name));
   const action = actionByOpportunity.get(opportunity.id);
-  const categoryText = [
+  const sourceText = [
     opportunity.project_name,
+    opportunity.project_description,
     opportunity.project_location,
     document?.summary,
+    document?.award_information,
+    ...(document?.relationships ?? []).map((relationship) => relationship.evidence_summary),
+  ].filter(Boolean).join(". ");
+  // Keep trade labels out of fence evidence detection; they are used only for work classification.
+  const categoryText = [
+    sourceText,
     ...(document?.trades ?? []),
     ...(document?.companies ?? []).map((company) => `${company.name} ${company.role}`),
-  ].join(" ");
+  ].filter(Boolean).join(". ");
+  const fenceText = sourceText;
   const workText = [categoryText, opportunity.trade, action?.likely_scope].join(" ");
   const categories = classifyCategories(categoryText);
   const workCategories = classifyWorkCategories(workText, document, opportunity);
   const tradeRelevance = tradeRelevanceFor(categoryText, workCategories, opportunity);
-  const fenceSignals = fenceSignalDetection(categoryText, categories, tradeRelevance);
+  const fenceSignals = fenceSignalDetection(fenceText, categories, tradeRelevance);
   const scopeConfidence = fenceScopeConfidence(fenceSignals, categories, tradeRelevance);
-  const projectDescription = projectDescriptionFor(opportunity, document, categories, workCategories, tradeRelevance);
+  const projectDescription = projectDescriptionFor(opportunity, document, categories, workCategories, tradeRelevance, fenceSignals);
   const scopeSummary = scopeSummaryFor(opportunity, document, workCategories);
+  const whyFencing = whyFencingRelevant(scopeConfidence, fenceSignals, categories, workCategories);
 
   return {
     opportunity_id: opportunity.id,
@@ -74,12 +83,14 @@ function buildScopeIntelligence(opportunity) {
     negative_fence_evidence: fenceSignals.negativeEvidence,
     fence_signals_found: fenceSignals.found,
     fence_signals_missing: fenceSignals.missing,
+    fence_evidence_snippets: fenceSignals.snippets,
     fence_scope_confidence: scopeConfidence.label,
     fence_scope_confidence_score: scopeConfidence.score,
     potential_fencing_scope: potentialFenceScope(categories, fenceSignals),
     confidence_reasoning: confidenceReasoning(scopeConfidence, fenceSignals, categories, document),
-    why_fencing_relevant: whyFencingRelevant(scopeConfidence, fenceSignals),
-    evidence: evidenceFor(opportunity, document),
+    why_fencing_relevant: whyFencing,
+    why_fencing_matters: whyFencing,
+    evidence: evidenceFor(opportunity, document, fenceSignals),
     source_url: document?.source_url ?? opportunity.source_url,
     source_type: document?.source_type ?? "permit_or_opportunity_record",
     last_verified: capturedAt,
@@ -179,17 +190,32 @@ function directWorkEvidence(text) {
 }
 
 function fenceSignalDetection(text, categories, tradeRelevance) {
-  const directSignals = [
+  const directRules = [
     ["Fence reference", /\bfenc(?:e|es|ing)\b/i],
     ["Chain link fencing", /chain[-\s]?link/i],
     ["Ornamental iron fencing", /ornamental iron/i],
     ["Wood or vinyl fence", /wood fence|vinyl fence/i],
-    ["Security or perimeter fence", /security fence|perimeter fence|community perimeter/i],
+    ["Security or perimeter fence", /security fence|perimeter fence|perimeter fencing|community perimeter/i],
     ["Temporary or construction fence", /temporary fence|construction fence/i],
-    ["Gate or controlled access", /access gate|vehicle gate|pedestrian gate|controlled access|access control/i],
-    ["Wall or enclosure", /screen wall|boundary wall|enclosure/i],
-    ["Recreation or school fencing", /dog park fencing|school fencing|sports field fencing/i],
-  ].filter(([, pattern]) => pattern.test(text)).map(([label]) => label);
+    ["Gate or controlled access", /\bgates?\b|access gate|vehicle gate|pedestrian gate|controlled access|access control/i],
+    ["Wall or enclosure", /screen wall|boundary wall|\benclosure\b/i],
+    ["Recreation or school fencing", /dog park fencing|school fencing|sports field fencing|park fencing|trail fencing/i],
+    ["Detention basin fencing", /detention basin[^.]{0,80}\bfenc(?:e|ing)?\b|\bfenc(?:e|ing)?\b[^.]{0,80}detention basin/i],
+  ];
+
+  const snippets = [];
+  const directSignals = [];
+  for (const [label, pattern] of directRules) {
+    const match = text.match(pattern);
+    if (!match) continue;
+    directSignals.push(label);
+    snippets.push({
+      text: snippetForMatch(text, match.index ?? 0),
+      signal: label,
+      confidence: "direct",
+      source: "permit_or_opportunity_record",
+    });
+  }
 
   const contextualSignals = [
     ["Subdivision or community development evidence", /subdivision|residential|homes|village|lots?|apartment/i],
@@ -219,6 +245,7 @@ function fenceSignalDetection(text, categories, tradeRelevance) {
     negativeEvidence: negatives,
     found: [...directSignals, ...contextualSignals],
     missing: directSignals.length ? negatives : [...negatives, "No direct fencing references found in available evidence"],
+    snippets,
   };
 }
 
@@ -241,8 +268,15 @@ function fenceScopeConfidence(signals, categories, tradeRelevance) {
   return { label: "No Evidence", score: 5 };
 }
 
-function projectDescriptionFor(opportunity, document, categories, workCategories, tradeRelevance) {
+function projectDescriptionFor(opportunity, document, categories, workCategories, tradeRelevance, fenceSignals = { evidence: [] }) {
   const projectName = cleanProjectName(opportunity.project_name);
+  const sourceDescription = cleanSourceDescription(opportunity.project_description || document?.summary || "");
+  if (sourceDescription && fenceSignals.evidence.length) {
+    return sourceDescription;
+  }
+  if (sourceDescription && sourceDescription.length > 40) {
+    return sourceDescription;
+  }
   const primary = tradeRelevance.primary_work.toLowerCase();
   if (/Creek Realignment/i.test(tradeRelevance.project_type)) {
     const work = workCategories.some((category) => /earthwork/i.test(category)) ? "earthwork, drainage, and water management improvements" : `${primary} work`;
@@ -285,22 +319,62 @@ function confidenceReasoning(scopeConfidence, signals, categories, document) {
   return `${scopeConfidence.label}: ${signals.evidence.length} direct fence evidence signal(s), ${signals.found.length} total relevant signal(s), ${signals.missing.length} limiting signal(s), categories ${categories.join(", ") || "unclassified"}, and ${evidenceStrength}.`;
 }
 
-function whyFencingRelevant(scopeConfidence, signals) {
+function whyFencingRelevant(scopeConfidence, signals, categories = [], workCategories = []) {
   if (scopeConfidence.label === "No Evidence") {
     return "No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.";
   }
   if (scopeConfidence.label === "Weak Opportunity") {
     return "No direct fencing references found. The project has contextual indicators only, so fencing is possible but unconfirmed.";
   }
+  const snippet = signals.snippets?.[0]?.text;
+  if (snippet) {
+    if (/\bgates?\b/i.test(snippet) && /\bfenc/i.test(snippet)) {
+      return `Source document specifies gate and fencing installation: "${snippet}"`;
+    }
+    if (/\bgates?\b/i.test(snippet)) {
+      return `Source document references gate work that is fencing-relevant: "${snippet}"`;
+    }
+    if (/detention basin/i.test(snippet)) {
+      return `Detention basin construction often requires perimeter safety fencing. Source document references: "${snippet}"`;
+    }
+    if (/school/i.test(snippet) || categories.includes("Schools")) {
+      return `School site improvements commonly include perimeter fencing and controlled access points. Source: "${snippet}"`;
+    }
+    if (/park|trail|sports field/i.test(snippet) || categories.includes("Parks")) {
+      return `Public recreation improvements commonly include separation fencing or gates. Source: "${snippet}"`;
+    }
+    return `Fence relevance is supported by source evidence: "${snippet}"`;
+  }
+  if (signals.evidence.length) {
+    const context = workCategories.length ? ` Project work includes ${workCategories.slice(0, 3).join(", ").toLowerCase()}.` : "";
+    return `Fence relevance is supported by direct evidence: ${signals.evidence.join("; ")}.${context}`;
+  }
   return `Fence relevance is supported by direct evidence: ${signals.evidence.join("; ")}.`;
 }
 
-function evidenceFor(opportunity, document) {
+function evidenceFor(opportunity, document, fenceSignals = { snippets: [] }) {
   return [
+    ...(fenceSignals.snippets ?? []).map((snippet) => snippet.text),
     document?.summary,
+    opportunity.project_description,
     document?.source_url ?? opportunity.source_url,
     opportunity.qualification_reason,
   ].filter(Boolean);
+}
+
+function snippetForMatch(text, index) {
+  const start = Math.max(0, text.lastIndexOf(".", index - 1) + 1);
+  const nextPeriod = text.indexOf(".", index);
+  const end = nextPeriod === -1 ? Math.min(text.length, index + 180) : nextPeriod + 1;
+  return text.slice(start, end).replace(/\s+/g, " ").trim();
+}
+
+function cleanSourceDescription(value) {
+  return String(value ?? "")
+    .replace(/\s+/g, " ")
+    .replace(/\s+-\s+New Building or Addition.*$/i, "")
+    .replace(/\s+-\s+Miscellaneous,.*$/i, "")
+    .trim();
 }
 
 function renderScopeIntelligence(rows) {

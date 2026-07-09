@@ -96,17 +96,42 @@ export type ContractorOpportunity = {
     evidence_summary: string;
     evidence_sources: Array<{ label: string; source_url: string; source_type: string; summary: string }>;
     supporting_evidence: string[];
-    evidence_fence_signals: Array<{ signal: string; source: string; source_url: string }>;
-    evidence_negative_signals: Array<{ signal: string; source: string; source_url: string }>;
+    evidence_fence_signals: Array<{ signal: string; snippet?: string; source: string; source_document_id?: string; source_url: string; source_type?: string }>;
+    evidence_negative_signals: Array<{ signal: string; snippet?: string; source: string; source_document_id?: string; source_url: string; source_type?: string }>;
+    evidence_snippets?: Array<{
+      text?: string;
+      snippet: string;
+      signal: string;
+      source: string;
+      source_document?: string;
+      source_document_id?: string;
+      source_url: string;
+      source_type?: string;
+      confidence?: string;
+    }>;
     why_fencing_is_relevant: string;
+    why_fencing_matters?: string;
     confidence_reasoning: string;
   };
   evidence_summary?: string;
   supporting_evidence?: string[];
-  evidence_fence_signals?: Array<{ signal: string; source: string; source_url: string }>;
+  evidence_fence_signals?: Array<{ signal: string; snippet?: string; source: string; source_document_id?: string; source_url: string; source_type?: string }>;
+  evidence_snippets?: Array<{
+    text?: string;
+    snippet: string;
+    signal: string;
+    source: string;
+    source_document?: string;
+    source_document_id?: string;
+    source_url: string;
+    source_type?: string;
+    confidence?: string;
+  }>;
+  why_fencing_matters?: string;
   evidence_fence_signal_score?: number;
   evidence_strength_score?: number;
   source_count?: number;
+  evidence_sources?: Array<{ label: string; source_url: string; source_type: string; summary: string; title?: string; source_name?: string }>;
   evidence_likely_fence_scope?: string;
   contradiction_notes?: string[];
 };
@@ -126,6 +151,8 @@ const contractorOpportunities = ((contractorRows as unknown) as ContractorOpport
   evidence_likely_fence_scope: evidenceExpansionByOpportunity.get(opportunity.id)?.likely_fence_scope,
 })) as ContractorOpportunity[];
 const contractorOpportunityByProjectName = new Map(contractorOpportunities.map((opportunity) => [normalizeKey(opportunity.project_name), opportunity]));
+
+const POSITIVE_FENCE_EVIDENCE_PATTERN = /\b(perimeter fencing|boundary fencing|security fencing|access control|gate systems?|detention basin fencing|trail fencing|park fencing|school fencing|enclosure requirements?|wall\/fence|wall and fence|fence package|fencing package|subdivision perimeter|hoa fencing|screening requirements?|fencing|fence|gates?|enclosure|screening)\b/i;
 
 const aliases: Record<string, string[]> = {
   fence: ["Fencing"],
@@ -170,6 +197,7 @@ export function getContractorOpportunitySearchResults(query: string) {
   const targetTrades = inferSearchTrades(trimmed);
 
   return contractorOpportunities
+    .filter((opportunity) => !shouldSuppressFencingSearchResult(opportunity, targetTrades))
     .map((opportunity) => {
       const tradeScore = bestTradeScoreForQuery(opportunity, targetTrades);
       return {
@@ -285,11 +313,24 @@ function searchSuppressReasons(opportunity: ContractorOpportunity, tradeScore: T
 
 function scopeMatchesSearch(opportunity: ContractorOpportunity, targetTrades: string[]) {
   if (!targetTrades.includes("Fencing")) return true;
-  return !["No Meaningful Fence Opportunity", "No Evidence"].includes(opportunity.fence_scope_confidence);
+  return positiveFenceEvidence(opportunity).length > 0 && !["No Meaningful Fence Opportunity", "No Evidence"].includes(opportunity.fence_scope_confidence);
+}
+
+export function positiveFenceEvidence(opportunity: ContractorOpportunity) {
+  return [
+    ...(opportunity.fence_evidence ?? []),
+    ...(opportunity.evidence_fence_signals?.map((signal) => signal.signal) ?? []),
+    ...(opportunity.project_dossier?.evidence_fence_signals?.map((signal) => signal.signal) ?? []),
+  ].filter((signal) => POSITIVE_FENCE_EVIDENCE_PATTERN.test(signal));
+}
+
+function shouldSuppressFencingSearchResult(opportunity: ContractorOpportunity, targetTrades: string[]) {
+  if (!targetTrades.includes("Fencing")) return false;
+  return positiveFenceEvidence(opportunity).length === 0 && opportunity.fence_scope_confidence === "No Evidence";
 }
 
 function fencingContractorScore(opportunity: ContractorOpportunity, tradeScore: TradeScore) {
-  const directEvidenceScore = Math.min(100, (opportunity.fence_evidence?.length ?? 0) * 30);
+  const directEvidenceScore = Math.min(100, positiveFenceEvidence(opportunity).length * 30);
   const signalScore = effectiveFenceSignalScore(opportunity);
   return Math.max(0, Math.min(100, Math.round(
     fenceScopeRank(opportunity.fence_scope_confidence) * 14
@@ -301,9 +342,9 @@ function fencingContractorScore(opportunity: ContractorOpportunity, tradeScore: 
 }
 
 function fencingTradeRelevance(opportunity: ContractorOpportunity, tradeScore: TradeScore) {
-  const directEvidence = opportunity.fence_evidence?.length ?? 0;
+  const directEvidence = positiveFenceEvidence(opportunity).length;
   if (directEvidence > 0) return Math.max(tradeScore.trade_relevance, Math.min(100, 55 + directEvidence * 15));
-  if (["No Evidence", "No Meaningful Fence Opportunity"].includes(opportunity.fence_scope_confidence)) return Math.min(tradeScore.trade_relevance, 15);
+  if (["No Evidence", "No Meaningful Fence Opportunity"].includes(opportunity.fence_scope_confidence)) return 0;
   if (["Weak Opportunity", "Weak Signal"].includes(opportunity.fence_scope_confidence)) return Math.min(tradeScore.trade_relevance, 25);
   return Math.min(tradeScore.trade_relevance, 45);
 }
@@ -377,7 +418,7 @@ function recommendedActionForTrade(opportunity: ContractorOpportunity, trade: st
 
 function outreachScriptForTrade(opportunity: ContractorOpportunity, trade: string, likelyScope: string) {
   const contact = opportunity.best_contact;
-  const company = contact?.company ?? opportunity.populated_fields.general_contractor ?? opportunity.populated_fields.developer ?? "your project team";
+  const company = contact?.company ?? opportunity.populated_fields?.general_contractor ?? opportunity.populated_fields?.developer ?? "your project team";
   return `Hi, this is [Name] with [Company]. I'm calling about ${cleanProjectName(opportunity.project_name)}. I saw source evidence for the project and wanted to ask who handles ${likelyScope.toLowerCase()} or ${trade.toLowerCase()} subcontractor pricing for ${company}.`;
 }
 

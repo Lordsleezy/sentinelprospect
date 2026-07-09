@@ -86,6 +86,7 @@ function buildAccessOpportunity(opportunity) {
   return {
     id: opportunity.id,
     project_name: opportunity.project_name,
+    project_description: opportunity.project_description ?? "",
     project_location: opportunity.location,
     city: locationParts(opportunity.location).city,
     county: locationParts(opportunity.location).county,

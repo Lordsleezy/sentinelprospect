@@ -1,12 +1,17 @@
 # Top Contractor Opportunities
 
-Generated: 2026-07-08T17:32:15.606Z
+Generated: 2026-07-09T05:32:00.955Z
 
 | Project | Trade | Contractor Score | Trade Relevance | Scope | Subcontractor Likelihood | Opportunity Size | Stage | Saturation | Visible | Reason |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Trunk Drainage Facilities Zone 11A | Utility | 88 | 84 | Major | High | Very High | Open | Unknown | Yes | Utility score 88: Major scope, high subcontractor likelihood, very high opportunity size, open stage. |
 | Gerber Creek and Lelani Village Subdivisions | Site work | 84 | 70 | Major | High | Very High | Open | Unknown | Yes | Site work score 84: Major scope, high subcontractor likelihood, very high opportunity size, open stage. |
 | SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8 | Electrical | 83 | 84 | Large | High | High | Open | Unknown | Yes | Electrical score 83: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
+| AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 1 - 3161 Elevation C - Lot 48 | Fencing | 82 | 82 | Large | High | High | Open | Unknown | Yes | Fencing score 82: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
+| AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3141 Elevation A - Lot 39 | Fencing | 82 | 82 | Large | High | High | Open | Unknown | Yes | Fencing score 82: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
+| AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation B - Lot 40 | Fencing | 82 | 82 | Large | High | High | Open | Unknown | Yes | Fencing score 82: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
+| AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation C - Lot 17 | Fencing | 82 | 82 | Large | High | High | Open | Unknown | Yes | Fencing score 82: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
+| AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - Plan 1950 Elevation A - Lo | Fencing | 82 | 82 | Large | High | High | Open | Unknown | Yes | Fencing score 82: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
 | SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation A- Lot 9 | Electrical | 82 | 84 | Large | High | High | Open | Unknown | Yes | Electrical score 82: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
 | LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241 | Fencing | 79 | 82 | Major | High | Very High | Unknown | Unknown | Yes | Fencing score 79: Major scope, high subcontractor likelihood, very high opportunity size, unknown stage. |
 | MASTER PLAN Placer Vineyards 1A - 2756 Plan #11 | Fencing | 79 | 82 | Major | High | Very High | Unknown | Unknown | Yes | Fencing score 79: Major scope, high subcontractor likelihood, very high opportunity size, unknown stage. |
@@ -24,12 +29,14 @@ Generated: 2026-07-08T17:32:15.606Z
 | Hopkins Village - Lot 35 ***DIGITAL REVIEW*** | Electrical | 75 | 70 | Large | High | High | Open | Unknown | Yes | Electrical score 75: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
 | Hopkins Village - Unit 16 ***DIGITAL REVIEW*** | Electrical | 75 | 70 | Large | High | High | Open | Unknown | Yes | Electrical score 75: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
 | Hopkins Village - Unit 42 ***DIGITAL REVIEW*** | Electrical | 75 | 70 | Large | High | High | Open | Unknown | Yes | Electrical score 75: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
-| AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation | Fencing | 74 | 82 | Large | High | High | Unknown | Unknown | Yes | Fencing score 74: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
-| AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation | Fencing | 74 | 82 | Large | High | High | Unknown | Unknown | Yes | Fencing score 74: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
+| AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 1850 D Lot 94 | Fencing | 74 | 82 | Large | High | High | Unknown | Unknown | Yes | Fencing score 74: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
+| AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 2126 A Lot 93 | Fencing | 74 | 82 | Large | High | High | Unknown | Unknown | Yes | Fencing score 74: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
 | GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143 | Fencing | 74 | 82 | Large | High | High | Unknown | Unknown | Yes | Fencing score 74: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
 | PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping | Fencing | 74 | 82 | Large | High | High | Unknown | Unknown | Yes | Fencing score 74: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
 | AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-08 Elevation | Fencing | 74 | 82 | Large | High | High | Unknown | Unknown | Yes | Fencing score 74: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
 | AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-09 Elevation | Fencing | 74 | 82 | Large | High | High | Unknown | Unknown | Yes | Fencing score 74: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
+| AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation | Fencing | 74 | 82 | Large | High | High | Unknown | Unknown | Yes | Fencing score 74: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
+| AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation | Fencing | 74 | 82 | Large | High | High | Unknown | Unknown | Yes | Fencing score 74: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
 | SOLAR : AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-09A  LOT 276 | Electrical | 74 | 84 | Large | High | High | Unknown | Unknown | Yes | Electrical score 74: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
 | Gerber Creek Re-Alignment | Site work | 65 | 70 | Medium | Medium | Medium | Open | General Contractor | Yes | Site work score 65: Medium scope, medium subcontractor likelihood, medium opportunity size, open stage. |
 | MARIOPSA LOT 44 MASTER PLAN 2  / ELEV A / GAR R | HVAC | 64 | 28 | Major | High | Very High | Unknown | Unknown | Yes | HVAC score 64: Major scope, high subcontractor likelihood, very high opportunity size, unknown stage. |
@@ -37,10 +44,3 @@ Generated: 2026-07-08T17:32:15.606Z
 | Northlake Lakelet | Landscaping | 61 | 70 | Medium | Medium | Low | Open | Unknown | Yes | Landscaping score 61: Medium scope, medium subcontractor likelihood, low opportunity size, open stage. |
 | Pinyon Creek II  Unit 13 | HVAC | 59 | 28 | Large | High | High | Unknown | Unknown | Yes | HVAC score 59: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
 | Pinyon Creek II  Unit 6-C2 | HVAC | 59 | 28 | Large | High | High | Unknown | Unknown | Yes | HVAC score 59: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
-| AREA: R04:  Rear house addition. | Fencing | 57 | 82 | Small | Unknown | Medium | Open | General Contractor | Yes | Fencing score 57: Small scope, unknown subcontractor likelihood, medium opportunity size, open stage. |
-| AREA: R02:  SolarApp \| SA20260316-2133-87-15606-B \| 18.450kW PV Roof Mo | Electrical | 51 | 100 | Small | Unknown | Low | Unknown | Unknown | Yes | Electrical score 51: Small scope, unknown subcontractor likelihood, low opportunity size, unknown stage. |
-| AREA: R03:  SolarApp \| SA20260325-2133-109-15606-B \| 10.250kW PV Roof M | Electrical | 51 | 100 | Small | Unknown | Low | Unknown | Unknown | Yes | Electrical score 51: Small scope, unknown subcontractor likelihood, low opportunity size, unknown stage. |
-| SAEED - SOLAR RM | Electrical | 51 | 84 | Medium | Unknown | Low | Unknown | Unknown | Yes | Electrical score 51: Medium scope, unknown subcontractor likelihood, low opportunity size, unknown stage. |
-| AREA: R01:  7240 Rio Linda 3, Rio Linda, CA. SFR | Fencing | 50 | 82 | Medium | Unknown | Low | Unknown | Unknown | Yes | Fencing score 50: Medium scope, unknown subcontractor likelihood, low opportunity size, unknown stage. |
-| PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE | Fencing | 47 | 72 | Medium | Unknown | Low | Unknown | Unknown | Yes | Fencing score 47: Medium scope, unknown subcontractor likelihood, low opportunity size, unknown stage. |
-| FECHNER - SFD    ****PAPER REVIEW**** | Concrete | 47 | 70 | Small | Unknown | Low | Open | Unknown | Yes | Concrete score 47: Small scope, unknown subcontractor likelihood, low opportunity size, open stage. |

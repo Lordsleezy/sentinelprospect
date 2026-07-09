@@ -25,6 +25,8 @@
     "intelligence:opportunity": "node scripts/build-contractor-opportunity.mjs",
     "intelligence:contractor-actions": "node scripts/build-contractor-action-engine.mjs",
     "intelligence:scope": "node scripts/build-scope-intelligence.mjs",
+    "intelligence:rebuild": "npm run intelligence:qualify && npm run intelligence:access && npm run intelligence:opportunity && npm run intelligence:contractor-actions && npm run intelligence:scope && npm run intelligence:evidence",
+    "validate": "npm run lint && npm run build",
     "graph:relationships": "node scripts/build-relationship-graph.mjs",
     "graph:export": "tsx scripts/export-intelligence-graph.mjs",
     "graph:sync": "tsx scripts/sync-neo4j.mjs",

@@ -205,22 +205,39 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
           </div>
           <div className="mt-4 rounded-md border border-zinc-100 bg-zinc-50 p-3">
             <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Project Summary</p>
-            <p className="mt-2 text-sm leading-6 text-zinc-800">{opportunity.project_summary}</p>
+            <p className="mt-2 text-sm leading-6 text-zinc-800">{opportunity.project_dossier?.project_summary ?? opportunity.project_summary}</p>
             <div className="mt-3 flex flex-wrap gap-2">
               {opportunity.project_categories.map((category) => <Badge key={category}>{category}</Badge>)}
             </div>
           </div>
+          {opportunity.project_dossier ? (
+            <div className="mt-4 rounded-md border border-zinc-100 bg-white p-3">
+              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Evidence Dossier</p>
+              <p className="mt-2 text-sm leading-6 text-zinc-800">{opportunity.project_dossier.evidence_summary}</p>
+              <p className="mt-2 text-sm text-zinc-700">Related development: {opportunity.project_dossier.related_development}</p>
+              <p className="mt-2 text-sm text-zinc-700">Primary objective: {opportunity.project_dossier.primary_objective}</p>
+              {opportunity.project_dossier.supporting_evidence.length ? (
+                <p className="mt-2 text-xs text-zinc-500">Sources: {opportunity.project_dossier.supporting_evidence.slice(0, 3).join("; ")}</p>
+              ) : null}
+            </div>
+          ) : null}
           <div className="mt-4 rounded-md border border-amber-100 bg-amber-50 p-3">
             <p className="text-xs font-semibold uppercase tracking-wide text-amber-700">Why Fencing Is Relevant</p>
             <p className="mt-2 text-sm font-medium leading-6 text-amber-950">{opportunity.fence_scope_confidence}</p>
-            <p className="mt-2 text-sm leading-6 text-amber-950">{opportunity.why_fencing_relevant}</p>
-            {opportunity.fence_signals_found.length ? (
+            <p className="mt-2 text-sm leading-6 text-amber-950">{opportunity.project_dossier?.why_fencing_is_relevant ?? opportunity.why_fencing_relevant}</p>
+            {(opportunity.evidence_fence_signals?.length ?? 0) ? (
+              <ul className="mt-2 space-y-1 text-sm text-amber-950">
+                {opportunity.evidence_fence_signals?.slice(0, 4).map((signal) => <li key={`${signal.signal}-${signal.source}`}>+ {signal.signal} <span className="text-xs text-amber-800">({signal.source})</span></li>)}
+              </ul>
+            ) : opportunity.fence_signals_found.length ? (
               <ul className="mt-2 space-y-1 text-sm text-amber-950">
                 {opportunity.fence_signals_found.map((signal) => <li key={signal}>+ {signal}</li>)}
               </ul>
             ) : null}
-            {opportunity.potential_fencing_scope.length ? (
+            {["Primary Scope", "Secondary Scope", "Possible Scope"].includes(opportunity.fence_scope_confidence) && opportunity.potential_fencing_scope.length ? (
               <p className="mt-2 text-sm text-amber-950">Potential scope: {opportunity.potential_fencing_scope.join(", ")}</p>
+            ) : opportunity.fence_scope_confidence === "Weak Signal" ? (
+              <p className="mt-2 text-sm text-amber-950">Potential scope: Insufficient evidence to determine likely fencing scope.</p>
             ) : null}
             <p className="mt-2 text-xs text-amber-800">{opportunity.confidence_reasoning}</p>
           </div>

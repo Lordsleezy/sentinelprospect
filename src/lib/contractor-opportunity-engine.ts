@@ -1,6 +1,7 @@
 import contractorRows from "../../data/contractor_opportunities.json";
 import actionRows from "../../data/contractor_action_opportunities.json";
 import scopeRows from "../../data/scope_intelligence.json";
+import evidenceExpansionRows from "../../data/evidence_expansion.json";
 
 export type ScopeSize = "Tiny" | "Small" | "Medium" | "Large" | "Major";
 export type SubcontractorLikelihood = "High" | "Medium" | "Low" | "Unknown";
@@ -75,6 +76,30 @@ export type ContractorOpportunity = {
   potential_fencing_scope: string[];
   why_fencing_relevant: string;
   confidence_reasoning: string;
+  project_dossier?: {
+    project_summary: string;
+    associated_improvements: string[];
+    related_development: string;
+    developer: string;
+    applicant: string;
+    owner: string;
+    work_categories: string[];
+    primary_objective: string;
+    scope_summary: string;
+    evidence_summary: string;
+    evidence_sources: Array<{ label: string; source_url: string; source_type: string; summary: string }>;
+    supporting_evidence: string[];
+    evidence_fence_signals: Array<{ signal: string; source: string; source_url: string }>;
+    evidence_negative_signals: Array<{ signal: string; source: string; source_url: string }>;
+    why_fencing_is_relevant: string;
+    confidence_reasoning: string;
+  };
+  evidence_summary?: string;
+  supporting_evidence?: string[];
+  evidence_fence_signals?: Array<{ signal: string; source: string; source_url: string }>;
+  evidence_fence_signal_score?: number;
+  evidence_likely_fence_scope?: string;
+  contradiction_notes?: string[];
 };
 
 type ContractorActionFields = Pick<ContractorOpportunity, "actionability_score" | "recommended_action" | "outreach_script" | "likely_scope" | "best_contact" | "access_path" | "populated_fields" | "missing_intelligence"> & {
@@ -83,10 +108,13 @@ type ContractorActionFields = Pick<ContractorOpportunity, "actionability_score" 
 
 const actionsByOpportunity = new Map(((actionRows as unknown) as ContractorActionFields[]).map((row) => [row.opportunity_id, row]));
 const scopesByOpportunity = new Map(((scopeRows as unknown) as Array<{ opportunity_id: string }>).map((row) => [row.opportunity_id, row]));
+const evidenceExpansionByOpportunity = new Map(((evidenceExpansionRows as unknown) as Array<{ opportunity_id: string; likely_fence_scope?: string }>).map((row) => [row.opportunity_id, row]));
 const contractorOpportunities = ((contractorRows as unknown) as ContractorOpportunity[]).map((opportunity) => ({
   ...opportunity,
   ...(actionsByOpportunity.get(opportunity.id) ?? {}),
   ...(scopesByOpportunity.get(opportunity.id) ?? {}),
+  ...(evidenceExpansionByOpportunity.get(opportunity.id) ?? {}),
+  evidence_likely_fence_scope: evidenceExpansionByOpportunity.get(opportunity.id)?.likely_fence_scope,
 })) as ContractorOpportunity[];
 const contractorOpportunityByProjectName = new Map(contractorOpportunities.map((opportunity) => [normalizeKey(opportunity.project_name), opportunity]));
 
@@ -245,6 +273,9 @@ function terms(query: string) {
 function likelyScopeForTrade(opportunity: ContractorOpportunity, trade: string) {
   const text = `${opportunity.project_name} ${opportunity.trade} ${opportunity.qualification_reason}`.toLowerCase();
   if (trade === "Fencing") {
+    if (opportunity.fence_scope_confidence === "Weak Signal") return "Insufficient evidence to determine likely fencing scope.";
+    if (opportunity.fence_scope_confidence === "No Meaningful Fence Opportunity") return "No fencing scope generated.";
+    if (opportunity.evidence_likely_fence_scope) return opportunity.evidence_likely_fence_scope;
     if (opportunity.potential_fencing_scope?.length) return opportunity.potential_fencing_scope[0];
     if (/park/.test(text)) return "Park fencing";
     if (/school/.test(text)) return "School perimeter fencing";

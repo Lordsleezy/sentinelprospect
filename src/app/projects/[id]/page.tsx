@@ -125,7 +125,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                 <div className="grid gap-3 md:grid-cols-3">
                   <HeaderFact label="Fence Scope" value={contractorOpportunity.fence_scope_confidence} strong={contractorOpportunity.fence_scope_confidence === "Primary Scope"} />
                   <HeaderFact label="Fence Signal Score" value={String(contractorOpportunity.fence_signal_score)} />
-                  <HeaderFact label="Potential Scope" value={contractorOpportunity.potential_fencing_scope.join(", ") || "Unknown"} />
+                  <HeaderFact label="Potential Scope" value={fenceScopeDisplay(contractorOpportunity.fence_scope_confidence, contractorOpportunity.potential_fencing_scope)} />
                 </div>
                 <div className="rounded-md border border-amber-100 bg-white p-3">
                   <p className="text-xs font-semibold uppercase tracking-wide text-amber-700">Why Fencing Is Relevant</p>
@@ -136,6 +136,46 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                     </ul>
                   ) : null}
                   <p className="mt-2 text-xs text-amber-800">{contractorOpportunity.confidence_reasoning}</p>
+                </div>
+              </CardContent>
+            </Card>
+          ) : null}
+
+          {contractorOpportunity?.project_dossier ? (
+            <Card>
+              <CardHeader>
+                <h2 className="text-base font-semibold">Project Dossier</h2>
+                <p className="mt-1 text-sm text-zinc-600">{contractorOpportunity.project_dossier.project_summary}</p>
+              </CardHeader>
+              <CardContent className="space-y-5">
+                <div className="grid gap-3 md:grid-cols-3">
+                  <HeaderFact label="Developer" value={contractorOpportunity.project_dossier.developer} />
+                  <HeaderFact label="Applicant" value={contractorOpportunity.project_dossier.applicant} />
+                  <HeaderFact label="Primary Objective" value={contractorOpportunity.project_dossier.primary_objective} />
+                </div>
+                <div className="grid gap-4 md:grid-cols-2">
+                  <DossierList title="Associated Improvements" items={contractorOpportunity.project_dossier.associated_improvements} />
+                  <DossierList title="Work Categories" items={contractorOpportunity.project_dossier.work_categories} />
+                </div>
+                <div className="rounded-md border border-zinc-100 bg-zinc-50 p-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Related Development</p>
+                  <p className="mt-2 text-sm leading-6 text-zinc-800">{contractorOpportunity.project_dossier.related_development}</p>
+                </div>
+                <div className="rounded-md border border-zinc-100 bg-zinc-50 p-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Why Fencing Is Relevant</p>
+                  <p className="mt-2 text-sm leading-6 text-zinc-800">{contractorOpportunity.project_dossier.why_fencing_is_relevant}</p>
+                  <p className="mt-2 text-xs text-zinc-500">{contractorOpportunity.project_dossier.confidence_reasoning}</p>
+                </div>
+                <div>
+                  <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Evidence Sources</p>
+                  <div className="mt-2 grid gap-2 md:grid-cols-2">
+                    {contractorOpportunity.project_dossier.evidence_sources.map((source) => (
+                      <a key={`${source.label}-${source.source_url}`} href={source.source_url} target="_blank" rel="noreferrer" className="rounded-md border border-zinc-100 p-3 text-sm hover:bg-zinc-50">
+                        <span className="font-semibold text-zinc-950">{source.label}</span>
+                        <span className="mt-1 block text-xs text-zinc-500">{source.source_type}</span>
+                      </a>
+                    ))}
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -485,6 +525,27 @@ function HeaderFact({ label, value, strong }: { label: string; value: string; st
       <p className="mt-1 truncate font-semibold" title={value}>{value}</p>
     </div>
   );
+}
+
+function DossierList({ title, items }: { title: string; items: string[] }) {
+  return (
+    <div className="rounded-md border border-zinc-100 bg-zinc-50 p-3">
+      <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">{title}</p>
+      {items.length ? (
+        <ul className="mt-2 space-y-1 text-sm text-zinc-700">
+          {items.map((item) => <li key={item}>+ {item}</li>)}
+        </ul>
+      ) : (
+        <p className="mt-2 text-sm text-zinc-500">Additional intelligence not yet discovered.</p>
+      )}
+    </div>
+  );
+}
+
+function fenceScopeDisplay(confidence: string, scopes: string[]) {
+  if (confidence === "Weak Signal") return "Insufficient evidence to determine likely fencing scope.";
+  if (confidence === "No Meaningful Fence Opportunity") return "No fencing scope generated.";
+  return scopes.join(", ") || "Unknown";
 }
 
 function humanizeContactType(value: HumanContact["contactType"]) {

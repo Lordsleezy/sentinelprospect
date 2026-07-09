@@ -1,270 +1,66 @@
 [
   {
-    "id": "company-a-1-electrical-collector-1",
-    "company_profile_id": "company-a-1-electrical",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00200",
-    "field_name": "company_name",
-    "field_value": "A 1 ELECTRICAL",
-    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-a-1-electrical-collector-2",
-    "company_profile_id": "company-a-1-electrical",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00201",
-    "field_name": "company_name",
-    "field_value": "A 1 ELECTRICAL",
-    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-a-1-electrical-collector-3",
-    "company_profile_id": "company-a-1-electrical",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00196",
-    "field_name": "company_name",
-    "field_value": "A 1 ELECTRICAL",
-    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-a-1-electrical-collector-4",
-    "company_profile_id": "company-a-1-electrical",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00197",
-    "field_name": "company_name",
-    "field_value": "A 1 ELECTRICAL",
-    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-a-1-electrical-collector-5",
-    "company_profile_id": "company-a-1-electrical",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00198",
-    "field_name": "company_name",
-    "field_value": "A 1 ELECTRICAL",
-    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-a-1-electrical-collector-6",
-    "company_profile_id": "company-a-1-electrical",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00199",
-    "field_name": "company_name",
-    "field_value": "A 1 ELECTRICAL",
-    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-a-1-electrical-collector-7",
-    "company_profile_id": "company-a-1-electrical",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00192",
-    "field_name": "company_name",
-    "field_value": "A 1 ELECTRICAL",
-    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-a-1-electrical-collector-8",
-    "company_profile_id": "company-a-1-electrical",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00193",
-    "field_name": "company_name",
-    "field_value": "A 1 ELECTRICAL",
-    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-a-1-electrical-collector-9",
-    "company_profile_id": "company-a-1-electrical",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00194",
-    "field_name": "company_name",
-    "field_value": "A 1 ELECTRICAL",
-    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-a-1-electrical-collector-10",
-    "company_profile_id": "company-a-1-electrical",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00195",
-    "field_name": "company_name",
-    "field_value": "A 1 ELECTRICAL",
-    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-a-1-electrical-collector-11",
-    "company_profile_id": "company-a-1-electrical",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00191",
-    "field_name": "company_name",
-    "field_value": "A 1 ELECTRICAL",
-    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 609 WOODSIDE SIERRA.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-robert-l-scheid-construction-collector-1",
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00216",
-    "field_name": "company_name",
-    "field_value": "ROBERT L SCHEID CONSTRUCTION",
-    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 9.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-robert-l-scheid-construction-collector-2",
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00217",
-    "field_name": "company_name",
-    "field_value": "ROBERT L SCHEID CONSTRUCTION",
-    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 10.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-robert-l-scheid-construction-collector-3",
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00218",
-    "field_name": "company_name",
-    "field_value": "ROBERT L SCHEID CONSTRUCTION",
-    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 11.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-robert-l-scheid-construction-collector-4",
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00219",
-    "field_name": "company_name",
-    "field_value": "ROBERT L SCHEID CONSTRUCTION",
-    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 12.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-robert-l-scheid-construction-collector-5",
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00211",
-    "field_name": "company_name",
-    "field_value": "ROBERT L SCHEID CONSTRUCTION",
-    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 4.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-robert-l-scheid-construction-collector-6",
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00212",
-    "field_name": "company_name",
-    "field_value": "ROBERT L SCHEID CONSTRUCTION",
-    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 5.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-robert-l-scheid-construction-collector-7",
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00213",
-    "field_name": "company_name",
-    "field_value": "ROBERT L SCHEID CONSTRUCTION",
-    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 6.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-robert-l-scheid-construction-collector-8",
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00214",
-    "field_name": "company_name",
-    "field_value": "ROBERT L SCHEID CONSTRUCTION",
-    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 7.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-robert-l-scheid-construction-collector-9",
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00215",
-    "field_name": "company_name",
-    "field_value": "ROBERT L SCHEID CONSTRUCTION",
-    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 8.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-robert-l-scheid-construction-collector-10",
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00209",
-    "field_name": "company_name",
-    "field_value": "ROBERT L SCHEID CONSTRUCTION",
-    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 2.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-robert-l-scheid-construction-collector-11",
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00210",
-    "field_name": "company_name",
-    "field_value": "ROBERT L SCHEID CONSTRUCTION",
-    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 3.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
     "id": "company-lennar-homes-of-california-collector-1",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00578",
+    "field_name": "company_name",
+    "field_value": "Lennar Homes of California",
+    "excerpt": "Lennar Homes of California listed as General Contractor on AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 1 - 3161 Elevation C - Lot 48.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-lennar-homes-of-california-collector-2",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00577",
+    "field_name": "company_name",
+    "field_value": "Lennar Homes of California",
+    "excerpt": "Lennar Homes of California listed as General Contractor on AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation B - Lot 40.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-lennar-homes-of-california-collector-3",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00576",
+    "field_name": "company_name",
+    "field_value": "Lennar Homes of California",
+    "excerpt": "Lennar Homes of California listed as General Contractor on AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3141 Elevation A - Lot 39.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-lennar-homes-of-california-collector-4",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00575",
+    "field_name": "company_name",
+    "field_value": "Lennar Homes of California",
+    "excerpt": "Lennar Homes of California listed as General Contractor on AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - Plan 1950 Elevation A - Lo.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-lennar-homes-of-california-collector-5",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00574",
+    "field_name": "company_name",
+    "field_value": "Lennar Homes of California",
+    "excerpt": "Lennar Homes of California listed as General Contractor on AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation C - Lot 17.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-lennar-homes-of-california-collector-6",
     "company_profile_id": "company-lennar-homes-of-california",
     "source_type": "collector_record",
     "source_name": "Sacramento County Permits",
@@ -273,10 +69,10 @@
     "field_value": "Lennar Homes of California",
     "excerpt": "Lennar Homes of California listed as General Contractor on SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation A- Lot 9.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-lennar-homes-of-california-collector-2",
+    "id": "company-lennar-homes-of-california-collector-7",
     "company_profile_id": "company-lennar-homes-of-california",
     "source_type": "collector_record",
     "source_name": "Sacramento County Permits",
@@ -285,10 +81,10 @@
     "field_value": "Lennar Homes of California",
     "excerpt": "Lennar Homes of California listed as General Contractor on SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-lennar-homes-of-california-collector-3",
+    "id": "company-lennar-homes-of-california-collector-8",
     "company_profile_id": "company-lennar-homes-of-california",
     "source_type": "collector_record",
     "source_name": "Lund Construction Co project portfolio",
@@ -297,10 +93,10 @@
     "field_value": "Lennar Homes of California",
     "excerpt": "Lennar Homes of California listed as Developer on Gerber Creek Re-Alignment.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-lennar-homes-of-california-collector-4",
+    "id": "company-lennar-homes-of-california-collector-9",
     "company_profile_id": "company-lennar-homes-of-california",
     "source_type": "collector_record",
     "source_name": "SF YIMBY",
@@ -309,10 +105,10 @@
     "field_value": "Lennar Homes of California",
     "excerpt": "Lennar Homes of California listed as Developer on Northlake Lakelet.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-lennar-homes-of-california-collector-5",
+    "id": "company-lennar-homes-of-california-collector-10",
     "company_profile_id": "company-lennar-homes-of-california",
     "source_type": "collector_record",
     "source_name": "SF YIMBY",
@@ -321,10 +117,10 @@
     "field_value": "Lennar Homes of California",
     "excerpt": "Lennar Homes of California listed as Developer on Northlake 36 Homes.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-lennar-homes-of-california-collector-6",
+    "id": "company-lennar-homes-of-california-collector-11",
     "company_profile_id": "company-lennar-homes-of-california",
     "source_type": "collector_record",
     "source_name": "Central Valley Regional Water Quality Control Board",
@@ -333,10 +129,10 @@
     "field_value": "Lennar Homes of California",
     "excerpt": "Lennar Homes of California listed as Developer on Gerber Creek Unit 1 and Unit 2.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-lennar-homes-of-california-collector-7",
+    "id": "company-lennar-homes-of-california-collector-12",
     "company_profile_id": "company-lennar-homes-of-california",
     "source_type": "collector_record",
     "source_name": "Central Valley Regional Water Quality Control Board",
@@ -345,10 +141,10 @@
     "field_value": "Lennar Homes of California",
     "excerpt": "Lennar Homes of California listed as Developer on Gerber Creek Unit 1 and Unit 2.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-lennar-homes-of-california-collector-8",
+    "id": "company-lennar-homes-of-california-collector-13",
     "company_profile_id": "company-lennar-homes-of-california",
     "source_type": "collector_record",
     "source_name": "Southgate Recreation and Park District",
@@ -357,10 +153,10 @@
     "field_value": "Lennar Homes of California",
     "excerpt": "Lennar Homes of California listed as Developer on Gerber Creek and Lelani Village Subdivisions.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-lennar-homes-of-california-collector-9",
+    "id": "company-lennar-homes-of-california-collector-14",
     "company_profile_id": "company-lennar-homes-of-california",
     "source_type": "collector_record",
     "source_name": "Sacramento County Board of Supervisors",
@@ -369,10 +165,10 @@
     "field_value": "Lennar Homes of California",
     "excerpt": "Lennar Homes of California listed as Developer on Trunk Drainage Facilities Zone 11A.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-lennar-homes-of-california-collector-10",
+    "id": "company-lennar-homes-of-california-collector-15",
     "company_profile_id": "company-lennar-homes-of-california",
     "source_type": "collector_record",
     "source_name": "Sacramento County Board of Supervisors",
@@ -381,7 +177,7 @@
     "field_value": "Lennar Homes of California",
     "excerpt": "Lennar Homes of California listed as Developer on Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-lennar-homes-of-california-lennar-homes-of-california",
@@ -393,7 +189,7 @@
     "field_value": "https://www.lennar.com/",
     "excerpt": "Official Lennar website identifies Lennar as a national homebuilder.",
     "confidence": 0.9,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-lennar-homes-of-california-lennar-homes-of-california",
@@ -405,7 +201,391 @@
     "field_value": "https://www.lennar.com/contact/business-inquiry",
     "excerpt": "Business inquiries form says the appropriate Lennar Associate will contact the submitter.",
     "confidence": 0.78,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-lennar-homes-of-california-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-728102",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=728102",
+    "field_name": "phone",
+    "field_value": "(949) 789-1600",
+    "excerpt": "CSLB public license record lists business phone (949) 789-1600 for Lennar Homes of California (license 728102).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-a-1-electrical-collector-1",
+    "company_profile_id": "company-a-1-electrical",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00200",
+    "field_name": "company_name",
+    "field_value": "A 1 ELECTRICAL",
+    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-a-1-electrical-collector-2",
+    "company_profile_id": "company-a-1-electrical",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00201",
+    "field_name": "company_name",
+    "field_value": "A 1 ELECTRICAL",
+    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-a-1-electrical-collector-3",
+    "company_profile_id": "company-a-1-electrical",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00196",
+    "field_name": "company_name",
+    "field_value": "A 1 ELECTRICAL",
+    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-a-1-electrical-collector-4",
+    "company_profile_id": "company-a-1-electrical",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00197",
+    "field_name": "company_name",
+    "field_value": "A 1 ELECTRICAL",
+    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-a-1-electrical-collector-5",
+    "company_profile_id": "company-a-1-electrical",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00198",
+    "field_name": "company_name",
+    "field_value": "A 1 ELECTRICAL",
+    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-a-1-electrical-collector-6",
+    "company_profile_id": "company-a-1-electrical",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00199",
+    "field_name": "company_name",
+    "field_value": "A 1 ELECTRICAL",
+    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-a-1-electrical-collector-7",
+    "company_profile_id": "company-a-1-electrical",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00192",
+    "field_name": "company_name",
+    "field_value": "A 1 ELECTRICAL",
+    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-a-1-electrical-collector-8",
+    "company_profile_id": "company-a-1-electrical",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00193",
+    "field_name": "company_name",
+    "field_value": "A 1 ELECTRICAL",
+    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-a-1-electrical-collector-9",
+    "company_profile_id": "company-a-1-electrical",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00194",
+    "field_name": "company_name",
+    "field_value": "A 1 ELECTRICAL",
+    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-a-1-electrical-collector-10",
+    "company_profile_id": "company-a-1-electrical",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00195",
+    "field_name": "company_name",
+    "field_value": "A 1 ELECTRICAL",
+    "excerpt": "A 1 ELECTRICAL listed as General Contractor on REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-a-1-electrical-collector-11",
+    "company_profile_id": "company-a-1-electrical",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00862",
+    "field_name": "company_name",
+    "field_value": "A 1 ELECTRICAL",
+    "excerpt": "A 1 ELECTRICAL listed as General Contractor on NEW (GATES) - 5800 FAIR OAKS BLVD.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-a-1-electrical-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-909430",
+    "company_profile_id": "company-a-1-electrical",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=909430",
+    "field_name": "phone",
+    "field_value": "(916) 482-3400",
+    "excerpt": "CSLB public license record lists business phone (916) 482-3400 for A 1 ELECTRICAL (license 909430).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-collector-1",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00216",
+    "field_name": "company_name",
+    "field_value": "ROBERT L SCHEID CONSTRUCTION",
+    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 9.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-collector-2",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00217",
+    "field_name": "company_name",
+    "field_value": "ROBERT L SCHEID CONSTRUCTION",
+    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 10.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-collector-3",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00218",
+    "field_name": "company_name",
+    "field_value": "ROBERT L SCHEID CONSTRUCTION",
+    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 11.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-collector-4",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00219",
+    "field_name": "company_name",
+    "field_value": "ROBERT L SCHEID CONSTRUCTION",
+    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 12.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-collector-5",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00211",
+    "field_name": "company_name",
+    "field_value": "ROBERT L SCHEID CONSTRUCTION",
+    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 4.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-collector-6",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00212",
+    "field_name": "company_name",
+    "field_value": "ROBERT L SCHEID CONSTRUCTION",
+    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 5.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-collector-7",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00213",
+    "field_name": "company_name",
+    "field_value": "ROBERT L SCHEID CONSTRUCTION",
+    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 6.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-collector-8",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00214",
+    "field_name": "company_name",
+    "field_value": "ROBERT L SCHEID CONSTRUCTION",
+    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 7.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-collector-9",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00215",
+    "field_name": "company_name",
+    "field_value": "ROBERT L SCHEID CONSTRUCTION",
+    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 8.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-collector-10",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00209",
+    "field_name": "company_name",
+    "field_value": "ROBERT L SCHEID CONSTRUCTION",
+    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 2.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-collector-11",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00210",
+    "field_name": "company_name",
+    "field_value": "ROBERT L SCHEID CONSTRUCTION",
+    "excerpt": "ROBERT L SCHEID CONSTRUCTION listed as General Contractor on REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 3.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-robert-l-scheid-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1063457",
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1063457",
+    "field_name": "phone",
+    "field_value": "(916) 947-8089",
+    "excerpt": "CSLB public license record lists business phone (916) 947-8089 for ROBERT L SCHEID CONSTRUCTION (license 1063457).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-fdc-nor-cal-collector-1",
+    "company_profile_id": "company-fdc-nor-cal",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00573",
+    "field_name": "company_name",
+    "field_value": "FDC NOR-CAL CORP",
+    "excerpt": "FDC NOR-CAL CORP listed as General Contractor on SOLAR : AREA: R03:  Blossom Ridge-Plan 2984-Elevation A-Lot 7.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-fdc-nor-cal-collector-2",
+    "company_profile_id": "company-fdc-nor-cal",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00571",
+    "field_name": "company_name",
+    "field_value": "FDC NOR-CAL CORP",
+    "excerpt": "FDC NOR-CAL CORP listed as General Contractor on SOLAR : AREA: R03:  Blossom Ridge-Plan 2230-Elevation C-Lot 8.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-fdc-nor-cal-collector-3",
+    "company_profile_id": "company-fdc-nor-cal",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00566",
+    "field_name": "company_name",
+    "field_value": "FDC NOR-CAL CORP",
+    "excerpt": "FDC NOR-CAL CORP listed as General Contractor on SOLAR : AREA: R03:  Blossom Ridge-Plan 2704-Elevation B-Lot 9.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-fdc-nor-cal-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1079515",
+    "company_profile_id": "company-fdc-nor-cal",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1079515",
+    "field_name": "phone",
+    "field_value": "(925) 766-5163",
+    "excerpt": "CSLB public license record lists business phone (925) 766-5163 for FDC NOR-CAL CORP (license 1079515).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-good-life-construction-collector-1",
+    "company_profile_id": "company-good-life-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00390",
+    "field_name": "company_name",
+    "field_value": "GOOD LIFE CONSTRUCTION INC",
+    "excerpt": "GOOD LIFE CONSTRUCTION INC listed as General Contractor on REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97).",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-good-life-construction-collector-2",
+    "company_profile_id": "company-good-life-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00336",
+    "field_name": "company_name",
+    "field_value": "GOOD LIFE CONSTRUCTION INC",
+    "excerpt": "GOOD LIFE CONSTRUCTION INC listed as General Contractor on REPAIR (DRY ROT) - 3131 EL CAMINO AVE.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-good-life-construction-collector-3",
+    "company_profile_id": "company-good-life-construction",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00323",
+    "field_name": "company_name",
+    "field_value": "GOOD LIFE CONSTRUCTION INC",
+    "excerpt": "GOOD LIFE CONSTRUCTION INC listed as General Contractor on REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14).",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-advanced-roof-design-collector-1",
@@ -415,9 +595,9 @@
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00187",
     "field_name": "company_name",
     "field_value": "ADVANCED ROOF DESIGN INC",
-    "excerpt": "ADVANCED ROOF DESIGN INC listed as General Contractor on 326 squares TPO overlay.",
+    "excerpt": "ADVANCED ROOF DESIGN INC listed as General Contractor on REROOF (OVERLAY 326 SQ) - 3800 WATT AVE.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-advanced-roof-design-collector-2",
@@ -427,9 +607,9 @@
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00186",
     "field_name": "company_name",
     "field_value": "ADVANCED ROOF DESIGN INC",
-    "excerpt": "ADVANCED ROOF DESIGN INC listed as General Contractor on install TPO over existing capsheet.",
+    "excerpt": "ADVANCED ROOF DESIGN INC listed as General Contractor on REROOF (OVERLAY 81 SQ) - 11707 FAIR OAKS BLVD.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-advanced-roof-design-official-website-official-website-https-www-ardroofing-com",
@@ -441,7 +621,7 @@
     "field_value": "https://www.ardroofing.com/",
     "excerpt": "Official website for Advanced Roof Design.",
     "confidence": 0.9,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-advanced-roof-design-public-profile-phone-https-rcac-wildapricot-org-widget-sys-publicprofile-31728650-3832090",
@@ -453,7 +633,7 @@
     "field_value": "(916)381-2266",
     "excerpt": "Public member profile lists Advanced Roof Design, Inc. with phone and website.",
     "confidence": 0.78,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design",
@@ -465,43 +645,31 @@
     "field_value": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
     "excerpt": "Industry directory includes Advanced Roof Design contact details.",
     "confidence": 0.78,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-kevin-l-cook-architect-collector-1",
-    "company_profile_id": "company-kevin-l-cook-architect",
-    "source_type": "collector_record",
-    "source_name": "SF YIMBY",
-    "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
-    "field_name": "company_name",
-    "field_value": "Kevin L Cook Architect Inc.",
-    "excerpt": "Kevin L Cook Architect Inc. listed as Architect on Northlake Lakelet.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "id": "company-advanced-roof-design-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-672328",
+    "company_profile_id": "company-advanced-roof-design",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=672328",
+    "field_name": "phone",
+    "field_value": "(916) 381-2266",
+    "excerpt": "CSLB public license record lists business phone (916) 381-2266 for ADVANCED ROOF DESIGN INC (license 672328).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-kevin-l-cook-architect-collector-2",
-    "company_profile_id": "company-kevin-l-cook-architect",
-    "source_type": "collector_record",
-    "source_name": "SF YIMBY",
-    "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
-    "field_name": "company_name",
-    "field_value": "Kevin L Cook Architect Inc.",
-    "excerpt": "Kevin L Cook Architect Inc. listed as Architect on Northlake 36 Homes.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-3-generations-improvements-collector-1",
-    "company_profile_id": "company-3-generations-improvements",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00703",
-    "field_name": "company_name",
-    "field_value": "3 GENERATIONS IMPROVEMENTS INC",
-    "excerpt": "3 GENERATIONS IMPROVEMENTS INC listed as General Contractor on AREA: R05:  Siding and window replacement..",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "id": "company-advanced-roof-design-official-website-email-https-caanet-org-industry-directory-advanced-roof-design",
+    "company_profile_id": "company-advanced-roof-design",
+    "source_type": "official_website",
+    "source_name": "Company website contact scrape",
+    "source_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+    "field_name": "email",
+    "field_value": "membership@caanet.org",
+    "excerpt": "Company website lists email membership@caanet.org.",
+    "confidence": 0.9,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-alltech-gates-and-entry-controls-collector-1",
@@ -513,7 +681,19 @@
     "field_value": "ALLTECH GATES AND ENTRY CONTROLS INC",
     "excerpt": "ALLTECH GATES AND ENTRY CONTROLS INC listed as General Contractor on NEW (GATES) - 7575 POWER INN RD.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-alltech-gates-and-entry-controls-collector-2",
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00169",
+    "field_name": "company_name",
+    "field_value": "ALLTECH GATES AND ENTRY CONTROLS INC",
+    "excerpt": "ALLTECH GATES AND ENTRY CONTROLS INC listed as General Contractor on NEW (GATES) - 3401 BALMORAL DR.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-alltech-gates-and-entry-controls-public-profile-phone-https-ru-scribd-com-document-746633276-inbound3501281419727076426",
@@ -525,7 +705,187 @@
     "field_value": "(916) 599-6629",
     "excerpt": "Public listing includes Alltech Gates and Entry Controls, Inc. with phone number.",
     "confidence": 0.78,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-alltech-gates-and-entry-controls-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-964909",
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=964909",
+    "field_name": "phone",
+    "field_value": "(916) 599-6629",
+    "excerpt": "CSLB public license record lists business phone (916) 599-6629 for ALLTECH GATES AND ENTRY CONTROLS INC (license 964909).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-alltech-gates-and-entry-controls-official-website-email-https-www-alltechgates-com",
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "source_type": "official_website",
+    "source_name": "Company website contact scrape",
+    "source_url": "https://www.alltechgates.com/",
+    "field_name": "email",
+    "field_value": "alltechgates@gmail.com",
+    "excerpt": "Company website lists email alltechgates@gmail.com.",
+    "confidence": 0.9,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-bell-brother-s-heating-and-air-collector-1",
+    "company_profile_id": "company-bell-brother-s-heating-and-air",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APANR2026-00727",
+    "field_name": "company_name",
+    "field_value": "BELL BROTHER'S HEATING AND AIR INC",
+    "excerpt": "BELL BROTHER'S HEATING AND AIR INC listed as General Contractor on UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair..",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-bell-brother-s-heating-and-air-collector-2",
+    "company_profile_id": "company-bell-brother-s-heating-and-air",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APANR2026-00722",
+    "field_name": "company_name",
+    "field_value": "BELL BROTHER'S HEATING AND AIR INC",
+    "excerpt": "BELL BROTHER'S HEATING AND AIR INC listed as General Contractor on REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair..",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-gigawatt-california-collector-1",
+    "company_profile_id": "company-gigawatt-california",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00249",
+    "field_name": "company_name",
+    "field_value": "GIGAWATT CALIFORNIA LLC",
+    "excerpt": "GIGAWATT CALIFORNIA LLC listed as General Contractor on AREA: R01:  installation of NEW PHOTOVOLTAIC SYSTEM 7.92 KW DC/11.50 KW.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-gigawatt-california-collector-2",
+    "company_profile_id": "company-gigawatt-california",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00223",
+    "field_name": "company_name",
+    "field_value": "GIGAWATT CALIFORNIA LLC",
+    "excerpt": "GIGAWATT CALIFORNIA LLC listed as General Contractor on AREA: R01:  NEW PHOTOVOLTAIC SYSTEM 9.24 KW DC/11.50 KW AC, WITH ESS.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-kb-home-sacramento-collector-1",
+    "company_profile_id": "company-kb-home-sacramento",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00580",
+    "field_name": "company_name",
+    "field_value": "KB HOME SACRAMENTO INC",
+    "excerpt": "KB HOME SACRAMENTO INC listed as General Contractor on AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 2126 A Lot 93.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-kb-home-sacramento-collector-2",
+    "company_profile_id": "company-kb-home-sacramento",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00579",
+    "field_name": "company_name",
+    "field_value": "KB HOME SACRAMENTO INC",
+    "excerpt": "KB HOME SACRAMENTO INC listed as General Contractor on AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 1850 D Lot 94.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-kb-home-sacramento-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-255425",
+    "company_profile_id": "company-kb-home-sacramento",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=255425",
+    "field_name": "phone",
+    "field_value": "(310) 231-4000",
+    "excerpt": "CSLB public license record lists business phone (310) 231-4000 for KB HOME SACRAMENTO INC (license 255425).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-kevin-l-cook-architect-collector-1",
+    "company_profile_id": "company-kevin-l-cook-architect",
+    "source_type": "collector_record",
+    "source_name": "SF YIMBY",
+    "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
+    "field_name": "company_name",
+    "field_value": "Kevin L Cook Architect Inc.",
+    "excerpt": "Kevin L Cook Architect Inc. listed as Architect on Northlake Lakelet.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-kevin-l-cook-architect-collector-2",
+    "company_profile_id": "company-kevin-l-cook-architect",
+    "source_type": "collector_record",
+    "source_name": "SF YIMBY",
+    "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
+    "field_name": "company_name",
+    "field_value": "Kevin L Cook Architect Inc.",
+    "excerpt": "Kevin L Cook Architect Inc. listed as Architect on Northlake 36 Homes.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-3-generations-improvements-collector-1",
+    "company_profile_id": "company-3-generations-improvements",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00703",
+    "field_name": "company_name",
+    "field_value": "3 GENERATIONS IMPROVEMENTS INC",
+    "excerpt": "3 GENERATIONS IMPROVEMENTS INC listed as General Contractor on AREA: R05:  Siding and window replacement..",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-3-generations-improvements-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-876464",
+    "company_profile_id": "company-3-generations-improvements",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876464",
+    "field_name": "phone",
+    "field_value": "(916) 932-2315",
+    "excerpt": "CSLB public license record lists business phone (916) 932-2315 for 3 GENERATIONS IMPROVEMENTS INC (license 876464).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-all-pro-plumbing-collector-1",
+    "company_profile_id": "company-all-pro-plumbing",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01568",
+    "field_name": "company_name",
+    "field_value": "ALL PRO PLUMBING",
+    "excerpt": "ALL PRO PLUMBING listed as General Contractor on AREA: R05:  Repipe house drain system.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-all-pro-plumbing-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-668343",
+    "company_profile_id": "company-all-pro-plumbing",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668343",
+    "field_name": "phone",
+    "field_value": "(916) 726-1970",
+    "excerpt": "CSLB public license record lists business phone (916) 726-1970 for ALL PRO PLUMBING (license 668343).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-american-buildings-j-s-collector-1",
@@ -537,31 +897,91 @@
     "field_value": "AMERICAN BUILDINGS J&S",
     "excerpt": "AMERICAN BUILDINGS J&S listed as General Contractor on AREA: R01:  proposed 28'x40' pre fab metal ag storage building.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-american-carports-collector-1",
-    "company_profile_id": "company-american-carports",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00558",
-    "field_name": "company_name",
-    "field_value": "AMERICAN CARPORTS INC",
-    "excerpt": "AMERICAN CARPORTS INC listed as General Contractor on AREA: R10:  Installation of accessory structure.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "id": "company-american-buildings-j-s-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1137229",
+    "company_profile_id": "company-american-buildings-j-s",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1137229",
+    "field_name": "phone",
+    "field_value": "(530) 788-3256",
+    "excerpt": "CSLB public license record lists business phone (530) 788-3256 for AMERICAN BUILDINGS J&S (license 1137229).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-burns-construction-collector-1",
-    "company_profile_id": "company-burns-construction",
+    "id": "company-arco-murray-national-norcal-collector-1",
+    "company_profile_id": "company-arco-murray-national-norcal",
     "source_type": "collector_record",
     "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00640",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00334",
     "field_name": "company_name",
-    "field_value": "BURNS CONSTRUCTION",
-    "excerpt": "BURNS CONSTRUCTION listed as General Contractor on AREA: R08:  Kitchen and Living Room Remodel.",
+    "field_value": "ARCO / MURRAY NATIONAL NORCAL LLC",
+    "excerpt": "ARCO / MURRAY NATIONAL NORCAL LLC listed as General Contractor on 259,635 tenant improvement for Cardinal Health.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-arco-murray-national-norcal-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1070665",
+    "company_profile_id": "company-arco-murray-national-norcal",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1070665",
+    "field_name": "phone",
+    "field_value": "(650) 288-1305",
+    "excerpt": "CSLB public license record lists business phone (650) 288-1305 for ARCO / MURRAY NATIONAL NORCAL LLC (license 1070665).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-aztec-solar-collector-1",
+    "company_profile_id": "company-aztec-solar",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01118",
+    "field_name": "company_name",
+    "field_value": "AZTEC SOLAR INC",
+    "excerpt": "AZTEC SOLAR INC listed as General Contractor on SOLAR : Rooftop Solar.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-aztec-solar-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-550110",
+    "company_profile_id": "company-aztec-solar",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=550110",
+    "field_name": "phone",
+    "field_value": "(916) 853-2700",
+    "excerpt": "CSLB public license record lists business phone (916) 853-2700 for AZTEC SOLAR INC (license 550110).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-bruce-construction-group-collector-1",
+    "company_profile_id": "company-bruce-construction-group",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00389",
+    "field_name": "company_name",
+    "field_value": "BRUCE CONSTRUCTION GROUP LLC",
+    "excerpt": "BRUCE CONSTRUCTION GROUP LLC listed as General Contractor on AREA: R08:  Pouring Driveway over culvert with an automatic gate and bu.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-bruce-construction-group-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1087444",
+    "company_profile_id": "company-bruce-construction-group",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1087444",
+    "field_name": "phone",
+    "field_value": "(707) 688-5345",
+    "excerpt": "CSLB public license record lists business phone (707) 688-5345 for BRUCE CONSTRUCTION GROUP LLC (license 1087444).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-california-renewable-energy-collector-1",
@@ -573,19 +993,67 @@
     "field_value": "CALIFORNIA RENEWABLE ENERGY",
     "excerpt": "CALIFORNIA RENEWABLE ENERGY listed as General Contractor on SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15..",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-deome-2-builders-collector-1",
-    "company_profile_id": "company-deome-2-builders",
+    "id": "company-california-renewable-energy-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1068801",
+    "company_profile_id": "company-california-renewable-energy",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1068801",
+    "field_name": "phone",
+    "field_value": "(916) 804-2243",
+    "excerpt": "CSLB public license record lists business phone (916) 804-2243 for CALIFORNIA RENEWABLE ENERGY (license 1068801).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-city-signs-collector-1",
+    "company_profile_id": "company-city-signs",
     "source_type": "collector_record",
     "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00560",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASGNC2026-00065",
     "field_name": "company_name",
-    "field_value": "DEOME 2 BUILDERS INC",
-    "excerpt": "DEOME 2 BUILDERS INC listed as General Contractor on AREA: R04:  HOLBUS DECK.",
+    "field_value": "CITY SIGNS",
+    "excerpt": "CITY SIGNS listed as General Contractor on SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-city-signs-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-769900",
+    "company_profile_id": "company-city-signs",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=769900",
+    "field_name": "phone",
+    "field_value": "(209) 549-2412",
+    "excerpt": "CSLB public license record lists business phone (209) 549-2412 for CITY SIGNS (license 769900).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-diehl-s-electric-collector-1",
+    "company_profile_id": "company-diehl-s-electric",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00910",
+    "field_name": "company_name",
+    "field_value": "DIEHL'S ELECTRIC",
+    "excerpt": "DIEHL'S ELECTRIC listed as General Contractor on ELEC (100 A SERVICE) - 11583 VALENSIN RD.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-diehl-s-electric-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-633545",
+    "company_profile_id": "company-diehl-s-electric",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=633545",
+    "field_name": "phone",
+    "field_value": "(209) 471-1947",
+    "excerpt": "CSLB public license record lists business phone (209) 471-1947 for DIEHL'S ELECTRIC (license 633545).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-duramax-roofing-collector-1",
@@ -597,7 +1065,7 @@
     "field_value": "DURAMAX ROOFING INC",
     "excerpt": "DURAMAX ROOFING INC listed as General Contractor on install PVC membrane over existing roof.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-duramax-roofing-official-website-official-website-https-duramaxroofing-net",
@@ -609,7 +1077,7 @@
     "field_value": "https://duramaxroofing.net/",
     "excerpt": "Official website for DuraMax Roofing, Inc.",
     "confidence": 0.9,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-duramax-roofing-contact-page-contact-page-url-https-duramaxroofing-net-steel-roofing-systems",
@@ -621,7 +1089,7 @@
     "field_value": "https://duramaxroofing.net/contact",
     "excerpt": "Official site navigation includes Contact.",
     "confidence": 0.78,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-duramax-roofing-phone-source-phone-https-www-buildzoom-com-contractor-duramax-roofing",
@@ -633,7 +1101,31 @@
     "field_value": "(916) 849-5024",
     "excerpt": "Contractor profile lists Duramax Roofing Inc phone number.",
     "confidence": 0.78,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-duramax-roofing-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-866295",
+    "company_profile_id": "company-duramax-roofing",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=866295",
+    "field_name": "phone",
+    "field_value": "(916) 543-2929",
+    "excerpt": "CSLB public license record lists business phone (916) 543-2929 for DURAMAX ROOFING INC (license 866295).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-duramax-roofing-official-website-email-https-duramaxroofing-net-contact",
+    "company_profile_id": "company-duramax-roofing",
+    "source_type": "official_website",
+    "source_name": "Company website contact scrape",
+    "source_url": "https://duramaxroofing.net/contact",
+    "field_name": "email",
+    "field_value": "leo@duramaxroofing.net",
+    "excerpt": "Company website lists email leo@duramaxroofing.net.",
+    "confidence": 0.9,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-dyer-construction-collector-1",
@@ -645,7 +1137,43 @@
     "field_value": "DYER CONSTRUCTION INC",
     "excerpt": "DYER CONSTRUCTION INC listed as General Contractor on AREA: R06:  remodel/alteration.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-dyer-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-645755",
+    "company_profile_id": "company-dyer-construction",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=645755",
+    "field_name": "phone",
+    "field_value": "(916) 869-6960",
+    "excerpt": "CSLB public license record lists business phone (916) 869-6960 for DYER CONSTRUCTION INC (license 645755).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-es-solar-collector-1",
+    "company_profile_id": "company-es-solar",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00226",
+    "field_name": "company_name",
+    "field_value": "ES SOLAR LLC",
+    "excerpt": "ES SOLAR LLC listed as General Contractor on AREA: R02:  SOLAR : HAKIM HUSSAINI.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-es-solar-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1127444",
+    "company_profile_id": "company-es-solar",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1127444",
+    "field_name": "phone",
+    "field_value": "(801) 614-0606",
+    "excerpt": "CSLB public license record lists business phone (801) 614-0606 for ES SOLAR LLC (license 1127444).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-famand-collector-1",
@@ -655,9 +1183,9 @@
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01229",
     "field_name": "company_name",
     "field_value": "FAMAND INC",
-    "excerpt": "FAMAND INC listed as General Contractor on Like for Like 4 roof top Package unit change out.",
+    "excerpt": "FAMAND INC listed as General Contractor on MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-famand-public-profile-phone-https-govtribe-com-vendors-famand-dot-indoor-environmental-services-3gmp5",
@@ -669,31 +1197,7 @@
     "field_value": "+1 916-988-8808",
     "excerpt": "Vendor profile lists Famand, Inc. with phone number.",
     "confidence": 0.78,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-fdc-nor-cal-collector-1",
-    "company_profile_id": "company-fdc-nor-cal",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00560",
-    "field_name": "company_name",
-    "field_value": "FDC NOR-CAL CORP",
-    "excerpt": "FDC NOR-CAL CORP listed as General Contractor on SOLAR : AREA: R03: Blossom Ridge-Plan 2704-Elevation C-Lot 11.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
-  },
-  {
-    "id": "company-gigawatt-california-collector-1",
-    "company_profile_id": "company-gigawatt-california",
-    "source_type": "collector_record",
-    "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00223",
-    "field_name": "company_name",
-    "field_value": "GIGAWATT CALIFORNIA LLC",
-    "excerpt": "GIGAWATT CALIFORNIA LLC listed as General Contractor on AREA: R01:  NEW PHOTOVOLTAIC SYSTEM 9.24 KW DC/11.50 KW AC, WITH ESS.",
-    "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-group-one-builders-collector-1",
@@ -705,7 +1209,67 @@
     "field_value": "GROUP ONE BUILDERS INC",
     "excerpt": "GROUP ONE BUILDERS INC listed as General Contractor on AREA: R06:  House Addition-Remodel.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-group-one-builders-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-668907",
+    "company_profile_id": "company-group-one-builders",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668907",
+    "field_name": "phone",
+    "field_value": "(916) 983-9953",
+    "excerpt": "CSLB public license record lists business phone (916) 983-9953 for GROUP ONE BUILDERS INC (license 668907).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-haven-energy-services-collector-1",
+    "company_profile_id": "company-haven-energy-services",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASLCR2026-00042",
+    "field_name": "company_name",
+    "field_value": "HAVEN ENERGY SERVICES INC",
+    "excerpt": "HAVEN ENERGY SERVICES INC listed as General Contractor on Change to SOLR2025-00308: AREA: R08:  AREA: R08:  PV + ESS.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-haven-energy-services-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1104018",
+    "company_profile_id": "company-haven-energy-services",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1104018",
+    "field_name": "phone",
+    "field_value": "(504) 452-3127",
+    "excerpt": "CSLB public license record lists business phone (504) 452-3127 for HAVEN ENERGY SERVICES INC (license 1104018).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-heat-and-air-solutions-collector-1",
+    "company_profile_id": "company-heat-and-air-solutions",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AHACR2026-01443",
+    "field_name": "company_name",
+    "field_value": "HEAT AND AIR SOLUTIONS INC",
+    "excerpt": "HEAT AND AIR SOLUTIONS INC listed as General Contractor on HVAC change out: HVAC Changeout..",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-heat-and-air-solutions-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1133607",
+    "company_profile_id": "company-heat-and-air-solutions",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1133607",
+    "field_name": "phone",
+    "field_value": "(530) 401-8768",
+    "excerpt": "CSLB public license record lists business phone (530) 401-8768 for HEAT AND AIR SOLUTIONS INC (license 1133607).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-integral-communities-collector-1",
@@ -717,7 +1281,7 @@
     "field_value": "Integral Communities",
     "excerpt": "Integral Communities listed as Developer on Northlake Lakelet.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-kenneth-development-collector-1",
@@ -727,21 +1291,57 @@
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00576",
     "field_name": "company_name",
     "field_value": "KENNETH DEVELOPMENT INC",
-    "excerpt": "KENNETH DEVELOPMENT INC listed as General Contractor on AREA: R06:  New Home Construction.",
+    "excerpt": "KENNETH DEVELOPMENT INC listed as General Contractor on SOLAR : AREA: R06:  New Home Construction.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-kustom-us-collector-1",
-    "company_profile_id": "company-kustom-us",
+    "id": "company-kenneth-development-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-773369",
+    "company_profile_id": "company-kenneth-development",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=773369",
+    "field_name": "phone",
+    "field_value": "(916) 939-1615",
+    "excerpt": "CSLB public license record lists business phone (916) 939-1615 for KENNETH DEVELOPMENT INC (license 773369).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-kenneth-development-official-website-email-https-www-kennethdevelopment-com",
+    "company_profile_id": "company-kenneth-development",
+    "source_type": "official_website",
+    "source_name": "Company website contact scrape",
+    "source_url": "https://www.kennethdevelopment.com/",
+    "field_name": "email",
+    "field_value": "kennethdevelopment54@gmail.com",
+    "excerpt": "Company website lists email kennethdevelopment54@gmail.com.",
+    "confidence": 0.9,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-legacy-demolition-collector-1",
+    "company_profile_id": "company-legacy-demolition",
     "source_type": "collector_record",
     "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00636",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00064",
     "field_name": "company_name",
-    "field_value": "KUSTOM US INC",
-    "excerpt": "KUSTOM US INC listed as General Contractor on AREA: R10:  AREA: R10:  Minor fire damage repair to sunroom.",
+    "field_value": "LEGACY DEMOLITION LLC",
+    "excerpt": "LEGACY DEMOLITION LLC listed as General Contractor on AREA: R02:  Full Pool Demolition.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-legacy-demolition-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1122603",
+    "company_profile_id": "company-legacy-demolition",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1122603",
+    "field_name": "phone",
+    "field_value": "(510) 860-1325",
+    "excerpt": "CSLB public license record lists business phone (510) 860-1325 for LEGACY DEMOLITION LLC (license 1122603).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-lund-construction-collector-1",
@@ -753,7 +1353,19 @@
     "field_value": "Lund Construction Co",
     "excerpt": "Lund Construction Co listed as General Contractor on Gerber Creek Re-Alignment.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-lund-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1086700",
+    "company_profile_id": "company-lund-construction",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1086700",
+    "field_name": "phone",
+    "field_value": "(650) 656-7986",
+    "excerpt": "CSLB public license record lists business phone (650) 656-7986 for Lund Construction Co (license 1086700).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-master-roofing-solutions-collector-1",
@@ -765,19 +1377,55 @@
     "field_value": "MASTER ROOFING SOLUTIONS LLC",
     "excerpt": "MASTER ROOFING SOLUTIONS LLC listed as General Contractor on AREA: R10:  Non-structural reroofing, will replace tile roofing, underl.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
-    "id": "company-o-connor-pool-solutions-collector-1",
-    "company_profile_id": "company-o-connor-pool-solutions",
+    "id": "company-nco-development-collector-1",
+    "company_profile_id": "company-nco-development",
     "source_type": "collector_record",
     "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASPCR2026-00132",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00065",
     "field_name": "company_name",
-    "field_value": "O'CONNOR POOL SOLUTIONS INC",
-    "excerpt": "O'CONNOR POOL SOLUTIONS INC listed as General Contractor on AREA: R04:  Install new in ground pool & spa.",
+    "field_value": "NCO DEVELOPMENT",
+    "excerpt": "NCO DEVELOPMENT listed as General Contractor on AREA: R06:  Demolition of existing house to framing and stemwalls..",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-nco-development-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1085867",
+    "company_profile_id": "company-nco-development",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1085867",
+    "field_name": "phone",
+    "field_value": "(530) 606-0257",
+    "excerpt": "CSLB public license record lists business phone (530) 606-0257 for NCO DEVELOPMENT (license 1085867).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-next-demolition-collector-1",
+    "company_profile_id": "company-next-demolition",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00044",
+    "field_name": "company_name",
+    "field_value": "NEXT DEMOLITION LLC",
+    "excerpt": "NEXT DEMOLITION LLC listed as General Contractor on AREA: R02:  Pool Demolition (Partial).",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-next-demolition-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1141839",
+    "company_profile_id": "company-next-demolition",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1141839",
+    "field_name": "phone",
+    "field_value": "(650) 680-6768",
+    "excerpt": "CSLB public license record lists business phone (650) 680-6768 for NEXT DEMOLITION LLC (license 1141839).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-phillip-isaacs-construction-collector-1",
@@ -789,7 +1437,19 @@
     "field_value": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
     "excerpt": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED listed as General Contractor on AREA: R03:  Replace all windows & install siding on front of home.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-phillip-isaacs-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-627677",
+    "company_profile_id": "company-phillip-isaacs-construction",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=627677",
+    "field_name": "phone",
+    "field_value": "(916) 852-8132",
+    "excerpt": "CSLB public license record lists business phone (916) 852-8132 for PHILLIP ISAACS' CONSTRUCTION INCORPORATED (license 627677).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-prime-home-solutions-collector-1",
@@ -801,7 +1461,91 @@
     "field_value": "PRIME HOME SOLUTIONS INC",
     "excerpt": "PRIME HOME SOLUTIONS INC listed as General Contractor on AREA: R04:  23.76kW PV + ESS Installation.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-prime-home-solutions-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1075385",
+    "company_profile_id": "company-prime-home-solutions",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1075385",
+    "field_name": "phone",
+    "field_value": "(916) 667-7480",
+    "excerpt": "CSLB public license record lists business phone (916) 667-7480 for PRIME HOME SOLUTIONS INC (license 1075385).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-prime-home-solutions-official-website-email-https-primehomesolutions-com",
+    "company_profile_id": "company-prime-home-solutions",
+    "source_type": "official_website",
+    "source_name": "Company website contact scrape",
+    "source_url": "https://primehomesolutions.com/",
+    "field_name": "email",
+    "field_value": "info@primehomesolutions.com",
+    "excerpt": "Company website lists email info@primehomesolutions.com.",
+    "confidence": 0.9,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-sierra-nevada-24-7-collector-1",
+    "company_profile_id": "company-sierra-nevada-24-7",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AHACR2026-01311",
+    "field_name": "company_name",
+    "field_value": "SIERRA NEVADA 24/7 INC",
+    "excerpt": "SIERRA NEVADA 24/7 INC listed as General Contractor on 8991 Golden Gate Ave: HVAC Changeout..",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-solace-enterprises-collector-1",
+    "company_profile_id": "company-solace-enterprises",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01071",
+    "field_name": "company_name",
+    "field_value": "SOLACE ENTERPRISES INC",
+    "excerpt": "SOLACE ENTERPRISES INC listed as General Contractor on MECH (HVAC C/O) - 7460 PERSIMMON AVE.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-solace-enterprises-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-913717",
+    "company_profile_id": "company-solace-enterprises",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=913717",
+    "field_name": "phone",
+    "field_value": "(916) 463-0100",
+    "excerpt": "CSLB public license record lists business phone (916) 463-0100 for SOLACE ENTERPRISES INC (license 913717).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-speed-plumbing-pro-collector-1",
+    "company_profile_id": "company-speed-plumbing-pro",
+    "source_type": "collector_record",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01474",
+    "field_name": "company_name",
+    "field_value": "SPEED PLUMBING PRO",
+    "excerpt": "SPEED PLUMBING PRO listed as General Contractor on AREA: R03:  Like-for-like replacement of tankless water heater and gas.",
+    "confidence": 0.7,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-speed-plumbing-pro-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1084778",
+    "company_profile_id": "company-speed-plumbing-pro",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1084778",
+    "field_name": "phone",
+    "field_value": "(707) 761-2626",
+    "excerpt": "CSLB public license record lists business phone (707) 761-2626 for SPEED PLUMBING PRO (license 1084778).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-sunsource-collector-1",
@@ -811,9 +1555,21 @@
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01228",
     "field_name": "company_name",
     "field_value": "SUNSOURCE INC",
-    "excerpt": "SUNSOURCE INC listed as General Contractor on SOLAR : Solar PV Installation.",
+    "excerpt": "SUNSOURCE INC listed as General Contractor on SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-sunsource-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1117770",
+    "company_profile_id": "company-sunsource",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1117770",
+    "field_name": "phone",
+    "field_value": "(888) 672-3297",
+    "excerpt": "CSLB public license record lists business phone (888) 672-3297 for SUNSOURCE INC (license 1117770).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-taylor-morrison-of-california-collector-1",
@@ -825,7 +1581,7 @@
     "field_value": "Taylor Morrison of California",
     "excerpt": "Taylor Morrison of California listed as Developer on Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-veerkamp-doug-general-engineering-collector-1",
@@ -837,7 +1593,19 @@
     "field_value": "VEERKAMP DOUG GENERAL ENGINEERING INC",
     "excerpt": "VEERKAMP DOUG GENERAL ENGINEERING INC listed as General Contractor on DEMO (SHED) - 2736 AUBURN BLVD.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-veerkamp-doug-general-engineering-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-440233",
+    "company_profile_id": "company-veerkamp-doug-general-engineering",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=440233",
+    "field_name": "phone",
+    "field_value": "(530) 676-0825",
+    "excerpt": "CSLB public license record lists business phone (530) 676-0825 for VEERKAMP DOUG GENERAL ENGINEERING INC (license 440233).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-waters-construction-collector-1",
@@ -847,9 +1615,9 @@
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00571",
     "field_name": "company_name",
     "field_value": "WATERS CONSTRUCTION COMPANY LLC",
-    "excerpt": "WATERS CONSTRUCTION COMPANY LLC listed as General Contractor on AREA: R04:  Rear house addition..",
+    "excerpt": "WATERS CONSTRUCTION COMPANY LLC listed as General Contractor on AREA: R04:  304 sf Rear house addition..",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-waters-construction-official-website-official-website-https-watersconco-com",
@@ -861,7 +1629,7 @@
     "field_value": "https://watersconco.com/",
     "excerpt": "Official site identifies Waters Construction Company LLC and displays Contact Us at 916.594.8912.",
     "confidence": 0.9,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-waters-construction-phone-source-phone-https-watersconco-com",
@@ -873,7 +1641,7 @@
     "field_value": "916.594.8912",
     "excerpt": "Official site displays Contact Us at 916.594.8912.",
     "confidence": 0.78,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-waters-construction-contact-page-contact-page-url-https-watersconco-com",
@@ -885,7 +1653,31 @@
     "field_value": "https://watersconco.com/",
     "excerpt": "Official site includes a visible Contact Us entry.",
     "confidence": 0.78,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-waters-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1129256",
+    "company_profile_id": "company-waters-construction",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1129256",
+    "field_name": "phone",
+    "field_value": "(916) 594-8912",
+    "excerpt": "CSLB public license record lists business phone (916) 594-8912 for WATERS CONSTRUCTION COMPANY LLC (license 1129256).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-waters-construction-official-website-email-https-watersconco-com",
+    "company_profile_id": "company-waters-construction",
+    "source_type": "official_website",
+    "source_name": "Company website contact scrape",
+    "source_url": "https://watersconco.com/",
+    "field_name": "email",
+    "field_value": "owner@waterscco.com",
+    "excerpt": "Company website lists email owner@waterscco.com.",
+    "confidence": 0.9,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   },
   {
     "id": "company-west-coast-flooring-collector-1",
@@ -897,6 +1689,18 @@
     "field_value": "WEST COAST FLOORING",
     "excerpt": "WEST COAST FLOORING listed as General Contractor on AREA: R03:  remodeling living room.",
     "confidence": 0.7,
-    "captured_at": "2026-07-08T02:13:14.733Z"
+    "captured_at": "2026-07-09T06:54:28.428Z"
+  },
+  {
+    "id": "company-west-coast-flooring-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-876162",
+    "company_profile_id": "company-west-coast-flooring",
+    "source_type": "public_license_record",
+    "source_name": "CSLB License Master (BusinessPhone)",
+    "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876162",
+    "field_name": "phone",
+    "field_value": "(209) 595-1950",
+    "excerpt": "CSLB public license record lists business phone (209) 595-1950 for WEST COAST FLOORING (license 876162).",
+    "confidence": 0.78,
+    "captured_at": "2026-07-09T06:54:28.428Z"
   }
 ]

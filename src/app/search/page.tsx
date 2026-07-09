@@ -191,6 +191,7 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
   const generalContractor = realValue(opportunity.populated_fields.general_contractor);
   const contactName = realValue(displayContactName(displayContact));
   const contactPhone = realValue(displayContactPhone(displayContact));
+  const contactEmail = realValue(displayContactEmail(displayContact));
   const summary = conciseProjectSummary(opportunity.project_dossier?.project_summary ?? opportunity.project_summary);
   const whyFencingMatters = buildWhyFencingMatters(opportunity);
   const evidenceSnippets = opportunity.evidence_snippets ?? opportunity.project_dossier?.evidence_snippets ?? [];
@@ -206,6 +207,7 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
           <OptionalVisibleDatum label="General Contractor" value={generalContractor} />
           <OptionalVisibleDatum label="Best Contact" value={contactName} />
           <OptionalVisibleDatum label="Phone Number" value={contactPhone} />
+          <OptionalVisibleDatum label="Email" value={contactEmail} />
         </dl>
 
         <div className="mt-4 rounded-md border border-zinc-100 bg-zinc-50 p-3">
@@ -356,11 +358,18 @@ function fencingProbability(opportunity: ContractorOpportunity) {
 
 function displayContactName(contact: HumanContact | NonNullable<ContractorOpportunity["best_contact"]> | null) {
   if (!contact) return "Not identified";
-  return contact.name ?? ("title" in contact ? contact.title : undefined) ?? contact.company ?? "Not identified";
+  if (contact.name) return contact.name;
+  if (contact.company) return contact.company;
+  if ("title" in contact && contact.title) return contact.title;
+  return "Not identified";
 }
 
 function displayContactPhone(contact: HumanContact | NonNullable<ContractorOpportunity["best_contact"]> | null) {
   return contact?.phone ?? "Not available";
+}
+
+function displayContactEmail(contact: HumanContact | NonNullable<ContractorOpportunity["best_contact"]> | null) {
+  return contact?.email ?? "Not available";
 }
 
 function realValue(value?: string | null) {

@@ -43,3 +43,8 @@ next-env.d.ts
 
 # local runtime logs
 dev-server*.log
+
+# large public data caches
+/tmp/
+/data/cslb-license-master.csv
+/data/cslb-license-master.xls

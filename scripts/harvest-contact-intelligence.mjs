@@ -89,6 +89,7 @@ function harvestRecord(record, lastVerified) {
         resolved_website: resolved.website,
         linkedin_url: resolved.linkedin,
         phone: resolved.phone,
+        email: resolved.email,
         contact_page_url: resolved.contactPage,
         staff_directory_url: resolved.staffDirectory,
         contact_name: person?.name ?? null,
@@ -169,9 +170,10 @@ function roleFromNormalized(role, companyType) {
 
 function resolveCompanyFields(company, webSource) {
   return {
-    website: safeUrl(company.website) ?? safeUrl(webSource?.website),
+    website: safeUrl(company.website) ?? safeUrl(webSource?.website) ?? safeUrl(webSource?.official_website),
     linkedin: safeUrl(company.linkedin) ?? safeUrl(webSource?.linkedin),
     phone: safePhone(company.phone) ?? safePhone(webSource?.phone),
+    email: safeEmail(company.email) ?? safeEmail(webSource?.email),
     contactPage: safeUrl(company.contactPage) ?? safeUrl(webSource?.contact_page_url),
     staffDirectory: safeUrl(company.staffDirectory) ?? safeUrl(webSource?.staff_directory_url),
   };
@@ -423,6 +425,14 @@ function safePhone(value) {
   if (typeof value !== "string") return null;
   const trimmed = value.trim();
   return /\d{3}[-.\s)]*\d{3}[-.\s]*\d{4}/.test(trimmed) && !/\b555[-\s]?\d{4}\b/.test(trimmed) ? trimmed : null;
+}
+
+function safeEmail(value) {
+  if (typeof value !== "string") return null;
+  const trimmed = value.trim().toLowerCase();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmed)) return null;
+  if (/(example\.com|sentry\.|wixpress|cloudflare|schema\.org)/i.test(trimmed)) return null;
+  return trimmed;
 }
 
 function isLikelyHumanName(value) {

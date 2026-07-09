@@ -1,23 +1,5 @@
 [
   {
-    "company_profile_id": "company-a-1-electrical",
-    "company": "A 1 ELECTRICAL",
-    "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
-  },
-  {
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "company": "ROBERT L SCHEID CONSTRUCTION",
-    "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
-  },
-  {
     "company_profile_id": "company-lennar-homes-of-california",
     "company": "Lennar Homes of California",
     "company_type": "Developer",
@@ -59,6 +41,104 @@
         ]
       },
       {
+        "title": "General Contractor",
+        "company": "LENNAR HOMES OF CALIFORNIA LLC",
+        "phone": "(949) 789-1600",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00578",
+        "evidence": [
+          "Source-backed company phone listed for LENNAR HOMES OF CALIFORNIA LLC."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "LENNAR HOMES OF CALIFORNIA LLC",
+        "phone": "(949) 789-1600",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00577",
+        "evidence": [
+          "Source-backed company phone listed for LENNAR HOMES OF CALIFORNIA LLC."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "LENNAR HOMES OF CALIFORNIA LLC",
+        "phone": "(949) 789-1600",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00576",
+        "evidence": [
+          "Source-backed company phone listed for LENNAR HOMES OF CALIFORNIA LLC."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "LENNAR HOMES OF CALIFORNIA LLC",
+        "phone": "(949) 789-1600",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00575",
+        "evidence": [
+          "Source-backed company phone listed for LENNAR HOMES OF CALIFORNIA LLC."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "LENNAR HOMES OF CALIFORNIA LLC",
+        "phone": "(949) 789-1600",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00574",
+        "evidence": [
+          "Source-backed company phone listed for LENNAR HOMES OF CALIFORNIA LLC."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "LENNAR HOMES OF CALIFORNIA LLC",
+        "phone": "(949) 789-1600",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00562",
+        "evidence": [
+          "Source-backed company phone listed for LENNAR HOMES OF CALIFORNIA LLC."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "LENNAR HOMES OF CALIFORNIA LLC",
+        "phone": "(949) 789-1600",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00561",
+        "evidence": [
+          "Source-backed company phone listed for LENNAR HOMES OF CALIFORNIA LLC."
+        ]
+      },
+      {
+        "title": "Regional Office",
+        "company": "Lennar Homes of California",
+        "phone": "(949) 789-1600",
+        "contactType": "regional",
+        "confidence": 0.65,
+        "source": "https://www.lennar.com/contact/business-inquiry",
+        "evidence": [
+          "Company profile lists phone (949) 789-1600 for Lennar Homes of California."
+        ]
+      },
+      {
+        "company": "Lennar Homes of California",
+        "phone": "(949) 789-1600",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=728102",
+        "evidence": [
+          "CSLB license 728102 lists business phone (949) 789-1600."
+        ]
+      },
+      {
         "title": "Business Inquiry",
         "company": "Lennar Homes of California",
         "contactType": "trade_partner",
@@ -69,8 +149,445 @@
         ]
       }
     ],
-    "contact_count": 3,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "contact_count": 12,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-a-1-electrical",
+    "company": "A 1 ELECTRICAL",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "A 1 ELECTRICAL",
+      "phone": "(916) 482-3400",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00200",
+      "evidence": [
+        "Source-backed company phone listed for A 1 ELECTRICAL."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00200",
+        "evidence": [
+          "Source-backed company phone listed for A 1 ELECTRICAL."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00201",
+        "evidence": [
+          "Source-backed company phone listed for A 1 ELECTRICAL."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00196",
+        "evidence": [
+          "Source-backed company phone listed for A 1 ELECTRICAL."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00197",
+        "evidence": [
+          "Source-backed company phone listed for A 1 ELECTRICAL."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00198",
+        "evidence": [
+          "Source-backed company phone listed for A 1 ELECTRICAL."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00199",
+        "evidence": [
+          "Source-backed company phone listed for A 1 ELECTRICAL."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00192",
+        "evidence": [
+          "Source-backed company phone listed for A 1 ELECTRICAL."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00193",
+        "evidence": [
+          "Source-backed company phone listed for A 1 ELECTRICAL."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00194",
+        "evidence": [
+          "Source-backed company phone listed for A 1 ELECTRICAL."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00195",
+        "evidence": [
+          "Source-backed company phone listed for A 1 ELECTRICAL."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00862",
+        "evidence": [
+          "Source-backed company phone listed for A 1 ELECTRICAL."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (916) 482-3400 for A 1 ELECTRICAL."
+        ]
+      },
+      {
+        "company": "A 1 ELECTRICAL",
+        "phone": "(916) 482-3400",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=909430",
+        "evidence": [
+          "CSLB license 909430 lists business phone (916) 482-3400."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "A 1 ELECTRICAL",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=909430",
+        "evidence": [
+          "Generic source-backed access route exists for A 1 ELECTRICAL."
+        ]
+      }
+    ],
+    "contact_count": 14,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "company": "ROBERT L SCHEID CONSTRUCTION",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "ROBERT L SCHEID CONSTRUCTION",
+      "phone": "(916) 947-8089",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00216",
+      "evidence": [
+        "Source-backed company phone listed for ROBERT L SCHEID CONSTRUCTION."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00216",
+        "evidence": [
+          "Source-backed company phone listed for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00217",
+        "evidence": [
+          "Source-backed company phone listed for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00218",
+        "evidence": [
+          "Source-backed company phone listed for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00219",
+        "evidence": [
+          "Source-backed company phone listed for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00211",
+        "evidence": [
+          "Source-backed company phone listed for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00212",
+        "evidence": [
+          "Source-backed company phone listed for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00213",
+        "evidence": [
+          "Source-backed company phone listed for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00214",
+        "evidence": [
+          "Source-backed company phone listed for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00215",
+        "evidence": [
+          "Source-backed company phone listed for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00209",
+        "evidence": [
+          "Source-backed company phone listed for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00210",
+        "evidence": [
+          "Source-backed company phone listed for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (916) 947-8089 for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      },
+      {
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "phone": "(916) 947-8089",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1063457",
+        "evidence": [
+          "CSLB license 1063457 lists business phone (916) 947-8089."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "ROBERT L SCHEID CONSTRUCTION",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1063457",
+        "evidence": [
+          "Generic source-backed access route exists for ROBERT L SCHEID CONSTRUCTION."
+        ]
+      }
+    ],
+    "contact_count": 14,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-fdc-nor-cal",
+    "company": "FDC NOR-CAL CORP",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "FDC NOR-CAL CORP",
+      "phone": "(925) 766-5163",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00573",
+      "evidence": [
+        "Source-backed company phone listed for FDC NOR-CAL CORP."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "FDC NOR-CAL CORP",
+        "phone": "(925) 766-5163",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00573",
+        "evidence": [
+          "Source-backed company phone listed for FDC NOR-CAL CORP."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "FDC NOR-CAL CORP",
+        "phone": "(925) 766-5163",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00571",
+        "evidence": [
+          "Source-backed company phone listed for FDC NOR-CAL CORP."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "FDC NOR-CAL CORP",
+        "phone": "(925) 766-5163",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00566",
+        "evidence": [
+          "Source-backed company phone listed for FDC NOR-CAL CORP."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "FDC NOR-CAL CORP",
+        "phone": "(925) 766-5163",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (925) 766-5163 for FDC NOR-CAL CORP."
+        ]
+      },
+      {
+        "company": "FDC NOR-CAL CORP",
+        "phone": "(925) 766-5163",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1079515",
+        "evidence": [
+          "CSLB license 1079515 lists business phone (925) 766-5163."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "FDC NOR-CAL CORP",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1079515",
+        "evidence": [
+          "Generic source-backed access route exists for FDC NOR-CAL CORP."
+        ]
+      }
+    ],
+    "contact_count": 6,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-good-life-construction",
+    "company": "GOOD LIFE CONSTRUCTION INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-advanced-roof-design",
@@ -80,7 +597,8 @@
       "name": "Tim Balbi",
       "title": "President/CEO",
       "company": "ADVANCED ROOF DESIGN INC",
-      "phone": "(916)381-2266",
+      "phone": "(916) 381-2266",
+      "email": "membership@caanet.org",
       "contactType": "direct",
       "confidence": 0.95,
       "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00187",
@@ -93,7 +611,8 @@
         "name": "Tim Balbi",
         "title": "President/CEO",
         "company": "ADVANCED ROOF DESIGN INC",
-        "phone": "(916)381-2266",
+        "phone": "(916) 381-2266",
+        "email": "membership@caanet.org",
         "contactType": "direct",
         "confidence": 0.95,
         "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00187",
@@ -105,7 +624,8 @@
         "name": "Tim Balbi",
         "title": "President/CEO",
         "company": "ADVANCED ROOF DESIGN INC",
-        "phone": "(916)381-2266",
+        "phone": "(916) 381-2266",
+        "email": "membership@caanet.org",
         "contactType": "direct",
         "confidence": 0.95,
         "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00186",
@@ -117,24 +637,29 @@
         "name": "Tim Balbi",
         "title": "President/CEO",
         "company": "ADVANCED ROOF DESIGN INC",
-        "phone": "(916)381-2266",
+        "phone": "(916) 381-2266",
+        "email": "membership@caanet.org",
         "contactType": "direct",
         "confidence": 0.95,
         "source": "https://rcac.wildapricot.org/widget/Sys/PublicProfile/31728650/3832090",
         "evidence": [
           "Public member profile lists Tim Balbi, Advanced Roof Design, Inc., business phone, and website.",
-          "Public profile identifies Tim Balbi as President/CEO of Advanced Roof Design, Inc."
+          "Public profile identifies Tim Balbi as President/CEO of Advanced Roof Design, Inc.",
+          "CSLB license 672328 lists business phone (916) 381-2266.",
+          "Website lists membership@caanet.org."
         ]
       },
       {
         "title": "Construction Office",
         "company": "ADVANCED ROOF DESIGN INC",
-        "phone": "(916)381-2266",
+        "phone": "(916) 381-2266",
+        "email": "membership@caanet.org",
         "contactType": "construction",
         "confidence": 0.85,
         "source": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
         "evidence": [
-          "Company profile lists phone (916)381-2266 for ADVANCED ROOF DESIGN INC."
+          "Company profile lists phone (916) 381-2266 for ADVANCED ROOF DESIGN INC.",
+          "Company profile lists email membership@caanet.org for ADVANCED ROOF DESIGN INC."
         ]
       },
       {
@@ -149,7 +674,178 @@
       }
     ],
     "contact_count": 5,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+      "phone": "(916) 599-6629",
+      "email": "alltechgates@gmail.com",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00207",
+      "evidence": [
+        "Source-backed company phone listed for ALLTECH GATES AND ENTRY CONTROLS INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+        "phone": "(916) 599-6629",
+        "email": "alltechgates@gmail.com",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00207",
+        "evidence": [
+          "Source-backed company phone listed for ALLTECH GATES AND ENTRY CONTROLS INC."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+        "phone": "(916) 599-6629",
+        "email": "alltechgates@gmail.com",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00169",
+        "evidence": [
+          "Source-backed company phone listed for ALLTECH GATES AND ENTRY CONTROLS INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+        "phone": "(916) 599-6629",
+        "email": "alltechgates@gmail.com",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://www.alltechgates.com/",
+        "evidence": [
+          "Company profile lists phone (916) 599-6629 for ALLTECH GATES AND ENTRY CONTROLS INC.",
+          "Company profile lists email alltechgates@gmail.com for ALLTECH GATES AND ENTRY CONTROLS INC."
+        ]
+      },
+      {
+        "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+        "phone": "(916) 599-6629",
+        "email": "alltechgates@gmail.com",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=964909",
+        "evidence": [
+          "CSLB license 964909 lists business phone (916) 599-6629. Source-backed email alltechgates@gmail.com found for ALLTECH GATES AND ENTRY CONTROLS INC.",
+          "Website lists alltechgates@gmail.com."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=964909",
+        "evidence": [
+          "Generic source-backed access route exists for ALLTECH GATES AND ENTRY CONTROLS INC."
+        ]
+      }
+    ],
+    "contact_count": 5,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-bell-brother-s-heating-and-air",
+    "company": "BELL BROTHER'S HEATING AND AIR INC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-gigawatt-california",
+    "company": "GIGAWATT CALIFORNIA LLC",
+    "company_type": "General Contractor",
+    "best_contact": null,
+    "contacts": [],
+    "contact_count": 0,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-kb-home-sacramento",
+    "company": "KB HOME SACRAMENTO INC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "KB HOME SACRAMENTO INC",
+      "phone": "(310) 231-4000",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00580",
+      "evidence": [
+        "Source-backed company phone listed for KB HOME SACRAMENTO INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "KB HOME SACRAMENTO INC",
+        "phone": "(310) 231-4000",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00580",
+        "evidence": [
+          "Source-backed company phone listed for KB HOME SACRAMENTO INC."
+        ]
+      },
+      {
+        "title": "General Contractor",
+        "company": "KB HOME SACRAMENTO INC",
+        "phone": "(310) 231-4000",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00579",
+        "evidence": [
+          "Source-backed company phone listed for KB HOME SACRAMENTO INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "KB HOME SACRAMENTO INC",
+        "phone": "(310) 231-4000",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (310) 231-4000 for KB HOME SACRAMENTO INC."
+        ]
+      },
+      {
+        "company": "KB HOME SACRAMENTO INC",
+        "phone": "(310) 231-4000",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=255425",
+        "evidence": [
+          "CSLB license 255425 lists business phone (310) 231-4000."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "KB HOME SACRAMENTO INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=255425",
+        "evidence": [
+          "Generic source-backed access route exists for KB HOME SACRAMENTO INC."
+        ]
+      }
+    ],
+    "contact_count": 5,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-kevin-l-cook-architect",
@@ -158,128 +854,618 @@
     "best_contact": null,
     "contacts": [],
     "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-3-generations-improvements",
     "company": "3 GENERATIONS IMPROVEMENTS INC",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
-  },
-  {
-    "company_profile_id": "company-alltech-gates-and-entry-controls",
-    "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
-    "company_type": "General Contractor",
     "best_contact": {
-      "title": "Construction Office",
-      "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
-      "phone": "(916) 599-6629",
+      "title": "General Contractor",
+      "company": "3 GENERATIONS IMPROVEMENTS INC",
+      "phone": "(916) 932-2315",
       "contactType": "construction",
       "confidence": 0.85,
-      "source": "Company profile",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00703",
       "evidence": [
-        "Company profile lists phone (916) 599-6629 for ALLTECH GATES AND ENTRY CONTROLS INC."
+        "Source-backed company phone listed for 3 GENERATIONS IMPROVEMENTS INC."
       ]
     },
     "contacts": [
       {
+        "title": "General Contractor",
+        "company": "3 GENERATIONS IMPROVEMENTS INC",
+        "phone": "(916) 932-2315",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00703",
+        "evidence": [
+          "Source-backed company phone listed for 3 GENERATIONS IMPROVEMENTS INC."
+        ]
+      },
+      {
         "title": "Construction Office",
-        "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
-        "phone": "(916) 599-6629",
+        "company": "3 GENERATIONS IMPROVEMENTS INC",
+        "phone": "(916) 932-2315",
         "contactType": "construction",
         "confidence": 0.85,
         "source": "Company profile",
         "evidence": [
-          "Company profile lists phone (916) 599-6629 for ALLTECH GATES AND ENTRY CONTROLS INC."
+          "Company profile lists phone (916) 932-2315 for 3 GENERATIONS IMPROVEMENTS INC."
+        ]
+      },
+      {
+        "company": "3 GENERATIONS IMPROVEMENTS INC",
+        "phone": "(916) 932-2315",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876464",
+        "evidence": [
+          "CSLB license 876464 lists business phone (916) 932-2315."
         ]
       },
       {
         "title": "Generic Contact Form",
-        "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+        "company": "3 GENERATIONS IMPROVEMENTS INC",
         "contactType": "vendor",
         "confidence": 0.25,
-        "source": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876464",
         "evidence": [
-          "Generic source-backed access route exists for ALLTECH GATES AND ENTRY CONTROLS INC."
+          "Generic source-backed access route exists for 3 GENERATIONS IMPROVEMENTS INC."
         ]
       }
     ],
-    "contact_count": 2,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-all-pro-plumbing",
+    "company": "ALL PRO PLUMBING",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "ALL PRO PLUMBING",
+      "phone": "(916) 726-1970",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01568",
+      "evidence": [
+        "Source-backed company phone listed for ALL PRO PLUMBING."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "ALL PRO PLUMBING",
+        "phone": "(916) 726-1970",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01568",
+        "evidence": [
+          "Source-backed company phone listed for ALL PRO PLUMBING."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "ALL PRO PLUMBING",
+        "phone": "(916) 726-1970",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (916) 726-1970 for ALL PRO PLUMBING."
+        ]
+      },
+      {
+        "company": "ALL PRO PLUMBING",
+        "phone": "(916) 726-1970",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668343",
+        "evidence": [
+          "CSLB license 668343 lists business phone (916) 726-1970."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "ALL PRO PLUMBING",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668343",
+        "evidence": [
+          "Generic source-backed access route exists for ALL PRO PLUMBING."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-american-buildings-j-s",
     "company": "AMERICAN BUILDINGS J&S",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "AMERICAN BUILDINGS J&S",
+      "phone": "(530) 788-3256",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00564",
+      "evidence": [
+        "Source-backed company phone listed for AMERICAN BUILDINGS J&S."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "AMERICAN BUILDINGS J&S",
+        "phone": "(530) 788-3256",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00564",
+        "evidence": [
+          "Source-backed company phone listed for AMERICAN BUILDINGS J&S."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "AMERICAN BUILDINGS J&S",
+        "phone": "(530) 788-3256",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (530) 788-3256 for AMERICAN BUILDINGS J&S."
+        ]
+      },
+      {
+        "company": "AMERICAN BUILDINGS J&S",
+        "phone": "(530) 788-3256",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1137229",
+        "evidence": [
+          "CSLB license 1137229 lists business phone (530) 788-3256."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "AMERICAN BUILDINGS J&S",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1137229",
+        "evidence": [
+          "Generic source-backed access route exists for AMERICAN BUILDINGS J&S."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
-    "company_profile_id": "company-american-carports",
-    "company": "AMERICAN CARPORTS INC",
+    "company_profile_id": "company-arco-murray-national-norcal",
+    "company": "ARCO / MURRAY NATIONAL NORCAL LLC",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "ARCO / MURRAY NATIONAL NORCAL LLC",
+      "phone": "(650) 288-1305",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00334",
+      "evidence": [
+        "Source-backed company phone listed for ARCO / MURRAY NATIONAL NORCAL LLC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "ARCO / MURRAY NATIONAL NORCAL LLC",
+        "phone": "(650) 288-1305",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00334",
+        "evidence": [
+          "Source-backed company phone listed for ARCO / MURRAY NATIONAL NORCAL LLC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "ARCO / MURRAY NATIONAL NORCAL LLC",
+        "phone": "(650) 288-1305",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (650) 288-1305 for ARCO / MURRAY NATIONAL NORCAL LLC."
+        ]
+      },
+      {
+        "company": "ARCO / MURRAY NATIONAL NORCAL LLC",
+        "phone": "(650) 288-1305",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1070665",
+        "evidence": [
+          "CSLB license 1070665 lists business phone (650) 288-1305."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "ARCO / MURRAY NATIONAL NORCAL LLC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1070665",
+        "evidence": [
+          "Generic source-backed access route exists for ARCO / MURRAY NATIONAL NORCAL LLC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
-    "company_profile_id": "company-burns-construction",
-    "company": "BURNS CONSTRUCTION",
+    "company_profile_id": "company-aztec-solar",
+    "company": "AZTEC SOLAR INC",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "AZTEC SOLAR INC",
+      "phone": "(916) 853-2700",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01118",
+      "evidence": [
+        "Source-backed company phone listed for AZTEC SOLAR INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "AZTEC SOLAR INC",
+        "phone": "(916) 853-2700",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01118",
+        "evidence": [
+          "Source-backed company phone listed for AZTEC SOLAR INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "AZTEC SOLAR INC",
+        "phone": "(916) 853-2700",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (916) 853-2700 for AZTEC SOLAR INC."
+        ]
+      },
+      {
+        "company": "AZTEC SOLAR INC",
+        "phone": "(916) 853-2700",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=550110",
+        "evidence": [
+          "CSLB license 550110 lists business phone (916) 853-2700."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "AZTEC SOLAR INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=550110",
+        "evidence": [
+          "Generic source-backed access route exists for AZTEC SOLAR INC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-bruce-construction-group",
+    "company": "BRUCE CONSTRUCTION GROUP LLC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "BRUCE CONSTRUCTION GROUP LLC",
+      "phone": "(707) 688-5345",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00389",
+      "evidence": [
+        "Source-backed company phone listed for BRUCE CONSTRUCTION GROUP LLC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "BRUCE CONSTRUCTION GROUP LLC",
+        "phone": "(707) 688-5345",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00389",
+        "evidence": [
+          "Source-backed company phone listed for BRUCE CONSTRUCTION GROUP LLC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "BRUCE CONSTRUCTION GROUP LLC",
+        "phone": "(707) 688-5345",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (707) 688-5345 for BRUCE CONSTRUCTION GROUP LLC."
+        ]
+      },
+      {
+        "company": "BRUCE CONSTRUCTION GROUP LLC",
+        "phone": "(707) 688-5345",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1087444",
+        "evidence": [
+          "CSLB license 1087444 lists business phone (707) 688-5345."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "BRUCE CONSTRUCTION GROUP LLC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1087444",
+        "evidence": [
+          "Generic source-backed access route exists for BRUCE CONSTRUCTION GROUP LLC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-california-renewable-energy",
     "company": "CALIFORNIA RENEWABLE ENERGY",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "CALIFORNIA RENEWABLE ENERGY",
+      "phone": "(916) 804-2243",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01941",
+      "evidence": [
+        "Source-backed company phone listed for CALIFORNIA RENEWABLE ENERGY."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "CALIFORNIA RENEWABLE ENERGY",
+        "phone": "(916) 804-2243",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01941",
+        "evidence": [
+          "Source-backed company phone listed for CALIFORNIA RENEWABLE ENERGY."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "CALIFORNIA RENEWABLE ENERGY",
+        "phone": "(916) 804-2243",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (916) 804-2243 for CALIFORNIA RENEWABLE ENERGY."
+        ]
+      },
+      {
+        "company": "CALIFORNIA RENEWABLE ENERGY",
+        "phone": "(916) 804-2243",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1068801",
+        "evidence": [
+          "CSLB license 1068801 lists business phone (916) 804-2243."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "CALIFORNIA RENEWABLE ENERGY",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1068801",
+        "evidence": [
+          "Generic source-backed access route exists for CALIFORNIA RENEWABLE ENERGY."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
-    "company_profile_id": "company-deome-2-builders",
-    "company": "DEOME 2 BUILDERS INC",
+    "company_profile_id": "company-city-signs",
+    "company": "CITY SIGNS",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "CITY SIGNS",
+      "phone": "(209) 549-2412",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASGNC2026-00065",
+      "evidence": [
+        "Source-backed company phone listed for CITY SIGNS."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "CITY SIGNS",
+        "phone": "(209) 549-2412",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASGNC2026-00065",
+        "evidence": [
+          "Source-backed company phone listed for CITY SIGNS."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "CITY SIGNS",
+        "phone": "(209) 549-2412",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (209) 549-2412 for CITY SIGNS."
+        ]
+      },
+      {
+        "company": "CITY SIGNS",
+        "phone": "(209) 549-2412",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=769900",
+        "evidence": [
+          "CSLB license 769900 lists business phone (209) 549-2412."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "CITY SIGNS",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=769900",
+        "evidence": [
+          "Generic source-backed access route exists for CITY SIGNS."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-diehl-s-electric",
+    "company": "DIEHL'S ELECTRIC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "DIEHL'S ELECTRIC",
+      "phone": "(209) 471-1947",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00910",
+      "evidence": [
+        "Source-backed company phone listed for DIEHL'S ELECTRIC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "DIEHL'S ELECTRIC",
+        "phone": "(209) 471-1947",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00910",
+        "evidence": [
+          "Source-backed company phone listed for DIEHL'S ELECTRIC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "DIEHL'S ELECTRIC",
+        "phone": "(209) 471-1947",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (209) 471-1947 for DIEHL'S ELECTRIC."
+        ]
+      },
+      {
+        "company": "DIEHL'S ELECTRIC",
+        "phone": "(209) 471-1947",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=633545",
+        "evidence": [
+          "CSLB license 633545 lists business phone (209) 471-1947."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "DIEHL'S ELECTRIC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=633545",
+        "evidence": [
+          "Generic source-backed access route exists for DIEHL'S ELECTRIC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-duramax-roofing",
     "company": "DURAMAX ROOFING INC",
     "company_type": "General Contractor",
     "best_contact": {
-      "title": "Construction Office",
+      "title": "General Contractor",
       "company": "DURAMAX ROOFING INC",
-      "phone": "(916) 849-5024",
+      "phone": "(916) 543-2929",
+      "email": "leo@duramaxroofing.net",
       "contactType": "construction",
       "confidence": 0.85,
-      "source": "https://duramaxroofing.net/contact",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00185",
       "evidence": [
-        "Company profile lists phone (916) 849-5024 for DURAMAX ROOFING INC."
+        "Source-backed company phone listed for DURAMAX ROOFING INC."
       ]
     },
     "contacts": [
       {
+        "title": "General Contractor",
+        "company": "DURAMAX ROOFING INC",
+        "phone": "(916) 543-2929",
+        "email": "leo@duramaxroofing.net",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00185",
+        "evidence": [
+          "Source-backed company phone listed for DURAMAX ROOFING INC."
+        ]
+      },
+      {
         "title": "Construction Office",
         "company": "DURAMAX ROOFING INC",
-        "phone": "(916) 849-5024",
+        "phone": "(916) 543-2929",
+        "email": "leo@duramaxroofing.net",
         "contactType": "construction",
         "confidence": 0.85,
         "source": "https://duramaxroofing.net/contact",
         "evidence": [
-          "Company profile lists phone (916) 849-5024 for DURAMAX ROOFING INC."
+          "Company profile lists phone (916) 543-2929 for DURAMAX ROOFING INC.",
+          "Company profile lists email leo@duramaxroofing.net for DURAMAX ROOFING INC."
+        ]
+      },
+      {
+        "company": "DURAMAX ROOFING INC",
+        "phone": "(916) 543-2929",
+        "email": "leo@duramaxroofing.net",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=866295",
+        "evidence": [
+          "CSLB license 866295 lists business phone (916) 543-2929. Source-backed email leo@duramaxroofing.net found for DURAMAX ROOFING INC.",
+          "Website lists leo@duramaxroofing.net."
         ]
       },
       {
@@ -293,17 +1479,132 @@
         ]
       }
     ],
-    "contact_count": 2,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-dyer-construction",
     "company": "DYER CONSTRUCTION INC",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "DYER CONSTRUCTION INC",
+      "phone": "(916) 869-6960",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00648",
+      "evidence": [
+        "Source-backed company phone listed for DYER CONSTRUCTION INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "DYER CONSTRUCTION INC",
+        "phone": "(916) 869-6960",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00648",
+        "evidence": [
+          "Source-backed company phone listed for DYER CONSTRUCTION INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "DYER CONSTRUCTION INC",
+        "phone": "(916) 869-6960",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (916) 869-6960 for DYER CONSTRUCTION INC."
+        ]
+      },
+      {
+        "company": "DYER CONSTRUCTION INC",
+        "phone": "(916) 869-6960",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=645755",
+        "evidence": [
+          "CSLB license 645755 lists business phone (916) 869-6960."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "DYER CONSTRUCTION INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=645755",
+        "evidence": [
+          "Generic source-backed access route exists for DYER CONSTRUCTION INC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-es-solar",
+    "company": "ES SOLAR LLC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "ES SOLAR LLC",
+      "phone": "(801) 614-0606",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00226",
+      "evidence": [
+        "Source-backed company phone listed for ES SOLAR LLC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "ES SOLAR LLC",
+        "phone": "(801) 614-0606",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00226",
+        "evidence": [
+          "Source-backed company phone listed for ES SOLAR LLC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "ES SOLAR LLC",
+        "phone": "(801) 614-0606",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (801) 614-0606 for ES SOLAR LLC."
+        ]
+      },
+      {
+        "company": "ES SOLAR LLC",
+        "phone": "(801) 614-0606",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1127444",
+        "evidence": [
+          "CSLB license 1127444 lists business phone (801) 614-0606."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "ES SOLAR LLC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1127444",
+        "evidence": [
+          "Generic source-backed access route exists for ES SOLAR LLC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-famand",
@@ -312,42 +1613,42 @@
     "best_contact": {
       "title": "General Contractor",
       "company": "FAMAND INC",
-      "phone": "+1 916-988-8808",
+      "phone": "(916) 988-8808",
       "contactType": "construction",
       "confidence": 0.85,
       "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01229",
       "evidence": [
-        "Source-backed company route listed for FAMAND INC."
+        "Source-backed company phone listed for FAMAND INC."
       ]
     },
     "contacts": [
       {
         "title": "General Contractor",
         "company": "FAMAND INC",
-        "phone": "+1 916-988-8808",
+        "phone": "(916) 988-8808",
         "contactType": "construction",
         "confidence": 0.85,
         "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01229",
         "evidence": [
-          "Source-backed company route listed for FAMAND INC."
+          "Source-backed company phone listed for FAMAND INC."
         ]
       },
       {
         "title": "Construction Office",
         "company": "FAMAND INC",
-        "phone": "+1 916-988-8808",
+        "phone": "(916) 988-8808",
         "contactType": "construction",
         "confidence": 0.85,
         "source": "Company profile",
         "evidence": [
-          "Company profile lists phone +1 916-988-8808 for FAMAND INC."
+          "Company profile lists phone (916) 988-8808 for FAMAND INC."
         ]
       },
       {
         "company": "FAMAND INC",
-        "phone": "+1 916-988-8808",
+        "phone": "(916) 988-8808",
         "contactType": "corporate",
-        "confidence": 0.65,
+        "confidence": 0.85,
         "source": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
         "evidence": [
           "Vendor profile lists Famand, Inc. with phone number +1 916-988-8808."
@@ -365,34 +1666,193 @@
       }
     ],
     "contact_count": 4,
-    "last_verified": "2026-07-08T17:01:54.289Z"
-  },
-  {
-    "company_profile_id": "company-fdc-nor-cal",
-    "company": "FDC NOR-CAL CORP",
-    "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
-  },
-  {
-    "company_profile_id": "company-gigawatt-california",
-    "company": "GIGAWATT CALIFORNIA LLC",
-    "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-group-one-builders",
     "company": "GROUP ONE BUILDERS INC",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "GROUP ONE BUILDERS INC",
+      "phone": "(916) 983-9953",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00562",
+      "evidence": [
+        "Source-backed company phone listed for GROUP ONE BUILDERS INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "GROUP ONE BUILDERS INC",
+        "phone": "(916) 983-9953",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00562",
+        "evidence": [
+          "Source-backed company phone listed for GROUP ONE BUILDERS INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "GROUP ONE BUILDERS INC",
+        "phone": "(916) 983-9953",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (916) 983-9953 for GROUP ONE BUILDERS INC."
+        ]
+      },
+      {
+        "company": "GROUP ONE BUILDERS INC",
+        "phone": "(916) 983-9953",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668907",
+        "evidence": [
+          "CSLB license 668907 lists business phone (916) 983-9953."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "GROUP ONE BUILDERS INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668907",
+        "evidence": [
+          "Generic source-backed access route exists for GROUP ONE BUILDERS INC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-haven-energy-services",
+    "company": "HAVEN ENERGY SERVICES INC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "HAVEN ENERGY SERVICES INC",
+      "phone": "(504) 452-3127",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASLCR2026-00042",
+      "evidence": [
+        "Source-backed company phone listed for HAVEN ENERGY SERVICES INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "HAVEN ENERGY SERVICES INC",
+        "phone": "(504) 452-3127",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASLCR2026-00042",
+        "evidence": [
+          "Source-backed company phone listed for HAVEN ENERGY SERVICES INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "HAVEN ENERGY SERVICES INC",
+        "phone": "(504) 452-3127",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (504) 452-3127 for HAVEN ENERGY SERVICES INC."
+        ]
+      },
+      {
+        "company": "HAVEN ENERGY SERVICES INC",
+        "phone": "(504) 452-3127",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1104018",
+        "evidence": [
+          "CSLB license 1104018 lists business phone (504) 452-3127."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "HAVEN ENERGY SERVICES INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1104018",
+        "evidence": [
+          "Generic source-backed access route exists for HAVEN ENERGY SERVICES INC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-heat-and-air-solutions",
+    "company": "HEAT AND AIR SOLUTIONS INC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "HEAT AND AIR SOLUTIONS INC",
+      "phone": "(530) 401-8768",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AHACR2026-01443",
+      "evidence": [
+        "Source-backed company phone listed for HEAT AND AIR SOLUTIONS INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "HEAT AND AIR SOLUTIONS INC",
+        "phone": "(530) 401-8768",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AHACR2026-01443",
+        "evidence": [
+          "Source-backed company phone listed for HEAT AND AIR SOLUTIONS INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "HEAT AND AIR SOLUTIONS INC",
+        "phone": "(530) 401-8768",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (530) 401-8768 for HEAT AND AIR SOLUTIONS INC."
+        ]
+      },
+      {
+        "company": "HEAT AND AIR SOLUTIONS INC",
+        "phone": "(530) 401-8768",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1133607",
+        "evidence": [
+          "CSLB license 1133607 lists business phone (530) 401-8768."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "HEAT AND AIR SOLUTIONS INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1133607",
+        "evidence": [
+          "Generic source-backed access route exists for HEAT AND AIR SOLUTIONS INC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-integral-communities",
@@ -401,34 +1861,188 @@
     "best_contact": null,
     "contacts": [],
     "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-kenneth-development",
     "company": "KENNETH DEVELOPMENT INC",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "KENNETH DEVELOPMENT INC",
+      "phone": "(916) 939-1615",
+      "email": "kennethdevelopment54@gmail.com",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00576",
+      "evidence": [
+        "Source-backed company phone listed for KENNETH DEVELOPMENT INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "KENNETH DEVELOPMENT INC",
+        "phone": "(916) 939-1615",
+        "email": "kennethdevelopment54@gmail.com",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00576",
+        "evidence": [
+          "Source-backed company phone listed for KENNETH DEVELOPMENT INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "KENNETH DEVELOPMENT INC",
+        "phone": "(916) 939-1615",
+        "email": "kennethdevelopment54@gmail.com",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://www.kennethdevelopment.com/",
+        "evidence": [
+          "Company profile lists phone (916) 939-1615 for KENNETH DEVELOPMENT INC.",
+          "Company profile lists email kennethdevelopment54@gmail.com for KENNETH DEVELOPMENT INC."
+        ]
+      },
+      {
+        "company": "KENNETH DEVELOPMENT INC",
+        "phone": "(916) 939-1615",
+        "email": "kennethdevelopment54@gmail.com",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=773369",
+        "evidence": [
+          "CSLB license 773369 lists business phone (916) 939-1615. Source-backed email kennethdevelopment54@gmail.com found for KENNETH DEVELOPMENT INC.",
+          "Website lists kennethdevelopment54@gmail.com."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "KENNETH DEVELOPMENT INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=773369",
+        "evidence": [
+          "Generic source-backed access route exists for KENNETH DEVELOPMENT INC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
-    "company_profile_id": "company-kustom-us",
-    "company": "KUSTOM US INC",
+    "company_profile_id": "company-legacy-demolition",
+    "company": "LEGACY DEMOLITION LLC",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "LEGACY DEMOLITION LLC",
+      "phone": "(510) 860-1325",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00064",
+      "evidence": [
+        "Source-backed company phone listed for LEGACY DEMOLITION LLC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "LEGACY DEMOLITION LLC",
+        "phone": "(510) 860-1325",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00064",
+        "evidence": [
+          "Source-backed company phone listed for LEGACY DEMOLITION LLC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "LEGACY DEMOLITION LLC",
+        "phone": "(510) 860-1325",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (510) 860-1325 for LEGACY DEMOLITION LLC."
+        ]
+      },
+      {
+        "company": "LEGACY DEMOLITION LLC",
+        "phone": "(510) 860-1325",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1122603",
+        "evidence": [
+          "CSLB license 1122603 lists business phone (510) 860-1325."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "LEGACY DEMOLITION LLC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1122603",
+        "evidence": [
+          "Generic source-backed access route exists for LEGACY DEMOLITION LLC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-lund-construction",
     "company": "Lund Construction Co",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "Construction Office",
+      "company": "Lund Construction Co",
+      "phone": "(650) 656-7986",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://lundconstruction.com/contact",
+      "evidence": [
+        "Company profile lists phone (650) 656-7986 for Lund Construction Co."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "Construction Office",
+        "company": "Lund Construction Co",
+        "phone": "(650) 656-7986",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://lundconstruction.com/contact",
+        "evidence": [
+          "Company profile lists phone (650) 656-7986 for Lund Construction Co."
+        ]
+      },
+      {
+        "company": "Lund Construction Co",
+        "phone": "(650) 656-7986",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1086700",
+        "evidence": [
+          "CSLB license 1086700 lists business phone (650) 656-7986."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "Lund Construction Co",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://lundconstruction.com/contact",
+        "evidence": [
+          "Generic source-backed access route exists for Lund Construction Co."
+        ]
+      }
+    ],
+    "contact_count": 3,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-master-roofing-solutions",
@@ -437,43 +2051,456 @@
     "best_contact": null,
     "contacts": [],
     "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
-    "company_profile_id": "company-o-connor-pool-solutions",
-    "company": "O'CONNOR POOL SOLUTIONS INC",
+    "company_profile_id": "company-nco-development",
+    "company": "NCO DEVELOPMENT",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "NCO DEVELOPMENT",
+      "phone": "(530) 606-0257",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00065",
+      "evidence": [
+        "Source-backed company phone listed for NCO DEVELOPMENT."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "NCO DEVELOPMENT",
+        "phone": "(530) 606-0257",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00065",
+        "evidence": [
+          "Source-backed company phone listed for NCO DEVELOPMENT."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "NCO DEVELOPMENT",
+        "phone": "(530) 606-0257",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (530) 606-0257 for NCO DEVELOPMENT."
+        ]
+      },
+      {
+        "company": "NCO DEVELOPMENT",
+        "phone": "(530) 606-0257",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1085867",
+        "evidence": [
+          "CSLB license 1085867 lists business phone (530) 606-0257."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "NCO DEVELOPMENT",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1085867",
+        "evidence": [
+          "Generic source-backed access route exists for NCO DEVELOPMENT."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-next-demolition",
+    "company": "NEXT DEMOLITION LLC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "NEXT DEMOLITION LLC",
+      "phone": "(650) 680-6768",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00044",
+      "evidence": [
+        "Source-backed company phone listed for NEXT DEMOLITION LLC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "NEXT DEMOLITION LLC",
+        "phone": "(650) 680-6768",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00044",
+        "evidence": [
+          "Source-backed company phone listed for NEXT DEMOLITION LLC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "NEXT DEMOLITION LLC",
+        "phone": "(650) 680-6768",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (650) 680-6768 for NEXT DEMOLITION LLC."
+        ]
+      },
+      {
+        "company": "NEXT DEMOLITION LLC",
+        "phone": "(650) 680-6768",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1141839",
+        "evidence": [
+          "CSLB license 1141839 lists business phone (650) 680-6768."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "NEXT DEMOLITION LLC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1141839",
+        "evidence": [
+          "Generic source-backed access route exists for NEXT DEMOLITION LLC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-phillip-isaacs-construction",
     "company": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
+      "phone": "(916) 852-8132",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00705",
+      "evidence": [
+        "Source-backed company phone listed for PHILLIP ISAACS' CONSTRUCTION INCORPORATED."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
+        "phone": "(916) 852-8132",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00705",
+        "evidence": [
+          "Source-backed company phone listed for PHILLIP ISAACS' CONSTRUCTION INCORPORATED."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
+        "phone": "(916) 852-8132",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (916) 852-8132 for PHILLIP ISAACS' CONSTRUCTION INCORPORATED."
+        ]
+      },
+      {
+        "company": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
+        "phone": "(916) 852-8132",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=627677",
+        "evidence": [
+          "CSLB license 627677 lists business phone (916) 852-8132."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=627677",
+        "evidence": [
+          "Generic source-backed access route exists for PHILLIP ISAACS' CONSTRUCTION INCORPORATED."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-prime-home-solutions",
     "company": "PRIME HOME SOLUTIONS INC",
     "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "PRIME HOME SOLUTIONS INC",
+      "phone": "(916) 667-7480",
+      "email": "info@primehomesolutions.com",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00227",
+      "evidence": [
+        "Source-backed company phone listed for PRIME HOME SOLUTIONS INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "PRIME HOME SOLUTIONS INC",
+        "phone": "(916) 667-7480",
+        "email": "info@primehomesolutions.com",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00227",
+        "evidence": [
+          "Source-backed company phone listed for PRIME HOME SOLUTIONS INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "PRIME HOME SOLUTIONS INC",
+        "phone": "(916) 667-7480",
+        "email": "info@primehomesolutions.com",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://primehomesolutions.com/",
+        "evidence": [
+          "Company profile lists phone (916) 667-7480 for PRIME HOME SOLUTIONS INC.",
+          "Company profile lists email info@primehomesolutions.com for PRIME HOME SOLUTIONS INC."
+        ]
+      },
+      {
+        "company": "PRIME HOME SOLUTIONS INC",
+        "phone": "(916) 667-7480",
+        "email": "info@primehomesolutions.com",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1075385",
+        "evidence": [
+          "CSLB license 1075385 lists business phone (916) 667-7480. Source-backed email info@primehomesolutions.com found for PRIME HOME SOLUTIONS INC.",
+          "Website lists info@primehomesolutions.com."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "PRIME HOME SOLUTIONS INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1075385",
+        "evidence": [
+          "Generic source-backed access route exists for PRIME HOME SOLUTIONS INC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-sierra-nevada-24-7",
+    "company": "SIERRA NEVADA 24/7 INC",
+    "company_type": "General Contractor",
     "best_contact": null,
     "contacts": [],
     "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-solace-enterprises",
+    "company": "SOLACE ENTERPRISES INC",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "SOLACE ENTERPRISES INC",
+      "phone": "(916) 463-0100",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01071",
+      "evidence": [
+        "Source-backed company phone listed for SOLACE ENTERPRISES INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "SOLACE ENTERPRISES INC",
+        "phone": "(916) 463-0100",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01071",
+        "evidence": [
+          "Source-backed company phone listed for SOLACE ENTERPRISES INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "SOLACE ENTERPRISES INC",
+        "phone": "(916) 463-0100",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (916) 463-0100 for SOLACE ENTERPRISES INC."
+        ]
+      },
+      {
+        "company": "SOLACE ENTERPRISES INC",
+        "phone": "(916) 463-0100",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=913717",
+        "evidence": [
+          "CSLB license 913717 lists business phone (916) 463-0100."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "SOLACE ENTERPRISES INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=913717",
+        "evidence": [
+          "Generic source-backed access route exists for SOLACE ENTERPRISES INC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
+  },
+  {
+    "company_profile_id": "company-speed-plumbing-pro",
+    "company": "SPEED PLUMBING PRO",
+    "company_type": "General Contractor",
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "SPEED PLUMBING PRO",
+      "phone": "(707) 761-2626",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01474",
+      "evidence": [
+        "Source-backed company phone listed for SPEED PLUMBING PRO."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "SPEED PLUMBING PRO",
+        "phone": "(707) 761-2626",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01474",
+        "evidence": [
+          "Source-backed company phone listed for SPEED PLUMBING PRO."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "SPEED PLUMBING PRO",
+        "phone": "(707) 761-2626",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (707) 761-2626 for SPEED PLUMBING PRO."
+        ]
+      },
+      {
+        "company": "SPEED PLUMBING PRO",
+        "phone": "(707) 761-2626",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1084778",
+        "evidence": [
+          "CSLB license 1084778 lists business phone (707) 761-2626."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "SPEED PLUMBING PRO",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1084778",
+        "evidence": [
+          "Generic source-backed access route exists for SPEED PLUMBING PRO."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-sunsource",
     "company": "SUNSOURCE INC",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "SUNSOURCE INC",
+      "phone": "(888) 672-3297",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01228",
+      "evidence": [
+        "Source-backed company phone listed for SUNSOURCE INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "SUNSOURCE INC",
+        "phone": "(888) 672-3297",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01228",
+        "evidence": [
+          "Source-backed company phone listed for SUNSOURCE INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "SUNSOURCE INC",
+        "phone": "(888) 672-3297",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (888) 672-3297 for SUNSOURCE INC."
+        ]
+      },
+      {
+        "company": "SUNSOURCE INC",
+        "phone": "(888) 672-3297",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1117770",
+        "evidence": [
+          "CSLB license 1117770 lists business phone (888) 672-3297."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "SUNSOURCE INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1117770",
+        "evidence": [
+          "Generic source-backed access route exists for SUNSOURCE INC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-taylor-morrison-of-california",
@@ -482,42 +2509,122 @@
     "best_contact": null,
     "contacts": [],
     "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-veerkamp-doug-general-engineering",
     "company": "VEERKAMP DOUG GENERAL ENGINEERING INC",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "VEERKAMP DOUG GENERAL ENGINEERING INC",
+      "phone": "(530) 676-0825",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOC2026-00045",
+      "evidence": [
+        "Source-backed company phone listed for VEERKAMP DOUG GENERAL ENGINEERING INC."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "VEERKAMP DOUG GENERAL ENGINEERING INC",
+        "phone": "(530) 676-0825",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOC2026-00045",
+        "evidence": [
+          "Source-backed company phone listed for VEERKAMP DOUG GENERAL ENGINEERING INC."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "VEERKAMP DOUG GENERAL ENGINEERING INC",
+        "phone": "(530) 676-0825",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (530) 676-0825 for VEERKAMP DOUG GENERAL ENGINEERING INC."
+        ]
+      },
+      {
+        "company": "VEERKAMP DOUG GENERAL ENGINEERING INC",
+        "phone": "(530) 676-0825",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=440233",
+        "evidence": [
+          "CSLB license 440233 lists business phone (530) 676-0825."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "VEERKAMP DOUG GENERAL ENGINEERING INC",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=440233",
+        "evidence": [
+          "Generic source-backed access route exists for VEERKAMP DOUG GENERAL ENGINEERING INC."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-waters-construction",
     "company": "WATERS CONSTRUCTION COMPANY LLC",
     "company_type": "General Contractor",
     "best_contact": {
-      "title": "Construction Office",
+      "title": "General Contractor",
       "company": "WATERS CONSTRUCTION COMPANY LLC",
-      "phone": "916.594.8912",
+      "phone": "(916) 594-8912",
+      "email": "owner@waterscco.com",
       "contactType": "construction",
       "confidence": 0.85,
-      "source": "https://watersconco.com/",
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00571",
       "evidence": [
-        "Company profile lists phone 916.594.8912 for WATERS CONSTRUCTION COMPANY LLC."
+        "Source-backed company phone listed for WATERS CONSTRUCTION COMPANY LLC."
       ]
     },
     "contacts": [
       {
+        "title": "General Contractor",
+        "company": "WATERS CONSTRUCTION COMPANY LLC",
+        "phone": "(916) 594-8912",
+        "email": "owner@waterscco.com",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00571",
+        "evidence": [
+          "Source-backed company phone listed for WATERS CONSTRUCTION COMPANY LLC."
+        ]
+      },
+      {
         "title": "Construction Office",
         "company": "WATERS CONSTRUCTION COMPANY LLC",
-        "phone": "916.594.8912",
+        "phone": "(916) 594-8912",
+        "email": "owner@waterscco.com",
         "contactType": "construction",
         "confidence": 0.85,
         "source": "https://watersconco.com/",
         "evidence": [
-          "Company profile lists phone 916.594.8912 for WATERS CONSTRUCTION COMPANY LLC."
+          "Company profile lists phone (916) 594-8912 for WATERS CONSTRUCTION COMPANY LLC.",
+          "Company profile lists email owner@waterscco.com for WATERS CONSTRUCTION COMPANY LLC."
+        ]
+      },
+      {
+        "company": "WATERS CONSTRUCTION COMPANY LLC",
+        "phone": "(916) 594-8912",
+        "email": "owner@waterscco.com",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1129256",
+        "evidence": [
+          "CSLB license 1129256 lists business phone (916) 594-8912. Source-backed email owner@waterscco.com found for WATERS CONSTRUCTION COMPANY LLC.",
+          "Website lists owner@waterscco.com."
         ]
       },
       {
@@ -531,16 +2638,69 @@
         ]
       }
     ],
-    "contact_count": 2,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   },
   {
     "company_profile_id": "company-west-coast-flooring",
     "company": "WEST COAST FLOORING",
     "company_type": "General Contractor",
-    "best_contact": null,
-    "contacts": [],
-    "contact_count": 0,
-    "last_verified": "2026-07-08T17:01:54.289Z"
+    "best_contact": {
+      "title": "General Contractor",
+      "company": "WEST COAST FLOORING",
+      "phone": "(209) 595-1950",
+      "contactType": "construction",
+      "confidence": 0.85,
+      "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00651",
+      "evidence": [
+        "Source-backed company phone listed for WEST COAST FLOORING."
+      ]
+    },
+    "contacts": [
+      {
+        "title": "General Contractor",
+        "company": "WEST COAST FLOORING",
+        "phone": "(209) 595-1950",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00651",
+        "evidence": [
+          "Source-backed company phone listed for WEST COAST FLOORING."
+        ]
+      },
+      {
+        "title": "Construction Office",
+        "company": "WEST COAST FLOORING",
+        "phone": "(209) 595-1950",
+        "contactType": "construction",
+        "confidence": 0.85,
+        "source": "Company profile",
+        "evidence": [
+          "Company profile lists phone (209) 595-1950 for WEST COAST FLOORING."
+        ]
+      },
+      {
+        "company": "WEST COAST FLOORING",
+        "phone": "(209) 595-1950",
+        "contactType": "corporate",
+        "confidence": 0.85,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876162",
+        "evidence": [
+          "CSLB license 876162 lists business phone (209) 595-1950."
+        ]
+      },
+      {
+        "title": "Generic Contact Form",
+        "company": "WEST COAST FLOORING",
+        "contactType": "vendor",
+        "confidence": 0.25,
+        "source": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876162",
+        "evidence": [
+          "Generic source-backed access route exists for WEST COAST FLOORING."
+        ]
+      }
+    ],
+    "contact_count": 4,
+    "last_verified": "2026-07-09T07:00:12.018Z"
   }
 ]

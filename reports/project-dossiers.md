@@ -1,6 +1,6 @@
 # Project Dossiers
 
-Generated: 2026-07-09T06:34:42.872Z
+Generated: 2026-07-09T06:57:35.194Z
 
 ## Gerber Creek Re-Alignment
 
@@ -240,62 +240,6 @@ Generated: 2026-07-09T06:34:42.872Z
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
-## install PVC membrane over existing roof
-
-- Project Summary: install PVC membrane over existing roof - 108, 131, or 132 inspection required prior to covering any work; install PVC membrane over existing roof - Re-Roof or Overlay
-- Associated Improvements: Roofing
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Roofing
-- Evidence Sources: Sacramento County Permits: RERC2026-00185 Commercial; Contractor Opportunity Record: install PVC membrane over existing roof
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
-
-## NEW (GATES) - 3401 BALMORAL DR
-
-- Project Summary: NEW (GATES) - 3401 BALMORAL DR - Furnish all materials and labor to bring entry gates up to building and fire code and obtain the necessary permits.
-- Associated Improvements: Utility work, Residential development infrastructure
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: CBNC2026-00169 Commercial; Contractor Opportunity Record: NEW (GATES) - 3401 BALMORAL DR
-- Fence Signals: Gate installation reference: NEW (GATES) - 3401 BALMORAL DR. (CBNC2026-00169 Commercial)
-- Evidence Snippets: NEW (GATES) - 3401 BALMORAL DR. (CBNC2026-00169 Commercial)
-- Why Fencing Is Relevant: A fencing contractor can bid gate installation work supported by source evidence: "NEW (GATES) - 3401 BALMORAL DR."
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## NEW (GATES) - 7575 POWER INN RD
-
-- Project Summary: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment.
-- Associated Improvements: Utility work, Residential development infrastructure, Utilities
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: CBNC2026-00207 Commercial; Contractor Opportunity Record: NEW (GATES) - 7575 POWER INN RD
-- Fence Signals: Fence installation reference: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); Fence package reference: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); Gate installation reference: NEW (GATES) - 7575 POWER INN RD. (CBNC2026-00207 Commercial)
-- Evidence Snippets: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); NEW (GATES) - 7575 POWER INN RD. (CBNC2026-00207 Commercial)
-- Why Fencing Is Relevant: A fencing contractor can bid because source documents specify gate and fencing installation: "NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment."
-- Confidence Reasoning: Primary Opportunity: 2 related evidence record(s), 3 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE
-
-- Project Summary: MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE - Like for Like 4 roof top Package unit change out
-- Associated Improvements: Utility work, Roofing, Mechanical
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Roofing, Mechanical
-- Evidence Sources: Sacramento County Permits: MISC2026-01229 Commercial; Contractor Opportunity Record: MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
-
 ## AREA: R01:  proposed 28'x40' pre fab metal ag storage building
 
 - Project Summary: AREA: R01: proposed 28'x40' pre fab metal ag storage building - proposed 28'x40' pre fab metal ag incidental storage building installed on a concrete foundation. engineering plans have been provided for both the foundation and structure. the proposed use is for storage of property maintenance tools, equipment, trailers, etc. no fire hazardous materials will be stored inside. no utilities are being proposed. - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
@@ -305,174 +249,6 @@ Generated: 2026-07-09T06:34:42.872Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNR2026-00564 Residential; Contractor Opportunity Record: AREA: R01:  proposed 28'x40' pre fab metal ag storage building
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## AREA: R06:  House Addition-Remodel
-
-- Project Summary: AREA: R06: House Addition-Remodel - 293 sqft addition (family extension and bath) and related remodel work in the Family Room area. - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
-- Associated Improvements: Utility work, Residential development infrastructure
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: CBNR2026-00562 Residential; Contractor Opportunity Record: AREA: R06:  House Addition-Remodel
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## DEMO (SHED) - 2736 AUBURN BLVD
-
-- Project Summary: DEMO (SHED) - 2736 AUBURN BLVD - (SUB-CASE TO DMOC2026-00022) Demo permits include structure and foundation/flat work only. No grading is included with this permit.; demolition of office building and shed - Demolition – Full Structure, Interior Walls, Bearing and Non-bearing
-- Associated Improvements: Earthwork, Site access improvements, Residential development infrastructure, Demolition, Site development
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Earthwork, Site access improvements, Residential development infrastructure, Demolition
-- Evidence Sources: Sacramento County Permits: DMOC2026-00045 Commercial; Contractor Opportunity Record: DEMO (SHED) - 2736 AUBURN BLVD
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## NEW (GATES) - 5800 FAIR OAKS BLVD
-
-- Project Summary: NEW (GATES) - 5800 FAIR OAKS BLVD - - Install 2 new electric gates and 1 pedestrian gate. Run power from the existing junction box to the gate motors. - Install security fence between the gate and building
-- Associated Improvements: Utility work, Residential development infrastructure, Mechanical, Utilities
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure, Mechanical
-- Evidence Sources: Sacramento County Permits: MISC2026-00862 Commercial; Contractor Opportunity Record: NEW (GATES) - 5800 FAIR OAKS BLVD
-- Fence Signals: Fence installation reference: - Install security fence between the gate and building. (MISC2026-00862 Commercial); Fence package reference: - Install security fence between the gate and building. (MISC2026-00862 Commercial); Gate installation reference: NEW (GATES) - 5800 FAIR OAKS BLVD. (MISC2026-00862 Commercial)
-- Evidence Snippets: - Install security fence between the gate and building. (MISC2026-00862 Commercial); - Install security fence between the gate and building. (MISC2026-00862 Commercial); NEW (GATES) - 5800 FAIR OAKS BLVD. (MISC2026-00862 Commercial)
-- Why Fencing Is Relevant: A fencing contractor can bid because source documents specify gate and fencing installation: "- Install security fence between the gate and building."
-- Confidence Reasoning: Primary Opportunity: 2 related evidence record(s), 3 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## SOLAR : AREA: R03:  Blossom Ridge-Plan 2230-Elevation C-Lot 8
-
-- Project Summary: SOLAR : AREA: R03: Blossom Ridge-Plan 2230-Elevation C-Lot 8 - Production Home 2230 SF -SFD (1) Story -(3) Bedroom (2.5) Bath -(525sf) Garage-(43sf) Covered Porch-(164sf) Covered patio Solar PV System Plan (2230 Elevation C) Option (Layout 2) KWDC (4.10) Panels (10) Master Plan Number MPCR2025-00034 - Residential/Single-Family/Duplex - Production Housing
-- Associated Improvements: Utility work, Residential development infrastructure
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: PHCR2026-00571 Residential; Contractor Opportunity Record: SOLAR : AREA: R03:  Blossom Ridge-Plan 2230-Elevation C-Lot 8
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## SOLAR : AREA: R03:  Blossom Ridge-Plan 2704-Elevation B-Lot 9
-
-- Project Summary: SOLAR : AREA: R03: Blossom Ridge-Plan 2704-Elevation B-Lot 9 - Production Home 2704 SF -SFD (2) Story -(3) Bedroom (2) Bath -(723sf) Garage-(135sf) Covered Porch-(233sf) Covered patio Solar PV System Plan (2704 Elevation B ) Option (Layout 3) KWDC (4.10) Panels (10) Master Plan Number MPCR2025-00035 - Residential/Single-Family/Duplex - Production Housing
-- Associated Improvements: Utility work, Residential development infrastructure
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: PHCR2026-00566 Residential; Contractor Opportunity Record: SOLAR : AREA: R03:  Blossom Ridge-Plan 2704-Elevation B-Lot 9
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## SOLAR : AREA: R03:  Blossom Ridge-Plan 2984-Elevation A-Lot 7
-
-- Project Summary: SOLAR : AREA: R03: Blossom Ridge-Plan 2984-Elevation A-Lot 7 - Production Home 2984 SF -SFD (2) Story -(3) Bedroom (2) Bath -(705sf) Garage-(60sf) Covered Porch-(214sf) Covered patio Solar PV System Plan (2984 Elevation A) Option (Layout 4) KWDC (4.51) Panels (11) Master Plan Number MPCR2025-00037 - Residential/Single-Family/Duplex - Production Housing
-- Associated Improvements: Utility work, Residential development infrastructure
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: PHCR2026-00573 Residential; Contractor Opportunity Record: SOLAR : AREA: R03:  Blossom Ridge-Plan 2984-Elevation A-Lot 7
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## SOLAR : AREA: R06:  New Home Construction
-
-- Project Summary: SOLAR : AREA: R06: New Home Construction - (N) 4BR 3BA SFD Conditioned Space- 4,469 sq ft Garage- 688 sq ft Covered porches- 662 sq ft - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
-- Associated Improvements: Utility work, Residential development infrastructure
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: CBNR2026-00576 Residential; Contractor Opportunity Record: SOLAR : AREA: R06:  New Home Construction
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY
-
-- Project Summary: SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY - 8.265 kW Mission Solar Energy with 1 Tesla Powerwall 3; 238 233 inspections are required prior to setting panels. SOLAR : Solar PV Installation
-- Associated Improvements: Utility work, Residential development infrastructure, Mechanical, Utilities
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure, Mechanical
-- Evidence Sources: Sacramento County Permits: MISC2026-01228 Commercial; Contractor Opportunity Record: SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## 1.	Updating the previously approved location of the shop on the site. 2.	Provide a revision letter for the new stem walls that will be required along the perimeter of the shop.
-
-- Project Summary: 1. Updating the previously approved location of the shop on the site. 2. Provide a revision letter for the new stem walls that will be required along the perimeter of the shop. - 1. Updating the previously approved location of the shop on the site. 2. Provide a revision letter for the new stem walls that will be required along the perimeter of the shop. - Building Plan Check Revision to Issued Permit Residential
-- Associated Improvements: Site access improvements, Residential development infrastructure, Site development
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Site access improvements, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: CBNR2025-01034-REV01 Residential; Contractor Opportunity Record: 1.	Updating the previously approved location of the shop on the site. 2.	Provide a revision letter for the new stem walls that will be required along the perimeter of the shop.
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## 259,635 tenant improvement for Cardinal Health
-
-- Project Summary: 259,635 tenant improvement for Cardinal Health - Demolition of existing wall and office. New office construction with exterior patio & canopy. New entrance security gate. New MEPF systems for new office & existing warehouse. - Tenant Improvement, Alteration, Apartment/Condo Kitchen-Bath Remodel
-- Associated Improvements: Residential development infrastructure, Demolition
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Residential development infrastructure, Demolition
-- Evidence Sources: Sacramento County Permits: CBAC2026-00334 Commercial; Contractor Opportunity Record: 259,635 tenant improvement for Cardinal Health
-- Fence Signals: Gate installation reference: New entrance security gate. (CBAC2026-00334 Commercial)
-- Evidence Snippets: New entrance security gate. (CBAC2026-00334 Commercial)
-- Why Fencing Is Relevant: A fencing contractor can bid gate installation work supported by source evidence: "New entrance security gate."
-- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## 8991 Golden Gate Ave: HVAC Changeout.
-
-- Project Summary: 8991 Golden Gate Ave: HVAC Changeout. - Changeout to existing HVAC system only. No additional electrical, mechanical, plumbing, or structural work permitted.; HVAC c/o like for like package unit 4 ton 13.4 SEER 80% AFUE 89K BTU - Residential HVAC (if structural design, apply for Miscellaneous Houses, Duplex, Townhome Mechanical
-- Associated Improvements: Residential development infrastructure, Mechanical
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Residential development infrastructure, Mechanical
-- Evidence Sources: Sacramento County Permits: HACR2026-01311 Residential; Contractor Opportunity Record: 8991 Golden Gate Ave: HVAC Changeout.
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## AREA: R01:  Magnolia	1184	70 Entry porch 134 Rear porch
-
-- Project Summary: AREA: R01: Magnolia 1184 70 Entry porch 134 Rear porch - New Accessory Dwelling Unit, Model "D Magnolia", (1184) S.F., Single Story, (70) S.F. Entry Porch, (134) S.F. Rear Covered Attached Patio - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
-- Associated Improvements: Utility work, Site access improvements, Residential development infrastructure, Roads / site access
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Site access improvements, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: CBNR2026-00563 Residential; Contractor Opportunity Record: AREA: R01:  Magnolia	1184	70 Entry porch 134 Rear porch
 - Fence Signals: None
 - Evidence Snippets: None
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
@@ -534,62 +310,6 @@ Generated: 2026-07-09T06:34:42.872Z
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
-## AREA: R03:  swimming pool remodel
-
-- Project Summary: AREA: R03: swimming pool remodel - DEMOLITION: X1. FULL STRIP OUT OF EXISTING INTERIOR FINISH X2. DEMO EXISTING WATERLINE TILE X3. REMOVE APPROX. 602 SQFT EXISTING CONCRETE AND POOL COPING X4. PRESSURE TEST & FLUSH PLUMBING (NOT SHOWN) STRUCTURAL: S1. INSTALL NEW TANNING SHELF STRUCTURAL DETAILS: #12 / RP1.0 S2. FIX STRUCTURAL CRACK IN POOL WALL PLUMBING / ELECTRICAL: P1. INSTALL CHANNEL DRAIN P2. INSTALL AUTOFILL P3. REMOVE & REPLACE (2) SKIMMERS P4. INSTALL (2) F/S WHITE (500 WATT) POOL LIGHTS TILE / MASONRY: T1. NEW WATERLINE TILE T2. NEW TRIM TILE DECKING: D1. POUR (N) CONCRETE & POOL COPING AREA (ON PLAN): 988 SQFT AREA (CONTRACT): 988 SQFT DECK DRAINAGE: 12.5' INTERIOR FINISH: I1. INSTALL NEW MICRO FUSION INTERIOR FINISH STRUCTURAL DETAIL SHEETS: RP1.0 POOL SPECS: AREA: 704 SQFT PERIMETER: 114' GALLONS: 26,900 STEPS & BENCHES: 47'-6" NEW EQUIPMENT: POOL LIGHTS: (2) F/S WHITE (500 WATT) (2) SKIMMERS + (1) AUTOFILL - Residential Swimming Pool, Spa, Repair or Replaster
-- Associated Improvements: Drainage improvements, Utility work, Residential development infrastructure, Demolition, Utilities, Drainage
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Drainage improvements, Utility work, Residential development infrastructure, Demolition
-- Evidence Sources: Sacramento County Permits: SPCR2026-00105 Residential; Contractor Opportunity Record: AREA: R03:  swimming pool remodel
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## AREA: R03:  Swimming Pool Remodel
-
-- Project Summary: AREA: R03: Swimming Pool Remodel - SCOPE OF WORK: DEMOLITION: X1. REMOVE 900 SQFT EXISTING CONCRETE X2. REMOVE EXISTING ROCK ON BEAM X3. PREP POOL FOR NEW INTERIOR STEEL / GUNITE: S1. ADD TOP STEP TO SPA S2. ADD CABO SHELF TO SHALLOW END S3. INSTALL NEW +12" R.B.B. (LEDGESTONE FACE) S4. REPAIR CRACK IN DEEP END PLUMBING / ELECTRICAL: P1. INSTALL NEW AUTOFILL P2. REPLACE POOL LIGHT (F/S WHITE) P3. REPLACE SPA LIGHT (F/S WHITE) P4. SPLIT EXISTING MAIN DRAINS P5. INSTALL NEW WATER FEATURE PUMP P6. INSTALL NEW BLOWER FOR SPA P7. INSTALL NEW PS-4 iAQUALINK P8. INSTALL (2) NEW 24" SHEER DESCENTS TILE / MASONRY: T1. INSTALL NEW WATERLINE TILE T2. INSTALL NEW TRIM TILE T3. INSTALL NEW TILE ON EXISTING +6" R.B.B. DECKING: D1. INSTALL 932 SQFT NEW CONCRETE DECKING INTERIOR FINISH: I1. INSTALL NEW INTERIOR FINISH (MICRO FUSION) ADDITIONAL SPECIFICATIONS: M1. INSTALL 60' POOL SAFETY FENCING W/ GATE M2. PRESSURE TEST AND FLUSH STRUCTURAL DETAIL SHEETS: RP1.0 POOL SPECS: AREA: 592 SQFT PERIMETER: 112' GALLONS: 17,800 STEPS & BENCHES: 72' SPA SPECS: AREA: 32 SQFT PERIMETER: 23' GALLONS: 500 NEW EQUIPMENT: PS-4 iAQUALINK PLUSHP PUMP FOR WATER FEATURE SPA BLOWER POOL LIGHT: (1) F/S WHITE LIGHT SPA LIGHT: (1) F/S WHITE LIGHT WATER FEATURE PUMP BLOWER FOR SPA PS-4 iAQUALINK (2) 24" SHEER DESCENTS - Residential Swimming Pool, Spa, Repair or Replaster
-- Associated Improvements: Utility work, Residential development infrastructure, Demolition, Utilities
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure, Demolition
-- Evidence Sources: Sacramento County Permits: SPCR2026-00127 Residential; Contractor Opportunity Record: AREA: R03:  Swimming Pool Remodel
-- Fence Signals: Fence installation reference: INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential); Fence package reference: INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential)
-- Evidence Snippets: INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential); INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential)
-- Why Fencing Is Relevant: A fencing contractor can bid because source documents specify gate and fencing installation: "INSTALL 60' POOL SAFETY FENCING W/ GATE M2."
-- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## AREA: R04:  Construction of a Steel Building
-
-- Project Summary: AREA: R04: Construction of a Steel Building - New Storage Building is 24ft by 35ft and 15ft tall at the peak.900sqft Concrete slab with 12"x12" perimeter footing with rebar per plans. Slab is roughly 24.5ft by 35.5ft. Building is 24ft by 35ft and 15ft tall at the peak. - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
-- Associated Improvements: Utility work, Residential development infrastructure
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: CBNR2026-00371 Residential; Contractor Opportunity Record: AREA: R04:  Construction of a Steel Building
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## AREA: R06:  Addition and remodel
-
-- Project Summary: AREA: R06: Addition and remodel - 323SF Addition - 400SF Covered Patio - Outdoor kitchen and fireplace - 2 bedroom & 2 bathroom remodel. Expand rear of house 8' towards back fence to approximately plane out with the existing bonus room off of the dining/family room. Existing rear bearing wall to be replaced with beams and columns, associated rooms are expanded out with new wall. Interior remodel of 2 restrooms and associated bedrooms. Create an out door covered patio with an outdoor kitchen and fireplace. - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
-- Associated Improvements: Utility work, Residential development infrastructure
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: CBNR2026-00481 Residential; Contractor Opportunity Record: AREA: R06:  Addition and remodel
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
-
 ## AREA: R06:  Demolition of existing house to framing and stemwalls.
 
 - Project Summary: AREA: R06: Demolition of existing house to framing and stemwalls. - Demo permits include structure and foundation/flat work only. No grading is included with this permit.; Home will need to be demolished. Vertical framing to remain. Roof and trusses will be removed. Existing perimeter and foundation to remain for later add on and rebuild. - Demolition – House, Shed, Pool or other Structure (NOT for fire repair)
@@ -604,57 +324,15 @@ Generated: 2026-07-09T06:34:42.872Z
 - Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
-## AREA: R07:  Extension of house, update roof geometry, new siding, remod
+## AREA: R06:  House Addition-Remodel
 
-- Project Summary: AREA: R07: Extension of house, update roof geometry, new siding, remod - Square footage addition, siding, new roof style, electrical, plumbing, - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
-- Associated Improvements: Utility work, Residential development infrastructure, Roofing
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure, Roofing
-- Evidence Sources: Sacramento County Permits: CBNR2026-00582 Residential; Contractor Opportunity Record: AREA: R07:  Extension of house, update roof geometry, new siding, remod
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
-
-## BEHRENS - SINGLE FAMILY DWELLING   PAPER SUBMITTAL
-
-- Project Summary: BEHRENS - SINGLE FAMILY DWELLING PAPER SUBMITTAL - SINGLE FAMILY DWELLING Associated PLN19-00334/PLN21-00051 LIVING---------2,846sf GARAGE--------722sf DECK----------1,017sf PORCH-----------77sf 02/17/21 added 108 sq. ft. rear deck 617 BEAR BIN Deferred Submittal: Fire Sprinklers, Gas Plan (approved and onsite before rough inspection) Special Inspection REQUIRED- Soil before Steel (see p.18 Geotech), Shear Walls, Shop Fabricator 10/27/20 REVISED ENERGY FORMS. CalCERTS REG# 219-P010270436C Revised plans adding windows. propane tank underground and rear deck addition and layout change NLR 02/18/21 - Single Family > 3000
-- Associated Improvements: Site access improvements, Residential development infrastructure, Site development
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Site access improvements, Residential development infrastructure
-- Evidence Sources: Placer County Active Building Permits: BLD19-06467-6032 Single Family > 3000; Contractor Opportunity Record: BEHRENS - SINGLE FAMILY DWELLING   PAPER SUBMITTAL
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## Blakely Remodel/Addition***Digital Submittal***
-
-- Project Summary: Blakely Remodel/Addition***Digital Submittal*** - Addition/ Remodel Add 242 sf of living area on lower level (Bedroom) Relocate interior stairs Remodel kitchen and lower level bath, add 2nd level bathroom Add new Deck Install a concrete foundation to replace the 1929 wood sleepers Reroof/ Reside/ Replace Windows WUI REQUIRED - Residential Addition > 3000
-- Associated Improvements: Residential development infrastructure, Roofing
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Residential development infrastructure, Roofing
-- Evidence Sources: Placer County Active Building Permits: TRP20-90274-6014 Residential Addition > 3000; Contractor Opportunity Record: Blakely Remodel/Addition***Digital Submittal***
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
-
-## Building Compliance: AREA: R05:  CARPORT
-
-- Project Summary: Building Compliance: AREA: R05: CARPORT - Building Compliance - OBTAIN PERMIT FOR EXISTING CARPORT BUILT ON PROPERTY. MOVE CARPORT 3FT FROM FENCE/PROPERTY LINE - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
+- Project Summary: AREA: R06: House Addition-Remodel - 293 sqft addition (family extension and bath) and related remodel work in the Family Room area. - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
 - Associated Improvements: Utility work, Residential development infrastructure
 - Related Development: Related residential development identified
 - Developer: Unknown
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: CBNR2026-00494 Residential; Contractor Opportunity Record: Building Compliance: AREA: R05:  CARPORT
+- Evidence Sources: Sacramento County Permits: CBNR2026-00562 Residential; Contractor Opportunity Record: AREA: R06:  House Addition-Remodel
 - Fence Signals: None
 - Evidence Snippets: None
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
@@ -674,145 +352,19 @@ Generated: 2026-07-09T06:34:42.872Z
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
-## GARCIA - REMODEL / CONVERSION
+## DEMO (SHED) - 2736 AUBURN BLVD
 
-- Project Summary: GARCIA - REMODEL / CONVERSION - R-3 VB Bath #1 (New Counter Tops, Tub and Surround). Bath #2 (Relocate Toilet, New Counter Tops, Shower Pan and Surround). Kitchen (New Countertops, Sink and Appliances). Garage Conversion (New Bathroom, New Bedroom and New Laundry/Utility Room). Front Exterior (Replace limited T-111 with Stucco to Match Existing). **NO WUI UNLESS REPLACING ALL (E) ROOFING, WINDOWS AND SIDING.** GARAGE CONVERSION TO LIVING - 434 SF REMODEL - 716 SF PLAN SUBMITTAL REVIEWED - PFH **** REVISION: PROJECT TO INCLUDE MSP CHANGEOUT 200A TO 200A - Residential Alteration or Remodel
-- Associated Improvements: Utility work, Site access improvements, Residential development infrastructure, Roofing, Utilities, Site development
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Site access improvements, Residential development infrastructure, Roofing
-- Evidence Sources: Placer County Active Building Permits: BLD21-01537-6051 Residential Alteration or Remodel; Contractor Opportunity Record: GARCIA - REMODEL / CONVERSION
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
-
-## GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143
-
-- Project Summary: GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143 - GLEN WILLOW RIOLO VINEYARDS PHASE 2 MASTER PLAN 1718 MODEL #2 BLD21-00114 R-3 VB LIVING 1718 SQ' GARAGE 423 SQ' PORCH (OPTION 2) 92 SQ' SPECIAL INSPECTIONS - SEE PLAN COVER SHEET QII INSULATION PV SYSTEM (12 PANELS) 3.31 kWdc SPRINKLERS REQUIRED STRUCTURAL OBSERVATION IS REQUIRED ON ALL MODEL HOMES. (FOUNDATION, SHEAR AND ROUGH FRAME) START-UP OF PRODUCTION HOMES WILL REQUIRE THE FIRST TWO HOMES OF EACH PLAN TO HAVE STRUCTURAL OBSERVATIONS. SPL-RVSP LOW DENSITY RESIDENTIAL FRONT=FROM BACK OF SIDEWALK TO LIVING SPACE/COURTYARD/PORCH=15' -TO FRONT ENTRY GARAGE=20' -TO SIDE ENTRY GARAGE=15' -TO ACCESSORY STRUCTURE=20' SIDE =FROM PROPERTY LINE TO PRIMARY BUILDING=5' TO ACCESSORY STRUCTURE (INTERIOR LOT)=3' =FROM BACK OF SIDEWALK TO PRIMARY BUILDING (CORNER LOT, STREET SIDE)=15' TO ACCESSORY STRUCTURE (CORNER LOT, STREET SIDE)=15' REAR=FROM THE PROPERTY LINE TO THE PRIMARY BUILDING=15' TO PORCH/COVERED PATIO=10' TO ACCESSORY STRUCTURE=3' PLAN CHECK COMPLETE - PFH 5/11/2021 --------------------------------------------------------------------------------------------------------------- PV REV.1 - ADDED EQUIPMENT ON LAYOUTS PER SMUD UTILITY REQS - SENT TO SHUMS CODA 11/09/2021. -BH SHUMS CODA FINAL REVIEW RECEIVED 11/17/2021 --------------------------------------------------------------------------------------------------------------- PV REV.2 - REVISED SETBACKS TO MEET CODE FOR ADDED EQUIPMENT ON LAYOUTS PER SMUD UTILITY REQS - SENT TO SHUMS CODA 12/28/2021. -BH PV REV.2 REVIEWED BY SHUMS CODA 01/04/2022. -BH --------------------------------------------------------------------------------------------------------------- REV.3 FRAMEWALK - MINOR INTERIOR CHANGES DONE AFTER WALKING HOMES AT FRAME STAGE. PLEASE REFER TO THE FRAMEWALK REVISION LETTER FOR SPECIFICS. 01/20/02022. -BH - Single Family < 3000
-- Associated Improvements: Utility work, Site access improvements, Residential development infrastructure, Roads / site access, Utilities, Site development
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Site access improvements, Residential development infrastructure
-- Evidence Sources: Placer County Active Building Permits: BLD22-00878-6039 Single Family < 3000; Contractor Opportunity Record: GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## HAM - ENERGY STORAGE
-
-- Project Summary: HAM - ENERGY STORAGE - RESIDENTIAL ENERGY STORAGE (E) PV OUTPUT: 16 KW DC (N) ENERGY STORAGE: 54 KWh PANEL MAIN AMPERAGE: 400 MSP (SPLIT 200) PANEL CHANGEOUT: NO SYSTEM 1: (2) ESS: TESLA POWERWALL 2.0 (E) 125A GENERATION PANEL W/ 100A MCB, (2) 30A ESS BREAKERS & 35A PV BREAKER (N) 200A ATS: TESLA BACKUP GATEWAY (E) 200A SUB PANEL W/ 200A MCB (N) 200A AC DISCONNECT (E) 400A MSP W/ 200A MCB SYSTEM 2: (2) ESS: TESLA POWERWALL 2.0 (N) 125A GENERATION PANEL W/ 125A MCB, (2) 30A ESS BREAKERS & (2) 30A PV BREAKERS (N) 200A ATS: TESLA BACKUP GATEWAY (E) 200A SUB PANEL W/ 200A MCB (E) 400A MSP W/ 200A MCB TRENCHING: NO NULL - Electrical
-- Associated Improvements: Utility work, Residential development infrastructure, Utilities
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Placer County Active Building Permits: BLD20-02032-6046 Electrical; Contractor Opportunity Record: HAM - ENERGY STORAGE
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## Hopkins Village - Lot 29 ***DIGITAL REVIEW***
-
-- Project Summary: Hopkins Village - Lot 29 ***DIGITAL REVIEW*** - Third party APEX review New pre-fabricated residential home with attached garage. Living space-------------------------1936 sf Garage/storage---------------------256 sf Uncovered Decks/Porches------116 sf Covered Decks/Porches----------21 sf Verified by Apex 08/04/21 Separate permit required for PV Solar System Special Inspection Required Structural Observation Required 617 Bear Bin 622 CWM Plan - Duplex
-- Associated Improvements: Utility work, Residential development infrastructure
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Placer County Active Building Permits: BLD21-02807-6058 Duplex; Contractor Opportunity Record: Hopkins Village - Lot 29 ***DIGITAL REVIEW***
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## HURLEY ADDITION
-
-- Project Summary: HURLEY ADDITION - ADDITION (R-3) LIVING ---------------------------------------------------------------------------- 1734 SQFT COVERED DECKS/PORCH -------------------------------------------------- 734 SQFT REMODEL AREA----------------------------------------------------------------1572 SQFT. GARAGE CONVERSION---------------------------------------------------------50 SQFT. 5ea. BATHROOMS KITCHEN REMOVE AND REPLACE ALL WINDOWS AND DOORS RESTUCCO ENTIRE HOUSE NEW ROOF NEW TRUSS A/C HERS VERIFICATION (QII) SB407 REQUIRED TP - Residential Addition > 3000
-- Associated Improvements: Residential development infrastructure, Roofing
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Residential development infrastructure, Roofing
-- Evidence Sources: Placer County Active Building Permits: BLD18-01308-5996 Residential Addition > 3000; Contractor Opportunity Record: HURLEY ADDITION
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
-
-## Ko - Garage Addition***Digital Submittal***
-
-- Project Summary: Ko - Garage Addition***Digital Submittal*** - Voluntary Third Party Review- Apex TRPA MOU PROJECT Garage Addtion with Living Above, Reroof Existing SFD, Rebuild Deck/Stair Living--------------506sf Garage------------432sf Deck---------------305sf Special Inspection Required - Residential Addition > 3000
-- Associated Improvements: Residential development infrastructure, Roofing
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Residential development infrastructure, Roofing
-- Evidence Sources: Placer County Active Building Permits: TRP21-90022-6050 Residential Addition > 3000; Contractor Opportunity Record: Ko - Garage Addition***Digital Submittal***
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241
-
-- Project Summary: LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241 - LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241 R-3 / U VB MASTER PLAN Placer Vineyards 1A - 1712A Plan #3 - #BLD20-06700 Living: 1712 SQ Ft Garage: 475 SQ Ft Covered Porch “A”: 120 SQ Ft Covered Patio: 186 SQ Ft SPECIAL INSPECTION - SHEAR WALL QII INSULATION PV SYSTEM (7 PANELS) SPRINKLERS REQUIRED STRUCTURAL OBSERVATION IS REQUIRED ON ALL MODEL HOMES. (FOUNDATION, SHEAR AND ROUGH FRAME) START-UP OF PRODUCTION HOMES WILL REQUIRE THE FIRST TWO HOMES OF EACH PLAN TO HAVE STRUCTURAL OBSERVATIONS. SPL-PVSP MIN SETBACKS FRONT: 10' MIN TO PORCH 12' MIN TO LIVING SPACE OR SIDE WALL OF GARAGE 20' MIN. DRIVEWAY DEPTH WITH ROLL-UP GARAGE DOOR SIDE: 5' MIN INTERIOR 12' MIN STREET SIDE ON 45' & 55' CORNER LOTS 15' MIN STREET SIDE 65' CORNER LOTS REAR: 10' MIN. -OUT OF ANY EASEMENTS. -NOT TO DISTURB DRAINAGE WITHOUT GRADING PERMITS. - Single Family < 3000
-- Associated Improvements: Earthwork, Drainage improvements, Site access improvements, Residential development infrastructure, Roads / site access, Drainage, Site development
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Earthwork, Drainage improvements, Site access improvements, Residential development infrastructure
-- Evidence Sources: Placer County Active Building Permits: BLD22-00093-5990 Single Family < 3000; Contractor Opportunity Record: LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
-
-## LEVCO - DETACHED GARAGE
-
-- Project Summary: LEVCO - DETACHED GARAGE - U V-B DETACHED ACCESSORY STRUCTURE GARAGE: 840 SQ FT ELECTRICAL SRA MODERATE: WUI APPLIES DEFENSIBLE SPACE INSPECTION BY PLACER HILLS F.P.D. SPECIAL INSPECTION REQUIRED FOR SHEAR WALL NAILING GRADING PERMIT ESD21-00129 - Garage Detached
-- Associated Improvements: Earthwork, Site access improvements, Residential development infrastructure, Roads / site access, Site development
+- Project Summary: DEMO (SHED) - 2736 AUBURN BLVD - (SUB-CASE TO DMOC2026-00022) Demo permits include structure and foundation/flat work only. No grading is included with this permit.; demolition of office building and shed - Demolition – Full Structure, Interior Walls, Bearing and Non-bearing
+- Associated Improvements: Earthwork, Site access improvements, Residential development infrastructure, Demolition, Site development
 - Related Development: Unknown
 - Developer: Unknown
 - Applicant: Unknown
-- Work Categories: Earthwork, Site access improvements, Residential development infrastructure
-- Evidence Sources: Placer County Active Building Permits: BLD21-01556-6010 Garage Detached; Contractor Opportunity Record: LEVCO - DETACHED GARAGE
+- Work Categories: Earthwork, Site access improvements, Residential development infrastructure, Demolition
+- Evidence Sources: Sacramento County Permits: DMOC2026-00045 Commercial; Contractor Opportunity Record: DEMO (SHED) - 2736 AUBURN BLVD
 - Fence Signals: None
 - Evidence Snippets: None
 - Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## Lieberman Addition
-
-- Project Summary: Lieberman Addition - OUTSOURCED PLAN CHECK BY 4LEAF Addition in crawlspace, remodel, decks NEW CRAWLSPACE---------------184sf Remodel-----------------------1,740sf Deck------------------------------484sf GARAGE REMODEL--------658sf one Kitchen two Bathrooms TRPA MOU PROJECT SPECIAL INSPECTION REQ. STRUCTURAL INSPECTION BY GABBART & WOODS OK BY DAVE PRIOR TO ISSUANCE OF REVISED PLANS (3-7-19) - Residential Addition > 3000
-- Associated Improvements: Residential development infrastructure
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Residential development infrastructure
-- Evidence Sources: Placer County Active Building Permits: TRP18-90133-6027 Residential Addition > 3000; Contractor Opportunity Record: Lieberman Addition
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## MASTER PLAN Placer Vineyards 1A - 2756 Plan #11
-
-- Project Summary: MASTER PLAN Placer Vineyards 1A - 2756 Plan #11 - R-3 / U VB MASTER PLAN Placer Vineyards 1A - 2756 Plan #11 Living: 2756 SQ Ft 1-Car Garage: 246 SQ Ft 2-Car Garage: 493 SQ Ft Covered Porch “A” & “C”: 52 SQ Ft Covered Porch “D”: 78 SQ Ft Covered Patio: 152 SQ Ft SPECIAL INSPECTION - SHEAR WALL QII INSULATION PV SYSTEM (7 PANELS) SPRINKLERS REQUIRED STRUCTURAL OBSERVATION IS REQUIRED ON ALL MODEL HOMES. (FOUNDATION, SHEAR AND ROUGH FRAME) START-UP OF PRODUCTION HOMES WILL REQUIRE THE FIRST TWO HOMES OF EACH PLAN TO HAVE STRUCTURAL OBSERVATIONS. PLAN CHECK COMPLETE - PFH 2/17/2021 -------------------------------------------------------------------------------------------------------------------- ALTERNATIVE MANUFACTURER TRUSS CALCS 08/05/2021. -BH -------------------------------------------------------------------------------------------------------------------- REV.1 FRAMEWALK SHUMS CODA FINAL REVIEW 09/23/2021. -BH *** REV.1 REVISION SUMMARY TO BE ON-SITE FOR REERENCE *** ------------------------------------------------------------------------------------------------------------------- REV 2: REVISED PV SYSTEM SIZE/EQUIPMENT - 3/21/22 - MP SYSTEM A: 3.42 KW DC: (9) HANWHA Q.PEAK DUO BLK ML-G9 380 W/ (9) IQ7PLUS-72-2-US SYSTEM B: 3.60 KW DC: (9) HANWHA Q.PEAK DUO BLK ML-G10 400 W/ (9) (9) IQ7PLUS-72-2-US - Single Family < 3000
-- Associated Improvements: Site access improvements, Residential development infrastructure, Site development
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Site access improvements, Residential development infrastructure
-- Evidence Sources: Placer County Active Building Permits: BLD20-06713-6023 Single Family < 3000; Contractor Opportunity Record: MASTER PLAN Placer Vineyards 1A - 2756 Plan #11
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## MECH (HVAC C/O) - 7460 PERSIMMON AVE
 
@@ -828,89 +380,103 @@ Generated: 2026-07-09T06:34:42.872Z
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
-## MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS -  LOT 84
+## NEW (GATES) - 3401 BALMORAL DR
 
-- Project Summary: MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS - LOT 84 - WOODSIDE HOMES - BRADY VINEYARDS - LOT 84 MODEL HOME BRADY VINEYARDS 60'S PLAN #3 - Master Plan BLD21-04192 R-3/U VB CWM PLAN TO BE COMPLETED AND ON-SITE AT FIRST INSPECTION LIVING 2930 SQ' GARAGE 699 SQ' PORCH 37 SQ' ENLARGED CALIFORNIA ROOM 323 SQ' LRA - NO WUI NO DEFENSIBLE SPACE INSPECTION REQUIRED SPRINKLER REVIEW AND INSPECTION - PLACER COUNTY BUILDING DIVISION SPECIAL INSPECTION: POST INSTALLED ANCHORS AND STRUCTURAL WOOD STRUCTURAL OBSERVATION BY E.O.R. AT FRAME AND SHEAR AT MODELS ONLY QII WITH HERS VERIFICATION REQUIRED PV SYSTEM SIZE - 5.95KW (17) MODULES - SUNPOWER SPR-X21-350-BLK-E-AC (17) INTEGRATED MICROINVERTERS - SPR-X21-350-BLK-E-AC (240) (1) 13 KWH SUNVAULT ENERGY STORAGE SYSTEM MODEL: SV-BASE13-12-A (1) 70 AMP BACK UP LOAD CENTER 200 AMP MAIN PANEL 20 AMP 2P PV OCPD RACKING - INVISAMOUNT Brady Vineyards Front: 12.5' minimum to front of porch 15' minimum to front of single-story portion of residence 20' minimum to front of two-story portion of residence 20' minimum to garage doors 10' to the side of a garage for side-loading garages Note: Corner lots have one 'front' and one 'street-side' setback Side: 5' for single-story portion of residence or a structure 7.5' for two story portion of residence Street-side: 12.5' to side of residence (both single and two-story portions) 12.5' for fence or structure Rear: 10' for single-story portion of a residence or a structure 20' for two-story portion of residence - Single Family < 3000
-- Associated Improvements: Utility work, Site access improvements, Residential development infrastructure, Roads / site access, Utilities, Site development
+- Project Summary: NEW (GATES) - 3401 BALMORAL DR - Furnish all materials and labor to bring entry gates up to building and fire code and obtain the necessary permits.
+- Associated Improvements: Utility work, Residential development infrastructure
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: CBNC2026-00169 Commercial; Contractor Opportunity Record: NEW (GATES) - 3401 BALMORAL DR
+- Fence Signals: Gate installation reference: NEW (GATES) - 3401 BALMORAL DR. (CBNC2026-00169 Commercial)
+- Evidence Snippets: NEW (GATES) - 3401 BALMORAL DR. (CBNC2026-00169 Commercial)
+- Why Fencing Is Relevant: A fencing contractor can bid gate installation work supported by source evidence: "NEW (GATES) - 3401 BALMORAL DR."
+- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## NEW (GATES) - 5800 FAIR OAKS BLVD
+
+- Project Summary: NEW (GATES) - 5800 FAIR OAKS BLVD - - Install 2 new electric gates and 1 pedestrian gate. Run power from the existing junction box to the gate motors. - Install security fence between the gate and building
+- Associated Improvements: Utility work, Residential development infrastructure, Mechanical, Utilities
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure, Mechanical
+- Evidence Sources: Sacramento County Permits: MISC2026-00862 Commercial; Contractor Opportunity Record: NEW (GATES) - 5800 FAIR OAKS BLVD
+- Fence Signals: Fence installation reference: - Install security fence between the gate and building. (MISC2026-00862 Commercial); Fence package reference: - Install security fence between the gate and building. (MISC2026-00862 Commercial); Gate installation reference: NEW (GATES) - 5800 FAIR OAKS BLVD. (MISC2026-00862 Commercial)
+- Evidence Snippets: - Install security fence between the gate and building. (MISC2026-00862 Commercial); - Install security fence between the gate and building. (MISC2026-00862 Commercial); NEW (GATES) - 5800 FAIR OAKS BLVD. (MISC2026-00862 Commercial)
+- Why Fencing Is Relevant: A fencing contractor can bid because source documents specify gate and fencing installation: "- Install security fence between the gate and building."
+- Confidence Reasoning: Primary Opportunity: 2 related evidence record(s), 3 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## NEW (GATES) - 7575 POWER INN RD
+
+- Project Summary: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment.
+- Associated Improvements: Utility work, Residential development infrastructure, Utilities
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: CBNC2026-00207 Commercial; Contractor Opportunity Record: NEW (GATES) - 7575 POWER INN RD
+- Fence Signals: Fence installation reference: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); Fence package reference: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); Gate installation reference: NEW (GATES) - 7575 POWER INN RD. (CBNC2026-00207 Commercial)
+- Evidence Snippets: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); NEW (GATES) - 7575 POWER INN RD. (CBNC2026-00207 Commercial)
+- Why Fencing Is Relevant: A fencing contractor can bid because source documents specify gate and fencing installation: "NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment."
+- Confidence Reasoning: Primary Opportunity: 2 related evidence record(s), 3 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## SOLAR : AREA: R03:  Blossom Ridge-Plan 2230-Elevation C-Lot 8
+
+- Project Summary: SOLAR : AREA: R03: Blossom Ridge-Plan 2230-Elevation C-Lot 8 - Production Home 2230 SF -SFD (1) Story -(3) Bedroom (2.5) Bath -(525sf) Garage-(43sf) Covered Porch-(164sf) Covered patio Solar PV System Plan (2230 Elevation C) Option (Layout 2) KWDC (4.10) Panels (10) Master Plan Number MPCR2025-00034 - Residential/Single-Family/Duplex - Production Housing
+- Associated Improvements: Utility work, Residential development infrastructure
 - Related Development: Related residential development identified
 - Developer: Unknown
 - Applicant: Unknown
-- Work Categories: Utility work, Site access improvements, Residential development infrastructure
-- Evidence Sources: Placer County Active Building Permits: BLD21-07259-6036 Single Family < 3000; Contractor Opportunity Record: MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS -  LOT 84
+- Work Categories: Utility work, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: PHCR2026-00571 Residential; Contractor Opportunity Record: SOLAR : AREA: R03:  Blossom Ridge-Plan 2230-Elevation C-Lot 8
 - Fence Signals: None
 - Evidence Snippets: None
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
-## PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE
+## SOLAR : AREA: R03:  Blossom Ridge-Plan 2704-Elevation B-Lot 9
 
-- Project Summary: PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE - B,DIV.2 - VACANT. **ELECTRONIC SUBMITTAL - PIONEER PROGRAM TO INTERWEST** III-N.NR THIS PROJECT IS BEING PHASED Scope includes all seismic upgrades required for existing 71,355 SF vacant building at 3625 Cincinnati Ave, Rocklin, CA. Seismic upgrades will include: new braces frames; new columns/foundations to strengthen roof framing; re-nail roof diaphragm; connections between roof member throughout building; strengthening of the 4x12’s and Glu-Lams; additional roof to wall connections; improve panel to panel connections; frame in existing mechanical openings; new openings and infill at existing openings; dry rot repairs at roof. Included in this package are Building Envelope improvements including: complete roof replacement with TPO roof and insulation; parapet details for updated south parapet to meet code distance requirement from adjacent building; replacement and/or addition of scuppers, downspouts and overflows; exterior window replacement; infill and new Openings at existing concrete wall for tenant improvement floor plan; and infill at the niche between the existing 1979 building and the 1986 addition. LRA - NO WUI FULLY SPRINKELED PLACER COUNTY FIRE P.D. . **SPECIAL INSPECTIONS REQUIRED - SEE APPROVED AGREEMENT FOR DETAILS** ----------------------------------------------------------------------------------------------------------------------------------- REV1 ENGINEER JUDGEMENT FOR FIRE RATING OF JOINT ASSEMBLY AT EXTERIOR CONCRETE PANELS - FINAL REVIEW BY INTERWEST 03/22/2022. -BH - Warehouse TI
-- Associated Improvements: Residential development infrastructure, Roofing, Mechanical
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Residential development infrastructure, Roofing, Mechanical
-- Evidence Sources: Placer County Active Building Permits: BLD21-03502-6056 Warehouse TI; Contractor Opportunity Record: PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
-
-## PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping
-
-- Project Summary: PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping - R-3 VB ELECTRICAL SERVICE PEDESTAL COMMUNITY ENTRY GATES SIGN MONUMENTS AND LANDSCAPE LIGHTING PLAN CHECK COMPLETE - PFH 6/30/2020 - Commercial Electrical Service
-- Associated Improvements: Residential development infrastructure
+- Project Summary: SOLAR : AREA: R03: Blossom Ridge-Plan 2704-Elevation B-Lot 9 - Production Home 2704 SF -SFD (2) Story -(3) Bedroom (2) Bath -(723sf) Garage-(135sf) Covered Porch-(233sf) Covered patio Solar PV System Plan (2704 Elevation B ) Option (Layout 3) KWDC (4.10) Panels (10) Master Plan Number MPCR2025-00035 - Residential/Single-Family/Duplex - Production Housing
+- Associated Improvements: Utility work, Residential development infrastructure
 - Related Development: Related residential development identified
 - Developer: Unknown
 - Applicant: Unknown
-- Work Categories: Residential development infrastructure
-- Evidence Sources: Placer County Active Building Permits: BLD20-02647-5997 Commercial Electrical Service; Contractor Opportunity Record: PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping
+- Work Categories: Utility work, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: PHCR2026-00566 Residential; Contractor Opportunity Record: SOLAR : AREA: R03:  Blossom Ridge-Plan 2704-Elevation B-Lot 9
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Electrical / landscape lighting; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
-
-## POTTER - RESIDENTIAL REROOF
-
-- Project Summary: POTTER - RESIDENTIAL REROOF - REMOVE EXISTING ROOF AND DECKING. INSTALL NEW OSB, RADIANT BARRIER, ICE AND WATER BARRIER, SYNTHETIC UNDERLAYMENT, 17 SQUARES OF OWENS CORNING TRUDEFINITION DURATION COOL COMPOSITION SHINGLES, ATTIC VENTS, NEW PIPE FLASHING, PAINT FLASHING TO MATCH. STRUCTURE: DWELLING MATERIAL / ASSEMBLY: COMP CURRENT ROOF: COMP OVERLAYING EXISTING: No # OF EXISTING LAYERS: 1 - Reroof
-- Associated Improvements: Utility work, Residential development infrastructure, Roofing, Utilities
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure, Roofing
-- Evidence Sources: Placer County Active Building Permits: BLD21-03519-6007 Reroof; Contractor Opportunity Record: POTTER - RESIDENTIAL REROOF
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
-## PRESBYTERIAN CHURCH PATIO COVER
+## SOLAR : AREA: R03:  Blossom Ridge-Plan 2984-Elevation A-Lot 7
 
-- Project Summary: PRESBYTERIAN CHURCH PATIO COVER - A-3 VB NEW PATIO COVER 1223 SQ FT. NEW CONCRETE PATIO REQUIRE WUI NO UTILITIES REVIEWED BY PFH AND KC - Non-Residential Accessory
-- Associated Improvements: Site access improvements, Residential development infrastructure, Roads / site access
+- Project Summary: SOLAR : AREA: R03: Blossom Ridge-Plan 2984-Elevation A-Lot 7 - Production Home 2984 SF -SFD (2) Story -(3) Bedroom (2) Bath -(705sf) Garage-(60sf) Covered Porch-(214sf) Covered patio Solar PV System Plan (2984 Elevation A) Option (Layout 4) KWDC (4.51) Panels (11) Master Plan Number MPCR2025-00037 - Residential/Single-Family/Duplex - Production Housing
+- Associated Improvements: Utility work, Residential development infrastructure
 - Related Development: Related residential development identified
 - Developer: Unknown
 - Applicant: Unknown
-- Work Categories: Site access improvements, Residential development infrastructure
-- Evidence Sources: Placer County Active Building Permits: BLD20-02541-6029 Non-Residential Accessory; Contractor Opportunity Record: PRESBYTERIAN CHURCH PATIO COVER
+- Work Categories: Utility work, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: PHCR2026-00573 Residential; Contractor Opportunity Record: SOLAR : AREA: R03:  Blossom Ridge-Plan 2984-Elevation A-Lot 7
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
-## SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115
+## SOLAR : AREA: R06:  New Home Construction
 
-- Project Summary: SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115 - install one (1) non-illuminated wall sign - Signs
-- Associated Improvements: Residential development infrastructure
-- Related Development: Unknown
+- Project Summary: SOLAR : AREA: R06: New Home Construction - (N) 4BR 3BA SFD Conditioned Space- 4,469 sq ft Garage- 688 sq ft Covered porches- 662 sq ft - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
+- Associated Improvements: Utility work, Residential development infrastructure
+- Related Development: Related residential development identified
 - Developer: Unknown
 - Applicant: Unknown
-- Work Categories: Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: SGNC2026-00065 Commercial; Contractor Opportunity Record: SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115
+- Work Categories: Utility work, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: CBNR2026-00576 Residential; Contractor Opportunity Record: SOLAR : AREA: R06:  New Home Construction
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## SOLAR : Rooftop Solar
 
@@ -926,14 +492,294 @@ Generated: 2026-07-09T06:34:42.872Z
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
 
-## AREA: R03:  Replace all windows & install siding on front of home
+## 259,635 tenant improvement for Cardinal Health
 
-- Project Summary: AREA: R03: Replace all windows & install siding on front of home - Install new T-111 Harding siding on front of home with new T-111 over existing. Includes 1/2" insulation Replace 14 windows & 2 patio slider. All like for like in size and location. Install w/ nail fin & siding trim - Repairs, including Replacing Windows or Siding, Fire, or other repairs
-- Associated Improvements: Mechanical
+- Project Summary: 259,635 tenant improvement for Cardinal Health - Demolition of existing wall and office. New office construction with exterior patio & canopy. New entrance security gate. New MEPF systems for new office & existing warehouse. - Tenant Improvement, Alteration, Apartment/Condo Kitchen-Bath Remodel
+- Associated Improvements: Residential development infrastructure, Demolition
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure, Demolition
+- Evidence Sources: Sacramento County Permits: CBAC2026-00334 Commercial; Contractor Opportunity Record: 259,635 tenant improvement for Cardinal Health
+- Fence Signals: Gate installation reference: New entrance security gate. (CBAC2026-00334 Commercial)
+- Evidence Snippets: New entrance security gate. (CBAC2026-00334 Commercial)
+- Why Fencing Is Relevant: A fencing contractor can bid gate installation work supported by source evidence: "New entrance security gate."
+- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115
+
+- Project Summary: SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115 - install one (1) non-illuminated wall sign - Signs
+- Associated Improvements: Residential development infrastructure
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: SGNC2026-00065 Commercial; Contractor Opportunity Record: SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## AREA: R03:  Like-for-like replacement of tankless water heater and gas
+
+- Project Summary: AREA: R03: Like-for-like replacement of tankless water heater and gas - Removed existing tankless water heater and installed new Navien tankless water heater (199,000 BTU) in the same location inside garage (like-for-like replacement). Upgraded gas supply by installing new corrugated stainless steel (CSST) gas line routed under the house from existing gas meter to the unit to meet required capacity. Completed gas connection, mounting, and startup. All work completed to code. - Miscellaneous Electrical, Plumbing, Mechanical, Solar/PV, Electric Vehicle Charger, Generator (NOT for Remodels)
+- Associated Improvements: Utility work, Residential development infrastructure, Mechanical, Utilities
 - Related Development: Related residential development identified
 - Developer: Unknown
 - Applicant: Unknown
-- Work Categories: Mechanical
+- Work Categories: Utility work, Residential development infrastructure, Mechanical
+- Evidence Sources: Sacramento County Permits: MISR2026-01474 Residential; Contractor Opportunity Record: AREA: R03:  Like-for-like replacement of tankless water heater and gas
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
+
+## AREA: R05:  Repipe house drain system
+
+- Project Summary: AREA: R05: Repipe house drain system - Repipe house drain system. Cut out all horizontal cast iron pipe through out house. Install ABS pipe & fittings for 2-bath, 1-kitchen, 1-laundry room. Strap pipe good to use UPC code transition fittings. Test System Replace all horizontal hot a& cold water lines through out house. To use UPC code transition brass fittings to tie into risers. New Brass ball valve for water main come through wall with copper pipe. Test system & flush out lines. Install new ADA height elongated toilet & slow closing toilet seat in hall bathroom. - Miscellaneous Electrical, Plumbing, Mechanical, Solar/PV, Electric Vehicle Charger, Generator (NOT for Remodels)
+- Associated Improvements: Utility work, Residential development infrastructure, Mechanical, Utilities
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure, Mechanical
+- Evidence Sources: Sacramento County Permits: MISR2026-01568 Residential; Contractor Opportunity Record: AREA: R05:  Repipe house drain system
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
+
+## AREA: R08:  Pouring Driveway over culvert with an automatic gate and bu
+
+- Project Summary: AREA: R08: Pouring Driveway over culvert with an automatic gate and bu - We will be pouring a driveway going over the culvert on the right hand side of the property. The driveway will go back into the space behind the gate. We will then build a new carport at the back end of the concrete pour. We will use asphalt to cover the culvert. We will build an automatic gate for access. - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
+- Associated Improvements: Drainage improvements, Utility work, Site access improvements, Residential development infrastructure, Roads / site access
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Drainage improvements, Utility work, Site access improvements, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: CBNR2026-00389 Residential; Contractor Opportunity Record: AREA: R08:  Pouring Driveway over culvert with an automatic gate and bu
+- Fence Signals: Gate installation reference: AREA: R08: Pouring Driveway over culvert with an automatic gate and bu. (CBNR2026-00389 Residential)
+- Evidence Snippets: AREA: R08: Pouring Driveway over culvert with an automatic gate and bu. (CBNR2026-00389 Residential)
+- Why Fencing Is Relevant: A fencing contractor can bid gate installation work supported by source evidence: "AREA: R08: Pouring Driveway over culvert with an automatic gate and bu."
+- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## ELEC (100 A SERVICE) - 11583 VALENSIN RD
+
+- Project Summary: ELEC (100 A SERVICE) - 11583 VALENSIN RD - SMUD has requested we replace 480v 3ph 100a service with new. Meter jaws are bad. There is a fence in front of meter. install new 100a on opposite side of existing pole. The Fishery. Commercial fish farm.
+- Associated Improvements: Utility work, Site access improvements, Residential development infrastructure, Mechanical, Site development
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Site access improvements, Residential development infrastructure, Mechanical
+- Evidence Sources: Sacramento County Permits: MISC2026-00910 Commercial; Contractor Opportunity Record: ELEC (100 A SERVICE) - 11583 VALENSIN RD
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## HVAC change out: HVAC Changeout.
+
+- Project Summary: HVAC change out: HVAC Changeout. - Changeout to existing HVAC system only. No additional electrical, mechanical, plumbing, or structural work permitted.; Split system HVAC change out. Like for Like. A/C behind fence in back yard. Air handler in attic. No new ducts. - Residential HVAC (if structural design, apply for Miscellaneous Houses, Duplex, Townhome Mechanical
+- Associated Improvements: Residential development infrastructure, Mechanical
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure, Mechanical
+- Evidence Sources: Sacramento County Permits: HACR2026-01443 Residential; Contractor Opportunity Record: HVAC change out: HVAC Changeout.
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY
+
+- Project Summary: SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY - 8.265 kW Mission Solar Energy with 1 Tesla Powerwall 3; 238 233 inspections are required prior to setting panels. SOLAR : Solar PV Installation
+- Associated Improvements: Utility work, Residential development infrastructure, Mechanical, Utilities
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure, Mechanical
+- Evidence Sources: Sacramento County Permits: MISC2026-01228 Commercial; Contractor Opportunity Record: SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## install PVC membrane over existing roof
+
+- Project Summary: install PVC membrane over existing roof - 108, 131, or 132 inspection required prior to covering any work; install PVC membrane over existing roof - Re-Roof or Overlay
+- Associated Improvements: Roofing
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Roofing
+- Evidence Sources: Sacramento County Permits: RERC2026-00185 Commercial; Contractor Opportunity Record: install PVC membrane over existing roof
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
+
+## REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA
+
+- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
+- Associated Improvements: Utility work
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work
+- Evidence Sources: Sacramento County Permits: CBNC2026-00192 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA
+
+- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
+- Associated Improvements: Utility work
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work
+- Evidence Sources: Sacramento County Permits: CBNC2026-00193 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA
+
+- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
+- Associated Improvements: Utility work
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work
+- Evidence Sources: Sacramento County Permits: CBNC2026-00194 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA
+
+- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
+- Associated Improvements: Utility work
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work
+- Evidence Sources: Sacramento County Permits: CBNC2026-00196 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA
+
+- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
+- Associated Improvements: Utility work
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work
+- Evidence Sources: Sacramento County Permits: CBNC2026-00195 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA
+
+- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
+- Associated Improvements: Utility work
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work
+- Evidence Sources: Sacramento County Permits: CBNC2026-00197 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA
+
+- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
+- Associated Improvements: Utility work
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work
+- Evidence Sources: Sacramento County Permits: CBNC2026-00198 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA
+
+- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
+- Associated Improvements: Utility work
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work
+- Evidence Sources: Sacramento County Permits: CBNC2026-00199 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA
+
+- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
+- Associated Improvements: Utility work
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work
+- Evidence Sources: Sacramento County Permits: CBNC2026-00200 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA
+
+- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
+- Associated Improvements: Utility work
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work
+- Evidence Sources: Sacramento County Permits: CBNC2026-00201 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15.
+
+- Project Summary: SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15. - 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15.584 KW CEC AC W/ 1 Tesla PW3 & 2 expansion packs - Miscellaneous Electrical, Plumbing, Mechanical, Solar/PV, Electric Vehicle Charger, Generator (NOT for Remodels)
+- Associated Improvements: Utility work, Roofing, Mechanical
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Roofing, Mechanical
+- Evidence Sources: Sacramento County Permits: MISR2026-01941 Residential; Contractor Opportunity Record: SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15.
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
+
+## AREA: R03:  Replace all windows & install siding on front of home
+
+- Project Summary: AREA: R03: Replace all windows & install siding on front of home - Install new T-111 Harding siding on front of home with new T-111 over existing. Includes 1/2" insulation Replace 14 windows & 2 patio slider. All like for like in size and location. Install w/ nail fin & siding trim - Repairs, including Replacing Windows or Siding, Fire, or other repairs
+- Associated Improvements: Residential development infrastructure
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBRR2026-00705 Residential; Contractor Opportunity Record: AREA: R03:  Replace all windows & install siding on front of home
 - Fence Signals: None
 - Evidence Snippets: None
@@ -943,11 +789,11 @@ Generated: 2026-07-09T06:34:42.872Z
 ## AREA: R05:  Siding and window replacement.
 
 - Project Summary: AREA: R05: Siding and window replacement. - Remove all siding. Add ½ inch OSB if doesn’t exist. Install 16 Anderson windows like for like with Anderson windows. Installation of pre painted LP SmartSide. - Repairs, including Replacing Windows or Siding, Fire, or other repairs
-- Associated Improvements: Mechanical
+- Associated Improvements: General
 - Related Development: Related residential development identified
 - Developer: Unknown
 - Applicant: Unknown
-- Work Categories: Mechanical
+- Work Categories: General
 - Evidence Sources: Sacramento County Permits: CBRR2026-00703 Residential; Contractor Opportunity Record: AREA: R05:  Siding and window replacement.
 - Fence Signals: None
 - Evidence Snippets: None
@@ -1122,159 +968,495 @@ Generated: 2026-07-09T06:34:42.872Z
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
-## REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA
+## AREA: R02:  Pool Demolition (Partial)
 
-- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
-- Associated Improvements: Utility work
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work
-- Evidence Sources: Sacramento County Permits: CBNC2026-00192 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA
-
-- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
-- Associated Improvements: Utility work
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work
-- Evidence Sources: Sacramento County Permits: CBNC2026-00193 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA
-
-- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
-- Associated Improvements: Utility work
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work
-- Evidence Sources: Sacramento County Permits: CBNC2026-00194 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA
-
-- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
-- Associated Improvements: Utility work
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work
-- Evidence Sources: Sacramento County Permits: CBNC2026-00196 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA
-
-- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
-- Associated Improvements: Utility work
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work
-- Evidence Sources: Sacramento County Permits: CBNC2026-00195 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA
-
-- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
-- Associated Improvements: Utility work
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work
-- Evidence Sources: Sacramento County Permits: CBNC2026-00197 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA
-
-- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
-- Associated Improvements: Utility work
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work
-- Evidence Sources: Sacramento County Permits: CBNC2026-00198 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA
-
-- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
-- Associated Improvements: Utility work
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work
-- Evidence Sources: Sacramento County Permits: CBNC2026-00199 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA
-
-- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
-- Associated Improvements: Utility work
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work
-- Evidence Sources: Sacramento County Permits: CBNC2026-00200 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA
-
-- Project Summary: REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA - (SUB CASE TO CBNC2026-00128) - THIS PROJECT IS OUT DOOR PATIO ONLY WITH REPLACEMENTS OF ROTTED POSTS AND CORRODED CONNECTIONS AND CONCRETE FOOTING
-- Associated Improvements: Utility work
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work
-- Evidence Sources: Sacramento County Permits: CBNC2026-00201 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15.
-
-- Project Summary: SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15. - 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15.584 KW CEC AC W/ 1 Tesla PW3 & 2 expansion packs - Miscellaneous Electrical, Plumbing, Mechanical, Solar/PV, Electric Vehicle Charger, Generator (NOT for Remodels)
-- Associated Improvements: Utility work, Roofing, Mechanical
+- Project Summary: AREA: R02: Pool Demolition (Partial) - Demo permits include structure and foundation/flat work only. No grading is included with this permit.; Scope of Work: 1. Sawcut, demolish, and remove pool/spa shell 2 feet below grade around the perimeter. 2. Break three drainage openings at the bottom of the pool and one at spa, approximately 2 feet wide each. 3. Backfill the pool/spa with soil and compact to complete the partial pool demolition. 4. Remove/cap and dispose of pool equipment and related materials generated by this scope of work. - Demolition – House, Shed, Pool or other Structure (NOT for fire repair)
+- Associated Improvements: Earthwork, Drainage improvements, Site access improvements, Demolition, Drainage, Site development
 - Related Development: Related residential development identified
 - Developer: Unknown
 - Applicant: Unknown
-- Work Categories: Utility work, Roofing, Mechanical
-- Evidence Sources: Sacramento County Permits: MISR2026-01941 Residential; Contractor Opportunity Record: SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15.
+- Work Categories: Earthwork, Drainage improvements, Site access improvements, Demolition
+- Evidence Sources: Sacramento County Permits: DMOR2026-00044 Residential; Contractor Opportunity Record: AREA: R02:  Pool Demolition (Partial)
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## AREA: R03:  remodeling living room
+
+- Project Summary: AREA: R03: remodeling living room - Replace section of flooring and level out the floor in the areas indicated on the plans. Relocate existing windows. No changes to the building footprint or occupancy. - House Alteration, Garage Conversion to Living Space/ADU (No new SqFt), Kitchen/Bath Remodel
+- Associated Improvements: General
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: General
+- Evidence Sources: Sacramento County Permits: CBAR2026-00651 Residential; Contractor Opportunity Record: AREA: R03:  remodeling living room
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## AREA: R04:  23.76kW PV + ESS Installation
+
+- Project Summary: AREA: R04: 23.76kW PV + ESS Installation - SolarApp ID: SA20260630-2133-270-7099-A; 23.76kW PV + ESS Installation - Residential Solar Permit, or Solar + ESS with SolarApp (SolarApp+ Contractors Only)
+- Associated Improvements: Utility work, Residential development infrastructure
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: SOLR2026-00227 Residential; Contractor Opportunity Record: AREA: R04:  23.76kW PV + ESS Installation
 - Fence Signals: None
 - Evidence Snippets: None
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE
+
+- Project Summary: MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE - Like for Like 4 roof top Package unit change out
+- Associated Improvements: Utility work, Roofing, Mechanical
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Roofing, Mechanical
+- Evidence Sources: Sacramento County Permits: MISC2026-01229 Commercial; Contractor Opportunity Record: MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
+
+## 8991 Golden Gate Ave: HVAC Changeout.
+
+- Project Summary: 8991 Golden Gate Ave: HVAC Changeout. - Changeout to existing HVAC system only. No additional electrical, mechanical, plumbing, or structural work permitted.; HVAC c/o like for like package unit 4 ton 13.4 SEER 80% AFUE 89K BTU - Residential HVAC (if structural design, apply for Miscellaneous Houses, Duplex, Townhome Mechanical
+- Associated Improvements: Residential development infrastructure, Mechanical
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure, Mechanical
+- Evidence Sources: Sacramento County Permits: HACR2026-01311 Residential; Contractor Opportunity Record: 8991 Golden Gate Ave: HVAC Changeout.
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## 1.	Updating the previously approved location of the shop on the site. 2.	Provide a revision letter for the new stem walls that will be required along the perimeter of the shop.
+
+- Project Summary: 1. Updating the previously approved location of the shop on the site. 2. Provide a revision letter for the new stem walls that will be required along the perimeter of the shop. - 1. Updating the previously approved location of the shop on the site. 2. Provide a revision letter for the new stem walls that will be required along the perimeter of the shop. - Building Plan Check Revision to Issued Permit Residential
+- Associated Improvements: Site access improvements, Residential development infrastructure, Site development
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Site access improvements, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: CBNR2025-01034-REV01 Residential; Contractor Opportunity Record: 1.	Updating the previously approved location of the shop on the site. 2.	Provide a revision letter for the new stem walls that will be required along the perimeter of the shop.
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## AREA: R01:  Magnolia	1184	70 Entry porch 134 Rear porch
+
+- Project Summary: AREA: R01: Magnolia 1184 70 Entry porch 134 Rear porch - New Accessory Dwelling Unit, Model "D Magnolia", (1184) S.F., Single Story, (70) S.F. Entry Porch, (134) S.F. Rear Covered Attached Patio - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
+- Associated Improvements: Utility work, Site access improvements, Residential development infrastructure, Roads / site access
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Site access improvements, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: CBNR2026-00563 Residential; Contractor Opportunity Record: AREA: R01:  Magnolia	1184	70 Entry porch 134 Rear porch
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## AREA: R03:  swimming pool remodel
+
+- Project Summary: AREA: R03: swimming pool remodel - DEMOLITION: X1. FULL STRIP OUT OF EXISTING INTERIOR FINISH X2. DEMO EXISTING WATERLINE TILE X3. REMOVE APPROX. 602 SQFT EXISTING CONCRETE AND POOL COPING X4. PRESSURE TEST & FLUSH PLUMBING (NOT SHOWN) STRUCTURAL: S1. INSTALL NEW TANNING SHELF STRUCTURAL DETAILS: #12 / RP1.0 S2. FIX STRUCTURAL CRACK IN POOL WALL PLUMBING / ELECTRICAL: P1. INSTALL CHANNEL DRAIN P2. INSTALL AUTOFILL P3. REMOVE & REPLACE (2) SKIMMERS P4. INSTALL (2) F/S WHITE (500 WATT) POOL LIGHTS TILE / MASONRY: T1. NEW WATERLINE TILE T2. NEW TRIM TILE DECKING: D1. POUR (N) CONCRETE & POOL COPING AREA (ON PLAN): 988 SQFT AREA (CONTRACT): 988 SQFT DECK DRAINAGE: 12.5' INTERIOR FINISH: I1. INSTALL NEW MICRO FUSION INTERIOR FINISH STRUCTURAL DETAIL SHEETS: RP1.0 POOL SPECS: AREA: 704 SQFT PERIMETER: 114' GALLONS: 26,900 STEPS & BENCHES: 47'-6" NEW EQUIPMENT: POOL LIGHTS: (2) F/S WHITE (500 WATT) (2) SKIMMERS + (1) AUTOFILL - Residential Swimming Pool, Spa, Repair or Replaster
+- Associated Improvements: Drainage improvements, Utility work, Residential development infrastructure, Demolition, Utilities, Drainage
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Drainage improvements, Utility work, Residential development infrastructure, Demolition
+- Evidence Sources: Sacramento County Permits: SPCR2026-00105 Residential; Contractor Opportunity Record: AREA: R03:  swimming pool remodel
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## AREA: R03:  Swimming Pool Remodel
+
+- Project Summary: AREA: R03: Swimming Pool Remodel - SCOPE OF WORK: DEMOLITION: X1. REMOVE 900 SQFT EXISTING CONCRETE X2. REMOVE EXISTING ROCK ON BEAM X3. PREP POOL FOR NEW INTERIOR STEEL / GUNITE: S1. ADD TOP STEP TO SPA S2. ADD CABO SHELF TO SHALLOW END S3. INSTALL NEW +12" R.B.B. (LEDGESTONE FACE) S4. REPAIR CRACK IN DEEP END PLUMBING / ELECTRICAL: P1. INSTALL NEW AUTOFILL P2. REPLACE POOL LIGHT (F/S WHITE) P3. REPLACE SPA LIGHT (F/S WHITE) P4. SPLIT EXISTING MAIN DRAINS P5. INSTALL NEW WATER FEATURE PUMP P6. INSTALL NEW BLOWER FOR SPA P7. INSTALL NEW PS-4 iAQUALINK P8. INSTALL (2) NEW 24" SHEER DESCENTS TILE / MASONRY: T1. INSTALL NEW WATERLINE TILE T2. INSTALL NEW TRIM TILE T3. INSTALL NEW TILE ON EXISTING +6" R.B.B. DECKING: D1. INSTALL 932 SQFT NEW CONCRETE DECKING INTERIOR FINISH: I1. INSTALL NEW INTERIOR FINISH (MICRO FUSION) ADDITIONAL SPECIFICATIONS: M1. INSTALL 60' POOL SAFETY FENCING W/ GATE M2. PRESSURE TEST AND FLUSH STRUCTURAL DETAIL SHEETS: RP1.0 POOL SPECS: AREA: 592 SQFT PERIMETER: 112' GALLONS: 17,800 STEPS & BENCHES: 72' SPA SPECS: AREA: 32 SQFT PERIMETER: 23' GALLONS: 500 NEW EQUIPMENT: PS-4 iAQUALINK PLUSHP PUMP FOR WATER FEATURE SPA BLOWER POOL LIGHT: (1) F/S WHITE LIGHT SPA LIGHT: (1) F/S WHITE LIGHT WATER FEATURE PUMP BLOWER FOR SPA PS-4 iAQUALINK (2) 24" SHEER DESCENTS - Residential Swimming Pool, Spa, Repair or Replaster
+- Associated Improvements: Utility work, Residential development infrastructure, Demolition, Utilities
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure, Demolition
+- Evidence Sources: Sacramento County Permits: SPCR2026-00127 Residential; Contractor Opportunity Record: AREA: R03:  Swimming Pool Remodel
+- Fence Signals: Fence installation reference: INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential); Fence package reference: INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential)
+- Evidence Snippets: INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential); INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential)
+- Why Fencing Is Relevant: A fencing contractor can bid because source documents specify gate and fencing installation: "INSTALL 60' POOL SAFETY FENCING W/ GATE M2."
+- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## AREA: R04:  Construction of a Steel Building
+
+- Project Summary: AREA: R04: Construction of a Steel Building - New Storage Building is 24ft by 35ft and 15ft tall at the peak.900sqft Concrete slab with 12"x12" perimeter footing with rebar per plans. Slab is roughly 24.5ft by 35.5ft. Building is 24ft by 35ft and 15ft tall at the peak. - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
+- Associated Improvements: Utility work, Residential development infrastructure
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: CBNR2026-00371 Residential; Contractor Opportunity Record: AREA: R04:  Construction of a Steel Building
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## AREA: R06:  Addition and remodel
+
+- Project Summary: AREA: R06: Addition and remodel - 323SF Addition - 400SF Covered Patio - Outdoor kitchen and fireplace - 2 bedroom & 2 bathroom remodel. Expand rear of house 8' towards back fence to approximately plane out with the existing bonus room off of the dining/family room. Existing rear bearing wall to be replaced with beams and columns, associated rooms are expanded out with new wall. Interior remodel of 2 restrooms and associated bedrooms. Create an out door covered patio with an outdoor kitchen and fireplace. - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
+- Associated Improvements: Utility work, Residential development infrastructure
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: CBNR2026-00481 Residential; Contractor Opportunity Record: AREA: R06:  Addition and remodel
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
+
+## AREA: R07:  Extension of house, update roof geometry, new siding, remod
+
+- Project Summary: AREA: R07: Extension of house, update roof geometry, new siding, remod - Square footage addition, siding, new roof style, electrical, plumbing, - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
+- Associated Improvements: Utility work, Residential development infrastructure, Roofing
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure, Roofing
+- Evidence Sources: Sacramento County Permits: CBNR2026-00582 Residential; Contractor Opportunity Record: AREA: R07:  Extension of house, update roof geometry, new siding, remod
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
+
+## BEHRENS - SINGLE FAMILY DWELLING   PAPER SUBMITTAL
+
+- Project Summary: BEHRENS - SINGLE FAMILY DWELLING PAPER SUBMITTAL - SINGLE FAMILY DWELLING Associated PLN19-00334/PLN21-00051 LIVING---------2,846sf GARAGE--------722sf DECK----------1,017sf PORCH-----------77sf 02/17/21 added 108 sq. ft. rear deck 617 BEAR BIN Deferred Submittal: Fire Sprinklers, Gas Plan (approved and onsite before rough inspection) Special Inspection REQUIRED- Soil before Steel (see p.18 Geotech), Shear Walls, Shop Fabricator 10/27/20 REVISED ENERGY FORMS. CalCERTS REG# 219-P010270436C Revised plans adding windows. propane tank underground and rear deck addition and layout change NLR 02/18/21 - Single Family > 3000
+- Associated Improvements: Site access improvements, Residential development infrastructure, Site development
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Site access improvements, Residential development infrastructure
+- Evidence Sources: Placer County Active Building Permits: BLD19-06467-6032 Single Family > 3000; Contractor Opportunity Record: BEHRENS - SINGLE FAMILY DWELLING   PAPER SUBMITTAL
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## Blakely Remodel/Addition***Digital Submittal***
+
+- Project Summary: Blakely Remodel/Addition***Digital Submittal*** - Addition/ Remodel Add 242 sf of living area on lower level (Bedroom) Relocate interior stairs Remodel kitchen and lower level bath, add 2nd level bathroom Add new Deck Install a concrete foundation to replace the 1929 wood sleepers Reroof/ Reside/ Replace Windows WUI REQUIRED - Residential Addition > 3000
+- Associated Improvements: Residential development infrastructure, Roofing
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure, Roofing
+- Evidence Sources: Placer County Active Building Permits: TRP20-90274-6014 Residential Addition > 3000; Contractor Opportunity Record: Blakely Remodel/Addition***Digital Submittal***
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
+
+## Building Compliance: AREA: R05:  CARPORT
+
+- Project Summary: Building Compliance: AREA: R05: CARPORT - Building Compliance - OBTAIN PERMIT FOR EXISTING CARPORT BUILT ON PROPERTY. MOVE CARPORT 3FT FROM FENCE/PROPERTY LINE - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
+- Associated Improvements: Utility work, Residential development infrastructure
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure
+- Evidence Sources: Sacramento County Permits: CBNR2026-00494 Residential; Contractor Opportunity Record: Building Compliance: AREA: R05:  CARPORT
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## GARCIA - REMODEL / CONVERSION
+
+- Project Summary: GARCIA - REMODEL / CONVERSION - R-3 VB Bath #1 (New Counter Tops, Tub and Surround). Bath #2 (Relocate Toilet, New Counter Tops, Shower Pan and Surround). Kitchen (New Countertops, Sink and Appliances). Garage Conversion (New Bathroom, New Bedroom and New Laundry/Utility Room). Front Exterior (Replace limited T-111 with Stucco to Match Existing). **NO WUI UNLESS REPLACING ALL (E) ROOFING, WINDOWS AND SIDING.** GARAGE CONVERSION TO LIVING - 434 SF REMODEL - 716 SF PLAN SUBMITTAL REVIEWED - PFH **** REVISION: PROJECT TO INCLUDE MSP CHANGEOUT 200A TO 200A - Residential Alteration or Remodel
+- Associated Improvements: Utility work, Site access improvements, Residential development infrastructure, Roofing, Utilities, Site development
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Site access improvements, Residential development infrastructure, Roofing
+- Evidence Sources: Placer County Active Building Permits: BLD21-01537-6051 Residential Alteration or Remodel; Contractor Opportunity Record: GARCIA - REMODEL / CONVERSION
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
+
+## GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143
+
+- Project Summary: GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143 - GLEN WILLOW RIOLO VINEYARDS PHASE 2 MASTER PLAN 1718 MODEL #2 BLD21-00114 R-3 VB LIVING 1718 SQ' GARAGE 423 SQ' PORCH (OPTION 2) 92 SQ' SPECIAL INSPECTIONS - SEE PLAN COVER SHEET QII INSULATION PV SYSTEM (12 PANELS) 3.31 kWdc SPRINKLERS REQUIRED STRUCTURAL OBSERVATION IS REQUIRED ON ALL MODEL HOMES. (FOUNDATION, SHEAR AND ROUGH FRAME) START-UP OF PRODUCTION HOMES WILL REQUIRE THE FIRST TWO HOMES OF EACH PLAN TO HAVE STRUCTURAL OBSERVATIONS. SPL-RVSP LOW DENSITY RESIDENTIAL FRONT=FROM BACK OF SIDEWALK TO LIVING SPACE/COURTYARD/PORCH=15' -TO FRONT ENTRY GARAGE=20' -TO SIDE ENTRY GARAGE=15' -TO ACCESSORY STRUCTURE=20' SIDE =FROM PROPERTY LINE TO PRIMARY BUILDING=5' TO ACCESSORY STRUCTURE (INTERIOR LOT)=3' =FROM BACK OF SIDEWALK TO PRIMARY BUILDING (CORNER LOT, STREET SIDE)=15' TO ACCESSORY STRUCTURE (CORNER LOT, STREET SIDE)=15' REAR=FROM THE PROPERTY LINE TO THE PRIMARY BUILDING=15' TO PORCH/COVERED PATIO=10' TO ACCESSORY STRUCTURE=3' PLAN CHECK COMPLETE - PFH 5/11/2021 --------------------------------------------------------------------------------------------------------------- PV REV.1 - ADDED EQUIPMENT ON LAYOUTS PER SMUD UTILITY REQS - SENT TO SHUMS CODA 11/09/2021. -BH SHUMS CODA FINAL REVIEW RECEIVED 11/17/2021 --------------------------------------------------------------------------------------------------------------- PV REV.2 - REVISED SETBACKS TO MEET CODE FOR ADDED EQUIPMENT ON LAYOUTS PER SMUD UTILITY REQS - SENT TO SHUMS CODA 12/28/2021. -BH PV REV.2 REVIEWED BY SHUMS CODA 01/04/2022. -BH --------------------------------------------------------------------------------------------------------------- REV.3 FRAMEWALK - MINOR INTERIOR CHANGES DONE AFTER WALKING HOMES AT FRAME STAGE. PLEASE REFER TO THE FRAMEWALK REVISION LETTER FOR SPECIFICS. 01/20/02022. -BH - Single Family < 3000
+- Associated Improvements: Utility work, Site access improvements, Residential development infrastructure, Roads / site access, Utilities, Site development
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Site access improvements, Residential development infrastructure
+- Evidence Sources: Placer County Active Building Permits: BLD22-00878-6039 Single Family < 3000; Contractor Opportunity Record: GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## HAM - ENERGY STORAGE
+
+- Project Summary: HAM - ENERGY STORAGE - RESIDENTIAL ENERGY STORAGE (E) PV OUTPUT: 16 KW DC (N) ENERGY STORAGE: 54 KWh PANEL MAIN AMPERAGE: 400 MSP (SPLIT 200) PANEL CHANGEOUT: NO SYSTEM 1: (2) ESS: TESLA POWERWALL 2.0 (E) 125A GENERATION PANEL W/ 100A MCB, (2) 30A ESS BREAKERS & 35A PV BREAKER (N) 200A ATS: TESLA BACKUP GATEWAY (E) 200A SUB PANEL W/ 200A MCB (N) 200A AC DISCONNECT (E) 400A MSP W/ 200A MCB SYSTEM 2: (2) ESS: TESLA POWERWALL 2.0 (N) 125A GENERATION PANEL W/ 125A MCB, (2) 30A ESS BREAKERS & (2) 30A PV BREAKERS (N) 200A ATS: TESLA BACKUP GATEWAY (E) 200A SUB PANEL W/ 200A MCB (E) 400A MSP W/ 200A MCB TRENCHING: NO NULL - Electrical
+- Associated Improvements: Utility work, Residential development infrastructure, Utilities
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure
+- Evidence Sources: Placer County Active Building Permits: BLD20-02032-6046 Electrical; Contractor Opportunity Record: HAM - ENERGY STORAGE
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## Hopkins Village - Lot 29 ***DIGITAL REVIEW***
+
+- Project Summary: Hopkins Village - Lot 29 ***DIGITAL REVIEW*** - Third party APEX review New pre-fabricated residential home with attached garage. Living space-------------------------1936 sf Garage/storage---------------------256 sf Uncovered Decks/Porches------116 sf Covered Decks/Porches----------21 sf Verified by Apex 08/04/21 Separate permit required for PV Solar System Special Inspection Required Structural Observation Required 617 Bear Bin 622 CWM Plan - Duplex
+- Associated Improvements: Utility work, Residential development infrastructure
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure
+- Evidence Sources: Placer County Active Building Permits: BLD21-02807-6058 Duplex; Contractor Opportunity Record: Hopkins Village - Lot 29 ***DIGITAL REVIEW***
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## HURLEY ADDITION
+
+- Project Summary: HURLEY ADDITION - ADDITION (R-3) LIVING ---------------------------------------------------------------------------- 1734 SQFT COVERED DECKS/PORCH -------------------------------------------------- 734 SQFT REMODEL AREA----------------------------------------------------------------1572 SQFT. GARAGE CONVERSION---------------------------------------------------------50 SQFT. 5ea. BATHROOMS KITCHEN REMOVE AND REPLACE ALL WINDOWS AND DOORS RESTUCCO ENTIRE HOUSE NEW ROOF NEW TRUSS A/C HERS VERIFICATION (QII) SB407 REQUIRED TP - Residential Addition > 3000
+- Associated Improvements: Residential development infrastructure, Roofing
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure, Roofing
+- Evidence Sources: Placer County Active Building Permits: BLD18-01308-5996 Residential Addition > 3000; Contractor Opportunity Record: HURLEY ADDITION
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
+
+## Ko - Garage Addition***Digital Submittal***
+
+- Project Summary: Ko - Garage Addition***Digital Submittal*** - Voluntary Third Party Review- Apex TRPA MOU PROJECT Garage Addtion with Living Above, Reroof Existing SFD, Rebuild Deck/Stair Living--------------506sf Garage------------432sf Deck---------------305sf Special Inspection Required - Residential Addition > 3000
+- Associated Improvements: Residential development infrastructure, Roofing
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure, Roofing
+- Evidence Sources: Placer County Active Building Permits: TRP21-90022-6050 Residential Addition > 3000; Contractor Opportunity Record: Ko - Garage Addition***Digital Submittal***
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241
+
+- Project Summary: LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241 - LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241 R-3 / U VB MASTER PLAN Placer Vineyards 1A - 1712A Plan #3 - #BLD20-06700 Living: 1712 SQ Ft Garage: 475 SQ Ft Covered Porch “A”: 120 SQ Ft Covered Patio: 186 SQ Ft SPECIAL INSPECTION - SHEAR WALL QII INSULATION PV SYSTEM (7 PANELS) SPRINKLERS REQUIRED STRUCTURAL OBSERVATION IS REQUIRED ON ALL MODEL HOMES. (FOUNDATION, SHEAR AND ROUGH FRAME) START-UP OF PRODUCTION HOMES WILL REQUIRE THE FIRST TWO HOMES OF EACH PLAN TO HAVE STRUCTURAL OBSERVATIONS. SPL-PVSP MIN SETBACKS FRONT: 10' MIN TO PORCH 12' MIN TO LIVING SPACE OR SIDE WALL OF GARAGE 20' MIN. DRIVEWAY DEPTH WITH ROLL-UP GARAGE DOOR SIDE: 5' MIN INTERIOR 12' MIN STREET SIDE ON 45' & 55' CORNER LOTS 15' MIN STREET SIDE 65' CORNER LOTS REAR: 10' MIN. -OUT OF ANY EASEMENTS. -NOT TO DISTURB DRAINAGE WITHOUT GRADING PERMITS. - Single Family < 3000
+- Associated Improvements: Earthwork, Drainage improvements, Site access improvements, Residential development infrastructure, Roads / site access, Drainage, Site development
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Earthwork, Drainage improvements, Site access improvements, Residential development infrastructure
+- Evidence Sources: Placer County Active Building Permits: BLD22-00093-5990 Single Family < 3000; Contractor Opportunity Record: LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
+
+## LEVCO - DETACHED GARAGE
+
+- Project Summary: LEVCO - DETACHED GARAGE - U V-B DETACHED ACCESSORY STRUCTURE GARAGE: 840 SQ FT ELECTRICAL SRA MODERATE: WUI APPLIES DEFENSIBLE SPACE INSPECTION BY PLACER HILLS F.P.D. SPECIAL INSPECTION REQUIRED FOR SHEAR WALL NAILING GRADING PERMIT ESD21-00129 - Garage Detached
+- Associated Improvements: Earthwork, Site access improvements, Residential development infrastructure, Roads / site access, Site development
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Earthwork, Site access improvements, Residential development infrastructure
+- Evidence Sources: Placer County Active Building Permits: BLD21-01556-6010 Garage Detached; Contractor Opportunity Record: LEVCO - DETACHED GARAGE
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## Lieberman Addition
+
+- Project Summary: Lieberman Addition - OUTSOURCED PLAN CHECK BY 4LEAF Addition in crawlspace, remodel, decks NEW CRAWLSPACE---------------184sf Remodel-----------------------1,740sf Deck------------------------------484sf GARAGE REMODEL--------658sf one Kitchen two Bathrooms TRPA MOU PROJECT SPECIAL INSPECTION REQ. STRUCTURAL INSPECTION BY GABBART & WOODS OK BY DAVE PRIOR TO ISSUANCE OF REVISED PLANS (3-7-19) - Residential Addition > 3000
+- Associated Improvements: Residential development infrastructure
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure
+- Evidence Sources: Placer County Active Building Permits: TRP18-90133-6027 Residential Addition > 3000; Contractor Opportunity Record: Lieberman Addition
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## MASTER PLAN Placer Vineyards 1A - 2756 Plan #11
+
+- Project Summary: MASTER PLAN Placer Vineyards 1A - 2756 Plan #11 - R-3 / U VB MASTER PLAN Placer Vineyards 1A - 2756 Plan #11 Living: 2756 SQ Ft 1-Car Garage: 246 SQ Ft 2-Car Garage: 493 SQ Ft Covered Porch “A” & “C”: 52 SQ Ft Covered Porch “D”: 78 SQ Ft Covered Patio: 152 SQ Ft SPECIAL INSPECTION - SHEAR WALL QII INSULATION PV SYSTEM (7 PANELS) SPRINKLERS REQUIRED STRUCTURAL OBSERVATION IS REQUIRED ON ALL MODEL HOMES. (FOUNDATION, SHEAR AND ROUGH FRAME) START-UP OF PRODUCTION HOMES WILL REQUIRE THE FIRST TWO HOMES OF EACH PLAN TO HAVE STRUCTURAL OBSERVATIONS. PLAN CHECK COMPLETE - PFH 2/17/2021 -------------------------------------------------------------------------------------------------------------------- ALTERNATIVE MANUFACTURER TRUSS CALCS 08/05/2021. -BH -------------------------------------------------------------------------------------------------------------------- REV.1 FRAMEWALK SHUMS CODA FINAL REVIEW 09/23/2021. -BH *** REV.1 REVISION SUMMARY TO BE ON-SITE FOR REERENCE *** ------------------------------------------------------------------------------------------------------------------- REV 2: REVISED PV SYSTEM SIZE/EQUIPMENT - 3/21/22 - MP SYSTEM A: 3.42 KW DC: (9) HANWHA Q.PEAK DUO BLK ML-G9 380 W/ (9) IQ7PLUS-72-2-US SYSTEM B: 3.60 KW DC: (9) HANWHA Q.PEAK DUO BLK ML-G10 400 W/ (9) (9) IQ7PLUS-72-2-US - Single Family < 3000
+- Associated Improvements: Site access improvements, Residential development infrastructure, Site development
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Site access improvements, Residential development infrastructure
+- Evidence Sources: Placer County Active Building Permits: BLD20-06713-6023 Single Family < 3000; Contractor Opportunity Record: MASTER PLAN Placer Vineyards 1A - 2756 Plan #11
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS -  LOT 84
+
+- Project Summary: MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS - LOT 84 - WOODSIDE HOMES - BRADY VINEYARDS - LOT 84 MODEL HOME BRADY VINEYARDS 60'S PLAN #3 - Master Plan BLD21-04192 R-3/U VB CWM PLAN TO BE COMPLETED AND ON-SITE AT FIRST INSPECTION LIVING 2930 SQ' GARAGE 699 SQ' PORCH 37 SQ' ENLARGED CALIFORNIA ROOM 323 SQ' LRA - NO WUI NO DEFENSIBLE SPACE INSPECTION REQUIRED SPRINKLER REVIEW AND INSPECTION - PLACER COUNTY BUILDING DIVISION SPECIAL INSPECTION: POST INSTALLED ANCHORS AND STRUCTURAL WOOD STRUCTURAL OBSERVATION BY E.O.R. AT FRAME AND SHEAR AT MODELS ONLY QII WITH HERS VERIFICATION REQUIRED PV SYSTEM SIZE - 5.95KW (17) MODULES - SUNPOWER SPR-X21-350-BLK-E-AC (17) INTEGRATED MICROINVERTERS - SPR-X21-350-BLK-E-AC (240) (1) 13 KWH SUNVAULT ENERGY STORAGE SYSTEM MODEL: SV-BASE13-12-A (1) 70 AMP BACK UP LOAD CENTER 200 AMP MAIN PANEL 20 AMP 2P PV OCPD RACKING - INVISAMOUNT Brady Vineyards Front: 12.5' minimum to front of porch 15' minimum to front of single-story portion of residence 20' minimum to front of two-story portion of residence 20' minimum to garage doors 10' to the side of a garage for side-loading garages Note: Corner lots have one 'front' and one 'street-side' setback Side: 5' for single-story portion of residence or a structure 7.5' for two story portion of residence Street-side: 12.5' to side of residence (both single and two-story portions) 12.5' for fence or structure Rear: 10' for single-story portion of a residence or a structure 20' for two-story portion of residence - Single Family < 3000
+- Associated Improvements: Utility work, Site access improvements, Residential development infrastructure, Roads / site access, Utilities, Site development
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Site access improvements, Residential development infrastructure
+- Evidence Sources: Placer County Active Building Permits: BLD21-07259-6036 Single Family < 3000; Contractor Opportunity Record: MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS -  LOT 84
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE
+
+- Project Summary: PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE - B,DIV.2 - VACANT. **ELECTRONIC SUBMITTAL - PIONEER PROGRAM TO INTERWEST** III-N.NR THIS PROJECT IS BEING PHASED Scope includes all seismic upgrades required for existing 71,355 SF vacant building at 3625 Cincinnati Ave, Rocklin, CA. Seismic upgrades will include: new braces frames; new columns/foundations to strengthen roof framing; re-nail roof diaphragm; connections between roof member throughout building; strengthening of the 4x12’s and Glu-Lams; additional roof to wall connections; improve panel to panel connections; frame in existing mechanical openings; new openings and infill at existing openings; dry rot repairs at roof. Included in this package are Building Envelope improvements including: complete roof replacement with TPO roof and insulation; parapet details for updated south parapet to meet code distance requirement from adjacent building; replacement and/or addition of scuppers, downspouts and overflows; exterior window replacement; infill and new Openings at existing concrete wall for tenant improvement floor plan; and infill at the niche between the existing 1979 building and the 1986 addition. LRA - NO WUI FULLY SPRINKELED PLACER COUNTY FIRE P.D. . **SPECIAL INSPECTIONS REQUIRED - SEE APPROVED AGREEMENT FOR DETAILS** ----------------------------------------------------------------------------------------------------------------------------------- REV1 ENGINEER JUDGEMENT FOR FIRE RATING OF JOINT ASSEMBLY AT EXTERIOR CONCRETE PANELS - FINAL REVIEW BY INTERWEST 03/22/2022. -BH - Warehouse TI
+- Associated Improvements: Residential development infrastructure, Roofing, Mechanical
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure, Roofing, Mechanical
+- Evidence Sources: Placer County Active Building Permits: BLD21-03502-6056 Warehouse TI; Contractor Opportunity Record: PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
+
+## PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping
+
+- Project Summary: PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping - R-3 VB ELECTRICAL SERVICE PEDESTAL COMMUNITY ENTRY GATES SIGN MONUMENTS AND LANDSCAPE LIGHTING PLAN CHECK COMPLETE - PFH 6/30/2020 - Commercial Electrical Service
+- Associated Improvements: Residential development infrastructure
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure
+- Evidence Sources: Placer County Active Building Permits: BLD20-02647-5997 Commercial Electrical Service; Contractor Opportunity Record: PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Electrical / landscape lighting; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
+
+## POTTER - RESIDENTIAL REROOF
+
+- Project Summary: POTTER - RESIDENTIAL REROOF - REMOVE EXISTING ROOF AND DECKING. INSTALL NEW OSB, RADIANT BARRIER, ICE AND WATER BARRIER, SYNTHETIC UNDERLAYMENT, 17 SQUARES OF OWENS CORNING TRUDEFINITION DURATION COOL COMPOSITION SHINGLES, ATTIC VENTS, NEW PIPE FLASHING, PAINT FLASHING TO MATCH. STRUCTURE: DWELLING MATERIAL / ASSEMBLY: COMP CURRENT ROOF: COMP OVERLAYING EXISTING: No # OF EXISTING LAYERS: 1 - Reroof
+- Associated Improvements: Utility work, Residential development infrastructure, Roofing, Utilities
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Residential development infrastructure, Roofing
+- Evidence Sources: Placer County Active Building Permits: BLD21-03519-6007 Reroof; Contractor Opportunity Record: POTTER - RESIDENTIAL REROOF
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## PRESBYTERIAN CHURCH PATIO COVER
+
+- Project Summary: PRESBYTERIAN CHURCH PATIO COVER - A-3 VB NEW PATIO COVER 1223 SQ FT. NEW CONCRETE PATIO REQUIRE WUI NO UTILITIES REVIEWED BY PFH AND KC - Non-Residential Accessory
+- Associated Improvements: Site access improvements, Residential development infrastructure, Roads / site access
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Site access improvements, Residential development infrastructure
+- Evidence Sources: Placer County Active Building Permits: BLD20-02541-6029 Non-Residential Accessory; Contractor Opportunity Record: PRESBYTERIAN CHURCH PATIO COVER
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+
+## REPAIR (DRY ROT) - 3131 EL CAMINO AVE
+
+- Project Summary: REPAIR (DRY ROT) - 3131 EL CAMINO AVE - REMOVE STUCCO AROUND REPAIR AREA PERIMETER (APPROX. 16"), REPLACE TO MATCH EXISTING AT END OF CONSTRUCTION. REMOVE EXISTING CONCRETE TOPPING AND PLYWOOD DECK. INSTALL NEW PLYWOOD DECKING. INSTALL NEW JOINT FLASHING AROUND REPAIR AREA PERIMETER. INSTALL NEW WATERPROOFING MEMBRANE. POUR NEW CONRETE TOPPING. FABRICATE AND INSTALL NEW 42" TALL BLACK METAL RAILING. - Replacing Windows or Siding, Fire Repair, Other Repairs
+- Associated Improvements: Utility work, Roofing, Utilities
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Roofing
+- Evidence Sources: Sacramento County Permits: CBRC2026-00336 Commercial; Contractor Opportunity Record: REPAIR (DRY ROT) - 3131 EL CAMINO AVE
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14)
+
+- Project Summary: REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14) - DRY ROT REPAIR FOR WALKWAY AND STAIR LANDING. (AFFECTED UNITS 8-14) WALKWAY (APPROXIMATELY 300 SF, AT 3 SEPARATE LOCATIONS (100 SF EACH): 1. REMOVE STUCCO AROUND THE PERIMETER OF THE WALKWAY WHERE 2. REPAIRS WILL OCCUR. 3. REMOVE APPROX. 300 SF OF EXISTING WATERPROOFING SYSTEM. 4. INSTALL NEW TONGUE & GROOVE PLYWOOD SHEATHING. 5. INSTALL NEW FLASHING AND REPLACE REMOVED STUCCO. 6. INSTALL NEW WATERPROOFING SYSTEM. 7. POUR NEW LIGHTWEIGHT CONCRETE WALKWAY TO MATCH EXISTING. STAIR LANDING (APPROXIMATELY 80 SF): 8. REMOVE STUCCO AROUND THE PERIMETER OF THE LANDING WHERE 9. REPAIRS WILL OCCUR. 10. REMOVE APPROX. 80 SF OF EXISTING WATERPROOFING SYSTEM. 11. INSTALL NEW TONGUE & GROOVE PLYWOOD SHEATHING. 12. INSTALL NEW FLASHING AND REPLACE REMOVED STUCCO. 13. INSTALL NEW WATERPROOFING SYSTEM. 14. POUR NEW LIGHTWEIGHT CONCRETE LANDING TO MATCH EXISTING. - Replacing Windows or Siding, Fire Repair, Other Repairs
+- Associated Improvements: Utility work, Roofing, Utilities
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Utility work, Roofing
+- Evidence Sources: Sacramento County Permits: CBRC2026-00323 Commercial; Contractor Opportunity Record: REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14)
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97)
+
+- Project Summary: REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97) - (MAIN) BUILDING 1945 UNIT #1 (REPLACE SIDING): REPLACE DAMAGED SIDING ON EXTERIOR CORNER OF BUILDING. BUILDING 1943 UNIT #29 (REPLACE ROOFING): REPLACE 32 SF OF PLYWOOD ROOF DECK AND ROOF EAVES AS DAMAGE OCCURS ABOVE ENTRY DOOR. REPLACE 32 SF OF COMP. ROOF SHINGLES ABOVE ENTRY DOOR. BUILDING 1931 UNIT #91 (REPLACE STAIR LANDING): REPLACE ENTRY / INTERIOR STAIR LANDING RIMBOARD. REPLACE ENTRY / INTERIOR STAIR LANDING PLYWOOD DECK. REPLACE ENTRY / INTERIOR STAIR LANDING PERIMETER STUCCO TO MATCH EXISTING. REATTACH STAIRS TO NEW RIMBOARD. UNIT #92 (REPLACE STEP): REPLACE 1ST CONCRETE STAIR STEP AT BOTTOM OF STAIR. REATTACH STAIR RAILING TO NEW CONCRETE STEP. UNIT #97 (REPLACE ROOFING): REPLACE 32 SF OF PLYWOOD ROOF DECK ABOVE ENTRY DOOR. REPLACE 32 SF OF COMP. ROOF SHINGLES ABOVE ENTRY DOOR. REPLACE FASCIA BOARD AT DAMAGED ROOFING. - Replacing Windows or Siding, Fire Repair, Other Repairs
+- Associated Improvements: Roofing
+- Related Development: Unknown
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Roofing
+- Evidence Sources: Sacramento County Permits: CBRC2026-00390 Commercial; Contractor Opportunity Record: REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97)
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+
+## REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair.
+
+- Project Summary: REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair. - Electrical service panel replacement or emergency repair only. No additional electrical, mechanical, plumbing, or structural work permitted.; STUCCO PATCH AROUND PERIMETER OF PANEL REPLACE MSP 100A WITH 100A - Residential Electrical Panel Replacement
+- Associated Improvements: Residential development infrastructure, Mechanical
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure, Mechanical
+- Evidence Sources: Sacramento County Permits: PANR2026-00722 Residential; Contractor Opportunity Record: REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair.
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Electrical / landscape lighting; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
+
+## UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair.
+
+- Project Summary: UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair. - Electrical service panel replacement or emergency repair only. No additional electrical, mechanical, plumbing, or structural work permitted.; MINOR SIDING FIX AROUND PERIMETER OF PANEL - Residential Electrical Panel Replacement
+- Associated Improvements: Residential development infrastructure, Mechanical
+- Related Development: Related residential development identified
+- Developer: Unknown
+- Applicant: Unknown
+- Work Categories: Residential development infrastructure, Mechanical
+- Evidence Sources: Sacramento County Permits: PANR2026-00727 Residential; Contractor Opportunity Record: UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair.
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Electrical / landscape lighting; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## AREA: R02:  Built a retaining wall in front yard of home
 
@@ -1654,34 +1836,6 @@ Generated: 2026-07-09T06:34:42.872Z
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
-## AREA: R03:  remodeling living room
-
-- Project Summary: AREA: R03: remodeling living room - Replace section of flooring and level out the floor in the areas indicated on the plans. Relocate existing windows. No changes to the building footprint or occupancy. - House Alteration, Garage Conversion to Living Space/ADU (No new SqFt), Kitchen/Bath Remodel
-- Associated Improvements: General
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: General
-- Evidence Sources: Sacramento County Permits: CBAR2026-00651 Residential; Contractor Opportunity Record: AREA: R03:  remodeling living room
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## AREA: R04:  23.76kW PV + ESS Installation
-
-- Project Summary: AREA: R04: 23.76kW PV + ESS Installation - SolarApp ID: SA20260630-2133-270-7099-A; 23.76kW PV + ESS Installation - Residential Solar Permit, or Solar + ESS with SolarApp (SolarApp+ Contractors Only)
-- Associated Improvements: Utility work, Residential development infrastructure
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: SOLR2026-00227 Residential; Contractor Opportunity Record: AREA: R04:  23.76kW PV + ESS Installation
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
 ## AREA: R01:  7240 Rio Linda 3, Rio Linda, CA. SFR
 
 - Project Summary: AREA: R01: 7240 Rio Linda 3, Rio Linda, CA. SFR - 1. New attached pre-engineered aluminium patio cover at front of dwelling 2. New roof, window windows, and Siding 3. New tankless water heater 4. Complete new split HVAC system, including ductwork 5. Complete kitchen remodel 6. Complete guest bathroom remodel 7. Complete master bathroom remodel 8. Electrical upgrades throughout, including new switches, receptacles and LED lighting 9. Upgrades to existing electrical panel - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
@@ -1695,20 +1849,6 @@ Generated: 2026-07-09T06:34:42.872Z
 - Evidence Snippets: None
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
-
-## AREA: R03:  Like-for-like replacement of tankless water heater and gas
-
-- Project Summary: AREA: R03: Like-for-like replacement of tankless water heater and gas - Removed existing tankless water heater and installed new Navien tankless water heater (199,000 BTU) in the same location inside garage (like-for-like replacement). Upgraded gas supply by installing new corrugated stainless steel (CSST) gas line routed under the house from existing gas meter to the unit to meet required capacity. Completed gas connection, mounting, and startup. All work completed to code. - Miscellaneous Electrical, Plumbing, Mechanical, Solar/PV, Electric Vehicle Charger, Generator (NOT for Remodels)
-- Associated Improvements: Utility work, Residential development infrastructure, Mechanical, Utilities
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure, Mechanical
-- Evidence Sources: Sacramento County Permits: MISR2026-01474 Residential; Contractor Opportunity Record: AREA: R03:  Like-for-like replacement of tankless water heater and gas
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## AREA: R03:  Masonry wall construction
 
@@ -1737,20 +1877,6 @@ Generated: 2026-07-09T06:34:42.872Z
 - Evidence Snippets: None
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
-
-## AREA: R05:  Repipe house drain system
-
-- Project Summary: AREA: R05: Repipe house drain system - Repipe house drain system. Cut out all horizontal cast iron pipe through out house. Install ABS pipe & fittings for 2-bath, 1-kitchen, 1-laundry room. Strap pipe good to use UPC code transition fittings. Test System Replace all horizontal hot a& cold water lines through out house. To use UPC code transition brass fittings to tie into risers. New Brass ball valve for water main come through wall with copper pipe. Test system & flush out lines. Install new ADA height elongated toilet & slow closing toilet seat in hall bathroom. - Miscellaneous Electrical, Plumbing, Mechanical, Solar/PV, Electric Vehicle Charger, Generator (NOT for Remodels)
-- Associated Improvements: Utility work, Residential development infrastructure, Mechanical, Utilities
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Residential development infrastructure, Mechanical
-- Evidence Sources: Sacramento County Permits: MISR2026-01568 Residential; Contractor Opportunity Record: AREA: R05:  Repipe house drain system
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
 
 ## AREA: R06:  ESS
 
@@ -1850,20 +1976,6 @@ Generated: 2026-07-09T06:34:42.872Z
 - Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
-## AREA: R08:  Pouring Driveway over culvert with an automatic gate and bu
-
-- Project Summary: AREA: R08: Pouring Driveway over culvert with an automatic gate and bu - We will be pouring a driveway going over the culvert on the right hand side of the property. The driveway will go back into the space behind the gate. We will then build a new carport at the back end of the concrete pour. We will use asphalt to cover the culvert. We will build an automatic gate for access. - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
-- Associated Improvements: Drainage improvements, Utility work, Site access improvements, Residential development infrastructure, Roads / site access
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Drainage improvements, Utility work, Site access improvements, Residential development infrastructure
-- Evidence Sources: Sacramento County Permits: CBNR2026-00389 Residential; Contractor Opportunity Record: AREA: R08:  Pouring Driveway over culvert with an automatic gate and bu
-- Fence Signals: Gate installation reference: AREA: R08: Pouring Driveway over culvert with an automatic gate and bu. (CBNR2026-00389 Residential)
-- Evidence Snippets: AREA: R08: Pouring Driveway over culvert with an automatic gate and bu. (CBNR2026-00389 Residential)
-- Why Fencing Is Relevant: A fencing contractor can bid gate installation work supported by source evidence: "AREA: R08: Pouring Driveway over culvert with an automatic gate and bu."
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
-
 ## Building a 9 foot steel gate
 
 - Project Summary: Building a 9 foot steel gate - Building a 9 foot steel gate - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall
@@ -1891,34 +2003,6 @@ Generated: 2026-07-09T06:34:42.872Z
 - Evidence Snippets: Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD. (CBNC2026-00185 Commercial); Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD. (CBNC2026-00185 Commercial)
 - Why Fencing Is Relevant: A fencing contractor can bid because source documents reference fencing work: "Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD."
 - Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## ELEC (100 A SERVICE) - 11583 VALENSIN RD
-
-- Project Summary: ELEC (100 A SERVICE) - 11583 VALENSIN RD - SMUD has requested we replace 480v 3ph 100a service with new. Meter jaws are bad. There is a fence in front of meter. install new 100a on opposite side of existing pole. The Fishery. Commercial fish farm.
-- Associated Improvements: Utility work, Site access improvements, Residential development infrastructure, Mechanical, Site development
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Site access improvements, Residential development infrastructure, Mechanical
-- Evidence Sources: Sacramento County Permits: MISC2026-00910 Commercial; Contractor Opportunity Record: ELEC (100 A SERVICE) - 11583 VALENSIN RD
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## HVAC change out: HVAC Changeout.
-
-- Project Summary: HVAC change out: HVAC Changeout. - Changeout to existing HVAC system only. No additional electrical, mechanical, plumbing, or structural work permitted.; Split system HVAC change out. Like for Like. A/C behind fence in back yard. Air handler in attic. No new ducts. - Residential HVAC (if structural design, apply for Miscellaneous Houses, Duplex, Townhome Mechanical
-- Associated Improvements: Residential development infrastructure, Mechanical
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Residential development infrastructure, Mechanical
-- Evidence Sources: Sacramento County Permits: HACR2026-01443 Residential; Contractor Opportunity Record: HVAC change out: HVAC Changeout.
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE
 
@@ -2102,62 +2186,6 @@ Generated: 2026-07-09T06:34:42.872Z
 - Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
 
-## REPAIR (DRY ROT) - 3131 EL CAMINO AVE
-
-- Project Summary: REPAIR (DRY ROT) - 3131 EL CAMINO AVE - REMOVE STUCCO AROUND REPAIR AREA PERIMETER (APPROX. 16"), REPLACE TO MATCH EXISTING AT END OF CONSTRUCTION. REMOVE EXISTING CONCRETE TOPPING AND PLYWOOD DECK. INSTALL NEW PLYWOOD DECKING. INSTALL NEW JOINT FLASHING AROUND REPAIR AREA PERIMETER. INSTALL NEW WATERPROOFING MEMBRANE. POUR NEW CONRETE TOPPING. FABRICATE AND INSTALL NEW 42" TALL BLACK METAL RAILING. - Replacing Windows or Siding, Fire Repair, Other Repairs
-- Associated Improvements: Utility work, Roofing, Utilities
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Roofing
-- Evidence Sources: Sacramento County Permits: CBRC2026-00336 Commercial; Contractor Opportunity Record: REPAIR (DRY ROT) - 3131 EL CAMINO AVE
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14)
-
-- Project Summary: REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14) - DRY ROT REPAIR FOR WALKWAY AND STAIR LANDING. (AFFECTED UNITS 8-14) WALKWAY (APPROXIMATELY 300 SF, AT 3 SEPARATE LOCATIONS (100 SF EACH): 1. REMOVE STUCCO AROUND THE PERIMETER OF THE WALKWAY WHERE 2. REPAIRS WILL OCCUR. 3. REMOVE APPROX. 300 SF OF EXISTING WATERPROOFING SYSTEM. 4. INSTALL NEW TONGUE & GROOVE PLYWOOD SHEATHING. 5. INSTALL NEW FLASHING AND REPLACE REMOVED STUCCO. 6. INSTALL NEW WATERPROOFING SYSTEM. 7. POUR NEW LIGHTWEIGHT CONCRETE WALKWAY TO MATCH EXISTING. STAIR LANDING (APPROXIMATELY 80 SF): 8. REMOVE STUCCO AROUND THE PERIMETER OF THE LANDING WHERE 9. REPAIRS WILL OCCUR. 10. REMOVE APPROX. 80 SF OF EXISTING WATERPROOFING SYSTEM. 11. INSTALL NEW TONGUE & GROOVE PLYWOOD SHEATHING. 12. INSTALL NEW FLASHING AND REPLACE REMOVED STUCCO. 13. INSTALL NEW WATERPROOFING SYSTEM. 14. POUR NEW LIGHTWEIGHT CONCRETE LANDING TO MATCH EXISTING. - Replacing Windows or Siding, Fire Repair, Other Repairs
-- Associated Improvements: Utility work, Roofing, Utilities
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Utility work, Roofing
-- Evidence Sources: Sacramento County Permits: CBRC2026-00323 Commercial; Contractor Opportunity Record: REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14)
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97)
-
-- Project Summary: REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97) - (MAIN) BUILDING 1945 UNIT #1 (REPLACE SIDING): REPLACE DAMAGED SIDING ON EXTERIOR CORNER OF BUILDING. BUILDING 1943 UNIT #29 (REPLACE ROOFING): REPLACE 32 SF OF PLYWOOD ROOF DECK AND ROOF EAVES AS DAMAGE OCCURS ABOVE ENTRY DOOR. REPLACE 32 SF OF COMP. ROOF SHINGLES ABOVE ENTRY DOOR. BUILDING 1931 UNIT #91 (REPLACE STAIR LANDING): REPLACE ENTRY / INTERIOR STAIR LANDING RIMBOARD. REPLACE ENTRY / INTERIOR STAIR LANDING PLYWOOD DECK. REPLACE ENTRY / INTERIOR STAIR LANDING PERIMETER STUCCO TO MATCH EXISTING. REATTACH STAIRS TO NEW RIMBOARD. UNIT #92 (REPLACE STEP): REPLACE 1ST CONCRETE STAIR STEP AT BOTTOM OF STAIR. REATTACH STAIR RAILING TO NEW CONCRETE STEP. UNIT #97 (REPLACE ROOFING): REPLACE 32 SF OF PLYWOOD ROOF DECK ABOVE ENTRY DOOR. REPLACE 32 SF OF COMP. ROOF SHINGLES ABOVE ENTRY DOOR. REPLACE FASCIA BOARD AT DAMAGED ROOFING. - Replacing Windows or Siding, Fire Repair, Other Repairs
-- Associated Improvements: Roofing
-- Related Development: Unknown
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Roofing
-- Evidence Sources: Sacramento County Permits: CBRC2026-00390 Commercial; Contractor Opportunity Record: REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97)
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
-
-## REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair.
-
-- Project Summary: REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair. - Electrical service panel replacement or emergency repair only. No additional electrical, mechanical, plumbing, or structural work permitted.; STUCCO PATCH AROUND PERIMETER OF PANEL REPLACE MSP 100A WITH 100A - Residential Electrical Panel Replacement
-- Associated Improvements: Residential development infrastructure, Mechanical
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Residential development infrastructure, Mechanical
-- Evidence Sources: Sacramento County Permits: PANR2026-00722 Residential; Contractor Opportunity Record: REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair.
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Electrical / landscape lighting; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
-
 ## REROOF PROJECT-DWELLING; Re-roof or Overlay Only.
 
 - Project Summary: REROOF PROJECT-DWELLING; Re-roof or Overlay Only. - Re-roof or overlay onto existing single layer of roofing only. No additional electrical, mechanical, plumbing, or structural work permitted.; Dwelling Only-remove existing wood shake shingles. Install new stone coated steel over existing sheathing - Residential Reroof
@@ -2198,20 +2226,6 @@ Generated: 2026-07-09T06:34:42.872Z
 - Fence Signals: None
 - Evidence Snippets: None
 - Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
-
-## UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair.
-
-- Project Summary: UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair. - Electrical service panel replacement or emergency repair only. No additional electrical, mechanical, plumbing, or structural work permitted.; MINOR SIDING FIX AROUND PERIMETER OF PANEL - Residential Electrical Panel Replacement
-- Associated Improvements: Residential development infrastructure, Mechanical
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Residential development infrastructure, Mechanical
-- Evidence Sources: Sacramento County Permits: PANR2026-00727 Residential; Contractor Opportunity Record: UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair.
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Electrical / landscape lighting; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## WOLFE - SOLAR RM / ESS
@@ -2493,20 +2507,6 @@ Generated: 2026-07-09T06:34:42.872Z
 - Evidence Snippets: None
 - Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
-
-## AREA: R02:  Pool Demolition (Partial)
-
-- Project Summary: AREA: R02: Pool Demolition (Partial) - Demo permits include structure and foundation/flat work only. No grading is included with this permit.; Scope of Work: 1. Sawcut, demolish, and remove pool/spa shell 2 feet below grade around the perimeter. 2. Break three drainage openings at the bottom of the pool and one at spa, approximately 2 feet wide each. 3. Backfill the pool/spa with soil and compact to complete the partial pool demolition. 4. Remove/cap and dispose of pool equipment and related materials generated by this scope of work. - Demolition – House, Shed, Pool or other Structure (NOT for fire repair)
-- Associated Improvements: Earthwork, Drainage improvements, Site access improvements, Demolition, Drainage, Site development
-- Related Development: Related residential development identified
-- Developer: Unknown
-- Applicant: Unknown
-- Work Categories: Earthwork, Drainage improvements, Site access improvements, Demolition
-- Evidence Sources: Sacramento County Permits: DMOR2026-00044 Residential; Contractor Opportunity Record: AREA: R02:  Pool Demolition (Partial)
-- Fence Signals: None
-- Evidence Snippets: None
-- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R03:  Foundation Repair
 

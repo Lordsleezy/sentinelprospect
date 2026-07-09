@@ -1,35 +1,5 @@
 [
   {
-    "company_profile_id": "company-a-1-electrical",
-    "company": "A 1 ELECTRICAL",
-    "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
-    "vendor_registration": "Unknown",
-    "trade_partner_registration": "Unknown",
-    "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
-    "approval_required": false,
-    "known_access_routes": [],
-    "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
-  },
-  {
-    "company_profile_id": "company-robert-l-scheid-construction",
-    "company": "ROBERT L SCHEID CONSTRUCTION",
-    "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
-    "vendor_registration": "Unknown",
-    "trade_partner_registration": "Unknown",
-    "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
-    "approval_required": false,
-    "known_access_routes": [],
-    "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
-  },
-  {
     "company_profile_id": "company-lennar-homes-of-california",
     "company": "Lennar Homes of California",
     "company_type": "Developer",
@@ -45,7 +15,73 @@
     ],
     "typical_opportunity": "Subdivision Trades",
     "confidence": 1,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-a-1-electrical",
+    "company": "A 1 ELECTRICAL",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=909430",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=909430"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-robert-l-scheid-construction",
+    "company": "ROBERT L SCHEID CONSTRUCTION",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1063457",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1063457"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-fdc-nor-cal",
+    "company": "FDC NOR-CAL CORP",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1079515",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1079515"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-good-life-construction",
+    "company": "GOOD LIFE CONSTRUCTION INC",
+    "company_type": "General Contractor",
+    "entry_method": "Subcontractor Intake Research",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "Unknown",
+    "approval_required": false,
+    "known_access_routes": [],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 0.35,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-advanced-roof-design",
@@ -62,7 +98,72 @@
     ],
     "typical_opportunity": "Subcontracted Trade Packages",
     "confidence": 1,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=964909",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://ru.scribd.com/document/746633276/inbound3501281419727076426",
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=964909"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-bell-brother-s-heating-and-air",
+    "company": "BELL BROTHER'S HEATING AND AIR INC",
+    "company_type": "General Contractor",
+    "entry_method": "Subcontractor Intake Research",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "Unknown",
+    "approval_required": false,
+    "known_access_routes": [],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 0.35,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-gigawatt-california",
+    "company": "GIGAWATT CALIFORNIA LLC",
+    "company_type": "General Contractor",
+    "entry_method": "Subcontractor Intake Research",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "Unknown",
+    "approval_required": false,
+    "known_access_routes": [],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 0.35,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-kb-home-sacramento",
+    "company": "KB HOME SACRAMENTO INC",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=255425",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=255425"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-kevin-l-cook-architect",
@@ -77,114 +178,160 @@
     "known_access_routes": [],
     "typical_opportunity": "Design-Led Project Intelligence",
     "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-3-generations-improvements",
     "company": "3 GENERATIONS IMPROVEMENTS INC",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876464",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876464"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
-    "company_profile_id": "company-alltech-gates-and-entry-controls",
-    "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+    "company_profile_id": "company-all-pro-plumbing",
+    "company": "ALL PRO PLUMBING",
     "company_type": "General Contractor",
     "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668343",
     "approval_required": false,
     "known_access_routes": [
-      "general_contact: https://ru.scribd.com/document/746633276/inbound3501281419727076426"
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668343"
     ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.72,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-american-buildings-j-s",
     "company": "AMERICAN BUILDINGS J&S",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1137229",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1137229"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
-    "company_profile_id": "company-american-carports",
-    "company": "AMERICAN CARPORTS INC",
+    "company_profile_id": "company-arco-murray-national-norcal",
+    "company": "ARCO / MURRAY NATIONAL NORCAL LLC",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1070665",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1070665"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
-    "company_profile_id": "company-burns-construction",
-    "company": "BURNS CONSTRUCTION",
+    "company_profile_id": "company-aztec-solar",
+    "company": "AZTEC SOLAR INC",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=550110",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=550110"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-bruce-construction-group",
+    "company": "BRUCE CONSTRUCTION GROUP LLC",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1087444",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1087444"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-california-renewable-energy",
     "company": "CALIFORNIA RENEWABLE ENERGY",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1068801",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1068801"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
-    "company_profile_id": "company-deome-2-builders",
-    "company": "DEOME 2 BUILDERS INC",
+    "company_profile_id": "company-city-signs",
+    "company": "CITY SIGNS",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=769900",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=769900"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-diehl-s-electric",
+    "company": "DIEHL'S ELECTRIC",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=633545",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=633545"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-duramax-roofing",
@@ -201,22 +348,41 @@
     ],
     "typical_opportunity": "Subcontracted Trade Packages",
     "confidence": 1,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-dyer-construction",
     "company": "DYER CONSTRUCTION INC",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=645755",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=645755"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-es-solar",
+    "company": "ES SOLAR LLC",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1127444",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1127444"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-famand",
@@ -233,52 +399,58 @@
     ],
     "typical_opportunity": "Subcontracted Trade Packages",
     "confidence": 0.72,
-    "last_verified": "2026-07-09T06:34:36.673Z"
-  },
-  {
-    "company_profile_id": "company-fdc-nor-cal",
-    "company": "FDC NOR-CAL CORP",
-    "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
-    "vendor_registration": "Unknown",
-    "trade_partner_registration": "Unknown",
-    "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
-    "approval_required": false,
-    "known_access_routes": [],
-    "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
-  },
-  {
-    "company_profile_id": "company-gigawatt-california",
-    "company": "GIGAWATT CALIFORNIA LLC",
-    "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
-    "vendor_registration": "Unknown",
-    "trade_partner_registration": "Unknown",
-    "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
-    "approval_required": false,
-    "known_access_routes": [],
-    "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-group-one-builders",
     "company": "GROUP ONE BUILDERS INC",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668907",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668907"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-haven-energy-services",
+    "company": "HAVEN ENERGY SERVICES INC",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1104018",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1104018"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-heat-and-air-solutions",
+    "company": "HEAT AND AIR SOLUTIONS INC",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1133607",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1133607"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-integral-communities",
@@ -293,52 +465,58 @@
     "known_access_routes": [],
     "typical_opportunity": "Subdivision Trades",
     "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-kenneth-development",
     "company": "KENNETH DEVELOPMENT INC",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=773369",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=773369"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
-    "company_profile_id": "company-kustom-us",
-    "company": "KUSTOM US INC",
+    "company_profile_id": "company-legacy-demolition",
+    "company": "LEGACY DEMOLITION LLC",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1122603",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1122603"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-lund-construction",
     "company": "Lund Construction Co",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://lundconstruction.com/contact",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://lundconstruction.com/contact"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-master-roofing-solutions",
@@ -353,56 +531,79 @@
     "known_access_routes": [],
     "typical_opportunity": "Subcontracted Trade Packages",
     "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
-    "company_profile_id": "company-o-connor-pool-solutions",
-    "company": "O'CONNOR POOL SOLUTIONS INC",
+    "company_profile_id": "company-nco-development",
+    "company": "NCO DEVELOPMENT",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1085867",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1085867"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-next-demolition",
+    "company": "NEXT DEMOLITION LLC",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1141839",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1141839"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-phillip-isaacs-construction",
     "company": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=627677",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=627677"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-prime-home-solutions",
     "company": "PRIME HOME SOLUTIONS INC",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1075385",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1075385"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
-    "company_profile_id": "company-sunsource",
-    "company": "SUNSOURCE INC",
+    "company_profile_id": "company-sierra-nevada-24-7",
+    "company": "SIERRA NEVADA 24/7 INC",
     "company_type": "General Contractor",
     "entry_method": "Subcontractor Intake Research",
     "vendor_registration": "Unknown",
@@ -413,7 +614,58 @@
     "known_access_routes": [],
     "typical_opportunity": "Subcontracted Trade Packages",
     "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-solace-enterprises",
+    "company": "SOLACE ENTERPRISES INC",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=913717",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=913717"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-speed-plumbing-pro",
+    "company": "SPEED PLUMBING PRO",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1084778",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1084778"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
+  },
+  {
+    "company_profile_id": "company-sunsource",
+    "company": "SUNSOURCE INC",
+    "company_type": "General Contractor",
+    "entry_method": "General Contact Route",
+    "vendor_registration": "Unknown",
+    "trade_partner_registration": "Unknown",
+    "bid_portal": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1117770",
+    "approval_required": false,
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1117770"
+    ],
+    "typical_opportunity": "Subcontracted Trade Packages",
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-taylor-morrison-of-california",
@@ -428,22 +680,24 @@
     "known_access_routes": [],
     "typical_opportunity": "Subdivision Trades",
     "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-veerkamp-doug-general-engineering",
     "company": "VEERKAMP DOUG GENERAL ENGINEERING INC",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=440233",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=440233"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-waters-construction",
@@ -460,21 +714,23 @@
     ],
     "typical_opportunity": "Subcontracted Trade Packages",
     "confidence": 1,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "last_verified": "2026-07-09T06:54:29.522Z"
   },
   {
     "company_profile_id": "company-west-coast-flooring",
     "company": "WEST COAST FLOORING",
     "company_type": "General Contractor",
-    "entry_method": "Subcontractor Intake Research",
+    "entry_method": "General Contact Route",
     "vendor_registration": "Unknown",
     "trade_partner_registration": "Unknown",
     "bid_portal": "Unknown",
-    "procurement_path": "Unknown",
+    "procurement_path": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876162",
     "approval_required": false,
-    "known_access_routes": [],
+    "known_access_routes": [
+      "general_contact: https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876162"
+    ],
     "typical_opportunity": "Subcontracted Trade Packages",
-    "confidence": 0.35,
-    "last_verified": "2026-07-09T06:34:36.673Z"
+    "confidence": 1,
+    "last_verified": "2026-07-09T06:54:29.522Z"
   }
 ]

@@ -1,5 +1,268 @@
 [
   {
+    "id": "cbac2026-00334-general-contractor-arco-murray-national-norcal-confidence",
+    "contact_resolution_result_id": "cbac2026-00334-general-contractor-arco-murray-national-norcal",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "solr2026-00249-general-contractor-gigawatt-california-confidence",
+    "contact_resolution_result_id": "solr2026-00249-general-contractor-gigawatt-california",
+    "score": 0.55,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "phcr2026-00580-general-contractor-kb-home-sacramento-confidence",
+    "contact_resolution_result_id": "phcr2026-00580-general-contractor-kb-home-sacramento",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "phcr2026-00579-general-contractor-kb-home-sacramento-confidence",
+    "contact_resolution_result_id": "phcr2026-00579-general-contractor-kb-home-sacramento",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "phcr2026-00578-general-contractor-lennar-homes-of-california-confidence",
+    "contact_resolution_result_id": "phcr2026-00578-general-contractor-lennar-homes-of-california",
+    "score": 0.82,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "phcr2026-00577-general-contractor-lennar-homes-of-california-confidence",
+    "contact_resolution_result_id": "phcr2026-00577-general-contractor-lennar-homes-of-california",
+    "score": 0.82,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "phcr2026-00576-general-contractor-lennar-homes-of-california-confidence",
+    "contact_resolution_result_id": "phcr2026-00576-general-contractor-lennar-homes-of-california",
+    "score": 0.82,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "phcr2026-00575-general-contractor-lennar-homes-of-california-confidence",
+    "contact_resolution_result_id": "phcr2026-00575-general-contractor-lennar-homes-of-california",
+    "score": 0.82,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "phcr2026-00574-general-contractor-lennar-homes-of-california-confidence",
+    "contact_resolution_result_id": "phcr2026-00574-general-contractor-lennar-homes-of-california",
+    "score": 0.82,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
     "id": "rerc2026-00187-general-contractor-advanced-roof-design-confidence",
     "contact_resolution_result_id": "rerc2026-00187-general-contractor-advanced-roof-design",
     "score": 1,
@@ -91,9 +354,9 @@
     ]
   },
   {
-    "id": "misc2026-01228-general-contractor-sunsource-confidence",
-    "contact_resolution_result_id": "misc2026-01228-general-contractor-sunsource",
-    "score": 0.55,
+    "id": "phcr2026-00573-general-contractor-fdc-nor-cal-confidence",
+    "contact_resolution_result_id": "phcr2026-00573-general-contractor-fdc-nor-cal",
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -104,6 +367,92 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "misc2026-01228-general-contractor-sunsource-confidence",
+    "contact_resolution_result_id": "misc2026-01228-general-contractor-sunsource",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "phcr2026-00571-general-contractor-fdc-nor-cal-confidence",
+    "contact_resolution_result_id": "phcr2026-00571-general-contractor-fdc-nor-cal",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "phcr2026-00566-general-contractor-fdc-nor-cal-confidence",
+    "contact_resolution_result_id": "phcr2026-00566-general-contractor-fdc-nor-cal",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -115,7 +464,7 @@
   {
     "id": "misr2026-01941-general-contractor-california-renewable-energy-confidence",
     "contact_resolution_result_id": "misr2026-01941-general-contractor-california-renewable-energy",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -126,6 +475,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -137,7 +491,7 @@
   {
     "id": "cbnr2026-00576-general-contractor-kenneth-development-confidence",
     "contact_resolution_result_id": "cbnr2026-00576-general-contractor-kenneth-development",
-    "score": 0.55,
+    "score": 0.82,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -148,6 +502,16 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -159,7 +523,7 @@
   {
     "id": "cbnc2026-00216-general-contractor-robert-l-scheid-construction-confidence",
     "contact_resolution_result_id": "cbnc2026-00216-general-contractor-robert-l-scheid-construction",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -170,6 +534,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -181,7 +550,7 @@
   {
     "id": "cbnc2026-00217-general-contractor-robert-l-scheid-construction-confidence",
     "contact_resolution_result_id": "cbnc2026-00217-general-contractor-robert-l-scheid-construction",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -192,6 +561,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -203,7 +577,7 @@
   {
     "id": "cbnc2026-00218-general-contractor-robert-l-scheid-construction-confidence",
     "contact_resolution_result_id": "cbnc2026-00218-general-contractor-robert-l-scheid-construction",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -214,6 +588,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -225,7 +604,7 @@
   {
     "id": "cbnc2026-00219-general-contractor-robert-l-scheid-construction-confidence",
     "contact_resolution_result_id": "cbnc2026-00219-general-contractor-robert-l-scheid-construction",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -236,6 +615,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -247,7 +631,7 @@
   {
     "id": "cbnc2026-00211-general-contractor-robert-l-scheid-construction-confidence",
     "contact_resolution_result_id": "cbnc2026-00211-general-contractor-robert-l-scheid-construction",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -258,6 +642,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -269,7 +658,7 @@
   {
     "id": "cbnc2026-00212-general-contractor-robert-l-scheid-construction-confidence",
     "contact_resolution_result_id": "cbnc2026-00212-general-contractor-robert-l-scheid-construction",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -280,6 +669,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -291,7 +685,7 @@
   {
     "id": "cbnc2026-00213-general-contractor-robert-l-scheid-construction-confidence",
     "contact_resolution_result_id": "cbnc2026-00213-general-contractor-robert-l-scheid-construction",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -302,6 +696,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -313,7 +712,7 @@
   {
     "id": "cbnc2026-00214-general-contractor-robert-l-scheid-construction-confidence",
     "contact_resolution_result_id": "cbnc2026-00214-general-contractor-robert-l-scheid-construction",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -324,6 +723,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -335,7 +739,7 @@
   {
     "id": "cbnc2026-00215-general-contractor-robert-l-scheid-construction-confidence",
     "contact_resolution_result_id": "cbnc2026-00215-general-contractor-robert-l-scheid-construction",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -346,6 +750,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -357,7 +766,7 @@
   {
     "id": "cbnc2026-00209-general-contractor-robert-l-scheid-construction-confidence",
     "contact_resolution_result_id": "cbnc2026-00209-general-contractor-robert-l-scheid-construction",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -368,6 +777,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -379,7 +793,7 @@
   {
     "id": "cbnc2026-00210-general-contractor-robert-l-scheid-construction-confidence",
     "contact_resolution_result_id": "cbnc2026-00210-general-contractor-robert-l-scheid-construction",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -390,6 +804,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -401,7 +820,7 @@
   {
     "id": "rerc2026-00185-general-contractor-duramax-roofing-confidence",
     "contact_resolution_result_id": "rerc2026-00185-general-contractor-duramax-roofing",
-    "score": 0.55,
+    "score": 0.82,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -412,6 +831,16 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -423,7 +852,7 @@
   {
     "id": "cbnr2026-00571-general-contractor-waters-construction-confidence",
     "contact_resolution_result_id": "cbnr2026-00571-general-contractor-waters-construction",
-    "score": 0.55,
+    "score": 0.82,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -434,6 +863,16 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -445,7 +884,7 @@
   {
     "id": "cbnc2026-00207-general-contractor-alltech-gates-and-entry-controls-confidence",
     "contact_resolution_result_id": "cbnc2026-00207-general-contractor-alltech-gates-and-entry-controls",
-    "score": 0.55,
+    "score": 0.82,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -456,6 +895,16 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -467,7 +916,7 @@
   {
     "id": "cbar2026-00651-general-contractor-west-coast-flooring-confidence",
     "contact_resolution_result_id": "cbar2026-00651-general-contractor-west-coast-flooring",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -478,6 +927,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -489,7 +943,7 @@
   {
     "id": "solr2026-00227-general-contractor-prime-home-solutions-confidence",
     "contact_resolution_result_id": "solr2026-00227-general-contractor-prime-home-solutions",
-    "score": 0.55,
+    "score": 0.82,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -500,6 +954,16 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -555,7 +1019,7 @@
   {
     "id": "phcr2026-00562-general-contractor-lennar-homes-of-california-confidence",
     "contact_resolution_result_id": "phcr2026-00562-general-contractor-lennar-homes-of-california",
-    "score": 0.55,
+    "score": 0.82,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -566,6 +1030,16 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -577,7 +1051,7 @@
   {
     "id": "phcr2026-00561-general-contractor-lennar-homes-of-california-confidence",
     "contact_resolution_result_id": "phcr2026-00561-general-contractor-lennar-homes-of-california",
-    "score": 0.55,
+    "score": 0.82,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -588,6 +1062,16 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -599,7 +1083,7 @@
   {
     "id": "cbrr2026-00705-general-contractor-phillip-isaacs-construction-incorporated-confidence",
     "contact_resolution_result_id": "cbrr2026-00705-general-contractor-phillip-isaacs-construction-incorporated",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -610,6 +1094,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -621,7 +1110,7 @@
   {
     "id": "cbar2026-00648-general-contractor-dyer-construction-confidence",
     "contact_resolution_result_id": "cbar2026-00648-general-contractor-dyer-construction",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -632,6 +1121,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -643,7 +1137,7 @@
   {
     "id": "cbrr2026-00703-general-contractor-3-generations-improvements-confidence",
     "contact_resolution_result_id": "cbrr2026-00703-general-contractor-3-generations-improvements",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -654,6 +1148,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -665,7 +1164,7 @@
   {
     "id": "cbnr2026-00564-general-contractor-american-buildings-j-s-confidence",
     "contact_resolution_result_id": "cbnr2026-00564-general-contractor-american-buildings-j-s",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -676,6 +1175,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -687,7 +1191,7 @@
   {
     "id": "cbnr2026-00562-general-contractor-group-one-builders-confidence",
     "contact_resolution_result_id": "cbnr2026-00562-general-contractor-group-one-builders",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -698,6 +1202,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -709,7 +1218,7 @@
   {
     "id": "dmoc2026-00045-general-contractor-veerkamp-doug-general-engineering-confidence",
     "contact_resolution_result_id": "dmoc2026-00045-general-contractor-veerkamp-doug-general-engineering",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -720,6 +1229,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -731,7 +1245,7 @@
   {
     "id": "cbnc2026-00200-general-contractor-a-1-electrical-confidence",
     "contact_resolution_result_id": "cbnc2026-00200-general-contractor-a-1-electrical",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -742,6 +1256,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -753,7 +1272,7 @@
   {
     "id": "cbnc2026-00201-general-contractor-a-1-electrical-confidence",
     "contact_resolution_result_id": "cbnc2026-00201-general-contractor-a-1-electrical",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -764,6 +1283,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -775,7 +1299,7 @@
   {
     "id": "cbnc2026-00196-general-contractor-a-1-electrical-confidence",
     "contact_resolution_result_id": "cbnc2026-00196-general-contractor-a-1-electrical",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -786,6 +1310,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -797,7 +1326,7 @@
   {
     "id": "cbnc2026-00197-general-contractor-a-1-electrical-confidence",
     "contact_resolution_result_id": "cbnc2026-00197-general-contractor-a-1-electrical",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -808,6 +1337,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -819,7 +1353,7 @@
   {
     "id": "cbnc2026-00198-general-contractor-a-1-electrical-confidence",
     "contact_resolution_result_id": "cbnc2026-00198-general-contractor-a-1-electrical",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -830,6 +1364,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -841,7 +1380,7 @@
   {
     "id": "cbnc2026-00199-general-contractor-a-1-electrical-confidence",
     "contact_resolution_result_id": "cbnc2026-00199-general-contractor-a-1-electrical",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -852,6 +1391,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -863,7 +1407,7 @@
   {
     "id": "cbnc2026-00192-general-contractor-a-1-electrical-confidence",
     "contact_resolution_result_id": "cbnc2026-00192-general-contractor-a-1-electrical",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -874,6 +1418,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -885,7 +1434,7 @@
   {
     "id": "cbnc2026-00193-general-contractor-a-1-electrical-confidence",
     "contact_resolution_result_id": "cbnc2026-00193-general-contractor-a-1-electrical",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -896,6 +1445,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -907,7 +1461,7 @@
   {
     "id": "cbnc2026-00194-general-contractor-a-1-electrical-confidence",
     "contact_resolution_result_id": "cbnc2026-00194-general-contractor-a-1-electrical",
-    "score": 0.55,
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -918,6 +1472,11 @@
         "factor": "project_role",
         "points": 0.1,
         "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",
@@ -929,6 +1488,308 @@
   {
     "id": "cbnc2026-00195-general-contractor-a-1-electrical-confidence",
     "contact_resolution_result_id": "cbnc2026-00195-general-contractor-a-1-electrical",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "dmor2026-00065-general-contractor-nco-development-confidence",
+    "contact_resolution_result_id": "dmor2026-00065-general-contractor-nco-development",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "dmor2026-00064-general-contractor-legacy-demolition-confidence",
+    "contact_resolution_result_id": "dmor2026-00064-general-contractor-legacy-demolition",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "solr2026-00226-general-contractor-es-solar-confidence",
+    "contact_resolution_result_id": "solr2026-00226-general-contractor-es-solar",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "misc2026-01071-general-contractor-solace-enterprises-confidence",
+    "contact_resolution_result_id": "misc2026-01071-general-contractor-solace-enterprises",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "cbnc2026-00169-general-contractor-alltech-gates-and-entry-controls-confidence",
+    "contact_resolution_result_id": "cbnc2026-00169-general-contractor-alltech-gates-and-entry-controls",
+    "score": 0.82,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "website",
+        "points": 0.12,
+        "reason": "Website is present in source-backed data."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "slcr2026-00042-general-contractor-haven-energy-services-confidence",
+    "contact_resolution_result_id": "slcr2026-00042-general-contractor-haven-energy-services",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "misr2026-01568-general-contractor-all-pro-plumbing-confidence",
+    "contact_resolution_result_id": "misr2026-01568-general-contractor-all-pro-plumbing",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "hacr2026-01443-general-contractor-heat-and-air-solutions-confidence",
+    "contact_resolution_result_id": "hacr2026-01443-general-contractor-heat-and-air-solutions",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "misr2026-01474-general-contractor-speed-plumbing-pro-confidence",
+    "contact_resolution_result_id": "misr2026-01474-general-contractor-speed-plumbing-pro",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "misc2026-00910-general-contractor-diehl-s-electric-confidence",
+    "contact_resolution_result_id": "misc2026-00910-general-contractor-diehl-s-electric",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "hacr2026-01311-general-contractor-sierra-nevada-24-7-confidence",
+    "contact_resolution_result_id": "hacr2026-01311-general-contractor-sierra-nevada-24-7",
     "score": 0.55,
     "factors": [
       {
@@ -949,8 +1810,8 @@
     ]
   },
   {
-    "id": "cbnc2026-00191-general-contractor-a-1-electrical-confidence",
-    "contact_resolution_result_id": "cbnc2026-00191-general-contractor-a-1-electrical",
+    "id": "cbrc2026-00390-general-contractor-good-life-construction-confidence",
+    "contact_resolution_result_id": "cbrc2026-00390-general-contractor-good-life-construction",
     "score": 0.55,
     "factors": [
       {
@@ -971,8 +1832,89 @@
     ]
   },
   {
-    "id": "cbnr2026-00560-general-contractor-deome-2-builders-confidence",
-    "contact_resolution_result_id": "cbnr2026-00560-general-contractor-deome-2-builders",
+    "id": "cbnr2026-00389-general-contractor-bruce-construction-group-confidence",
+    "contact_resolution_result_id": "cbnr2026-00389-general-contractor-bruce-construction-group",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "misc2026-00862-general-contractor-a-1-electrical-confidence",
+    "contact_resolution_result_id": "misc2026-00862-general-contractor-a-1-electrical",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "dmor2026-00044-general-contractor-next-demolition-confidence",
+    "contact_resolution_result_id": "dmor2026-00044-general-contractor-next-demolition",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "panr2026-00727-general-contractor-bell-brother-s-heating-and-air-confidence",
+    "contact_resolution_result_id": "panr2026-00727-general-contractor-bell-brother-s-heating-and-air",
     "score": 0.55,
     "factors": [
       {
@@ -993,8 +1935,8 @@
     ]
   },
   {
-    "id": "cbar2026-00640-general-contractor-burns-construction-confidence",
-    "contact_resolution_result_id": "cbar2026-00640-general-contractor-burns-construction",
+    "id": "panr2026-00722-general-contractor-bell-brother-s-heating-and-air-confidence",
+    "contact_resolution_result_id": "panr2026-00722-general-contractor-bell-brother-s-heating-and-air",
     "score": 0.55,
     "factors": [
       {
@@ -1015,8 +1957,35 @@
     ]
   },
   {
-    "id": "spcr2026-00132-general-contractor-o-connor-pool-solutions-confidence",
-    "contact_resolution_result_id": "spcr2026-00132-general-contractor-o-connor-pool-solutions",
+    "id": "sgnc2026-00065-general-contractor-city-signs-confidence",
+    "contact_resolution_result_id": "sgnc2026-00065-general-contractor-city-signs",
+    "score": 0.7,
+    "factors": [
+      {
+        "factor": "source_backed_company",
+        "points": 0.45,
+        "reason": "Company name appears in a public source record."
+      },
+      {
+        "factor": "project_role",
+        "points": 0.1,
+        "reason": "General Contractor role is source-derived."
+      },
+      {
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
+      },
+      {
+        "factor": "person_contact_missing",
+        "points": 0,
+        "reason": "No source-backed person-level contact found."
+      }
+    ]
+  },
+  {
+    "id": "cbrc2026-00336-general-contractor-good-life-construction-confidence",
+    "contact_resolution_result_id": "cbrc2026-00336-general-contractor-good-life-construction",
     "score": 0.55,
     "factors": [
       {
@@ -1037,8 +2006,8 @@
     ]
   },
   {
-    "id": "phcr2026-00560-general-contractor-fdc-nor-cal-confidence",
-    "contact_resolution_result_id": "phcr2026-00560-general-contractor-fdc-nor-cal",
+    "id": "cbrc2026-00323-general-contractor-good-life-construction-confidence",
+    "contact_resolution_result_id": "cbrc2026-00323-general-contractor-good-life-construction",
     "score": 0.55,
     "factors": [
       {
@@ -1059,9 +2028,9 @@
     ]
   },
   {
-    "id": "cbnr2026-00558-general-contractor-american-carports-confidence",
-    "contact_resolution_result_id": "cbnr2026-00558-general-contractor-american-carports",
-    "score": 0.55,
+    "id": "misr2026-01118-general-contractor-aztec-solar-confidence",
+    "contact_resolution_result_id": "misr2026-01118-general-contractor-aztec-solar",
+    "score": 0.7,
     "factors": [
       {
         "factor": "source_backed_company",
@@ -1074,26 +2043,9 @@
         "reason": "General Contractor role is source-derived."
       },
       {
-        "factor": "person_contact_missing",
-        "points": 0,
-        "reason": "No source-backed person-level contact found."
-      }
-    ]
-  },
-  {
-    "id": "cbar2026-00636-general-contractor-kustom-us-confidence",
-    "contact_resolution_result_id": "cbar2026-00636-general-contractor-kustom-us",
-    "score": 0.55,
-    "factors": [
-      {
-        "factor": "source_backed_company",
-        "points": 0.45,
-        "reason": "Company name appears in a public source record."
-      },
-      {
-        "factor": "project_role",
-        "points": 0.1,
-        "reason": "General Contractor role is source-derived."
+        "factor": "phone",
+        "points": 0.15,
+        "reason": "Phone is present in source-backed data."
       },
       {
         "factor": "person_contact_missing",

@@ -1,6 +1,6 @@
 # Evidence Coverage
 
-Generated: 2026-07-09T06:34:42.869Z
+Generated: 2026-07-09T06:57:35.193Z
 
 ## Summary
 
@@ -8,7 +8,7 @@ Generated: 2026-07-09T06:34:42.869Z
 - Document extraction rows: 28
 - Unique companies found in evidence: 5
 - Relationship evidence rows: 4
-- Existing contact evidence rows available: 54
+- Existing contact evidence rows available: 80
 - Documents with award information: 1
 
 ## Evidence Sources

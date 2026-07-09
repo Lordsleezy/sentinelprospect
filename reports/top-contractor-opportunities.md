@@ -1,6 +1,6 @@
 # Top Contractor Opportunities
 
-Generated: 2026-07-09T06:34:38.221Z
+Generated: 2026-07-09T06:54:30.642Z
 
 | Project | Trade | Contractor Score | Trade Relevance | Scope | Subcontractor Likelihood | Opportunity Size | Stage | Saturation | Visible | Reason |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -30,8 +30,6 @@ Generated: 2026-07-09T06:34:38.221Z
 | Hopkins Village - Unit 16 ***DIGITAL REVIEW*** | Electrical | 75 | 70 | Large | High | High | Open | Unknown | Yes | Electrical score 75: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
 | Hopkins Village - Unit 42 ***DIGITAL REVIEW*** | Electrical | 75 | 70 | Large | High | High | Open | Unknown | Yes | Electrical score 75: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
 | SOLAR : AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-09A  LOT 276 | Electrical | 74 | 84 | Large | High | High | Unknown | Unknown | Yes | Electrical score 74: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
-| AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 1850 D Lot 94 | Fencing | 70 | 70 | Large | High | High | Unknown | Unknown | Yes | Fencing score 70: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
-| AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 2126 A Lot 93 | Fencing | 70 | 70 | Large | High | High | Unknown | Unknown | Yes | Fencing score 70: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
 | GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143 | Fencing | 70 | 70 | Large | High | High | Unknown | Unknown | Yes | Fencing score 70: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
 | PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping | Fencing | 70 | 70 | Large | High | High | Unknown | Unknown | Yes | Fencing score 70: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
 | AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-08 Elevation | Fencing | 70 | 70 | Large | High | High | Unknown | Unknown | Yes | Fencing score 70: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
@@ -39,6 +37,8 @@ Generated: 2026-07-09T06:34:38.221Z
 | AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation | Fencing | 70 | 70 | Large | High | High | Unknown | Unknown | Yes | Fencing score 70: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
 | AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation | Fencing | 70 | 70 | Large | High | High | Unknown | Unknown | Yes | Fencing score 70: Large scope, high subcontractor likelihood, high opportunity size, unknown stage. |
 | Gerber Creek Re-Alignment | Site work | 65 | 70 | Medium | Medium | Medium | Open | General Contractor | Yes | Site work score 65: Medium scope, medium subcontractor likelihood, medium opportunity size, open stage. |
+| AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 1850 D Lot 94 | Fencing | 65 | 70 | Large | High | High | Open | Possible Trade Contractor | Yes | Fencing score 65: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
+| AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 2126 A Lot 93 | Fencing | 65 | 70 | Large | High | High | Open | Possible Trade Contractor | Yes | Fencing score 65: Large scope, high subcontractor likelihood, high opportunity size, open stage. |
 | MARIOPSA LOT 44 MASTER PLAN 2  / ELEV A / GAR R | HVAC | 64 | 28 | Major | High | Very High | Unknown | Unknown | Yes | HVAC score 64: Major scope, high subcontractor likelihood, very high opportunity size, unknown stage. |
 | Northlake 36 Homes | Landscaping | 61 | 70 | Medium | Medium | Low | Open | Unknown | Yes | Landscaping score 61: Medium scope, medium subcontractor likelihood, low opportunity size, open stage. |
 | Northlake Lakelet | Landscaping | 61 | 70 | Medium | Medium | Low | Open | Unknown | Yes | Landscaping score 61: Medium scope, medium subcontractor likelihood, low opportunity size, open stage. |

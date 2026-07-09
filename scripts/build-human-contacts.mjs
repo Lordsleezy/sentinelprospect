@@ -7,12 +7,17 @@ const contactResolutionResults = await readJson("data/contact_resolution_results
 const contactWebSources = await readJson("data/contact_web_sources.json") ?? [];
 const companyProfiles = await readJson("data/company_profiles.json") ?? [];
 const curatedSources = await readJson("data/company_human_contact_sources.json") ?? [];
+const descriptionBusinesses = await readJson("data/description_named_businesses.json") ?? [];
+const companyEnrichment = await readJson("data/company_contact_enrichment.json") ?? [];
 const capturedAt = new Date().toISOString();
 
 const companyProfilesById = new Map(companyProfiles.map((profile) => [profile.id, profile]));
 const contactResolutionByCompany = groupBy(contactResolutionResults, (contact) => normalizeName(contact.company_name));
 const contactWebSourceByCompany = new Map(contactWebSources.map((source) => [normalizeName(source.company_name), source]));
 const curatedByCompany = new Map(curatedSources.map((source) => [normalizeName(source.company_name), source]));
+const enrichmentByCompany = new Map(companyEnrichment.map((row) => [normalizeName(row.company_name), row]));
+const descriptionByProject = groupBy(descriptionBusinesses, (row) => normalizeName(row.project_name));
+const descriptionByExternalId = groupBy(descriptionBusinesses, (row) => normalizeProjectId(row.opportunity_external_id));
 
 const company_human_contacts = companyAccessProfiles.map(buildCompanyHumanContacts);
 const humanContactsByCompanyId = new Map(company_human_contacts.map((row) => [row.company_profile_id, row]));
@@ -75,6 +80,7 @@ function buildOpportunityContacts(opportunity) {
     .filter((contact) => sameProject(contact.project_name, opportunity.project_name) || normalizeProjectId(contact.project_external_id) === normalizeProjectId(opportunity.id))
     .flatMap(contactFromResolution);
   contacts.push(...directProjectContacts);
+  contacts.push(...contactsFromDescriptionBusinesses(opportunity));
   const deduped = dedupeContacts(contacts).sort(compareContacts);
   const best = deduped[0] ?? null;
   const backupAccessRoute = opportunity.procurement_route !== "Unknown" ? opportunity.procurement_route : opportunity.access_route ?? "Unknown";
@@ -104,7 +110,7 @@ function contactsFromResolution(companyName) {
 }
 
 function contactFromResolution(contact) {
-  if (!contact.phone && !contact.contact_name && !contact.resolved_website) return [];
+  if (!contact.phone && !contact.email && !contact.contact_name && !contact.resolved_website) return [];
   const hasPerson = Boolean(contact.contact_name);
   const hasDirectPhone = Boolean(contact.contact_name && contact.phone);
   return [{
@@ -112,14 +118,16 @@ function contactFromResolution(contact) {
     title: contact.contact_title ?? contact.project_role ?? undefined,
     company: contact.company_name,
     phone: contact.phone ?? undefined,
-    email: undefined,
+    email: contact.email ?? undefined,
     contactType: hasDirectPhone || hasPerson ? "direct" : contact.project_role === "General Contractor" ? "construction" : "corporate",
-    confidence: hasDirectPhone ? 0.95 : contact.phone ? 0.85 : Math.max(0.25, contact.confidence ?? 0.55),
+    confidence: hasDirectPhone ? 0.95 : contact.phone ? 0.85 : contact.email ? 0.7 : Math.max(0.25, contact.confidence ?? 0.55),
     source: contact.source_url,
     evidence: [
       contact.contact_name
         ? `Source-backed contact ${contact.contact_name} listed for ${contact.company_name}.`
-        : `Source-backed company route listed for ${contact.company_name}.`,
+        : contact.phone
+          ? `Source-backed company phone listed for ${contact.company_name}.`
+          : `Source-backed company route listed for ${contact.company_name}.`,
     ],
   }];
 }
@@ -128,15 +136,15 @@ function contactsFromWebSource(companyName) {
   const source = contactWebSourceByCompany.get(normalizeName(companyName));
   if (!source) return [];
   const contacts = [];
-  if (source.contact_name || source.phone) {
+  if (source.contact_name || source.phone || source.email) {
     contacts.push({
       name: source.contact_name ?? undefined,
       title: source.contact_title ?? source.contact_role ?? undefined,
       company: source.company_name,
       phone: source.phone ?? undefined,
-      email: undefined,
+      email: source.email ?? undefined,
       contactType: source.contact_name && source.phone ? "direct" : "corporate",
-      confidence: source.contact_name && source.phone ? 0.95 : source.phone ? 0.65 : 0.55,
+      confidence: source.contact_name && source.phone ? 0.95 : source.phone ? 0.85 : source.email ? 0.7 : 0.55,
       source: source.sources?.[0]?.source_url ?? source.website ?? "Unknown",
       evidence: (source.sources ?? []).map((item) => item.excerpt).filter(Boolean),
     });
@@ -145,18 +153,53 @@ function contactsFromWebSource(companyName) {
 }
 
 function contactsFromProfile(accessProfile, profile) {
-  if (!profile?.phone) return [];
+  if (!profile?.phone && !profile?.email) return [];
   return [{
     name: undefined,
     title: officeTitle(accessProfile.company_type),
     company: accessProfile.company,
-    phone: profile.phone,
-    email: undefined,
+    phone: profile.phone ?? undefined,
+    email: profile.email ?? undefined,
     contactType: contactTypeForCompany(accessProfile.company_type),
     confidence: accessProfile.company_type === "General Contractor" ? 0.85 : 0.65,
-    source: profile.contact_page_url ?? profile.official_website ?? "Company profile",
-    evidence: [`Company profile lists phone ${profile.phone} for ${accessProfile.company}.`],
+    source: profile.contact_page_url ?? profile.official_website ?? profile.metadata?.cslb_source_url ?? "Company profile",
+    evidence: [
+      profile.phone ? `Company profile lists phone ${profile.phone} for ${accessProfile.company}.` : null,
+      profile.email ? `Company profile lists email ${profile.email} for ${accessProfile.company}.` : null,
+    ].filter(Boolean),
   }];
+}
+
+function contactsFromDescriptionBusinesses(opportunity) {
+  const rows = [
+    ...(descriptionByProject.get(normalizeName(opportunity.project_name)) ?? []),
+    ...(descriptionByExternalId.get(normalizeProjectId(opportunity.id)) ?? []),
+  ];
+  const seen = new Set();
+  const contacts = [];
+  for (const row of rows) {
+    const key = normalizeName(row.business_name);
+    if (!key || seen.has(key)) continue;
+    seen.add(key);
+    const enriched = enrichmentByCompany.get(key);
+    const web = contactWebSourceByCompany.get(key);
+    contacts.push({
+      name: undefined,
+      title: "Named site business",
+      company: row.business_name,
+      phone: enriched?.phone ?? web?.phone ?? undefined,
+      email: enriched?.email ?? web?.email ?? undefined,
+      contactType: "corporate",
+      confidence: enriched?.phone || web?.phone ? 0.7 : 0.35,
+      source: enriched?.cslb_source_url ?? row.source_url ?? "permit_description",
+      evidence: [
+        row.evidence,
+        enriched?.phone ? `CSLB/public enrichment lists phone ${enriched.phone}.` : null,
+        enriched?.email ? `Website enrichment lists email ${enriched.email}.` : null,
+      ].filter(Boolean),
+    });
+  }
+  return contacts;
 }
 
 function contactsFromCurated(companyName) {
@@ -239,8 +282,9 @@ function nextStep(opportunity, contact, backupAccessRoute) {
 function contactCoverage(contact, backupAccessRoute) {
   if (!contact) return backupAccessRoute && backupAccessRoute !== "Unknown" ? "Access Route Only" : "Unknown";
   if (contact.name && (contact.phone || contact.email)) return "Known Human Contact";
-  if (contact.phone) return "Company Office Contact";
-  return "Access Route Only";
+  if (contact.phone || contact.email) return "Company Office Contact";
+  if (contact.company) return "Named Company Lead";
+  return backupAccessRoute && backupAccessRoute !== "Unknown" ? "Access Route Only" : "Unknown";
 }
 
 function compareContacts(a, b) {
@@ -250,12 +294,17 @@ function compareContacts(a, b) {
 function contactRank(contact) {
   if (contact.name && contact.phone) return 100;
   if (contact.name && contact.email) return 95;
-  if (contact.contactType === "construction" && contact.phone) return 85;
-  if (contact.contactType === "sales" && contact.phone) return 75;
-  if (contact.contactType === "regional" && contact.phone) return 70;
-  if (contact.contactType === "corporate" && contact.phone) return 65;
-  if (contact.contactType === "trade_partner") return 55;
-  if (contact.contactType === "vendor") return 50;
+  if (contact.phone) {
+    if (contact.contactType === "construction") return 85;
+    if (contact.contactType === "sales") return 75;
+    if (contact.contactType === "regional") return 70;
+    if (contact.contactType === "corporate") return 65;
+    return 60;
+  }
+  if (contact.email) return 55;
+  if (contact.contactType === "trade_partner") return 40;
+  if (contact.contactType === "vendor") return 35;
+  if (contact.company) return 30;
   return 25;
 }
 

@@ -1,11 +1,144 @@
 [
   {
+    "id": "company-lennar-homes-of-california",
+    "company_name": "Lennar Homes of California",
+    "normalized_name": "lennar homes of california",
+    "company_type": "Developer",
+    "official_website": "https://www.lennar.com/",
+    "phone": "(949) 789-1600",
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": "https://www.lennar.com/contact/business-inquiry",
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 18,
+    "profile_confidence": 0.93,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor",
+        "Developer"
+      ],
+      "collector_project_count": 15,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00578",
+          "project_name": "AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 1 - 3161 Elevation C - Lot 48",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00577",
+          "project_name": "AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation B - Lot 40",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00576",
+          "project_name": "AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3141 Elevation A - Lot 39",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00575",
+          "project_name": "AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - Plan 1950 Elevation A - Lo",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00574",
+          "project_name": "AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation C - Lot 17",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00562",
+          "project_name": "SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation A- Lot 9",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00561",
+          "project_name": "SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Lund Construction Co project portfolio",
+          "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
+          "project_name": "Gerber Creek Re-Alignment",
+          "role": "Developer"
+        },
+        {
+          "source_name": "SF YIMBY",
+          "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
+          "project_name": "Northlake Lakelet",
+          "role": "Developer"
+        },
+        {
+          "source_name": "SF YIMBY",
+          "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
+          "project_name": "Northlake 36 Homes",
+          "role": "Developer"
+        },
+        {
+          "source_name": "Central Valley Regional Water Quality Control Board",
+          "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
+          "project_name": "Gerber Creek Unit 1 and Unit 2",
+          "role": "Developer"
+        },
+        {
+          "source_name": "Central Valley Regional Water Quality Control Board",
+          "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
+          "project_name": "Gerber Creek Unit 1 and Unit 2",
+          "role": "Developer"
+        },
+        {
+          "source_name": "Southgate Recreation and Park District",
+          "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf",
+          "project_name": "Gerber Creek and Lelani Village Subdivisions",
+          "role": "Developer"
+        },
+        {
+          "source_name": "Sacramento County Board of Supervisors",
+          "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977",
+          "project_name": "Trunk Drainage Facilities Zone 11A",
+          "role": "Developer"
+        },
+        {
+          "source_name": "Sacramento County Board of Supervisors",
+          "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223",
+          "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
+          "role": "Developer"
+        }
+      ],
+      "missing_fields": [
+        "Email",
+        "LinkedIn Company Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
     "id": "company-a-1-electrical",
     "company_name": "A 1 ELECTRICAL",
     "normalized_name": "a 1 electrical",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(916) 482-3400",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -16,9 +149,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 11,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 12,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -87,14 +220,14 @@
         },
         {
           "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00191",
-          "project_name": "REPAIR (PATIO w/ FOOTINGS) - 609 WOODSIDE SIERRA",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00862",
+          "project_name": "NEW (GATES) - 5800 FAIR OAKS BLVD",
           "role": "General Contractor"
         }
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -113,7 +246,8 @@
     "normalized_name": "robert l scheid construction",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(916) 947-8089",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -124,9 +258,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 11,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 12,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -202,7 +336,7 @@
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -216,14 +350,15 @@
     }
   },
   {
-    "id": "company-lennar-homes-of-california",
-    "company_name": "Lennar Homes of California",
-    "normalized_name": "lennar homes of california",
-    "company_type": "Developer",
-    "official_website": "https://www.lennar.com/",
-    "phone": null,
+    "id": "company-fdc-nor-cal",
+    "company_name": "FDC NOR-CAL CORP",
+    "normalized_name": "fdc nor cal",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": "(925) 766-5163",
+    "email": null,
     "linkedin_company_page": null,
-    "contact_page_url": "https://www.lennar.com/contact/business-inquiry",
+    "contact_page_url": null,
     "bid_opportunities_page_url": null,
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
@@ -232,80 +367,101 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 12,
-    "profile_confidence": 0.75,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 4,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
-        "General Contractor",
-        "Developer"
+        "General Contractor"
       ],
-      "collector_project_count": 10,
+      "collector_project_count": 3,
       "collector_source_records": [
         {
           "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00562",
-          "project_name": "SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation A- Lot 9",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00573",
+          "project_name": "SOLAR : AREA: R03:  Blossom Ridge-Plan 2984-Elevation A-Lot 7",
           "role": "General Contractor"
         },
         {
           "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00561",
-          "project_name": "SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00571",
+          "project_name": "SOLAR : AREA: R03:  Blossom Ridge-Plan 2230-Elevation C-Lot 8",
           "role": "General Contractor"
         },
         {
-          "source_name": "Lund Construction Co project portfolio",
-          "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
-          "project_name": "Gerber Creek Re-Alignment",
-          "role": "Developer"
-        },
-        {
-          "source_name": "SF YIMBY",
-          "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
-          "project_name": "Northlake Lakelet",
-          "role": "Developer"
-        },
-        {
-          "source_name": "SF YIMBY",
-          "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
-          "project_name": "Northlake 36 Homes",
-          "role": "Developer"
-        },
-        {
-          "source_name": "Central Valley Regional Water Quality Control Board",
-          "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
-          "project_name": "Gerber Creek Unit 1 and Unit 2",
-          "role": "Developer"
-        },
-        {
-          "source_name": "Central Valley Regional Water Quality Control Board",
-          "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
-          "project_name": "Gerber Creek Unit 1 and Unit 2",
-          "role": "Developer"
-        },
-        {
-          "source_name": "Southgate Recreation and Park District",
-          "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf",
-          "project_name": "Gerber Creek and Lelani Village Subdivisions",
-          "role": "Developer"
-        },
-        {
-          "source_name": "Sacramento County Board of Supervisors",
-          "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977",
-          "project_name": "Trunk Drainage Facilities Zone 11A",
-          "role": "Developer"
-        },
-        {
-          "source_name": "Sacramento County Board of Supervisors",
-          "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223",
-          "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
-          "role": "Developer"
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00566",
+          "project_name": "SOLAR : AREA: R03:  Blossom Ridge-Plan 2704-Elevation B-Lot 9",
+          "role": "General Contractor"
         }
       ],
       "missing_fields": [
-        "Phone",
+        "Official Website",
+        "Email",
         "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-good-life-construction",
+    "company_name": "GOOD LIFE CONSTRUCTION INC",
+    "normalized_name": "good life construction",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": null,
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 3,
+    "profile_confidence": 0.35,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 3,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00390",
+          "project_name": "REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97)",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00336",
+          "project_name": "REPAIR (DRY ROT) - 3131 EL CAMINO AVE",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00323",
+          "project_name": "REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14)",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Phone",
+        "Email",
+        "LinkedIn Company Page",
+        "Contact Page",
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
@@ -322,7 +478,8 @@
     "normalized_name": "advanced roof design",
     "company_type": "General Contractor",
     "official_website": "https://www.ardroofing.com/",
-    "phone": "(916)381-2266",
+    "phone": "(916) 381-2266",
+    "email": "membership@caanet.org",
     "linkedin_company_page": null,
     "contact_page_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
     "bid_opportunities_page_url": null,
@@ -333,9 +490,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 5,
-    "profile_confidence": 0.89,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 7,
+    "profile_confidence": 0.99,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -345,18 +502,238 @@
         {
           "source_name": "Sacramento County Permits",
           "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00187",
-          "project_name": "326 squares TPO overlay",
+          "project_name": "REROOF (OVERLAY 326 SQ) - 3800 WATT AVE",
           "role": "General Contractor"
         },
         {
           "source_name": "Sacramento County Permits",
           "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00186",
-          "project_name": "install TPO over existing capsheet",
+          "project_name": "REROOF (OVERLAY 81 SQ) - 11707 FAIR OAKS BLVD",
           "role": "General Contractor"
         }
       ],
       "missing_fields": [
         "LinkedIn Company Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-alltech-gates-and-entry-controls",
+    "company_name": "ALLTECH GATES AND ENTRY CONTROLS INC",
+    "normalized_name": "alltech gates and entry controls",
+    "company_type": "General Contractor",
+    "official_website": "https://www.alltechgates.com/",
+    "phone": "(916) 599-6629",
+    "email": "alltechgates@gmail.com",
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 5,
+    "profile_confidence": 0.95,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 2,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00207",
+          "project_name": "NEW (GATES) - 7575 POWER INN RD",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00169",
+          "project_name": "NEW (GATES) - 3401 BALMORAL DR",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-bell-brother-s-heating-and-air",
+    "company_name": "BELL BROTHER'S HEATING AND AIR INC",
+    "normalized_name": "bell brother s heating and air",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": null,
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 2,
+    "profile_confidence": 0.35,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 2,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APANR2026-00727",
+          "project_name": "UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair.",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APANR2026-00722",
+          "project_name": "REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair.",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Phone",
+        "Email",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-gigawatt-california",
+    "company_name": "GIGAWATT CALIFORNIA LLC",
+    "normalized_name": "gigawatt california",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": null,
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 2,
+    "profile_confidence": 0.35,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 2,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00249",
+          "project_name": "AREA: R01:  installation of NEW PHOTOVOLTAIC SYSTEM 7.92 KW DC/11.50 KW",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00223",
+          "project_name": "AREA: R01:  NEW PHOTOVOLTAIC SYSTEM 9.24 KW DC/11.50 KW AC, WITH ESS",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Phone",
+        "Email",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-kb-home-sacramento",
+    "company_name": "KB HOME SACRAMENTO INC",
+    "normalized_name": "kb home sacramento",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": "(310) 231-4000",
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 3,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 2,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00580",
+          "project_name": "AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 2126 A Lot 93",
+          "role": "General Contractor"
+        },
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00579",
+          "project_name": "AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 1850 D Lot 94",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Email",
+        "LinkedIn Company Page",
+        "Contact Page",
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
@@ -374,6 +751,7 @@
     "company_type": "Architect",
     "official_website": null,
     "phone": null,
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -386,7 +764,7 @@
     "estimating_department_url": null,
     "source_count": 2,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "Architect"
@@ -409,6 +787,7 @@
       "missing_fields": [
         "Official Website",
         "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -427,7 +806,8 @@
     "normalized_name": "3 generations improvements",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(916) 932-2315",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -438,9 +818,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -456,7 +836,7 @@
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -470,12 +850,13 @@
     }
   },
   {
-    "id": "company-alltech-gates-and-entry-controls",
-    "company_name": "ALLTECH GATES AND ENTRY CONTROLS INC",
-    "normalized_name": "alltech gates and entry controls",
+    "id": "company-all-pro-plumbing",
+    "company_name": "ALL PRO PLUMBING",
+    "normalized_name": "all pro plumbing",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": "(916) 599-6629",
+    "phone": "(916) 726-1970",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -487,8 +868,8 @@
     "estimating_department": null,
     "estimating_department_url": null,
     "source_count": 2,
-    "profile_confidence": 0.57,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -497,13 +878,14 @@
       "collector_source_records": [
         {
           "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00207",
-          "project_name": "NEW (GATES) - 7575 POWER INN RD",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01568",
+          "project_name": "AREA: R05:  Repipe house drain system",
           "role": "General Contractor"
         }
       ],
       "missing_fields": [
         "Official Website",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -522,7 +904,8 @@
     "normalized_name": "american buildings j s",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(530) 788-3256",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -533,9 +916,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -551,7 +934,7 @@
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -565,12 +948,13 @@
     }
   },
   {
-    "id": "company-american-carports",
-    "company_name": "AMERICAN CARPORTS INC",
-    "normalized_name": "american carports",
+    "id": "company-arco-murray-national-norcal",
+    "company_name": "ARCO / MURRAY NATIONAL NORCAL LLC",
+    "normalized_name": "arco murray national norcal",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(650) 288-1305",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -581,9 +965,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -592,14 +976,14 @@
       "collector_source_records": [
         {
           "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00558",
-          "project_name": "AREA: R10:  Installation of accessory structure",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00334",
+          "project_name": "259,635 tenant improvement for Cardinal Health",
           "role": "General Contractor"
         }
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -613,12 +997,13 @@
     }
   },
   {
-    "id": "company-burns-construction",
-    "company_name": "BURNS CONSTRUCTION",
-    "normalized_name": "burns construction",
+    "id": "company-aztec-solar",
+    "company_name": "AZTEC SOLAR INC",
+    "normalized_name": "aztec solar",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(916) 853-2700",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -629,9 +1014,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -640,14 +1025,63 @@
       "collector_source_records": [
         {
           "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00640",
-          "project_name": "AREA: R08:  Kitchen and Living Room Remodel",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01118",
+          "project_name": "SOLAR : Rooftop Solar",
           "role": "General Contractor"
         }
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-bruce-construction-group",
+    "company_name": "BRUCE CONSTRUCTION GROUP LLC",
+    "normalized_name": "bruce construction group",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": "(707) 688-5345",
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 1,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00389",
+          "project_name": "AREA: R08:  Pouring Driveway over culvert with an automatic gate and bu",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -666,7 +1100,8 @@
     "normalized_name": "california renewable energy",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(916) 804-2243",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -677,9 +1112,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -695,7 +1130,7 @@
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -709,12 +1144,13 @@
     }
   },
   {
-    "id": "company-deome-2-builders",
-    "company_name": "DEOME 2 BUILDERS INC",
-    "normalized_name": "deome 2 builders",
+    "id": "company-city-signs",
+    "company_name": "CITY SIGNS",
+    "normalized_name": "city signs",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(209) 549-2412",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -725,9 +1161,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -736,14 +1172,63 @@
       "collector_source_records": [
         {
           "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00560",
-          "project_name": "AREA: R04:  HOLBUS DECK",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASGNC2026-00065",
+          "project_name": "SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115",
           "role": "General Contractor"
         }
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-diehl-s-electric",
+    "company_name": "DIEHL'S ELECTRIC",
+    "normalized_name": "diehl s electric",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": "(209) 471-1947",
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 1,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00910",
+          "project_name": "ELEC (100 A SERVICE) - 11583 VALENSIN RD",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -762,7 +1247,8 @@
     "normalized_name": "duramax roofing",
     "company_type": "General Contractor",
     "official_website": "https://duramaxroofing.net/",
-    "phone": "(916) 849-5024",
+    "phone": "(916) 543-2929",
+    "email": "leo@duramaxroofing.net",
     "linkedin_company_page": null,
     "contact_page_url": "https://duramaxroofing.net/contact",
     "bid_opportunities_page_url": null,
@@ -773,9 +1259,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 4,
-    "profile_confidence": 0.89,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 6,
+    "profile_confidence": 0.99,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -807,7 +1293,8 @@
     "normalized_name": "dyer construction",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(916) 869-6960",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -818,9 +1305,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -836,7 +1323,56 @@
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-es-solar",
+    "company_name": "ES SOLAR LLC",
+    "normalized_name": "es solar",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": "(801) 614-0606",
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 1,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00226",
+          "project_name": "AREA: R02:  SOLAR : HAKIM HUSSAINI",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -855,7 +1391,8 @@
     "normalized_name": "famand",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": "+1 916-988-8808",
+    "phone": "(916) 988-8808",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -868,7 +1405,7 @@
     "estimating_department_url": null,
     "source_count": 2,
     "profile_confidence": 0.57,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -878,108 +1415,13 @@
         {
           "source_name": "Sacramento County Permits",
           "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01229",
-          "project_name": "Like for Like 4 roof top Package unit change out",
+          "project_name": "MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE",
           "role": "General Contractor"
         }
       ],
       "missing_fields": [
         "Official Website",
-        "LinkedIn Company Page",
-        "Contact Page",
-        "Bid Opportunities Page",
-        "Vendor Registration Page",
-        "Subcontractor Registration Page",
-        "Trade Partner Portal",
-        "Plan Room",
-        "Procurement Portal",
-        "Estimating Department"
-      ]
-    }
-  },
-  {
-    "id": "company-fdc-nor-cal",
-    "company_name": "FDC NOR-CAL CORP",
-    "normalized_name": "fdc nor cal",
-    "company_type": "General Contractor",
-    "official_website": null,
-    "phone": null,
-    "linkedin_company_page": null,
-    "contact_page_url": null,
-    "bid_opportunities_page_url": null,
-    "vendor_registration_page_url": null,
-    "subcontractor_registration_page_url": null,
-    "trade_partner_portal_url": null,
-    "plan_room_url": null,
-    "procurement_portal_url": null,
-    "estimating_department": null,
-    "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
-    "metadata": {
-      "collector_roles": [
-        "General Contractor"
-      ],
-      "collector_project_count": 1,
-      "collector_source_records": [
-        {
-          "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00560",
-          "project_name": "SOLAR : AREA: R03: Blossom Ridge-Plan 2704-Elevation C-Lot 11",
-          "role": "General Contractor"
-        }
-      ],
-      "missing_fields": [
-        "Official Website",
-        "Phone",
-        "LinkedIn Company Page",
-        "Contact Page",
-        "Bid Opportunities Page",
-        "Vendor Registration Page",
-        "Subcontractor Registration Page",
-        "Trade Partner Portal",
-        "Plan Room",
-        "Procurement Portal",
-        "Estimating Department"
-      ]
-    }
-  },
-  {
-    "id": "company-gigawatt-california",
-    "company_name": "GIGAWATT CALIFORNIA LLC",
-    "normalized_name": "gigawatt california",
-    "company_type": "General Contractor",
-    "official_website": null,
-    "phone": null,
-    "linkedin_company_page": null,
-    "contact_page_url": null,
-    "bid_opportunities_page_url": null,
-    "vendor_registration_page_url": null,
-    "subcontractor_registration_page_url": null,
-    "trade_partner_portal_url": null,
-    "plan_room_url": null,
-    "procurement_portal_url": null,
-    "estimating_department": null,
-    "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
-    "metadata": {
-      "collector_roles": [
-        "General Contractor"
-      ],
-      "collector_project_count": 1,
-      "collector_source_records": [
-        {
-          "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00223",
-          "project_name": "AREA: R01:  NEW PHOTOVOLTAIC SYSTEM 9.24 KW DC/11.50 KW AC, WITH ESS",
-          "role": "General Contractor"
-        }
-      ],
-      "missing_fields": [
-        "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -998,7 +1440,8 @@
     "normalized_name": "group one builders",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(916) 983-9953",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -1009,9 +1452,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1027,7 +1470,105 @@
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-haven-energy-services",
+    "company_name": "HAVEN ENERGY SERVICES INC",
+    "normalized_name": "haven energy services",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": "(504) 452-3127",
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 1,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASLCR2026-00042",
+          "project_name": "Change to SOLR2025-00308: AREA: R08:  AREA: R08:  PV + ESS",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Email",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-heat-and-air-solutions",
+    "company_name": "HEAT AND AIR SOLUTIONS INC",
+    "normalized_name": "heat and air solutions",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": "(530) 401-8768",
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 1,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AHACR2026-01443",
+          "project_name": "HVAC change out: HVAC Changeout.",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -1047,6 +1588,7 @@
     "company_type": "Developer",
     "official_website": null,
     "phone": null,
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -1059,7 +1601,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "Developer"
@@ -1076,6 +1618,7 @@
       "missing_fields": [
         "Official Website",
         "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -1093,8 +1636,9 @@
     "company_name": "KENNETH DEVELOPMENT INC",
     "normalized_name": "kenneth development",
     "company_type": "General Contractor",
-    "official_website": null,
-    "phone": null,
+    "official_website": "https://www.kennethdevelopment.com/",
+    "phone": "(916) 939-1615",
+    "email": "kennethdevelopment54@gmail.com",
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -1105,9 +1649,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 3,
+    "profile_confidence": 0.95,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1117,13 +1661,11 @@
         {
           "source_name": "Sacramento County Permits",
           "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00576",
-          "project_name": "AREA: R06:  New Home Construction",
+          "project_name": "SOLAR : AREA: R06:  New Home Construction",
           "role": "General Contractor"
         }
       ],
       "missing_fields": [
-        "Official Website",
-        "Phone",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -1137,12 +1679,13 @@
     }
   },
   {
-    "id": "company-kustom-us",
-    "company_name": "KUSTOM US INC",
-    "normalized_name": "kustom us",
+    "id": "company-legacy-demolition",
+    "company_name": "LEGACY DEMOLITION LLC",
+    "normalized_name": "legacy demolition",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(510) 860-1325",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -1153,9 +1696,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1164,14 +1707,14 @@
       "collector_source_records": [
         {
           "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00636",
-          "project_name": "AREA: R10:  AREA: R10:  Minor fire damage repair to sunroom",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00064",
+          "project_name": "AREA: R02:  Full Pool Demolition",
           "role": "General Contractor"
         }
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -1189,10 +1732,11 @@
     "company_name": "Lund Construction Co",
     "normalized_name": "lund construction",
     "company_type": "General Contractor",
-    "official_website": null,
-    "phone": null,
+    "official_website": "https://lundconstruction.com/contact",
+    "phone": "(650) 656-7986",
+    "email": null,
     "linkedin_company_page": null,
-    "contact_page_url": null,
+    "contact_page_url": "https://lundconstruction.com/contact",
     "bid_opportunities_page_url": null,
     "vendor_registration_page_url": null,
     "subcontractor_registration_page_url": null,
@@ -1201,9 +1745,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.93,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1218,10 +1762,8 @@
         }
       ],
       "missing_fields": [
-        "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
-        "Contact Page",
         "Bid Opportunities Page",
         "Vendor Registration Page",
         "Subcontractor Registration Page",
@@ -1239,6 +1781,7 @@
     "company_type": "General Contractor",
     "official_website": null,
     "phone": null,
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -1251,7 +1794,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1268,6 +1811,7 @@
       "missing_fields": [
         "Official Website",
         "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -1281,12 +1825,13 @@
     }
   },
   {
-    "id": "company-o-connor-pool-solutions",
-    "company_name": "O'CONNOR POOL SOLUTIONS INC",
-    "normalized_name": "o connor pool solutions",
+    "id": "company-nco-development",
+    "company_name": "NCO DEVELOPMENT",
+    "normalized_name": "nco development",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(530) 606-0257",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -1297,9 +1842,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1308,14 +1853,63 @@
       "collector_source_records": [
         {
           "source_name": "Sacramento County Permits",
-          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASPCR2026-00132",
-          "project_name": "AREA: R04:  Install new in ground pool & spa",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00065",
+          "project_name": "AREA: R06:  Demolition of existing house to framing and stemwalls.",
           "role": "General Contractor"
         }
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-next-demolition",
+    "company_name": "NEXT DEMOLITION LLC",
+    "normalized_name": "next demolition",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": "(650) 680-6768",
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 1,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00044",
+          "project_name": "AREA: R02:  Pool Demolition (Partial)",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -1334,7 +1928,8 @@
     "normalized_name": "phillip isaacs construction",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(916) 852-8132",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -1345,9 +1940,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1363,7 +1958,7 @@
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -1381,8 +1976,9 @@
     "company_name": "PRIME HOME SOLUTIONS INC",
     "normalized_name": "prime home solutions",
     "company_type": "General Contractor",
-    "official_website": null,
-    "phone": null,
+    "official_website": "https://primehomesolutions.com/",
+    "phone": "(916) 667-7480",
+    "email": "info@primehomesolutions.com",
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -1393,9 +1989,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 3,
+    "profile_confidence": 0.95,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1410,8 +2006,154 @@
         }
       ],
       "missing_fields": [
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-sierra-nevada-24-7",
+    "company_name": "SIERRA NEVADA 24/7 INC",
+    "normalized_name": "sierra nevada 24 7",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": null,
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 1,
+    "profile_confidence": 0.35,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 1,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AHACR2026-01311",
+          "project_name": "8991 Golden Gate Ave: HVAC Changeout.",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
         "Official Website",
         "Phone",
+        "Email",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-solace-enterprises",
+    "company_name": "SOLACE ENTERPRISES INC",
+    "normalized_name": "solace enterprises",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": "(916) 463-0100",
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 1,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01071",
+          "project_name": "MECH (HVAC C/O) - 7460 PERSIMMON AVE",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Email",
+        "LinkedIn Company Page",
+        "Contact Page",
+        "Bid Opportunities Page",
+        "Vendor Registration Page",
+        "Subcontractor Registration Page",
+        "Trade Partner Portal",
+        "Plan Room",
+        "Procurement Portal",
+        "Estimating Department"
+      ]
+    }
+  },
+  {
+    "id": "company-speed-plumbing-pro",
+    "company_name": "SPEED PLUMBING PRO",
+    "normalized_name": "speed plumbing pro",
+    "company_type": "General Contractor",
+    "official_website": null,
+    "phone": "(707) 761-2626",
+    "email": null,
+    "linkedin_company_page": null,
+    "contact_page_url": null,
+    "bid_opportunities_page_url": null,
+    "vendor_registration_page_url": null,
+    "subcontractor_registration_page_url": null,
+    "trade_partner_portal_url": null,
+    "plan_room_url": null,
+    "procurement_portal_url": null,
+    "estimating_department": null,
+    "estimating_department_url": null,
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
+    "metadata": {
+      "collector_roles": [
+        "General Contractor"
+      ],
+      "collector_project_count": 1,
+      "collector_source_records": [
+        {
+          "source_name": "Sacramento County Permits",
+          "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01474",
+          "project_name": "AREA: R03:  Like-for-like replacement of tankless water heater and gas",
+          "role": "General Contractor"
+        }
+      ],
+      "missing_fields": [
+        "Official Website",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -1430,7 +2172,8 @@
     "normalized_name": "sunsource",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(888) 672-3297",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -1441,9 +2184,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1453,13 +2196,13 @@
         {
           "source_name": "Sacramento County Permits",
           "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01228",
-          "project_name": "SOLAR : Solar PV Installation",
+          "project_name": "SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY",
           "role": "General Contractor"
         }
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -1479,6 +2222,7 @@
     "company_type": "Developer",
     "official_website": null,
     "phone": null,
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -1491,7 +2235,7 @@
     "estimating_department_url": null,
     "source_count": 1,
     "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "Developer"
@@ -1508,6 +2252,7 @@
       "missing_fields": [
         "Official Website",
         "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -1526,7 +2271,8 @@
     "normalized_name": "veerkamp doug general engineering",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(530) 676-0825",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -1537,9 +2283,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1555,7 +2301,7 @@
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",
@@ -1574,7 +2320,8 @@
     "normalized_name": "waters construction",
     "company_type": "General Contractor",
     "official_website": "https://watersconco.com/",
-    "phone": "916.594.8912",
+    "phone": "(916) 594-8912",
+    "email": "owner@waterscco.com",
     "linkedin_company_page": null,
     "contact_page_url": "https://watersconco.com/",
     "bid_opportunities_page_url": null,
@@ -1585,9 +2332,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 4,
-    "profile_confidence": 0.89,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 6,
+    "profile_confidence": 0.99,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1597,7 +2344,7 @@
         {
           "source_name": "Sacramento County Permits",
           "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00571",
-          "project_name": "AREA: R04:  Rear house addition.",
+          "project_name": "AREA: R04:  304 sf Rear house addition.",
           "role": "General Contractor"
         }
       ],
@@ -1619,7 +2366,8 @@
     "normalized_name": "west coast flooring",
     "company_type": "General Contractor",
     "official_website": null,
-    "phone": null,
+    "phone": "(209) 595-1950",
+    "email": null,
     "linkedin_company_page": null,
     "contact_page_url": null,
     "bid_opportunities_page_url": null,
@@ -1630,9 +2378,9 @@
     "procurement_portal_url": null,
     "estimating_department": null,
     "estimating_department_url": null,
-    "source_count": 1,
-    "profile_confidence": 0.35,
-    "last_verified": "2026-07-08T02:13:14.733Z",
+    "source_count": 2,
+    "profile_confidence": 0.65,
+    "last_verified": "2026-07-09T06:54:28.428Z",
     "metadata": {
       "collector_roles": [
         "General Contractor"
@@ -1648,7 +2396,7 @@
       ],
       "missing_fields": [
         "Official Website",
-        "Phone",
+        "Email",
         "LinkedIn Company Page",
         "Contact Page",
         "Bid Opportunities Page",

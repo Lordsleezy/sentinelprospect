@@ -1,8 +1,58 @@
 [
   {
+    "company_name": "3 GENERATIONS IMPROVEMENTS INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876464",
+        "field_name": "phone",
+        "field_value": "(916) 932-2315",
+        "excerpt": "CSLB public license record lists business phone (916) 932-2315 for 3 GENERATIONS IMPROVEMENTS INC (license 876464)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876464",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876464",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 876464 lists business phone (916) 932-2315."
+      }
+    ],
+    "phone": "(916) 932-2315"
+  },
+  {
+    "company_name": "A 1 ELECTRICAL",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=909430",
+        "field_name": "phone",
+        "field_value": "(916) 482-3400",
+        "excerpt": "CSLB public license record lists business phone (916) 482-3400 for A 1 ELECTRICAL (license 909430)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=909430",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=909430",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 909430 lists business phone (916) 482-3400."
+      }
+    ],
+    "phone": "(916) 482-3400"
+  },
+  {
     "company_name": "ADVANCED ROOF DESIGN INC",
     "official_website": "https://www.ardroofing.com/",
-    "phone": "(916)381-2266",
+    "phone": "(916) 381-2266",
     "contact_page_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
     "procurement_paths": [
       {
@@ -39,81 +89,357 @@
         "field_name": "contact_page_url",
         "field_value": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
         "excerpt": "Industry directory includes Advanced Roof Design contact details."
+      },
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=672328",
+        "field_name": "phone",
+        "field_value": "(916) 381-2266",
+        "excerpt": "CSLB public license record lists business phone (916) 381-2266 for ADVANCED ROOF DESIGN INC (license 672328)."
+      },
+      {
+        "source_type": "official_website",
+        "source_name": "Company website contact scrape",
+        "source_url": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
+        "field_name": "email",
+        "field_value": "membership@caanet.org",
+        "excerpt": "Company website lists email membership@caanet.org."
       }
-    ]
+    ],
+    "email": "membership@caanet.org"
   },
   {
-    "company_name": "FAMAND INC",
-    "phone": "+1 916-988-8808",
+    "company_name": "ALL PRO PLUMBING",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668343",
+        "field_name": "phone",
+        "field_value": "(916) 726-1970",
+        "excerpt": "CSLB public license record lists business phone (916) 726-1970 for ALL PRO PLUMBING (license 668343)."
+      }
+    ],
     "procurement_paths": [
       {
         "path_type": "general_contact",
-        "path_url": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
-        "source_url": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668343",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668343",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 668343 lists business phone (916) 726-1970."
+      }
+    ],
+    "phone": "(916) 726-1970"
+  },
+  {
+    "company_name": "ALLTECH GATES AND ENTRY CONTROLS INC",
+    "phone": "(916) 599-6629",
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
+        "source_url": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
         "source_type": "public_profile",
-        "confidence": 0.62,
+        "confidence": 0.55,
         "contractor_value": "Low",
-        "evidence_summary": "Vendor profile provides a company phone, but no dedicated bid or subcontractor intake path."
+        "evidence_summary": "Public listing provides a company phone, but no dedicated bid or subcontractor intake path."
+      },
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=964909",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=964909",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 964909 lists business phone (916) 599-6629. Source-backed email alltechgates@gmail.com found for ALLTECH GATES AND ENTRY CONTROLS INC."
       }
     ],
     "sources": [
       {
         "source_type": "public_profile",
-        "source_name": "GovTribe vendor profile",
-        "source_url": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
+        "source_name": "Public business license listing",
+        "source_url": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
         "field_name": "phone",
-        "field_value": "+1 916-988-8808",
-        "excerpt": "Vendor profile lists Famand, Inc. with phone number."
+        "field_value": "(916) 599-6629",
+        "excerpt": "Public listing includes Alltech Gates and Entry Controls, Inc. with phone number."
+      },
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=964909",
+        "field_name": "phone",
+        "field_value": "(916) 599-6629",
+        "excerpt": "CSLB public license record lists business phone (916) 599-6629 for ALLTECH GATES AND ENTRY CONTROLS INC (license 964909)."
+      },
+      {
+        "source_type": "official_website",
+        "source_name": "Company website contact scrape",
+        "source_url": "https://www.alltechgates.com/",
+        "field_name": "email",
+        "field_value": "alltechgates@gmail.com",
+        "excerpt": "Company website lists email alltechgates@gmail.com."
       }
-    ]
+    ],
+    "email": "alltechgates@gmail.com",
+    "official_website": "https://www.alltechgates.com/"
   },
   {
-    "company_name": "WATERS CONSTRUCTION COMPANY LLC",
-    "official_website": "https://watersconco.com/",
-    "phone": "916.594.8912",
-    "contact_page_url": "https://watersconco.com/",
+    "company_name": "AMERICAN BUILDINGS J&S",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1137229",
+        "field_name": "phone",
+        "field_value": "(530) 788-3256",
+        "excerpt": "CSLB public license record lists business phone (530) 788-3256 for AMERICAN BUILDINGS J&S (license 1137229)."
+      }
+    ],
     "procurement_paths": [
       {
         "path_type": "general_contact",
-        "path_url": "https://watersconco.com/",
-        "source_url": "https://watersconco.com/",
-        "source_type": "official_website",
-        "confidence": 0.72,
-        "contractor_value": "Medium",
-        "evidence_summary": "Official site displays Contact Us and a phone number."
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1137229",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1137229",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1137229 lists business phone (530) 788-3256."
       }
     ],
+    "phone": "(530) 788-3256"
+  },
+  {
+    "company_name": "AMERICAN CARPORTS INC",
     "sources": [
       {
-        "source_type": "official_website",
-        "source_name": "Waters Construction Company official website",
-        "source_url": "https://watersconco.com/",
-        "field_name": "official_website",
-        "field_value": "https://watersconco.com/",
-        "excerpt": "Official site identifies Waters Construction Company LLC and displays Contact Us at 916.594.8912."
-      },
-      {
-        "source_type": "phone_source",
-        "source_name": "Waters Construction Company official website",
-        "source_url": "https://watersconco.com/",
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=879371",
         "field_name": "phone",
-        "field_value": "916.594.8912",
-        "excerpt": "Official site displays Contact Us at 916.594.8912."
-      },
-      {
-        "source_type": "contact_page",
-        "source_name": "Waters Construction Company official website",
-        "source_url": "https://watersconco.com/",
-        "field_name": "contact_page_url",
-        "field_value": "https://watersconco.com/",
-        "excerpt": "Official site includes a visible Contact Us entry."
+        "field_value": "(866) 730-9865",
+        "excerpt": "CSLB public license record lists business phone (866) 730-9865 for AMERICAN CARPORTS INC (license 879371)."
       }
-    ]
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=879371",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=879371",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 879371 lists business phone (866) 730-9865."
+      }
+    ],
+    "phone": "(866) 730-9865"
+  },
+  {
+    "company_name": "ARCO / MURRAY NATIONAL NORCAL LLC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1070665",
+        "field_name": "phone",
+        "field_value": "(650) 288-1305",
+        "excerpt": "CSLB public license record lists business phone (650) 288-1305 for ARCO / MURRAY NATIONAL NORCAL LLC (license 1070665)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1070665",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1070665",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1070665 lists business phone (650) 288-1305."
+      }
+    ],
+    "phone": "(650) 288-1305"
+  },
+  {
+    "company_name": "AZTEC SOLAR INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=550110",
+        "field_name": "phone",
+        "field_value": "(916) 853-2700",
+        "excerpt": "CSLB public license record lists business phone (916) 853-2700 for AZTEC SOLAR INC (license 550110)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=550110",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=550110",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 550110 lists business phone (916) 853-2700."
+      }
+    ],
+    "phone": "(916) 853-2700"
+  },
+  {
+    "company_name": "BRUCE CONSTRUCTION GROUP LLC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1087444",
+        "field_name": "phone",
+        "field_value": "(707) 688-5345",
+        "excerpt": "CSLB public license record lists business phone (707) 688-5345 for BRUCE CONSTRUCTION GROUP LLC (license 1087444)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1087444",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1087444",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1087444 lists business phone (707) 688-5345."
+      }
+    ],
+    "phone": "(707) 688-5345"
+  },
+  {
+    "company_name": "BURNS CONSTRUCTION",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=885789",
+        "field_name": "phone",
+        "field_value": "(916) 768-2645",
+        "excerpt": "CSLB public license record lists business phone (916) 768-2645 for BURNS CONSTRUCTION (license 885789)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=885789",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=885789",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 885789 lists business phone (916) 768-2645."
+      }
+    ],
+    "phone": "(916) 768-2645"
+  },
+  {
+    "company_name": "CALIFORNIA RENEWABLE ENERGY",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1068801",
+        "field_name": "phone",
+        "field_value": "(916) 804-2243",
+        "excerpt": "CSLB public license record lists business phone (916) 804-2243 for CALIFORNIA RENEWABLE ENERGY (license 1068801)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1068801",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1068801",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1068801 lists business phone (916) 804-2243."
+      }
+    ],
+    "phone": "(916) 804-2243"
+  },
+  {
+    "company_name": "CITY SIGNS",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=769900",
+        "field_name": "phone",
+        "field_value": "(209) 549-2412",
+        "excerpt": "CSLB public license record lists business phone (209) 549-2412 for CITY SIGNS (license 769900)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=769900",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=769900",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 769900 lists business phone (209) 549-2412."
+      }
+    ],
+    "phone": "(209) 549-2412"
+  },
+  {
+    "company_name": "DEOME 2 BUILDERS INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=873885",
+        "field_name": "phone",
+        "field_value": "(916) 412-2517",
+        "excerpt": "CSLB public license record lists business phone (916) 412-2517 for DEOME 2 BUILDERS INC (license 873885)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=873885",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=873885",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 873885 lists business phone (916) 412-2517."
+      }
+    ],
+    "phone": "(916) 412-2517"
+  },
+  {
+    "company_name": "DIEHL'S ELECTRIC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=633545",
+        "field_name": "phone",
+        "field_value": "(209) 471-1947",
+        "excerpt": "CSLB public license record lists business phone (209) 471-1947 for DIEHL'S ELECTRIC (license 633545)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=633545",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=633545",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 633545 lists business phone (209) 471-1947."
+      }
+    ],
+    "phone": "(209) 471-1947"
   },
   {
     "company_name": "DURAMAX ROOFING INC",
     "official_website": "https://duramaxroofing.net/",
-    "phone": "(916) 849-5024",
+    "phone": "(916) 543-2929",
     "contact_page_url": "https://duramaxroofing.net/contact",
     "procurement_paths": [
       {
@@ -150,33 +476,323 @@
         "field_name": "phone",
         "field_value": "(916) 849-5024",
         "excerpt": "Contractor profile lists Duramax Roofing Inc phone number."
+      },
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=866295",
+        "field_name": "phone",
+        "field_value": "(916) 543-2929",
+        "excerpt": "CSLB public license record lists business phone (916) 543-2929 for DURAMAX ROOFING INC (license 866295)."
+      },
+      {
+        "source_type": "official_website",
+        "source_name": "Company website contact scrape",
+        "source_url": "https://duramaxroofing.net/contact",
+        "field_name": "email",
+        "field_value": "leo@duramaxroofing.net",
+        "excerpt": "Company website lists email leo@duramaxroofing.net."
       }
-    ]
+    ],
+    "email": "leo@duramaxroofing.net"
   },
   {
-    "company_name": "ALLTECH GATES AND ENTRY CONTROLS INC",
-    "phone": "(916) 599-6629",
+    "company_name": "DYER CONSTRUCTION INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=645755",
+        "field_name": "phone",
+        "field_value": "(916) 869-6960",
+        "excerpt": "CSLB public license record lists business phone (916) 869-6960 for DYER CONSTRUCTION INC (license 645755)."
+      }
+    ],
     "procurement_paths": [
       {
         "path_type": "general_contact",
-        "path_url": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
-        "source_url": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=645755",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=645755",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 645755 lists business phone (916) 869-6960."
+      }
+    ],
+    "phone": "(916) 869-6960"
+  },
+  {
+    "company_name": "ES SOLAR LLC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1127444",
+        "field_name": "phone",
+        "field_value": "(801) 614-0606",
+        "excerpt": "CSLB public license record lists business phone (801) 614-0606 for ES SOLAR LLC (license 1127444)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1127444",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1127444",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1127444 lists business phone (801) 614-0606."
+      }
+    ],
+    "phone": "(801) 614-0606"
+  },
+  {
+    "company_name": "FAMAND INC",
+    "phone": "(916) 988-8808",
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
+        "source_url": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
         "source_type": "public_profile",
-        "confidence": 0.55,
+        "confidence": 0.62,
         "contractor_value": "Low",
-        "evidence_summary": "Public listing provides a company phone, but no dedicated bid or subcontractor intake path."
+        "evidence_summary": "Vendor profile provides a company phone, but no dedicated bid or subcontractor intake path."
       }
     ],
     "sources": [
       {
         "source_type": "public_profile",
-        "source_name": "Public business license listing",
-        "source_url": "https://ru.scribd.com/document/746633276/inbound3501281419727076426",
+        "source_name": "GovTribe vendor profile",
+        "source_url": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
         "field_name": "phone",
-        "field_value": "(916) 599-6629",
-        "excerpt": "Public listing includes Alltech Gates and Entry Controls, Inc. with phone number."
+        "field_value": "+1 916-988-8808",
+        "excerpt": "Vendor profile lists Famand, Inc. with phone number."
       }
     ]
+  },
+  {
+    "company_name": "FDC NOR-CAL CORP",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1079515",
+        "field_name": "phone",
+        "field_value": "(925) 766-5163",
+        "excerpt": "CSLB public license record lists business phone (925) 766-5163 for FDC NOR-CAL CORP (license 1079515)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1079515",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1079515",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1079515 lists business phone (925) 766-5163."
+      }
+    ],
+    "phone": "(925) 766-5163"
+  },
+  {
+    "company_name": "Golden Memories Childcare",
+    "sources": [
+      {
+        "source_type": "permit_description",
+        "source_name": "Permit work description",
+        "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00161",
+        "field_name": "company_name",
+        "field_value": "Golden Memories Childcare",
+        "excerpt": "Work description names business \"Golden Memories Childcare\"."
+      }
+    ]
+  },
+  {
+    "company_name": "GROUP ONE BUILDERS INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668907",
+        "field_name": "phone",
+        "field_value": "(916) 983-9953",
+        "excerpt": "CSLB public license record lists business phone (916) 983-9953 for GROUP ONE BUILDERS INC (license 668907)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668907",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=668907",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 668907 lists business phone (916) 983-9953."
+      }
+    ],
+    "phone": "(916) 983-9953"
+  },
+  {
+    "company_name": "HAVEN ENERGY SERVICES INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1104018",
+        "field_name": "phone",
+        "field_value": "(504) 452-3127",
+        "excerpt": "CSLB public license record lists business phone (504) 452-3127 for HAVEN ENERGY SERVICES INC (license 1104018)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1104018",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1104018",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1104018 lists business phone (504) 452-3127."
+      }
+    ],
+    "phone": "(504) 452-3127"
+  },
+  {
+    "company_name": "HEAT AND AIR SOLUTIONS INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1133607",
+        "field_name": "phone",
+        "field_value": "(530) 401-8768",
+        "excerpt": "CSLB public license record lists business phone (530) 401-8768 for HEAT AND AIR SOLUTIONS INC (license 1133607)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1133607",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1133607",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1133607 lists business phone (530) 401-8768."
+      }
+    ],
+    "phone": "(530) 401-8768"
+  },
+  {
+    "company_name": "KB HOME SACRAMENTO INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=255425",
+        "field_name": "phone",
+        "field_value": "(310) 231-4000",
+        "excerpt": "CSLB public license record lists business phone (310) 231-4000 for KB HOME SACRAMENTO INC (license 255425)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=255425",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=255425",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 255425 lists business phone (310) 231-4000."
+      }
+    ],
+    "phone": "(310) 231-4000"
+  },
+  {
+    "company_name": "KENNETH DEVELOPMENT INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=773369",
+        "field_name": "phone",
+        "field_value": "(916) 939-1615",
+        "excerpt": "CSLB public license record lists business phone (916) 939-1615 for KENNETH DEVELOPMENT INC (license 773369)."
+      },
+      {
+        "source_type": "official_website",
+        "source_name": "Company website contact scrape",
+        "source_url": "https://www.kennethdevelopment.com/",
+        "field_name": "email",
+        "field_value": "kennethdevelopment54@gmail.com",
+        "excerpt": "Company website lists email kennethdevelopment54@gmail.com."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=773369",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=773369",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 773369 lists business phone (916) 939-1615. Source-backed email kennethdevelopment54@gmail.com found for KENNETH DEVELOPMENT INC."
+      }
+    ],
+    "phone": "(916) 939-1615",
+    "email": "kennethdevelopment54@gmail.com",
+    "official_website": "https://www.kennethdevelopment.com/"
+  },
+  {
+    "company_name": "KUSTOM US INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=988872",
+        "field_name": "phone",
+        "field_value": "(407) 965-1940",
+        "excerpt": "CSLB public license record lists business phone (407) 965-1940 for KUSTOM US INC (license 988872)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=988872",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=988872",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 988872 lists business phone (407) 965-1940."
+      }
+    ],
+    "phone": "(407) 965-1940"
+  },
+  {
+    "company_name": "LEGACY DEMOLITION LLC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1122603",
+        "field_name": "phone",
+        "field_value": "(510) 860-1325",
+        "excerpt": "CSLB public license record lists business phone (510) 860-1325 for LEGACY DEMOLITION LLC (license 1122603)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1122603",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1122603",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1122603 lists business phone (510) 860-1325."
+      }
+    ],
+    "phone": "(510) 860-1325"
   },
   {
     "company_name": "LENNAR HOMES OF CALIFORNIA LLC",
@@ -219,7 +835,388 @@
         "field_name": "contact_page_url",
         "field_value": "https://www.lennar.com/contact/business-inquiry",
         "excerpt": "Business inquiries form says the appropriate Lennar Associate will contact the submitter."
+      },
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=728102",
+        "field_name": "phone",
+        "field_value": "(949) 789-1600",
+        "excerpt": "CSLB public license record lists business phone (949) 789-1600 for Lennar Homes of California (license 728102)."
       }
-    ]
+    ],
+    "phone": "(949) 789-1600"
+  },
+  {
+    "company_name": "Lund Construction Co",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1086700",
+        "field_name": "phone",
+        "field_value": "(650) 656-7986",
+        "excerpt": "CSLB public license record lists business phone (650) 656-7986 for Lund Construction Co (license 1086700)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://lundconstruction.com/contact",
+        "source_url": "https://lundconstruction.com/contact",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1086700 lists business phone (650) 656-7986."
+      }
+    ],
+    "phone": "(650) 656-7986",
+    "official_website": "https://lundconstruction.com/contact",
+    "contact_page_url": "https://lundconstruction.com/contact"
+  },
+  {
+    "company_name": "NCO DEVELOPMENT",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1085867",
+        "field_name": "phone",
+        "field_value": "(530) 606-0257",
+        "excerpt": "CSLB public license record lists business phone (530) 606-0257 for NCO DEVELOPMENT (license 1085867)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1085867",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1085867",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1085867 lists business phone (530) 606-0257."
+      }
+    ],
+    "phone": "(530) 606-0257"
+  },
+  {
+    "company_name": "NEXT DEMOLITION LLC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1141839",
+        "field_name": "phone",
+        "field_value": "(650) 680-6768",
+        "excerpt": "CSLB public license record lists business phone (650) 680-6768 for NEXT DEMOLITION LLC (license 1141839)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1141839",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1141839",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1141839 lists business phone (650) 680-6768."
+      }
+    ],
+    "phone": "(650) 680-6768"
+  },
+  {
+    "company_name": "O'CONNOR POOL SOLUTIONS INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1071914",
+        "field_name": "phone",
+        "field_value": "(916) 871-5097",
+        "excerpt": "CSLB public license record lists business phone (916) 871-5097 for O'CONNOR POOL SOLUTIONS INC (license 1071914)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1071914",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1071914",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1071914 lists business phone (916) 871-5097."
+      }
+    ],
+    "phone": "(916) 871-5097"
+  },
+  {
+    "company_name": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=627677",
+        "field_name": "phone",
+        "field_value": "(916) 852-8132",
+        "excerpt": "CSLB public license record lists business phone (916) 852-8132 for PHILLIP ISAACS' CONSTRUCTION INCORPORATED (license 627677)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=627677",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=627677",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 627677 lists business phone (916) 852-8132."
+      }
+    ],
+    "phone": "(916) 852-8132"
+  },
+  {
+    "company_name": "PRIME HOME SOLUTIONS INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1075385",
+        "field_name": "phone",
+        "field_value": "(916) 667-7480",
+        "excerpt": "CSLB public license record lists business phone (916) 667-7480 for PRIME HOME SOLUTIONS INC (license 1075385)."
+      },
+      {
+        "source_type": "official_website",
+        "source_name": "Company website contact scrape",
+        "source_url": "https://primehomesolutions.com/",
+        "field_name": "email",
+        "field_value": "info@primehomesolutions.com",
+        "excerpt": "Company website lists email info@primehomesolutions.com."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1075385",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1075385",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1075385 lists business phone (916) 667-7480. Source-backed email sales@forcabinetsake.com found for PRIME HOME SOLUTIONS INC."
+      }
+    ],
+    "phone": "(916) 667-7480",
+    "email": "info@primehomesolutions.com",
+    "official_website": "https://primehomesolutions.com/"
+  },
+  {
+    "company_name": "ROBERT L SCHEID CONSTRUCTION",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1063457",
+        "field_name": "phone",
+        "field_value": "(916) 947-8089",
+        "excerpt": "CSLB public license record lists business phone (916) 947-8089 for ROBERT L SCHEID CONSTRUCTION (license 1063457)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1063457",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1063457",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1063457 lists business phone (916) 947-8089."
+      }
+    ],
+    "phone": "(916) 947-8089"
+  },
+  {
+    "company_name": "SOLACE ENTERPRISES INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=913717",
+        "field_name": "phone",
+        "field_value": "(916) 463-0100",
+        "excerpt": "CSLB public license record lists business phone (916) 463-0100 for SOLACE ENTERPRISES INC (license 913717)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=913717",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=913717",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 913717 lists business phone (916) 463-0100."
+      }
+    ],
+    "phone": "(916) 463-0100"
+  },
+  {
+    "company_name": "SPEED PLUMBING PRO",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1084778",
+        "field_name": "phone",
+        "field_value": "(707) 761-2626",
+        "excerpt": "CSLB public license record lists business phone (707) 761-2626 for SPEED PLUMBING PRO (license 1084778)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1084778",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1084778",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1084778 lists business phone (707) 761-2626."
+      }
+    ],
+    "phone": "(707) 761-2626"
+  },
+  {
+    "company_name": "SUNSOURCE INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1117770",
+        "field_name": "phone",
+        "field_value": "(888) 672-3297",
+        "excerpt": "CSLB public license record lists business phone (888) 672-3297 for SUNSOURCE INC (license 1117770)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1117770",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1117770",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 1117770 lists business phone (888) 672-3297."
+      }
+    ],
+    "phone": "(888) 672-3297"
+  },
+  {
+    "company_name": "VEERKAMP DOUG GENERAL ENGINEERING INC",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=440233",
+        "field_name": "phone",
+        "field_value": "(530) 676-0825",
+        "excerpt": "CSLB public license record lists business phone (530) 676-0825 for VEERKAMP DOUG GENERAL ENGINEERING INC (license 440233)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=440233",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=440233",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 440233 lists business phone (530) 676-0825."
+      }
+    ],
+    "phone": "(530) 676-0825"
+  },
+  {
+    "company_name": "WATERS CONSTRUCTION COMPANY LLC",
+    "official_website": "https://watersconco.com/",
+    "phone": "(916) 594-8912",
+    "contact_page_url": "https://watersconco.com/",
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://watersconco.com/",
+        "source_url": "https://watersconco.com/",
+        "source_type": "official_website",
+        "confidence": 0.72,
+        "contractor_value": "Medium",
+        "evidence_summary": "Official site displays Contact Us and a phone number."
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "official_website",
+        "source_name": "Waters Construction Company official website",
+        "source_url": "https://watersconco.com/",
+        "field_name": "official_website",
+        "field_value": "https://watersconco.com/",
+        "excerpt": "Official site identifies Waters Construction Company LLC and displays Contact Us at 916.594.8912."
+      },
+      {
+        "source_type": "phone_source",
+        "source_name": "Waters Construction Company official website",
+        "source_url": "https://watersconco.com/",
+        "field_name": "phone",
+        "field_value": "916.594.8912",
+        "excerpt": "Official site displays Contact Us at 916.594.8912."
+      },
+      {
+        "source_type": "contact_page",
+        "source_name": "Waters Construction Company official website",
+        "source_url": "https://watersconco.com/",
+        "field_name": "contact_page_url",
+        "field_value": "https://watersconco.com/",
+        "excerpt": "Official site includes a visible Contact Us entry."
+      },
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1129256",
+        "field_name": "phone",
+        "field_value": "(916) 594-8912",
+        "excerpt": "CSLB public license record lists business phone (916) 594-8912 for WATERS CONSTRUCTION COMPANY LLC (license 1129256)."
+      },
+      {
+        "source_type": "official_website",
+        "source_name": "Company website contact scrape",
+        "source_url": "https://watersconco.com/",
+        "field_name": "email",
+        "field_value": "owner@waterscco.com",
+        "excerpt": "Company website lists email owner@waterscco.com."
+      }
+    ],
+    "email": "owner@waterscco.com"
+  },
+  {
+    "company_name": "WEST COAST FLOORING",
+    "sources": [
+      {
+        "source_type": "public_license_record",
+        "source_name": "CSLB License Master (BusinessPhone)",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876162",
+        "field_name": "phone",
+        "field_value": "(209) 595-1950",
+        "excerpt": "CSLB public license record lists business phone (209) 595-1950 for WEST COAST FLOORING (license 876162)."
+      }
+    ],
+    "procurement_paths": [
+      {
+        "path_type": "general_contact",
+        "path_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876162",
+        "source_url": "https://www.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876162",
+        "source_type": "public_license_record",
+        "confidence": 0.92,
+        "contractor_value": "High",
+        "evidence_summary": "CSLB license 876162 lists business phone (209) 595-1950."
+      }
+    ],
+    "phone": "(209) 595-1950"
   }
 ]

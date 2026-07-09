@@ -179,6 +179,7 @@ function rankContact(contact) {
   if (contact.name && contact.email) return 92;
   if (contact.phone) return 82;
   if (contact.email) return 74;
+  if (contact.company) return 50;
   if (contact.source && contact.source !== "Unknown") return 45;
   return 0;
 }

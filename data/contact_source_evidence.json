@@ -1,12 +1,102 @@
 [
   {
+    "id": "cbac2026-00334-general-contractor-arco-murray-national-norcal-company-evidence",
+    "contact_resolution_result_id": "cbac2026-00334-general-contractor-arco-murray-national-norcal",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAC2026-00334",
+    "excerpt": "normalized.contactCompany.name: ARCO / MURRAY NATIONAL NORCAL LLC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "solr2026-00249-general-contractor-gigawatt-california-company-evidence",
+    "contact_resolution_result_id": "solr2026-00249-general-contractor-gigawatt-california",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00249",
+    "excerpt": "normalized.contactCompany.name: GIGAWATT CALIFORNIA LLC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "phcr2026-00580-general-contractor-kb-home-sacramento-company-evidence",
+    "contact_resolution_result_id": "phcr2026-00580-general-contractor-kb-home-sacramento",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00580",
+    "excerpt": "normalized.contactCompany.name: KB HOME SACRAMENTO INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "phcr2026-00579-general-contractor-kb-home-sacramento-company-evidence",
+    "contact_resolution_result_id": "phcr2026-00579-general-contractor-kb-home-sacramento",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00579",
+    "excerpt": "normalized.contactCompany.name: KB HOME SACRAMENTO INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "phcr2026-00578-general-contractor-lennar-homes-of-california-company-evidence",
+    "contact_resolution_result_id": "phcr2026-00578-general-contractor-lennar-homes-of-california",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00578",
+    "excerpt": "normalized.contactCompany.name: LENNAR HOMES OF CALIFORNIA LLC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "phcr2026-00577-general-contractor-lennar-homes-of-california-company-evidence",
+    "contact_resolution_result_id": "phcr2026-00577-general-contractor-lennar-homes-of-california",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00577",
+    "excerpt": "normalized.contactCompany.name: LENNAR HOMES OF CALIFORNIA LLC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "phcr2026-00576-general-contractor-lennar-homes-of-california-company-evidence",
+    "contact_resolution_result_id": "phcr2026-00576-general-contractor-lennar-homes-of-california",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00576",
+    "excerpt": "normalized.contactCompany.name: LENNAR HOMES OF CALIFORNIA LLC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "phcr2026-00575-general-contractor-lennar-homes-of-california-company-evidence",
+    "contact_resolution_result_id": "phcr2026-00575-general-contractor-lennar-homes-of-california",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00575",
+    "excerpt": "normalized.contactCompany.name: LENNAR HOMES OF CALIFORNIA LLC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "phcr2026-00574-general-contractor-lennar-homes-of-california-company-evidence",
+    "contact_resolution_result_id": "phcr2026-00574-general-contractor-lennar-homes-of-california",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00574",
+    "excerpt": "normalized.contactCompany.name: LENNAR HOMES OF CALIFORNIA LLC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
     "id": "rerc2026-00187-general-contractor-advanced-roof-design-company-evidence",
     "contact_resolution_result_id": "rerc2026-00187-general-contractor-advanced-roof-design",
     "evidence_type": "source_record_company",
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00187",
     "excerpt": "normalized.contactCompany.name: ADVANCED ROOF DESIGN INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -16,7 +106,7 @@
     "source_name": "Roofing Contractors Association of California public profile",
     "source_url": "https://rcac.wildapricot.org/widget/Sys/PublicProfile/31728650/3832090",
     "excerpt": "Public member profile lists Tim Balbi, Advanced Roof Design, Inc., business phone, and website.",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.82
   },
   {
@@ -26,7 +116,7 @@
     "source_name": "LinkedIn public profile",
     "source_url": "https://www.linkedin.com/in/tim-balbi-advanced-roof-design-inc-40b562a",
     "excerpt": "Public profile identifies Tim Balbi as President/CEO of Advanced Roof Design, Inc.",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.82
   },
   {
@@ -36,7 +126,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00186",
     "excerpt": "normalized.contactCompany.name: ADVANCED ROOF DESIGN INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -46,7 +136,7 @@
     "source_name": "Roofing Contractors Association of California public profile",
     "source_url": "https://rcac.wildapricot.org/widget/Sys/PublicProfile/31728650/3832090",
     "excerpt": "Public member profile lists Tim Balbi, Advanced Roof Design, Inc., business phone, and website.",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.82
   },
   {
@@ -56,7 +146,7 @@
     "source_name": "LinkedIn public profile",
     "source_url": "https://www.linkedin.com/in/tim-balbi-advanced-roof-design-inc-40b562a",
     "excerpt": "Public profile identifies Tim Balbi as President/CEO of Advanced Roof Design, Inc.",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.82
   },
   {
@@ -66,7 +156,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01229",
     "excerpt": "normalized.contactCompany.name: FAMAND INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -76,8 +166,18 @@
     "source_name": "GovTribe vendor profile",
     "source_url": "https://govtribe.com/vendors/famand-inc-dot-indoor-environmental-services-3gmp5",
     "excerpt": "Vendor profile lists Famand, Inc. with phone number +1 916-988-8808.",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.82
+  },
+  {
+    "id": "phcr2026-00573-general-contractor-fdc-nor-cal-company-evidence",
+    "contact_resolution_result_id": "phcr2026-00573-general-contractor-fdc-nor-cal",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00573",
+    "excerpt": "normalized.contactCompany.name: FDC NOR-CAL CORP",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
   },
   {
     "id": "misc2026-01228-general-contractor-sunsource-company-evidence",
@@ -86,7 +186,27 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01228",
     "excerpt": "normalized.contactCompany.name: SUNSOURCE INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "phcr2026-00571-general-contractor-fdc-nor-cal-company-evidence",
+    "contact_resolution_result_id": "phcr2026-00571-general-contractor-fdc-nor-cal",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00571",
+    "excerpt": "normalized.contactCompany.name: FDC NOR-CAL CORP",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "phcr2026-00566-general-contractor-fdc-nor-cal-company-evidence",
+    "contact_resolution_result_id": "phcr2026-00566-general-contractor-fdc-nor-cal",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00566",
+    "excerpt": "normalized.contactCompany.name: FDC NOR-CAL CORP",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -96,7 +216,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01941",
     "excerpt": "normalized.contactCompany.name: CALIFORNIA RENEWABLE ENERGY",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -106,7 +226,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00576",
     "excerpt": "normalized.contactCompany.name: KENNETH DEVELOPMENT INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -116,7 +236,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00216",
     "excerpt": "normalized.contactCompany.name: ROBERT L SCHEID CONSTRUCTION",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -126,7 +246,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00217",
     "excerpt": "normalized.contactCompany.name: ROBERT L SCHEID CONSTRUCTION",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -136,7 +256,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00218",
     "excerpt": "normalized.contactCompany.name: ROBERT L SCHEID CONSTRUCTION",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -146,7 +266,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00219",
     "excerpt": "normalized.contactCompany.name: ROBERT L SCHEID CONSTRUCTION",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -156,7 +276,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00211",
     "excerpt": "normalized.contactCompany.name: ROBERT L SCHEID CONSTRUCTION",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -166,7 +286,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00212",
     "excerpt": "normalized.contactCompany.name: ROBERT L SCHEID CONSTRUCTION",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -176,7 +296,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00213",
     "excerpt": "normalized.contactCompany.name: ROBERT L SCHEID CONSTRUCTION",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -186,7 +306,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00214",
     "excerpt": "normalized.contactCompany.name: ROBERT L SCHEID CONSTRUCTION",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -196,7 +316,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00215",
     "excerpt": "normalized.contactCompany.name: ROBERT L SCHEID CONSTRUCTION",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -206,7 +326,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00209",
     "excerpt": "normalized.contactCompany.name: ROBERT L SCHEID CONSTRUCTION",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -216,7 +336,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00210",
     "excerpt": "normalized.contactCompany.name: ROBERT L SCHEID CONSTRUCTION",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -226,7 +346,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERC2026-00185",
     "excerpt": "normalized.contactCompany.name: DURAMAX ROOFING INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -236,7 +356,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00571",
     "excerpt": "normalized.contactCompany.name: WATERS CONSTRUCTION COMPANY LLC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -246,7 +366,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00207",
     "excerpt": "normalized.contactCompany.name: ALLTECH GATES AND ENTRY CONTROLS INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -256,7 +376,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00651",
     "excerpt": "normalized.contactCompany.name: WEST COAST FLOORING",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -266,7 +386,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00227",
     "excerpt": "normalized.contactCompany.name: PRIME HOME SOLUTIONS INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -276,7 +396,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ARERR2026-00205",
     "excerpt": "normalized.contactCompany.name: MASTER ROOFING SOLUTIONS LLC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -286,7 +406,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00223",
     "excerpt": "normalized.contactCompany.name: GIGAWATT CALIFORNIA LLC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -296,7 +416,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00562",
     "excerpt": "normalized.contactCompany.name: LENNAR HOMES OF CALIFORNIA LLC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -306,7 +426,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00561",
     "excerpt": "normalized.contactCompany.name: LENNAR HOMES OF CALIFORNIA LLC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -316,7 +436,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00705",
     "excerpt": "normalized.contactCompany.name: PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -326,7 +446,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00648",
     "excerpt": "normalized.contactCompany.name: DYER CONSTRUCTION INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -336,7 +456,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRR2026-00703",
     "excerpt": "normalized.contactCompany.name: 3 GENERATIONS IMPROVEMENTS INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -346,7 +466,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00564",
     "excerpt": "normalized.contactCompany.name: AMERICAN BUILDINGS J&S",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -356,7 +476,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00562",
     "excerpt": "normalized.contactCompany.name: GROUP ONE BUILDERS INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -366,7 +486,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOC2026-00045",
     "excerpt": "normalized.contactCompany.name: VEERKAMP DOUG GENERAL ENGINEERING INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -376,7 +496,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00200",
     "excerpt": "normalized.contactCompany.name: A 1 ELECTRICAL",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -386,7 +506,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00201",
     "excerpt": "normalized.contactCompany.name: A 1 ELECTRICAL",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -396,7 +516,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00196",
     "excerpt": "normalized.contactCompany.name: A 1 ELECTRICAL",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -406,7 +526,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00197",
     "excerpt": "normalized.contactCompany.name: A 1 ELECTRICAL",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -416,7 +536,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00198",
     "excerpt": "normalized.contactCompany.name: A 1 ELECTRICAL",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -426,7 +546,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00199",
     "excerpt": "normalized.contactCompany.name: A 1 ELECTRICAL",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -436,7 +556,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00192",
     "excerpt": "normalized.contactCompany.name: A 1 ELECTRICAL",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -446,7 +566,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00193",
     "excerpt": "normalized.contactCompany.name: A 1 ELECTRICAL",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -456,7 +576,7 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00194",
     "excerpt": "normalized.contactCompany.name: A 1 ELECTRICAL",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
@@ -466,77 +586,217 @@
     "source_name": "Sacramento County Permits",
     "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00195",
     "excerpt": "normalized.contactCompany.name: A 1 ELECTRICAL",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
-    "id": "cbnc2026-00191-general-contractor-a-1-electrical-company-evidence",
-    "contact_resolution_result_id": "cbnc2026-00191-general-contractor-a-1-electrical",
+    "id": "dmor2026-00065-general-contractor-nco-development-company-evidence",
+    "contact_resolution_result_id": "dmor2026-00065-general-contractor-nco-development",
     "evidence_type": "source_record_company",
     "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00191",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00065",
+    "excerpt": "normalized.contactCompany.name: NCO DEVELOPMENT",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "dmor2026-00064-general-contractor-legacy-demolition-company-evidence",
+    "contact_resolution_result_id": "dmor2026-00064-general-contractor-legacy-demolition",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00064",
+    "excerpt": "normalized.contactCompany.name: LEGACY DEMOLITION LLC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "solr2026-00226-general-contractor-es-solar-company-evidence",
+    "contact_resolution_result_id": "solr2026-00226-general-contractor-es-solar",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASOLR2026-00226",
+    "excerpt": "normalized.contactCompany.name: ES SOLAR LLC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "misc2026-01071-general-contractor-solace-enterprises-company-evidence",
+    "contact_resolution_result_id": "misc2026-01071-general-contractor-solace-enterprises",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-01071",
+    "excerpt": "normalized.contactCompany.name: SOLACE ENTERPRISES INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "cbnc2026-00169-general-contractor-alltech-gates-and-entry-controls-company-evidence",
+    "contact_resolution_result_id": "cbnc2026-00169-general-contractor-alltech-gates-and-entry-controls",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNC2026-00169",
+    "excerpt": "normalized.contactCompany.name: ALLTECH GATES AND ENTRY CONTROLS INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "slcr2026-00042-general-contractor-haven-energy-services-company-evidence",
+    "contact_resolution_result_id": "slcr2026-00042-general-contractor-haven-energy-services",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASLCR2026-00042",
+    "excerpt": "normalized.contactCompany.name: HAVEN ENERGY SERVICES INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "misr2026-01568-general-contractor-all-pro-plumbing-company-evidence",
+    "contact_resolution_result_id": "misr2026-01568-general-contractor-all-pro-plumbing",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01568",
+    "excerpt": "normalized.contactCompany.name: ALL PRO PLUMBING",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "hacr2026-01443-general-contractor-heat-and-air-solutions-company-evidence",
+    "contact_resolution_result_id": "hacr2026-01443-general-contractor-heat-and-air-solutions",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AHACR2026-01443",
+    "excerpt": "normalized.contactCompany.name: HEAT AND AIR SOLUTIONS INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "misr2026-01474-general-contractor-speed-plumbing-pro-company-evidence",
+    "contact_resolution_result_id": "misr2026-01474-general-contractor-speed-plumbing-pro",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01474",
+    "excerpt": "normalized.contactCompany.name: SPEED PLUMBING PRO",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "misc2026-00910-general-contractor-diehl-s-electric-company-evidence",
+    "contact_resolution_result_id": "misc2026-00910-general-contractor-diehl-s-electric",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00910",
+    "excerpt": "normalized.contactCompany.name: DIEHL'S ELECTRIC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "hacr2026-01311-general-contractor-sierra-nevada-24-7-company-evidence",
+    "contact_resolution_result_id": "hacr2026-01311-general-contractor-sierra-nevada-24-7",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AHACR2026-01311",
+    "excerpt": "normalized.contactCompany.name: SIERRA NEVADA 24/7 INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "cbrc2026-00390-general-contractor-good-life-construction-company-evidence",
+    "contact_resolution_result_id": "cbrc2026-00390-general-contractor-good-life-construction",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00390",
+    "excerpt": "normalized.contactCompany.name: GOOD LIFE CONSTRUCTION INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "cbnr2026-00389-general-contractor-bruce-construction-group-company-evidence",
+    "contact_resolution_result_id": "cbnr2026-00389-general-contractor-bruce-construction-group",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00389",
+    "excerpt": "normalized.contactCompany.name: BRUCE CONSTRUCTION GROUP LLC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "misc2026-00862-general-contractor-a-1-electrical-company-evidence",
+    "contact_resolution_result_id": "misc2026-00862-general-contractor-a-1-electrical",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISC2026-00862",
     "excerpt": "normalized.contactCompany.name: A 1 ELECTRICAL",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
-    "id": "cbnr2026-00560-general-contractor-deome-2-builders-company-evidence",
-    "contact_resolution_result_id": "cbnr2026-00560-general-contractor-deome-2-builders",
+    "id": "dmor2026-00044-general-contractor-next-demolition-company-evidence",
+    "contact_resolution_result_id": "dmor2026-00044-general-contractor-next-demolition",
     "evidence_type": "source_record_company",
     "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00560",
-    "excerpt": "normalized.contactCompany.name: DEOME 2 BUILDERS INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ADMOR2026-00044",
+    "excerpt": "normalized.contactCompany.name: NEXT DEMOLITION LLC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
-    "id": "cbar2026-00640-general-contractor-burns-construction-company-evidence",
-    "contact_resolution_result_id": "cbar2026-00640-general-contractor-burns-construction",
+    "id": "panr2026-00727-general-contractor-bell-brother-s-heating-and-air-company-evidence",
+    "contact_resolution_result_id": "panr2026-00727-general-contractor-bell-brother-s-heating-and-air",
     "evidence_type": "source_record_company",
     "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00640",
-    "excerpt": "normalized.contactCompany.name: BURNS CONSTRUCTION",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APANR2026-00727",
+    "excerpt": "normalized.contactCompany.name: BELL BROTHER'S HEATING AND AIR INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
-    "id": "spcr2026-00132-general-contractor-o-connor-pool-solutions-company-evidence",
-    "contact_resolution_result_id": "spcr2026-00132-general-contractor-o-connor-pool-solutions",
+    "id": "panr2026-00722-general-contractor-bell-brother-s-heating-and-air-company-evidence",
+    "contact_resolution_result_id": "panr2026-00722-general-contractor-bell-brother-s-heating-and-air",
     "evidence_type": "source_record_company",
     "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASPCR2026-00132",
-    "excerpt": "normalized.contactCompany.name: O'CONNOR POOL SOLUTIONS INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APANR2026-00722",
+    "excerpt": "normalized.contactCompany.name: BELL BROTHER'S HEATING AND AIR INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
-    "id": "phcr2026-00560-general-contractor-fdc-nor-cal-company-evidence",
-    "contact_resolution_result_id": "phcr2026-00560-general-contractor-fdc-nor-cal",
+    "id": "sgnc2026-00065-general-contractor-city-signs-company-evidence",
+    "contact_resolution_result_id": "sgnc2026-00065-general-contractor-city-signs",
     "evidence_type": "source_record_company",
     "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3APHCR2026-00560",
-    "excerpt": "normalized.contactCompany.name: FDC NOR-CAL CORP",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ASGNC2026-00065",
+    "excerpt": "normalized.contactCompany.name: CITY SIGNS",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
-    "id": "cbnr2026-00558-general-contractor-american-carports-company-evidence",
-    "contact_resolution_result_id": "cbnr2026-00558-general-contractor-american-carports",
+    "id": "cbrc2026-00336-general-contractor-good-life-construction-company-evidence",
+    "contact_resolution_result_id": "cbrc2026-00336-general-contractor-good-life-construction",
     "evidence_type": "source_record_company",
     "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBNR2026-00558",
-    "excerpt": "normalized.contactCompany.name: AMERICAN CARPORTS INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00336",
+    "excerpt": "normalized.contactCompany.name: GOOD LIFE CONSTRUCTION INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   },
   {
-    "id": "cbar2026-00636-general-contractor-kustom-us-company-evidence",
-    "contact_resolution_result_id": "cbar2026-00636-general-contractor-kustom-us",
+    "id": "cbrc2026-00323-general-contractor-good-life-construction-company-evidence",
+    "contact_resolution_result_id": "cbrc2026-00323-general-contractor-good-life-construction",
     "evidence_type": "source_record_company",
     "source_name": "Sacramento County Permits",
-    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBAR2026-00636",
-    "excerpt": "normalized.contactCompany.name: KUSTOM US INC",
-    "captured_at": "2026-07-07T19:05:02.110Z",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3ACBRC2026-00323",
+    "excerpt": "normalized.contactCompany.name: GOOD LIFE CONSTRUCTION INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
+    "confidence": 0.72
+  },
+  {
+    "id": "misr2026-01118-general-contractor-aztec-solar-company-evidence",
+    "contact_resolution_result_id": "misr2026-01118-general-contractor-aztec-solar",
+    "evidence_type": "source_record_company",
+    "source_name": "Sacramento County Permits",
+    "source_url": "https://data.saccounty.gov/datasets/sacramentocounty::permits/explore?filters=Application%3AMISR2026-01118",
+    "excerpt": "normalized.contactCompany.name: AZTEC SOLAR INC",
+    "captured_at": "2026-07-09T06:54:27.888Z",
     "confidence": 0.72
   }
 ]

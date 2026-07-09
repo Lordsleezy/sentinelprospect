@@ -109,6 +109,7 @@ function discoverCompanies(sourceRecords, extractionDocuments = []) {
 function buildProfile(company, webSource, lastVerified) {
   const officialWebsite = safeUrl(webSource?.official_website);
   const phone = safePhone(webSource?.phone);
+  const email = safeEmail(webSource?.email);
   const linkedinCompanyPage = safeUrl(webSource?.linkedin_company_page);
   const contactPageUrl = safeUrl(webSource?.contact_page_url);
   const bidOpportunitiesPageUrl = safeUrl(webSource?.bid_opportunities_page_url);
@@ -129,6 +130,7 @@ function buildProfile(company, webSource, lastVerified) {
     company_type: resolveCompanyType(company.collector_roles, webSource?.company_type),
     official_website: officialWebsite,
     phone,
+    email,
     linkedin_company_page: linkedinCompanyPage,
     contact_page_url: contactPageUrl,
     bid_opportunities_page_url: bidOpportunitiesPageUrl,
@@ -143,6 +145,7 @@ function buildProfile(company, webSource, lastVerified) {
     profile_confidence: profileConfidence({
       officialWebsite,
       phone,
+      email,
       linkedinCompanyPage,
       contactPageUrl,
       bidOpportunitiesPageUrl,
@@ -164,6 +167,7 @@ function buildProfile(company, webSource, lastVerified) {
       missing_fields: missingFields({
         officialWebsite,
         phone,
+        email,
         linkedinCompanyPage,
         contactPageUrl,
         bidOpportunitiesPageUrl,
@@ -508,6 +512,7 @@ function profileConfidence(fields) {
   let score = fields.sourceCount ? 0.35 : 0;
   if (fields.officialWebsite) score += 0.2;
   if (fields.phone) score += 0.18;
+  if (fields.email) score += 0.1;
   if (fields.linkedinCompanyPage) score += 0.08;
   if (fields.contactPageUrl) score += 0.08;
   if (fields.bidOpportunitiesPageUrl || fields.vendorRegistrationPageUrl) score += 0.08;
@@ -524,6 +529,7 @@ function missingFields(fields) {
   const entries = [
     ["Official Website", fields.officialWebsite],
     ["Phone", fields.phone],
+    ["Email", fields.email],
     ["LinkedIn Company Page", fields.linkedinCompanyPage],
     ["Contact Page", fields.contactPageUrl],
     ["Bid Opportunities Page", fields.bidOpportunitiesPageUrl],
@@ -610,6 +616,14 @@ function safePhone(value) {
   if (typeof value !== "string") return null;
   const trimmed = value.trim();
   return /\d{3}[-.\s)]*\d{3}[-.\s]*\d{4}/.test(trimmed) && !/\b555[-\s]?\d{4}\b/.test(trimmed) ? trimmed : null;
+}
+
+function safeEmail(value) {
+  if (typeof value !== "string") return null;
+  const trimmed = value.trim().toLowerCase();
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmed)) return null;
+  if (/(example\.com|sentry\.|wixpress|cloudflare|schema\.org)/i.test(trimmed)) return null;
+  return trimmed;
 }
 
 function safeText(value) {

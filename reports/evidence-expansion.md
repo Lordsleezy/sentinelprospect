@@ -1,6 +1,6 @@
 # Evidence Expansion
 
-Generated: 2026-07-09T06:34:42.870Z
+Generated: 2026-07-09T06:57:35.193Z
 
 ## Summary
 
@@ -28,55 +28,44 @@ Generated: 2026-07-09T06:34:42.870Z
 | REROOF (OVERLAY 326 SQ) - 3800 WATT AVE | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
 | REROOF (OVERLAY 81 SQ) - 11707 FAIR OAKS BLVD | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
 | AREA: R04:  304 sf Rear house addition. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| install PVC membrane over existing roof | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
-| NEW (GATES) - 3401 BALMORAL DR | Unknown | 2 | Possible Opportunity | 34 | Construction fencing | A fencing contractor can bid gate installation work supported by source evidence: "NEW (GATES) - 3401 BALMORAL DR." |
-| NEW (GATES) - 7575 POWER INN RD | Unknown | 2 | Primary Opportunity | 100 | Construction fencing | A fencing contractor can bid because source documents specify gate and fencing installation: "NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment." |
-| MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R01:  proposed 28'x40' pre fab metal ag storage building | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| AREA: R06:  House Addition-Remodel | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| DEMO (SHED) - 2736 AUBURN BLVD | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
-| NEW (GATES) - 5800 FAIR OAKS BLVD | Unknown | 2 | Primary Opportunity | 100 | Construction fencing | A fencing contractor can bid because source documents specify gate and fencing installation: "- Install security fence between the gate and building." |
-| SOLAR : AREA: R03:  Blossom Ridge-Plan 2230-Elevation C-Lot 8 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| SOLAR : AREA: R03:  Blossom Ridge-Plan 2704-Elevation B-Lot 9 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| SOLAR : AREA: R03:  Blossom Ridge-Plan 2984-Elevation A-Lot 7 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| SOLAR : AREA: R06:  New Home Construction | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| 1.	Updating the previously approved location of the shop on the site. 2.	Provide a revision letter for the new stem walls that will be required along the perimeter of the shop. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
-| 259,635 tenant improvement for Cardinal Health | Unknown | 2 | Secondary Opportunity | 34 | Perimeter fencing | A fencing contractor can bid gate installation work supported by source evidence: "New entrance security gate." |
-| 8991 Golden Gate Ave: HVAC Changeout. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is HVAC / mechanical; no fencing evidence found. |
-| AREA: R01:  Magnolia	1184	70 Entry porch 134 Rear porch | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 1850 D Lot 94 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 2126 A Lot 93 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R02:  Full Pool Demolition | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Drainage / water infrastructure; no fencing evidence found. |
 | AREA: R02:  SOLAR : HAKIM HUSSAINI | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| AREA: R03:  swimming pool remodel | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Drainage / water infrastructure; no fencing evidence found. |
-| AREA: R03:  Swimming Pool Remodel | Unknown | 2 | Secondary Opportunity | 68 | Perimeter fencing | A fencing contractor can bid because source documents specify gate and fencing installation: "INSTALL 60' POOL SAFETY FENCING W/ GATE M2." |
-| AREA: R04:  Construction of a Steel Building | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| AREA: R06:  Addition and remodel | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R06:  Demolition of existing house to framing and stemwalls. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
-| AREA: R07:  Extension of house, update roof geometry, new siding, remod | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| BEHRENS - SINGLE FAMILY DWELLING   PAPER SUBMITTAL | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
-| Blakely Remodel/Addition***Digital Submittal*** | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
-| Building Compliance: AREA: R05:  CARPORT | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| AREA: R06:  House Addition-Remodel | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | Change to SOLR2025-00308: AREA: R08:  AREA: R08:  PV + ESS | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| GARCIA - REMODEL / CONVERSION | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Interior remodel / TI; no fencing evidence found. |
-| GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| HAM - ENERGY STORAGE | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| Hopkins Village - Lot 29 ***DIGITAL REVIEW*** | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| HURLEY ADDITION | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Interior remodel / TI; no fencing evidence found. |
-| Ko - Garage Addition***Digital Submittal*** | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
-| LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| LEVCO - DETACHED GARAGE | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
-| Lieberman Addition | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Interior remodel / TI; no fencing evidence found. |
-| MASTER PLAN Placer Vineyards 1A - 2756 Plan #11 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| DEMO (SHED) - 2736 AUBURN BLVD | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
 | MECH (HVAC C/O) - 7460 PERSIMMON AVE | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS -  LOT 84 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is HVAC / mechanical; no fencing evidence found. |
-| PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Electrical / landscape lighting; no fencing evidence found. |
-| POTTER - RESIDENTIAL REROOF | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
-| PRESBYTERIAN CHURCH PATIO COVER | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
-| SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
+| NEW (GATES) - 3401 BALMORAL DR | Unknown | 2 | Possible Opportunity | 34 | Construction fencing | A fencing contractor can bid gate installation work supported by source evidence: "NEW (GATES) - 3401 BALMORAL DR." |
+| NEW (GATES) - 5800 FAIR OAKS BLVD | Unknown | 2 | Primary Opportunity | 100 | Construction fencing | A fencing contractor can bid because source documents specify gate and fencing installation: "- Install security fence between the gate and building." |
+| NEW (GATES) - 7575 POWER INN RD | Unknown | 2 | Primary Opportunity | 100 | Construction fencing | A fencing contractor can bid because source documents specify gate and fencing installation: "NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment." |
+| SOLAR : AREA: R03:  Blossom Ridge-Plan 2230-Elevation C-Lot 8 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| SOLAR : AREA: R03:  Blossom Ridge-Plan 2704-Elevation B-Lot 9 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| SOLAR : AREA: R03:  Blossom Ridge-Plan 2984-Elevation A-Lot 7 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| SOLAR : AREA: R06:  New Home Construction | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | SOLAR : Rooftop Solar | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| 259,635 tenant improvement for Cardinal Health | Unknown | 2 | Secondary Opportunity | 34 | Perimeter fencing | A fencing contractor can bid gate installation work supported by source evidence: "New entrance security gate." |
+| SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
+| AREA: R03:  Like-for-like replacement of tankless water heater and gas | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| AREA: R05:  Repipe house drain system | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| AREA: R08:  Pouring Driveway over culvert with an automatic gate and bu | Unknown | 2 | Possible Opportunity | 34 | Construction fencing | A fencing contractor can bid gate installation work supported by source evidence: "AREA: R08: Pouring Driveway over culvert with an automatic gate and bu." |
+| ELEC (100 A SERVICE) - 11583 VALENSIN RD | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| HVAC change out: HVAC Changeout. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is HVAC / mechanical; no fencing evidence found. |
+| SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| install PVC membrane over existing roof | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
+| REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R03:  Replace all windows & install siding on front of home | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
 | AREA: R05:  Siding and window replacement. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
 | AREA: R06:  remodel/alteration | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Interior remodel / TI; no fencing evidence found. |
@@ -91,17 +80,41 @@ Generated: 2026-07-09T06:34:42.870Z
 | REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 7 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 8 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 9 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| AREA: R02:  Pool Demolition (Partial) | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Drainage / water infrastructure; no fencing evidence found. |
+| AREA: R03:  remodeling living room | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Interior remodel / TI; no fencing evidence found. |
+| AREA: R04:  23.76kW PV + ESS Installation | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| 8991 Golden Gate Ave: HVAC Changeout. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is HVAC / mechanical; no fencing evidence found. |
+| 1.	Updating the previously approved location of the shop on the site. 2.	Provide a revision letter for the new stem walls that will be required along the perimeter of the shop. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
+| AREA: R01:  Magnolia	1184	70 Entry porch 134 Rear porch | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| AREA: R03:  swimming pool remodel | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Drainage / water infrastructure; no fencing evidence found. |
+| AREA: R03:  Swimming Pool Remodel | Unknown | 2 | Secondary Opportunity | 68 | Perimeter fencing | A fencing contractor can bid because source documents specify gate and fencing installation: "INSTALL 60' POOL SAFETY FENCING W/ GATE M2." |
+| AREA: R04:  Construction of a Steel Building | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| AREA: R06:  Addition and remodel | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| AREA: R07:  Extension of house, update roof geometry, new siding, remod | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| BEHRENS - SINGLE FAMILY DWELLING   PAPER SUBMITTAL | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
+| Blakely Remodel/Addition***Digital Submittal*** | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
+| Building Compliance: AREA: R05:  CARPORT | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| GARCIA - REMODEL / CONVERSION | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Interior remodel / TI; no fencing evidence found. |
+| GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| HAM - ENERGY STORAGE | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| Hopkins Village - Lot 29 ***DIGITAL REVIEW*** | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| HURLEY ADDITION | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Interior remodel / TI; no fencing evidence found. |
+| Ko - Garage Addition***Digital Submittal*** | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
+| LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| LEVCO - DETACHED GARAGE | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
+| Lieberman Addition | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Interior remodel / TI; no fencing evidence found. |
+| MASTER PLAN Placer Vineyards 1A - 2756 Plan #11 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS -  LOT 84 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
+| PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is HVAC / mechanical; no fencing evidence found. |
+| PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Electrical / landscape lighting; no fencing evidence found. |
+| POTTER - RESIDENTIAL REROOF | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
+| PRESBYTERIAN CHURCH PATIO COVER | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
+| REPAIR (DRY ROT) - 3131 EL CAMINO AVE | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
+| REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14) | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
+| REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97) | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
+| REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Electrical / landscape lighting; no fencing evidence found. |
+| UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Electrical / landscape lighting; no fencing evidence found. |
 | AREA: R02:  Built a retaining wall in front yard of home | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R03:  Issue permits for deck and 117' linear foot retaining wall already built. | Unknown | 2 | Possible Opportunity | 34 | Fence installation | A fencing contractor can bid because source documents reference fencing work: "- 1) Provide a building permit for fence built on back fill behind the retaining wall." |
 | CELL TOWER MOD - 6851 WATT AVE | Unknown | 2 | Possible Opportunity | 34 | Construction fencing | A fencing contractor can bid because source documents reference fencing work: "CELL TOWER MOD - 6851 WATT AVE - Modification to an (E) T-Mobile Facility consisting of installing (N) 14'x9' lease area, (N) Chain LInk Fence, (N) 30KW Generator, (N) concrete slab, (N) 200a ATS, (N) shut off switch, (N) fire extinguisher, (1)(N) 2" and (3)(N) 1" underground conduits." |
@@ -129,13 +142,9 @@ Generated: 2026-07-09T06:34:42.870Z
 | AREA: R10:  Non-structural reroofing, will replace tile roofing, underl | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
 | AREA: R01:  installation of NEW PHOTOVOLTAIC SYSTEM 7.92 KW DC/11.50 KW | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R01:  NEW PHOTOVOLTAIC SYSTEM 9.24 KW DC/11.50 KW AC, WITH ESS | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| AREA: R03:  remodeling living room | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Interior remodel / TI; no fencing evidence found. |
-| AREA: R04:  23.76kW PV + ESS Installation | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R01:  7240 Rio Linda 3, Rio Linda, CA. SFR | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| AREA: R03:  Like-for-like replacement of tankless water heater and gas | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R03:  Masonry wall construction | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R03:  REMOVING 2 EXTERIOR WALLS AND (1) INTERIOR WALL. ADDITION O | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| AREA: R05:  Repipe house drain system | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R06:  ESS | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R06:  raise fence height to 7 ft max | Unknown | 2 | Secondary Opportunity | 68 | Construction fencing | A fencing contractor can bid because source documents reference fencing work: "AREA: R06: raise fence height to 7 ft max." |
 | AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-08 Elevation | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
@@ -143,11 +152,8 @@ Generated: 2026-07-09T06:34:42.870Z
 | AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | AREA: R07:  Repairs After Fire Damage | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is HVAC / mechanical; no fencing evidence found. |
-| AREA: R08:  Pouring Driveway over culvert with an automatic gate and bu | Unknown | 2 | Possible Opportunity | 34 | Construction fencing | A fencing contractor can bid gate installation work supported by source evidence: "AREA: R08: Pouring Driveway over culvert with an automatic gate and bu." |
 | Building a 9 foot steel gate | Unknown | 2 | Secondary Opportunity | 34 | Construction fencing | A fencing contractor can bid gate installation work supported by source evidence: "Building a 9 foot steel gate." |
 | Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD | Unknown | 2 | Secondary Opportunity | 68 | Construction fencing | A fencing contractor can bid because source documents reference fencing work: "Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD." |
-| ELEC (100 A SERVICE) - 11583 VALENSIN RD | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| HVAC change out: HVAC Changeout. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is HVAC / mechanical; no fencing evidence found. |
 | NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE | Unknown | 2 | Primary Opportunity | 100 | Public access separation | A fencing contractor can bid because source documents specify gate and fencing installation: "NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE." |
 | NEW (TELECOMMUNICATIONS FACILITY / ANTENNAS) - 10590 REIGL RD | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | Pipe Burst, Inversion Liner, Drain Repipe: Sewer Line Replacement or Repair. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
@@ -161,14 +167,9 @@ Generated: 2026-07-09T06:34:42.870Z
 | AREA: R04:  Swimming Pool Remodel | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Drainage / water infrastructure; no fencing evidence found. |
 | FITZGERALD HVAC | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is HVAC / mechanical; no fencing evidence found. |
 | HOLZMULLER RM SOLAR | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
-| REPAIR (DRY ROT) - 3131 EL CAMINO AVE | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Roofing; no fencing evidence found. |
-| REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14) | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
-| REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97) | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
-| REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Electrical / landscape lighting; no fencing evidence found. |
 | REROOF PROJECT-DWELLING; Re-roof or Overlay Only. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is HVAC / mechanical; no fencing evidence found. |
 | SAEED - SOLAR RM | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | TI (INT EQPT CURB) 6233 BALCKTOP RD | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is HVAC / mechanical; no fencing evidence found. |
-| UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair. | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Electrical / landscape lighting; no fencing evidence found. |
 | WOLFE - SOLAR RM / ESS | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |
 | 6980 WLB LLC - SFD, Lot #5 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Residential development; no fencing evidence found. |
 | AREA: R05:  Demolish existing roof/deck structures around stairs and re | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
@@ -189,7 +190,6 @@ Generated: 2026-07-09T06:34:42.870Z
 | Pinyon Creek II  Unit 6-C2 | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Drainage / water infrastructure; no fencing evidence found. |
 | RIVARD -DECK DEMO | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
 | YALANJI  STUCCO REPAIR | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
-| AREA: R02:  Pool Demolition (Partial) | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Drainage / water infrastructure; no fencing evidence found. |
 | AREA: R03:  Foundation Repair | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
 | ALVAREZ-GENERATOR    ****DIGITAL REVIEW**** | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity. |
 | ANDREWS - ELECTRICAL | Unknown | 2 | No Evidence | 0 | No fencing scope generated. | Primary scope is Solar / electrical; no fencing evidence found. |

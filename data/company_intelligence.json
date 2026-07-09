@@ -1,10 +1,181 @@
 [
   {
+    "id": "company-lennar-homes-of-california-coverage-summary",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.93,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-collector-3",
+      "company-lennar-homes-of-california-collector-4",
+      "company-lennar-homes-of-california-collector-5",
+      "company-lennar-homes-of-california-collector-6",
+      "company-lennar-homes-of-california-collector-7",
+      "company-lennar-homes-of-california-collector-8",
+      "company-lennar-homes-of-california-collector-9",
+      "company-lennar-homes-of-california-collector-10",
+      "company-lennar-homes-of-california-collector-11",
+      "company-lennar-homes-of-california-collector-12",
+      "company-lennar-homes-of-california-collector-13",
+      "company-lennar-homes-of-california-collector-14",
+      "company-lennar-homes-of-california-collector-15",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-728102"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-company-type",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as Developer from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-collector-3",
+      "company-lennar-homes-of-california-collector-4",
+      "company-lennar-homes-of-california-collector-5",
+      "company-lennar-homes-of-california-collector-6",
+      "company-lennar-homes-of-california-collector-7",
+      "company-lennar-homes-of-california-collector-8",
+      "company-lennar-homes-of-california-collector-9",
+      "company-lennar-homes-of-california-collector-10",
+      "company-lennar-homes-of-california-collector-11",
+      "company-lennar-homes-of-california-collector-12",
+      "company-lennar-homes-of-california-collector-13",
+      "company-lennar-homes-of-california-collector-14",
+      "company-lennar-homes-of-california-collector-15"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-missing-fields",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Email, LinkedIn Company Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-collector-3",
+      "company-lennar-homes-of-california-collector-4",
+      "company-lennar-homes-of-california-collector-5",
+      "company-lennar-homes-of-california-collector-6",
+      "company-lennar-homes-of-california-collector-7",
+      "company-lennar-homes-of-california-collector-8",
+      "company-lennar-homes-of-california-collector-9",
+      "company-lennar-homes-of-california-collector-10",
+      "company-lennar-homes-of-california-collector-11",
+      "company-lennar-homes-of-california-collector-12",
+      "company-lennar-homes-of-california-collector-13",
+      "company-lennar-homes-of-california-collector-14",
+      "company-lennar-homes-of-california-collector-15",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-728102"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-web-presence",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.93,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-728102"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-vendor-access",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "vendor_access",
+    "summary": "Company has a source-backed vendor, trade partner, bid, procurement, or plan-room route.",
+    "confidence": 0.85,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-collector-3",
+      "company-lennar-homes-of-california-collector-4",
+      "company-lennar-homes-of-california-collector-5",
+      "company-lennar-homes-of-california-collector-6",
+      "company-lennar-homes-of-california-collector-7",
+      "company-lennar-homes-of-california-collector-8",
+      "company-lennar-homes-of-california-collector-9",
+      "company-lennar-homes-of-california-collector-10",
+      "company-lennar-homes-of-california-collector-11",
+      "company-lennar-homes-of-california-collector-12",
+      "company-lennar-homes-of-california-collector-13",
+      "company-lennar-homes-of-california-collector-14",
+      "company-lennar-homes-of-california-collector-15",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-728102"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-procurement-access",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: trade partner.",
+    "confidence": 0.76,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-collector-3",
+      "company-lennar-homes-of-california-collector-4",
+      "company-lennar-homes-of-california-collector-5",
+      "company-lennar-homes-of-california-collector-6",
+      "company-lennar-homes-of-california-collector-7",
+      "company-lennar-homes-of-california-collector-8",
+      "company-lennar-homes-of-california-collector-9",
+      "company-lennar-homes-of-california-collector-10",
+      "company-lennar-homes-of-california-collector-11",
+      "company-lennar-homes-of-california-collector-12",
+      "company-lennar-homes-of-california-collector-13",
+      "company-lennar-homes-of-california-collector-14",
+      "company-lennar-homes-of-california-collector-15",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-728102"
+    ]
+  },
+  {
+    "id": "company-lennar-homes-of-california-subcontractor-access",
+    "company_profile_id": "company-lennar-homes-of-california",
+    "intelligence_type": "subcontractor_access",
+    "summary": "Company has a source-backed subcontractor or trade partner access route.",
+    "confidence": 0.85,
+    "evidence_source_ids": [
+      "company-lennar-homes-of-california-collector-1",
+      "company-lennar-homes-of-california-collector-2",
+      "company-lennar-homes-of-california-collector-3",
+      "company-lennar-homes-of-california-collector-4",
+      "company-lennar-homes-of-california-collector-5",
+      "company-lennar-homes-of-california-collector-6",
+      "company-lennar-homes-of-california-collector-7",
+      "company-lennar-homes-of-california-collector-8",
+      "company-lennar-homes-of-california-collector-9",
+      "company-lennar-homes-of-california-collector-10",
+      "company-lennar-homes-of-california-collector-11",
+      "company-lennar-homes-of-california-collector-12",
+      "company-lennar-homes-of-california-collector-13",
+      "company-lennar-homes-of-california-collector-14",
+      "company-lennar-homes-of-california-collector-15",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-lennar-homes-of-california",
+      "company-lennar-homes-of-california-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-728102"
+    ]
+  },
+  {
     "id": "company-a-1-electrical-coverage-summary",
     "company_profile_id": "company-a-1-electrical",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
       "company-a-1-electrical-collector-1",
       "company-a-1-electrical-collector-2",
@@ -16,7 +187,8 @@
       "company-a-1-electrical-collector-8",
       "company-a-1-electrical-collector-9",
       "company-a-1-electrical-collector-10",
-      "company-a-1-electrical-collector-11"
+      "company-a-1-electrical-collector-11",
+      "company-a-1-electrical-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-909430"
     ]
   },
   {
@@ -43,7 +215,7 @@
     "id": "company-a-1-electrical-missing-fields",
     "company_profile_id": "company-a-1-electrical",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-a-1-electrical-collector-1",
@@ -56,15 +228,47 @@
       "company-a-1-electrical-collector-8",
       "company-a-1-electrical-collector-9",
       "company-a-1-electrical-collector-10",
-      "company-a-1-electrical-collector-11"
+      "company-a-1-electrical-collector-11",
+      "company-a-1-electrical-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-909430"
+    ]
+  },
+  {
+    "id": "company-a-1-electrical-web-presence",
+    "company_profile_id": "company-a-1-electrical",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-a-1-electrical-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-909430"
+    ]
+  },
+  {
+    "id": "company-a-1-electrical-procurement-access",
+    "company_profile_id": "company-a-1-electrical",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-a-1-electrical-collector-1",
+      "company-a-1-electrical-collector-2",
+      "company-a-1-electrical-collector-3",
+      "company-a-1-electrical-collector-4",
+      "company-a-1-electrical-collector-5",
+      "company-a-1-electrical-collector-6",
+      "company-a-1-electrical-collector-7",
+      "company-a-1-electrical-collector-8",
+      "company-a-1-electrical-collector-9",
+      "company-a-1-electrical-collector-10",
+      "company-a-1-electrical-collector-11",
+      "company-a-1-electrical-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-909430"
     ]
   },
   {
     "id": "company-robert-l-scheid-construction-coverage-summary",
     "company_profile_id": "company-robert-l-scheid-construction",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
       "company-robert-l-scheid-construction-collector-1",
       "company-robert-l-scheid-construction-collector-2",
@@ -76,7 +280,8 @@
       "company-robert-l-scheid-construction-collector-8",
       "company-robert-l-scheid-construction-collector-9",
       "company-robert-l-scheid-construction-collector-10",
-      "company-robert-l-scheid-construction-collector-11"
+      "company-robert-l-scheid-construction-collector-11",
+      "company-robert-l-scheid-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1063457"
     ]
   },
   {
@@ -103,7 +308,7 @@
     "id": "company-robert-l-scheid-construction-missing-fields",
     "company_profile_id": "company-robert-l-scheid-construction",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-robert-l-scheid-construction-collector-1",
@@ -116,142 +321,136 @@
       "company-robert-l-scheid-construction-collector-8",
       "company-robert-l-scheid-construction-collector-9",
       "company-robert-l-scheid-construction-collector-10",
-      "company-robert-l-scheid-construction-collector-11"
+      "company-robert-l-scheid-construction-collector-11",
+      "company-robert-l-scheid-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1063457"
     ]
   },
   {
-    "id": "company-lennar-homes-of-california-coverage-summary",
-    "company_profile_id": "company-lennar-homes-of-california",
-    "intelligence_type": "coverage_summary",
-    "summary": "Procurement path intelligence exists for this company.",
-    "confidence": 0.75,
-    "evidence_source_ids": [
-      "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2",
-      "company-lennar-homes-of-california-collector-3",
-      "company-lennar-homes-of-california-collector-4",
-      "company-lennar-homes-of-california-collector-5",
-      "company-lennar-homes-of-california-collector-6",
-      "company-lennar-homes-of-california-collector-7",
-      "company-lennar-homes-of-california-collector-8",
-      "company-lennar-homes-of-california-collector-9",
-      "company-lennar-homes-of-california-collector-10",
-      "company-lennar-homes-of-california-lennar-homes-of-california",
-      "company-lennar-homes-of-california-lennar-homes-of-california"
-    ]
-  },
-  {
-    "id": "company-lennar-homes-of-california-company-type",
-    "company_profile_id": "company-lennar-homes-of-california",
-    "intelligence_type": "company_type_evidence",
-    "summary": "Company type resolved as Developer from collector role evidence.",
-    "confidence": 0.7,
-    "evidence_source_ids": [
-      "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2",
-      "company-lennar-homes-of-california-collector-3",
-      "company-lennar-homes-of-california-collector-4",
-      "company-lennar-homes-of-california-collector-5",
-      "company-lennar-homes-of-california-collector-6",
-      "company-lennar-homes-of-california-collector-7",
-      "company-lennar-homes-of-california-collector-8",
-      "company-lennar-homes-of-california-collector-9",
-      "company-lennar-homes-of-california-collector-10"
-    ]
-  },
-  {
-    "id": "company-lennar-homes-of-california-missing-fields",
-    "company_profile_id": "company-lennar-homes-of-california",
-    "intelligence_type": "missing_fields",
-    "summary": "Missing: Phone, LinkedIn Company Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
-    "confidence": 0.8,
-    "evidence_source_ids": [
-      "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2",
-      "company-lennar-homes-of-california-collector-3",
-      "company-lennar-homes-of-california-collector-4",
-      "company-lennar-homes-of-california-collector-5",
-      "company-lennar-homes-of-california-collector-6",
-      "company-lennar-homes-of-california-collector-7",
-      "company-lennar-homes-of-california-collector-8",
-      "company-lennar-homes-of-california-collector-9",
-      "company-lennar-homes-of-california-collector-10",
-      "company-lennar-homes-of-california-lennar-homes-of-california",
-      "company-lennar-homes-of-california-lennar-homes-of-california"
-    ]
-  },
-  {
-    "id": "company-lennar-homes-of-california-web-presence",
-    "company_profile_id": "company-lennar-homes-of-california",
+    "id": "company-robert-l-scheid-construction-web-presence",
+    "company_profile_id": "company-robert-l-scheid-construction",
     "intelligence_type": "web_presence",
     "summary": "Company has source-backed web or phone presence.",
-    "confidence": 0.75,
+    "confidence": 0.65,
     "evidence_source_ids": [
-      "company-lennar-homes-of-california-lennar-homes-of-california",
-      "company-lennar-homes-of-california-lennar-homes-of-california"
+      "company-robert-l-scheid-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1063457"
     ]
   },
   {
-    "id": "company-lennar-homes-of-california-vendor-access",
-    "company_profile_id": "company-lennar-homes-of-california",
-    "intelligence_type": "vendor_access",
-    "summary": "Company has a source-backed vendor, trade partner, bid, procurement, or plan-room route.",
-    "confidence": 0.85,
-    "evidence_source_ids": [
-      "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2",
-      "company-lennar-homes-of-california-collector-3",
-      "company-lennar-homes-of-california-collector-4",
-      "company-lennar-homes-of-california-collector-5",
-      "company-lennar-homes-of-california-collector-6",
-      "company-lennar-homes-of-california-collector-7",
-      "company-lennar-homes-of-california-collector-8",
-      "company-lennar-homes-of-california-collector-9",
-      "company-lennar-homes-of-california-collector-10",
-      "company-lennar-homes-of-california-lennar-homes-of-california",
-      "company-lennar-homes-of-california-lennar-homes-of-california"
-    ]
-  },
-  {
-    "id": "company-lennar-homes-of-california-procurement-access",
-    "company_profile_id": "company-lennar-homes-of-california",
+    "id": "company-robert-l-scheid-construction-procurement-access",
+    "company_profile_id": "company-robert-l-scheid-construction",
     "intelligence_type": "procurement_access",
-    "summary": "Best procurement path: trade partner.",
-    "confidence": 0.76,
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
     "evidence_source_ids": [
-      "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2",
-      "company-lennar-homes-of-california-collector-3",
-      "company-lennar-homes-of-california-collector-4",
-      "company-lennar-homes-of-california-collector-5",
-      "company-lennar-homes-of-california-collector-6",
-      "company-lennar-homes-of-california-collector-7",
-      "company-lennar-homes-of-california-collector-8",
-      "company-lennar-homes-of-california-collector-9",
-      "company-lennar-homes-of-california-collector-10",
-      "company-lennar-homes-of-california-lennar-homes-of-california",
-      "company-lennar-homes-of-california-lennar-homes-of-california"
+      "company-robert-l-scheid-construction-collector-1",
+      "company-robert-l-scheid-construction-collector-2",
+      "company-robert-l-scheid-construction-collector-3",
+      "company-robert-l-scheid-construction-collector-4",
+      "company-robert-l-scheid-construction-collector-5",
+      "company-robert-l-scheid-construction-collector-6",
+      "company-robert-l-scheid-construction-collector-7",
+      "company-robert-l-scheid-construction-collector-8",
+      "company-robert-l-scheid-construction-collector-9",
+      "company-robert-l-scheid-construction-collector-10",
+      "company-robert-l-scheid-construction-collector-11",
+      "company-robert-l-scheid-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1063457"
     ]
   },
   {
-    "id": "company-lennar-homes-of-california-subcontractor-access",
-    "company_profile_id": "company-lennar-homes-of-california",
-    "intelligence_type": "subcontractor_access",
-    "summary": "Company has a source-backed subcontractor or trade partner access route.",
-    "confidence": 0.85,
+    "id": "company-fdc-nor-cal-coverage-summary",
+    "company_profile_id": "company-fdc-nor-cal",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
-      "company-lennar-homes-of-california-collector-1",
-      "company-lennar-homes-of-california-collector-2",
-      "company-lennar-homes-of-california-collector-3",
-      "company-lennar-homes-of-california-collector-4",
-      "company-lennar-homes-of-california-collector-5",
-      "company-lennar-homes-of-california-collector-6",
-      "company-lennar-homes-of-california-collector-7",
-      "company-lennar-homes-of-california-collector-8",
-      "company-lennar-homes-of-california-collector-9",
-      "company-lennar-homes-of-california-collector-10",
-      "company-lennar-homes-of-california-lennar-homes-of-california",
-      "company-lennar-homes-of-california-lennar-homes-of-california"
+      "company-fdc-nor-cal-collector-1",
+      "company-fdc-nor-cal-collector-2",
+      "company-fdc-nor-cal-collector-3",
+      "company-fdc-nor-cal-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1079515"
+    ]
+  },
+  {
+    "id": "company-fdc-nor-cal-company-type",
+    "company_profile_id": "company-fdc-nor-cal",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-fdc-nor-cal-collector-1",
+      "company-fdc-nor-cal-collector-2",
+      "company-fdc-nor-cal-collector-3"
+    ]
+  },
+  {
+    "id": "company-fdc-nor-cal-missing-fields",
+    "company_profile_id": "company-fdc-nor-cal",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-fdc-nor-cal-collector-1",
+      "company-fdc-nor-cal-collector-2",
+      "company-fdc-nor-cal-collector-3",
+      "company-fdc-nor-cal-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1079515"
+    ]
+  },
+  {
+    "id": "company-fdc-nor-cal-web-presence",
+    "company_profile_id": "company-fdc-nor-cal",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-fdc-nor-cal-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1079515"
+    ]
+  },
+  {
+    "id": "company-fdc-nor-cal-procurement-access",
+    "company_profile_id": "company-fdc-nor-cal",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-fdc-nor-cal-collector-1",
+      "company-fdc-nor-cal-collector-2",
+      "company-fdc-nor-cal-collector-3",
+      "company-fdc-nor-cal-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1079515"
+    ]
+  },
+  {
+    "id": "company-good-life-construction-coverage-summary",
+    "company_profile_id": "company-good-life-construction",
+    "intelligence_type": "coverage_summary",
+    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
+    "confidence": 0.35,
+    "evidence_source_ids": [
+      "company-good-life-construction-collector-1",
+      "company-good-life-construction-collector-2",
+      "company-good-life-construction-collector-3"
+    ]
+  },
+  {
+    "id": "company-good-life-construction-company-type",
+    "company_profile_id": "company-good-life-construction",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-good-life-construction-collector-1",
+      "company-good-life-construction-collector-2",
+      "company-good-life-construction-collector-3"
+    ]
+  },
+  {
+    "id": "company-good-life-construction-missing-fields",
+    "company_profile_id": "company-good-life-construction",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Phone, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-good-life-construction-collector-1",
+      "company-good-life-construction-collector-2",
+      "company-good-life-construction-collector-3"
     ]
   },
   {
@@ -259,13 +458,15 @@
     "company_profile_id": "company-advanced-roof-design",
     "intelligence_type": "coverage_summary",
     "summary": "Procurement path intelligence exists for this company.",
-    "confidence": 0.89,
+    "confidence": 0.99,
     "evidence_source_ids": [
       "company-advanced-roof-design-collector-1",
       "company-advanced-roof-design-collector-2",
       "company-advanced-roof-design-official-website-official-website-https-www-ardroofing-com",
       "company-advanced-roof-design-public-profile-phone-https-rcac-wildapricot-org-widget-sys-publicprofile-31728650-3832090",
-      "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design"
+      "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design",
+      "company-advanced-roof-design-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-672328",
+      "company-advanced-roof-design-official-website-email-https-caanet-org-industry-directory-advanced-roof-design"
     ]
   },
   {
@@ -290,7 +491,9 @@
       "company-advanced-roof-design-collector-2",
       "company-advanced-roof-design-official-website-official-website-https-www-ardroofing-com",
       "company-advanced-roof-design-public-profile-phone-https-rcac-wildapricot-org-widget-sys-publicprofile-31728650-3832090",
-      "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design"
+      "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design",
+      "company-advanced-roof-design-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-672328",
+      "company-advanced-roof-design-official-website-email-https-caanet-org-industry-directory-advanced-roof-design"
     ]
   },
   {
@@ -298,11 +501,13 @@
     "company_profile_id": "company-advanced-roof-design",
     "intelligence_type": "web_presence",
     "summary": "Company has source-backed web or phone presence.",
-    "confidence": 0.89,
+    "confidence": 0.99,
     "evidence_source_ids": [
       "company-advanced-roof-design-official-website-official-website-https-www-ardroofing-com",
       "company-advanced-roof-design-public-profile-phone-https-rcac-wildapricot-org-widget-sys-publicprofile-31728650-3832090",
-      "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design"
+      "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design",
+      "company-advanced-roof-design-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-672328",
+      "company-advanced-roof-design-official-website-email-https-caanet-org-industry-directory-advanced-roof-design"
     ]
   },
   {
@@ -316,7 +521,197 @@
       "company-advanced-roof-design-collector-2",
       "company-advanced-roof-design-official-website-official-website-https-www-ardroofing-com",
       "company-advanced-roof-design-public-profile-phone-https-rcac-wildapricot-org-widget-sys-publicprofile-31728650-3832090",
-      "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design"
+      "company-advanced-roof-design-contact-page-contact-page-url-https-caanet-org-industry-directory-advanced-roof-design",
+      "company-advanced-roof-design-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-672328",
+      "company-advanced-roof-design-official-website-email-https-caanet-org-industry-directory-advanced-roof-design"
+    ]
+  },
+  {
+    "id": "company-alltech-gates-and-entry-controls-coverage-summary",
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.95,
+    "evidence_source_ids": [
+      "company-alltech-gates-and-entry-controls-collector-1",
+      "company-alltech-gates-and-entry-controls-collector-2",
+      "company-alltech-gates-and-entry-controls-public-profile-phone-https-ru-scribd-com-document-746633276-inbound3501281419727076426",
+      "company-alltech-gates-and-entry-controls-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-964909",
+      "company-alltech-gates-and-entry-controls-official-website-email-https-www-alltechgates-com"
+    ]
+  },
+  {
+    "id": "company-alltech-gates-and-entry-controls-company-type",
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-alltech-gates-and-entry-controls-collector-1",
+      "company-alltech-gates-and-entry-controls-collector-2"
+    ]
+  },
+  {
+    "id": "company-alltech-gates-and-entry-controls-missing-fields",
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-alltech-gates-and-entry-controls-collector-1",
+      "company-alltech-gates-and-entry-controls-collector-2",
+      "company-alltech-gates-and-entry-controls-public-profile-phone-https-ru-scribd-com-document-746633276-inbound3501281419727076426",
+      "company-alltech-gates-and-entry-controls-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-964909",
+      "company-alltech-gates-and-entry-controls-official-website-email-https-www-alltechgates-com"
+    ]
+  },
+  {
+    "id": "company-alltech-gates-and-entry-controls-web-presence",
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.95,
+    "evidence_source_ids": [
+      "company-alltech-gates-and-entry-controls-public-profile-phone-https-ru-scribd-com-document-746633276-inbound3501281419727076426",
+      "company-alltech-gates-and-entry-controls-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-964909",
+      "company-alltech-gates-and-entry-controls-official-website-email-https-www-alltechgates-com"
+    ]
+  },
+  {
+    "id": "company-alltech-gates-and-entry-controls-procurement-access",
+    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-alltech-gates-and-entry-controls-collector-1",
+      "company-alltech-gates-and-entry-controls-collector-2",
+      "company-alltech-gates-and-entry-controls-public-profile-phone-https-ru-scribd-com-document-746633276-inbound3501281419727076426",
+      "company-alltech-gates-and-entry-controls-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-964909",
+      "company-alltech-gates-and-entry-controls-official-website-email-https-www-alltechgates-com"
+    ]
+  },
+  {
+    "id": "company-bell-brother-s-heating-and-air-coverage-summary",
+    "company_profile_id": "company-bell-brother-s-heating-and-air",
+    "intelligence_type": "coverage_summary",
+    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
+    "confidence": 0.35,
+    "evidence_source_ids": [
+      "company-bell-brother-s-heating-and-air-collector-1",
+      "company-bell-brother-s-heating-and-air-collector-2"
+    ]
+  },
+  {
+    "id": "company-bell-brother-s-heating-and-air-company-type",
+    "company_profile_id": "company-bell-brother-s-heating-and-air",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-bell-brother-s-heating-and-air-collector-1",
+      "company-bell-brother-s-heating-and-air-collector-2"
+    ]
+  },
+  {
+    "id": "company-bell-brother-s-heating-and-air-missing-fields",
+    "company_profile_id": "company-bell-brother-s-heating-and-air",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Phone, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-bell-brother-s-heating-and-air-collector-1",
+      "company-bell-brother-s-heating-and-air-collector-2"
+    ]
+  },
+  {
+    "id": "company-gigawatt-california-coverage-summary",
+    "company_profile_id": "company-gigawatt-california",
+    "intelligence_type": "coverage_summary",
+    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
+    "confidence": 0.35,
+    "evidence_source_ids": [
+      "company-gigawatt-california-collector-1",
+      "company-gigawatt-california-collector-2"
+    ]
+  },
+  {
+    "id": "company-gigawatt-california-company-type",
+    "company_profile_id": "company-gigawatt-california",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-gigawatt-california-collector-1",
+      "company-gigawatt-california-collector-2"
+    ]
+  },
+  {
+    "id": "company-gigawatt-california-missing-fields",
+    "company_profile_id": "company-gigawatt-california",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Phone, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-gigawatt-california-collector-1",
+      "company-gigawatt-california-collector-2"
+    ]
+  },
+  {
+    "id": "company-kb-home-sacramento-coverage-summary",
+    "company_profile_id": "company-kb-home-sacramento",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-kb-home-sacramento-collector-1",
+      "company-kb-home-sacramento-collector-2",
+      "company-kb-home-sacramento-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-255425"
+    ]
+  },
+  {
+    "id": "company-kb-home-sacramento-company-type",
+    "company_profile_id": "company-kb-home-sacramento",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-kb-home-sacramento-collector-1",
+      "company-kb-home-sacramento-collector-2"
+    ]
+  },
+  {
+    "id": "company-kb-home-sacramento-missing-fields",
+    "company_profile_id": "company-kb-home-sacramento",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-kb-home-sacramento-collector-1",
+      "company-kb-home-sacramento-collector-2",
+      "company-kb-home-sacramento-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-255425"
+    ]
+  },
+  {
+    "id": "company-kb-home-sacramento-web-presence",
+    "company_profile_id": "company-kb-home-sacramento",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-kb-home-sacramento-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-255425"
+    ]
+  },
+  {
+    "id": "company-kb-home-sacramento-procurement-access",
+    "company_profile_id": "company-kb-home-sacramento",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-kb-home-sacramento-collector-1",
+      "company-kb-home-sacramento-collector-2",
+      "company-kb-home-sacramento-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-255425"
     ]
   },
   {
@@ -345,7 +740,7 @@
     "id": "company-kevin-l-cook-architect-missing-fields",
     "company_profile_id": "company-kevin-l-cook-architect",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Phone, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-kevin-l-cook-architect-collector-1",
@@ -356,10 +751,11 @@
     "id": "company-3-generations-improvements-coverage-summary",
     "company_profile_id": "company-3-generations-improvements",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
-      "company-3-generations-improvements-collector-1"
+      "company-3-generations-improvements-collector-1",
+      "company-3-generations-improvements-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-876464"
     ]
   },
   {
@@ -376,73 +772,96 @@
     "id": "company-3-generations-improvements-missing-fields",
     "company_profile_id": "company-3-generations-improvements",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-3-generations-improvements-collector-1"
+      "company-3-generations-improvements-collector-1",
+      "company-3-generations-improvements-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-876464"
     ]
   },
   {
-    "id": "company-alltech-gates-and-entry-controls-coverage-summary",
-    "company_profile_id": "company-alltech-gates-and-entry-controls",
-    "intelligence_type": "coverage_summary",
-    "summary": "Company has general contact intelligence, but no dedicated procurement path has been verified.",
-    "confidence": 0.57,
+    "id": "company-3-generations-improvements-web-presence",
+    "company_profile_id": "company-3-generations-improvements",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
     "evidence_source_ids": [
-      "company-alltech-gates-and-entry-controls-collector-1",
-      "company-alltech-gates-and-entry-controls-public-profile-phone-https-ru-scribd-com-document-746633276-inbound3501281419727076426"
+      "company-3-generations-improvements-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-876464"
     ]
   },
   {
-    "id": "company-alltech-gates-and-entry-controls-company-type",
-    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "id": "company-3-generations-improvements-procurement-access",
+    "company_profile_id": "company-3-generations-improvements",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-3-generations-improvements-collector-1",
+      "company-3-generations-improvements-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-876464"
+    ]
+  },
+  {
+    "id": "company-all-pro-plumbing-coverage-summary",
+    "company_profile_id": "company-all-pro-plumbing",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-all-pro-plumbing-collector-1",
+      "company-all-pro-plumbing-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-668343"
+    ]
+  },
+  {
+    "id": "company-all-pro-plumbing-company-type",
+    "company_profile_id": "company-all-pro-plumbing",
     "intelligence_type": "company_type_evidence",
     "summary": "Company type resolved as General Contractor from collector role evidence.",
     "confidence": 0.7,
     "evidence_source_ids": [
-      "company-alltech-gates-and-entry-controls-collector-1"
+      "company-all-pro-plumbing-collector-1"
     ]
   },
   {
-    "id": "company-alltech-gates-and-entry-controls-missing-fields",
-    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "id": "company-all-pro-plumbing-missing-fields",
+    "company_profile_id": "company-all-pro-plumbing",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-alltech-gates-and-entry-controls-collector-1",
-      "company-alltech-gates-and-entry-controls-public-profile-phone-https-ru-scribd-com-document-746633276-inbound3501281419727076426"
+      "company-all-pro-plumbing-collector-1",
+      "company-all-pro-plumbing-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-668343"
     ]
   },
   {
-    "id": "company-alltech-gates-and-entry-controls-web-presence",
-    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "id": "company-all-pro-plumbing-web-presence",
+    "company_profile_id": "company-all-pro-plumbing",
     "intelligence_type": "web_presence",
     "summary": "Company has source-backed web or phone presence.",
-    "confidence": 0.57,
+    "confidence": 0.65,
     "evidence_source_ids": [
-      "company-alltech-gates-and-entry-controls-public-profile-phone-https-ru-scribd-com-document-746633276-inbound3501281419727076426"
+      "company-all-pro-plumbing-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-668343"
     ]
   },
   {
-    "id": "company-alltech-gates-and-entry-controls-procurement-access",
-    "company_profile_id": "company-alltech-gates-and-entry-controls",
+    "id": "company-all-pro-plumbing-procurement-access",
+    "company_profile_id": "company-all-pro-plumbing",
     "intelligence_type": "procurement_access",
     "summary": "Best procurement path: general contact.",
-    "confidence": 0.55,
+    "confidence": 0.92,
     "evidence_source_ids": [
-      "company-alltech-gates-and-entry-controls-collector-1",
-      "company-alltech-gates-and-entry-controls-public-profile-phone-https-ru-scribd-com-document-746633276-inbound3501281419727076426"
+      "company-all-pro-plumbing-collector-1",
+      "company-all-pro-plumbing-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-668343"
     ]
   },
   {
     "id": "company-american-buildings-j-s-coverage-summary",
     "company_profile_id": "company-american-buildings-j-s",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
-      "company-american-buildings-j-s-collector-1"
+      "company-american-buildings-j-s-collector-1",
+      "company-american-buildings-j-s-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1137229"
     ]
   },
   {
@@ -459,80 +878,202 @@
     "id": "company-american-buildings-j-s-missing-fields",
     "company_profile_id": "company-american-buildings-j-s",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-american-buildings-j-s-collector-1"
+      "company-american-buildings-j-s-collector-1",
+      "company-american-buildings-j-s-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1137229"
     ]
   },
   {
-    "id": "company-american-carports-coverage-summary",
-    "company_profile_id": "company-american-carports",
-    "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "id": "company-american-buildings-j-s-web-presence",
+    "company_profile_id": "company-american-buildings-j-s",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
     "evidence_source_ids": [
-      "company-american-carports-collector-1"
+      "company-american-buildings-j-s-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1137229"
     ]
   },
   {
-    "id": "company-american-carports-company-type",
-    "company_profile_id": "company-american-carports",
+    "id": "company-american-buildings-j-s-procurement-access",
+    "company_profile_id": "company-american-buildings-j-s",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-american-buildings-j-s-collector-1",
+      "company-american-buildings-j-s-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1137229"
+    ]
+  },
+  {
+    "id": "company-arco-murray-national-norcal-coverage-summary",
+    "company_profile_id": "company-arco-murray-national-norcal",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-arco-murray-national-norcal-collector-1",
+      "company-arco-murray-national-norcal-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1070665"
+    ]
+  },
+  {
+    "id": "company-arco-murray-national-norcal-company-type",
+    "company_profile_id": "company-arco-murray-national-norcal",
     "intelligence_type": "company_type_evidence",
     "summary": "Company type resolved as General Contractor from collector role evidence.",
     "confidence": 0.7,
     "evidence_source_ids": [
-      "company-american-carports-collector-1"
+      "company-arco-murray-national-norcal-collector-1"
     ]
   },
   {
-    "id": "company-american-carports-missing-fields",
-    "company_profile_id": "company-american-carports",
+    "id": "company-arco-murray-national-norcal-missing-fields",
+    "company_profile_id": "company-arco-murray-national-norcal",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-american-carports-collector-1"
+      "company-arco-murray-national-norcal-collector-1",
+      "company-arco-murray-national-norcal-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1070665"
     ]
   },
   {
-    "id": "company-burns-construction-coverage-summary",
-    "company_profile_id": "company-burns-construction",
-    "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "id": "company-arco-murray-national-norcal-web-presence",
+    "company_profile_id": "company-arco-murray-national-norcal",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
     "evidence_source_ids": [
-      "company-burns-construction-collector-1"
+      "company-arco-murray-national-norcal-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1070665"
     ]
   },
   {
-    "id": "company-burns-construction-company-type",
-    "company_profile_id": "company-burns-construction",
+    "id": "company-arco-murray-national-norcal-procurement-access",
+    "company_profile_id": "company-arco-murray-national-norcal",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-arco-murray-national-norcal-collector-1",
+      "company-arco-murray-national-norcal-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1070665"
+    ]
+  },
+  {
+    "id": "company-aztec-solar-coverage-summary",
+    "company_profile_id": "company-aztec-solar",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-aztec-solar-collector-1",
+      "company-aztec-solar-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-550110"
+    ]
+  },
+  {
+    "id": "company-aztec-solar-company-type",
+    "company_profile_id": "company-aztec-solar",
     "intelligence_type": "company_type_evidence",
     "summary": "Company type resolved as General Contractor from collector role evidence.",
     "confidence": 0.7,
     "evidence_source_ids": [
-      "company-burns-construction-collector-1"
+      "company-aztec-solar-collector-1"
     ]
   },
   {
-    "id": "company-burns-construction-missing-fields",
-    "company_profile_id": "company-burns-construction",
+    "id": "company-aztec-solar-missing-fields",
+    "company_profile_id": "company-aztec-solar",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-burns-construction-collector-1"
+      "company-aztec-solar-collector-1",
+      "company-aztec-solar-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-550110"
+    ]
+  },
+  {
+    "id": "company-aztec-solar-web-presence",
+    "company_profile_id": "company-aztec-solar",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-aztec-solar-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-550110"
+    ]
+  },
+  {
+    "id": "company-aztec-solar-procurement-access",
+    "company_profile_id": "company-aztec-solar",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-aztec-solar-collector-1",
+      "company-aztec-solar-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-550110"
+    ]
+  },
+  {
+    "id": "company-bruce-construction-group-coverage-summary",
+    "company_profile_id": "company-bruce-construction-group",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-bruce-construction-group-collector-1",
+      "company-bruce-construction-group-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1087444"
+    ]
+  },
+  {
+    "id": "company-bruce-construction-group-company-type",
+    "company_profile_id": "company-bruce-construction-group",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-bruce-construction-group-collector-1"
+    ]
+  },
+  {
+    "id": "company-bruce-construction-group-missing-fields",
+    "company_profile_id": "company-bruce-construction-group",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-bruce-construction-group-collector-1",
+      "company-bruce-construction-group-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1087444"
+    ]
+  },
+  {
+    "id": "company-bruce-construction-group-web-presence",
+    "company_profile_id": "company-bruce-construction-group",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-bruce-construction-group-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1087444"
+    ]
+  },
+  {
+    "id": "company-bruce-construction-group-procurement-access",
+    "company_profile_id": "company-bruce-construction-group",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-bruce-construction-group-collector-1",
+      "company-bruce-construction-group-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1087444"
     ]
   },
   {
     "id": "company-california-renewable-energy-coverage-summary",
     "company_profile_id": "company-california-renewable-energy",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
-      "company-california-renewable-energy-collector-1"
+      "company-california-renewable-energy-collector-1",
+      "company-california-renewable-energy-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1068801"
     ]
   },
   {
@@ -549,40 +1090,138 @@
     "id": "company-california-renewable-energy-missing-fields",
     "company_profile_id": "company-california-renewable-energy",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-california-renewable-energy-collector-1"
+      "company-california-renewable-energy-collector-1",
+      "company-california-renewable-energy-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1068801"
     ]
   },
   {
-    "id": "company-deome-2-builders-coverage-summary",
-    "company_profile_id": "company-deome-2-builders",
-    "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "id": "company-california-renewable-energy-web-presence",
+    "company_profile_id": "company-california-renewable-energy",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
     "evidence_source_ids": [
-      "company-deome-2-builders-collector-1"
+      "company-california-renewable-energy-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1068801"
     ]
   },
   {
-    "id": "company-deome-2-builders-company-type",
-    "company_profile_id": "company-deome-2-builders",
+    "id": "company-california-renewable-energy-procurement-access",
+    "company_profile_id": "company-california-renewable-energy",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-california-renewable-energy-collector-1",
+      "company-california-renewable-energy-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1068801"
+    ]
+  },
+  {
+    "id": "company-city-signs-coverage-summary",
+    "company_profile_id": "company-city-signs",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-city-signs-collector-1",
+      "company-city-signs-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-769900"
+    ]
+  },
+  {
+    "id": "company-city-signs-company-type",
+    "company_profile_id": "company-city-signs",
     "intelligence_type": "company_type_evidence",
     "summary": "Company type resolved as General Contractor from collector role evidence.",
     "confidence": 0.7,
     "evidence_source_ids": [
-      "company-deome-2-builders-collector-1"
+      "company-city-signs-collector-1"
     ]
   },
   {
-    "id": "company-deome-2-builders-missing-fields",
-    "company_profile_id": "company-deome-2-builders",
+    "id": "company-city-signs-missing-fields",
+    "company_profile_id": "company-city-signs",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-deome-2-builders-collector-1"
+      "company-city-signs-collector-1",
+      "company-city-signs-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-769900"
+    ]
+  },
+  {
+    "id": "company-city-signs-web-presence",
+    "company_profile_id": "company-city-signs",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-city-signs-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-769900"
+    ]
+  },
+  {
+    "id": "company-city-signs-procurement-access",
+    "company_profile_id": "company-city-signs",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-city-signs-collector-1",
+      "company-city-signs-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-769900"
+    ]
+  },
+  {
+    "id": "company-diehl-s-electric-coverage-summary",
+    "company_profile_id": "company-diehl-s-electric",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-diehl-s-electric-collector-1",
+      "company-diehl-s-electric-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-633545"
+    ]
+  },
+  {
+    "id": "company-diehl-s-electric-company-type",
+    "company_profile_id": "company-diehl-s-electric",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-diehl-s-electric-collector-1"
+    ]
+  },
+  {
+    "id": "company-diehl-s-electric-missing-fields",
+    "company_profile_id": "company-diehl-s-electric",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-diehl-s-electric-collector-1",
+      "company-diehl-s-electric-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-633545"
+    ]
+  },
+  {
+    "id": "company-diehl-s-electric-web-presence",
+    "company_profile_id": "company-diehl-s-electric",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-diehl-s-electric-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-633545"
+    ]
+  },
+  {
+    "id": "company-diehl-s-electric-procurement-access",
+    "company_profile_id": "company-diehl-s-electric",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-diehl-s-electric-collector-1",
+      "company-diehl-s-electric-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-633545"
     ]
   },
   {
@@ -590,12 +1229,14 @@
     "company_profile_id": "company-duramax-roofing",
     "intelligence_type": "coverage_summary",
     "summary": "Procurement path intelligence exists for this company.",
-    "confidence": 0.89,
+    "confidence": 0.99,
     "evidence_source_ids": [
       "company-duramax-roofing-collector-1",
       "company-duramax-roofing-official-website-official-website-https-duramaxroofing-net",
       "company-duramax-roofing-contact-page-contact-page-url-https-duramaxroofing-net-steel-roofing-systems",
-      "company-duramax-roofing-phone-source-phone-https-www-buildzoom-com-contractor-duramax-roofing"
+      "company-duramax-roofing-phone-source-phone-https-www-buildzoom-com-contractor-duramax-roofing",
+      "company-duramax-roofing-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-866295",
+      "company-duramax-roofing-official-website-email-https-duramaxroofing-net-contact"
     ]
   },
   {
@@ -618,7 +1259,9 @@
       "company-duramax-roofing-collector-1",
       "company-duramax-roofing-official-website-official-website-https-duramaxroofing-net",
       "company-duramax-roofing-contact-page-contact-page-url-https-duramaxroofing-net-steel-roofing-systems",
-      "company-duramax-roofing-phone-source-phone-https-www-buildzoom-com-contractor-duramax-roofing"
+      "company-duramax-roofing-phone-source-phone-https-www-buildzoom-com-contractor-duramax-roofing",
+      "company-duramax-roofing-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-866295",
+      "company-duramax-roofing-official-website-email-https-duramaxroofing-net-contact"
     ]
   },
   {
@@ -626,11 +1269,13 @@
     "company_profile_id": "company-duramax-roofing",
     "intelligence_type": "web_presence",
     "summary": "Company has source-backed web or phone presence.",
-    "confidence": 0.89,
+    "confidence": 0.99,
     "evidence_source_ids": [
       "company-duramax-roofing-official-website-official-website-https-duramaxroofing-net",
       "company-duramax-roofing-contact-page-contact-page-url-https-duramaxroofing-net-steel-roofing-systems",
-      "company-duramax-roofing-phone-source-phone-https-www-buildzoom-com-contractor-duramax-roofing"
+      "company-duramax-roofing-phone-source-phone-https-www-buildzoom-com-contractor-duramax-roofing",
+      "company-duramax-roofing-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-866295",
+      "company-duramax-roofing-official-website-email-https-duramaxroofing-net-contact"
     ]
   },
   {
@@ -643,17 +1288,20 @@
       "company-duramax-roofing-collector-1",
       "company-duramax-roofing-official-website-official-website-https-duramaxroofing-net",
       "company-duramax-roofing-contact-page-contact-page-url-https-duramaxroofing-net-steel-roofing-systems",
-      "company-duramax-roofing-phone-source-phone-https-www-buildzoom-com-contractor-duramax-roofing"
+      "company-duramax-roofing-phone-source-phone-https-www-buildzoom-com-contractor-duramax-roofing",
+      "company-duramax-roofing-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-866295",
+      "company-duramax-roofing-official-website-email-https-duramaxroofing-net-contact"
     ]
   },
   {
     "id": "company-dyer-construction-coverage-summary",
     "company_profile_id": "company-dyer-construction",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
-      "company-dyer-construction-collector-1"
+      "company-dyer-construction-collector-1",
+      "company-dyer-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-645755"
     ]
   },
   {
@@ -670,10 +1318,85 @@
     "id": "company-dyer-construction-missing-fields",
     "company_profile_id": "company-dyer-construction",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-dyer-construction-collector-1"
+      "company-dyer-construction-collector-1",
+      "company-dyer-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-645755"
+    ]
+  },
+  {
+    "id": "company-dyer-construction-web-presence",
+    "company_profile_id": "company-dyer-construction",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-dyer-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-645755"
+    ]
+  },
+  {
+    "id": "company-dyer-construction-procurement-access",
+    "company_profile_id": "company-dyer-construction",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-dyer-construction-collector-1",
+      "company-dyer-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-645755"
+    ]
+  },
+  {
+    "id": "company-es-solar-coverage-summary",
+    "company_profile_id": "company-es-solar",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-es-solar-collector-1",
+      "company-es-solar-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1127444"
+    ]
+  },
+  {
+    "id": "company-es-solar-company-type",
+    "company_profile_id": "company-es-solar",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-es-solar-collector-1"
+    ]
+  },
+  {
+    "id": "company-es-solar-missing-fields",
+    "company_profile_id": "company-es-solar",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-es-solar-collector-1",
+      "company-es-solar-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1127444"
+    ]
+  },
+  {
+    "id": "company-es-solar-web-presence",
+    "company_profile_id": "company-es-solar",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-es-solar-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1127444"
+    ]
+  },
+  {
+    "id": "company-es-solar-procurement-access",
+    "company_profile_id": "company-es-solar",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-es-solar-collector-1",
+      "company-es-solar-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1127444"
     ]
   },
   {
@@ -701,7 +1424,7 @@
     "id": "company-famand-missing-fields",
     "company_profile_id": "company-famand",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-famand-collector-1",
@@ -730,73 +1453,14 @@
     ]
   },
   {
-    "id": "company-fdc-nor-cal-coverage-summary",
-    "company_profile_id": "company-fdc-nor-cal",
-    "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
-    "evidence_source_ids": [
-      "company-fdc-nor-cal-collector-1"
-    ]
-  },
-  {
-    "id": "company-fdc-nor-cal-company-type",
-    "company_profile_id": "company-fdc-nor-cal",
-    "intelligence_type": "company_type_evidence",
-    "summary": "Company type resolved as General Contractor from collector role evidence.",
-    "confidence": 0.7,
-    "evidence_source_ids": [
-      "company-fdc-nor-cal-collector-1"
-    ]
-  },
-  {
-    "id": "company-fdc-nor-cal-missing-fields",
-    "company_profile_id": "company-fdc-nor-cal",
-    "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
-    "confidence": 0.8,
-    "evidence_source_ids": [
-      "company-fdc-nor-cal-collector-1"
-    ]
-  },
-  {
-    "id": "company-gigawatt-california-coverage-summary",
-    "company_profile_id": "company-gigawatt-california",
-    "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
-    "evidence_source_ids": [
-      "company-gigawatt-california-collector-1"
-    ]
-  },
-  {
-    "id": "company-gigawatt-california-company-type",
-    "company_profile_id": "company-gigawatt-california",
-    "intelligence_type": "company_type_evidence",
-    "summary": "Company type resolved as General Contractor from collector role evidence.",
-    "confidence": 0.7,
-    "evidence_source_ids": [
-      "company-gigawatt-california-collector-1"
-    ]
-  },
-  {
-    "id": "company-gigawatt-california-missing-fields",
-    "company_profile_id": "company-gigawatt-california",
-    "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
-    "confidence": 0.8,
-    "evidence_source_ids": [
-      "company-gigawatt-california-collector-1"
-    ]
-  },
-  {
     "id": "company-group-one-builders-coverage-summary",
     "company_profile_id": "company-group-one-builders",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
-      "company-group-one-builders-collector-1"
+      "company-group-one-builders-collector-1",
+      "company-group-one-builders-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-668907"
     ]
   },
   {
@@ -813,10 +1477,138 @@
     "id": "company-group-one-builders-missing-fields",
     "company_profile_id": "company-group-one-builders",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-group-one-builders-collector-1"
+      "company-group-one-builders-collector-1",
+      "company-group-one-builders-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-668907"
+    ]
+  },
+  {
+    "id": "company-group-one-builders-web-presence",
+    "company_profile_id": "company-group-one-builders",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-group-one-builders-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-668907"
+    ]
+  },
+  {
+    "id": "company-group-one-builders-procurement-access",
+    "company_profile_id": "company-group-one-builders",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-group-one-builders-collector-1",
+      "company-group-one-builders-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-668907"
+    ]
+  },
+  {
+    "id": "company-haven-energy-services-coverage-summary",
+    "company_profile_id": "company-haven-energy-services",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-haven-energy-services-collector-1",
+      "company-haven-energy-services-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1104018"
+    ]
+  },
+  {
+    "id": "company-haven-energy-services-company-type",
+    "company_profile_id": "company-haven-energy-services",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-haven-energy-services-collector-1"
+    ]
+  },
+  {
+    "id": "company-haven-energy-services-missing-fields",
+    "company_profile_id": "company-haven-energy-services",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-haven-energy-services-collector-1",
+      "company-haven-energy-services-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1104018"
+    ]
+  },
+  {
+    "id": "company-haven-energy-services-web-presence",
+    "company_profile_id": "company-haven-energy-services",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-haven-energy-services-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1104018"
+    ]
+  },
+  {
+    "id": "company-haven-energy-services-procurement-access",
+    "company_profile_id": "company-haven-energy-services",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-haven-energy-services-collector-1",
+      "company-haven-energy-services-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1104018"
+    ]
+  },
+  {
+    "id": "company-heat-and-air-solutions-coverage-summary",
+    "company_profile_id": "company-heat-and-air-solutions",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-heat-and-air-solutions-collector-1",
+      "company-heat-and-air-solutions-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1133607"
+    ]
+  },
+  {
+    "id": "company-heat-and-air-solutions-company-type",
+    "company_profile_id": "company-heat-and-air-solutions",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-heat-and-air-solutions-collector-1"
+    ]
+  },
+  {
+    "id": "company-heat-and-air-solutions-missing-fields",
+    "company_profile_id": "company-heat-and-air-solutions",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-heat-and-air-solutions-collector-1",
+      "company-heat-and-air-solutions-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1133607"
+    ]
+  },
+  {
+    "id": "company-heat-and-air-solutions-web-presence",
+    "company_profile_id": "company-heat-and-air-solutions",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-heat-and-air-solutions-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1133607"
+    ]
+  },
+  {
+    "id": "company-heat-and-air-solutions-procurement-access",
+    "company_profile_id": "company-heat-and-air-solutions",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-heat-and-air-solutions-collector-1",
+      "company-heat-and-air-solutions-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1133607"
     ]
   },
   {
@@ -843,7 +1635,7 @@
     "id": "company-integral-communities-missing-fields",
     "company_profile_id": "company-integral-communities",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Phone, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-integral-communities-collector-1"
@@ -853,10 +1645,12 @@
     "id": "company-kenneth-development-coverage-summary",
     "company_profile_id": "company-kenneth-development",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.95,
     "evidence_source_ids": [
-      "company-kenneth-development-collector-1"
+      "company-kenneth-development-collector-1",
+      "company-kenneth-development-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-773369",
+      "company-kenneth-development-official-website-email-https-www-kennethdevelopment-com"
     ]
   },
   {
@@ -873,50 +1667,99 @@
     "id": "company-kenneth-development-missing-fields",
     "company_profile_id": "company-kenneth-development",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-kenneth-development-collector-1"
+      "company-kenneth-development-collector-1",
+      "company-kenneth-development-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-773369",
+      "company-kenneth-development-official-website-email-https-www-kennethdevelopment-com"
     ]
   },
   {
-    "id": "company-kustom-us-coverage-summary",
-    "company_profile_id": "company-kustom-us",
-    "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "id": "company-kenneth-development-web-presence",
+    "company_profile_id": "company-kenneth-development",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.95,
     "evidence_source_ids": [
-      "company-kustom-us-collector-1"
+      "company-kenneth-development-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-773369",
+      "company-kenneth-development-official-website-email-https-www-kennethdevelopment-com"
     ]
   },
   {
-    "id": "company-kustom-us-company-type",
-    "company_profile_id": "company-kustom-us",
+    "id": "company-kenneth-development-procurement-access",
+    "company_profile_id": "company-kenneth-development",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-kenneth-development-collector-1",
+      "company-kenneth-development-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-773369",
+      "company-kenneth-development-official-website-email-https-www-kennethdevelopment-com"
+    ]
+  },
+  {
+    "id": "company-legacy-demolition-coverage-summary",
+    "company_profile_id": "company-legacy-demolition",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-legacy-demolition-collector-1",
+      "company-legacy-demolition-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1122603"
+    ]
+  },
+  {
+    "id": "company-legacy-demolition-company-type",
+    "company_profile_id": "company-legacy-demolition",
     "intelligence_type": "company_type_evidence",
     "summary": "Company type resolved as General Contractor from collector role evidence.",
     "confidence": 0.7,
     "evidence_source_ids": [
-      "company-kustom-us-collector-1"
+      "company-legacy-demolition-collector-1"
     ]
   },
   {
-    "id": "company-kustom-us-missing-fields",
-    "company_profile_id": "company-kustom-us",
+    "id": "company-legacy-demolition-missing-fields",
+    "company_profile_id": "company-legacy-demolition",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-kustom-us-collector-1"
+      "company-legacy-demolition-collector-1",
+      "company-legacy-demolition-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1122603"
+    ]
+  },
+  {
+    "id": "company-legacy-demolition-web-presence",
+    "company_profile_id": "company-legacy-demolition",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-legacy-demolition-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1122603"
+    ]
+  },
+  {
+    "id": "company-legacy-demolition-procurement-access",
+    "company_profile_id": "company-legacy-demolition",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-legacy-demolition-collector-1",
+      "company-legacy-demolition-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1122603"
     ]
   },
   {
     "id": "company-lund-construction-coverage-summary",
     "company_profile_id": "company-lund-construction",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.93,
     "evidence_source_ids": [
-      "company-lund-construction-collector-1"
+      "company-lund-construction-collector-1",
+      "company-lund-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1086700"
     ]
   },
   {
@@ -933,10 +1776,32 @@
     "id": "company-lund-construction-missing-fields",
     "company_profile_id": "company-lund-construction",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Email, LinkedIn Company Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-lund-construction-collector-1"
+      "company-lund-construction-collector-1",
+      "company-lund-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1086700"
+    ]
+  },
+  {
+    "id": "company-lund-construction-web-presence",
+    "company_profile_id": "company-lund-construction",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.93,
+    "evidence_source_ids": [
+      "company-lund-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1086700"
+    ]
+  },
+  {
+    "id": "company-lund-construction-procurement-access",
+    "company_profile_id": "company-lund-construction",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-lund-construction-collector-1",
+      "company-lund-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1086700"
     ]
   },
   {
@@ -963,50 +1828,127 @@
     "id": "company-master-roofing-solutions-missing-fields",
     "company_profile_id": "company-master-roofing-solutions",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Phone, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-master-roofing-solutions-collector-1"
     ]
   },
   {
-    "id": "company-o-connor-pool-solutions-coverage-summary",
-    "company_profile_id": "company-o-connor-pool-solutions",
+    "id": "company-nco-development-coverage-summary",
+    "company_profile_id": "company-nco-development",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
-      "company-o-connor-pool-solutions-collector-1"
+      "company-nco-development-collector-1",
+      "company-nco-development-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1085867"
     ]
   },
   {
-    "id": "company-o-connor-pool-solutions-company-type",
-    "company_profile_id": "company-o-connor-pool-solutions",
+    "id": "company-nco-development-company-type",
+    "company_profile_id": "company-nco-development",
     "intelligence_type": "company_type_evidence",
     "summary": "Company type resolved as General Contractor from collector role evidence.",
     "confidence": 0.7,
     "evidence_source_ids": [
-      "company-o-connor-pool-solutions-collector-1"
+      "company-nco-development-collector-1"
     ]
   },
   {
-    "id": "company-o-connor-pool-solutions-missing-fields",
-    "company_profile_id": "company-o-connor-pool-solutions",
+    "id": "company-nco-development-missing-fields",
+    "company_profile_id": "company-nco-development",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-o-connor-pool-solutions-collector-1"
+      "company-nco-development-collector-1",
+      "company-nco-development-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1085867"
+    ]
+  },
+  {
+    "id": "company-nco-development-web-presence",
+    "company_profile_id": "company-nco-development",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-nco-development-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1085867"
+    ]
+  },
+  {
+    "id": "company-nco-development-procurement-access",
+    "company_profile_id": "company-nco-development",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-nco-development-collector-1",
+      "company-nco-development-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1085867"
+    ]
+  },
+  {
+    "id": "company-next-demolition-coverage-summary",
+    "company_profile_id": "company-next-demolition",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-next-demolition-collector-1",
+      "company-next-demolition-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1141839"
+    ]
+  },
+  {
+    "id": "company-next-demolition-company-type",
+    "company_profile_id": "company-next-demolition",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-next-demolition-collector-1"
+    ]
+  },
+  {
+    "id": "company-next-demolition-missing-fields",
+    "company_profile_id": "company-next-demolition",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-next-demolition-collector-1",
+      "company-next-demolition-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1141839"
+    ]
+  },
+  {
+    "id": "company-next-demolition-web-presence",
+    "company_profile_id": "company-next-demolition",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-next-demolition-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1141839"
+    ]
+  },
+  {
+    "id": "company-next-demolition-procurement-access",
+    "company_profile_id": "company-next-demolition",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-next-demolition-collector-1",
+      "company-next-demolition-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1141839"
     ]
   },
   {
     "id": "company-phillip-isaacs-construction-coverage-summary",
     "company_profile_id": "company-phillip-isaacs-construction",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
-      "company-phillip-isaacs-construction-collector-1"
+      "company-phillip-isaacs-construction-collector-1",
+      "company-phillip-isaacs-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-627677"
     ]
   },
   {
@@ -1023,20 +1965,44 @@
     "id": "company-phillip-isaacs-construction-missing-fields",
     "company_profile_id": "company-phillip-isaacs-construction",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-phillip-isaacs-construction-collector-1"
+      "company-phillip-isaacs-construction-collector-1",
+      "company-phillip-isaacs-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-627677"
+    ]
+  },
+  {
+    "id": "company-phillip-isaacs-construction-web-presence",
+    "company_profile_id": "company-phillip-isaacs-construction",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-phillip-isaacs-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-627677"
+    ]
+  },
+  {
+    "id": "company-phillip-isaacs-construction-procurement-access",
+    "company_profile_id": "company-phillip-isaacs-construction",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-phillip-isaacs-construction-collector-1",
+      "company-phillip-isaacs-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-627677"
     ]
   },
   {
     "id": "company-prime-home-solutions-coverage-summary",
     "company_profile_id": "company-prime-home-solutions",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.95,
     "evidence_source_ids": [
-      "company-prime-home-solutions-collector-1"
+      "company-prime-home-solutions-collector-1",
+      "company-prime-home-solutions-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1075385",
+      "company-prime-home-solutions-official-website-email-https-primehomesolutions-com"
     ]
   },
   {
@@ -1053,20 +2019,182 @@
     "id": "company-prime-home-solutions-missing-fields",
     "company_profile_id": "company-prime-home-solutions",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-prime-home-solutions-collector-1"
+      "company-prime-home-solutions-collector-1",
+      "company-prime-home-solutions-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1075385",
+      "company-prime-home-solutions-official-website-email-https-primehomesolutions-com"
+    ]
+  },
+  {
+    "id": "company-prime-home-solutions-web-presence",
+    "company_profile_id": "company-prime-home-solutions",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.95,
+    "evidence_source_ids": [
+      "company-prime-home-solutions-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1075385",
+      "company-prime-home-solutions-official-website-email-https-primehomesolutions-com"
+    ]
+  },
+  {
+    "id": "company-prime-home-solutions-procurement-access",
+    "company_profile_id": "company-prime-home-solutions",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-prime-home-solutions-collector-1",
+      "company-prime-home-solutions-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1075385",
+      "company-prime-home-solutions-official-website-email-https-primehomesolutions-com"
+    ]
+  },
+  {
+    "id": "company-sierra-nevada-24-7-coverage-summary",
+    "company_profile_id": "company-sierra-nevada-24-7",
+    "intelligence_type": "coverage_summary",
+    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
+    "confidence": 0.35,
+    "evidence_source_ids": [
+      "company-sierra-nevada-24-7-collector-1"
+    ]
+  },
+  {
+    "id": "company-sierra-nevada-24-7-company-type",
+    "company_profile_id": "company-sierra-nevada-24-7",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-sierra-nevada-24-7-collector-1"
+    ]
+  },
+  {
+    "id": "company-sierra-nevada-24-7-missing-fields",
+    "company_profile_id": "company-sierra-nevada-24-7",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Phone, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-sierra-nevada-24-7-collector-1"
+    ]
+  },
+  {
+    "id": "company-solace-enterprises-coverage-summary",
+    "company_profile_id": "company-solace-enterprises",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-solace-enterprises-collector-1",
+      "company-solace-enterprises-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-913717"
+    ]
+  },
+  {
+    "id": "company-solace-enterprises-company-type",
+    "company_profile_id": "company-solace-enterprises",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-solace-enterprises-collector-1"
+    ]
+  },
+  {
+    "id": "company-solace-enterprises-missing-fields",
+    "company_profile_id": "company-solace-enterprises",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-solace-enterprises-collector-1",
+      "company-solace-enterprises-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-913717"
+    ]
+  },
+  {
+    "id": "company-solace-enterprises-web-presence",
+    "company_profile_id": "company-solace-enterprises",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-solace-enterprises-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-913717"
+    ]
+  },
+  {
+    "id": "company-solace-enterprises-procurement-access",
+    "company_profile_id": "company-solace-enterprises",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-solace-enterprises-collector-1",
+      "company-solace-enterprises-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-913717"
+    ]
+  },
+  {
+    "id": "company-speed-plumbing-pro-coverage-summary",
+    "company_profile_id": "company-speed-plumbing-pro",
+    "intelligence_type": "coverage_summary",
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-speed-plumbing-pro-collector-1",
+      "company-speed-plumbing-pro-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1084778"
+    ]
+  },
+  {
+    "id": "company-speed-plumbing-pro-company-type",
+    "company_profile_id": "company-speed-plumbing-pro",
+    "intelligence_type": "company_type_evidence",
+    "summary": "Company type resolved as General Contractor from collector role evidence.",
+    "confidence": 0.7,
+    "evidence_source_ids": [
+      "company-speed-plumbing-pro-collector-1"
+    ]
+  },
+  {
+    "id": "company-speed-plumbing-pro-missing-fields",
+    "company_profile_id": "company-speed-plumbing-pro",
+    "intelligence_type": "missing_fields",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "confidence": 0.8,
+    "evidence_source_ids": [
+      "company-speed-plumbing-pro-collector-1",
+      "company-speed-plumbing-pro-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1084778"
+    ]
+  },
+  {
+    "id": "company-speed-plumbing-pro-web-presence",
+    "company_profile_id": "company-speed-plumbing-pro",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-speed-plumbing-pro-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1084778"
+    ]
+  },
+  {
+    "id": "company-speed-plumbing-pro-procurement-access",
+    "company_profile_id": "company-speed-plumbing-pro",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-speed-plumbing-pro-collector-1",
+      "company-speed-plumbing-pro-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1084778"
     ]
   },
   {
     "id": "company-sunsource-coverage-summary",
     "company_profile_id": "company-sunsource",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
-      "company-sunsource-collector-1"
+      "company-sunsource-collector-1",
+      "company-sunsource-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1117770"
     ]
   },
   {
@@ -1083,10 +2211,32 @@
     "id": "company-sunsource-missing-fields",
     "company_profile_id": "company-sunsource",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-sunsource-collector-1"
+      "company-sunsource-collector-1",
+      "company-sunsource-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1117770"
+    ]
+  },
+  {
+    "id": "company-sunsource-web-presence",
+    "company_profile_id": "company-sunsource",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-sunsource-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1117770"
+    ]
+  },
+  {
+    "id": "company-sunsource-procurement-access",
+    "company_profile_id": "company-sunsource",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-sunsource-collector-1",
+      "company-sunsource-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1117770"
     ]
   },
   {
@@ -1113,7 +2263,7 @@
     "id": "company-taylor-morrison-of-california-missing-fields",
     "company_profile_id": "company-taylor-morrison-of-california",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Phone, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
       "company-taylor-morrison-of-california-collector-1"
@@ -1123,10 +2273,11 @@
     "id": "company-veerkamp-doug-general-engineering-coverage-summary",
     "company_profile_id": "company-veerkamp-doug-general-engineering",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
-      "company-veerkamp-doug-general-engineering-collector-1"
+      "company-veerkamp-doug-general-engineering-collector-1",
+      "company-veerkamp-doug-general-engineering-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-440233"
     ]
   },
   {
@@ -1143,10 +2294,32 @@
     "id": "company-veerkamp-doug-general-engineering-missing-fields",
     "company_profile_id": "company-veerkamp-doug-general-engineering",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-veerkamp-doug-general-engineering-collector-1"
+      "company-veerkamp-doug-general-engineering-collector-1",
+      "company-veerkamp-doug-general-engineering-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-440233"
+    ]
+  },
+  {
+    "id": "company-veerkamp-doug-general-engineering-web-presence",
+    "company_profile_id": "company-veerkamp-doug-general-engineering",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-veerkamp-doug-general-engineering-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-440233"
+    ]
+  },
+  {
+    "id": "company-veerkamp-doug-general-engineering-procurement-access",
+    "company_profile_id": "company-veerkamp-doug-general-engineering",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-veerkamp-doug-general-engineering-collector-1",
+      "company-veerkamp-doug-general-engineering-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-440233"
     ]
   },
   {
@@ -1154,12 +2327,14 @@
     "company_profile_id": "company-waters-construction",
     "intelligence_type": "coverage_summary",
     "summary": "Procurement path intelligence exists for this company.",
-    "confidence": 0.89,
+    "confidence": 0.99,
     "evidence_source_ids": [
       "company-waters-construction-collector-1",
       "company-waters-construction-official-website-official-website-https-watersconco-com",
       "company-waters-construction-phone-source-phone-https-watersconco-com",
-      "company-waters-construction-contact-page-contact-page-url-https-watersconco-com"
+      "company-waters-construction-contact-page-contact-page-url-https-watersconco-com",
+      "company-waters-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1129256",
+      "company-waters-construction-official-website-email-https-watersconco-com"
     ]
   },
   {
@@ -1182,7 +2357,9 @@
       "company-waters-construction-collector-1",
       "company-waters-construction-official-website-official-website-https-watersconco-com",
       "company-waters-construction-phone-source-phone-https-watersconco-com",
-      "company-waters-construction-contact-page-contact-page-url-https-watersconco-com"
+      "company-waters-construction-contact-page-contact-page-url-https-watersconco-com",
+      "company-waters-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1129256",
+      "company-waters-construction-official-website-email-https-watersconco-com"
     ]
   },
   {
@@ -1190,11 +2367,13 @@
     "company_profile_id": "company-waters-construction",
     "intelligence_type": "web_presence",
     "summary": "Company has source-backed web or phone presence.",
-    "confidence": 0.89,
+    "confidence": 0.99,
     "evidence_source_ids": [
       "company-waters-construction-official-website-official-website-https-watersconco-com",
       "company-waters-construction-phone-source-phone-https-watersconco-com",
-      "company-waters-construction-contact-page-contact-page-url-https-watersconco-com"
+      "company-waters-construction-contact-page-contact-page-url-https-watersconco-com",
+      "company-waters-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1129256",
+      "company-waters-construction-official-website-email-https-watersconco-com"
     ]
   },
   {
@@ -1207,17 +2386,20 @@
       "company-waters-construction-collector-1",
       "company-waters-construction-official-website-official-website-https-watersconco-com",
       "company-waters-construction-phone-source-phone-https-watersconco-com",
-      "company-waters-construction-contact-page-contact-page-url-https-watersconco-com"
+      "company-waters-construction-contact-page-contact-page-url-https-watersconco-com",
+      "company-waters-construction-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-1129256",
+      "company-waters-construction-official-website-email-https-watersconco-com"
     ]
   },
   {
     "id": "company-west-coast-flooring-coverage-summary",
     "company_profile_id": "company-west-coast-flooring",
     "intelligence_type": "coverage_summary",
-    "summary": "Company is source-backed by collector records, but actionable company web intelligence is incomplete.",
-    "confidence": 0.35,
+    "summary": "Procurement path intelligence exists for this company.",
+    "confidence": 0.7,
     "evidence_source_ids": [
-      "company-west-coast-flooring-collector-1"
+      "company-west-coast-flooring-collector-1",
+      "company-west-coast-flooring-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-876162"
     ]
   },
   {
@@ -1234,10 +2416,32 @@
     "id": "company-west-coast-flooring-missing-fields",
     "company_profile_id": "company-west-coast-flooring",
     "intelligence_type": "missing_fields",
-    "summary": "Missing: Official Website, Phone, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
+    "summary": "Missing: Official Website, Email, LinkedIn Company Page, Contact Page, Bid Opportunities Page, Vendor Registration Page, Subcontractor Registration Page, Trade Partner Portal, Plan Room, Procurement Portal, Estimating Department.",
     "confidence": 0.8,
     "evidence_source_ids": [
-      "company-west-coast-flooring-collector-1"
+      "company-west-coast-flooring-collector-1",
+      "company-west-coast-flooring-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-876162"
+    ]
+  },
+  {
+    "id": "company-west-coast-flooring-web-presence",
+    "company_profile_id": "company-west-coast-flooring",
+    "intelligence_type": "web_presence",
+    "summary": "Company has source-backed web or phone presence.",
+    "confidence": 0.65,
+    "evidence_source_ids": [
+      "company-west-coast-flooring-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-876162"
+    ]
+  },
+  {
+    "id": "company-west-coast-flooring-procurement-access",
+    "company_profile_id": "company-west-coast-flooring",
+    "intelligence_type": "procurement_access",
+    "summary": "Best procurement path: general contact.",
+    "confidence": 0.92,
+    "evidence_source_ids": [
+      "company-west-coast-flooring-collector-1",
+      "company-west-coast-flooring-public-license-record-phone-https-www-cslb-ca-gov-onlineservices-checklicenseii-licensedetail-aspx-licnum-876162"
     ]
   }
 ]

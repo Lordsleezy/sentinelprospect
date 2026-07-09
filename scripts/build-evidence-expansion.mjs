@@ -270,6 +270,7 @@ function buildEvidenceExpansion(opportunity, documents) {
     project_identity: identity,
     related_evidence_count: relatedEvidence.length,
     related_evidence: relatedEvidence.map(evidenceReference),
+    related_documents: relatedEvidence.map(evidenceReference),
     project_dossier: projectDossier,
     project_summary: projectDossier.project_summary,
     scope_summary: projectDossier.scope_summary,
@@ -278,6 +279,8 @@ function buildEvidenceExpansion(opportunity, documents) {
     evidence_fence_signals: evidenceSignals.positive,
     evidence_negative_signals: evidenceSignals.negative,
     evidence_fence_signal_score: evidenceSignals.score,
+    evidence_strength_score: evidenceStrengthScore(relatedEvidence, evidenceSignals),
+    source_count: relatedEvidence.length,
     fence_scope_confidence: contradiction.fence_scope_confidence,
     likely_fence_scope: contradiction.likely_fence_scope,
     why_fencing_is_relevant: projectDossier.why_fencing_is_relevant,
@@ -474,6 +477,14 @@ function primaryObjectiveFor(documents, scope) {
 function evidenceSummaryFor(documents) {
   if (!documents.length) return "No related public evidence has been connected beyond the original record.";
   return `${documents.length} related source-backed evidence record(s) connected: ${documents.map((document) => document.source_name).join(", ")}.`;
+}
+
+function evidenceStrengthScore(documents, evidenceSignals) {
+  const sourceTypeScore = new Set(documents.map((document) => document.source_type)).size * 8;
+  const sourceCountScore = Math.min(40, documents.length * 10);
+  const positiveSignalScore = Math.min(35, evidenceSignals.positive.length * 5);
+  const negativePenalty = Math.min(30, evidenceSignals.negative.length * 10);
+  return Math.max(0, Math.min(100, sourceCountScore + sourceTypeScore + positiveSignalScore - negativePenalty));
 }
 
 function whyFenceEvidenceMatters(contradiction, evidenceSignals) {

@@ -98,6 +98,8 @@ export type ContractorOpportunity = {
   supporting_evidence?: string[];
   evidence_fence_signals?: Array<{ signal: string; source: string; source_url: string }>;
   evidence_fence_signal_score?: number;
+  evidence_strength_score?: number;
+  source_count?: number;
   evidence_likely_fence_scope?: string;
   contradiction_notes?: string[];
 };

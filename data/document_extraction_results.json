@@ -33,7 +33,7 @@
         "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
         "evidence_summary": "Gerber Creek project page lists Lennar Homes as client and Lund Construction as project company for earthwork.",
         "confidence": 0.82,
-        "last_verified": "2026-07-09T03:50:05.567Z"
+        "last_verified": "2026-07-09T04:18:15.775Z"
       }
     ],
     "award_information": null,
@@ -46,7 +46,7 @@
         "entity_role": "Developer",
         "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek Re-Alignment",
           "location": "South Sacramento",
@@ -61,7 +61,7 @@
         "entity_role": "General Contractor",
         "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek Re-Alignment",
           "location": "South Sacramento",
@@ -76,7 +76,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek Re-Alignment",
           "location": "South Sacramento",
@@ -91,7 +91,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://www.lundconst.com/portfolio-item/gerbercreek/",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek Re-Alignment",
           "location": "South Sacramento",
@@ -100,7 +100,7 @@
       }
     ],
     "evidence_count": 6,
-    "last_verified": "2026-07-09T03:50:05.567Z"
+    "last_verified": "2026-07-09T04:18:15.775Z"
   },
   {
     "evidence_document_id": "evidence-northlake-sfyimby-2020-11",
@@ -140,7 +140,7 @@
         "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
         "evidence_summary": "Northlake article identifies Lennar as responsible developer and Kevin L Cook Architect as designer.",
         "confidence": 0.82,
-        "last_verified": "2026-07-09T03:50:05.567Z"
+        "last_verified": "2026-07-09T04:18:15.775Z"
       },
       {
         "id": "evidence-northlake-sfyimby-2020-11-relationship-2",
@@ -152,7 +152,7 @@
         "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
         "evidence_summary": "Northlake article identifies Integral Communities as responsible developer and Kevin L Cook Architect as designer.",
         "confidence": 0.82,
-        "last_verified": "2026-07-09T03:50:05.567Z"
+        "last_verified": "2026-07-09T04:18:15.775Z"
       }
     ],
     "award_information": null,
@@ -165,7 +165,7 @@
         "entity_role": "Developer",
         "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Northlake Lakelet",
           "location": "North Natomas, Sacramento",
@@ -180,7 +180,7 @@
         "entity_role": "Developer",
         "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Northlake Lakelet",
           "location": "North Natomas, Sacramento",
@@ -195,7 +195,7 @@
         "entity_role": "Architect",
         "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Northlake Lakelet",
           "location": "North Natomas, Sacramento",
@@ -210,7 +210,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Northlake Lakelet",
           "location": "North Natomas, Sacramento",
@@ -225,7 +225,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://sfyimby.com/2020/11/permits-filed-for-new-housing-at-northlake-development-in-north-natomas-sacramento.html",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Northlake Lakelet",
           "location": "North Natomas, Sacramento",
@@ -234,7 +234,7 @@
       }
     ],
     "evidence_count": 8,
-    "last_verified": "2026-07-09T03:50:05.567Z"
+    "last_verified": "2026-07-09T04:18:15.775Z"
   },
   {
     "evidence_document_id": "evidence-northlake-sfyimby-2020-12",
@@ -270,7 +270,7 @@
         "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
         "evidence_summary": "Northlake article identifies Lennar as applicant and Kevin L Cook Architect as designer.",
         "confidence": 0.82,
-        "last_verified": "2026-07-09T03:50:05.567Z"
+        "last_verified": "2026-07-09T04:18:15.775Z"
       }
     ],
     "award_information": null,
@@ -283,7 +283,7 @@
         "entity_role": "Developer",
         "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Northlake 36 Homes",
           "location": "North Natomas, Sacramento",
@@ -298,7 +298,7 @@
         "entity_role": "Architect",
         "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Northlake 36 Homes",
           "location": "North Natomas, Sacramento",
@@ -313,7 +313,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Northlake 36 Homes",
           "location": "North Natomas, Sacramento",
@@ -328,7 +328,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://sfyimby.com/2020/12/permits-filed-for-36-homes-at-northlake-development-north-natomas-sacramento.html",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Northlake 36 Homes",
           "location": "North Natomas, Sacramento",
@@ -337,7 +337,7 @@
       }
     ],
     "evidence_count": 6,
-    "last_verified": "2026-07-09T03:50:05.567Z"
+    "last_verified": "2026-07-09T04:18:15.775Z"
   },
   {
     "evidence_document_id": "evidence-waterboards-lennar-gerber-creek",
@@ -373,7 +373,7 @@
         "entity_role": "Developer",
         "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek Unit 1 and Unit 2",
           "location": "Sacramento County",
@@ -388,7 +388,7 @@
         "entity_role": "Developer",
         "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek Unit 1 and Unit 2",
           "location": "Sacramento County",
@@ -403,7 +403,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek Unit 1 and Unit 2",
           "location": "Sacramento County",
@@ -418,7 +418,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://www.waterboards.ca.gov/centralvalley/board_decisions/adopted_orders/401_wqcerts/",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek Unit 1 and Unit 2",
           "location": "Sacramento County",
@@ -427,7 +427,7 @@
       }
     ],
     "evidence_count": 5,
-    "last_verified": "2026-07-09T03:50:05.567Z"
+    "last_verified": "2026-07-09T04:18:15.775Z"
   },
   {
     "evidence_document_id": "evidence-southgate-minutes-2022-08-16",
@@ -459,7 +459,7 @@
         "entity_role": "Developer",
         "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek and Lelani Village Subdivisions",
           "location": "Sacramento County",
@@ -474,7 +474,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek and Lelani Village Subdivisions",
           "location": "Sacramento County",
@@ -489,7 +489,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://southgaterecandpark.gov/wp-content/uploads/Minutes_8-16-22.pdf",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek and Lelani Village Subdivisions",
           "location": "Sacramento County",
@@ -498,7 +498,7 @@
       }
     ],
     "evidence_count": 4,
-    "last_verified": "2026-07-09T03:50:05.567Z"
+    "last_verified": "2026-07-09T04:18:15.775Z"
   },
   {
     "evidence_document_id": "evidence-sacramento-board-7977",
@@ -530,7 +530,7 @@
         "entity_role": "Developer",
         "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Trunk Drainage Facilities Zone 11A",
           "location": "Sacramento County",
@@ -545,7 +545,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Trunk Drainage Facilities Zone 11A",
           "location": "Sacramento County",
@@ -560,7 +560,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Trunk Drainage Facilities Zone 11A",
           "location": "Sacramento County",
@@ -575,7 +575,7 @@
         "entity_role": "Award Information",
         "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=7977",
         "confidence": 0.74,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Trunk Drainage Facilities Zone 11A",
           "location": "Sacramento County",
@@ -584,7 +584,7 @@
       }
     ],
     "evidence_count": 5,
-    "last_verified": "2026-07-09T03:50:05.567Z"
+    "last_verified": "2026-07-09T04:18:15.775Z"
   },
   {
     "evidence_document_id": "evidence-sacramento-board-10223",
@@ -620,7 +620,7 @@
         "entity_role": "Developer",
         "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
           "location": "Sacramento County",
@@ -635,7 +635,7 @@
         "entity_role": "Developer",
         "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223",
         "confidence": 0.78,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
           "location": "Sacramento County",
@@ -650,7 +650,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
           "location": "Sacramento County",
@@ -665,7 +665,7 @@
         "entity_role": "Trade Reference",
         "source_url": "https://agendanet.saccounty.gov/BoardofSupervisors/Meetings/ViewMeeting?doctype=1&id=10223",
         "confidence": 0.68,
-        "last_verified": "2026-07-09T03:50:05.567Z",
+        "last_verified": "2026-07-09T04:18:15.775Z",
         "metadata": {
           "project_name": "Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village",
           "location": "Sacramento County",
@@ -674,6 +674,6 @@
       }
     ],
     "evidence_count": 5,
-    "last_verified": "2026-07-09T03:50:05.567Z"
+    "last_verified": "2026-07-09T04:18:15.775Z"
   }
 ]

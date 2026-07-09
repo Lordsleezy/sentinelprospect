@@ -192,17 +192,6 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
         <div className="min-w-0">
           <p className="mb-2 text-sm font-semibold text-emerald-700">{opportunity.primary_contractor_trade} Contractor Opportunity</p>
           <h3 className="text-xl font-semibold text-zinc-950">{opportunity.project_name}</h3>
-          <div className="mt-2 flex flex-wrap gap-2">
-            <Badge className="border-zinc-950 bg-zinc-950 text-white">Actionability {opportunity.actionability_score}</Badge>
-            <Badge>Contractor Opportunity {opportunity.contractor_opportunity_score}</Badge>
-            <Badge>Trade Relevance {opportunity.trade_relevance}%</Badge>
-            <Badge>{opportunity.subcontractor_likelihood} Subcontractor Likelihood</Badge>
-            <Badge>{opportunity.scope_size} Scope</Badge>
-          </div>
-          <div className="mt-4 rounded-md border border-emerald-100 bg-emerald-50 p-3">
-            <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Recommended Action</p>
-            <p className="mt-2 text-sm font-medium leading-6 text-emerald-950">{opportunity.recommended_action}</p>
-          </div>
           <div className="mt-4 rounded-md border border-zinc-100 bg-zinc-50 p-3">
             <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Project Summary</p>
             <p className="mt-2 text-sm leading-6 text-zinc-800">{opportunity.project_dossier?.project_summary ?? opportunity.project_summary}</p>
@@ -241,8 +230,13 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
             ) : null}
             <p className="mt-2 text-xs text-amber-800">{opportunity.confidence_reasoning}</p>
           </div>
+          <div className="mt-4 flex flex-wrap items-center gap-2">
+            <FenceConfidenceBadge value={opportunity.fence_scope_confidence} />
+            <Badge>Evidence Strength {opportunity.evidence_strength_score ?? 0}</Badge>
+            <Badge>Sources {opportunity.source_count ?? 0}</Badge>
+          </div>
           <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-3">
-            <AnalysisDatum label="Project" value={opportunity.project_name} />
+            <AnalysisDatum label="Opportunity Details" value={opportunity.project_name} />
             <AnalysisDatum label="Actionability Score" value={opportunity.actionability_score} />
             <AnalysisDatum label="Fence Scope Confidence" value={opportunity.fence_scope_confidence} />
             <AnalysisDatum label="Fence Signal Score" value={opportunity.fence_signal_score} />
@@ -272,6 +266,10 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
             </div>
           ) : null}
           <HumanContactPanel contact={bestContact} backupRoute={humanContact?.backup_access_route ?? opportunity.access_route} />
+          <div className="mt-4 rounded-md border border-emerald-100 bg-emerald-50 p-3">
+            <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Opportunity Execution</p>
+            <p className="mt-2 text-sm font-medium leading-6 text-emerald-950">{opportunity.recommended_action}</p>
+          </div>
           <div className="mt-4 rounded-md border border-zinc-100 bg-zinc-50 p-3">
             <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">What To Say</p>
             <p className="mt-2 text-sm font-medium leading-6 text-zinc-800">{opportunity.outreach_script}</p>
@@ -313,6 +311,24 @@ function HumanContactPanel({ contact, backupRoute }: { contact: HumanContact | n
       )}
     </div>
   );
+}
+
+function FenceConfidenceBadge({ value }: { value: string }) {
+  const className = value === "Primary Scope"
+    ? "border-emerald-200 bg-emerald-50 text-emerald-800"
+    : value === "Secondary Scope"
+      ? "border-sky-200 bg-sky-50 text-sky-800"
+      : value === "Possible Scope"
+        ? "border-amber-200 bg-amber-50 text-amber-800"
+        : value === "Weak Signal"
+          ? "border-zinc-200 bg-zinc-50 text-zinc-700"
+          : "border-red-200 bg-red-50 text-red-800";
+  const label = value === "Primary Scope"
+    ? "Primary Opportunity"
+    : value === "Secondary Scope"
+      ? "Secondary Opportunity"
+      : value;
+  return <Badge className={className}>{label}</Badge>;
 }
 
 function humanizeContactType(value: HumanContact["contactType"]) {

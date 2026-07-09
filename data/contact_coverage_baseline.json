@@ -1,0 +1,139 @@
+{
+  "generated_at": "2026-07-09T07:05:03.062Z",
+  "baseline_label": "2026-07-09 contact enrichment baseline (CSLB BusinessPhone)",
+  "overall": {
+    "opportunities_total": 205,
+    "with_best_contact": 74,
+    "with_phone": 73,
+    "with_email": 8,
+    "named_company_lead_only": 1,
+    "company_office_contact": 57,
+    "known_human_contact": 16,
+    "access_route_only": 0,
+    "unknown": 131,
+    "pct_with_best_contact": 36.1,
+    "pct_with_phone": 35.6,
+    "pct_with_email": 3.9
+  },
+  "fencing_bidable": {
+    "opportunities_total": 12,
+    "with_phone": 5,
+    "with_email": 2,
+    "named_lead_no_phone": 1,
+    "no_contact": 6,
+    "pct_with_phone": 41.7,
+    "pct_with_email": 16.7
+  },
+  "companies": {
+    "profiles_total": 44,
+    "profiles_with_phone": 36,
+    "enrichment_rows": 41,
+    "enrichment_with_phone": 41,
+    "enrichment_with_email": 5,
+    "human_contact_profiles": 44,
+    "human_with_best": 36
+  },
+  "action_layer": {
+    "opportunities_total": 205,
+    "phone_backed": 73,
+    "email_backed": 8
+  },
+  "fencing_detail": [
+    {
+      "opportunity_id": "sac-cbac2026-00334",
+      "project_name": "259,635 tenant improvement for Cardinal Health",
+      "coverage": "Company Office Contact",
+      "company": "ARCO / MURRAY NATIONAL NORCAL LLC",
+      "phone": "(650) 288-1305",
+      "email": null
+    },
+    {
+      "opportunity_id": "sac-spcr2026-00127",
+      "project_name": "AREA: R03:  Swimming Pool Remodel",
+      "coverage": "Unknown",
+      "company": null,
+      "phone": null,
+      "email": null
+    },
+    {
+      "opportunity_id": "sac-cbnr2026-00556",
+      "project_name": "AREA: R06:  raise fence height to 7 ft max",
+      "coverage": "Unknown",
+      "company": null,
+      "phone": null,
+      "email": null
+    },
+    {
+      "opportunity_id": "sac-cbnr2026-00389",
+      "project_name": "AREA: R08:  Pouring Driveway over culvert with an automatic gate and bu",
+      "coverage": "Company Office Contact",
+      "company": "BRUCE CONSTRUCTION GROUP LLC",
+      "phone": "(707) 688-5345",
+      "email": null
+    },
+    {
+      "opportunity_id": "sac-cbnr2026-00319",
+      "project_name": "Building a 9 foot steel gate",
+      "coverage": "Unknown",
+      "company": null,
+      "phone": null,
+      "email": null
+    },
+    {
+      "opportunity_id": "sac-cbnc2026-00185",
+      "project_name": "Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD",
+      "coverage": "Unknown",
+      "company": null,
+      "phone": null,
+      "email": null
+    },
+    {
+      "opportunity_id": "sac-cbnc2026-00135",
+      "project_name": "CELL TOWER MOD - 6851 WATT AVE",
+      "coverage": "Unknown",
+      "company": null,
+      "phone": null,
+      "email": null
+    },
+    {
+      "opportunity_id": "sac-cbnc2026-00122-rev03",
+      "project_name": "Installation of electric sliding gate",
+      "coverage": "Unknown",
+      "company": null,
+      "phone": null,
+      "email": null
+    },
+    {
+      "opportunity_id": "sac-cbnc2026-00169",
+      "project_name": "NEW (GATES) - 3401 BALMORAL DR",
+      "coverage": "Company Office Contact",
+      "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+      "phone": "(916) 599-6629",
+      "email": "alltechgates@gmail.com"
+    },
+    {
+      "opportunity_id": "sac-misc2026-00862",
+      "project_name": "NEW (GATES) - 5800 FAIR OAKS BLVD",
+      "coverage": "Company Office Contact",
+      "company": "A 1 ELECTRICAL",
+      "phone": "(916) 482-3400",
+      "email": null
+    },
+    {
+      "opportunity_id": "sac-cbnc2026-00207",
+      "project_name": "NEW (GATES) - 7575 POWER INN RD",
+      "coverage": "Company Office Contact",
+      "company": "ALLTECH GATES AND ENTRY CONTROLS INC",
+      "phone": "(916) 599-6629",
+      "email": "alltechgates@gmail.com"
+    },
+    {
+      "opportunity_id": "sac-cbnc2026-00161",
+      "project_name": "NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE",
+      "coverage": "Named Company Lead",
+      "company": "Golden Memories Childcare",
+      "phone": null,
+      "email": null
+    }
+  ]
+}

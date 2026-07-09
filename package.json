@@ -14,6 +14,7 @@
     "report:intelligence": "node scripts/generate-intelligence-report.mjs",
     "report:contractor": "node scripts/generate-contractor-reports.mjs",
     "report:trust": "node scripts/generate-trust-audits.mjs",
+    "report:contact-coverage": "node scripts/report-contact-coverage.mjs",
     "harvest:contacts": "node scripts/harvest-contact-intelligence.mjs",
     "enrich:contacts": "node scripts/enrich-company-contacts.mjs",
     "enrich:contacts:download": "node scripts/enrich-company-contacts.mjs --download",

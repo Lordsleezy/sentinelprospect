@@ -55,6 +55,11 @@ After `npm run intelligence:contacts`:
 - Named description leads attached when present
 - Bidable fencing jobs with named GCs now show phones (Alltech, A1 Electrical, ARCO/Murray, Bruce Construction)
 
+Baseline snapshot (refresh with `npm run report:contact-coverage`):
+
+- `data/contact_coverage_baseline.json`
+- `reports/contact-coverage-baseline.md`
+
 ## Evidence rules
 
 - Phones must come from CSLB public records or source-backed websites.

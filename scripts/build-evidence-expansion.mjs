@@ -363,17 +363,21 @@ function evidenceFenceSignals(documents) {
   const negative = [];
   for (const document of documents) {
     const text = `${document.project_name} ${document.title} ${document.summary} ${document.trades.join(" ")}`.toLowerCase();
-    addSignal(positive, text, /subdivision|homes|residential|apartment|village|lot|units?/, "Residential subdivision or housing evidence", document);
-    addSignal(positive, text, /school|campus/, "School project evidence", document);
-    addSignal(positive, text, /park|trail|open space|recreation/, "Parks, trails, or public access evidence", document);
-    addSignal(positive, text, /industrial|warehouse|yard/, "Industrial or yard use evidence", document);
-    addSignal(positive, text, /boundary|perimeter|fence|gate|access control|security/, "Boundary, gate, security, or access-control evidence", document);
-    addSignal(positive, text, /utility|drainage|storm|trunk|infrastructure|site work|earthwork/, "Utility, drainage, or infrastructure evidence", document);
-    addSignal(negative, text, /roof|reroof|tpo|membrane|capsheet/, "Roof replacement evidence", document);
+    addSignal(positive, text, /\bfenc(?:e|es|ing)\b/, "Direct fence reference", document);
+    addSignal(positive, text, /chain[-\s]?link/, "Chain link fencing reference", document);
+    addSignal(positive, text, /ornamental iron|wood fence|vinyl fence/, "Fence material reference", document);
+    addSignal(positive, text, /security fence|perimeter fence|temporary fence|construction fence|community perimeter/, "Specific fence scope reference", document);
+    addSignal(positive, text, /access gate|vehicle gate|pedestrian gate|controlled access|access control/, "Gate or controlled-access reference", document);
+    addSignal(positive, text, /screen wall|boundary wall|enclosure/, "Wall or enclosure reference", document);
+    addSignal(positive, text, /dog park fencing|school fencing|sports field fencing/, "Recreation or school fencing reference", document);
+    addSignal(negative, text, /creek restoration|creek|water quality|drainage|stormwater|hydrology/, "Creek, drainage, or water-quality work without fence reference", document);
+    addSignal(negative, text, /pipeline|utility relocation|water main|sewer|trunk/, "Pipeline or utility work without fence reference", document);
+    addSignal(negative, text, /electrical upgrade|solar|photovoltaic|pv|energy storage/, "Electrical or solar retrofit evidence", document);
+    addSignal(negative, text, /roof replacement|roof|reroof|tpo|membrane|capsheet/, "Roof replacement evidence", document);
     addSignal(negative, text, /hvac|mechanical|package unit|air conditioning/, "HVAC-only replacement evidence", document);
     addSignal(negative, text, /interior remodel|kitchen|bathroom|flooring|painting|tenant improvement/, "Interior or tenant-improvement-only evidence", document);
   }
-  const score = Math.max(0, Math.min(100, positive.length * 18 - negative.length * 20));
+  const score = Math.max(0, Math.min(100, positive.length * 28 - negative.length * 18));
   return { positive: dedupeSignals(positive), negative: dedupeSignals(negative), score };
 }
 
@@ -388,27 +392,38 @@ function addSignal(signals, text, pattern, label, document) {
 }
 
 function contradictionStatus(scope, evidenceSignals) {
-  let fenceScopeConfidence = scope?.fence_scope_confidence ?? "No Meaningful Fence Opportunity";
+  let fenceScopeConfidence = normalizeFenceConfidence(scope?.fence_scope_confidence ?? "No Evidence");
   let likelyFenceScope = scope?.potential_fencing_scope?.[0] ?? "Unknown";
   const notes = [];
 
-  if (evidenceSignals.score >= 72 && ["Weak Signal", "No Meaningful Fence Opportunity"].includes(fenceScopeConfidence)) {
-    fenceScopeConfidence = "Possible Scope";
-    notes.push("Evidence signals raised a weak/no-meaningful classification to possible scope.");
+  if (evidenceSignals.score >= 72 && ["Weak Opportunity", "No Evidence"].includes(fenceScopeConfidence)) {
+    fenceScopeConfidence = "Possible Opportunity";
+    notes.push("Direct fence evidence raised a weak/no-evidence classification to possible opportunity.");
   }
   if (evidenceSignals.negative.length && evidenceSignals.positive.length === 0) {
-    fenceScopeConfidence = "No Meaningful Fence Opportunity";
+    fenceScopeConfidence = "No Evidence";
     notes.push("Negative evidence without positive fence evidence suppresses fence scope.");
   }
-  if (fenceScopeConfidence === "Weak Signal") {
+  if (fenceScopeConfidence === "Weak Opportunity") {
     likelyFenceScope = "Insufficient evidence to determine likely fencing scope.";
-    notes.push("Weak Signal cannot generate a specific fencing scope.");
+    notes.push("Weak Opportunity cannot generate a specific fencing scope.");
   }
-  if (fenceScopeConfidence === "No Meaningful Fence Opportunity") {
+  if (fenceScopeConfidence === "No Evidence") {
     likelyFenceScope = "No fencing scope generated.";
-    notes.push("No Meaningful Fence Opportunity suppresses fencing scope generation.");
+    notes.push("No Evidence suppresses fencing scope generation.");
   }
   return { fence_scope_confidence: fenceScopeConfidence, likely_fence_scope: likelyFenceScope, notes };
+}
+
+function normalizeFenceConfidence(value) {
+  const map = {
+    "Primary Scope": "Primary Opportunity",
+    "Secondary Scope": "Secondary Opportunity",
+    "Possible Scope": "Possible Opportunity",
+    "Weak Signal": "Weak Opportunity",
+    "No Meaningful Fence Opportunity": "No Evidence",
+  };
+  return map[value] ?? value;
 }
 
 function projectDossierFor(opportunity, identity, documents, scope, evidenceSignals, contradiction) {
@@ -488,11 +503,11 @@ function evidenceStrengthScore(documents, evidenceSignals) {
 }
 
 function whyFenceEvidenceMatters(contradiction, evidenceSignals) {
-  if (contradiction.fence_scope_confidence === "No Meaningful Fence Opportunity") return "Collected evidence does not support a meaningful fencing opportunity.";
-  if (contradiction.fence_scope_confidence === "Weak Signal") return "Fence relevance is weak; specific scope is intentionally withheld until stronger evidence is found.";
+  if (contradiction.fence_scope_confidence === "No Evidence") return "No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.";
+  if (contradiction.fence_scope_confidence === "Weak Opportunity") return "Fence relevance is weak; specific scope is intentionally withheld until stronger evidence is found.";
   return evidenceSignals.positive.length
     ? `Fence relevance is supported by: ${evidenceSignals.positive.map((signal) => `${signal.signal} (${signal.source})`).join("; ")}.`
-    : "Fence relevance is inferred only from broader project categories; no direct fence evidence has been found.";
+    : "No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.";
 }
 
 function confidenceReasoningFor(contradiction, documents, evidenceSignals) {

@@ -69,6 +69,13 @@ export type ContractorOpportunity = {
   scope_summary: string;
   project_categories: string[];
   work_categories: string[];
+  project_type?: string;
+  primary_work?: string;
+  secondary_work?: string[];
+  likely_trades?: string[];
+  trade_confidence?: number;
+  fence_evidence?: string[];
+  negative_fence_evidence?: string[];
   fence_signal_score: number;
   fence_signals_found: string[];
   fence_signals_missing: string[];
@@ -172,10 +179,12 @@ export function getContractorOpportunitySearchResults(query: string) {
     })
     .filter((item) => item.score >= 35 && item.opportunity.suppress_reasons.length === 0 && scopeMatchesSearch(item.opportunity, targetTrades))
     .sort((a, b) =>
-      b.opportunity.actionability_score - a.opportunity.actionability_score ||
-      b.score - a.score ||
+      fenceScopeRank(b.opportunity.fence_scope_confidence) - fenceScopeRank(a.opportunity.fence_scope_confidence) ||
+      effectiveFenceSignalScore(b.opportunity) - effectiveFenceSignalScore(a.opportunity) ||
       b.opportunity.contractor_opportunity_score - a.opportunity.contractor_opportunity_score ||
-      b.opportunity.access_score - a.opportunity.access_score
+      b.opportunity.actionability_score - a.opportunity.actionability_score ||
+      contactQuality(b.opportunity) - contactQuality(a.opportunity) ||
+      b.score - a.score
     )
     .slice(0, 30)
     .map((item) => item.opportunity);
@@ -213,11 +222,13 @@ function bestTradeScoreForQuery(opportunity: ContractorOpportunity, targetTrades
 function applySearchTradeScore(opportunity: ContractorOpportunity, tradeScore: TradeScore | null): ContractorOpportunity {
   if (!tradeScore) return opportunity;
   const likelyScope = likelyScopeForTrade(opportunity, tradeScore.trade);
+  const contractorScore = tradeScore.trade === "Fencing" ? fencingContractorScore(opportunity, tradeScore) : tradeScore.contractor_opportunity_score;
+  const tradeRelevance = tradeScore.trade === "Fencing" ? fencingTradeRelevance(opportunity, tradeScore) : tradeScore.trade_relevance;
   return {
     ...opportunity,
-    contractor_opportunity_score: tradeScore.contractor_opportunity_score,
+    contractor_opportunity_score: contractorScore,
     primary_contractor_trade: tradeScore.trade,
-    trade_relevance: tradeScore.trade_relevance,
+    trade_relevance: tradeRelevance,
     existing_contractor_saturation_penalty: tradeScore.existing_contractor_saturation_penalty,
     suppress_reasons: searchSuppressReasons(opportunity, tradeScore),
     likely_scope: likelyScope,
@@ -245,6 +256,15 @@ function scoreContractorOpportunity(opportunity: ContractorOpportunity, queryTer
   ].join(" ").toLowerCase();
 
   let score = Math.round((adjusted.actionability_score ?? 0) * 0.55 + tradeScore.contractor_opportunity_score * 0.35);
+  if (targetTrades.includes("Fencing")) {
+    score = Math.round(
+      fenceScopeRank(adjusted.fence_scope_confidence) * 16
+      + effectiveFenceSignalScore(adjusted) * 0.34
+      + tradeScore.contractor_opportunity_score * 0.28
+      + (adjusted.actionability_score ?? 0) * 0.16
+      + contactQuality(adjusted) * 0.06
+    );
+  }
   score += queryTerms.reduce((sum, term) => sum + (text.includes(term) ? 3 : 0), 0);
   if (targetTrades.length && tradeScore.trade_relevance < 35) score -= 30;
   if (adjusted.suppress_reasons.length) score -= adjusted.suppress_reasons.length * 22;
@@ -265,7 +285,27 @@ function searchSuppressReasons(opportunity: ContractorOpportunity, tradeScore: T
 
 function scopeMatchesSearch(opportunity: ContractorOpportunity, targetTrades: string[]) {
   if (!targetTrades.includes("Fencing")) return true;
-  return opportunity.fence_scope_confidence !== "No Meaningful Fence Opportunity";
+  return !["No Meaningful Fence Opportunity", "No Evidence"].includes(opportunity.fence_scope_confidence);
+}
+
+function fencingContractorScore(opportunity: ContractorOpportunity, tradeScore: TradeScore) {
+  const directEvidenceScore = Math.min(100, (opportunity.fence_evidence?.length ?? 0) * 30);
+  const signalScore = effectiveFenceSignalScore(opportunity);
+  return Math.max(0, Math.min(100, Math.round(
+    fenceScopeRank(opportunity.fence_scope_confidence) * 14
+    + signalScore * 0.32
+    + directEvidenceScore * 0.24
+    + Math.min(tradeScore.contractor_opportunity_score, 100) * 0.18
+    + (opportunity.subcontractor_likelihood_score ?? 0) * 0.12
+  )));
+}
+
+function fencingTradeRelevance(opportunity: ContractorOpportunity, tradeScore: TradeScore) {
+  const directEvidence = opportunity.fence_evidence?.length ?? 0;
+  if (directEvidence > 0) return Math.max(tradeScore.trade_relevance, Math.min(100, 55 + directEvidence * 15));
+  if (["No Evidence", "No Meaningful Fence Opportunity"].includes(opportunity.fence_scope_confidence)) return Math.min(tradeScore.trade_relevance, 15);
+  if (["Weak Opportunity", "Weak Signal"].includes(opportunity.fence_scope_confidence)) return Math.min(tradeScore.trade_relevance, 25);
+  return Math.min(tradeScore.trade_relevance, 45);
 }
 
 function terms(query: string) {
@@ -275,8 +315,8 @@ function terms(query: string) {
 function likelyScopeForTrade(opportunity: ContractorOpportunity, trade: string) {
   const text = `${opportunity.project_name} ${opportunity.trade} ${opportunity.qualification_reason}`.toLowerCase();
   if (trade === "Fencing") {
-    if (opportunity.fence_scope_confidence === "Weak Signal") return "Insufficient evidence to determine likely fencing scope.";
-    if (opportunity.fence_scope_confidence === "No Meaningful Fence Opportunity") return "No fencing scope generated.";
+    if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) return "Insufficient evidence to determine likely fencing scope.";
+    if (["No Meaningful Fence Opportunity", "No Evidence"].includes(opportunity.fence_scope_confidence)) return "No fencing scope generated.";
     if (opportunity.evidence_likely_fence_scope) return opportunity.evidence_likely_fence_scope;
     if (opportunity.potential_fencing_scope?.length) return opportunity.potential_fencing_scope[0];
     if (/park/.test(text)) return "Park fencing";
@@ -288,6 +328,35 @@ function likelyScopeForTrade(opportunity: ContractorOpportunity, trade: string) 
     return "Construction fencing";
   }
   return trade === opportunity.primary_contractor_trade ? opportunity.likely_scope : `${trade} scope`;
+}
+
+function fenceScopeRank(value: string) {
+  const ranks: Record<string, number> = {
+    "Primary Opportunity": 5,
+    "Primary Scope": 5,
+    "Secondary Opportunity": 4,
+    "Secondary Scope": 4,
+    "Possible Opportunity": 3,
+    "Possible Scope": 3,
+    "Weak Opportunity": 1,
+    "Weak Signal": 1,
+    "No Evidence": 0,
+    "No Meaningful Fence Opportunity": 0,
+  };
+  return ranks[value] ?? 0;
+}
+
+function contactQuality(opportunity: ContractorOpportunity) {
+  const contact = opportunity.best_contact;
+  if (contact?.phone) return 100;
+  if (contact?.email) return 70;
+  if (contact?.company) return 40;
+  if (opportunity.access_path?.type && opportunity.access_path.type !== "Unknown") return 25;
+  return 0;
+}
+
+function effectiveFenceSignalScore(opportunity: ContractorOpportunity) {
+  return Math.max(opportunity.evidence_fence_signal_score ?? 0, opportunity.fence_signal_score ?? 0);
 }
 
 function recommendedActionForTrade(opportunity: ContractorOpportunity, trade: string, likelyScope: string) {

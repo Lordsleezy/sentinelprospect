@@ -21,8 +21,8 @@ await Promise.all([
 ]);
 
 console.log(`Scope intelligence rows: ${scope_intelligence.length}.`);
-console.log(`Primary/secondary fence scope rows: ${scope_intelligence.filter((row) => ["Primary Scope", "Secondary Scope"].includes(row.fence_scope_confidence)).length}.`);
-console.log(`No meaningful fence rows: ${scope_intelligence.filter((row) => row.fence_scope_confidence === "No Meaningful Fence Opportunity").length}.`);
+console.log(`Primary/secondary fence scope rows: ${scope_intelligence.filter((row) => ["Primary Opportunity", "Secondary Opportunity"].includes(row.fence_scope_confidence)).length}.`);
+console.log(`No evidence fence rows: ${scope_intelligence.filter((row) => row.fence_scope_confidence === "No Evidence").length}.`);
 
 async function readJson(file) {
   try {
@@ -49,14 +49,20 @@ function buildScopeIntelligence(opportunity) {
   const workText = [categoryText, opportunity.trade, action?.likely_scope].join(" ");
   const categories = classifyCategories(categoryText);
   const workCategories = classifyWorkCategories(workText, document, opportunity);
-  const fenceSignals = fenceSignalDetection(categoryText, categories);
-  const scopeConfidence = fenceScopeConfidence(fenceSignals, categories);
-  const projectDescription = projectDescriptionFor(opportunity, document, categories, workCategories);
+  const tradeRelevance = tradeRelevanceFor(categoryText, workCategories, opportunity);
+  const fenceSignals = fenceSignalDetection(categoryText, categories, tradeRelevance);
+  const scopeConfidence = fenceScopeConfidence(fenceSignals, categories, tradeRelevance);
+  const projectDescription = projectDescriptionFor(opportunity, document, categories, workCategories, tradeRelevance);
   const scopeSummary = scopeSummaryFor(opportunity, document, workCategories);
 
   return {
     opportunity_id: opportunity.id,
     project_name: opportunity.project_name,
+    project_type: tradeRelevance.project_type,
+    primary_work: tradeRelevance.primary_work,
+    secondary_work: tradeRelevance.secondary_work,
+    likely_trades: tradeRelevance.likely_trades,
+    trade_confidence: tradeRelevance.trade_confidence,
     project_description: projectDescription,
     project_summary: projectDescription,
     scope_summary: scopeSummary,
@@ -64,13 +70,15 @@ function buildScopeIntelligence(opportunity) {
     project_categories: categories,
     trade_signals: tradeSignalsFor(opportunity, document),
     fence_signal_score: fenceSignals.score,
+    fence_evidence: fenceSignals.evidence,
+    negative_fence_evidence: fenceSignals.negativeEvidence,
     fence_signals_found: fenceSignals.found,
     fence_signals_missing: fenceSignals.missing,
     fence_scope_confidence: scopeConfidence.label,
     fence_scope_confidence_score: scopeConfidence.score,
     potential_fencing_scope: potentialFenceScope(categories, fenceSignals),
     confidence_reasoning: confidenceReasoning(scopeConfidence, fenceSignals, categories, document),
-    why_fencing_relevant: whyFencingRelevant(scopeConfidence, fenceSignals, categories),
+    why_fencing_relevant: whyFencingRelevant(scopeConfidence, fenceSignals),
     evidence: evidenceFor(opportunity, document),
     source_url: document?.source_url ?? opportunity.source_url,
     source_type: document?.source_type ?? "permit_or_opportunity_record",
@@ -111,50 +119,145 @@ function classifyWorkCategories(text, document, opportunity) {
   return [...categories];
 }
 
-function fenceSignalDetection(text, categories) {
-  const positives = [
-    ["Adjacent residential development", /residential|subdivision|homes|village|lot|unit|apartment/i],
-    ["Public access separation", /park|trail|school|public|open space|pedestrian/i],
-    ["Utility or infrastructure site", /utility|drainage|storm|creek|trunk|infrastructure|site work/i],
-    ["Industrial or security-sensitive site", /industrial|warehouse|yard|security/i],
-    ["Boundary or access-control language", /perimeter|boundary|gate|access control|fence/i],
-  ].filter(([, pattern]) => pattern.test(text)).map(([label]) => label);
-
-  const negatives = [
-    ["Interior remodel only", /interior remodel|kitchen|living room|bathroom/i],
-    ["Roofing-only work", /roof|reroof|tpo|membrane|capsheet/i],
-    ["Plumbing-only work", /plumbing|water heater|gas line|backflow/i],
-    ["HVAC-only work", /hvac|package unit|mechanical|air conditioning/i],
-    ["Minor repair or single-trade renovation", /minor|repair|replace|like for like|siding|window|paint/i],
-    ["Tiny demolition or accessory structure", /demo \(shed\)|shed|accessory structure|detached garage|patio cover/i],
-  ].filter(([, pattern]) => pattern.test(text)).map(([label]) => label);
-
-  let score = positives.length * 18 - negatives.length * 16;
-  if (/fenc|gate|perimeter|access control/i.test(text)) score += 18;
-  if (categories.includes("Housing")) score += 8;
-  if (categories.includes("Parks") || categories.includes("Schools") || categories.includes("Industrial")) score += 10;
-  if (negatives.some((signal) => /tiny demolition|minor repair|interior remodel|roofing-only|plumbing-only|hvac-only/i.test(signal))) score -= 24;
+function tradeRelevanceFor(text, workCategories, opportunity) {
+  const normalized = text.toLowerCase();
+  const primaryWork = primaryWorkFor(normalized, workCategories);
+  const projectType = projectTypeFor(normalized, primaryWork, opportunity);
+  const likelyTrades = likelyTradesFor(normalized, primaryWork, workCategories);
+  const secondaryWork = workCategories.filter((category) => category !== primaryWork).slice(0, 5);
+  const tradeConfidence = directWorkEvidence(normalized) ? 85 : workCategories.length ? 65 : 35;
   return {
-    score: clamp(score),
-    found: positives,
-    missing: negatives.length ? negatives : ["No explicit fence specification found in available evidence"],
+    project_type: projectType,
+    primary_work: primaryWork,
+    secondary_work: secondaryWork,
+    likely_trades: likelyTrades,
+    trade_confidence: tradeConfidence,
   };
 }
 
-function fenceScopeConfidence(signals, categories) {
-  if (signals.missing.some((signal) => /Tiny demolition or accessory structure/.test(signal))) return { label: "No Meaningful Fence Opportunity", score: 5 };
-  if (signals.score >= 82 && (categories.includes("Housing") || categories.includes("Industrial") || categories.includes("Security"))) return { label: "Primary Scope", score: 90 };
-  if (signals.score >= 62 && (categories.includes("Schools") || categories.includes("Parks") || categories.includes("Housing"))) return { label: "Secondary Scope", score: 72 };
-  if (signals.score >= 38) return { label: "Possible Scope", score: 52 };
-  if (signals.score >= 18 || opportunity.fence_probability >= 40) return { label: "Weak Signal", score: 28 };
-  return { label: "No Meaningful Fence Opportunity", score: 5 };
+function primaryWorkFor(text, workCategories) {
+  if (/creek|drainage|stormwater|hydrology|water quality|culvert|channel/i.test(text)) return "Drainage / water infrastructure";
+  if (/earthwork|grading|excavat/i.test(text)) return "Earthwork";
+  if (/solar|photovoltaic|pv|energy storage/i.test(text)) return "Solar / electrical";
+  if (/roof|reroof|tpo|membrane|capsheet/i.test(text)) return "Roofing";
+  if (/hvac|mechanical|package unit|air conditioning/i.test(text)) return "HVAC / mechanical";
+  if (/interior remodel|kitchen|bathroom|flooring|painting|tenant improvement/i.test(text)) return "Interior remodel";
+  if (/subdivision|village|residential|homes|apartment|lots?/i.test(text)) return "Residential development";
+  if (/school|campus/i.test(text)) return "School construction";
+  if (/park|trail|open space|recreation|sports field/i.test(text)) return "Parks / public recreation";
+  if (/industrial|warehouse|yard/i.test(text)) return "Industrial site work";
+  return workCategories[0] ?? "Unknown";
 }
 
-function projectDescriptionFor(opportunity, document, categories, workCategories) {
-  if (document?.summary) {
-    return `${document.summary} Project categories: ${categories.join(", ") || "Unclassified"}.`;
+function projectTypeFor(text, primaryWork, opportunity) {
+  if (/creek.*re[-\s]?align|re[-\s]?align.*creek/i.test(text)) return "Creek Realignment";
+  if (/subdivision|village|lots?/i.test(text)) return "Subdivision";
+  if (/school|campus/i.test(text)) return "School";
+  if (/park|trail|open space|sports field/i.test(text)) return "Parks / Recreation";
+  if (/solar|photovoltaic|pv/i.test(text)) return "Solar Retrofit";
+  if (/addition|remodel/i.test(text)) return "Building Addition / Remodel";
+  if (/roof|reroof/i.test(text)) return "Roof Replacement";
+  if (/utility|pipeline|drainage|stormwater/i.test(text)) return "Utility / Infrastructure";
+  return primaryWork && primaryWork !== "Unknown" ? primaryWork : cleanProjectName(opportunity.project_name);
+}
+
+function likelyTradesFor(text, primaryWork, workCategories) {
+  const trades = new Set();
+  if (/earthwork|grading|excavat|creek|drainage|stormwater|hydrology|culvert|channel/i.test(text)) ["Excavation", "Civil", "Drainage", "Environmental"].forEach((trade) => trades.add(trade));
+  if (/subdivision|site work|utility|road|curb|sidewalk/i.test(text)) ["Site work", "Utility", "Concrete"].forEach((trade) => trades.add(trade));
+  if (/solar|photovoltaic|pv|electrical|power/i.test(text)) trades.add("Electrical");
+  if (/roof|reroof|tpo|membrane/i.test(text)) trades.add("Roofing");
+  if (/hvac|mechanical|package unit/i.test(text)) trades.add("HVAC");
+  if (/school|park|sports field|fence|fencing|gate|perimeter|access control/i.test(text)) trades.add("Fencing");
+  for (const category of workCategories) trades.add(category.replace(/ improvements$/i, ""));
+  if (!trades.size && primaryWork !== "Unknown") trades.add(primaryWork);
+  return [...trades].slice(0, 8);
+}
+
+function directWorkEvidence(text) {
+  return /earthwork|grading|excavat|creek|drainage|stormwater|hydrology|culvert|solar|photovoltaic|roof|hvac|subdivision|school|park|fence|fencing|gate/i.test(text);
+}
+
+function fenceSignalDetection(text, categories, tradeRelevance) {
+  const directSignals = [
+    ["Fence reference", /\bfenc(?:e|es|ing)\b/i],
+    ["Chain link fencing", /chain[-\s]?link/i],
+    ["Ornamental iron fencing", /ornamental iron/i],
+    ["Wood or vinyl fence", /wood fence|vinyl fence/i],
+    ["Security or perimeter fence", /security fence|perimeter fence|community perimeter/i],
+    ["Temporary or construction fence", /temporary fence|construction fence/i],
+    ["Gate or controlled access", /access gate|vehicle gate|pedestrian gate|controlled access|access control/i],
+    ["Wall or enclosure", /screen wall|boundary wall|enclosure/i],
+    ["Recreation or school fencing", /dog park fencing|school fencing|sports field fencing/i],
+  ].filter(([, pattern]) => pattern.test(text)).map(([label]) => label);
+
+  const contextualSignals = [
+    ["Subdivision or community development evidence", /subdivision|residential|homes|village|lots?|apartment/i],
+    ["School, park, trail, or sports facility evidence", /school|campus|park|trail|open space|sports field|recreation/i],
+    ["Industrial yard or security-sensitive site evidence", /industrial|warehouse|yard|security/i],
+  ].filter(([, pattern]) => pattern.test(text)).map(([label]) => label);
+
+  const negatives = [
+    ["Creek restoration / drainage is primary work", /creek restoration|creek|water quality|drainage|stormwater|hydrology/i],
+    ["Pipeline or utility work is primary work", /pipeline|utility relocation|water main|sewer|trunk/i],
+    ["Electrical or solar retrofit is primary work", /electrical upgrade|solar|photovoltaic|pv|energy storage/i],
+    ["Interior remodel only", /interior remodel|kitchen|living room|bathroom|flooring|tenant improvement/i],
+    ["Roofing-only work", /roof replacement|roof|reroof|tpo|membrane|capsheet/i],
+    ["Painting or finish work", /painting|paint|finish/i],
+    ["HVAC-only work", /hvac|package unit|mechanical|air conditioning/i],
+    ["Minor repair or single-trade renovation", /minor|repair|replace|like for like|siding|window/i],
+    ["Tiny demolition or accessory structure", /demo \(shed\)|shed|accessory structure|detached garage|patio cover/i],
+  ].filter(([, pattern]) => pattern.test(text)).map(([label]) => label);
+
+  let score = directSignals.length * 30 + contextualSignals.length * 10 - negatives.length * 18;
+  if (!directSignals.length && negatives.length) score -= 22;
+  if (!directSignals.length && /drainage|creek|stormwater|hydrology|solar|roof|hvac|interior remodel/i.test(tradeRelevance.primary_work)) score -= 24;
+  if (directSignals.length && (categories.includes("Schools") || categories.includes("Parks") || categories.includes("Industrial") || categories.includes("Housing"))) score += 12;
+  return {
+    score: clamp(score),
+    evidence: directSignals,
+    negativeEvidence: negatives,
+    found: [...directSignals, ...contextualSignals],
+    missing: directSignals.length ? negatives : [...negatives, "No direct fencing references found in available evidence"],
+  };
+}
+
+function fenceScopeConfidence(signals, categories, tradeRelevance) {
+  const hasDirectFenceEvidence = signals.evidence.length > 0;
+  const hasContextualFenceCandidate = signals.found.some((signal) => /Subdivision|School|park|trail|sports|Industrial/i.test(signal));
+  const primaryNegative = /Drainage|water infrastructure|Solar|Roofing|HVAC|Interior remodel/i.test(tradeRelevance.primary_work);
+
+  if (primaryNegative && !hasDirectFenceEvidence) return { label: "No Evidence", score: 5 };
+  if (signals.negativeEvidence.some((signal) => /Tiny demolition|Interior remodel|Roofing-only|HVAC-only|Electrical or solar/.test(signal)) && !hasDirectFenceEvidence) {
+    return { label: "No Evidence", score: 5 };
   }
-  return `${cleanProjectName(opportunity.project_name)} appears to be a ${categories.join(", ").toLowerCase() || "construction"} opportunity. Available records indicate ${workCategories.join(", ").toLowerCase() || opportunity.trade.toLowerCase()} work.`;
+  if (hasDirectFenceEvidence && signals.score >= 78) return { label: "Primary Opportunity", score: 90 };
+  if (hasDirectFenceEvidence && signals.score >= 54) return { label: "Secondary Opportunity", score: 72 };
+  if (hasDirectFenceEvidence) return { label: "Possible Opportunity", score: 52 };
+  if (hasContextualFenceCandidate && !primaryNegative && (categories.includes("Housing") || categories.includes("Schools") || categories.includes("Parks") || categories.includes("Industrial"))) {
+    return { label: "Possible Opportunity", score: 45 };
+  }
+  if (hasContextualFenceCandidate) return { label: "Weak Opportunity", score: 24 };
+  return { label: "No Evidence", score: 5 };
+}
+
+function projectDescriptionFor(opportunity, document, categories, workCategories, tradeRelevance) {
+  const projectName = cleanProjectName(opportunity.project_name);
+  const primary = tradeRelevance.primary_work.toLowerCase();
+  if (/Creek Realignment/i.test(tradeRelevance.project_type)) {
+    const work = workCategories.some((category) => /earthwork/i.test(category)) ? "earthwork, drainage, and water management improvements" : `${primary} work`;
+    return `${projectName} is a creek and drainage infrastructure project involving ${work}.`;
+  }
+  if (/Solar Retrofit/i.test(tradeRelevance.project_type)) {
+    return `${projectName} is a solar/electrical permit tied to ${categories.includes("Housing") ? "a residential development area" : "an existing site"}.`;
+  }
+  if (/Building Addition|Roof Replacement/i.test(tradeRelevance.project_type)) {
+    return `${projectName} is a ${tradeRelevance.project_type.toLowerCase()} focused on ${primary}.`;
+  }
+  if (document?.summary) {
+    return `${document.summary}`;
+  }
+  return `${projectName} appears to be a ${tradeRelevance.project_type.toLowerCase()} project focused on ${workCategories.join(", ").toLowerCase() || opportunity.trade.toLowerCase()} work.`;
 }
 
 function scopeSummaryFor(opportunity, document, workCategories) {
@@ -167,6 +270,7 @@ function tradeSignalsFor(opportunity, document) {
 }
 
 function potentialFenceScope(categories, signals) {
+  if (!signals.evidence.length) return [];
   const scopes = [];
   if (categories.includes("Housing")) scopes.push("Perimeter fencing", "Community fencing", "Construction fencing");
   if (categories.includes("Parks") || categories.includes("Schools")) scopes.push("Public access separation", "Decorative fencing");
@@ -178,14 +282,17 @@ function potentialFenceScope(categories, signals) {
 
 function confidenceReasoning(scopeConfidence, signals, categories, document) {
   const evidenceStrength = document ? "source document evidence is available" : "only permit/opportunity metadata is available";
-  return `${scopeConfidence.label}: ${signals.found.length} positive fence signal(s), ${signals.missing.length} limiting signal(s), categories ${categories.join(", ") || "unclassified"}, and ${evidenceStrength}.`;
+  return `${scopeConfidence.label}: ${signals.evidence.length} direct fence evidence signal(s), ${signals.found.length} total relevant signal(s), ${signals.missing.length} limiting signal(s), categories ${categories.join(", ") || "unclassified"}, and ${evidenceStrength}.`;
 }
 
-function whyFencingRelevant(scopeConfidence, signals, categories) {
-  if (scopeConfidence.label === "No Meaningful Fence Opportunity") {
-    return "Available evidence does not show a meaningful fencing opportunity.";
+function whyFencingRelevant(scopeConfidence, signals) {
+  if (scopeConfidence.label === "No Evidence") {
+    return "No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.";
   }
-  return `Potential signals identified: ${signals.found.join("; ") || "none"}. Fence relevance is ${scopeConfidence.label.toLowerCase()} because the project categories include ${categories.join(", ") || "limited category evidence"}.`;
+  if (scopeConfidence.label === "Weak Opportunity") {
+    return "No direct fencing references found. The project has contextual indicators only, so fencing is possible but unconfirmed.";
+  }
+  return `Fence relevance is supported by direct evidence: ${signals.evidence.join("; ")}.`;
 }
 
 function evidenceFor(opportunity, document) {
@@ -205,10 +312,10 @@ function renderScopeIntelligence(rows) {
     "## Summary",
     "",
     `- Opportunities evaluated: ${rows.length}`,
-    `- Primary scope rows: ${rows.filter((row) => row.fence_scope_confidence === "Primary Scope").length}`,
-    `- Secondary scope rows: ${rows.filter((row) => row.fence_scope_confidence === "Secondary Scope").length}`,
-    `- Possible scope rows: ${rows.filter((row) => row.fence_scope_confidence === "Possible Scope").length}`,
-    `- Weak/no meaningful rows: ${rows.filter((row) => ["Weak Signal", "No Meaningful Fence Opportunity"].includes(row.fence_scope_confidence)).length}`,
+    `- Primary scope rows: ${rows.filter((row) => row.fence_scope_confidence === "Primary Opportunity").length}`,
+    `- Secondary scope rows: ${rows.filter((row) => row.fence_scope_confidence === "Secondary Opportunity").length}`,
+    `- Possible scope rows: ${rows.filter((row) => row.fence_scope_confidence === "Possible Opportunity").length}`,
+    `- Weak/no evidence rows: ${rows.filter((row) => ["Weak Opportunity", "No Evidence"].includes(row.fence_scope_confidence)).length}`,
     "",
     table(rows, scopeColumns()),
   ].join("\n");
@@ -220,16 +327,21 @@ function renderFenceScopeIntelligence(rows) {
     "",
     `Generated: ${new Date().toISOString()}`,
     "",
-    table(rows.filter((row) => row.fence_scope_confidence !== "No Meaningful Fence Opportunity"), scopeColumns()),
+    table(rows.filter((row) => row.fence_scope_confidence !== "No Evidence"), scopeColumns()),
   ].join("\n");
 }
 
 function scopeColumns() {
   return [
     ["Project", (row) => row.project_name],
+    ["Project Type", (row) => row.project_type],
+    ["Primary Work", (row) => row.primary_work],
+    ["Likely Trades", (row) => row.likely_trades.join(", ") || "Unknown"],
     ["Categories", (row) => row.project_categories.join(", ") || "Unclassified"],
     ["Fence Scope", (row) => row.fence_scope_confidence],
     ["Fence Score", (row) => row.fence_signal_score],
+    ["Direct Fence Evidence", (row) => row.fence_evidence.join("; ") || "None"],
+    ["Negative Evidence", (row) => row.negative_fence_evidence.join("; ") || "None"],
     ["Signals Found", (row) => row.fence_signals_found.join("; ") || "None"],
     ["Potential Scope", (row) => row.potential_fencing_scope.join("; ") || "Unknown"],
     ["Summary", (row) => row.project_summary],

@@ -254,7 +254,7 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
               <AnalysisDatum label="Contractor Opportunity Score" value={opportunity.contractor_opportunity_score} />
               <AnalysisDatum label="Fence Scope Confidence" value={opportunity.fence_scope_confidence} />
               <AnalysisDatum label="Fence Signal Score" value={opportunity.fence_signal_score} />
-              <AnalysisDatum label="Likely Scope" value={opportunity.fence_scope_confidence === "Weak Signal" ? "Insufficient evidence to determine likely fencing scope" : opportunity.likely_scope} />
+              <AnalysisDatum label="Likely Scope" value={["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence) ? "Insufficient evidence to determine likely fencing scope" : opportunity.likely_scope} />
               <AnalysisDatum label="Access Path" value={opportunity.access_path.type} />
               <AnalysisDatum label="Subcontractor Likelihood" value={opportunity.subcontractor_likelihood} />
               <AnalysisDatum label="Scope Size" value={opportunity.scope_size} />
@@ -308,10 +308,10 @@ function conciseProjectSummary(summary: string) {
 }
 
 function fencingProbability(opportunity: ContractorOpportunity) {
-  if (opportunity.fence_scope_confidence === "Primary Scope") return { percent: 85, label: "High", className: "text-emerald-700" };
-  if (opportunity.fence_scope_confidence === "Secondary Scope") return { percent: 70, label: "Likely", className: "text-sky-700" };
-  if (opportunity.fence_scope_confidence === "Possible Scope") return { percent: 50, label: "Possible", className: "text-amber-700" };
-  if (opportunity.fence_scope_confidence === "Weak Signal") return { percent: 20, label: "Weak Signal", className: "text-zinc-700" };
+  if (["Primary Scope", "Primary Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: 85, label: "High", className: "text-emerald-700" };
+  if (["Secondary Scope", "Secondary Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: 70, label: "Likely", className: "text-sky-700" };
+  if (["Possible Scope", "Possible Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: 50, label: "Possible", className: "text-amber-700" };
+  if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: 20, label: "Weak Signal", className: "text-zinc-700" };
   return { percent: 5, label: "Unlikely", className: "text-red-700" };
 }
 
@@ -325,19 +325,24 @@ function displayContactPhone(contact: HumanContact | NonNullable<ContractorOppor
 }
 
 function buildWhyFencingMatters(opportunity: ContractorOpportunity) {
-  if (opportunity.fence_scope_confidence === "No Meaningful Fence Opportunity") {
-    return ["Current evidence does not support a meaningful fencing opportunity."];
+  if (["No Meaningful Fence Opportunity", "No Evidence"].includes(opportunity.fence_scope_confidence)) {
+    return [
+      "No direct fencing references found.",
+      "Available evidence does not support a meaningful fencing opportunity yet.",
+      "Additional document review is required before outreach.",
+    ];
   }
 
   const bullets = new Set<string>();
-  if (opportunity.fence_scope_confidence === "Weak Signal") {
-    bullets.add("Fencing is only a weak signal; confirm scope before outreach.");
+  const directEvidence = opportunity.fence_evidence ?? [];
+  const negativeEvidence = opportunity.negative_fence_evidence ?? opportunity.project_dossier?.evidence_negative_signals?.map((signal) => signal.signal) ?? [];
+
+  if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) {
+    bullets.add("No direct fencing references found in the connected evidence.");
+    bullets.add("Temporary construction fencing is possible but unconfirmed.");
   }
 
-  const signals = [
-    ...(opportunity.evidence_fence_signals?.map((signal) => signal.signal) ?? []),
-    ...opportunity.fence_signals_found,
-  ];
+  const signals = directEvidence.length ? directEvidence : (opportunity.evidence_fence_signals?.map((signal) => signal.signal) ?? []);
 
   for (const signal of signals) {
     const bullet = summarizeFenceSignal(signal);
@@ -345,16 +350,17 @@ function buildWhyFencingMatters(opportunity: ContractorOpportunity) {
     if (bullets.size >= 5) break;
   }
 
-  if (bullets.size < 5 && ["Primary Scope", "Secondary Scope", "Possible Scope"].includes(opportunity.fence_scope_confidence) && opportunity.potential_fencing_scope.length) {
+  if (bullets.size < 5 && directEvidence.length && ["Primary Scope", "Secondary Scope", "Possible Scope", "Primary Opportunity", "Secondary Opportunity", "Possible Opportunity"].includes(opportunity.fence_scope_confidence) && opportunity.potential_fencing_scope.length) {
     bullets.add(`Likely scope to verify: ${opportunity.potential_fencing_scope.slice(0, 3).join(", ")}.`);
   }
 
-  if (bullets.size < 5 && opportunity.project_categories.length) {
-    bullets.add(`Project category context: ${opportunity.project_categories.slice(0, 3).join(", ")}.`);
+  if (bullets.size < 5 && negativeEvidence.length) {
+    bullets.add(`Limiting evidence: ${negativeEvidence[0]}.`);
   }
 
   if (!bullets.size) {
-    bullets.add("Fence relevance is limited; review the supporting evidence before pursuing.");
+    bullets.add("No direct fencing references found.");
+    bullets.add("Additional document review is required before treating this as a fencing lead.");
   }
 
   return Array.from(bullets).slice(0, 5);
@@ -372,7 +378,7 @@ function summarizeFenceSignal(signal: string) {
     return "Public access areas may require separation, safety fencing, or gates.";
   }
   if (normalized.includes("utility") || normalized.includes("drainage") || normalized.includes("infrastructure") || normalized.includes("public works")) {
-    return "Infrastructure work can require temporary fencing, access control, or secured work zones.";
+    return "Infrastructure evidence is present, but fencing scope must be verified in source documents.";
   }
   if (normalized.includes("security") || normalized.includes("gate") || normalized.includes("boundary") || normalized.includes("access")) {
     return "Boundary, gate, security, or access-control signals appear in the source record.";
@@ -415,20 +421,22 @@ function HumanContactPanel({ contact, backupRoute }: { contact: HumanContact | n
 }
 
 function FenceConfidenceBadge({ value }: { value: string }) {
-  const className = value === "Primary Scope"
+  const className = ["Primary Scope", "Primary Opportunity"].includes(value)
     ? "border-emerald-200 bg-emerald-50 text-emerald-800"
-    : value === "Secondary Scope"
+    : ["Secondary Scope", "Secondary Opportunity"].includes(value)
       ? "border-sky-200 bg-sky-50 text-sky-800"
-      : value === "Possible Scope"
+      : ["Possible Scope", "Possible Opportunity"].includes(value)
         ? "border-amber-200 bg-amber-50 text-amber-800"
-        : value === "Weak Signal"
+        : ["Weak Signal", "Weak Opportunity"].includes(value)
           ? "border-zinc-200 bg-zinc-50 text-zinc-700"
           : "border-red-200 bg-red-50 text-red-800";
-  const label = value === "Primary Scope"
+  const label = ["Primary Scope", "Primary Opportunity"].includes(value)
     ? "Primary Opportunity"
-    : value === "Secondary Scope"
+    : ["Secondary Scope", "Secondary Opportunity"].includes(value)
       ? "Secondary Opportunity"
-      : value;
+      : value === "No Evidence"
+        ? "No Evidence"
+        : value;
   return <Badge className={className}>{label}</Badge>;
 }
 

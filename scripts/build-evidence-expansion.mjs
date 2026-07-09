@@ -372,6 +372,8 @@ function buildEvidenceExpansion(opportunity, documents) {
     fence_scope_confidence: contradiction.fence_scope_confidence,
     likely_fence_scope: contradiction.likely_fence_scope,
     why_fencing_is_relevant: projectDossier.why_fencing_is_relevant,
+    fencing_bidable: contradiction.fencing_bidable ?? false,
+    primary_scope: scope?.primary_scope ?? "Unknown",
     contradiction_notes: contradiction.notes,
     last_verified: capturedAt,
   };
@@ -463,34 +465,42 @@ function evidenceMatchScore(document, identity, identityTerms) {
 }
 
 function evidenceFenceSignals(documents) {
-  const positive = [];
+  const strong = [];
+  const weak = [];
   const negative = [];
   for (const document of documents) {
     const sourceText = documentSearchText(document);
-    addSignal(positive, sourceText, /\bfenc(?:e|es|ing)\b/i, "Direct fence reference", document, isIntentionalFenceMention);
-    addSignal(positive, sourceText, /\bgates?\b/i, "Gate reference", document, isIntentionalGateMention);
-    addSignal(positive, sourceText, /\bperimeter(?:\s+(?:fence|fencing|security|wall))\b/i, "Perimeter or perimeter-security reference", document);
-    addSignal(positive, sourceText, /access control|controlled access/i, "Access-control reference", document);
-    addSignal(positive, sourceText, /\benclosure\b/i, "Enclosure reference", document);
-    addSignal(positive, sourceText, /screen wall/i, "Screen-wall reference", document);
-    addSignal(positive, sourceText, /retaining wall[^.]{0,80}\bfenc(?:e|ing)?\b|\bfenc(?:e|ing)?\b[^.]{0,80}retaining wall/i, "Retaining-wall fencing reference", document);
-    addSignal(positive, sourceText, /detention basin[^.]{0,80}\bfenc(?:e|ing)?\b|\bfenc(?:e|ing)?\b[^.]{0,80}detention basin/i, "Detention basin fencing reference", document);
-    addSignal(positive, sourceText, /park fencing|trail fencing|school fencing|sports field fencing/i, "Public facility fencing reference", document);
-    addSignal(positive, sourceText, /chain[-\s]?link/i, "Chain-link fencing reference", document);
-    addSignal(positive, sourceText, /ornamental iron|wrought iron/i, "Ornamental or wrought-iron reference", document);
-    addSignal(positive, sourceText, /security barrier|bollards|security improvements/i, "Security barrier improvement reference", document);
+    addSignal(strong, sourceText, /\b(install|raise|build|building|construct|provide|supply).{0,40}\bfenc(?:e|es|ing)\b|\bfenc(?:e|es|ing)\b.{0,40}\b(install|raise|build|construct|provide|supply|height)\b|\b(new fence|fence height|pool safety fencing|security fence|gates\/fence|fencing with gate|fence package|fencing package)\b/i, "Fence installation reference", document, (snippet) => isIntentionalFenceMention(snippet) && /\bfenc(?:e|es|ing)\b/i.test(snippet));
+    addSignal(strong, sourceText, /\b(fence height|new fence|pool safety fencing|security fence|gates\/fence|fencing with gate|fence package|fencing package)\b/i, "Fence package reference", document);
+    addSignal(strong, sourceText, /chain[-\s]?link/i, "Chain-link fencing reference", document);
+    addSignal(strong, sourceText, /ornamental iron|wrought iron/i, "Ornamental or wrought-iron reference", document);
+    addSignal(strong, sourceText, /\b(new\s*\(?gates?\)?|install(?:ation)? of .{0,40}gate|building a .{0,30}gate|slid(?:e|ing) gates?|automat(?:ic|ed) (?:slide )?gates?|steel gate|vehicle gate|pedestrian gate|security gate|ada ped|ped gates?|supply and install.{0,60}gate)\b/i, "Gate installation reference", document, isIntentionalGateMention);
+    addSignal(strong, sourceText, /detention basin[^.]{0,80}\bfenc(?:e|ing)\b|\bfenc(?:e|ing)\b[^.]{0,80}detention basin/i, "Detention basin fencing reference", document);
+    addSignal(strong, sourceText, /park fencing|trail fencing|school fencing|sports field fencing/i, "Public facility fencing reference", document);
+    addSignal(weak, sourceText, /\bgates?\b/i, "Incidental gate mention", document, isIntentionalGateMention);
+    addSignal(weak, sourceText, /\bfenc(?:e|es|ing)\b/i, "Incidental fence mention", document, isIntentionalFenceMention);
+    addSignal(weak, sourceText, /\benclosure\b|screen wall/i, "Enclosure or screen-wall mention", document);
+    addSignal(negative, sourceText, /electrical for landscaping|commercial electrical service|electrical service pedestal|landscape lighting|service pedestal/i, "Primary electrical / landscape lighting work", document);
     addSignal(negative, sourceText, /creek restoration|creek|water quality|drainage|stormwater|hydrology/i, "Creek, drainage, or water-quality work without fence reference", document);
     addSignal(negative, sourceText, /pipeline|utility relocation|water main|sewer|trunk/i, "Pipeline or utility work without fence reference", document);
-    addSignal(negative, sourceText, /electrical upgrade|solar|photovoltaic|pv|energy storage/i, "Electrical or solar retrofit evidence", document);
+    addSignal(negative, sourceText, /electrical upgrade|solar|photovoltaic|pv|energy storage|electrical service/i, "Electrical or solar retrofit evidence", document);
     addSignal(negative, sourceText, /roof replacement|roof|reroof|tpo|membrane|capsheet/i, "Roof replacement evidence", document);
     addSignal(negative, sourceText, /hvac|mechanical|package unit|air conditioning/i, "HVAC-only replacement evidence", document);
     addSignal(negative, sourceText, /interior remodel|kitchen|bathroom|flooring|painting|tenant improvement/i, "Interior or tenant-improvement-only evidence", document);
   }
-  const positiveSignals = dedupeSignals(positive);
-  // Negative signals only suppress when no positive fence evidence exists.
+  const strongSignals = dedupeSignals(strong);
+  const weakSignals = dedupeSignals(weak).filter((signal) => !strongSignals.some((item) => normalizeSnippetKey(item.snippet) === normalizeSnippetKey(signal.snippet)));
+  const positiveSignals = strongSignals;
   const negativeSignals = positiveSignals.length ? [] : dedupeSignals(negative);
-  const score = Math.max(0, Math.min(100, positiveSignals.length * 28 - negativeSignals.length * 18));
-  return { positive: positiveSignals, negative: negativeSignals, snippets: positiveSignals.map(signalToSnippet), score };
+  const score = Math.max(0, Math.min(100, positiveSignals.length * 34 - negativeSignals.length * 18));
+  return {
+    positive: positiveSignals,
+    weak: weakSignals,
+    negative: negativeSignals,
+    snippets: positiveSignals.map(signalToSnippet),
+    score,
+    tier: positiveSignals.length ? "strong" : weakSignals.length ? "weak" : "none",
+  };
 }
 
 function addSignal(signals, text, pattern, label, document, validator = null) {
@@ -510,10 +520,11 @@ function addSignal(signals, text, pattern, label, document, validator = null) {
 
 function isIntentionalFenceMention(snippet) {
   const value = String(snippet ?? "").toLowerCase();
-  if (/\b(install|raise|new|build|building|construct|provide|supply|replace|pool safety|security fence|fence height|fencing with|gates\/fence|new fence|permit for fence|fence built)\b/i.test(value)) return true;
+  if (!/\bfenc(?:e|es|ing)\b/i.test(value)) return false;
+  if (/\b(install|raise|new fence|build|building|construct|provide|supply|pool safety|security fence|fence height|fencing with|gates\/fence|permit for fence|fence built|chain[-\s]?link)\b/i.test(value)) return true;
   if (/\b(behind|in front of)\b[^.]*\bfence\b|\bfrom (?:the )?fence\/property line\b|\bfor fence or structure\b|\bfence note revised\b|\btowards back fence\b|\bthere is a fence\b|\bremove the fence\b|\bif needed only\b/i.test(value)) return false;
-  if (/\bhvac\b|\bsewer\b|\bsolar\b|\bcarport\b|\baddition and remodel\b|\bpipe burst\b|\binversion liner\b/i.test(value) && !/\b(fence|fencing)\b.{0,40}\b(install|new|raise|build|provide|permit)\b|\b(install|new|raise|build|provide|permit).{0,40}\b(fence|fencing)\b/i.test(value)) return false;
-  return /\b(fence|fences|fencing)\b/i.test(value);
+  if (/\bhvac\b|\bsewer\b|\bsolar\b|\bcarport\b|\belec\b|\belectrical\b|\bsmud\b|\baddition and remodel\b|\bpipe burst\b|\binversion liner\b/i.test(value) && !/\b(fence|fencing)\b.{0,40}\b(install|new|raise|build|provide|permit)\b|\b(install|new|raise|build|provide|permit).{0,40}\b(fence|fencing)\b/i.test(value)) return false;
+  return /\b(fence|fences|fencing)\b/i.test(value) && /\b(install|raise|new|build|construct|provide|supply|height|package|security|pool)\b/i.test(value);
 }
 
 function isIntentionalGateMention(snippet) {
@@ -532,26 +543,42 @@ function contradictionStatus(scope, evidenceSignals) {
   let fenceScopeConfidence = normalizeFenceConfidence(scope?.fence_scope_confidence ?? "No Evidence");
   let likelyFenceScope = scope?.potential_fencing_scope?.[0] ?? "Unknown";
   const notes = [];
+  const primaryScope = scope?.primary_scope ?? "Unknown";
+  const nonFencePrimary = [
+    "Electrical / landscape lighting",
+    "Solar / electrical",
+    "HVAC / mechanical",
+    "Roofing",
+    "Drainage / water infrastructure",
+    "Interior remodel / TI",
+  ].includes(primaryScope);
+  const hasStrong = evidenceSignals.positive.length > 0;
+  const hasWeakOnly = !hasStrong && (evidenceSignals.weak?.length ?? 0) > 0;
 
-  if (evidenceSignals.positive.length) {
+  // Prefer scope intelligence when it already applied primary-scope veto.
+  if (scope?.fencing_bidable === false && !hasStrong) {
+    fenceScopeConfidence = "No Evidence";
+    notes.push(scope.fencing_bidability_reason ?? "Primary scope is not fencing; incidental mentions are not bid-able.");
+  } else if (nonFencePrimary && !hasStrong) {
+    fenceScopeConfidence = "No Evidence";
+    notes.push(`Primary scope "${primaryScope}" vetoes weak/incidental gate or fence mentions.`);
+  } else if (hasStrong) {
     if (evidenceSignals.score >= 72 || evidenceSignals.positive.length >= 2) {
       fenceScopeConfidence = fenceScopeConfidence === "Primary Opportunity" ? "Primary Opportunity" : "Secondary Opportunity";
-      notes.push("Direct fence evidence from source documents supports fencing scope.");
-    } else {
-      fenceScopeConfidence = ["Primary Opportunity", "Secondary Opportunity"].includes(fenceScopeConfidence)
-        ? fenceScopeConfidence
-        : "Possible Opportunity";
-      notes.push("Direct fence evidence raised classification above No Evidence.");
+    } else if (!["Primary Opportunity", "Secondary Opportunity"].includes(fenceScopeConfidence)) {
+      fenceScopeConfidence = "Possible Opportunity";
     }
+    notes.push("Strong fence/gate installation evidence supports bid-able fencing scope.");
     likelyFenceScope = scope?.potential_fencing_scope?.[0]
-      ?? (/\bgate/i.test(evidenceSignals.positive.map((signal) => signal.signal).join(" ")) ? "Gates and access control" : "Source-backed fencing scope");
-  } else if (evidenceSignals.score >= 72 && ["Weak Opportunity", "No Evidence"].includes(fenceScopeConfidence)) {
-    fenceScopeConfidence = "Possible Opportunity";
-    notes.push("Direct fence evidence raised a weak/no-evidence classification to possible opportunity.");
+      ?? (/\bgate/i.test(evidenceSignals.positive.map((signal) => signal.signal).join(" ")) ? "Gate installation" : "Fence installation");
+  } else if (hasWeakOnly) {
+    fenceScopeConfidence = "Weak Opportunity";
+    notes.push("Only weak/incidental fence or gate mentions found; not treated as bid-able fencing scope.");
   }
-  if (evidenceSignals.negative.length && evidenceSignals.positive.length === 0) {
+
+  if (evidenceSignals.negative.length && !hasStrong) {
     fenceScopeConfidence = "No Evidence";
-    notes.push("Negative evidence without positive fence evidence suppresses fence scope.");
+    notes.push("Negative primary-work evidence without strong fence evidence suppresses fence scope.");
   }
   if (fenceScopeConfidence === "Weak Opportunity") {
     likelyFenceScope = "Insufficient evidence to determine likely fencing scope.";
@@ -561,7 +588,12 @@ function contradictionStatus(scope, evidenceSignals) {
     likelyFenceScope = "No fencing scope generated.";
     notes.push("No Evidence suppresses fencing scope generation.");
   }
-  return { fence_scope_confidence: fenceScopeConfidence, likely_fence_scope: likelyFenceScope, notes };
+  return {
+    fence_scope_confidence: fenceScopeConfidence,
+    likely_fence_scope: likelyFenceScope,
+    notes,
+    fencing_bidable: hasStrong && ["Primary Opportunity", "Secondary Opportunity", "Possible Opportunity"].includes(fenceScopeConfidence),
+  };
 }
 
 function normalizeFenceConfidence(value) {
@@ -663,29 +695,32 @@ function evidenceStrengthScore(documents, evidenceSignals) {
 }
 
 function whyFenceEvidenceMatters(contradiction, evidenceSignals, associatedImprovements = []) {
-  if (contradiction.fence_scope_confidence === "No Evidence") return "No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.";
-  if (contradiction.fence_scope_confidence === "Weak Opportunity") return "Fence relevance is weak; specific scope is intentionally withheld until stronger evidence is found.";
-  if (!evidenceSignals.positive.length) return "No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.";
+  if (contradiction.fence_scope_confidence === "No Evidence") {
+    if (contradiction.notes?.some((note) => /primary scope|electrical|not bid-able/i.test(note))) {
+      return contradiction.notes.find((note) => /primary scope|electrical|not bid-able/i.test(note));
+    }
+    return "No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.";
+  }
+  if (contradiction.fence_scope_confidence === "Weak Opportunity") {
+    return "Only weak or incidental fence/gate mentions were found. This is not yet a clear bid-able fencing opportunity.";
+  }
+  if (!evidenceSignals.positive.length) return "No strong fencing installation evidence found. Treat fencing as unconfirmed until stronger evidence is connected.";
   const top = evidenceSignals.positive[0];
   const snippet = top?.snippet;
   if (snippet) {
-    if (/detention basin/i.test(snippet)) {
-      return `Detention basin construction often requires perimeter safety fencing. Source document references: "${snippet}"`;
-    }
-    if (/school/i.test(snippet)) {
-      return `School site improvements commonly include perimeter fencing and controlled access points. Source: "${snippet}"`;
-    }
     if (/\bgates?\b/i.test(snippet) && /\bfenc/i.test(snippet)) {
-      return `Source document specifies gate and fencing installation: "${snippet}"`;
+      return `A fencing contractor can bid because source documents specify gate and fencing installation: "${snippet}"`;
     }
-    if (/\bgates?\b/i.test(snippet)) {
-      return `Source document references gate work that is fencing-relevant: "${snippet}"`;
+    if (/install|new|building|sliding|automatic|steel|security/i.test(snippet) && /\bgates?\b/i.test(snippet)) {
+      return `A fencing contractor can bid gate installation work supported by source evidence: "${snippet}"`;
+    }
+    if (/\bfenc/i.test(snippet)) {
+      return `A fencing contractor can bid because source documents reference fencing work: "${snippet}"`;
     }
     const improvementContext = associatedImprovements.length ? `${toSentenceList(associatedImprovements.map((item) => item.toLowerCase()))} scope is documented. ` : "";
     return `${improvementContext}Fence relevance is supported by source evidence: "${snippet}" (${top.source}).`;
   }
-  const improvementContext = associatedImprovements.length ? `${toSentenceList(associatedImprovements.map((item) => item.toLowerCase()))} scope is documented. ` : "";
-  return `${improvementContext}Fence relevance is supported by source snippets: ${evidenceSignals.positive.map((signal) => `"${signal.snippet}" (${signal.source})`).join("; ")}.`;
+  return `A fencing contractor can bid based on strong evidence: ${evidenceSignals.positive.map((signal) => signal.signal).join("; ")}.`;
 }
 
 function confidenceReasoningFor(contradiction, documents, evidenceSignals) {

@@ -211,10 +211,16 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
         <div className="mt-4 rounded-md border border-zinc-100 bg-zinc-50 p-3">
           <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Project Summary</p>
           <p className="mt-2 text-sm leading-6 text-zinc-800">{summary}</p>
+          {opportunity.primary_scope ? (
+            <p className="mt-2 text-xs text-zinc-600">
+              Primary scope: {opportunity.primary_scope}
+              {opportunity.fencing_bidable === true ? " · Bidable fencing work" : opportunity.fencing_bidable === false ? " · Not bidable as fencing" : ""}
+            </p>
+          ) : null}
         </div>
 
         <div className="mt-4 rounded-md border border-emerald-100 bg-emerald-50 p-3">
-          <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Why Fencing Matters</p>
+          <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Why a Fencing Contractor Should Care</p>
           <ul className="mt-2 space-y-1 text-sm leading-6 text-emerald-950">
             {whyFencingMatters.map((bullet) => <li key={bullet}>- {bullet}</li>)}
           </ul>
@@ -276,6 +282,8 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
               <AnalysisDatum label="Actionability Score" value={opportunity.actionability_score} />
               <AnalysisDatum label="Contractor Opportunity Score" value={opportunity.contractor_opportunity_score} />
               <AnalysisDatum label="Fence Scope Confidence" value={opportunity.fence_scope_confidence} />
+              <AnalysisDatum label="Fencing Bidable" value={opportunity.fencing_bidable === true ? "Yes" : opportunity.fencing_bidable === false ? "No" : "Unknown"} />
+              <AnalysisDatum label="Evidence Tier" value={opportunity.fence_evidence_tier ?? "Unknown"} />
               <AnalysisDatum label="Fence Signal Score" value={opportunity.fence_signal_score} />
               <AnalysisDatum label="Likely Scope" value={["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence) ? "Insufficient evidence to determine likely fencing scope" : opportunity.likely_scope} />
               <AnalysisDatum label="Access Path" value={opportunity.access_path.type} />
@@ -337,11 +345,12 @@ function conciseProjectSummary(summary: string) {
 
 function fencingProbability(opportunity: ContractorOpportunity) {
   const evidenceCount = positiveFenceEvidence(opportunity).length;
-  if (!evidenceCount || ["No Evidence", "No Meaningful Fence Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: 0, label: "No Evidence", className: "text-red-700" };
+  if (opportunity.fencing_bidable === false || !evidenceCount || ["No Evidence", "No Meaningful Fence Opportunity", "Weak Opportunity", "Weak Signal"].includes(opportunity.fence_scope_confidence)) {
+    return { percent: 0, label: "No Evidence", className: "text-red-700" };
+  }
   if (["Primary Scope", "Primary Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: Math.min(100, 80 + evidenceCount * 5), label: "Primary Opportunity", className: "text-emerald-700" };
   if (["Secondary Scope", "Secondary Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: Math.min(80, 60 + evidenceCount * 5), label: "Secondary Opportunity", className: "text-sky-700" };
   if (["Possible Scope", "Possible Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: Math.min(50, 30 + evidenceCount * 5), label: "Possible Opportunity", className: "text-amber-700" };
-  if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: Math.min(25, 10 + evidenceCount * 5), label: "Weak Opportunity", className: "text-zinc-700" };
   return { percent: 0, label: "No Evidence", className: "text-red-700" };
 }
 
@@ -361,20 +370,29 @@ function realValue(value?: string | null) {
 }
 
 function buildWhyFencingMatters(opportunity: ContractorOpportunity) {
-  if (["No Meaningful Fence Opportunity", "No Evidence"].includes(opportunity.fence_scope_confidence)) {
+  if (opportunity.fencing_bidable === false || ["No Meaningful Fence Opportunity", "No Evidence"].includes(opportunity.fence_scope_confidence)) {
     return [
-      "No direct fencing references found.",
+      opportunity.fencing_bidability_reason
+        ?? (opportunity.primary_scope
+          ? `Primary project scope is ${opportunity.primary_scope}. Incidental fence/gate mentions are not enough to bid.`
+          : "No bid-able fencing scope found."),
       "Available evidence does not support a meaningful fencing opportunity yet.",
       "Additional document review is required before outreach.",
+    ];
+  }
+
+  if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) {
+    return [
+      "Only weak or incidental fencing indicators were found.",
+      "This is not yet a clear bid-able fencing opportunity.",
     ];
   }
 
   const bullets = new Set<string>();
   const snippets = opportunity.evidence_snippets ?? opportunity.project_dossier?.evidence_snippets ?? [];
   const directEvidence = opportunity.fence_evidence ?? [];
-  const negativeEvidence = opportunity.negative_fence_evidence ?? opportunity.project_dossier?.evidence_negative_signals?.map((signal) => signal.signal) ?? [];
 
-  if (opportunity.why_fencing_matters && !/No direct fencing references found/i.test(opportunity.why_fencing_matters)) {
+  if (opportunity.why_fencing_matters && !/No direct fencing references found|No bid-able fencing scope found/i.test(opportunity.why_fencing_matters)) {
     bullets.add(opportunity.why_fencing_matters);
   }
 
@@ -385,30 +403,18 @@ function buildWhyFencingMatters(opportunity: ContractorOpportunity) {
     if (bullets.size >= 5) break;
   }
 
-  if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) {
-    bullets.add("No direct fencing references found in the connected evidence.");
-    bullets.add("Temporary construction fencing is possible but unconfirmed.");
-  }
-
-  const signals = directEvidence.length ? directEvidence : (opportunity.evidence_fence_signals?.map((signal) => signal.snippet ?? signal.signal) ?? []);
-
-  for (const signal of signals) {
+  for (const signal of directEvidence) {
     const bullet = summarizeFenceSignal(signal);
     if (bullet) bullets.add(bullet);
     if (bullets.size >= 5) break;
   }
 
-  if (bullets.size < 5 && directEvidence.length && ["Primary Scope", "Secondary Scope", "Possible Scope", "Primary Opportunity", "Secondary Opportunity", "Possible Opportunity"].includes(opportunity.fence_scope_confidence) && opportunity.potential_fencing_scope.length) {
+  if (bullets.size < 5 && opportunity.potential_fencing_scope.length) {
     bullets.add(`Likely scope to verify: ${opportunity.potential_fencing_scope.slice(0, 3).join(", ")}.`);
   }
 
-  if (bullets.size < 5 && negativeEvidence.length) {
-    bullets.add(`Limiting evidence: ${negativeEvidence[0]}.`);
-  }
-
   if (!bullets.size) {
-    bullets.add("Positive fence evidence is not yet available in the connected source records.");
-    bullets.add("Additional document review is required before treating this as a fencing lead.");
+    bullets.add("Strong fencing installation evidence is not yet available in the connected source records.");
   }
 
   return Array.from(bullets).slice(0, 5);

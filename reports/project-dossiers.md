@@ -1,6 +1,6 @@
 # Project Dossiers
 
-Generated: 2026-07-09T05:32:02.723Z
+Generated: 2026-07-09T06:34:42.872Z
 
 ## Gerber Creek Re-Alignment
 
@@ -13,7 +13,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Lund Construction Co project portfolio: Gerber Creek Re-Alignment; Contractor Opportunity Record: Gerber Creek Re-Alignment; Central Valley Regional Water Quality Control Board: 401 Water Quality Certifications - Lennar Gerber Creek; Southgate Recreation and Park District: Southgate Recreation and Park District Minutes - Annexation No. 2; Sacramento County Board of Supervisors: Sacramento County Board Agenda - Park Fee Credits
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 5 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
 
 ## SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8
@@ -27,7 +27,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00561 Residential; Contractor Opportunity Record: SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation B - Lot 8; Central Valley Regional Water Quality Control Board: 401 Water Quality Certifications - Lennar Gerber Creek; Sacramento County Board of Supervisors: Sacramento County Board Agenda - Park Fee Credits; Lund Construction Co project portfolio: Gerber Creek Re-Alignment; Southgate Recreation and Park District: Southgate Recreation and Park District Minutes - Annexation No. 2
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 6 related evidence record(s), 0 positive evidence signal(s), and 6 negative evidence signal(s).
 
 ## AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 1 - 3161 Elevation C - Lot 48
@@ -41,7 +41,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00578 Residential; Contractor Opportunity Record: AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 1 - 3161 Elevation C - Lot 48; Central Valley Regional Water Quality Control Board: 401 Water Quality Certifications - Lennar Gerber Creek; Sacramento County Board of Supervisors: Sacramento County Board Agenda - Park Fee Credits
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 4 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
 
 ## AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3141 Elevation A - Lot 39
@@ -55,7 +55,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00576 Residential; Contractor Opportunity Record: AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3141 Elevation A - Lot 39; Central Valley Regional Water Quality Control Board: 401 Water Quality Certifications - Lennar Gerber Creek; Sacramento County Board of Supervisors: Sacramento County Board Agenda - Park Fee Credits
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 4 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
 
 ## AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation B - Lot 40
@@ -69,7 +69,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00577 Residential; Contractor Opportunity Record: AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation B - Lot 40; Central Valley Regional Water Quality Control Board: 401 Water Quality Certifications - Lennar Gerber Creek; Sacramento County Board of Supervisors: Sacramento County Board Agenda - Park Fee Credits
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 4 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
 
 ## AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation C - Lot 17
@@ -83,7 +83,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00574 Residential; Contractor Opportunity Record: AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - 3427 Elevation C - Lot 17; Central Valley Regional Water Quality Control Board: 401 Water Quality Certifications - Lennar Gerber Creek; Sacramento County Board of Supervisors: Sacramento County Board Agenda - Park Fee Credits
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 4 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
 
 ## AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - Plan 1950 Elevation A - Lo
@@ -97,7 +97,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00575 Residential; Contractor Opportunity Record: AREA: R07:  VILLAGES AT ELDER CREEK-UNIT 2 - Plan 1950 Elevation A - Lo; Central Valley Regional Water Quality Control Board: 401 Water Quality Certifications - Lennar Gerber Creek; Sacramento County Board of Supervisors: Sacramento County Board Agenda - Park Fee Credits
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 4 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
 
 ## SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation A- Lot 9
@@ -111,7 +111,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00562 Residential; Contractor Opportunity Record: SOLAR : AREA: R07: GERBER CREEK UNIT 2 - 2793 Elevation A- Lot 9; Central Valley Regional Water Quality Control Board: 401 Water Quality Certifications - Lennar Gerber Creek; Sacramento County Board of Supervisors: Sacramento County Board Agenda - Park Fee Credits; Lund Construction Co project portfolio: Gerber Creek Re-Alignment; Southgate Recreation and Park District: Southgate Recreation and Park District Minutes - Annexation No. 2
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 6 related evidence record(s), 0 positive evidence signal(s), and 6 negative evidence signal(s).
 
 ## Northlake 36 Homes
@@ -125,8 +125,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: SF YIMBY: Permits Filed for 36 Homes at Northlake Development, North Natomas; Contractor Opportunity Record: Northlake 36 Homes
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Northlake Lakelet
 
@@ -139,8 +139,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: SF YIMBY: Permits Filed for New Housing at Northlake Development in North Natomas; Contractor Opportunity Record: Northlake Lakelet
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Gerber Creek and Lelani Village Subdivisions
 
@@ -153,7 +153,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Southgate Recreation and Park District: Southgate Recreation and Park District Minutes - Annexation No. 2; Contractor Opportunity Record: Gerber Creek and Lelani Village Subdivisions; Sacramento County Board of Supervisors: Sacramento County Board Agenda - Park Fee Credits; Lund Construction Co project portfolio: Gerber Creek Re-Alignment; Central Valley Regional Water Quality Control Board: 401 Water Quality Certifications - Lennar Gerber Creek
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 5 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
 
 ## Gerber Creek Unit 1 and Unit 2
@@ -167,7 +167,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Central Valley Regional Water Quality Control Board: 401 Water Quality Certifications - Lennar Gerber Creek; Contractor Opportunity Record: Gerber Creek Unit 1 and Unit 2; Sacramento County Board of Supervisors: Sacramento County Board Agenda - Park Fee Credits; Lund Construction Co project portfolio: Gerber Creek Re-Alignment; Southgate Recreation and Park District: Southgate Recreation and Park District Minutes - Annexation No. 2
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 5 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
 
 ## Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village
@@ -181,7 +181,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Board of Supervisors: Sacramento County Board Agenda - Park Fee Credits; Contractor Opportunity Record: Gerber Creek, Gerber Creek Unit 3, Gardner Parke, Lelani Village; Southgate Recreation and Park District: Southgate Recreation and Park District Minutes - Annexation No. 2; Central Valley Regional Water Quality Control Board: 401 Water Quality Certifications - Lennar Gerber Creek; Lund Construction Co project portfolio: Gerber Creek Re-Alignment
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 5 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
 
 ## Trunk Drainage Facilities Zone 11A
@@ -195,7 +195,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Board of Supervisors: Sacramento County Board Agenda - Credit Agreement With Lennar; Contractor Opportunity Record: Trunk Drainage Facilities Zone 11A
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## REROOF (OVERLAY 326 SQ) - 3800 WATT AVE
@@ -209,7 +209,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: RERC2026-00187 Commercial; Contractor Opportunity Record: REROOF (OVERLAY 326 SQ) - 3800 WATT AVE
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## REROOF (OVERLAY 81 SQ) - 11707 FAIR OAKS BLVD
@@ -223,7 +223,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: RERC2026-00186 Commercial; Contractor Opportunity Record: REROOF (OVERLAY 81 SQ) - 11707 FAIR OAKS BLVD
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R04:  304 sf Rear house addition.
@@ -237,7 +237,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNR2026-00571 Residential; Contractor Opportunity Record: AREA: R04:  304 sf Rear house addition.
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## install PVC membrane over existing roof
@@ -251,7 +251,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: RERC2026-00185 Commercial; Contractor Opportunity Record: install PVC membrane over existing roof
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## NEW (GATES) - 3401 BALMORAL DR
@@ -263,9 +263,9 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNC2026-00169 Commercial; Contractor Opportunity Record: NEW (GATES) - 3401 BALMORAL DR
-- Fence Signals: Gate reference: NEW (GATES) - 3401 BALMORAL DR. (CBNC2026-00169 Commercial)
+- Fence Signals: Gate installation reference: NEW (GATES) - 3401 BALMORAL DR. (CBNC2026-00169 Commercial)
 - Evidence Snippets: NEW (GATES) - 3401 BALMORAL DR. (CBNC2026-00169 Commercial)
-- Why Fencing Is Relevant: Source document references gate work that is fencing-relevant: "NEW (GATES) - 3401 BALMORAL DR."
+- Why Fencing Is Relevant: A fencing contractor can bid gate installation work supported by source evidence: "NEW (GATES) - 3401 BALMORAL DR."
 - Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## NEW (GATES) - 7575 POWER INN RD
@@ -277,10 +277,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNC2026-00207 Commercial; Contractor Opportunity Record: NEW (GATES) - 7575 POWER INN RD
-- Fence Signals: Direct fence reference: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); Gate reference: NEW (GATES) - 7575 POWER INN RD. (CBNC2026-00207 Commercial)
-- Evidence Snippets: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); NEW (GATES) - 7575 POWER INN RD. (CBNC2026-00207 Commercial)
-- Why Fencing Is Relevant: Source document specifies gate and fencing installation: "NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment."
-- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: Fence installation reference: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); Fence package reference: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); Gate installation reference: NEW (GATES) - 7575 POWER INN RD. (CBNC2026-00207 Commercial)
+- Evidence Snippets: NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment. (CBNC2026-00207 Commercial); NEW (GATES) - 7575 POWER INN RD. (CBNC2026-00207 Commercial)
+- Why Fencing Is Relevant: A fencing contractor can bid because source documents specify gate and fencing installation: "NEW (GATES) - 7575 POWER INN RD - Supply and install automated slide gates, ADA ped gate and fencing with gate operators and necessary equipment."
+- Confidence Reasoning: Primary Opportunity: 2 related evidence record(s), 3 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE
 
@@ -293,7 +293,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISC2026-01229 Commercial; Contractor Opportunity Record: MECH (HVAC 4 PACKAGE UNITS C/O) - 4746 MADISON AVE
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## AREA: R01:  proposed 28'x40' pre fab metal ag storage building
@@ -307,7 +307,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNR2026-00564 Residential; Contractor Opportunity Record: AREA: R01:  proposed 28'x40' pre fab metal ag storage building
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R06:  House Addition-Remodel
@@ -321,7 +321,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNR2026-00562 Residential; Contractor Opportunity Record: AREA: R06:  House Addition-Remodel
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## DEMO (SHED) - 2736 AUBURN BLVD
@@ -335,7 +335,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: DMOC2026-00045 Commercial; Contractor Opportunity Record: DEMO (SHED) - 2736 AUBURN BLVD
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## NEW (GATES) - 5800 FAIR OAKS BLVD
@@ -347,10 +347,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure, Mechanical
 - Evidence Sources: Sacramento County Permits: MISC2026-00862 Commercial; Contractor Opportunity Record: NEW (GATES) - 5800 FAIR OAKS BLVD
-- Fence Signals: Direct fence reference: - Install security fence between the gate and building. (MISC2026-00862 Commercial); Gate reference: NEW (GATES) - 5800 FAIR OAKS BLVD. (MISC2026-00862 Commercial)
-- Evidence Snippets: - Install security fence between the gate and building. (MISC2026-00862 Commercial); NEW (GATES) - 5800 FAIR OAKS BLVD. (MISC2026-00862 Commercial)
-- Why Fencing Is Relevant: Source document specifies gate and fencing installation: "- Install security fence between the gate and building."
-- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: Fence installation reference: - Install security fence between the gate and building. (MISC2026-00862 Commercial); Fence package reference: - Install security fence between the gate and building. (MISC2026-00862 Commercial); Gate installation reference: NEW (GATES) - 5800 FAIR OAKS BLVD. (MISC2026-00862 Commercial)
+- Evidence Snippets: - Install security fence between the gate and building. (MISC2026-00862 Commercial); - Install security fence between the gate and building. (MISC2026-00862 Commercial); NEW (GATES) - 5800 FAIR OAKS BLVD. (MISC2026-00862 Commercial)
+- Why Fencing Is Relevant: A fencing contractor can bid because source documents specify gate and fencing installation: "- Install security fence between the gate and building."
+- Confidence Reasoning: Primary Opportunity: 2 related evidence record(s), 3 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## SOLAR : AREA: R03:  Blossom Ridge-Plan 2230-Elevation C-Lot 8
 
@@ -363,7 +363,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00571 Residential; Contractor Opportunity Record: SOLAR : AREA: R03:  Blossom Ridge-Plan 2230-Elevation C-Lot 8
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## SOLAR : AREA: R03:  Blossom Ridge-Plan 2704-Elevation B-Lot 9
@@ -377,7 +377,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00566 Residential; Contractor Opportunity Record: SOLAR : AREA: R03:  Blossom Ridge-Plan 2704-Elevation B-Lot 9
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## SOLAR : AREA: R03:  Blossom Ridge-Plan 2984-Elevation A-Lot 7
@@ -391,7 +391,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00573 Residential; Contractor Opportunity Record: SOLAR : AREA: R03:  Blossom Ridge-Plan 2984-Elevation A-Lot 7
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## SOLAR : AREA: R06:  New Home Construction
@@ -405,7 +405,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNR2026-00576 Residential; Contractor Opportunity Record: SOLAR : AREA: R06:  New Home Construction
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY
@@ -419,7 +419,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISC2026-01228 Commercial; Contractor Opportunity Record: SOLAR (8.265 KW SOLAR / 1 TESLA POWERWALL) - 4706 ARDEN WAY
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## 1.	Updating the previously approved location of the shop on the site. 2.	Provide a revision letter for the new stem walls that will be required along the perimeter of the shop.
@@ -433,8 +433,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNR2025-01034-REV01 Residential; Contractor Opportunity Record: 1.	Updating the previously approved location of the shop on the site. 2.	Provide a revision letter for the new stem walls that will be required along the perimeter of the shop.
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## 259,635 tenant improvement for Cardinal Health
 
@@ -445,10 +445,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Residential development infrastructure, Demolition
 - Evidence Sources: Sacramento County Permits: CBAC2026-00334 Commercial; Contractor Opportunity Record: 259,635 tenant improvement for Cardinal Health
-- Fence Signals: Gate reference: New entrance security gate. (CBAC2026-00334 Commercial)
+- Fence Signals: Gate installation reference: New entrance security gate. (CBAC2026-00334 Commercial)
 - Evidence Snippets: New entrance security gate. (CBAC2026-00334 Commercial)
-- Why Fencing Is Relevant: Source document references gate work that is fencing-relevant: "New entrance security gate."
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: A fencing contractor can bid gate installation work supported by source evidence: "New entrance security gate."
+- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## 8991 Golden Gate Ave: HVAC Changeout.
 
@@ -461,7 +461,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: HACR2026-01311 Residential; Contractor Opportunity Record: 8991 Golden Gate Ave: HVAC Changeout.
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R01:  Magnolia	1184	70 Entry porch 134 Rear porch
@@ -475,7 +475,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNR2026-00563 Residential; Contractor Opportunity Record: AREA: R01:  Magnolia	1184	70 Entry porch 134 Rear porch
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 1850 D Lot 94
@@ -489,7 +489,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00579 Residential; Contractor Opportunity Record: AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 1850 D Lot 94
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 2126 A Lot 93
@@ -503,7 +503,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00580 Residential; Contractor Opportunity Record: AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 2126 A Lot 93
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R02:  Full Pool Demolition
@@ -517,7 +517,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: DMOR2026-00064 Residential; Contractor Opportunity Record: AREA: R02:  Full Pool Demolition
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R02:  SOLAR : HAKIM HUSSAINI
@@ -531,7 +531,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: SOLR2026-00226 Residential; Contractor Opportunity Record: AREA: R02:  SOLAR : HAKIM HUSSAINI
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## AREA: R03:  swimming pool remodel
@@ -545,7 +545,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: SPCR2026-00105 Residential; Contractor Opportunity Record: AREA: R03:  swimming pool remodel
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R03:  Swimming Pool Remodel
@@ -557,9 +557,9 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure, Demolition
 - Evidence Sources: Sacramento County Permits: SPCR2026-00127 Residential; Contractor Opportunity Record: AREA: R03:  Swimming Pool Remodel
-- Fence Signals: Direct fence reference: INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential); Gate reference: INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential)
+- Fence Signals: Fence installation reference: INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential); Fence package reference: INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential)
 - Evidence Snippets: INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential); INSTALL 60' POOL SAFETY FENCING W/ GATE M2. (SPCR2026-00127 Residential)
-- Why Fencing Is Relevant: Source document specifies gate and fencing installation: "INSTALL 60' POOL SAFETY FENCING W/ GATE M2."
+- Why Fencing Is Relevant: A fencing contractor can bid because source documents specify gate and fencing installation: "INSTALL 60' POOL SAFETY FENCING W/ GATE M2."
 - Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## AREA: R04:  Construction of a Steel Building
@@ -573,7 +573,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNR2026-00371 Residential; Contractor Opportunity Record: AREA: R04:  Construction of a Steel Building
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R06:  Addition and remodel
@@ -587,7 +587,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNR2026-00481 Residential; Contractor Opportunity Record: AREA: R06:  Addition and remodel
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## AREA: R06:  Demolition of existing house to framing and stemwalls.
@@ -601,7 +601,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: DMOR2026-00065 Residential; Contractor Opportunity Record: AREA: R06:  Demolition of existing house to framing and stemwalls.
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R07:  Extension of house, update roof geometry, new siding, remod
@@ -615,7 +615,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNR2026-00582 Residential; Contractor Opportunity Record: AREA: R07:  Extension of house, update roof geometry, new siding, remod
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## BEHRENS - SINGLE FAMILY DWELLING   PAPER SUBMITTAL
@@ -629,7 +629,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD19-06467-6032 Single Family > 3000; Contractor Opportunity Record: BEHRENS - SINGLE FAMILY DWELLING   PAPER SUBMITTAL
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Blakely Remodel/Addition***Digital Submittal***
@@ -643,7 +643,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: TRP20-90274-6014 Residential Addition > 3000; Contractor Opportunity Record: Blakely Remodel/Addition***Digital Submittal***
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## Building Compliance: AREA: R05:  CARPORT
@@ -655,10 +655,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNR2026-00494 Residential; Contractor Opportunity Record: Building Compliance: AREA: R05:  CARPORT
-- Fence Signals: Direct fence reference: MOVE CARPORT 3FT FROM FENCE/PROPERTY LINE - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall. (CBNR2026-00494 Residential)
-- Evidence Snippets: MOVE CARPORT 3FT FROM FENCE/PROPERTY LINE - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall. (CBNR2026-00494 Residential)
-- Why Fencing Is Relevant: utility work and residential development infrastructure scope is documented. Fence relevance is supported by source evidence: "MOVE CARPORT 3FT FROM FENCE/PROPERTY LINE - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall." (CBNR2026-00494 Residential).
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## Change to SOLR2025-00308: AREA: R08:  AREA: R08:  PV + ESS
 
@@ -671,7 +671,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: SLCR2026-00042 Residential; Contractor Opportunity Record: Change to SOLR2025-00308: AREA: R08:  AREA: R08:  PV + ESS
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## GARCIA - REMODEL / CONVERSION
@@ -685,7 +685,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-01537-6051 Residential Alteration or Remodel; Contractor Opportunity Record: GARCIA - REMODEL / CONVERSION
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143
@@ -699,7 +699,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD22-00878-6039 Single Family < 3000; Contractor Opportunity Record: GLEN WILLOW RIOLO VINEYARDS PHASE 2 Courtland - Lot 143
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## HAM - ENERGY STORAGE
@@ -713,7 +713,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD20-02032-6046 Electrical; Contractor Opportunity Record: HAM - ENERGY STORAGE
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## Hopkins Village - Lot 29 ***DIGITAL REVIEW***
@@ -727,7 +727,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-02807-6058 Duplex; Contractor Opportunity Record: Hopkins Village - Lot 29 ***DIGITAL REVIEW***
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## HURLEY ADDITION
@@ -741,7 +741,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD18-01308-5996 Residential Addition > 3000; Contractor Opportunity Record: HURLEY ADDITION
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## Ko - Garage Addition***Digital Submittal***
@@ -755,7 +755,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: TRP21-90022-6050 Residential Addition > 3000; Contractor Opportunity Record: Ko - Garage Addition***Digital Submittal***
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241
@@ -769,7 +769,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD22-00093-5990 Single Family < 3000; Contractor Opportunity Record: LENNAR HOMES - Molise - PLACER VINEYARDS 1B MASTER PLAN #3 Lot 241
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## LEVCO - DETACHED GARAGE
@@ -783,7 +783,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-01556-6010 Garage Detached; Contractor Opportunity Record: LEVCO - DETACHED GARAGE
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Lieberman Addition
@@ -797,7 +797,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: TRP18-90133-6027 Residential Addition > 3000; Contractor Opportunity Record: Lieberman Addition
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## MASTER PLAN Placer Vineyards 1A - 2756 Plan #11
@@ -811,7 +811,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD20-06713-6023 Single Family < 3000; Contractor Opportunity Record: MASTER PLAN Placer Vineyards 1A - 2756 Plan #11
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## MECH (HVAC C/O) - 7460 PERSIMMON AVE
@@ -825,7 +825,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISC2026-01071 Commercial; Contractor Opportunity Record: MECH (HVAC C/O) - 7460 PERSIMMON AVE
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS -  LOT 84
@@ -839,7 +839,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-07259-6036 Single Family < 3000; Contractor Opportunity Record: MODEL HOME WOODSIDE HOMES - BRADY VINEYARDS -  LOT 84
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE
@@ -853,7 +853,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-03502-6056 Warehouse TI; Contractor Opportunity Record: PG&E ROCKLIN SEISMIC + BUILDING ENVELOPE UPGRADES PACKAGE
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
 
 ## PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping
@@ -865,10 +865,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Residential development infrastructure
 - Evidence Sources: Placer County Active Building Permits: BLD20-02647-5997 Commercial Electrical Service; Contractor Opportunity Record: PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping
-- Fence Signals: Gate reference: PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping - R-3 VB ELECTRICAL SERVICE PEDESTAL COMMUNITY ENTRY GATES SIGN MONUMENTS AND LANDSCAPE LIGHTING PLAN CHECK COMPLETE - PFH 6/30/2020 - Commercial Electrical Service. (BLD20-02647-5997 Commercial Electrical Service)
-- Evidence Snippets: PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping - R-3 VB ELECTRICAL SERVICE PEDESTAL COMMUNITY ENTRY GATES SIGN MONUMENTS AND LANDSCAPE LIGHTING PLAN CHECK COMPLETE - PFH 6/30/2020 - Commercial Electrical Service. (BLD20-02647-5997 Commercial Electrical Service)
-- Why Fencing Is Relevant: Source document references gate work that is fencing-relevant: "PLACER VINEYARDS Property 1A Village 1A Electrical for Landscaping - R-3 VB ELECTRICAL SERVICE PEDESTAL COMMUNITY ENTRY GATES SIGN MONUMENTS AND LANDSCAPE LIGHTING PLAN CHECK COMPLETE - PFH 6/30/2020 - Commercial Electrical Service."
-- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Electrical / landscape lighting; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
 
 ## POTTER - RESIDENTIAL REROOF
 
@@ -881,7 +881,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-03519-6007 Reroof; Contractor Opportunity Record: POTTER - RESIDENTIAL REROOF
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## PRESBYTERIAN CHURCH PATIO COVER
@@ -895,7 +895,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD20-02541-6029 Non-Residential Accessory; Contractor Opportunity Record: PRESBYTERIAN CHURCH PATIO COVER
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115
@@ -909,7 +909,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: SGNC2026-00065 Commercial; Contractor Opportunity Record: SIGN (Rogers Electric) 4740 NORTHGATE BLVD, NO# 115
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## SOLAR : Rooftop Solar
@@ -923,7 +923,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISR2026-01118 Residential; Contractor Opportunity Record: SOLAR : Rooftop Solar
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
 
 ## AREA: R03:  Replace all windows & install siding on front of home
@@ -937,7 +937,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBRR2026-00705 Residential; Contractor Opportunity Record: AREA: R03:  Replace all windows & install siding on front of home
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## AREA: R05:  Siding and window replacement.
@@ -951,7 +951,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBRR2026-00703 Residential; Contractor Opportunity Record: AREA: R05:  Siding and window replacement.
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## AREA: R06:  remodel/alteration
@@ -965,7 +965,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBAR2026-00648 Residential; Contractor Opportunity Record: AREA: R06:  remodel/alteration
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 10
@@ -979,7 +979,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00217 Commercial; Contractor Opportunity Record: REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 10
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 11
@@ -993,7 +993,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00218 Commercial; Contractor Opportunity Record: REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 11
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 12
@@ -1007,7 +1007,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00219 Commercial; Contractor Opportunity Record: REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 12
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 2
@@ -1021,7 +1021,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00209 Commercial; Contractor Opportunity Record: REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 2
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 3
@@ -1035,7 +1035,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00210 Commercial; Contractor Opportunity Record: REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 3
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 4
@@ -1049,7 +1049,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00211 Commercial; Contractor Opportunity Record: REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 4
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 5
@@ -1063,7 +1063,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00212 Commercial; Contractor Opportunity Record: REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 5
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 6
@@ -1077,7 +1077,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00213 Commercial; Contractor Opportunity Record: REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 6
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 7
@@ -1091,7 +1091,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00214 Commercial; Contractor Opportunity Record: REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 7
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 8
@@ -1105,7 +1105,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00215 Commercial; Contractor Opportunity Record: REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 8
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 9
@@ -1119,7 +1119,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00216 Commercial; Contractor Opportunity Record: REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 9
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA
@@ -1133,7 +1133,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00192 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 615/613 WOODSIDE SIERRA
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA
@@ -1147,7 +1147,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00193 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 628 WOODSIDE SIERRA
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA
@@ -1161,7 +1161,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00194 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 639 WOODSIDE SIERRA
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA
@@ -1175,7 +1175,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00196 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 640/644 WOODSIDE SIERRA
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA
@@ -1189,7 +1189,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00195 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 643 WOODSIDE SIERRA
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA
@@ -1203,7 +1203,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00197 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 736 WOODSIDE SIERRA
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA
@@ -1217,7 +1217,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00198 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 782 WOODSIDE SIERRA
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA
@@ -1231,7 +1231,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00199 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 786 WOODSIDE SIERRA
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA
@@ -1245,7 +1245,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00200 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 861 WOODSIDE SIERRA
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA
@@ -1259,7 +1259,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00201 Commercial; Contractor Opportunity Record: REPAIR (PATIO w/ FOOTINGS) - 865 WOODSIDE SIERRA
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15.
@@ -1273,7 +1273,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISR2026-01941 Residential; Contractor Opportunity Record: SOLAR : 43 MODULES-ROOF MOUNTED - 17.200 KW DC, 11.500 KW AC, & 15.
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
 
 ## AREA: R02:  Built a retaining wall in front yard of home
@@ -1285,10 +1285,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNR2026-00354 Residential; Contractor Opportunity Record: AREA: R02:  Built a retaining wall in front yard of home
-- Fence Signals: Direct fence reference: AREA: R02: Built a retaining wall in front yard of home - retaining wall built and fencing placed on top of the wall - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall. (CBNR2026-00354 Residential); Retaining-wall fencing reference: AREA: R02: Built a retaining wall in front yard of home - retaining wall built and fencing placed on top of the wall - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall. (CBNR2026-00354 Residential)
-- Evidence Snippets: AREA: R02: Built a retaining wall in front yard of home - retaining wall built and fencing placed on top of the wall - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall. (CBNR2026-00354 Residential); AREA: R02: Built a retaining wall in front yard of home - retaining wall built and fencing placed on top of the wall - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall. (CBNR2026-00354 Residential)
-- Why Fencing Is Relevant: utility work and residential development infrastructure scope is documented. Fence relevance is supported by source evidence: "AREA: R02: Built a retaining wall in front yard of home - retaining wall built and fencing placed on top of the wall - New Building, Addition, ADU (not a garage conversion), Deck, Patio Cover, Garage, Barn, Ground Mount Solar, Masonry Wall." (CBNR2026-00354 Residential).
-- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R03:  Issue permits for deck and 117' linear foot retaining wall already built.
 
@@ -1299,10 +1299,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNR2026-00379 Residential; Contractor Opportunity Record: AREA: R03:  Issue permits for deck and 117' linear foot retaining wall already built.
-- Fence Signals: Direct fence reference: - 1) Provide a building permit for fence built on back fill behind the retaining wall. (CBNR2026-00379 Residential); Retaining-wall fencing reference: - 1) Provide a building permit for fence built on back fill behind the retaining wall. (CBNR2026-00379 Residential)
-- Evidence Snippets: - 1) Provide a building permit for fence built on back fill behind the retaining wall. (CBNR2026-00379 Residential); - 1) Provide a building permit for fence built on back fill behind the retaining wall. (CBNR2026-00379 Residential)
-- Why Fencing Is Relevant: utility work and residential development infrastructure scope is documented. Fence relevance is supported by source evidence: "- 1) Provide a building permit for fence built on back fill behind the retaining wall." (CBNR2026-00379 Residential).
-- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: Fence installation reference: - 1) Provide a building permit for fence built on back fill behind the retaining wall. (CBNR2026-00379 Residential)
+- Evidence Snippets: - 1) Provide a building permit for fence built on back fill behind the retaining wall. (CBNR2026-00379 Residential)
+- Why Fencing Is Relevant: A fencing contractor can bid because source documents reference fencing work: "- 1) Provide a building permit for fence built on back fill behind the retaining wall."
+- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## CELL TOWER MOD - 6851 WATT AVE
 
@@ -1313,10 +1313,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNC2026-00135 Commercial; Contractor Opportunity Record: CELL TOWER MOD - 6851 WATT AVE
-- Fence Signals: Direct fence reference: CELL TOWER MOD - 6851 WATT AVE - Modification to an (E) T-Mobile Facility consisting of installing (N) 14'x9' lease area, (N) Chain LInk Fence, (N) 30KW Generator, (N) concrete slab, (N) 200a ATS, (N) shut off switch, (N) fire extinguisher, (1)(N) 2" and (3)(N) 1" underground conduits. (CBNC2026-00135 Commercial); Chain-link fencing reference: CELL TOWER MOD - 6851 WATT AVE - Modification to an (E) T-Mobile Facility consisting of installing (N) 14'x9' lease area, (N) Chain LInk Fence, (N) 30KW Generator, (N) concrete slab, (N) 200a ATS, (N) shut off switch, (N) fire extinguisher, (1)(N) 2" and (3)(N) 1" underground conduits. (CBNC2026-00135 Commercial)
-- Evidence Snippets: CELL TOWER MOD - 6851 WATT AVE - Modification to an (E) T-Mobile Facility consisting of installing (N) 14'x9' lease area, (N) Chain LInk Fence, (N) 30KW Generator, (N) concrete slab, (N) 200a ATS, (N) shut off switch, (N) fire extinguisher, (1)(N) 2" and (3)(N) 1" underground conduits. (CBNC2026-00135 Commercial); CELL TOWER MOD - 6851 WATT AVE - Modification to an (E) T-Mobile Facility consisting of installing (N) 14'x9' lease area, (N) Chain LInk Fence, (N) 30KW Generator, (N) concrete slab, (N) 200a ATS, (N) shut off switch, (N) fire extinguisher, (1)(N) 2" and (3)(N) 1" underground conduits. (CBNC2026-00135 Commercial)
-- Why Fencing Is Relevant: utility work and residential development infrastructure scope is documented. Fence relevance is supported by source evidence: "CELL TOWER MOD - 6851 WATT AVE - Modification to an (E) T-Mobile Facility consisting of installing (N) 14'x9' lease area, (N) Chain LInk Fence, (N) 30KW Generator, (N) concrete slab, (N) 200a ATS, (N) shut off switch, (N) fire extinguisher, (1)(N) 2" and (3)(N) 1" underground conduits." (CBNC2026-00135 Commercial).
-- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: Chain-link fencing reference: CELL TOWER MOD - 6851 WATT AVE - Modification to an (E) T-Mobile Facility consisting of installing (N) 14'x9' lease area, (N) Chain LInk Fence, (N) 30KW Generator, (N) concrete slab, (N) 200a ATS, (N) shut off switch, (N) fire extinguisher, (1)(N) 2" and (3)(N) 1" underground conduits. (CBNC2026-00135 Commercial)
+- Evidence Snippets: CELL TOWER MOD - 6851 WATT AVE - Modification to an (E) T-Mobile Facility consisting of installing (N) 14'x9' lease area, (N) Chain LInk Fence, (N) 30KW Generator, (N) concrete slab, (N) 200a ATS, (N) shut off switch, (N) fire extinguisher, (1)(N) 2" and (3)(N) 1" underground conduits. (CBNC2026-00135 Commercial)
+- Why Fencing Is Relevant: A fencing contractor can bid because source documents reference fencing work: "CELL TOWER MOD - 6851 WATT AVE - Modification to an (E) T-Mobile Facility consisting of installing (N) 14'x9' lease area, (N) Chain LInk Fence, (N) 30KW Generator, (N) concrete slab, (N) 200a ATS, (N) shut off switch, (N) fire extinguisher, (1)(N) 2" and (3)(N) 1" underground conduits."
+- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## SOLAR : Installation of roof mounted solar system along with batter
 
@@ -1329,7 +1329,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISR2026-01277 Residential; Contractor Opportunity Record: SOLAR : Installation of roof mounted solar system along with batter
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
 
 ## TI (INTERIOR & EXTERIOR) - 4640 NORTHGATE BLVD (STE 100)
@@ -1343,7 +1343,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBAC2026-00144 Commercial; Contractor Opportunity Record: TI (INTERIOR & EXTERIOR) - 4640 NORTHGATE BLVD (STE 100)
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## AREA: R07:  AREA: R07:  AREA: R07:  AREA: R07:  Plot Plan Revision. Fen
@@ -1355,10 +1355,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: PHCR2025-00843-REV01 Residential; Contractor Opportunity Record: AREA: R07:  AREA: R07:  AREA: R07:  AREA: R07:  Plot Plan Revision. Fen
-- Fence Signals: Retaining-wall fencing reference: Fence note revised from Masonry wall to wood retaining wall. (PHCR2025-00843-REV01 Residential)
-- Evidence Snippets: Fence note revised from Masonry wall to wood retaining wall. (PHCR2025-00843-REV01 Residential)
-- Why Fencing Is Relevant: residential development infrastructure scope is documented. Fence relevance is supported by source evidence: "Fence note revised from Masonry wall to wood retaining wall." (PHCR2025-00843-REV01 Residential).
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## CARROLL - ADDITION / REMODEL
 
@@ -1371,8 +1371,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-01210-6019 Residential Alteration or Remodel; Contractor Opportunity Record: CARROLL - ADDITION / REMODEL
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Emilia - Lot 63
 
@@ -1385,7 +1385,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-04612-5988 Single Family < 3000; Contractor Opportunity Record: Emilia - Lot 63
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## GATZ - ADDITION
@@ -1399,8 +1399,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-04057-6034 Residential Addition < 3000; Contractor Opportunity Record: GATZ - ADDITION
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: Primary scope is Residential development; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Gist Covered Entry
 
@@ -1413,8 +1413,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: TRP19-90024-6009 Residential Addition > 3000; Contractor Opportunity Record: Gist Covered Entry
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: Primary scope is Residential development; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Indian Hill Condo - Deck Rail replacement
 
@@ -1427,8 +1427,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-05042-6052 Residential Alteration or Remodel; Contractor Opportunity Record: Indian Hill Condo - Deck Rail replacement
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Installation of electric sliding gate
 
@@ -1439,10 +1439,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNC2026-00122-REV03 Commercial; Contractor Opportunity Record: Installation of electric sliding gate
-- Fence Signals: Gate reference: Installation of electric sliding gate. (CBNC2026-00122-REV03 Commercial)
+- Fence Signals: Gate installation reference: Installation of electric sliding gate. (CBNC2026-00122-REV03 Commercial)
 - Evidence Snippets: Installation of electric sliding gate. (CBNC2026-00122-REV03 Commercial)
-- Why Fencing Is Relevant: Source document references gate work that is fencing-relevant: "Installation of electric sliding gate."
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: A fencing contractor can bid gate installation work supported by source evidence: "Installation of electric sliding gate."
+- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## JAEGAR GARAGE
 
@@ -1455,7 +1455,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD20-03260-6024 Garage Detached; Contractor Opportunity Record: JAEGAR GARAGE
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## Lennar Homes - Emilia  - Placer Vineyards Property 1A  MASTER PLAN #9 Lot 124
@@ -1469,7 +1469,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-01215-5986 Single Family < 3000; Contractor Opportunity Record: Lennar Homes - Emilia  - Placer Vineyards Property 1A  MASTER PLAN #9 Lot 124
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## LENNAR HOMES - Molise - PLACER VINEYARDS 1B - MASTER PLAN #3  Lot 213
@@ -1483,7 +1483,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-05713-6037 Single Family < 3000; Contractor Opportunity Record: LENNAR HOMES - Molise - PLACER VINEYARDS 1B - MASTER PLAN #3  Lot 213
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## MASTER PLAN Placer Vineyards 1A - 2579 Plan #10
@@ -1497,7 +1497,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD20-06712-6021 Single Family < 3000; Contractor Opportunity Record: MASTER PLAN Placer Vineyards 1A - 2579 Plan #10
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## NEAL ADDITION
@@ -1511,8 +1511,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-00530-6018 Residential Addition < 3000; Contractor Opportunity Record: NEAL ADDITION
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Placer Vineyards - Property IB - Molise - Lot 205
 
@@ -1525,7 +1525,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-05324-6038 Single Family < 3000; Contractor Opportunity Record: Placer Vineyards - Property IB - Molise - Lot 205
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## Rodriggs DEMO ** Paper Plans**
@@ -1539,7 +1539,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD22-01030-6001 Demolition Residential Dwelling; Contractor Opportunity Record: Rodriggs DEMO ** Paper Plans**
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Residential development; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## SPRINGHILL SUITES SIGN AND ROCK WALL
@@ -1553,7 +1553,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-00971-6041 Signs; Contractor Opportunity Record: SPRINGHILL SUITES SIGN AND ROCK WALL
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## TNHC - EUREKA GROVE - THE COTTAGES - MASTER PLAN # 2 LOT 46
@@ -1567,7 +1567,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-07295-6011 Single Family < 3000; Contractor Opportunity Record: TNHC - EUREKA GROVE - THE COTTAGES - MASTER PLAN # 2 LOT 46
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## TNHC - EUREKA GROVE - THE COTTAGES - MASTER PLAN #1 LOT 47
@@ -1581,7 +1581,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-07296-6040 Single Family < 3000; Contractor Opportunity Record: TNHC - EUREKA GROVE - THE COTTAGES - MASTER PLAN #1 LOT 47
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## Village Walk Townhomes Unit #21 ***DIGITAL REVIEW***
@@ -1595,8 +1595,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD20-00993-5999 Single Family > 3000; Contractor Opportunity Record: Village Walk Townhomes Unit #21 ***DIGITAL REVIEW***
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: Primary scope is Residential development; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Village Walk Townhomes Unit #27 ******DIGITAL REVIEW*****
 
@@ -1609,8 +1609,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD20-00999-5992 Single Family > 3000; Contractor Opportunity Record: Village Walk Townhomes Unit #27 ******DIGITAL REVIEW*****
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: Primary scope is Residential development; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## AREA: R10:  Non-structural reroofing, will replace tile roofing, underl
 
@@ -1623,7 +1623,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: RERR2026-00205 Residential; Contractor Opportunity Record: AREA: R10:  Non-structural reroofing, will replace tile roofing, underl
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R01:  installation of NEW PHOTOVOLTAIC SYSTEM 7.92 KW DC/11.50 KW
@@ -1637,7 +1637,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: SOLR2026-00249 Residential; Contractor Opportunity Record: AREA: R01:  installation of NEW PHOTOVOLTAIC SYSTEM 7.92 KW DC/11.50 KW
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R01:  NEW PHOTOVOLTAIC SYSTEM 9.24 KW DC/11.50 KW AC, WITH ESS
@@ -1651,7 +1651,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: SOLR2026-00223 Residential; Contractor Opportunity Record: AREA: R01:  NEW PHOTOVOLTAIC SYSTEM 9.24 KW DC/11.50 KW AC, WITH ESS
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R03:  remodeling living room
@@ -1665,7 +1665,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBAR2026-00651 Residential; Contractor Opportunity Record: AREA: R03:  remodeling living room
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R04:  23.76kW PV + ESS Installation
@@ -1679,7 +1679,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: SOLR2026-00227 Residential; Contractor Opportunity Record: AREA: R04:  23.76kW PV + ESS Installation
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R01:  7240 Rio Linda 3, Rio Linda, CA. SFR
@@ -1693,7 +1693,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNR2026-00573 Residential; Contractor Opportunity Record: AREA: R01:  7240 Rio Linda 3, Rio Linda, CA. SFR
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
 
 ## AREA: R03:  Like-for-like replacement of tankless water heater and gas
@@ -1707,7 +1707,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISR2026-01474 Residential; Contractor Opportunity Record: AREA: R03:  Like-for-like replacement of tankless water heater and gas
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## AREA: R03:  Masonry wall construction
@@ -1719,10 +1719,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNR2026-00533 Residential; Contractor Opportunity Record: AREA: R03:  Masonry wall construction
-- Fence Signals: Gate reference: There will be two gates, with one on the north and one on the south sides of the wall. (CBNR2026-00533 Residential)
-- Evidence Snippets: There will be two gates, with one on the north and one on the south sides of the wall. (CBNR2026-00533 Residential)
-- Why Fencing Is Relevant: Source document references gate work that is fencing-relevant: "There will be two gates, with one on the north and one on the south sides of the wall."
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R03:  REMOVING 2 EXTERIOR WALLS AND (1) INTERIOR WALL. ADDITION O
 
@@ -1735,7 +1735,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNR2026-00570 Residential; Contractor Opportunity Record: AREA: R03:  REMOVING 2 EXTERIOR WALLS AND (1) INTERIOR WALL. ADDITION O
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## AREA: R05:  Repipe house drain system
@@ -1749,7 +1749,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISR2026-01568 Residential; Contractor Opportunity Record: AREA: R05:  Repipe house drain system
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 4 negative evidence signal(s).
 
 ## AREA: R06:  ESS
@@ -1763,7 +1763,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISR2026-01338-REV01 Residential; Contractor Opportunity Record: AREA: R06:  ESS
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R06:  raise fence height to 7 ft max
@@ -1775,10 +1775,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNR2026-00556 Residential; Contractor Opportunity Record: AREA: R06:  raise fence height to 7 ft max
-- Fence Signals: Direct fence reference: AREA: R06: raise fence height to 7 ft max. (CBNR2026-00556 Residential)
-- Evidence Snippets: AREA: R06: raise fence height to 7 ft max. (CBNR2026-00556 Residential)
-- Why Fencing Is Relevant: utility work and residential development infrastructure scope is documented. Fence relevance is supported by source evidence: "AREA: R06: raise fence height to 7 ft max." (CBNR2026-00556 Residential).
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: Fence installation reference: AREA: R06: raise fence height to 7 ft max. (CBNR2026-00556 Residential); Fence package reference: AREA: R06: raise fence height to 7 ft max. (CBNR2026-00556 Residential)
+- Evidence Snippets: AREA: R06: raise fence height to 7 ft max. (CBNR2026-00556 Residential); AREA: R06: raise fence height to 7 ft max. (CBNR2026-00556 Residential)
+- Why Fencing Is Relevant: A fencing contractor can bid because source documents reference fencing work: "AREA: R06: raise fence height to 7 ft max."
+- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-08 Elevation
 
@@ -1791,7 +1791,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00567 Residential; Contractor Opportunity Record: AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-08 Elevation
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-09 Elevation
@@ -1805,7 +1805,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00568 Residential; Contractor Opportunity Record: AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-09 Elevation
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation
@@ -1819,7 +1819,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00572 Residential; Contractor Opportunity Record: AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation
@@ -1833,7 +1833,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00570 Residential; Contractor Opportunity Record: AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-11 Elevation
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R07:  Repairs After Fire Damage
@@ -1847,7 +1847,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBRR2026-00723 Residential; Contractor Opportunity Record: AREA: R07:  Repairs After Fire Damage
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## AREA: R08:  Pouring Driveway over culvert with an automatic gate and bu
@@ -1859,9 +1859,9 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Drainage improvements, Utility work, Site access improvements, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNR2026-00389 Residential; Contractor Opportunity Record: AREA: R08:  Pouring Driveway over culvert with an automatic gate and bu
-- Fence Signals: Gate reference: AREA: R08: Pouring Driveway over culvert with an automatic gate and bu. (CBNR2026-00389 Residential)
+- Fence Signals: Gate installation reference: AREA: R08: Pouring Driveway over culvert with an automatic gate and bu. (CBNR2026-00389 Residential)
 - Evidence Snippets: AREA: R08: Pouring Driveway over culvert with an automatic gate and bu. (CBNR2026-00389 Residential)
-- Why Fencing Is Relevant: Source document references gate work that is fencing-relevant: "AREA: R08: Pouring Driveway over culvert with an automatic gate and bu."
+- Why Fencing Is Relevant: A fencing contractor can bid gate installation work supported by source evidence: "AREA: R08: Pouring Driveway over culvert with an automatic gate and bu."
 - Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Building a 9 foot steel gate
@@ -1873,10 +1873,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNR2026-00319 Residential; Contractor Opportunity Record: Building a 9 foot steel gate
-- Fence Signals: Gate reference: Building a 9 foot steel gate. (CBNR2026-00319 Residential)
+- Fence Signals: Gate installation reference: Building a 9 foot steel gate. (CBNR2026-00319 Residential)
 - Evidence Snippets: Building a 9 foot steel gate. (CBNR2026-00319 Residential)
-- Why Fencing Is Relevant: Source document references gate work that is fencing-relevant: "Building a 9 foot steel gate."
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: A fencing contractor can bid gate installation work supported by source evidence: "Building a 9 foot steel gate."
+- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD
 
@@ -1887,10 +1887,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNC2026-00185 Commercial; Contractor Opportunity Record: Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD
-- Fence Signals: Direct fence reference: Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD. (CBNC2026-00185 Commercial)
-- Evidence Snippets: Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD. (CBNC2026-00185 Commercial)
-- Why Fencing Is Relevant: utility work and residential development infrastructure scope is documented. Fence relevance is supported by source evidence: "Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD." (CBNC2026-00185 Commercial).
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: Fence installation reference: Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD. (CBNC2026-00185 Commercial); Fence package reference: Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD. (CBNC2026-00185 Commercial)
+- Evidence Snippets: Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD. (CBNC2026-00185 Commercial); Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD. (CBNC2026-00185 Commercial)
+- Why Fencing Is Relevant: A fencing contractor can bid because source documents reference fencing work: "Building Compliance: TI (INTERIOR REMODEL&NEW FENCE) - 6201 BRADSHAW RD."
+- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## ELEC (100 A SERVICE) - 11583 VALENSIN RD
 
@@ -1903,8 +1903,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISC2026-00910 Commercial; Contractor Opportunity Record: ELEC (100 A SERVICE) - 11583 VALENSIN RD
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## HVAC change out: HVAC Changeout.
 
@@ -1917,7 +1917,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: HACR2026-01443 Residential; Contractor Opportunity Record: HVAC change out: HVAC Changeout.
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE
@@ -1929,10 +1929,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBNC2026-00161 Commercial; Contractor Opportunity Record: NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE
-- Fence Signals: Direct fence reference: NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE. (CBNC2026-00161 Commercial); Gate reference: NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE. (CBNC2026-00161 Commercial)
-- Evidence Snippets: NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE. (CBNC2026-00161 Commercial); NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE. (CBNC2026-00161 Commercial)
-- Why Fencing Is Relevant: Source document specifies gate and fencing installation: "NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE."
-- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: Fence installation reference: NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE. (CBNC2026-00161 Commercial); Fence package reference: NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE. (CBNC2026-00161 Commercial); Gate installation reference: NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE. (CBNC2026-00161 Commercial)
+- Evidence Snippets: NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE. (CBNC2026-00161 Commercial); NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE. (CBNC2026-00161 Commercial); NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE. (CBNC2026-00161 Commercial)
+- Why Fencing Is Relevant: A fencing contractor can bid because source documents specify gate and fencing installation: "NEW (GATES/FENCE & TI INT OFFICE-CLASS ROOM) 5033 WHITNEY AVE."
+- Confidence Reasoning: Primary Opportunity: 2 related evidence record(s), 3 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## NEW (TELECOMMUNICATIONS FACILITY / ANTENNAS) - 10590 REIGL RD
 
@@ -1945,7 +1945,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00154 Commercial; Contractor Opportunity Record: NEW (TELECOMMUNICATIONS FACILITY / ANTENNAS) - 10590 REIGL RD
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## Pipe Burst, Inversion Liner, Drain Repipe: Sewer Line Replacement or Repair.
@@ -1957,10 +1957,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Earthwork, Utility work, Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: SEWR2026-00059 Residential; Contractor Opportunity Record: Pipe Burst, Inversion Liner, Drain Repipe: Sewer Line Replacement or Repair.
-- Fence Signals: Direct fence reference: -TTC will replace approximately 45FT of existing 4 inch Cast Iron and Asbestos Cement sewer pipe from the two-way clean out located behind the house to the 4 inch ABS plastic County clean out located by the fence, with new 4 inch HDPE SDR17 sewer pipe. (SEWR2026-00059 Residential)
-- Evidence Snippets: -TTC will replace approximately 45FT of existing 4 inch Cast Iron and Asbestos Cement sewer pipe from the two-way clean out located behind the house to the 4 inch ABS plastic County clean out located by the fence, with new 4 inch HDPE SDR17 sewer pipe. (SEWR2026-00059 Residential)
-- Why Fencing Is Relevant: earthwork, utility work, residential development infrastructure, and utilities scope is documented. Fence relevance is supported by source evidence: "-TTC will replace approximately 45FT of existing 4 inch Cast Iron and Asbestos Cement sewer pipe from the two-way clean out located behind the house to the 4 inch ABS plastic County clean out located by the fence, with new 4 inch HDPE SDR17 sewer pipe." (SEWR2026-00059 Residential).
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: None
+- Evidence Snippets: None
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## SOLAR : AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-09A  LOT 276
 
@@ -1973,7 +1973,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PHCR2026-00565 Residential; Contractor Opportunity Record: SOLAR : AREA: R07:  Florin Vineyards I & II - Village 2 - Plan 45-09A  LOT 276
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## SOLAR : Install a roof-mounted 4.6 kW DC solar system with 10 REC46
@@ -1987,7 +1987,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISR2026-01237 Residential; Contractor Opportunity Record: SOLAR : Install a roof-mounted 4.6 kW DC solar system with 10 REC46
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
 
 ## AREA: R01:  Chris Foster - Garmisch Ct
@@ -2001,8 +2001,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISR2026-00962-REV01 Residential; Contractor Opportunity Record: AREA: R01:  Chris Foster - Garmisch Ct
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## AREA: R01:  Fence
 
@@ -2013,10 +2013,10 @@ Generated: 2026-07-09T05:32:02.723Z
 - Applicant: Unknown
 - Work Categories: Residential development infrastructure
 - Evidence Sources: Sacramento County Permits: CBRR2026-00454 Residential; Contractor Opportunity Record: AREA: R01:  Fence
-- Fence Signals: Direct fence reference: AREA: R01: Fence. (CBRR2026-00454 Residential); Gate reference: AREA: R01: Fence - I am wanting to re-build the front section of my fence where the gate is to my side yard. (CBRR2026-00454 Residential)
-- Evidence Snippets: AREA: R01: Fence. (CBRR2026-00454 Residential); AREA: R01: Fence - I am wanting to re-build the front section of my fence where the gate is to my side yard. (CBRR2026-00454 Residential)
-- Why Fencing Is Relevant: residential development infrastructure scope is documented. Fence relevance is supported by source evidence: "AREA: R01: Fence." (CBRR2026-00454 Residential).
-- Confidence Reasoning: Secondary Opportunity: 2 related evidence record(s), 2 positive evidence signal(s), and 0 negative evidence signal(s).
+- Fence Signals: Fence installation reference: AREA: R01: Fence - I am wanting to re-build the front section of my fence where the gate is to my side yard. (CBRR2026-00454 Residential)
+- Evidence Snippets: AREA: R01: Fence - I am wanting to re-build the front section of my fence where the gate is to my side yard. (CBRR2026-00454 Residential)
+- Why Fencing Is Relevant: A fencing contractor can bid because source documents specify gate and fencing installation: "AREA: R01: Fence - I am wanting to re-build the front section of my fence where the gate is to my side yard."
+- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 1 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## TI (INTERIOR DEMO) - 5411 LUCE AVE (BLDG242)
 
@@ -2029,7 +2029,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBAC2026-00329 Commercial; Contractor Opportunity Record: TI (INTERIOR DEMO) - 5411 LUCE AVE (BLDG242)
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R01:  Roof mounted residential solar with main panel upgrade
@@ -2043,7 +2043,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: SOLR2026-00234 Residential; Contractor Opportunity Record: AREA: R01:  Roof mounted residential solar with main panel upgrade
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## AREA: R03:  SolarApp | SA20260325-2133-109-15606-B | 10.250kW PV Roof M
@@ -2057,7 +2057,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: SOLR2026-00218 Residential; Contractor Opportunity Record: AREA: R03:  SolarApp | SA20260325-2133-109-15606-B | 10.250kW PV Roof M
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## AREA: R04:  Swimming Pool Remodel
@@ -2071,7 +2071,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: SPCR2026-00067 Residential; Contractor Opportunity Record: AREA: R04:  Swimming Pool Remodel
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## FITZGERALD HVAC
@@ -2085,7 +2085,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD19-04877-6054 Mechanical; Contractor Opportunity Record: FITZGERALD HVAC
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## HOLZMULLER RM SOLAR
@@ -2099,7 +2099,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD22-00811-6013 Solar Roof Mount; Contractor Opportunity Record: HOLZMULLER RM SOLAR
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
 
 ## REPAIR (DRY ROT) - 3131 EL CAMINO AVE
@@ -2113,7 +2113,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBRC2026-00336 Commercial; Contractor Opportunity Record: REPAIR (DRY ROT) - 3131 EL CAMINO AVE
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14)
@@ -2127,7 +2127,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBRC2026-00323 Commercial; Contractor Opportunity Record: REPAIR (DRY ROT) - 4829 PASAROBLES DR (UNITS 8-14)
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97)
@@ -2141,7 +2141,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBRC2026-00390 Commercial; Contractor Opportunity Record: REPAIR (SIDING, ENTRY, ROOF DECKS) 1931 BELL ST (UNITS #91,92,97)
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair.
@@ -2155,8 +2155,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PANR2026-00722 Residential; Contractor Opportunity Record: REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair.
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+- Why Fencing Is Relevant: Primary scope is Electrical / landscape lighting; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## REROOF PROJECT-DWELLING; Re-roof or Overlay Only.
 
@@ -2169,7 +2169,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: RRZR2026-01430 Residential; Contractor Opportunity Record: REROOF PROJECT-DWELLING; Re-roof or Overlay Only.
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## SAEED - SOLAR RM
@@ -2183,7 +2183,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-02547-5985 Solar Roof Mount; Contractor Opportunity Record: SAEED - SOLAR RM
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
 
 ## TI (INT EQPT CURB) 6233 BALCKTOP RD
@@ -2197,7 +2197,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBAC2026-00331 Commercial; Contractor Opportunity Record: TI (INT EQPT CURB) 6233 BALCKTOP RD
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair.
@@ -2211,8 +2211,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: PANR2026-00727 Residential; Contractor Opportunity Record: UPGRADE MSP 100A TO 200A: Electric Service Panel Replacement or Repair.
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
-- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
+- Why Fencing Is Relevant: Primary scope is Electrical / landscape lighting; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 2 negative evidence signal(s).
 
 ## WOLFE - SOLAR RM / ESS
 
@@ -2225,7 +2225,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-06664-6048 Solar Roof Mount; Contractor Opportunity Record: WOLFE - SOLAR RM / ESS
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 3 negative evidence signal(s).
 
 ## 6980 WLB LLC - SFD, Lot #5
@@ -2239,8 +2239,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: TRP19-90136-6000 Single Family > 3000; Contractor Opportunity Record: 6980 WLB LLC - SFD, Lot #5
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: Primary scope is Residential development; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## AREA: R05:  Demolish existing roof/deck structures around stairs and re
 
@@ -2253,7 +2253,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBRR2026-00719 Residential; Contractor Opportunity Record: AREA: R05:  Demolish existing roof/deck structures around stairs and re
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## Baldetti Deck Addition
@@ -2267,7 +2267,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: TRP15-90188-6042 Wood Deck > 30 inch Above Grade; Contractor Opportunity Record: Baldetti Deck Addition
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Residential development; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## BREWER - DETACHED GARAGE
@@ -2281,7 +2281,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-06544-6053 Garage Detached; Contractor Opportunity Record: BREWER - DETACHED GARAGE
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Campbell-Reroof
@@ -2295,7 +2295,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD22-01839-6049 Reroof; Contractor Opportunity Record: Campbell-Reroof
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Roofing; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## FECHNER - SFD    ****PAPER REVIEW****
@@ -2309,7 +2309,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-06112-6026 Single Family > 3000; Contractor Opportunity Record: FECHNER - SFD    ****PAPER REVIEW****
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Residential development; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## HECKENDORN - POOL SOLAR
@@ -2323,7 +2323,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-01365-5998 Plumbing; Contractor Opportunity Record: HECKENDORN - POOL SOLAR
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## Hopkins Village - Lot 35 ***DIGITAL REVIEW***
@@ -2337,7 +2337,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-02804-6057 Duplex; Contractor Opportunity Record: Hopkins Village - Lot 35 ***DIGITAL REVIEW***
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## Hopkins Village - Unit 16 ***DIGITAL REVIEW***
@@ -2351,7 +2351,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-04742-6004 Single Family > 3000; Contractor Opportunity Record: Hopkins Village - Unit 16 ***DIGITAL REVIEW***
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## Hopkins Village - Unit 42 ***DIGITAL REVIEW***
@@ -2365,7 +2365,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-04762-6012 Single Family > 3000; Contractor Opportunity Record: Hopkins Village - Unit 42 ***DIGITAL REVIEW***
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## HVAC conversion to HP
@@ -2379,7 +2379,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: MISC2026-01230 Commercial; Contractor Opportunity Record: HVAC conversion to HP
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## Icenogle - SFD
@@ -2393,7 +2393,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: TRP18-90238-6005 Single Family > 3000; Contractor Opportunity Record: Icenogle - SFD
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Residential development; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## KOLAR- SFD  ***DIGITAL REVIEW***
@@ -2407,7 +2407,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-03155-6035 Single Family > 3000; Contractor Opportunity Record: KOLAR- SFD  ***DIGITAL REVIEW***
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## MONSOUR - DECK ADDITION AND REBUILD
@@ -2421,7 +2421,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: TRP19-90185-6043 Wood Deck > 30 inch Above Grade; Contractor Opportunity Record: MONSOUR - DECK ADDITION AND REBUILD
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## NEVADA WAY PROPERTIES SIDING REPAIR
@@ -2435,7 +2435,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD20-03601-6006 Siding; Contractor Opportunity Record: NEVADA WAY PROPERTIES SIDING REPAIR
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Pinyon Creek II  Unit 13
@@ -2449,7 +2449,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD19-01827-6025 Single Family > 3000; Contractor Opportunity Record: Pinyon Creek II  Unit 13
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## Pinyon Creek II  Unit 6-C2
@@ -2463,7 +2463,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD19-06407-6020 Single Family > 3000; Contractor Opportunity Record: Pinyon Creek II  Unit 6-C2
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## RIVARD -DECK DEMO
@@ -2477,7 +2477,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD19-05699-6059 Demolition Other; Contractor Opportunity Record: RIVARD -DECK DEMO
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## YALANJI  STUCCO REPAIR
@@ -2491,7 +2491,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD19-04462-6003 Repair; Contractor Opportunity Record: YALANJI  STUCCO REPAIR
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## AREA: R02:  Pool Demolition (Partial)
@@ -2505,7 +2505,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: DMOR2026-00044 Residential; Contractor Opportunity Record: AREA: R02:  Pool Demolition (Partial)
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Drainage / water infrastructure; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R03:  Foundation Repair
@@ -2519,8 +2519,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNR2023-01164-REV02 Residential; Contractor Opportunity Record: AREA: R03:  Foundation Repair
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## ALVAREZ-GENERATOR    ****DIGITAL REVIEW****
 
@@ -2533,7 +2533,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD20-05333-5995 Electrical; Contractor Opportunity Record: ALVAREZ-GENERATOR    ****DIGITAL REVIEW****
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## ANDREWS - ELECTRICAL
@@ -2547,7 +2547,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD22-01936-5991 Electrical; Contractor Opportunity Record: ANDREWS - ELECTRICAL
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R06:  bathroom remodel
@@ -2561,7 +2561,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBAR2026-00645 Residential; Contractor Opportunity Record: AREA: R06:  bathroom remodel
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## AREA: R07:  Addition/Remodel
@@ -2575,7 +2575,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBAR2026-00667 Residential; Contractor Opportunity Record: AREA: R07:  Addition/Remodel
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Interior remodel / TI; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## BLACKWELL SHED
@@ -2589,7 +2589,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-05070-6028 Shop; Contractor Opportunity Record: BLACKWELL SHED
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## BOCO- HVAC C/O
@@ -2603,7 +2603,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-02741-5994 Mechanical; Contractor Opportunity Record: BOCO- HVAC C/O
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## BORRET HVAC C/O
@@ -2617,7 +2617,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-03587-6055 Mechanical; Contractor Opportunity Record: BORRET HVAC C/O
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## CAMERON ELECTRICAL UPGRADE
@@ -2631,7 +2631,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD22-01519-6017 Electrical Service; Contractor Opportunity Record: CAMERON ELECTRICAL UPGRADE
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Electrical / landscape lighting; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## CHEN - Ground mount solar project
@@ -2645,7 +2645,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD19-04817-6015 Solar Ground Mount; Contractor Opportunity Record: CHEN - Ground mount solar project
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## DURK POOL
@@ -2659,7 +2659,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD22-01198-6002 Swimming Pool; Contractor Opportunity Record: DURK POOL
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## EMERSON - HVAC C/O
@@ -2673,7 +2673,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-07073-6047 Mechanical; Contractor Opportunity Record: EMERSON - HVAC C/O
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## ESSY STORAGE BUILDING
@@ -2687,7 +2687,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-07092-6016 Storage Shed; Contractor Opportunity Record: ESSY STORAGE BUILDING
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## FRANSCELLA - POOL
@@ -2701,7 +2701,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD22-01768-6008 Swimming Pool; Contractor Opportunity Record: FRANSCELLA - POOL
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Gallery - Detached Garage
@@ -2715,7 +2715,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD22-02150-6022 Garage Detached; Contractor Opportunity Record: Gallery - Detached Garage
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## Garcia - HVAC C/O LIKE FOR LIKE
@@ -2729,7 +2729,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD20-05251-6044 Mechanical; Contractor Opportunity Record: Garcia - HVAC C/O LIKE FOR LIKE
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## GOLD WATER HEATER
@@ -2743,7 +2743,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD20-05632-6031 Water Heater; Contractor Opportunity Record: GOLD WATER HEATER
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## KOPP - UNDERGROUND ELECTRICAL SERVICE
@@ -2757,7 +2757,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD20-02755-5993 Electrical; Contractor Opportunity Record: KOPP - UNDERGROUND ELECTRICAL SERVICE
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Electrical / landscape lighting; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## LOCKE MECHANICAL
@@ -2771,7 +2771,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD21-07509-6033 Mechanical; Contractor Opportunity Record: LOCKE MECHANICAL
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## MARIOPSA LOT 44 MASTER PLAN 2  / ELEV A / GAR R
@@ -2785,8 +2785,8 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD19-05796-5987 Single Family > 3000; Contractor Opportunity Record: MARIOPSA LOT 44 MASTER PLAN 2  / ELEV A / GAR R
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Treat fencing as unconfirmed until stronger evidence is connected.
-- Confidence Reasoning: Possible Opportunity: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
+- Why Fencing Is Relevant: Primary scope is Residential development; no fencing evidence found.
+- Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## RICHARDS WATER PLUMBING REPLACEMENT
 
@@ -2799,7 +2799,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD14-00840-6030 Plumbing; Contractor Opportunity Record: RICHARDS WATER PLUMBING REPLACEMENT
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## SCHAEFER- HVAC CHANGE OUT
@@ -2813,7 +2813,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD22-00104-6045 Mechanical; Contractor Opportunity Record: SCHAEFER- HVAC CHANGE OUT
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is HVAC / mechanical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## STRUC (EXT CANOPY) 2031 DOME LN
@@ -2827,7 +2827,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBNC2026-00206 Commercial; Contractor Opportunity Record: STRUC (EXT CANOPY) 2031 DOME LN
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## WOODSIDE HOMES - BRADY VINEYARDS - MASTER PLAN #6 - LOT 98
@@ -2841,7 +2841,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Placer County Active Building Permits: BLD22-00227-5989 Single Family < 3000; Contractor Opportunity Record: WOODSIDE HOMES - BRADY VINEYARDS - MASTER PLAN #6 - LOT 98
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: Primary scope is Solar / electrical; no fencing evidence found.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 1 negative evidence signal(s).
 
 ## REPAIR (DECK) - 258 SELBY RANCH RD
@@ -2855,7 +2855,7 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CBRC2026-00465 Commercial; Contractor Opportunity Record: REPAIR (DECK) - 258 SELBY RANCH RD
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).
 
 ## RCCC WILD HORSE PROGRAM HAY BARN CARPORT
@@ -2869,5 +2869,5 @@ Generated: 2026-07-09T05:32:02.723Z
 - Evidence Sources: Sacramento County Permits: CCBP2025-00050-REV01 Commercial; Contractor Opportunity Record: RCCC WILD HORSE PROGRAM HAY BARN CARPORT
 - Fence Signals: None
 - Evidence Snippets: None
-- Why Fencing Is Relevant: No direct fencing references found. Additional document review is required before treating this as a fencing opportunity.
+- Why Fencing Is Relevant: No bid-able fencing scope found. Additional document review is required before treating this as a fencing opportunity.
 - Confidence Reasoning: No Evidence: 2 related evidence record(s), 0 positive evidence signal(s), and 0 negative evidence signal(s).

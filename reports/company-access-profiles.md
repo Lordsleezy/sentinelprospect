@@ -1,6 +1,6 @@
 # Company Access Profiles
 
-Generated: 2026-07-09T05:32:00.461Z
+Generated: 2026-07-09T06:34:36.714Z
 
 | Company | Type | Entry Method | Vendor Registration | Trade Partner Registration | Bid Portal | Procurement Path | Approval Required | Known Routes | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

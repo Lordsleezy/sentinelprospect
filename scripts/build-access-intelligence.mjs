@@ -345,10 +345,12 @@ function bestProcurementPath(paths) {
 }
 
 function fenceProbability(opportunity) {
-  let probability = opportunity.fencing_signal_presence ? 72 : 12;
-  if (/fenc|gate|perimeter|security/i.test(opportunity.project_name)) probability += 18;
-  if (/subdivision|residential|site work|utility|utilities|electrical/i.test(`${opportunity.trade} ${opportunity.project_name}`)) probability += 10;
-  return Math.min(100, probability);
+  // Legacy field retained for compatibility; search UI no longer uses this as fencing confidence.
+  if (!opportunity.fencing_signal_presence) return 8;
+  let probability = 40;
+  if (/\b(fence|fencing|new\s*\(?gates?|sliding gate|automatic gate|steel gate|security gate)\b/i.test(opportunity.project_name)) probability += 30;
+  if (/electrical|solar|hvac|roof|landscape lighting/i.test(`${opportunity.trade} ${opportunity.project_name}`)) probability -= 25;
+  return Math.max(0, Math.min(100, probability));
 }
 
 function companyByType(opportunity, type) {

@@ -1,6 +1,6 @@
 # Top 20 Companies
 
-Generated: 2026-07-09T05:32:00.462Z
+Generated: 2026-07-09T06:34:36.717Z
 
 | Company | Type | Projects | Evidence Count | Procurement Paths | Relationship Count | Access Routes | Entry Method | Access Score | Fencing Signals | Qualified Opportunities | Actionable Opportunities | Research Required | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

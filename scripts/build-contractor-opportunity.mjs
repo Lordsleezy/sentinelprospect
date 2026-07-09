@@ -277,6 +277,7 @@ function hasTradeContractorSaturation(companyName, model) {
 function isNoiseMatch(text, trade) {
   if (trade === "Fencing" && /(demo \(shed\)|shed demolition|small shed|single gate|gate replacement|deck rail replacement)/i.test(text)) return true;
   if (trade === "Fencing" && /(solar|photovoltaic|energy storage)/i.test(text)) return true;
+  if (trade === "Fencing" && /(electrical for landscaping|commercial electrical service|electrical service pedestal|landscape lighting|service pedestal)/i.test(text) && !/\b(new\s*\(?gates?|install(?:ation)? of .{0,40}gate|sliding gate|automatic gate|steel gate|security gate|fence|fencing)\b/i.test(text)) return true;
   if (trade === "Demolition" && /(shed|deck demo|interior demo).{0,30}(residential|single family|house)?/i.test(text)) return true;
   return false;
 }

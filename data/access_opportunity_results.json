@@ -9,7 +9,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 78,
     "qualification_score": 78,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 82,
     "developer": "Lennar Homes of California",
     "general_contractor": "Lund Construction Co",
@@ -69,7 +69,7 @@
       "source_evidence": "https://www.lennar.com/contact/business-inquiry",
       "confidence": 0.76
     },
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00561",
@@ -81,7 +81,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 70,
     "qualification_score": 70,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 82,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -136,7 +136,7 @@
       "source_evidence": "https://www.lennar.com/contact/business-inquiry",
       "confidence": 0.76
     },
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00578",
@@ -148,7 +148,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 70,
     "qualification_score": 70,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 72,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -194,7 +194,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00576",
@@ -206,7 +206,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 70,
     "qualification_score": 70,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 72,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -252,7 +252,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00577",
@@ -264,7 +264,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 70,
     "qualification_score": 70,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 72,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -310,7 +310,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00574",
@@ -322,7 +322,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 70,
     "qualification_score": 70,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 72,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -368,7 +368,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00575",
@@ -380,7 +380,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 70,
     "qualification_score": 70,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 72,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -426,7 +426,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00562",
@@ -438,7 +438,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 62,
     "qualification_score": 62,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 72,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -484,7 +484,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "evidence-northlake-sfyimby-2020-12",
@@ -496,7 +496,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 52,
     "qualification_score": 52,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 72,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -547,7 +547,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "evidence-northlake-sfyimby-2020-11",
@@ -559,7 +559,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 52,
     "qualification_score": 52,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 72,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -615,7 +615,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "evidence-southgate-minutes-2022-08-16",
@@ -627,7 +627,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 49,
     "qualification_score": 49,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 72,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -673,7 +673,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "evidence-waterboards-lennar-gerber-creek",
@@ -685,7 +685,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 49,
     "qualification_score": 49,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 72,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -752,7 +752,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "evidence-sacramento-board-10223",
@@ -764,7 +764,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 49,
     "qualification_score": 49,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 72,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -815,7 +815,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "evidence-sacramento-board-7977",
@@ -827,7 +827,7 @@
     "opportunity_state": "Actionable Opportunity",
     "opportunity_score": 49,
     "qualification_score": 49,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 72,
     "developer": "Lennar Homes of California",
     "general_contractor": "Unknown",
@@ -873,7 +873,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-rerc2026-00187",
@@ -885,7 +885,7 @@
     "opportunity_state": "Research Required",
     "opportunity_score": 74,
     "qualification_score": 74,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 64,
     "developer": "Unknown",
     "general_contractor": "ADVANCED ROOF DESIGN INC",
@@ -931,7 +931,7 @@
       "source_evidence": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
       "confidence": 1
     },
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-rerc2026-00186",
@@ -943,7 +943,7 @@
     "opportunity_state": "Research Required",
     "opportunity_score": 74,
     "qualification_score": 74,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 64,
     "developer": "Unknown",
     "general_contractor": "ADVANCED ROOF DESIGN INC",
@@ -989,7 +989,7 @@
       "source_evidence": "https://caanet.org/industry-directory/advanced-roof-design-inc/",
       "confidence": 1
     },
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00571",
@@ -1001,7 +1001,7 @@
     "opportunity_state": "Research Required",
     "opportunity_score": 70,
     "qualification_score": 70,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 64,
     "developer": "Unknown",
     "general_contractor": "WATERS CONSTRUCTION COMPANY LLC",
@@ -1047,7 +1047,7 @@
       "source_evidence": "https://watersconco.com/",
       "confidence": 0.89
     },
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-rerc2026-00185",
@@ -1059,7 +1059,7 @@
     "opportunity_state": "Research Required",
     "opportunity_score": 56,
     "qualification_score": 56,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 44,
     "developer": "Unknown",
     "general_contractor": "DURAMAX ROOFING INC",
@@ -1096,7 +1096,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00169",
@@ -1108,7 +1108,7 @@
     "opportunity_state": "Research Required",
     "opportunity_score": 47,
     "qualification_score": 47,
-    "fence_probability": 100,
+    "fence_probability": 45,
     "access_score": 32,
     "developer": "Unknown",
     "general_contractor": "ALLTECH GATES AND ENTRY CONTROLS INC",
@@ -1145,7 +1145,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00207",
@@ -1157,7 +1157,7 @@
     "opportunity_state": "Research Required",
     "opportunity_score": 47,
     "qualification_score": 47,
-    "fence_probability": 100,
+    "fence_probability": 45,
     "access_score": 32,
     "developer": "Unknown",
     "general_contractor": "ALLTECH GATES AND ENTRY CONTROLS INC",
@@ -1194,7 +1194,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misc2026-01229",
@@ -1206,7 +1206,7 @@
     "opportunity_state": "Research Required",
     "opportunity_score": 33,
     "qualification_score": 33,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 32,
     "developer": "Unknown",
     "general_contractor": "FAMAND INC",
@@ -1243,7 +1243,7 @@
       }
     ],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00564",
@@ -1255,7 +1255,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 44,
     "qualification_score": 44,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "AMERICAN BUILDINGS J&S",
@@ -1281,7 +1281,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00562",
@@ -1293,7 +1293,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 44,
     "qualification_score": 44,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "GROUP ONE BUILDERS INC",
@@ -1319,7 +1319,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-dmoc2026-00045",
@@ -1331,7 +1331,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 44,
     "qualification_score": 44,
-    "fence_probability": 82,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "VEERKAMP DOUG GENERAL ENGINEERING INC",
@@ -1357,7 +1357,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misc2026-00862",
@@ -1369,7 +1369,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 44,
     "qualification_score": 44,
-    "fence_probability": 100,
+    "fence_probability": 45,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "A 1 ELECTRICAL",
@@ -1395,7 +1395,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00571",
@@ -1407,7 +1407,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 44,
     "qualification_score": 44,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "FDC NOR-CAL CORP",
@@ -1433,7 +1433,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00566",
@@ -1445,7 +1445,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 44,
     "qualification_score": 44,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "FDC NOR-CAL CORP",
@@ -1471,7 +1471,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00573",
@@ -1483,7 +1483,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 44,
     "qualification_score": 44,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "FDC NOR-CAL CORP",
@@ -1509,7 +1509,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00576",
@@ -1521,7 +1521,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 44,
     "qualification_score": 44,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "KENNETH DEVELOPMENT INC",
@@ -1547,7 +1547,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misc2026-01228",
@@ -1559,7 +1559,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 36,
     "qualification_score": 36,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "SUNSOURCE INC",
@@ -1585,7 +1585,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2025-01034-rev01",
@@ -1597,7 +1597,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 100,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -1617,7 +1617,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbac2026-00334",
@@ -1629,7 +1629,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -1649,7 +1649,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-hacr2026-01311",
@@ -1661,7 +1661,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 100,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -1681,7 +1681,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00563",
@@ -1693,7 +1693,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -1713,7 +1713,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00579",
@@ -1725,7 +1725,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -1745,7 +1745,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00580",
@@ -1757,7 +1757,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -1777,7 +1777,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-dmor2026-00064",
@@ -1789,7 +1789,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -1809,7 +1809,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-solr2026-00226",
@@ -1821,7 +1821,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -1841,7 +1841,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-spcr2026-00105",
@@ -1853,7 +1853,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -1873,7 +1873,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-spcr2026-00127",
@@ -1885,7 +1885,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -1905,7 +1905,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00371",
@@ -1917,7 +1917,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -1937,7 +1937,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00481",
@@ -1949,7 +1949,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -1969,7 +1969,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-dmor2026-00065",
@@ -1981,7 +1981,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2001,7 +2001,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00582",
@@ -2013,7 +2013,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2033,7 +2033,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld19-06467-6032",
@@ -2045,7 +2045,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2065,7 +2065,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-trp20-90274-6014",
@@ -2077,7 +2077,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 72,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2097,7 +2097,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00494",
@@ -2109,7 +2109,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2129,7 +2129,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-slcr2026-00042",
@@ -2141,7 +2141,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2161,7 +2161,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-01537-6051",
@@ -2173,7 +2173,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2193,7 +2193,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld22-00878-6039",
@@ -2205,7 +2205,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2225,7 +2225,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-02032-6046",
@@ -2237,7 +2237,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2257,7 +2257,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-02807-6058",
@@ -2269,7 +2269,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2289,7 +2289,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld18-01308-5996",
@@ -2301,7 +2301,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 72,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2321,7 +2321,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-trp21-90022-6050",
@@ -2333,7 +2333,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 72,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2353,7 +2353,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld22-00093-5990",
@@ -2365,7 +2365,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2385,7 +2385,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-01556-6010",
@@ -2397,7 +2397,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2417,7 +2417,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-trp18-90133-6027",
@@ -2429,7 +2429,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2449,7 +2449,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-06713-6023",
@@ -2461,7 +2461,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2481,7 +2481,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misc2026-01071",
@@ -2493,7 +2493,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2513,7 +2513,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-07259-6036",
@@ -2525,7 +2525,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2545,7 +2545,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-03502-6056",
@@ -2557,7 +2557,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 72,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2577,7 +2577,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-02647-5997",
@@ -2589,7 +2589,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2609,7 +2609,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-03519-6007",
@@ -2621,7 +2621,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2641,7 +2641,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-02541-6029",
@@ -2653,7 +2653,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2673,7 +2673,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-sgnc2026-00065",
@@ -2685,7 +2685,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 90,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2705,7 +2705,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misr2026-01118",
@@ -2717,7 +2717,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 32,
     "qualification_score": 32,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -2737,7 +2737,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbrr2026-00705",
@@ -2749,7 +2749,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "PHILLIP ISAACS' CONSTRUCTION INCORPORATED",
@@ -2775,7 +2775,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbrr2026-00703",
@@ -2787,7 +2787,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "3 GENERATIONS IMPROVEMENTS INC",
@@ -2813,7 +2813,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbar2026-00648",
@@ -2825,7 +2825,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "DYER CONSTRUCTION INC",
@@ -2851,7 +2851,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00217",
@@ -2863,7 +2863,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "ROBERT L SCHEID CONSTRUCTION",
@@ -2889,7 +2889,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00218",
@@ -2901,7 +2901,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "ROBERT L SCHEID CONSTRUCTION",
@@ -2927,7 +2927,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00219",
@@ -2939,7 +2939,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "ROBERT L SCHEID CONSTRUCTION",
@@ -2965,7 +2965,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00209",
@@ -2977,7 +2977,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "ROBERT L SCHEID CONSTRUCTION",
@@ -3003,7 +3003,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00210",
@@ -3015,7 +3015,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "ROBERT L SCHEID CONSTRUCTION",
@@ -3041,7 +3041,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00211",
@@ -3053,7 +3053,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "ROBERT L SCHEID CONSTRUCTION",
@@ -3079,7 +3079,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00212",
@@ -3091,7 +3091,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "ROBERT L SCHEID CONSTRUCTION",
@@ -3117,7 +3117,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00213",
@@ -3129,7 +3129,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "ROBERT L SCHEID CONSTRUCTION",
@@ -3155,7 +3155,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00214",
@@ -3167,7 +3167,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "ROBERT L SCHEID CONSTRUCTION",
@@ -3193,7 +3193,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00215",
@@ -3205,7 +3205,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "ROBERT L SCHEID CONSTRUCTION",
@@ -3231,7 +3231,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00216",
@@ -3243,7 +3243,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "ROBERT L SCHEID CONSTRUCTION",
@@ -3269,7 +3269,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00192",
@@ -3281,7 +3281,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "A 1 ELECTRICAL",
@@ -3307,7 +3307,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00193",
@@ -3319,7 +3319,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "A 1 ELECTRICAL",
@@ -3345,7 +3345,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00194",
@@ -3357,7 +3357,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "A 1 ELECTRICAL",
@@ -3383,7 +3383,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00196",
@@ -3395,7 +3395,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "A 1 ELECTRICAL",
@@ -3421,7 +3421,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00195",
@@ -3433,7 +3433,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "A 1 ELECTRICAL",
@@ -3459,7 +3459,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00197",
@@ -3471,7 +3471,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "A 1 ELECTRICAL",
@@ -3497,7 +3497,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00198",
@@ -3509,7 +3509,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "A 1 ELECTRICAL",
@@ -3535,7 +3535,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00199",
@@ -3547,7 +3547,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "A 1 ELECTRICAL",
@@ -3573,7 +3573,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00200",
@@ -3585,7 +3585,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "A 1 ELECTRICAL",
@@ -3611,7 +3611,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00201",
@@ -3623,7 +3623,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "A 1 ELECTRICAL",
@@ -3649,7 +3649,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misr2026-01941",
@@ -3661,7 +3661,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 30,
     "qualification_score": 30,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "CALIFORNIA RENEWABLE ENERGY",
@@ -3687,7 +3687,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00354",
@@ -3699,7 +3699,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 28,
     "qualification_score": 28,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -3719,7 +3719,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00379",
@@ -3731,7 +3731,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 28,
     "qualification_score": 28,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -3751,7 +3751,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00135",
@@ -3763,7 +3763,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 28,
     "qualification_score": 28,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -3783,7 +3783,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misr2026-01277",
@@ -3795,7 +3795,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 28,
     "qualification_score": 28,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -3815,7 +3815,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbac2026-00144",
@@ -3827,7 +3827,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 28,
     "qualification_score": 28,
-    "fence_probability": 100,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -3847,7 +3847,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2025-00843-rev01",
@@ -3859,7 +3859,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -3879,7 +3879,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-01210-6019",
@@ -3891,7 +3891,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -3911,7 +3911,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-04612-5988",
@@ -3923,7 +3923,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -3943,7 +3943,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-04057-6034",
@@ -3955,7 +3955,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -3975,7 +3975,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-trp19-90024-6009",
@@ -3987,7 +3987,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4007,7 +4007,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-05042-6052",
@@ -4019,7 +4019,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4039,7 +4039,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00122-rev03",
@@ -4051,7 +4051,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 90,
+    "fence_probability": 70,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4071,7 +4071,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-03260-6024",
@@ -4083,7 +4083,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4103,7 +4103,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-01215-5986",
@@ -4115,7 +4115,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4135,7 +4135,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-05713-6037",
@@ -4147,7 +4147,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4167,7 +4167,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-06712-6021",
@@ -4179,7 +4179,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4199,7 +4199,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-00530-6018",
@@ -4211,7 +4211,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4231,7 +4231,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-05324-6038",
@@ -4243,7 +4243,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4263,7 +4263,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld22-01030-6001",
@@ -4275,7 +4275,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4295,7 +4295,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-00971-6041",
@@ -4307,7 +4307,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4327,7 +4327,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-07295-6011",
@@ -4339,7 +4339,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4359,7 +4359,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-07296-6040",
@@ -4371,7 +4371,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4391,7 +4391,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-00993-5999",
@@ -4403,7 +4403,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4423,7 +4423,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-00999-5992",
@@ -4435,7 +4435,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 27,
     "qualification_score": 27,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4455,7 +4455,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-rerr2026-00205",
@@ -4467,7 +4467,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 26,
     "qualification_score": 26,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "MASTER ROOFING SOLUTIONS LLC",
@@ -4493,7 +4493,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-solr2026-00249",
@@ -4505,7 +4505,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 25,
     "qualification_score": 25,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "GIGAWATT CALIFORNIA LLC",
@@ -4531,7 +4531,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-solr2026-00223",
@@ -4543,7 +4543,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 25,
     "qualification_score": 25,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "GIGAWATT CALIFORNIA LLC",
@@ -4569,7 +4569,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbar2026-00651",
@@ -4581,7 +4581,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 25,
     "qualification_score": 25,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "WEST COAST FLOORING",
@@ -4607,7 +4607,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-solr2026-00227",
@@ -4619,7 +4619,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 25,
     "qualification_score": 25,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "PRIME HOME SOLUTIONS INC",
@@ -4645,7 +4645,7 @@
     ],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00573",
@@ -4657,7 +4657,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4677,7 +4677,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misr2026-01474",
@@ -4689,7 +4689,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4709,7 +4709,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00533",
@@ -4721,7 +4721,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4741,7 +4741,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00570",
@@ -4753,7 +4753,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4773,7 +4773,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misr2026-01568",
@@ -4785,7 +4785,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4805,7 +4805,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misr2026-01338-rev01",
@@ -4817,7 +4817,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4837,7 +4837,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00556",
@@ -4849,7 +4849,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 100,
+    "fence_probability": 45,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4869,7 +4869,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00567",
@@ -4881,7 +4881,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4901,7 +4901,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00568",
@@ -4913,7 +4913,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4933,7 +4933,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00572",
@@ -4945,7 +4945,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4965,7 +4965,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00570",
@@ -4977,7 +4977,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -4997,7 +4997,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbrr2026-00723",
@@ -5009,7 +5009,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5029,7 +5029,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00389",
@@ -5041,7 +5041,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 100,
+    "fence_probability": 45,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5061,7 +5061,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2026-00319",
@@ -5073,7 +5073,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 100,
+    "fence_probability": 45,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5093,7 +5093,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00185",
@@ -5105,7 +5105,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 100,
+    "fence_probability": 45,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5125,7 +5125,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misc2026-00910",
@@ -5137,7 +5137,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5157,7 +5157,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-hacr2026-01443",
@@ -5169,7 +5169,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5189,7 +5189,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00161",
@@ -5201,7 +5201,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 100,
+    "fence_probability": 45,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5221,7 +5221,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00154",
@@ -5233,7 +5233,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5253,7 +5253,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-sewr2026-00059",
@@ -5265,7 +5265,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5285,7 +5285,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-phcr2026-00565",
@@ -5297,7 +5297,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5317,7 +5317,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misr2026-01237",
@@ -5329,7 +5329,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 24,
     "qualification_score": 24,
-    "fence_probability": 82,
+    "fence_probability": 15,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5349,7 +5349,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misr2026-00962-rev01",
@@ -5361,7 +5361,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 23,
     "qualification_score": 23,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5381,7 +5381,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbrr2026-00454",
@@ -5393,7 +5393,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 23,
     "qualification_score": 23,
-    "fence_probability": 90,
+    "fence_probability": 70,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5413,7 +5413,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbac2026-00329",
@@ -5425,7 +5425,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 19,
     "qualification_score": 19,
-    "fence_probability": 72,
+    "fence_probability": 40,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5445,7 +5445,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-solr2026-00234",
@@ -5457,7 +5457,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5477,7 +5477,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-solr2026-00218",
@@ -5489,7 +5489,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5509,7 +5509,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-spcr2026-00067",
@@ -5521,7 +5521,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5541,7 +5541,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld19-04877-6054",
@@ -5553,7 +5553,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5573,7 +5573,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld22-00811-6013",
@@ -5585,7 +5585,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5605,7 +5605,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbrc2026-00336",
@@ -5617,7 +5617,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5637,7 +5637,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbrc2026-00323",
@@ -5649,7 +5649,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5669,7 +5669,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbrc2026-00390",
@@ -5681,7 +5681,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5701,7 +5701,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-panr2026-00722",
@@ -5713,7 +5713,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5733,7 +5733,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-rrzr2026-01430",
@@ -5745,7 +5745,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5765,7 +5765,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-02547-5985",
@@ -5777,7 +5777,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5797,7 +5797,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbac2026-00331",
@@ -5809,7 +5809,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5829,7 +5829,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-panr2026-00727",
@@ -5841,7 +5841,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5861,7 +5861,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-06664-6048",
@@ -5873,7 +5873,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 18,
     "qualification_score": 18,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5893,7 +5893,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-trp19-90136-6000",
@@ -5905,7 +5905,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5925,7 +5925,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbrr2026-00719",
@@ -5937,7 +5937,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5957,7 +5957,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-trp15-90188-6042",
@@ -5969,7 +5969,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -5989,7 +5989,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-06544-6053",
@@ -6001,7 +6001,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6021,7 +6021,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld22-01839-6049",
@@ -6033,7 +6033,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6053,7 +6053,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-06112-6026",
@@ -6065,7 +6065,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6085,7 +6085,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-01365-5998",
@@ -6097,7 +6097,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6117,7 +6117,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-02804-6057",
@@ -6129,7 +6129,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6149,7 +6149,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-04742-6004",
@@ -6161,7 +6161,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6181,7 +6181,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-04762-6012",
@@ -6193,7 +6193,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6213,7 +6213,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-misc2026-01230",
@@ -6225,7 +6225,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6245,7 +6245,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-trp18-90238-6005",
@@ -6257,7 +6257,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6277,7 +6277,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-03155-6035",
@@ -6289,7 +6289,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6309,7 +6309,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-trp19-90185-6043",
@@ -6321,7 +6321,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6341,7 +6341,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-03601-6006",
@@ -6353,7 +6353,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6373,7 +6373,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld19-01827-6025",
@@ -6385,7 +6385,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6405,7 +6405,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld19-06407-6020",
@@ -6417,7 +6417,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6437,7 +6437,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld19-05699-6059",
@@ -6449,7 +6449,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6469,7 +6469,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld19-04462-6003",
@@ -6481,7 +6481,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 13,
     "qualification_score": 13,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6501,7 +6501,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-dmor2026-00044",
@@ -6513,7 +6513,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 10,
     "qualification_score": 10,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6533,7 +6533,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnr2023-01164-rev02",
@@ -6545,7 +6545,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 9,
     "qualification_score": 9,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6565,7 +6565,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-05333-5995",
@@ -6577,7 +6577,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6597,7 +6597,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld22-01936-5991",
@@ -6609,7 +6609,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6629,7 +6629,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbar2026-00645",
@@ -6641,7 +6641,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6661,7 +6661,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbar2026-00667",
@@ -6673,7 +6673,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6693,7 +6693,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-05070-6028",
@@ -6705,7 +6705,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6725,7 +6725,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-02741-5994",
@@ -6737,7 +6737,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6757,7 +6757,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-03587-6055",
@@ -6769,7 +6769,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6789,7 +6789,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld22-01519-6017",
@@ -6801,7 +6801,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6821,7 +6821,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld19-04817-6015",
@@ -6833,7 +6833,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6853,7 +6853,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld22-01198-6002",
@@ -6865,7 +6865,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6885,7 +6885,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-07073-6047",
@@ -6897,7 +6897,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6917,7 +6917,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-07092-6016",
@@ -6929,7 +6929,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6949,7 +6949,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld22-01768-6008",
@@ -6961,7 +6961,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -6981,7 +6981,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld22-02150-6022",
@@ -6993,7 +6993,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -7013,7 +7013,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-05251-6044",
@@ -7025,7 +7025,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -7045,7 +7045,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-05632-6031",
@@ -7057,7 +7057,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -7077,7 +7077,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld20-02755-5993",
@@ -7089,7 +7089,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -7109,7 +7109,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld21-07509-6033",
@@ -7121,7 +7121,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -7141,7 +7141,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld19-05796-5987",
@@ -7153,7 +7153,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -7173,7 +7173,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld14-00840-6030",
@@ -7185,7 +7185,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -7205,7 +7205,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld22-00104-6045",
@@ -7217,7 +7217,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -7237,7 +7237,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbnc2026-00206",
@@ -7249,7 +7249,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 22,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -7269,7 +7269,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "placer-bld22-00227-5989",
@@ -7281,7 +7281,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 8,
     "qualification_score": 8,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -7301,7 +7301,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-cbrc2026-00465",
@@ -7313,7 +7313,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 5,
     "qualification_score": 5,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -7333,7 +7333,7 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   },
   {
     "id": "sac-ccbp2025-00050-rev01",
@@ -7345,7 +7345,7 @@
     "opportunity_state": "Opportunity",
     "opportunity_score": 0,
     "qualification_score": 0,
-    "fence_probability": 12,
+    "fence_probability": 8,
     "access_score": 0,
     "developer": "Unknown",
     "general_contractor": "Unknown",
@@ -7365,6 +7365,6 @@
     "companies": [],
     "procurement_paths": [],
     "contact_route": null,
-    "last_verified": "2026-07-09T05:32:00.446Z"
+    "last_verified": "2026-07-09T06:34:36.673Z"
   }
 ]

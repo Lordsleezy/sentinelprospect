@@ -141,13 +141,14 @@ function normalizeRecord(attributes, geometry, capturedAt) {
 function inferTrades(attributes) {
   const blob = `${text(attributes.ActiveBuilding_ExcelToTable_Sco)} ${text(attributes.ActiveBuilding_ExcelToTable_Pro)} ${text(attributes.ActiveBuilding_ExcelToTable_Des)}`.toLowerCase();
   const trades = new Set();
-  if (blob.includes("fence") || blob.includes("gate") || blob.includes("wall")) trades.add("Fencing");
+  const strongFence = /\b(fence|fencing|chain[-\s]?link|ornamental iron|new\s*\(?gates?\)?|install(?:ation)? of .{0,40}gate|building a .{0,30}gate|slid(?:e|ing) gates?|automat(?:ic|ed) (?:slide )?gates?|steel gate|security gate|vehicle gate|pedestrian gate|ada ped|ped gates?|gates\/fence|fence height|pool safety fencing|fencing with gate)\b/i.test(blob);
+  if (strongFence) trades.add("Fencing");
   if (blob.includes("roof")) trades.add("Roofing");
   if (blob.includes("hvac") || blob.includes("mechanical")) trades.add("HVAC");
-  if (blob.includes("electric") || blob.includes("solar") || blob.includes("battery")) trades.add("Electrical");
+  if (blob.includes("electric") || blob.includes("solar") || blob.includes("battery") || blob.includes("landscape lighting") || blob.includes("service pedestal")) trades.add("Electrical");
   if (blob.includes("concrete") || blob.includes("pool") || blob.includes("spa")) trades.add("Concrete");
   if (blob.includes("sewer") || blob.includes("grading") || blob.includes("site") || blob.includes("utility")) trades.add("Site work");
-  if (blob.includes("townhome") || blob.includes("residential")) trades.add("Fencing");
+  // Do not infer Fencing from residential/townhome alone — that created false positives.
   if (!trades.size) trades.add("General");
   return [...trades];
 }

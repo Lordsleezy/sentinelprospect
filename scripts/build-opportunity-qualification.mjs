@@ -202,7 +202,7 @@ function qualificationFactors({ contacts, companyPaths, companies, relationships
     known_developer: developer?.company_name ?? "Unknown",
     known_gc: gc?.company_name ?? "Unknown",
     known_relationships: relationships.length ? "Yes" : "No",
-    fencing_signal_presence: trades.some((trade) => /fenc|gate/i.test(trade)),
+    fencing_signal_presence: trades.some((trade) => /^fencing$/i.test(trade)),
     project_stage: projectStage,
     evidence_quality: evidenceQuality,
     fast_money_potential: fastMoneyPotential,

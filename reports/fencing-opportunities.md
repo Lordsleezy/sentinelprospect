@@ -1,6 +1,6 @@
 # Fencing Opportunities
 
-Generated: 2026-07-09T05:31:59.965Z
+Generated: 2026-07-09T06:34:35.215Z
 
 | Project | Location | Trade | State | Score | Contact | Procurement Path | Developer | GC | Relationships | Stage | Evidence | Fast Money | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |

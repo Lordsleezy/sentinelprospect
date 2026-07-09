@@ -187,13 +187,14 @@ function normalizeRecord(attributes, geometry, sourceUrl, capturedAt) {
 function inferTrades(attributes) {
   const blob = `${text(attributes.Application_Type)} ${text(attributes.Application_Subtype)} ${text(attributes.ProjectName)} ${text(attributes.ActivityCode)} ${text(attributes.WorkDescription)}`.toLowerCase();
   const trades = new Set();
-  if (blob.includes("fence") || blob.includes("wall") || blob.includes("gate")) trades.add("Fencing");
+  const strongFence = /\b(fence|fencing|chain[-\s]?link|ornamental iron|new\s*\(?gates?\)?|install(?:ation)? of .{0,40}gate|building a .{0,30}gate|slid(?:e|ing) gates?|automat(?:ic|ed) (?:slide )?gates?|steel gate|security gate|vehicle gate|pedestrian gate|ada ped|ped gates?|gates\/fence|fence height|pool safety fencing|fencing with gate)\b/i.test(blob);
+  if (strongFence) trades.add("Fencing");
   if (blob.includes("roof") || blob.includes("tpo")) trades.add("Roofing");
   if (blob.includes("hvac") || blob.includes("heat pump") || blob.includes("mechanical")) trades.add("HVAC");
   if (blob.includes("electrical") || blob.includes("solar") || blob.includes("pv") || blob.includes("battery")) trades.add("Electrical");
   if (blob.includes("concrete") || blob.includes("foundation") || blob.includes("slab")) trades.add("Concrete");
   if (blob.includes("grading") || blob.includes("site") || blob.includes("utility")) trades.add("Site work");
-  if (blob.includes("production home") || blob.includes("single-family") || blob.includes("subdivision") || blob.includes("master plan")) trades.add("Fencing");
+  // Do not infer Fencing from production-home / subdivision alone.
   if (!trades.size) trades.add("General");
   return [...trades];
 }

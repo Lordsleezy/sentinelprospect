@@ -133,6 +133,10 @@ export type ContractorOpportunity = {
   source_count?: number;
   evidence_sources?: Array<{ label: string; source_url: string; source_type: string; summary: string; title?: string; source_name?: string }>;
   evidence_likely_fence_scope?: string;
+  fencing_bidable?: boolean;
+  fencing_bidability_reason?: string;
+  primary_scope?: string;
+  fence_evidence_tier?: string;
   contradiction_notes?: string[];
 };
 
@@ -313,20 +317,26 @@ function searchSuppressReasons(opportunity: ContractorOpportunity, tradeScore: T
 
 function scopeMatchesSearch(opportunity: ContractorOpportunity, targetTrades: string[]) {
   if (!targetTrades.includes("Fencing")) return true;
-  return positiveFenceEvidence(opportunity).length > 0 && !["No Meaningful Fence Opportunity", "No Evidence"].includes(opportunity.fence_scope_confidence);
+  if (opportunity.fencing_bidable === false) return false;
+  if (["Weak Opportunity", "Weak Signal", "No Evidence", "No Meaningful Fence Opportunity"].includes(opportunity.fence_scope_confidence)) return false;
+  return positiveFenceEvidence(opportunity).length > 0;
 }
 
 export function positiveFenceEvidence(opportunity: ContractorOpportunity) {
+  const strongPattern = /\b(fence installation|fence package|chain-link|chain link|ornamental|wrought|gate installation|slid(?:e|ing) gates?|automat(?:ic|ed)|steel gate|security gate|vehicle gate|pedestrian gate|ada ped|ped gates?|detention basin fencing|park fencing|school fencing|trail fencing|sports field fencing|new fence|raise fence|pool safety|security fence|gates\/fence|fencing with|direct fence|new gates|install\/raise|chain link fencing)\b/i;
   return [
     ...(opportunity.fence_evidence ?? []),
     ...(opportunity.evidence_fence_signals?.map((signal) => signal.signal) ?? []),
     ...(opportunity.project_dossier?.evidence_fence_signals?.map((signal) => signal.signal) ?? []),
-  ].filter((signal) => POSITIVE_FENCE_EVIDENCE_PATTERN.test(signal));
+  ].filter((signal) => strongPattern.test(signal) || POSITIVE_FENCE_EVIDENCE_PATTERN.test(signal))
+    .filter((signal) => !/incidental|weak mention|enclosure or screen/i.test(signal));
 }
 
 function shouldSuppressFencingSearchResult(opportunity: ContractorOpportunity, targetTrades: string[]) {
   if (!targetTrades.includes("Fencing")) return false;
-  return positiveFenceEvidence(opportunity).length === 0 && opportunity.fence_scope_confidence === "No Evidence";
+  if (opportunity.fencing_bidable === false) return true;
+  if (["No Evidence", "No Meaningful Fence Opportunity", "Weak Opportunity", "Weak Signal"].includes(opportunity.fence_scope_confidence)) return true;
+  return positiveFenceEvidence(opportunity).length === 0;
 }
 
 function fencingContractorScore(opportunity: ContractorOpportunity, tradeScore: TradeScore) {
@@ -358,15 +368,14 @@ function likelyScopeForTrade(opportunity: ContractorOpportunity, trade: string) 
   if (trade === "Fencing") {
     if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) return "Insufficient evidence to determine likely fencing scope.";
     if (["No Meaningful Fence Opportunity", "No Evidence"].includes(opportunity.fence_scope_confidence)) return "No fencing scope generated.";
+    if (opportunity.fencing_bidable === false) return "No bid-able fencing scope generated.";
     if (opportunity.evidence_likely_fence_scope) return opportunity.evidence_likely_fence_scope;
     if (opportunity.potential_fencing_scope?.length) return opportunity.potential_fencing_scope[0];
+    if (/new\s*\(?gates?|sliding gate|automatic gate|steel gate|security gate|install(?:ation)? of .{0,40}gate/.test(text)) return "Gate installation";
     if (/park/.test(text)) return "Park fencing";
     if (/school/.test(text)) return "School perimeter fencing";
-    if (/utility|drainage|trunk|corridor/.test(text)) return "Utility corridor fencing";
-    if (/industrial|security|warehouse/.test(text)) return "Security fencing";
-    if (/subdivision|village|master plan|lot|unit|homes|residential/.test(text)) return "Residential perimeter fencing";
-    if (/gate/.test(text)) return "Gates";
-    return "Construction fencing";
+    if (/fence|fencing/.test(text)) return "Fence installation";
+    return "Source-backed fencing scope";
   }
   return trade === opportunity.primary_contractor_trade ? opportunity.likely_scope : `${trade} scope`;
 }

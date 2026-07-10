@@ -2,6 +2,7 @@ import contractorRows from "../../data/contractor_opportunities.json";
 import actionRows from "../../data/contractor_action_opportunities.json";
 import scopeRows from "../../data/scope_intelligence.json";
 import evidenceExpansionRows from "../../data/evidence_expansion.json";
+import documentIntelligenceRows from "../../data/document_intelligence.json";
 
 export type ScopeSize = "Tiny" | "Small" | "Medium" | "Large" | "Major";
 export type SubcontractorLikelihood = "High" | "Medium" | "Low" | "Unknown";
@@ -26,6 +27,94 @@ export type PursuitQuality = {
     has_procurement_route: boolean;
     has_project_stage: boolean;
   };
+};
+
+export type DocumentIntelligenceDossier = {
+  opportunity_id: string;
+  project_name: string;
+  what_is_being_built: string;
+  why_this_trade_matters: string;
+  project_description: string;
+  construction_summary: string;
+  project_summary: string;
+  scope_summary: string;
+  scope_items: Array<{
+    type: string;
+    label?: string;
+    category?: string;
+    quantity?: string | null;
+    confidence: string;
+    source: string;
+    source_url?: string | null;
+    mentions?: number;
+  }>;
+  identified_quantities: Array<{
+    kind: string;
+    quantity: string;
+    context: string;
+    confidence: string;
+    source: string;
+    source_url?: string | null;
+  }>;
+  timeline_signals: Array<{
+    type: string;
+    label: string;
+    value: string;
+    source: string;
+    source_url?: string | null;
+    confidence: string;
+  }>;
+  timeline_summary: string;
+  procurement_path: string;
+  procurement_signals: Array<{ path: string; mentions: number; source: string; source_url?: string | null }>;
+  document_contacts: Array<{
+    name: string;
+    role: string;
+    company?: string;
+    phone?: string | null;
+    email?: string | null;
+    source: string;
+    source_url?: string | null;
+    confidence: string;
+  }>;
+  best_contact?: {
+    name: string;
+    role: string;
+    company?: string;
+    phone?: string | null;
+    email?: string | null;
+    source: string;
+    confidence: string;
+  } | null;
+  trade_evidence: Array<{
+    trade: string;
+    term: string;
+    snippet: string;
+    source: string;
+    source_url?: string | null;
+    confidence: string;
+  }>;
+  evidence: Array<{
+    text: string;
+    signal: string;
+    source: string;
+    source_url?: string | null;
+    confidence: string;
+  }>;
+  recommended_action: string;
+  confidence_reasoning: string;
+  work_categories: string[];
+  risk_signals: string[];
+  documents_reviewed: Array<{
+    id: string;
+    label: string;
+    source_type: string;
+    source_url?: string | null;
+    text_source?: string;
+    fetched?: boolean;
+    ocr_ready?: boolean;
+    char_count?: number;
+  }>;
 };
 
 export type ContractorOpportunity = {
@@ -147,6 +236,7 @@ export type ContractorOpportunity = {
     why_fencing_matters?: string;
     confidence_reasoning: string;
   };
+  document_intelligence?: DocumentIntelligenceDossier;
   evidence_summary?: string;
   supporting_evidence?: string[];
   evidence_fence_signals?: Array<{ signal: string; snippet?: string; source: string; source_document_id?: string; source_url: string; source_type?: string }>;
@@ -214,13 +304,24 @@ type ContractorActionFields = Pick<
 const actionsByOpportunity = new Map(((actionRows as unknown) as ContractorActionFields[]).map((row) => [row.opportunity_id, row]));
 const scopesByOpportunity = new Map(((scopeRows as unknown) as Array<{ opportunity_id: string }>).map((row) => [row.opportunity_id, row]));
 const evidenceExpansionByOpportunity = new Map(((evidenceExpansionRows as unknown) as Array<{ opportunity_id: string; likely_fence_scope?: string }>).map((row) => [row.opportunity_id, row]));
-const contractorOpportunities = ((contractorRows as unknown) as ContractorOpportunity[]).map((opportunity) => ({
-  ...opportunity,
-  ...(actionsByOpportunity.get(opportunity.id) ?? {}),
-  ...(scopesByOpportunity.get(opportunity.id) ?? {}),
-  ...(evidenceExpansionByOpportunity.get(opportunity.id) ?? {}),
-  evidence_likely_fence_scope: evidenceExpansionByOpportunity.get(opportunity.id)?.likely_fence_scope,
-})) as ContractorOpportunity[];
+const documentIntelligenceByOpportunity = new Map(
+  ((documentIntelligenceRows as unknown) as DocumentIntelligenceDossier[]).map((row) => [row.opportunity_id, row]),
+);
+const contractorOpportunities = ((contractorRows as unknown) as ContractorOpportunity[]).map((opportunity) => {
+  const evidence = evidenceExpansionByOpportunity.get(opportunity.id) ?? {};
+  const documentIntelligence = documentIntelligenceByOpportunity.get(opportunity.id);
+  return {
+    ...opportunity,
+    ...(actionsByOpportunity.get(opportunity.id) ?? {}),
+    ...(scopesByOpportunity.get(opportunity.id) ?? {}),
+    ...evidence,
+    evidence_likely_fence_scope: evidenceExpansionByOpportunity.get(opportunity.id)?.likely_fence_scope,
+    document_intelligence: documentIntelligence,
+    // Prefer document-extracted summaries when available.
+    ...(documentIntelligence?.project_summary ? { project_summary: documentIntelligence.project_summary } : {}),
+    ...(documentIntelligence?.scope_summary ? { scope_summary: documentIntelligence.scope_summary } : {}),
+  };
+}) as ContractorOpportunity[];
 const contractorOpportunityByProjectName = new Map(contractorOpportunities.map((opportunity) => [normalizeKey(opportunity.project_name), opportunity]));
 
 const POSITIVE_FENCE_EVIDENCE_PATTERN = /\b(perimeter fencing|boundary fencing|security fencing|access control|gate systems?|detention basin fencing|trail fencing|park fencing|school fencing|enclosure requirements?|wall\/fence|wall and fence|fence package|fencing package|subdivision perimeter|hoa fencing|screening requirements?|fencing|fence|gates?|enclosure|screening)\b/i;
@@ -354,25 +455,37 @@ export function getSimilarContractorOpportunities(seed: ContractorOpportunity, l
   const seedTrade = seed.primary_contractor_trade?.toLowerCase() ?? "";
   const seedCity = seed.city?.toLowerCase() ?? "";
   const seedCounty = seed.county?.toLowerCase() ?? "";
-  const seedScope = `${seed.likely_scope ?? ""} ${seed.primary_scope ?? ""} ${(seed.work_categories ?? []).join(" ")}`.toLowerCase();
+  const seedType = `${seed.project_type ?? ""} ${(seed.project_categories ?? []).join(" ")} ${seed.primary_scope ?? ""}`.toLowerCase();
+  const seedStage = `${seed.procurement_stage ?? ""} ${seed.project_stage ?? ""}`.toLowerCase();
+  const evidenceTerms = TRADE_EVIDENCE_TERMS[seed.primary_contractor_trade ?? ""]
+    ?? TRADE_EVIDENCE_TERMS[seedTrade]
+    ?? [seedTrade];
 
   return contractorOpportunities
-    .filter((opportunity) => opportunity.id !== seed.id)
+    .filter((opportunity) => {
+      if (opportunity.id === seed.id) return false;
+      if (!seedTrade) return true;
+      if (opportunity.primary_contractor_trade?.toLowerCase() !== seedTrade) return false;
+      if (!evidenceTerms.length) return true;
+      const haystack = `${opportunity.project_name} ${opportunity.project_summary ?? ""} ${opportunity.primary_scope ?? ""}`.toLowerCase();
+      return evidenceTerms.some((term) => haystack.includes(term));
+    })
     .map((opportunity) => {
       let score = 0;
-      if (seedTrade && opportunity.primary_contractor_trade?.toLowerCase() === seedTrade) score += 40;
-      else if (seedTrade && opportunity.trade?.toLowerCase().includes(seedTrade)) score += 20;
-      if (seedCity && opportunity.city?.toLowerCase() === seedCity) score += 25;
-      if (seedCounty && opportunity.county?.toLowerCase() === seedCounty) score += 15;
-      const otherScope = `${opportunity.likely_scope ?? ""} ${opportunity.primary_scope ?? ""} ${(opportunity.work_categories ?? []).join(" ")}`.toLowerCase();
-      if (seedScope && otherScope) {
-        const shared = seedScope.split(/\W+/).filter((token) => token.length > 3 && otherScope.includes(token)).length;
-        score += Math.min(20, shared * 4);
+      if (seedTrade && opportunity.primary_contractor_trade?.toLowerCase() === seedTrade) score += 50;
+      if (seedCity && opportunity.city?.toLowerCase() === seedCity) score += 30;
+      else if (seedCounty && opportunity.county?.toLowerCase() === seedCounty) score += 12;
+      const otherType = `${opportunity.project_type ?? ""} ${(opportunity.project_categories ?? []).join(" ")} ${opportunity.primary_scope ?? ""}`.toLowerCase();
+      if (seedType && otherType) {
+        const shared = seedType.split(/\W+/).filter((token) => token.length > 3 && otherType.includes(token)).length;
+        score += Math.min(25, shared * 5);
       }
-      if ((opportunity.actionability_score ?? 0) >= 70) score += 5;
+      const otherStage = `${opportunity.procurement_stage ?? ""} ${opportunity.project_stage ?? ""}`.toLowerCase();
+      if (seedStage && otherStage && seedStage === otherStage) score += 15;
+      else if (seedStage && otherStage && seedStage.split(/\W+/).some((token) => token.length > 3 && otherStage.includes(token))) score += 8;
       return { opportunity, score };
     })
-    .filter((item) => item.score >= 30)
+    .filter((item) => item.score >= 50)
     .sort((a, b) =>
       b.score - a.score
       || (b.opportunity.actionability_score ?? 0) - (a.opportunity.actionability_score ?? 0)
@@ -582,7 +695,7 @@ function terms(query: string) {
 }
 
 function likelyScopeForTrade(opportunity: ContractorOpportunity, trade: string) {
-  const text = `${opportunity.project_name} ${opportunity.trade} ${opportunity.qualification_reason}`.toLowerCase();
+  const text = `${opportunity.project_name} ${opportunity.project_summary ?? ""} ${opportunity.scope_summary ?? ""} ${opportunity.trade ?? ""}`.toLowerCase();
   if (trade === "Fencing") {
     if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) return "Insufficient evidence to determine likely fencing scope.";
     if (["No Meaningful Fence Opportunity", "No Evidence"].includes(opportunity.fence_scope_confidence)) return "No fencing scope generated.";
@@ -595,7 +708,27 @@ function likelyScopeForTrade(opportunity: ContractorOpportunity, trade: string) 
     if (/fence|fencing/.test(text)) return "Fence installation";
     return "Source-backed fencing scope";
   }
-  return trade === opportunity.primary_contractor_trade ? opportunity.likely_scope : `${trade} scope`;
+  if (trade === "Concrete") {
+    if (/stem\s*wall|foundation|footing/.test(text)) return "Foundation / stemwall concrete";
+    if (/flatwork|sidewalk|curb|gutter/.test(text)) return "Flatwork";
+    if (/driveway/.test(text)) return "Driveway concrete";
+    if (/retaining/.test(text)) return "Retaining wall concrete";
+    if (/slab/.test(text)) return "Slab work";
+  }
+  if (trade === "HVAC") {
+    if (/package unit|rtu|heat pump|hvac|split system/.test(text)) return "HVAC equipment changeout";
+  }
+  if (trade === "Roofing") {
+    if (/reroof|re-roof|roofing|roof geometry/.test(text)) return "Roofing work";
+  }
+  if (trade === "Electrical") {
+    if (/solar|pv|panel|electrical/.test(text)) return "Electrical / solar work";
+  }
+  // Prefer explicit work categories that match this trade; never fall back to fencing scope for other trades.
+  const matchingCategory = (opportunity.work_categories ?? []).find((category) => category.toLowerCase().includes(trade.toLowerCase()));
+  if (matchingCategory) return matchingCategory;
+  if (opportunity.primary_scope && !/fence|gate/i.test(opportunity.primary_scope)) return opportunity.primary_scope;
+  return `${trade} work`;
 }
 
 function fenceScopeRank(value: string) {

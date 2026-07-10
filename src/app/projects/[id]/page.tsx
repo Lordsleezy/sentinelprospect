@@ -141,6 +141,79 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
             </Card>
           ) : null}
 
+          {contractorOpportunity?.document_intelligence ? (
+            <Card className="border-sky-200 bg-sky-50">
+              <CardHeader>
+                <h2 className="text-base font-semibold">Project Dossier</h2>
+                <p className="mt-1 text-sm text-sky-900">
+                  Document-extracted project intelligence. Evidence from source documents is preferred over permit metadata assumptions.
+                </p>
+              </CardHeader>
+              <CardContent className="space-y-5">
+                <div className="grid gap-3 md:grid-cols-2">
+                  <HeaderFact label="What Is Being Built" value={contractorOpportunity.document_intelligence.what_is_being_built} strong />
+                  <HeaderFact label="Procurement Path" value={contractorOpportunity.document_intelligence.procurement_path} />
+                </div>
+                <div className="rounded-md border border-sky-100 bg-white p-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Scope Summary</p>
+                  <p className="mt-2 text-sm leading-6 text-sky-950">{contractorOpportunity.document_intelligence.scope_summary}</p>
+                </div>
+                {contractorOpportunity.document_intelligence.identified_quantities?.length ? (
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Identified Quantities</p>
+                    <ul className="mt-2 space-y-1 text-sm text-sky-950">
+                      {contractorOpportunity.document_intelligence.identified_quantities.map((item) => (
+                        <li key={`${item.kind}-${item.quantity}`}>
+                          <span className="font-medium">{item.quantity}</span>
+                          <span className="text-sky-800"> — {item.context.slice(0, 140)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+                <div className="rounded-md border border-sky-100 bg-white p-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Timeline</p>
+                  <pre className="mt-2 whitespace-pre-wrap font-sans text-sm leading-6 text-sky-950">
+                    {contractorOpportunity.document_intelligence.timeline_summary}
+                  </pre>
+                </div>
+                {contractorOpportunity.document_intelligence.best_contact ? (
+                  <div className="rounded-md border border-sky-100 bg-white p-3">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Best Contact</p>
+                    <p className="mt-2 text-sm font-semibold text-sky-950">
+                      {contractorOpportunity.document_intelligence.best_contact.name}
+                      {contractorOpportunity.document_intelligence.best_contact.role
+                        ? ` · ${contractorOpportunity.document_intelligence.best_contact.role}`
+                        : ""}
+                    </p>
+                    {contractorOpportunity.document_intelligence.best_contact.source ? (
+                      <p className="mt-1 text-xs text-sky-800">Source: {contractorOpportunity.document_intelligence.best_contact.source}</p>
+                    ) : null}
+                  </div>
+                ) : null}
+                {contractorOpportunity.document_intelligence.evidence?.length ? (
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Supporting Evidence</p>
+                    <ul className="mt-2 space-y-3">
+                      {contractorOpportunity.document_intelligence.evidence.map((item) => (
+                        <li key={`${item.source}-${item.signal}-${item.text.slice(0, 40)}`} className="rounded-md border border-sky-100 bg-white p-3">
+                          <p className="text-sm leading-6 text-sky-950">“{item.text}”</p>
+                          <p className="mt-2 text-xs text-sky-800">Source: {item.source}</p>
+                          {item.source_url ? (
+                            <a href={item.source_url} target="_blank" rel="noreferrer" className="mt-1 inline-block text-xs font-medium underline">
+                              Open source
+                            </a>
+                          ) : null}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+                <p className="text-xs text-sky-800">{contractorOpportunity.document_intelligence.confidence_reasoning}</p>
+              </CardContent>
+            </Card>
+          ) : null}
+
           {contractorOpportunity?.project_dossier ? (
             <Card>
               <CardHeader>

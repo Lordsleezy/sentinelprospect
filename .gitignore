@@ -48,3 +48,4 @@ dev-server*.log
 /tmp/
 /data/cslb-license-master.csv
 /data/cslb-license-master.xls
+/data/document_fetch_cache/

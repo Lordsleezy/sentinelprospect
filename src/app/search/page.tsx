@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { getContractorOpportunitySearchResults, positiveFenceEvidence, type ContractorOpportunity } from "@/lib/contractor-opportunity-engine";
+import { getContractorOpportunitySearchResults, inferSearchTrades, positiveFenceEvidence, type ContractorOpportunity } from "@/lib/contractor-opportunity-engine";
 import { formatHumanContact, getOpportunityHumanContact, type HumanContact } from "@/lib/human-contact-discovery";
 import { globalSearch } from "@/lib/search";
 
@@ -32,7 +32,8 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const results = await globalSearch(q);
   const ranked = getContractorOpportunitySearchResults(q);
   const top = ranked[0];
-  const desiredTrade = inferQueryTrade(q);
+  const desiredTrades = inferSearchTrades(q);
+  const desiredTrade = desiredTrades[0] ?? inferQueryTrade(q);
   const actionableCount = ranked.filter((item) => item.opportunity_state === "Actionable Opportunity").length;
   const researchCount = ranked.filter((item) => item.opportunity_state === "Research Required").length;
   const opportunityCount = ranked.filter((item) => item.opportunity_state === "Opportunity").length;
@@ -41,6 +42,9 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const actionableNowCount = ranked.filter((item) => item.actionability_score >= 70).length;
   const tradeLabel = desiredTrade ? `${desiredTrade.toLowerCase()} ` : "";
   const sourceCount = results.signals.length + results.permits.length + results.companies.length;
+  const emptyTradeMessage = desiredTrade
+    ? `No matching ${desiredTrade} opportunities were found for this search. Sentinel does not fall back to fencing results when another trade is requested.`
+    : "Sentinel found no results that clear the contractor opportunity threshold for this search.";
 
   return (
     <AppShell>
@@ -98,7 +102,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                       <p><span className="font-semibold text-zinc-950">What to do:</span> {top.recommended_action}</p>
                     </div>
                   ) : (
-                    <p className="mt-2 max-w-3xl text-sm leading-6 text-zinc-600">Try a trade plus a location, timing window, source, or project type. Sentinel suppresses tiny repairs, noise matches, and projects already controlled by the searched trade contractor.</p>
+                    <p className="mt-2 max-w-3xl text-sm leading-6 text-zinc-600">{emptyTradeMessage} Try a different trade, location, timing window, or project type.</p>
                   )}
                 </div>
                 {top ? (
@@ -117,11 +121,11 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                 </div>
               ) : null}
             </section>
-            {ranked.length ? ranked.map((opportunity) => <ContractorOpportunityCard key={opportunity.id} opportunity={opportunity} />) : (
+            {ranked.length ? ranked.map((opportunity) => <ContractorOpportunityCard key={opportunity.id} opportunity={opportunity} searchedTrade={desiredTrade} />) : (
               <Card>
-                <CardHeader><h2 className="font-semibold">No realistic contractor opportunities found</h2></CardHeader>
+                <CardHeader><h2 className="font-semibold">{desiredTrade ? `No ${desiredTrade} opportunities found` : "No realistic contractor opportunities found"}</h2></CardHeader>
                 <CardContent className="space-y-2 text-sm text-zinc-600">
-                  <p>Sentinel found no results that clear the contractor opportunity threshold for this search.</p>
+                  <p>{emptyTradeMessage}</p>
                   <p>Try broader terms such as subdivision work, public works, commercial development, utility expansion, or a different trade.</p>
                 </CardContent>
               </Card>
@@ -181,19 +185,32 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   );
 }
 
-function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpportunity }) {
+function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity: ContractorOpportunity; searchedTrade: string | null }) {
   const humanContact = getOpportunityHumanContact(opportunity.id);
   const bestContact = humanContact?.best_contact ?? null;
   const displayContact = bestContact ?? opportunity.best_contact ?? null;
   const nextStep = humanContact?.recommended_next_step ?? opportunity.recommended_next_step;
+  const showFencingUi = !searchedTrade || searchedTrade === "Fencing";
   const probability = fencingProbability(opportunity);
   const developer = realValue(opportunity.populated_fields.developer);
   const generalContractor = realValue(opportunity.populated_fields.general_contractor);
   const contactName = realValue(displayContactName(displayContact));
   const contactPhone = realValue(displayContactPhone(displayContact));
   const contactEmail = realValue(displayContactEmail(displayContact));
+  const decisionMaker = realValue(opportunity.decision_maker) ?? contactName;
+  const decisionMakerRole = realValue(opportunity.decision_maker_role);
+  const decisionMakerPhone = realValue(opportunity.decision_maker_phone);
+  const decisionMakerEmail = realValue(opportunity.decision_maker_email);
+  const secondContact = realValue(
+    opportunity.second_contact
+      ? `${opportunity.second_contact}${opportunity.second_contact_phone ? ` · ${opportunity.second_contact_phone}` : ""}`
+      : null,
+  );
+  const accessPathType = realValue(opportunity.access_path_type ?? opportunity.access_path?.type);
+  const awardProbability = realValue(opportunity.subcontractor_award_probability);
   const summary = conciseProjectSummary(opportunity.project_dossier?.project_summary ?? opportunity.project_summary);
   const whyFencingMatters = buildWhyFencingMatters(opportunity);
+  const whyTradeMatters = buildWhyTradeMatters(opportunity, searchedTrade);
   const evidenceSnippets = opportunity.evidence_snippets ?? opportunity.project_dossier?.evidence_snippets ?? [];
 
   return (
@@ -202,13 +219,43 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
         <h3 className="text-xl font-semibold text-zinc-950">{opportunity.project_name}</h3>
 
         <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-4">
-          <VisibleDatum label="Fencing Probability" value={`${probability.percent}% - ${probability.label}`} className={probability.className} />
+          {showFencingUi ? (
+            <VisibleDatum label="Fencing Probability" value={`${probability.percent}% - ${probability.label}`} className={probability.className} />
+          ) : (
+            <VisibleDatum label={`${searchedTrade} Relevance`} value={`${opportunity.trade_relevance}%`} className="text-emerald-700" />
+          )}
           <OptionalVisibleDatum label="Developer" value={developer} />
           <OptionalVisibleDatum label="General Contractor" value={generalContractor} />
-          <OptionalVisibleDatum label="Best Contact" value={contactName} />
-          <OptionalVisibleDatum label="Phone Number" value={contactPhone} />
-          <OptionalVisibleDatum label="Email" value={contactEmail} />
+          <OptionalVisibleDatum label="Decision Maker" value={decisionMaker} />
+          <OptionalVisibleDatum label="Decision Maker Role" value={decisionMakerRole} />
+          <OptionalVisibleDatum label="Phone Number" value={decisionMakerPhone ?? contactPhone} />
+          <OptionalVisibleDatum label="Email" value={decisionMakerEmail ?? contactEmail} />
+          <OptionalVisibleDatum label="Access Path" value={accessPathType} />
         </dl>
+
+        {(opportunity.recommended_first_call || opportunity.decision_maker_phone) ? (
+          <div className="mt-4 rounded-md border border-amber-100 bg-amber-50 p-3">
+            <p className="text-xs font-semibold uppercase tracking-wide text-amber-800">Who To Call Tomorrow Morning</p>
+            <p className="mt-2 text-sm font-medium leading-6 text-amber-950">{opportunity.recommended_first_call ?? opportunity.recommended_action}</p>
+            <dl className="mt-3 grid gap-2 text-sm sm:grid-cols-2">
+              <OptionalVisibleDatum label="Second Contact" value={secondContact} />
+              <OptionalVisibleDatum label="Procurement Stage" value={realValue(opportunity.procurement_stage)} />
+              {showFencingUi ? (
+                <>
+                  <OptionalVisibleDatum label="Fence Package Award Likelihood" value={awardProbability} />
+                  <OptionalVisibleDatum label="Who Awards Fence Packages" value={realValue(opportunity.who_awards_fence_packages)} />
+                </>
+              ) : (
+                <OptionalVisibleDatum label="Subcontractor Award Likelihood" value={awardProbability} />
+              )}
+            </dl>
+            {opportunity.escalation_path?.length ? (
+              <ul className="mt-3 space-y-1 text-sm leading-6 text-amber-950">
+                {opportunity.escalation_path.slice(0, 4).map((step) => <li key={step}>- {step}</li>)}
+              </ul>
+            ) : null}
+          </div>
+        ) : null}
 
         <div className="mt-4 rounded-md border border-zinc-100 bg-zinc-50 p-3">
           <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Project Summary</p>
@@ -216,15 +263,19 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
           {opportunity.primary_scope ? (
             <p className="mt-2 text-xs text-zinc-600">
               Primary scope: {opportunity.primary_scope}
-              {opportunity.fencing_bidable === true ? " · Bidable fencing work" : opportunity.fencing_bidable === false ? " · Not bidable as fencing" : ""}
+              {showFencingUi
+                ? opportunity.fencing_bidable === true ? " · Bidable fencing work" : opportunity.fencing_bidable === false ? " · Not bidable as fencing" : ""
+                : ` · Matched as ${searchedTrade}`}
             </p>
           ) : null}
         </div>
 
         <div className="mt-4 rounded-md border border-emerald-100 bg-emerald-50 p-3">
-          <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Why a Fencing Contractor Should Care</p>
+          <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">
+            {showFencingUi ? "Why a Fencing Contractor Should Care" : `Why a ${searchedTrade} Contractor Should Care`}
+          </p>
           <ul className="mt-2 space-y-1 text-sm leading-6 text-emerald-950">
-            {whyFencingMatters.map((bullet) => <li key={bullet}>- {bullet}</li>)}
+            {(showFencingUi ? whyFencingMatters : whyTradeMatters).map((bullet) => <li key={bullet}>- {bullet}</li>)}
           </ul>
         </div>
 
@@ -288,7 +339,12 @@ function ContractorOpportunityCard({ opportunity }: { opportunity: ContractorOpp
               <AnalysisDatum label="Evidence Tier" value={opportunity.fence_evidence_tier ?? "Unknown"} />
               <AnalysisDatum label="Fence Signal Score" value={opportunity.fence_signal_score} />
               <AnalysisDatum label="Likely Scope" value={["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence) ? "Insufficient evidence to determine likely fencing scope" : opportunity.likely_scope} />
-              <AnalysisDatum label="Access Path" value={opportunity.access_path.type} />
+              <AnalysisDatum label="Access Path" value={opportunity.access_path_type ?? opportunity.access_path.type} />
+              <AnalysisDatum label="Procurement Stage" value={opportunity.procurement_stage ?? opportunity.project_stage} />
+              <AnalysisDatum label="Subcontractor Award Probability" value={opportunity.subcontractor_award_probability ?? "Unknown"} />
+              <AnalysisDatum label="Decision Maker" value={opportunity.decision_maker ?? "Unknown"} />
+              <AnalysisDatum label="Decision Maker Role" value={opportunity.decision_maker_role ?? "Unknown"} />
+              <AnalysisDatum label="Second Contact" value={opportunity.second_contact ?? "Unknown"} />
               <AnalysisDatum label="Subcontractor Likelihood" value={opportunity.subcontractor_likelihood} />
               <AnalysisDatum label="Scope Size" value={opportunity.scope_size} />
               <AnalysisDatum label="Opportunity Size" value={opportunity.opportunity_size} />
@@ -376,6 +432,20 @@ function realValue(value?: string | null) {
   if (!value) return undefined;
   if (["not identified", "not available", "no contact information available", "unknown"].includes(value.trim().toLowerCase())) return undefined;
   return value;
+}
+
+function buildWhyTradeMatters(opportunity: ContractorOpportunity, trade: string | null) {
+  const label = trade ?? opportunity.primary_contractor_trade ?? "trade";
+  const bullets = new Set<string>();
+  if (opportunity.qualification_reason) bullets.add(opportunity.qualification_reason);
+  if (opportunity.likely_scope) bullets.add(`Likely scope: ${opportunity.likely_scope}.`);
+  if (opportunity.trade) bullets.add(`Source trade tags include: ${opportunity.trade}.`);
+  if (opportunity.recommended_action) bullets.add(opportunity.recommended_action);
+  if (bullets.size === 0) {
+    bullets.add(`Matched as a ${label} opportunity from project name, summary, or trade evidence.`);
+    bullets.add("Review source documents before outreach.");
+  }
+  return [...bullets].slice(0, 5);
 }
 
 function buildWhyFencingMatters(opportunity: ContractorOpportunity) {

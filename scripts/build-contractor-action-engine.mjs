@@ -4,11 +4,13 @@ import { resolve } from "node:path";
 const contractorOpportunities = await readJson("data/contractor_opportunities.json") ?? [];
 const opportunityContacts = await readJson("data/opportunity_contacts.json") ?? [];
 const companyHumanContacts = await readJson("data/company_human_contacts.json") ?? [];
+const accessPathIntelligence = await readJson("data/access_path_intelligence.json") ?? [];
 const capturedAt = new Date().toISOString();
 
 const contactsByOpportunity = new Map(opportunityContacts.map((row) => [row.opportunity_id, row]));
 const contactsByProjectName = new Map(opportunityContacts.map((row) => [normalizeKey(row.project_name), row]));
 const companyContactsByName = new Map(companyHumanContacts.map((row) => [normalizeKey(row.company), row]));
+const accessPathByOpportunity = new Map(accessPathIntelligence.map((row) => [row.opportunity_id, row]));
 
 const contractor_action_opportunities = contractorOpportunities
   .map(buildActionOpportunity)
@@ -40,6 +42,7 @@ async function writeJson(file, value) {
 
 function buildActionOpportunity(opportunity) {
   const contactRoute = contactsByOpportunity.get(opportunity.id) ?? contactsByProjectName.get(normalizeKey(opportunity.project_name));
+  const accessIntel = accessPathByOpportunity.get(opportunity.id);
   const companyContacts = [
     companyContactsByName.get(normalizeKey(opportunity.general_contractor)),
     companyContactsByName.get(normalizeKey(opportunity.developer)),
@@ -49,11 +52,12 @@ function buildActionOpportunity(opportunity) {
     ...(contactRoute?.contacts ?? []),
     ...companyContacts.flatMap((row) => row.contacts ?? []),
   ]).sort(compareContacts);
-  const bestContact = contacts[0] ?? contactRoute?.best_contact ?? null;
-  const accessPath = accessPathFor(opportunity, bestContact);
+  const bestContact = bestContactFromAccessIntel(accessIntel) ?? contacts[0] ?? contactRoute?.best_contact ?? null;
+  const accessPath = accessPathFromIntel(accessIntel, opportunity, bestContact);
   const likelyScope = likelyScopeFor(opportunity);
-  const score = actionabilityScoreFor(opportunity, bestContact, accessPath);
-  const recommendedAction = recommendedActionFor(opportunity, bestContact, accessPath, likelyScope);
+  const score = actionabilityScoreFor(opportunity, bestContact, accessPath, accessIntel);
+  const recommendedAction = accessIntel?.recommended_first_call
+    ?? recommendedActionFor(opportunity, bestContact, accessPath, likelyScope);
 
   return {
     opportunity_id: opportunity.id,
@@ -67,10 +71,30 @@ function buildActionOpportunity(opportunity) {
     best_contact: bestContact,
     contact_candidates: contacts,
     access_path: accessPath,
+    access_path_type: accessIntel?.access_path_type ?? accessPath.type,
+    procurement_stage: accessIntel?.procurement_stage ?? opportunity.project_stage ?? "Unknown",
+    subcontractor_award_probability: accessIntel?.subcontractor_award_probability ?? "Unknown",
+    subcontractor_award_probability_score: accessIntel?.subcontractor_award_probability_score ?? null,
+    subcontractor_award_reasoning: accessIntel?.subcontractor_award_reasoning ?? null,
+    decision_maker: accessIntel?.decision_maker ?? bestContact?.name ?? bestContact?.company ?? null,
+    decision_maker_role: accessIntel?.decision_maker_role ?? bestContact?.title ?? null,
+    decision_maker_company: accessIntel?.decision_maker_company ?? bestContact?.company ?? null,
+    decision_maker_phone: accessIntel?.decision_maker_phone ?? bestContact?.phone ?? null,
+    decision_maker_email: accessIntel?.decision_maker_email ?? bestContact?.email ?? null,
+    second_contact: accessIntel?.second_contact ?? null,
+    second_contact_role: accessIntel?.second_contact_role ?? null,
+    second_contact_company: accessIntel?.second_contact_company ?? null,
+    second_contact_phone: accessIntel?.second_contact_phone ?? null,
+    second_contact_email: accessIntel?.second_contact_email ?? null,
+    escalation_path: accessIntel?.escalation_path ?? [],
+    who_controls_subcontractor_selection: accessIntel?.who_controls_subcontractor_selection ?? null,
+    who_awards_fence_packages: accessIntel?.who_awards_fence_packages ?? null,
+    recommended_first_call: accessIntel?.recommended_first_call ?? recommendedAction,
+    call_readiness_score: accessIntel?.call_readiness_score ?? score,
     likely_scope: likelyScope,
     recommended_action: recommendedAction,
-    outreach_script: outreachScriptFor(opportunity, bestContact, likelyScope),
-    populated_fields: populatedFields(opportunity, bestContact, accessPath),
+    outreach_script: accessIntel?.call_script ?? outreachScriptFor(opportunity, bestContact, likelyScope),
+    populated_fields: populatedFields(opportunity, bestContact, accessPath, accessIntel),
     missing_intelligence: missingIntelligence(opportunity, bestContact, accessPath),
     source_url: opportunity.source_url,
     permit_source_available: Boolean(opportunity.source_url && opportunity.source_url !== "Unknown"),
@@ -78,7 +102,42 @@ function buildActionOpportunity(opportunity) {
   };
 }
 
-function actionabilityScoreFor(opportunity, contact, accessPath) {
+function bestContactFromAccessIntel(accessIntel) {
+  if (!accessIntel?.decision_maker_company && !accessIntel?.decision_maker) return null;
+  const company = accessIntel.decision_maker_company ?? accessIntel.decision_maker;
+  const rawName = accessIntel.decision_maker?.includes("(")
+    ? accessIntel.decision_maker.replace(/\s*\(.*\)\s*$/, "").trim()
+    : null;
+  const name = rawName && normalizeKey(rawName) !== normalizeKey(company) ? rawName : undefined;
+  return {
+    name,
+    title: accessIntel.decision_maker_role ?? undefined,
+    company,
+    phone: accessIntel.decision_maker_phone ?? undefined,
+    email: accessIntel.decision_maker_email ?? undefined,
+    contactType: /owner|site business/i.test(accessIntel.decision_maker_role ?? "") ? "corporate" : "construction",
+    confidence: accessIntel.decision_maker_confidence ?? 0.7,
+    source: accessIntel.decision_maker_source ?? "access_path_intelligence",
+    evidence: [
+      accessIntel.recommended_first_call,
+      accessIntel.who_controls_subcontractor_selection
+        ? `Controls subcontractor selection: ${accessIntel.who_controls_subcontractor_selection}.`
+        : null,
+    ].filter(Boolean),
+  };
+}
+
+function accessPathFromIntel(accessIntel, opportunity, bestContact) {
+  if (accessIntel?.access_path_type) {
+    return {
+      type: accessIntel.access_path_type,
+      value: firstKnown(opportunity.procurement_route, opportunity.access_route, bestContact?.source),
+    };
+  }
+  return accessPathFor(opportunity, bestContact);
+}
+
+function actionabilityScoreFor(opportunity, contact, accessPath, accessIntel) {
   let score = 0;
   if (known(opportunity.developer)) score += 14;
   if (known(opportunity.general_contractor)) score += 16;
@@ -86,10 +145,11 @@ function actionabilityScoreFor(opportunity, contact, accessPath) {
   if (contact) score += 18;
   if (contact?.phone) score += 22;
   if (contact?.email) score += 14;
-  if (accessPath.type === "Bid portal" || accessPath.type === "Public works" || accessPath.type === "Plan room") score += 16;
+  if (["Bid portal", "Public works", "Plan room", "Municipality-driven"].includes(accessPath.type)) score += 16;
   if (accessPath.type !== "Unknown") score += 10;
   if (opportunity.procurement_route && opportunity.procurement_route !== "Unknown") score += 8;
   if (opportunity.source_url && opportunity.source_url !== "Unknown") score += 8;
+  if (accessIntel?.call_readiness_score) score = Math.max(score, Math.min(100, Math.round(score * 0.7 + accessIntel.call_readiness_score * 0.3)));
   return Math.min(100, score);
 }
 
@@ -140,14 +200,17 @@ function outreachScriptFor(opportunity, contact, likelyScope) {
   return `Hi, this is [Name] with [Company]. I'm calling about ${cleanProjectName(opportunity.project_name)}. I saw source evidence for the project and wanted to ask who handles ${scope} or subcontractor pricing for ${company}.`;
 }
 
-function populatedFields(opportunity, contact, accessPath) {
+function populatedFields(opportunity, contact, accessPath, accessIntel) {
   return {
     developer: known(opportunity.developer) ? opportunity.developer : undefined,
     general_contractor: known(opportunity.general_contractor) ? opportunity.general_contractor : undefined,
     architect: known(opportunity.architect) ? opportunity.architect : undefined,
-    phone: contact?.phone,
-    email: contact?.email,
+    phone: accessIntel?.decision_maker_phone ?? contact?.phone,
+    email: accessIntel?.decision_maker_email ?? contact?.email,
+    decision_maker: accessIntel?.decision_maker,
+    decision_maker_role: accessIntel?.decision_maker_role,
     access_path: accessPath.type !== "Unknown" ? accessPath.type : undefined,
+    procurement_stage: accessIntel?.procurement_stage,
     source: opportunity.source_url,
   };
 }

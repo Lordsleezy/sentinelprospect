@@ -61,8 +61,28 @@ export type ContractorOpportunity = {
   recommended_action: string;
   outreach_script: string;
   likely_scope: string;
-  best_contact?: { name?: string; company: string; phone?: string; email?: string };
+  best_contact?: { name?: string; company: string; phone?: string; email?: string; title?: string };
   access_path: { type: string; value: string };
+  access_path_type?: string;
+  procurement_stage?: string;
+  subcontractor_award_probability?: string;
+  subcontractor_award_probability_score?: number | null;
+  subcontractor_award_reasoning?: string | null;
+  decision_maker?: string | null;
+  decision_maker_role?: string | null;
+  decision_maker_company?: string | null;
+  decision_maker_phone?: string | null;
+  decision_maker_email?: string | null;
+  second_contact?: string | null;
+  second_contact_role?: string | null;
+  second_contact_company?: string | null;
+  second_contact_phone?: string | null;
+  second_contact_email?: string | null;
+  escalation_path?: string[];
+  who_controls_subcontractor_selection?: string | null;
+  who_awards_fence_packages?: string | null;
+  recommended_first_call?: string | null;
+  call_readiness_score?: number;
   populated_fields: Record<string, string | undefined>;
   missing_intelligence: string[];
   project_summary: string;
@@ -140,7 +160,37 @@ export type ContractorOpportunity = {
   contradiction_notes?: string[];
 };
 
-type ContractorActionFields = Pick<ContractorOpportunity, "actionability_score" | "recommended_action" | "outreach_script" | "likely_scope" | "best_contact" | "access_path" | "populated_fields" | "missing_intelligence"> & {
+type ContractorActionFields = Pick<
+  ContractorOpportunity,
+  | "actionability_score"
+  | "recommended_action"
+  | "outreach_script"
+  | "likely_scope"
+  | "best_contact"
+  | "access_path"
+  | "access_path_type"
+  | "procurement_stage"
+  | "subcontractor_award_probability"
+  | "subcontractor_award_probability_score"
+  | "subcontractor_award_reasoning"
+  | "decision_maker"
+  | "decision_maker_role"
+  | "decision_maker_company"
+  | "decision_maker_phone"
+  | "decision_maker_email"
+  | "second_contact"
+  | "second_contact_role"
+  | "second_contact_company"
+  | "second_contact_phone"
+  | "second_contact_email"
+  | "escalation_path"
+  | "who_controls_subcontractor_selection"
+  | "who_awards_fence_packages"
+  | "recommended_first_call"
+  | "call_readiness_score"
+  | "populated_fields"
+  | "missing_intelligence"
+> & {
   opportunity_id: string;
 };
 
@@ -194,11 +244,30 @@ const aliases: Record<string, string[]> = {
   contractors: [],
 };
 
+/** Direct evidence terms used to hard-filter non-fencing trade searches. */
+const TRADE_EVIDENCE_TERMS: Record<string, string[]> = {
+  Fencing: ["fence", "fencing", "gate", "gates", "chain link", "perimeter fence", "security fence"],
+  Concrete: ["concrete", "slab", "foundation", "sidewalk", "curb", "gutter", "flatwork"],
+  Roofing: ["roofing", "reroof", "re-roof", "tpo", "membrane", "capsheet", "shingle", "roof geometry", "update roof"],
+  Electrical: ["electrical", "electrician", "electric", "solar", "photovoltaic", "pv ", "pv+", "service panel", "lighting", "panel upgrade"],
+  Plumbing: ["plumbing", "plumber", "sewer", "water line", "gas line", "backflow"],
+  HVAC: ["hvac", "package unit", "package units", "rtu", "air conditioning", "heat pump", "mech (", "mech(", "mechanical system", "mechanical equipment", "rooftop packaged", "split system"],
+  Landscaping: ["landscape", "landscaping", "irrigation", "planting", "turf"],
+  Demolition: ["demo", "demolition", "wrecking"],
+  Utility: ["utility", "utilities", "drainage", "sewer", "water main", "storm"],
+  "Site work": ["site work", "grading", "earthwork", "excavation", "paving"],
+  Solar: ["solar", "photovoltaic", "pv ", "energy storage", "battery"],
+  Security: ["security", "access control", "camera", "alarm"],
+  Asphalt: ["asphalt", "paving", "parking lot"],
+  "General Contractor": ["general contractor", "tenant improvement", "remodel", "addition"],
+};
+
 export function getContractorOpportunitySearchResults(query: string) {
   const trimmed = query.trim();
   if (!trimmed) return [];
   const queryTerms = terms(trimmed);
   const targetTrades = inferSearchTrades(trimmed);
+  const fencingOnlySearch = isFencingOnlySearch(targetTrades);
 
   return contractorOpportunities
     .filter((opportunity) => !shouldSuppressFencingSearchResult(opportunity, targetTrades))
@@ -207,17 +276,33 @@ export function getContractorOpportunitySearchResults(query: string) {
       return {
         opportunity: applySearchTradeScore(opportunity, tradeScore),
         score: scoreContractorOpportunity(opportunity, queryTerms, targetTrades, tradeScore),
+        tradeScore,
       };
     })
-    .filter((item) => item.score >= 35 && item.opportunity.suppress_reasons.length === 0 && scopeMatchesSearch(item.opportunity, targetTrades))
-    .sort((a, b) =>
-      fenceScopeRank(b.opportunity.fence_scope_confidence) - fenceScopeRank(a.opportunity.fence_scope_confidence) ||
-      effectiveFenceSignalScore(b.opportunity) - effectiveFenceSignalScore(a.opportunity) ||
-      b.opportunity.contractor_opportunity_score - a.opportunity.contractor_opportunity_score ||
-      b.opportunity.actionability_score - a.opportunity.actionability_score ||
-      contactQuality(b.opportunity) - contactQuality(a.opportunity) ||
-      b.score - a.score
+    .filter((item) =>
+      item.score >= 35
+      && item.opportunity.suppress_reasons.length === 0
+      && scopeMatchesSearch(item.opportunity, targetTrades, item.tradeScore)
     )
+    .sort((a, b) => {
+      if (fencingOnlySearch) {
+        return (
+          fenceScopeRank(b.opportunity.fence_scope_confidence) - fenceScopeRank(a.opportunity.fence_scope_confidence)
+          || effectiveFenceSignalScore(b.opportunity) - effectiveFenceSignalScore(a.opportunity)
+          || b.opportunity.contractor_opportunity_score - a.opportunity.contractor_opportunity_score
+          || b.opportunity.actionability_score - a.opportunity.actionability_score
+          || contactQuality(b.opportunity) - contactQuality(a.opportunity)
+          || b.score - a.score
+        );
+      }
+      return (
+        (b.tradeScore?.trade_relevance ?? 0) - (a.tradeScore?.trade_relevance ?? 0)
+        || b.opportunity.contractor_opportunity_score - a.opportunity.contractor_opportunity_score
+        || b.score - a.score
+        || b.opportunity.actionability_score - a.opportunity.actionability_score
+        || contactQuality(b.opportunity) - contactQuality(a.opportunity)
+      );
+    })
     .slice(0, 30)
     .map((item) => item.opportunity);
 }
@@ -288,13 +373,21 @@ function scoreContractorOpportunity(opportunity: ContractorOpportunity, queryTer
   ].join(" ").toLowerCase();
 
   let score = Math.round((adjusted.actionability_score ?? 0) * 0.55 + tradeScore.contractor_opportunity_score * 0.35);
-  if (targetTrades.includes("Fencing")) {
+  if (targetTrades.includes("Fencing") && isFencingOnlySearch(targetTrades)) {
     score = Math.round(
       fenceScopeRank(adjusted.fence_scope_confidence) * 16
       + effectiveFenceSignalScore(adjusted) * 0.34
       + tradeScore.contractor_opportunity_score * 0.28
       + (adjusted.actionability_score ?? 0) * 0.16
       + contactQuality(adjusted) * 0.06
+    );
+  } else if (targetTrades.length) {
+    // Non-fencing trade searches should be driven by trade evidence, not fencing actionability.
+    score = Math.round(
+      tradeScore.trade_relevance * 0.42
+      + tradeScore.contractor_opportunity_score * 0.38
+      + (adjusted.actionability_score ?? 0) * 0.12
+      + contactQuality(adjusted) * 0.08
     );
   }
   score += queryTerms.reduce((sum, term) => sum + (text.includes(term) ? 3 : 0), 0);
@@ -315,11 +408,53 @@ function searchSuppressReasons(opportunity: ContractorOpportunity, tradeScore: T
   return [...new Set(reasons)];
 }
 
-function scopeMatchesSearch(opportunity: ContractorOpportunity, targetTrades: string[]) {
-  if (!targetTrades.includes("Fencing")) return true;
-  if (opportunity.fencing_bidable === false) return false;
-  if (["Weak Opportunity", "Weak Signal", "No Evidence", "No Meaningful Fence Opportunity"].includes(opportunity.fence_scope_confidence)) return false;
-  return positiveFenceEvidence(opportunity).length > 0;
+function isFencingOnlySearch(targetTrades: string[]) {
+  return targetTrades.length === 1 && targetTrades[0] === "Fencing";
+}
+
+function scopeMatchesSearch(opportunity: ContractorOpportunity, targetTrades: string[], tradeScore: TradeScore | null) {
+  if (!targetTrades.length) return true;
+
+  if (isFencingOnlySearch(targetTrades)) {
+    if (opportunity.fencing_bidable === false) return false;
+    if (["Weak Opportunity", "Weak Signal", "No Evidence", "No Meaningful Fence Opportunity"].includes(opportunity.fence_scope_confidence)) return false;
+    return positiveFenceEvidence(opportunity).length > 0;
+  }
+
+  // Non-fencing (or mixed) trade searches must match the requested trade with direct evidence.
+  // Do not silently fall back to fencing-ranked opportunities.
+  return targetTrades.some((trade) => matchesRequestedTrade(opportunity, trade, tradeScore));
+}
+
+function matchesRequestedTrade(opportunity: ContractorOpportunity, trade: string, tradeScore: TradeScore | null) {
+  if (trade === "Fencing") {
+    if (opportunity.fencing_bidable === false) return false;
+    if (["Weak Opportunity", "Weak Signal", "No Evidence", "No Meaningful Fence Opportunity"].includes(opportunity.fence_scope_confidence)) return false;
+    return positiveFenceEvidence(opportunity).length > 0;
+  }
+
+  const score = tradeScore?.trade === trade ? tradeScore : opportunity.trade_scores?.[trade];
+  if (!score || score.trade_relevance < 50 || score.contractor_opportunity_score < 35) return false;
+  return hasDirectTradeEvidence(opportunity, trade);
+}
+
+function hasDirectTradeEvidence(opportunity: ContractorOpportunity, trade: string) {
+  const termsForTrade = TRADE_EVIDENCE_TERMS[trade] ?? [trade.toLowerCase()];
+  const nameSummary = `${opportunity.project_name} ${opportunity.project_summary ?? ""}`.toLowerCase();
+  // Permit boilerplate often says "no additional electrical, mechanical, plumbing" — ignore that.
+  const cleaned = nameSummary.replace(/no additional[^.]{0,80}(electrical|mechanical|plumbing|structural)[^.]{0,80}/gi, " ");
+  if (termsForTrade.some((term) => cleaned.includes(term))) return true;
+
+  // Fall back to a clean single-trade tag only when the project name/summary has no cue.
+  // Multi-tagged trade fields (e.g. "Electrical, Fencing, HVAC") are too noisy to trust alone.
+  const tradeTokens = (opportunity.trade ?? "")
+    .toLowerCase()
+    .split(/[,/|]+/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+  if (tradeTokens.length !== 1) return false;
+  const onlyTrade = tradeTokens[0];
+  return onlyTrade === trade.toLowerCase() || onlyTrade.includes(trade.toLowerCase());
 }
 
 export function positiveFenceEvidence(opportunity: ContractorOpportunity) {

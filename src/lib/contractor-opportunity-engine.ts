@@ -350,6 +350,37 @@ export function getContractorOpportunityForProject(projectId: string, projectNam
   );
 }
 
+export function getSimilarContractorOpportunities(seed: ContractorOpportunity, limit = 4) {
+  const seedTrade = seed.primary_contractor_trade?.toLowerCase() ?? "";
+  const seedCity = seed.city?.toLowerCase() ?? "";
+  const seedCounty = seed.county?.toLowerCase() ?? "";
+  const seedScope = `${seed.likely_scope ?? ""} ${seed.primary_scope ?? ""} ${(seed.work_categories ?? []).join(" ")}`.toLowerCase();
+
+  return contractorOpportunities
+    .filter((opportunity) => opportunity.id !== seed.id)
+    .map((opportunity) => {
+      let score = 0;
+      if (seedTrade && opportunity.primary_contractor_trade?.toLowerCase() === seedTrade) score += 40;
+      else if (seedTrade && opportunity.trade?.toLowerCase().includes(seedTrade)) score += 20;
+      if (seedCity && opportunity.city?.toLowerCase() === seedCity) score += 25;
+      if (seedCounty && opportunity.county?.toLowerCase() === seedCounty) score += 15;
+      const otherScope = `${opportunity.likely_scope ?? ""} ${opportunity.primary_scope ?? ""} ${(opportunity.work_categories ?? []).join(" ")}`.toLowerCase();
+      if (seedScope && otherScope) {
+        const shared = seedScope.split(/\W+/).filter((token) => token.length > 3 && otherScope.includes(token)).length;
+        score += Math.min(20, shared * 4);
+      }
+      if ((opportunity.actionability_score ?? 0) >= 70) score += 5;
+      return { opportunity, score };
+    })
+    .filter((item) => item.score >= 30)
+    .sort((a, b) =>
+      b.score - a.score
+      || (b.opportunity.actionability_score ?? 0) - (a.opportunity.actionability_score ?? 0)
+    )
+    .slice(0, limit)
+    .map((item) => item.opportunity);
+}
+
 export function inferSearchTrades(query: string) {
   const normalized = query.toLowerCase();
   const trades = new Set<string>();

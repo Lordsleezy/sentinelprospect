@@ -6,9 +6,13 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { getContractorOpportunitySearchResults, inferSearchTrades, positiveFenceEvidence, type ContractorOpportunity } from "@/lib/contractor-opportunity-engine";
+import {
+  getContractorOpportunitySearchResults,
+  getSimilarContractorOpportunities,
+  inferSearchTrades,
+  type ContractorOpportunity,
+} from "@/lib/contractor-opportunity-engine";
 import { formatHumanContact, getOpportunityHumanContact, type HumanContact } from "@/lib/human-contact-discovery";
-import { globalSearch } from "@/lib/search";
 
 const popularSearches = [
   "Fence opportunities in Sacramento",
@@ -28,7 +32,6 @@ const searchFilters = [
 export default async function SearchPage({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {
   const params = await searchParams;
   const q = params.q ?? "";
-  const results = await globalSearch(q);
   const ranked = getContractorOpportunitySearchResults(q);
   const top = ranked[0];
   const desiredTrades = inferSearchTrades(q);
@@ -36,20 +39,15 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const highConfidenceCount = ranked.filter((item) => item.pursuit_confidence === "High Confidence").length;
   const mediumConfidenceCount = ranked.filter((item) => item.pursuit_confidence === "Medium Confidence").length;
   const researchCount = ranked.filter((item) => item.pursuit_confidence === "Research Required" || item.opportunity_state === "Research Required").length;
-  const actionableCount = ranked.filter((item) => item.opportunity_state === "Actionable Opportunity").length;
-  const opportunityCount = ranked.filter((item) => item.opportunity_state === "Opportunity").length;
-  const highSubcontractCount = ranked.filter((item) => item.subcontractor_likelihood === "High").length;
-  const majorScopeCount = ranked.filter((item) => item.scope_size === "Major" || item.scope_size === "Large").length;
-  const actionableNowCount = ranked.filter((item) => (item.pursuit_quality_score ?? 0) >= 70 || item.actionability_score >= 70).length;
   const tradeLabel = desiredTrade ? `${desiredTrade.toLowerCase()} ` : "";
-  const sourceCount = results.signals.length + results.permits.length + results.companies.length;
   const emptyTradeMessage = desiredTrade
     ? `No matching ${desiredTrade} opportunities were found for this search. Sentinel does not fall back to fencing results when another trade is requested.`
     : "Sentinel found no results that clear the contractor opportunity threshold for this search.";
+  const similarNearby = top ? getSimilarContractorOpportunities(top, 4) : [];
 
   return (
     <AppShell>
-      <PageTitle title={q ? `Search results: ${q}` : "Opportunity Search"} eyebrow="Prospect intelligence">
+      <PageTitle title={q ? `Search results: ${q}` : "Opportunity Search"} eyebrow="Find work worth calling on">
         <Link href="/sources" className="inline-flex items-center gap-2 rounded-md border border-zinc-200 bg-white px-3 py-2 text-sm font-medium text-zinc-700 hover:bg-zinc-50">
           <Database className="size-4" />
           Sources
@@ -106,7 +104,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                     {top.city ? ` in ${top.city}` : ""}.
                     {top.recommended_first_call || top.decision_maker_phone
                       ? " Contact details are on the card below."
-                      : " Open the card for who to call and what to say."}
+                      : " Open the card for who to call and when to act."}
                   </p>
                 </div>
               ) : (
@@ -126,44 +124,30 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
           <aside className="space-y-5">
             <Card>
               <CardHeader>
-                <h2 className="font-semibold">Call list</h2>
-                <p className="mt-1 text-sm text-zinc-500">Who to work first tomorrow morning.</p>
+                <h2 className="font-semibold">Similar Opportunities Nearby</h2>
+                <p className="mt-1 text-sm text-zinc-500">
+                  Related by trade, location, and scope{top ? ` to ${top.project_name}` : ""}.
+                </p>
               </CardHeader>
               <CardContent className="space-y-4">
-                {ranked.slice(0, 4).map((opportunity, index) => {
-                  const callName = realValue(opportunity.decision_maker)
-                    ?? realValue(opportunity.best_contact?.name)
-                    ?? realValue(opportunity.best_contact?.company)
-                    ?? realValue(opportunity.populated_fields?.general_contractor)
-                    ?? "Research contact";
-                  const callPhone = realValue(opportunity.decision_maker_phone) ?? realValue(opportunity.best_contact?.phone);
-                  return (
-                    <div key={opportunity.id} className="rounded-md border border-zinc-100 p-3">
-                      <p className="font-semibold">{index + 1}. {opportunity.project_name}</p>
-                      <p className="mt-2 text-sm text-zinc-700">{callName}{callPhone ? ` · ${callPhone}` : ""}</p>
-                      <p className="mt-1 text-sm text-zinc-600">{opportunity.likely_scope}</p>
-                      <Badge className={`mt-2 ${pursuitConfidenceBadgeClass(opportunity.pursuit_confidence)}`}>
-                        {opportunity.pursuit_confidence ?? "Research Required"}
-                      </Badge>
-                    </div>
-                  );
-                })}
+                {similarNearby.length ? similarNearby.map((opportunity) => (
+                  <div key={opportunity.id} className="rounded-md border border-zinc-100 p-3">
+                    <p className="font-semibold">{opportunity.project_name}</p>
+                    <p className="mt-1 text-sm text-zinc-600">
+                      {[opportunity.city, opportunity.county].filter(Boolean).join(", ") || "Nearby"}
+                      {opportunity.primary_contractor_trade ? ` · ${opportunity.primary_contractor_trade}` : ""}
+                    </p>
+                    <p className="mt-2 text-sm text-zinc-700">{opportunity.likely_scope || opportunity.primary_scope || "Scope to verify"}</p>
+                    <p className="mt-2 text-xs text-zinc-500">
+                      {opportunity.opportunity_size && opportunity.opportunity_size !== "Unknown" ? `${opportunity.opportunity_size} job` : opportunity.scope_size}
+                      {opportunity.project_stage && opportunity.project_stage !== "Unknown" ? ` · ${opportunity.project_stage}` : ""}
+                    </p>
+                  </div>
+                )) : (
+                  <p className="text-sm text-zinc-500">No nearby matches with similar trade and scope yet.</p>
+                )}
               </CardContent>
             </Card>
-            <details className="rounded-lg border border-zinc-200 bg-white p-4 shadow-sm">
-              <summary className="cursor-pointer text-sm font-semibold text-zinc-800">Analyst details</summary>
-              <div className="mt-4 space-y-4">
-                <p className="text-sm text-zinc-500">
-                  {actionableNowCount} high pursuit · {actionableCount} actionable · {opportunityCount} opportunity · {highSubcontractCount} high subcontract · {majorScopeCount} large/major · {sourceCount} related records
-                </p>
-                {results.signals.slice(0, 6).map((signal) => (
-                  <Link key={signal.id} href={`/projects/${signal.project_id}`} className="block rounded-md border border-zinc-100 p-3 hover:bg-zinc-50">
-                    <p className="text-sm font-semibold">{signal.signal_type}</p>
-                    <p className="mt-1 text-xs text-zinc-500">Score {signal.importance_score} - {signal.source}</p>
-                  </Link>
-                ))}
-              </div>
-            </details>
           </aside>
         </div>
       ) : (
@@ -180,7 +164,6 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
   const nextStep = humanContact?.recommended_next_step ?? opportunity.recommended_next_step;
   const showFencingUi = !searchedTrade || searchedTrade === "Fencing";
   const tradeLabel = searchedTrade ?? opportunity.primary_contractor_trade ?? "Trade";
-  const probability = fencingProbability(opportunity);
   const developer = realValue(opportunity.populated_fields.developer);
   const generalContractor = realValue(opportunity.populated_fields.general_contractor);
   const contactName = realValue(displayContactName(displayContact));
@@ -199,23 +182,27 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
       ? `${opportunity.second_contact}${opportunity.second_contact_phone ? ` · ${opportunity.second_contact_phone}` : ""}`
       : null,
   );
-  const accessPathType = realValue(opportunity.access_path_type ?? opportunity.access_path?.type);
-  const awardProbability = realValue(opportunity.subcontractor_award_probability);
-  const summary = conciseProjectSummary(opportunity.project_dossier?.project_summary ?? opportunity.project_summary);
-  const whyFencingMatters = buildWhyFencingMatters(opportunity);
-  const whyTradeMatters = buildWhyTradeMatters(opportunity, searchedTrade);
-  const whyBullets = (showFencingUi ? whyFencingMatters : whyTradeMatters).slice(0, 3);
+  const whyBullets = (showFencingUi ? buildWhyFencingMatters(opportunity) : buildWhyTradeMatters(opportunity, searchedTrade)).slice(0, 3);
   const evidenceSnippets = opportunity.evidence_snippets ?? opportunity.project_dossier?.evidence_snippets ?? [];
-  const jobScope = realValue(opportunity.likely_scope)
-    ?? (showFencingUi && opportunity.evidence_likely_fence_scope ? opportunity.evidence_likely_fence_scope : null)
-    ?? opportunity.primary_scope
-    ?? `${tradeLabel} work`;
   const whoToCall = decisionMaker ?? decisionMakerCompany ?? "Contact not identified yet";
-  const whatToSay = opportunity.outreach_script
-    || opportunity.recommended_first_call
-    || opportunity.recommended_action
-    || `Ask who handles ${String(jobScope).toLowerCase()} pricing on this project.`;
   const location = [opportunity.city, opportunity.county].filter(Boolean).join(", ");
+  const projectSummary = buildContractorProjectSummary(opportunity, tradeLabel);
+  const likelyScopeCategories = inferLikelyScopeCategories(opportunity, tradeLabel);
+  const whyThisContact = buildWhyThisContact({
+    decisionMaker,
+    decisionMakerRole,
+    decisionMakerCompany,
+    decisionMakerPhone,
+    accessPath: realValue(opportunity.access_path_type ?? opportunity.access_path?.type),
+    generalContractor,
+    developer,
+    recommendedFirstCall: realValue(opportunity.recommended_first_call),
+  });
+  const timeline = buildTimeline(opportunity);
+  const recommendedAction = opportunity.recommended_first_call
+    || opportunity.recommended_action
+    || nextStep
+    || "Research the GC or developer before outreach.";
 
   return (
     <article className="rounded-lg border border-zinc-200 bg-white p-5 shadow-sm hover:border-zinc-300">
@@ -226,17 +213,25 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
             <h3 className="mt-1 text-xl font-semibold text-zinc-950">{opportunity.project_name}</h3>
           </div>
           <Badge className={pursuitConfidenceBadgeClass(opportunity.pursuit_confidence)}>
-            {opportunity.pursuit_confidence ?? "Research Required"}
+            {contractorReadinessLabel(opportunity.pursuit_confidence)}
           </Badge>
         </div>
 
+        <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-4">
+          <VisibleDatum label="Opportunity Size" value={friendlySize(opportunity)} />
+          <VisibleDatum label="Project Stage" value={friendlyStage(opportunity)} />
+          <VisibleDatum label="Subcontractor Likelihood" value={opportunity.subcontractor_likelihood || "Unknown"} />
+          <VisibleDatum label="Recommended Action" value={shortAction(recommendedAction)} />
+        </dl>
+
         <div className="mt-5 space-y-4">
           <section>
-            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">1. What is the job?</p>
-            <p className="mt-2 text-base font-semibold leading-6 text-zinc-950">{jobScope}</p>
-            <p className="mt-2 text-sm leading-6 text-zinc-700">{summary}</p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Project Summary</p>
+            <div className="mt-2 space-y-2 text-sm leading-6 text-zinc-700">
+              {projectSummary.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+            </div>
             {(developer || generalContractor) ? (
-              <p className="mt-2 text-sm text-zinc-600">
+              <p className="mt-3 text-sm text-zinc-600">
                 {developer ? <>Developer: <span className="font-medium text-zinc-800">{developer}</span></> : null}
                 {developer && generalContractor ? " · " : null}
                 {generalContractor ? <>GC: <span className="font-medium text-zinc-800">{generalContractor}</span></> : null}
@@ -244,15 +239,25 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
             ) : null}
           </section>
 
+          <section>
+            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Likely Scope</p>
+            <p className="mt-2 text-sm text-zinc-600">Probable work categories to verify before bidding.</p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {likelyScopeCategories.map((category) => (
+                <Badge key={category} className="border-zinc-200 bg-zinc-50 text-zinc-800">{category}</Badge>
+              ))}
+            </div>
+          </section>
+
           <section className="rounded-md border border-emerald-100 bg-emerald-50 p-3">
-            <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">2. Why should a {tradeLabel.toLowerCase()} contractor care?</p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Why a {tradeLabel.toLowerCase()} contractor should care</p>
             <ul className="mt-2 space-y-1 text-sm leading-6 text-emerald-950">
               {whyBullets.map((bullet) => <li key={bullet}>- {bullet}</li>)}
             </ul>
           </section>
 
           <section className="rounded-md border border-amber-100 bg-amber-50 p-3">
-            <p className="text-xs font-semibold uppercase tracking-wide text-amber-800">3. Who should I call?</p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-amber-800">Who should I call?</p>
             <p className="mt-2 text-base font-semibold leading-6 text-amber-950">{whoToCall}</p>
             <dl className="mt-3 grid gap-2 text-sm sm:grid-cols-2">
               <OptionalVisibleDatum label="Role" value={decisionMakerRole} />
@@ -261,6 +266,10 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
               <OptionalVisibleDatum label="Email" value={decisionMakerEmail} />
               <OptionalVisibleDatum label="Second contact" value={secondContact} />
             </dl>
+            <div className="mt-3 rounded-md border border-amber-200/70 bg-white/70 p-3">
+              <p className="text-xs font-semibold uppercase tracking-wide text-amber-800">Why this contact?</p>
+              <p className="mt-2 text-sm leading-6 text-amber-950">{whyThisContact}</p>
+            </div>
             {!decisionMakerPhone && !decisionMakerEmail ? (
               <p className="mt-2 text-sm text-amber-900">
                 No direct phone yet. {nextStep || "Research the GC or developer before outreach."}
@@ -269,25 +278,27 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
           </section>
 
           <section className="rounded-md border border-zinc-200 bg-zinc-50 p-3">
-            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">4. What do I say?</p>
-            <p className="mt-2 text-sm font-medium leading-6 text-zinc-900">{whatToSay}</p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Timeline</p>
+            <dl className="mt-3 grid gap-3 text-sm sm:grid-cols-2">
+              <VisibleDatum label="Current Stage" value={timeline.currentStage} />
+              <VisibleDatum label="Project Status" value={timeline.projectStatus} />
+              <VisibleDatum label="Bid Status" value={timeline.bidStatus} />
+              <VisibleDatum label="Recommended Outreach Timing" value={timeline.outreachTiming} />
+            </dl>
           </section>
         </div>
 
         <details className="mt-5 rounded-md border border-zinc-200 bg-white p-3">
-          <summary className="cursor-pointer text-sm font-semibold text-zinc-800">Supporting evidence & analyst details</summary>
+          <summary className="cursor-pointer text-sm font-semibold text-zinc-800">Project Evidence</summary>
           <div className="mt-4 space-y-4">
             {evidenceSnippets.length ? (
               <div className="rounded-md border border-sky-100 bg-sky-50 p-3">
-                <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Evidence</p>
+                <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Source excerpts</p>
                 <ul className="mt-2 space-y-3 text-sm leading-6 text-sky-950">
                   {evidenceSnippets.slice(0, 4).map((item) => (
                     <li key={`${item.source_document_id ?? item.source}-${item.signal}-${item.snippet ?? item.text}`}>
                       <p className="font-medium">“{item.text ?? item.snippet}”</p>
-                      <p className="mt-1 text-xs text-sky-800">
-                        Source: {item.source_document ?? item.source}
-                        {item.confidence ? ` · Confidence: ${item.confidence}` : " · Confidence: direct"}
-                      </p>
+                      <p className="mt-1 text-xs text-sky-800">Source: {item.source_document ?? item.source}</p>
                       <Link href={item.source_url} className="mt-1 inline-block text-xs font-medium underline">
                         Open source document
                       </Link>
@@ -298,18 +309,22 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
             ) : null}
 
             <div className="rounded-md border border-zinc-100 bg-zinc-50 p-3">
-              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Supporting evidence</p>
+              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">What the records show</p>
               <div className="mt-3 space-y-3 text-sm leading-6 text-zinc-700">
                 {opportunity.project_dossier ? (
                   <>
                     <p>{opportunity.project_dossier.evidence_summary}</p>
-                    <p>Related development: {opportunity.project_dossier.related_development}</p>
-                    <p>Primary objective: {opportunity.project_dossier.primary_objective}</p>
+                    {opportunity.project_dossier.related_development ? (
+                      <p>Related development: {opportunity.project_dossier.related_development}</p>
+                    ) : null}
+                    {opportunity.project_dossier.primary_objective ? (
+                      <p>Primary objective: {opportunity.project_dossier.primary_objective}</p>
+                    ) : null}
                   </>
                 ) : (
-                  <p>{opportunity.confidence_reasoning}</p>
+                  <p>{opportunity.scope_summary || opportunity.project_summary || "Source records are linked below."}</p>
                 )}
-                {opportunity.project_dossier?.supporting_evidence.length ? (
+                {opportunity.project_dossier?.evidence_sources?.length ? (
                   <ul className="space-y-1">
                     {opportunity.project_dossier.evidence_sources.slice(0, 8).map((source) => (
                       <li key={source.source_url}>- <Link href={source.source_url} className="underline">{source.label}</Link></li>
@@ -323,58 +338,17 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
               </div>
             </div>
 
-            <div className="rounded-md border border-zinc-100 bg-zinc-50 p-3">
-              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Advanced intelligence</p>
-              <div className="mt-3 flex flex-wrap items-center gap-2">
-                <FenceConfidenceBadge value={opportunity.fence_scope_confidence} />
-                <Badge>Evidence Strength {opportunity.evidence_strength_score ?? 0}</Badge>
-                <Badge>Sources {opportunity.source_count ?? 0}</Badge>
-                <Badge>Actionability {opportunity.actionability_score}</Badge>
-                <Badge>Pursuit {opportunity.pursuit_quality_score ?? opportunity.actionability_score}</Badge>
-              </div>
-              <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-3">
-                {showFencingUi ? (
-                  <VisibleDatum label="Fencing Probability" value={`${probability.percent}% - ${probability.label}`} className={probability.className} />
-                ) : (
-                  <VisibleDatum label={`${tradeLabel} Relevance`} value={`${opportunity.trade_relevance}%`} className="text-emerald-700" />
-                )}
-                <AnalysisDatum label="Contractor Opportunity Score" value={opportunity.contractor_opportunity_score} />
-                <AnalysisDatum label="Fence Scope Confidence" value={opportunity.fence_scope_confidence} />
-                <AnalysisDatum label="Fencing Bidable" value={opportunity.fencing_bidable === true ? "Yes" : opportunity.fencing_bidable === false ? "No" : "Unknown"} />
-                <AnalysisDatum label="Evidence Tier" value={opportunity.fence_evidence_tier ?? "Unknown"} />
-                <AnalysisDatum label="Fence Signal Score" value={opportunity.fence_signal_score} />
-                <AnalysisDatum label="Access Path" value={accessPathType ?? opportunity.access_path.type} />
-                <AnalysisDatum label="Procurement Stage" value={opportunity.procurement_stage ?? opportunity.project_stage} />
-                <AnalysisDatum label="Subcontractor Award Probability" value={awardProbability ?? "Unknown"} />
-                <OptionalDatum label="Who Awards Fence Packages" value={realValue(opportunity.who_awards_fence_packages)} />
-                <AnalysisDatum label="Subcontractor Likelihood" value={opportunity.subcontractor_likelihood} />
-                <AnalysisDatum label="Scope Size" value={opportunity.scope_size} />
-                <AnalysisDatum label="Opportunity Size" value={opportunity.opportunity_size} />
-                <AnalysisDatum label="Project Stage" value={opportunity.project_stage} />
+            {(developer || generalContractor || opportunity.populated_fields.architect) ? (
+              <dl className="grid gap-3 text-sm sm:grid-cols-2">
+                <OptionalVisibleDatum label="Developer" value={developer} />
+                <OptionalVisibleDatum label="General Contractor" value={generalContractor} />
                 <OptionalDatum label="Architect" value={opportunity.populated_fields.architect} />
-                <AnalysisDatum label="Existing Contractor Saturation" value={opportunity.existing_contractor_saturation_penalty ? `${opportunity.existing_contractor_saturation} penalty ${opportunity.existing_contractor_saturation_penalty}` : opportunity.existing_contractor_saturation} />
-                <OptionalDatum label="Procurement Route" value={knownValue(opportunity.procurement_route)} />
-                <OptionalDatum label="Entry Method" value={knownValue(opportunity.entry_method)} />
-                <OptionalDatum label="Access Route" value={knownValue(opportunity.access_route)} />
-                <AnalysisDatum label="Location" value={`${opportunity.city}, ${opportunity.county}`} />
+                <OptionalVisibleDatum label="Location" value={location} />
               </dl>
-              {opportunity.escalation_path?.length ? (
-                <ul className="mt-3 space-y-1 text-sm leading-6 text-zinc-700">
-                  {opportunity.escalation_path.slice(0, 4).map((step) => <li key={step}>- {step}</li>)}
-                </ul>
-              ) : null}
-              {opportunity.missing_intelligence.length ? (
-                <p className="mt-3 text-sm text-zinc-500">Additional intelligence not yet discovered: {opportunity.missing_intelligence.join(", ")}.</p>
-              ) : null}
-              {opportunity.suppress_reasons.length ? (
-                <div className="mt-3 rounded-md border border-amber-100 bg-amber-50 p-3">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-amber-700">Suppression Reasons</p>
-                  <p className="mt-2 text-sm font-medium leading-6 text-amber-950">{opportunity.suppress_reasons.join(", ")}</p>
-                </div>
-              ) : null}
-              <div className="mt-3">
-                <HumanContactPanel contact={bestContact} backupRoute={humanContact?.backup_access_route ?? opportunity.access_route} />
-              </div>
+            ) : null}
+
+            <div className="mt-1">
+              <HumanContactPanel contact={bestContact} backupRoute={humanContact?.backup_access_route ?? opportunity.access_route} />
             </div>
           </div>
         </details>
@@ -397,20 +371,9 @@ function OptionalVisibleDatum({ label, value }: { label: string; value?: string 
   return <VisibleDatum label={label} value={value} />;
 }
 
-function conciseProjectSummary(summary: string) {
-  const sentences = summary.match(/[^.!?]+[.!?]+|[^.!?]+$/g)?.map((sentence) => sentence.trim()).filter(Boolean) ?? [];
-  return (sentences.slice(0, 2).join(" ") || "Project details are available in the supporting evidence.").trim();
-}
-
-function fencingProbability(opportunity: ContractorOpportunity) {
-  const evidenceCount = positiveFenceEvidence(opportunity).length;
-  if (opportunity.fencing_bidable === false || !evidenceCount || ["No Evidence", "No Meaningful Fence Opportunity", "Weak Opportunity", "Weak Signal"].includes(opportunity.fence_scope_confidence)) {
-    return { percent: 0, label: "No Evidence", className: "text-red-700" };
-  }
-  if (["Primary Scope", "Primary Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: Math.min(100, 80 + evidenceCount * 5), label: "Primary Opportunity", className: "text-emerald-700" };
-  if (["Secondary Scope", "Secondary Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: Math.min(80, 60 + evidenceCount * 5), label: "Secondary Opportunity", className: "text-sky-700" };
-  if (["Possible Scope", "Possible Opportunity"].includes(opportunity.fence_scope_confidence)) return { percent: Math.min(50, 30 + evidenceCount * 5), label: "Possible Opportunity", className: "text-amber-700" };
-  return { percent: 0, label: "No Evidence", className: "text-red-700" };
+function OptionalDatum({ label, value }: { label: string; value?: string }) {
+  if (!value) return null;
+  return <VisibleDatum label={label} value={value} className="font-medium text-zinc-800" />;
 }
 
 function displayContactName(contact: HumanContact | NonNullable<ContractorOpportunity["best_contact"]> | null) {
@@ -432,6 +395,7 @@ function displayContactEmail(contact: HumanContact | NonNullable<ContractorOppor
 function realValue(value?: string | null) {
   if (!value) return undefined;
   if (["not identified", "not available", "no contact information available", "unknown"].includes(value.trim().toLowerCase())) return undefined;
+  if (/^unknown\b/i.test(value.trim())) return undefined;
   return value;
 }
 
@@ -441,16 +405,213 @@ function pursuitConfidenceBadgeClass(value?: string) {
   return "border-zinc-200 bg-zinc-50 text-zinc-700";
 }
 
+function contractorReadinessLabel(value?: string) {
+  if (value === "High Confidence") return "Ready to call";
+  if (value === "Medium Confidence") return "Worth pursuing";
+  return "Needs research";
+}
+
+function friendlySize(opportunity: ContractorOpportunity) {
+  const size = realValue(opportunity.opportunity_size) || realValue(opportunity.scope_size);
+  return size || "Size not confirmed";
+}
+
+function friendlyStage(opportunity: ContractorOpportunity) {
+  return realValue(opportunity.procurement_stage) || realValue(opportunity.project_stage) || "Stage not confirmed";
+}
+
+function shortAction(value: string) {
+  const cleaned = value.replace(/\s+/g, " ").trim();
+  if (cleaned.length <= 72) return cleaned;
+  return `${cleaned.slice(0, 69).trim()}...`;
+}
+
+function buildContractorProjectSummary(opportunity: ContractorOpportunity, tradeLabel: string) {
+  const paragraphs: string[] = [];
+  const built = opportunity.primary_scope
+    || opportunity.project_dossier?.primary_objective
+    || opportunity.project_categories?.[0]
+    || opportunity.project_type
+    || "A construction project";
+  const location = [opportunity.city, opportunity.county].filter(Boolean).join(", ");
+  paragraphs.push(
+    `${built}${location ? ` in ${location}` : ""}. This looks like ${friendlySize(opportunity).toLowerCase()} work rather than a one-line permit note.`,
+  );
+
+  const stage = friendlyStage(opportunity);
+  paragraphs.push(
+    `Current phase appears to be ${stage.toLowerCase()}. ${
+      /permit|issued|construction|open|active/i.test(stage)
+        ? "That usually means subcontractors can still get in if they move quickly."
+        : "Confirm timing before spending estimating hours."
+    }`,
+  );
+
+  const work = opportunity.likely_scope
+    || opportunity.evidence_likely_fence_scope
+    || opportunity.scope_summary
+    || (opportunity.work_categories?.length ? opportunity.work_categories.slice(0, 3).join(", ") : null)
+    || `${tradeLabel} scope to verify from plans`;
+  paragraphs.push(`Likely work involved: ${work}.`);
+
+  const whyTrade = showTradeRelevance(opportunity, tradeLabel);
+  paragraphs.push(whyTrade);
+
+  return paragraphs;
+}
+
+function showTradeRelevance(opportunity: ContractorOpportunity, tradeLabel: string) {
+  if (tradeLabel === "Fencing") {
+    if (opportunity.fencing_bidable === false) {
+      return opportunity.fencing_bidability_reason
+        || "Fence mentions look incidental, so this may not be worth a fencing bid yet.";
+    }
+    if (opportunity.why_fencing_matters && !/No direct fencing references found|No bid-able fencing scope found/i.test(opportunity.why_fencing_matters)) {
+      return opportunity.why_fencing_matters;
+    }
+    if (opportunity.potential_fencing_scope?.length) {
+      return `Fencing is relevant because the records point to ${opportunity.potential_fencing_scope.slice(0, 2).join(" and ").toLowerCase()}.`;
+    }
+  }
+  if (opportunity.qualification_reason && !/score|confidence|intelligence/i.test(opportunity.qualification_reason)) {
+    return opportunity.qualification_reason;
+  }
+  return `${tradeLabel} is relevant because the project name, trade tags, or scope language point to ${tradeLabel.toLowerCase()} work a subcontractor can pursue.`;
+}
+
+const SCOPE_CATEGORY_RULES: Array<{ label: string; terms: string[] }> = [
+  { label: "Foundation", terms: ["foundation", "footing", "stem wall"] },
+  { label: "Flatwork", terms: ["flatwork", "sidewalk", "curb", "gutter", "slab"] },
+  { label: "Site Prep", terms: ["site prep", "grading", "earthwork", "excavation", "clearing"] },
+  { label: "Driveways", terms: ["driveway", "drive way", "parking"] },
+  { label: "Utilities", terms: ["utility", "utilities", "sewer", "water main", "storm", "drainage"] },
+  { label: "Structural Concrete", terms: ["structural concrete", "concrete wall", "tilt-up", "retaining"] },
+  { label: "Retaining Walls", terms: ["retaining wall", "retaining walls"] },
+  { label: "Gates", terms: ["gate", "gates", "sliding gate", "vehicle gate"] },
+  { label: "Fencing", terms: ["fence", "fencing", "perimeter", "chain link"] },
+  { label: "Roofing", terms: ["roof", "roofing", "reroof", "membrane", "shingle"] },
+  { label: "HVAC", terms: ["hvac", "heat pump", "package unit", "mechanical", "rtu"] },
+  { label: "Electrical", terms: ["electrical", "solar", "panel", "lighting", "power"] },
+  { label: "Plumbing", terms: ["plumbing", "repipe", "backflow", "gas line"] },
+  { label: "Demolition", terms: ["demo", "demolition"] },
+  { label: "Landscaping", terms: ["landscape", "irrigation", "planting"] },
+  { label: "Asphalt", terms: ["asphalt", "paving"] },
+];
+
+function inferLikelyScopeCategories(opportunity: ContractorOpportunity, tradeLabel: string) {
+  const haystack = [
+    opportunity.project_name,
+    opportunity.project_summary,
+    opportunity.scope_summary,
+    opportunity.likely_scope,
+    opportunity.primary_scope,
+    opportunity.trade,
+    ...(opportunity.work_categories ?? []),
+    ...(opportunity.project_categories ?? []),
+    ...(opportunity.potential_fencing_scope ?? []),
+    opportunity.evidence_likely_fence_scope,
+  ].filter(Boolean).join(" ").toLowerCase();
+
+  const matched = SCOPE_CATEGORY_RULES
+    .filter((rule) => rule.terms.some((term) => haystack.includes(term)))
+    .map((rule) => rule.label);
+
+  if (tradeLabel && !matched.includes(tradeLabel)) matched.unshift(tradeLabel);
+  if (opportunity.potential_fencing_scope?.length) {
+    for (const scope of opportunity.potential_fencing_scope.slice(0, 3)) {
+      const cleaned = scope.replace(/\b(installation|package|work)\b/gi, "").trim();
+      if (cleaned && !matched.some((item) => item.toLowerCase() === cleaned.toLowerCase())) matched.push(cleaned);
+    }
+  }
+
+  const unique = [...new Set(matched)].slice(0, 8);
+  return unique.length ? unique : [`${tradeLabel} scope to verify`];
+}
+
+function buildWhyThisContact(input: {
+  decisionMaker?: string;
+  decisionMakerRole?: string;
+  decisionMakerCompany?: string;
+  decisionMakerPhone?: string;
+  accessPath?: string;
+  generalContractor?: string;
+  developer?: string;
+  recommendedFirstCall?: string;
+}) {
+  if (input.recommendedFirstCall) return input.recommendedFirstCall;
+  if (input.decisionMakerPhone && input.decisionMaker) {
+    if (input.accessPath?.toLowerCase().includes("owner")) {
+      return `${input.decisionMaker} looks like the site/owner contact with a working phone, so they are the fastest path to ask who awards ${input.decisionMakerRole ? input.decisionMakerRole.toLowerCase() + " " : ""}work.`;
+    }
+    if (input.accessPath?.toLowerCase().includes("developer")) {
+      return `${input.decisionMaker} is tied to the developer side and has a phone on file, so start there for subcontractor introductions.`;
+    }
+    return `${input.decisionMaker}${input.decisionMakerRole ? ` (${input.decisionMakerRole})` : ""} has a reachable phone and appears closest to awarding or directing the work.`;
+  }
+  if (input.decisionMakerCompany || input.generalContractor) {
+    const company = input.decisionMakerCompany || input.generalContractor;
+    return `${company} is the best company lead on this job${input.accessPath ? ` via a ${input.accessPath.toLowerCase()} path` : ""}. Ask for estimating, purchasing, or the project manager.`;
+  }
+  if (input.developer) {
+    return `${input.developer} is the developer of record. Use them to find who is selecting trade subcontractors.`;
+  }
+  return "No strong direct contact is confirmed yet. Start with the GC or developer listed on the permit and ask who handles trade pricing.";
+}
+
+function buildTimeline(opportunity: ContractorOpportunity) {
+  const currentStage = friendlyStage(opportunity);
+  const projectStatus = (() => {
+    if (/research/i.test(opportunity.pursuit_confidence ?? "") || opportunity.opportunity_state === "Research Required") {
+      return "Needs more research before outreach";
+    }
+    if (opportunity.opportunity_state === "Actionable Opportunity" || opportunity.pursuit_confidence === "High Confidence") {
+      return "Ready to pursue";
+    }
+    if (opportunity.opportunity_state === "Opportunity" || opportunity.pursuit_confidence === "Medium Confidence") {
+      return "Active opportunity";
+    }
+    return "Active opportunity";
+  })();
+  const bidStatus = realValue(opportunity.subcontractor_award_probability)
+    || (opportunity.subcontractor_likelihood === "High"
+      ? "Likely still open to subcontractors"
+      : opportunity.subcontractor_likelihood === "Low"
+        ? "May already be covered"
+        : "Bid window not confirmed");
+  let outreachTiming = "Research first, then call once a contact is confirmed";
+  if (/permit issued|construction|open|active/i.test(currentStage) && (opportunity.decision_maker_phone || opportunity.best_contact?.phone)) {
+    outreachTiming = "Call this week while the job is still active";
+  } else if (/permit issued|construction|open|active/i.test(currentStage)) {
+    outreachTiming = "Act soon — find the right phone and call within a few days";
+  } else if (/planning|entitlement|design/i.test(currentStage)) {
+    outreachTiming = "Early relationship call — introduce yourself before bidding starts";
+  } else if (opportunity.fast_money_potential && /high|fast/i.test(opportunity.fast_money_potential)) {
+    outreachTiming = "Prioritize this week if you can reach a decision maker";
+  }
+
+  return {
+    currentStage,
+    projectStatus,
+    bidStatus,
+    outreachTiming,
+  };
+}
+
 function buildWhyTradeMatters(opportunity: ContractorOpportunity, trade: string | null) {
   const label = trade ?? opportunity.primary_contractor_trade ?? "trade";
   const bullets = new Set<string>();
-  if (opportunity.qualification_reason) bullets.add(opportunity.qualification_reason);
-  if (opportunity.likely_scope) bullets.add(`Likely scope: ${opportunity.likely_scope}.`);
-  if (opportunity.trade) bullets.add(`Source trade tags include: ${opportunity.trade}.`);
-  if (opportunity.recommended_action) bullets.add(opportunity.recommended_action);
+  const relevance = showTradeRelevance(opportunity, label);
+  if (relevance) bullets.add(relevance);
+  if (opportunity.likely_scope) bullets.add(`Probable scope: ${opportunity.likely_scope}.`);
+  if (opportunity.opportunity_size && opportunity.opportunity_size !== "Unknown") {
+    bullets.add(`Job size looks ${opportunity.opportunity_size.toLowerCase()}, which can support a real ${label.toLowerCase()} package.`);
+  }
+  if (opportunity.subcontractor_likelihood === "High") {
+    bullets.add("Subcontractor involvement looks likely rather than fully self-performed.");
+  }
   if (bullets.size === 0) {
-    bullets.add(`Matched as a ${label} opportunity from project name, summary, or trade evidence.`);
-    bullets.add("Review source documents before outreach.");
+    bullets.add(`This project shows ${label.toLowerCase()} relevance worth a quick review.`);
+    bullets.add("Confirm scope in the source documents before estimating.");
   }
   return [...bullets].slice(0, 5);
 }
@@ -461,146 +622,64 @@ function buildWhyFencingMatters(opportunity: ContractorOpportunity) {
       opportunity.fencing_bidability_reason
         ?? (opportunity.primary_scope
           ? `Primary project scope is ${opportunity.primary_scope}. Incidental fence/gate mentions are not enough to bid.`
-          : "No bid-able fencing scope found."),
-      "Available evidence does not support a meaningful fencing opportunity yet.",
-      "Additional document review is required before outreach.",
+          : "No clear fencing package found yet."),
+      "Do not spend estimating time until stronger fencing scope shows up.",
     ];
   }
 
   if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) {
     return [
-      "Only weak or incidental fencing indicators were found.",
-      "This is not yet a clear bid-able fencing opportunity.",
+      "Only weak fencing indicators were found.",
+      "Treat this as a research lead, not a ready bid.",
     ];
   }
 
   const bullets = new Set<string>();
-  const snippets = opportunity.evidence_snippets ?? opportunity.project_dossier?.evidence_snippets ?? [];
-  const directEvidence = opportunity.fence_evidence ?? [];
-
   if (opportunity.why_fencing_matters && !/No direct fencing references found|No bid-able fencing scope found/i.test(opportunity.why_fencing_matters)) {
     bullets.add(opportunity.why_fencing_matters);
   }
-
-  for (const snippet of snippets) {
-    const text = snippet.text ?? snippet.snippet;
-    if (!text) continue;
-    bullets.add(`Source evidence: "${text}"`);
-    if (bullets.size >= 5) break;
+  if (opportunity.potential_fencing_scope.length) {
+    bullets.add(`Likely fencing package: ${opportunity.potential_fencing_scope.slice(0, 3).join(", ")}.`);
   }
-
-  for (const signal of directEvidence) {
-    const bullet = summarizeFenceSignal(signal);
-    if (bullet) bullets.add(bullet);
-    if (bullets.size >= 5) break;
+  if (opportunity.subcontractor_likelihood === "High") {
+    bullets.add("A fencing subcontractor still appears to have a path in.");
   }
-
-  if (bullets.size < 5 && opportunity.potential_fencing_scope.length) {
-    bullets.add(`Likely scope to verify: ${opportunity.potential_fencing_scope.slice(0, 3).join(", ")}.`);
-  }
-
   if (!bullets.size) {
-    bullets.add("Strong fencing installation evidence is not yet available in the connected source records.");
+    bullets.add("Source records support a fencing package worth verifying.");
   }
-
   return Array.from(bullets).slice(0, 5);
-}
-
-function summarizeFenceSignal(signal: string) {
-  const normalized = signal.toLowerCase();
-  if (normalized.includes("subdivision") || normalized.includes("housing") || normalized.includes("residential") || normalized.includes("apartment")) {
-    return "Residential development may create perimeter, community, or construction fencing needs.";
-  }
-  if (normalized.includes("school")) {
-    return "School projects commonly require perimeter fencing and controlled access points.";
-  }
-  if (normalized.includes("park") || normalized.includes("trail") || normalized.includes("public access")) {
-    return "Public access areas may require separation, safety fencing, or gates.";
-  }
-  if (normalized.includes("utility") || normalized.includes("drainage") || normalized.includes("infrastructure") || normalized.includes("public works")) {
-    return "Infrastructure evidence is present, but fencing scope must be verified in source documents.";
-  }
-  if (normalized.includes("security") || normalized.includes("gate") || normalized.includes("boundary") || normalized.includes("access")) {
-    return "Boundary, gate, security, or access-control signals appear in the source record.";
-  }
-  if (normalized.includes("industrial") || normalized.includes("warehouse") || normalized.includes("yard")) {
-    return "Industrial or yard uses often need perimeter and security fencing.";
-  }
-  if (normalized.includes("fence")) {
-    return "Fence-related language appears in the source record and should be verified.";
-  }
-  return null;
 }
 
 function HumanContactPanel({ contact, backupRoute }: { contact: HumanContact | null; backupRoute: string }) {
   const sourceIsLink = contact?.source?.startsWith("http");
 
   return (
-    <div className="mt-4 rounded-md border border-sky-100 bg-sky-50 p-3">
-      <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Best Available Contact</p>
+    <div className="rounded-md border border-sky-100 bg-sky-50 p-3">
+      <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Backup contact route</p>
       {contact ? (
         <div className="mt-2 space-y-3">
           <div>
             <p className="text-base font-semibold text-sky-950">{formatHumanContact(contact)}</p>
-            <p className="mt-1 text-sm text-sky-900">{contact.company} - {humanizeContactType(contact.contactType)} - {Math.round(contact.confidence * 100)}% confidence</p>
+            <p className="mt-1 text-sm text-sky-900">{contact.company} · {humanizeContactType(contact.contactType)}</p>
           </div>
           <div className="flex flex-wrap gap-2 text-sm">
             {contact.phone ? <span className="inline-flex items-center gap-1 rounded-md bg-white px-2 py-1 font-medium text-sky-950"><Phone className="size-3.5" /> {contact.phone}</span> : null}
             {contact.email ? <span className="inline-flex items-center gap-1 rounded-md bg-white px-2 py-1 font-medium text-sky-950"><Mail className="size-3.5" /> {contact.email}</span> : null}
             {sourceIsLink ? <Link href={contact.source} className="inline-flex items-center gap-1 rounded-md bg-white px-2 py-1 font-medium text-sky-950 underline">Source</Link> : null}
           </div>
-          <p className="text-sm leading-6 text-sky-900">{contact.evidence[0] ?? "Source-backed contact route."}</p>
+          <p className="text-sm leading-6 text-sky-900">{contact.evidence[0] ?? "Listed because this is the strongest reachable contact on file."}</p>
         </div>
       ) : (
-        <div className="mt-2 space-y-2">
-          <p className="text-sm leading-6 text-sky-900">Additional contact intelligence not yet discovered. Use the backup access route: {backupRoute || "Unknown"}.</p>
-        </div>
+        <p className="mt-2 text-sm leading-6 text-sky-900">
+          No backup phone yet. Try the known access path: {backupRoute && backupRoute !== "Unknown" ? backupRoute : "GC or developer on the permit"}.
+        </p>
       )}
     </div>
   );
 }
 
-function FenceConfidenceBadge({ value }: { value: string }) {
-  const className = ["Primary Scope", "Primary Opportunity"].includes(value)
-    ? "border-emerald-200 bg-emerald-50 text-emerald-800"
-    : ["Secondary Scope", "Secondary Opportunity"].includes(value)
-      ? "border-sky-200 bg-sky-50 text-sky-800"
-      : ["Possible Scope", "Possible Opportunity"].includes(value)
-        ? "border-amber-200 bg-amber-50 text-amber-800"
-        : ["Weak Signal", "Weak Opportunity"].includes(value)
-          ? "border-zinc-200 bg-zinc-50 text-zinc-700"
-          : "border-red-200 bg-red-50 text-red-800";
-  const label = ["Primary Scope", "Primary Opportunity"].includes(value)
-    ? "Primary Opportunity"
-    : ["Secondary Scope", "Secondary Opportunity"].includes(value)
-      ? "Secondary Opportunity"
-      : value === "No Evidence"
-        ? "No Evidence"
-        : value;
-  return <Badge className={className}>{label}</Badge>;
-}
-
 function humanizeContactType(value: HumanContact["contactType"]) {
   return value.replace("_", " ").replace(/\b\w/g, (letter) => letter.toUpperCase());
-}
-
-function AnalysisDatum({ label, value }: { label: string; value: string | number | boolean }) {
-  return (
-    <div>
-      <dt className="text-xs font-semibold uppercase tracking-wide text-zinc-500">{label}</dt>
-      <dd className="mt-1 break-words font-medium text-zinc-800">{String(value || "Unknown")}</dd>
-    </div>
-  );
-}
-
-function OptionalDatum({ label, value }: { label: string; value?: string }) {
-  if (!value) return null;
-  return <AnalysisDatum label={label} value={value} />;
-}
-
-function knownValue(value: string) {
-  if (!value || value === "Unknown") return undefined;
-  return value;
 }
 
 function inferQueryTrade(query: string) {

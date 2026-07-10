@@ -5,6 +5,7 @@ import evidenceExpansionRows from "../../data/evidence_expansion.json";
 
 export type ScopeSize = "Tiny" | "Small" | "Medium" | "Large" | "Major";
 export type SubcontractorLikelihood = "High" | "Medium" | "Low" | "Unknown";
+export type PursuitConfidence = "High Confidence" | "Medium Confidence" | "Research Required";
 
 export type TradeScore = {
   trade: string;
@@ -12,6 +13,19 @@ export type TradeScore = {
   contractor_opportunity_score: number;
   existing_contractor_saturation_penalty: number;
   noise_penalty: number;
+};
+
+export type PursuitQuality = {
+  pursuit_confidence: PursuitConfidence;
+  pursuit_quality_score: number;
+  pursuit_quality_signals: {
+    has_decision_maker: boolean;
+    has_phone: boolean;
+    has_company: boolean;
+    has_access_path: boolean;
+    has_procurement_route: boolean;
+    has_project_stage: boolean;
+  };
 };
 
 export type ContractorOpportunity = {
@@ -158,6 +172,9 @@ export type ContractorOpportunity = {
   primary_scope?: string;
   fence_evidence_tier?: string;
   contradiction_notes?: string[];
+  pursuit_confidence?: PursuitConfidence;
+  pursuit_quality_score?: number;
+  pursuit_quality_signals?: PursuitQuality["pursuit_quality_signals"];
 };
 
 type ContractorActionFields = Pick<
@@ -262,6 +279,9 @@ const TRADE_EVIDENCE_TERMS: Record<string, string[]> = {
   "General Contractor": ["general contractor", "tenant improvement", "remodel", "addition"],
 };
 
+/** Non-fencing searches drop empty permits with no pursuit signals. */
+const MIN_NON_FENCING_PURSUIT_QUALITY = 18;
+
 export function getContractorOpportunitySearchResults(query: string) {
   const trimmed = query.trim();
   if (!trimmed) return [];
@@ -273,18 +293,28 @@ export function getContractorOpportunitySearchResults(query: string) {
     .filter((opportunity) => !shouldSuppressFencingSearchResult(opportunity, targetTrades))
     .map((opportunity) => {
       const tradeScore = bestTradeScoreForQuery(opportunity, targetTrades);
+      const scored = applySearchTradeScore(opportunity, tradeScore);
       return {
-        opportunity: applySearchTradeScore(opportunity, tradeScore),
+        opportunity: scored,
         score: scoreContractorOpportunity(opportunity, queryTerms, targetTrades, tradeScore),
         tradeScore,
+        pursuitQuality: scored.pursuit_quality_score ?? 0,
+        pursuitConfidence: scored.pursuit_confidence ?? "Research Required",
       };
     })
     .filter((item) =>
       item.score >= 35
       && item.opportunity.suppress_reasons.length === 0
       && scopeMatchesSearch(item.opportunity, targetTrades, item.tradeScore)
+      && (fencingOnlySearch || item.pursuitQuality >= MIN_NON_FENCING_PURSUIT_QUALITY)
     )
     .sort((a, b) => {
+      // Across every trade: pursuable jobs first, thin permit mentions last.
+      const confidenceDelta = pursuitConfidenceRank(b.pursuitConfidence) - pursuitConfidenceRank(a.pursuitConfidence);
+      if (confidenceDelta) return confidenceDelta;
+      const qualityDelta = b.pursuitQuality - a.pursuitQuality;
+      if (qualityDelta) return qualityDelta;
+
       if (fencingOnlySearch) {
         return (
           fenceScopeRank(b.opportunity.fence_scope_confidence) - fenceScopeRank(a.opportunity.fence_scope_confidence)
@@ -341,6 +371,7 @@ function applySearchTradeScore(opportunity: ContractorOpportunity, tradeScore: T
   const likelyScope = likelyScopeForTrade(opportunity, tradeScore.trade);
   const contractorScore = tradeScore.trade === "Fencing" ? fencingContractorScore(opportunity, tradeScore) : tradeScore.contractor_opportunity_score;
   const tradeRelevance = tradeScore.trade === "Fencing" ? fencingTradeRelevance(opportunity, tradeScore) : tradeScore.trade_relevance;
+  const pursuit = evaluatePursuitQuality(opportunity);
   return {
     ...opportunity,
     contractor_opportunity_score: contractorScore,
@@ -351,12 +382,23 @@ function applySearchTradeScore(opportunity: ContractorOpportunity, tradeScore: T
     likely_scope: likelyScope,
     recommended_action: recommendedActionForTrade(opportunity, tradeScore.trade, likelyScope),
     outreach_script: outreachScriptForTrade(opportunity, tradeScore.trade, likelyScope),
+    pursuit_confidence: pursuit.pursuit_confidence,
+    pursuit_quality_score: pursuit.pursuit_quality_score,
+    pursuit_quality_signals: pursuit.pursuit_quality_signals,
+    opportunity_state: pursuit.pursuit_confidence === "Research Required"
+      ? "Research Required"
+      : pursuit.pursuit_confidence === "High Confidence"
+        ? "Actionable Opportunity"
+        : opportunity.opportunity_state === "Actionable Opportunity"
+          ? "Actionable Opportunity"
+          : "Opportunity",
   };
 }
 
 function scoreContractorOpportunity(opportunity: ContractorOpportunity, queryTerms: string[], targetTrades: string[], tradeScore: TradeScore | null) {
   if (!tradeScore) return 0;
   const adjusted = applySearchTradeScore(opportunity, tradeScore);
+  const pursuit = evaluatePursuitQuality(opportunity);
   const text = [
     opportunity.project_name,
     opportunity.project_location,
@@ -375,19 +417,27 @@ function scoreContractorOpportunity(opportunity: ContractorOpportunity, queryTer
   let score = Math.round((adjusted.actionability_score ?? 0) * 0.55 + tradeScore.contractor_opportunity_score * 0.35);
   if (targetTrades.includes("Fencing") && isFencingOnlySearch(targetTrades)) {
     score = Math.round(
-      fenceScopeRank(adjusted.fence_scope_confidence) * 16
-      + effectiveFenceSignalScore(adjusted) * 0.34
-      + tradeScore.contractor_opportunity_score * 0.28
-      + (adjusted.actionability_score ?? 0) * 0.16
-      + contactQuality(adjusted) * 0.06
+      fenceScopeRank(adjusted.fence_scope_confidence) * 14
+      + effectiveFenceSignalScore(adjusted) * 0.28
+      + tradeScore.contractor_opportunity_score * 0.22
+      + pursuit.pursuit_quality_score * 0.24
+      + (adjusted.actionability_score ?? 0) * 0.08
+      + contactQuality(adjusted) * 0.04
     );
   } else if (targetTrades.length) {
-    // Non-fencing trade searches should be driven by trade evidence, not fencing actionability.
+    // Trade evidence still matters, but pursuit quality decides who can call tomorrow.
     score = Math.round(
-      tradeScore.trade_relevance * 0.42
-      + tradeScore.contractor_opportunity_score * 0.38
-      + (adjusted.actionability_score ?? 0) * 0.12
-      + contactQuality(adjusted) * 0.08
+      tradeScore.trade_relevance * 0.28
+      + tradeScore.contractor_opportunity_score * 0.24
+      + pursuit.pursuit_quality_score * 0.36
+      + (adjusted.actionability_score ?? 0) * 0.08
+      + contactQuality(adjusted) * 0.04
+    );
+  } else {
+    score = Math.round(
+      (adjusted.actionability_score ?? 0) * 0.35
+      + tradeScore.contractor_opportunity_score * 0.25
+      + pursuit.pursuit_quality_score * 0.4
     );
   }
   score += queryTerms.reduce((sum, term) => sum + (text.includes(term) ? 3 : 0), 0);
@@ -395,6 +445,8 @@ function scoreContractorOpportunity(opportunity: ContractorOpportunity, queryTer
   if (adjusted.suppress_reasons.length) score -= adjusted.suppress_reasons.length * 22;
   if (/sacramento/i.test(text) && queryTerms.includes("sacramento")) score += 8;
   if (opportunity.access_score >= 70) score += 5;
+  if (pursuit.pursuit_confidence === "High Confidence") score += 10;
+  if (pursuit.pursuit_confidence === "Research Required") score -= 18;
   return Math.max(0, Math.min(100, Math.round(score)));
 }
 
@@ -533,11 +585,104 @@ function fenceScopeRank(value: string) {
 
 function contactQuality(opportunity: ContractorOpportunity) {
   const contact = opportunity.best_contact;
-  if (contact?.phone) return 100;
-  if (contact?.email) return 70;
-  if (contact?.company) return 40;
-  if (opportunity.access_path?.type && opportunity.access_path.type !== "Unknown") return 25;
+  if (opportunity.decision_maker_phone || contact?.phone) return 100;
+  if (opportunity.decision_maker_email || contact?.email) return 70;
+  if (knownValue(opportunity.decision_maker) || knownValue(opportunity.decision_maker_company) || contact?.company) return 40;
+  if (hasKnownAccessPath(opportunity)) return 25;
   return 0;
+}
+
+export function evaluatePursuitQuality(opportunity: ContractorOpportunity): PursuitQuality {
+  const hasDecisionMaker = Boolean(
+    knownValue(opportunity.decision_maker)
+    || knownValue(opportunity.best_contact?.name)
+  );
+  const hasPhone = Boolean(
+    knownValue(opportunity.decision_maker_phone)
+    || knownValue(opportunity.best_contact?.phone)
+    || knownValue(opportunity.second_contact_phone)
+  );
+  const hasCompany = Boolean(
+    knownValue(opportunity.decision_maker_company)
+    || knownValue(opportunity.best_contact?.company)
+    || knownValue(opportunity.populated_fields?.general_contractor)
+    || knownValue(opportunity.populated_fields?.developer)
+    || knownValue(opportunity.general_contractor)
+    || knownValue(opportunity.developer)
+  );
+  const hasAccessPath = hasKnownAccessPath(opportunity);
+  const hasProcurementRoute = Boolean(
+    knownValue(opportunity.procurement_route)
+    || knownValue(opportunity.procurement_stage)
+  );
+  const hasProjectStage = Boolean(
+    knownValue(opportunity.project_stage)
+    || knownValue(opportunity.procurement_stage)
+  );
+
+  let score = 42;
+  if (hasDecisionMaker) score += 18;
+  else score -= 10;
+  if (hasPhone) score += 26;
+  else score -= 14;
+  if (hasCompany) score += 14;
+  else score -= 8;
+  if (hasAccessPath) score += 16;
+  else score -= 12;
+  if (hasProcurementRoute) score += 12;
+  else score -= 8;
+  if (hasProjectStage) score += 8;
+  else score -= 6;
+  if (opportunity.call_readiness_score && opportunity.call_readiness_score >= 70) score += 6;
+  if (opportunity.recommended_first_call && knownValue(opportunity.recommended_first_call)) score += 4;
+
+  score = Math.max(0, Math.min(100, Math.round(score)));
+
+  // No contact + no access path + no procurement route => research only, never high/medium.
+  const thinIntelligence = !hasPhone && !hasDecisionMaker && !hasAccessPath && !hasProcurementRoute;
+  let pursuitConfidence: PursuitConfidence = "Research Required";
+  if (!thinIntelligence && hasPhone && (hasDecisionMaker || hasCompany) && (hasAccessPath || hasProcurementRoute)) {
+    pursuitConfidence = "High Confidence";
+  } else if (!thinIntelligence && ((hasPhone && hasCompany) || (hasCompany && hasAccessPath) || (hasPhone && hasAccessPath) || score >= 60)) {
+    pursuitConfidence = "Medium Confidence";
+  } else {
+    pursuitConfidence = "Research Required";
+  }
+
+  return {
+    pursuit_confidence: pursuitConfidence,
+    pursuit_quality_score: score,
+    pursuit_quality_signals: {
+      has_decision_maker: hasDecisionMaker,
+      has_phone: hasPhone,
+      has_company: hasCompany,
+      has_access_path: hasAccessPath,
+      has_procurement_route: hasProcurementRoute,
+      has_project_stage: hasProjectStage,
+    },
+  };
+}
+
+function pursuitConfidenceRank(value: PursuitConfidence | string) {
+  if (value === "High Confidence") return 3;
+  if (value === "Medium Confidence") return 2;
+  return 1;
+}
+
+function hasKnownAccessPath(opportunity: ContractorOpportunity) {
+  const type = opportunity.access_path_type ?? opportunity.access_path?.type;
+  return Boolean(knownValue(type) && type !== "Unknown");
+}
+
+function knownValue(value?: string | null) {
+  if (!value) return false;
+  const normalized = value.trim().toLowerCase();
+  if (["", "unknown", "not identified", "not available", "no contact information available", "n/a", "none"].includes(normalized)) {
+    return false;
+  }
+  if (/^unknown\b/.test(normalized)) return false;
+  if (/not (yet )?identified|no (known )?contact|to be determined|\btbd\b/.test(normalized)) return false;
+  return true;
 }
 
 function effectiveFenceSignalScore(opportunity: ContractorOpportunity) {

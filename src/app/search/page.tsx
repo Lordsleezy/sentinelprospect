@@ -34,12 +34,14 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const top = ranked[0];
   const desiredTrades = inferSearchTrades(q);
   const desiredTrade = desiredTrades[0] ?? inferQueryTrade(q);
+  const highConfidenceCount = ranked.filter((item) => item.pursuit_confidence === "High Confidence").length;
+  const mediumConfidenceCount = ranked.filter((item) => item.pursuit_confidence === "Medium Confidence").length;
+  const researchCount = ranked.filter((item) => item.pursuit_confidence === "Research Required" || item.opportunity_state === "Research Required").length;
   const actionableCount = ranked.filter((item) => item.opportunity_state === "Actionable Opportunity").length;
-  const researchCount = ranked.filter((item) => item.opportunity_state === "Research Required").length;
   const opportunityCount = ranked.filter((item) => item.opportunity_state === "Opportunity").length;
   const highSubcontractCount = ranked.filter((item) => item.subcontractor_likelihood === "High").length;
   const majorScopeCount = ranked.filter((item) => item.scope_size === "Major" || item.scope_size === "Large").length;
-  const actionableNowCount = ranked.filter((item) => item.actionability_score >= 70).length;
+  const actionableNowCount = ranked.filter((item) => (item.pursuit_quality_score ?? 0) >= 70 || item.actionability_score >= 70).length;
   const tradeLabel = desiredTrade ? `${desiredTrade.toLowerCase()} ` : "";
   const sourceCount = results.signals.length + results.permits.length + results.companies.length;
   const emptyTradeMessage = desiredTrade
@@ -97,7 +99,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                   </h2>
                   {top ? (
                     <div className="mt-3 space-y-2 text-sm leading-6 text-zinc-600">
-                      <p>Actionable Now: {actionableNowCount} | Actionable: {actionableCount} | Research Required: {researchCount} | Opportunity: {opportunityCount} | High Subcontract Likelihood: {highSubcontractCount} | Large/Major Scope: {majorScopeCount}</p>
+                      <p>High Confidence: {highConfidenceCount} | Medium Confidence: {mediumConfidenceCount} | Research Required: {researchCount} | Actionable Now: {actionableNowCount} | Actionable: {actionableCount} | Opportunity: {opportunityCount} | High Subcontract Likelihood: {highSubcontractCount} | Large/Major Scope: {majorScopeCount}</p>
                       <p><span className="font-semibold text-zinc-950">What this is:</span> {top.project_summary}</p>
                       <p><span className="font-semibold text-zinc-950">What to do:</span> {top.recommended_action}</p>
                     </div>
@@ -107,9 +109,9 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                 </div>
                 {top ? (
                   <div className="rounded-md border border-emerald-100 bg-emerald-50 p-4 md:w-64">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">{top.primary_contractor_trade}</p>
-                    <p className="mt-2 text-3xl font-semibold text-emerald-950">{top.actionability_score}</p>
-                    <p className="mt-1 text-sm font-medium text-emerald-900">Actionability Score</p>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">{top.pursuit_confidence ?? top.primary_contractor_trade}</p>
+                    <p className="mt-2 text-3xl font-semibold text-emerald-950">{top.pursuit_quality_score ?? top.actionability_score}</p>
+                    <p className="mt-1 text-sm font-medium text-emerald-900">Pursuit Quality</p>
                   </div>
                 ) : null}
               </div>
@@ -142,7 +144,8 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                   <div key={opportunity.id} className="rounded-md border border-zinc-100 p-3">
                     <p className="font-semibold">{index + 1}. {opportunity.project_name}</p>
                     <div className="mt-2 flex flex-wrap gap-2">
-                      <Badge className="border-zinc-950 bg-zinc-950 text-white">Actionability {opportunity.actionability_score}</Badge>
+                      <Badge className={pursuitConfidenceBadgeClass(opportunity.pursuit_confidence)}>{opportunity.pursuit_confidence ?? "Research Required"}</Badge>
+                      <Badge className="border-zinc-950 bg-zinc-950 text-white">Pursuit {opportunity.pursuit_quality_score ?? opportunity.actionability_score}</Badge>
                       <Badge className="border-emerald-200 bg-emerald-50 text-emerald-700">{opportunity.primary_contractor_trade}</Badge>
                     </div>
                     <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">Why</p>
@@ -219,6 +222,11 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
         <h3 className="text-xl font-semibold text-zinc-950">{opportunity.project_name}</h3>
 
         <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-4">
+          <VisibleDatum
+            label="Pursuit Confidence"
+            value={opportunity.pursuit_confidence ?? "Research Required"}
+            className={pursuitConfidenceTextClass(opportunity.pursuit_confidence)}
+          />
           {showFencingUi ? (
             <VisibleDatum label="Fencing Probability" value={`${probability.percent}% - ${probability.label}`} className={probability.className} />
           ) : (
@@ -432,6 +440,18 @@ function realValue(value?: string | null) {
   if (!value) return undefined;
   if (["not identified", "not available", "no contact information available", "unknown"].includes(value.trim().toLowerCase())) return undefined;
   return value;
+}
+
+function pursuitConfidenceBadgeClass(value?: string) {
+  if (value === "High Confidence") return "border-emerald-200 bg-emerald-50 text-emerald-800";
+  if (value === "Medium Confidence") return "border-amber-200 bg-amber-50 text-amber-800";
+  return "border-zinc-200 bg-zinc-50 text-zinc-700";
+}
+
+function pursuitConfidenceTextClass(value?: string) {
+  if (value === "High Confidence") return "text-emerald-700";
+  if (value === "Medium Confidence") return "text-amber-700";
+  return "text-zinc-600";
 }
 
 function buildWhyTradeMatters(opportunity: ContractorOpportunity, trade: string | null) {

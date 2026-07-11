@@ -40,9 +40,19 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const mediumConfidenceCount = ranked.filter((item) => item.pursuit_confidence === "Medium Confidence").length;
   const researchCount = ranked.filter((item) => item.pursuit_confidence === "Research Required" || item.opportunity_state === "Research Required").length;
   const tradeLabel = desiredTrade ? `${desiredTrade.toLowerCase()} ` : "";
-  const emptyTradeMessage = desiredTrade
-    ? `No matching ${desiredTrade} opportunities were found for this search. Sentinel does not fall back to fencing results when another trade is requested.`
-    : "Sentinel found no results that clear the contractor opportunity threshold for this search.";
+  const emptyTradeMessage = desiredTrade === "Fencing"
+    ? "No callable development-scale fencing opportunities matched this search. Sentinel only shows fencing jobs with a point of contact, and it hides tiny residential gate/repair permits."
+    : desiredTrade
+      ? `No matching ${desiredTrade} opportunities were found for this search. Sentinel does not fall back to fencing results when another trade is requested.`
+      : "Sentinel found no results that clear the contractor opportunity threshold for this search.";
+  const resultHeadline = top
+    ? desiredTrade === "Fencing"
+      ? `${ranked.length} fencing opportunities with contacts`
+      : `${ranked.length} ${tradeLabel}opportunities worth your time`
+    : "No matching contractor opportunities found yet.";
+  const resultSubcopy = top && desiredTrade === "Fencing"
+    ? "Prioritized for housing developments and larger fence packages. Every result has a point of contact."
+    : null;
   const similarNearby = top ? getSimilarContractorOpportunities(top, 4) : [];
 
   return (
@@ -90,14 +100,13 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                 Jobs you can pursue
               </div>
               <h2 className="mt-2 text-2xl font-semibold tracking-tight text-zinc-950">
-                {top
-                  ? `${ranked.length} ${tradeLabel}opportunities worth your time`
-                  : "No matching contractor opportunities found yet."}
+                {resultHeadline}
               </h2>
               {top ? (
                 <div className="mt-3 space-y-2 text-sm leading-6 text-zinc-600">
+                  {resultSubcopy ? <p>{resultSubcopy}</p> : null}
                   <p>
-                    {highConfidenceCount} ready to call Â· {mediumConfidenceCount} need a little research Â· {researchCount} research only
+                    {highConfidenceCount} ready to call · {mediumConfidenceCount} need a little research · {researchCount} research only
                   </p>
                   <p>
                     Start with <span className="font-semibold text-zinc-950">{top.project_name}</span>
@@ -726,6 +735,16 @@ function buildTimeline(opportunity: ContractorOpportunity) {
 
 function buildEvidenceWhyTradeMatters(opportunity: ContractorOpportunity, tradeLabel: string) {
   const bullets: string[] = [];
+  if (/^fencing$/i.test(tradeLabel)) {
+    const housingPackage = /subdivision|housing-development fence package|villages?\s+at|unit\s+\d+|lennar|kb home/i.test(
+      `${opportunity.likely_scope ?? ""} ${opportunity.project_name} ${opportunity.developer ?? ""}`,
+    );
+    const noDirectFence = ["No Evidence", "No Meaningful Fence Opportunity"].includes(opportunity.fence_scope_confidence)
+      || opportunity.fencing_bidable === false;
+    if (housingPackage && noDirectFence) {
+      bullets.push("Housing development with a callable developer/GC contact — chase as a likely fence package, not a confirmed fence permit.");
+    }
+  }
   const docWhy = opportunity.document_intelligence?.why_this_trade_matters;
   if (docWhy && !isFencingContaminated(docWhy, tradeLabel)) {
     bullets.push(docWhy.startsWith("Source document:") ? docWhy : `Source document: ${docWhy}`);
@@ -737,7 +756,7 @@ function buildEvidenceWhyTradeMatters(opportunity: ContractorOpportunity, tradeL
     bullets.push(`Source record: “${phrase}”`);
   }
   if (/^fencing$/i.test(tradeLabel)) {
-    if (opportunity.fencing_bidable === false && opportunity.fencing_bidability_reason) {
+    if (opportunity.fencing_bidable === false && opportunity.fencing_bidability_reason && !bullets.some((b) => /housing development/i.test(b))) {
       return [opportunity.fencing_bidability_reason];
     }
     for (const scope of (opportunity.potential_fencing_scope ?? []).slice(0, 2)) {

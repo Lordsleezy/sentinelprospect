@@ -3,6 +3,7 @@ import actionRows from "../../data/contractor_action_opportunities.json";
 import scopeRows from "../../data/scope_intelligence.json";
 import evidenceExpansionRows from "../../data/evidence_expansion.json";
 import documentIntelligenceRows from "../../data/document_intelligence.json";
+import opportunityContactRows from "../../data/opportunity_contacts.json";
 
 export type ScopeSize = "Tiny" | "Small" | "Medium" | "Large" | "Major";
 export type SubcontractorLikelihood = "High" | "Medium" | "Low" | "Unknown";
@@ -383,6 +384,13 @@ const TRADE_EVIDENCE_TERMS: Record<string, string[]> = {
 /** Non-fencing searches drop empty permits with no pursuit signals. */
 const MIN_NON_FENCING_PURSUIT_QUALITY = 18;
 
+const humanContactsByOpportunity = new Map(
+  ((opportunityContactRows as unknown) as Array<{
+    opportunity_id: string;
+    best_contact?: { phone?: string; name?: string; company?: string } | null;
+  }>).map((row) => [row.opportunity_id, row]),
+);
+
 export function getContractorOpportunitySearchResults(query: string) {
   const trimmed = query.trim();
   if (!trimmed) return [];
@@ -390,17 +398,19 @@ export function getContractorOpportunitySearchResults(query: string) {
   const targetTrades = inferSearchTrades(trimmed);
   const fencingOnlySearch = isFencingOnlySearch(targetTrades);
 
-  return contractorOpportunities
+  const ranked = contractorOpportunities
     .filter((opportunity) => !shouldSuppressFencingSearchResult(opportunity, targetTrades))
     .map((opportunity) => {
       const tradeScore = bestTradeScoreForQuery(opportunity, targetTrades);
       const scored = applySearchTradeScore(opportunity, tradeScore);
+      const packageScale = fencingOnlySearch ? fencingPackageScale(scored) : 0;
       return {
         opportunity: scored,
         score: scoreContractorOpportunity(opportunity, queryTerms, targetTrades, tradeScore),
         tradeScore,
         pursuitQuality: scored.pursuit_quality_score ?? 0,
         pursuitConfidence: scored.pursuit_confidence ?? "Research Required",
+        packageScale,
       };
     })
     .filter((item) =>
@@ -408,24 +418,27 @@ export function getContractorOpportunitySearchResults(query: string) {
       && item.opportunity.suppress_reasons.length === 0
       && scopeMatchesSearch(item.opportunity, targetTrades, item.tradeScore)
       && (fencingOnlySearch || item.pursuitQuality >= MIN_NON_FENCING_PURSUIT_QUALITY)
+      && (!fencingOnlySearch || qualifiesForFencingJobSearch(item.opportunity, item.packageScale))
     )
     .sort((a, b) => {
+      if (fencingOnlySearch) {
+        // Big packages with contacts first — not tiny gate permits.
+        return (
+          b.packageScale - a.packageScale
+          || fenceScopeRank(b.opportunity.fence_scope_confidence) - fenceScopeRank(a.opportunity.fence_scope_confidence)
+          || contactQuality(b.opportunity) - contactQuality(a.opportunity)
+          || effectiveFenceSignalScore(b.opportunity) - effectiveFenceSignalScore(a.opportunity)
+          || b.opportunity.contractor_opportunity_score - a.opportunity.contractor_opportunity_score
+          || b.score - a.score
+        );
+      }
+
       // Across every trade: pursuable jobs first, thin permit mentions last.
       const confidenceDelta = pursuitConfidenceRank(b.pursuitConfidence) - pursuitConfidenceRank(a.pursuitConfidence);
       if (confidenceDelta) return confidenceDelta;
       const qualityDelta = b.pursuitQuality - a.pursuitQuality;
       if (qualityDelta) return qualityDelta;
 
-      if (fencingOnlySearch) {
-        return (
-          fenceScopeRank(b.opportunity.fence_scope_confidence) - fenceScopeRank(a.opportunity.fence_scope_confidence)
-          || effectiveFenceSignalScore(b.opportunity) - effectiveFenceSignalScore(a.opportunity)
-          || b.opportunity.contractor_opportunity_score - a.opportunity.contractor_opportunity_score
-          || b.opportunity.actionability_score - a.opportunity.actionability_score
-          || contactQuality(b.opportunity) - contactQuality(a.opportunity)
-          || b.score - a.score
-        );
-      }
       return (
         (b.tradeScore?.trade_relevance ?? 0) - (a.tradeScore?.trade_relevance ?? 0)
         || b.opportunity.contractor_opportunity_score - a.opportunity.contractor_opportunity_score
@@ -433,9 +446,13 @@ export function getContractorOpportunitySearchResults(query: string) {
         || b.opportunity.actionability_score - a.opportunity.actionability_score
         || contactQuality(b.opportunity) - contactQuality(a.opportunity)
       );
-    })
-    .slice(0, 30)
-    .map((item) => item.opportunity);
+    });
+
+  const limited = fencingOnlySearch
+    ? dedupeFencingDevelopmentPackages(ranked).slice(0, 30)
+    : ranked.slice(0, 30);
+
+  return limited.map((item) => item.opportunity);
 }
 
 export function getContractorOpportunityByProjectId(id: string) {
@@ -457,6 +474,7 @@ export function getSimilarContractorOpportunities(seed: ContractorOpportunity, l
   const seedCounty = seed.county?.toLowerCase() ?? "";
   const seedType = `${seed.project_type ?? ""} ${(seed.project_categories ?? []).join(" ")} ${seed.primary_scope ?? ""}`.toLowerCase();
   const seedStage = `${seed.procurement_stage ?? ""} ${seed.project_stage ?? ""}`.toLowerCase();
+  const fencingSeed = seedTrade === "fencing";
   const evidenceTerms = TRADE_EVIDENCE_TERMS[seed.primary_contractor_trade ?? ""]
     ?? TRADE_EVIDENCE_TERMS[seedTrade]
     ?? [seedTrade];
@@ -466,6 +484,12 @@ export function getSimilarContractorOpportunities(seed: ContractorOpportunity, l
       if (opportunity.id === seed.id) return false;
       if (!seedTrade) return true;
       if (opportunity.primary_contractor_trade?.toLowerCase() !== seedTrade) return false;
+      if (fencingSeed) {
+        if (!hasRequiredFencingContact(opportunity)) return false;
+        if (fencingPackageScale(opportunity) < 2) return false;
+        if (isTinyResidentialFenceNoise(opportunity) || isFenceSideScopeNoise(opportunity)) return false;
+        return true;
+      }
       if (!evidenceTerms.length) return true;
       const haystack = `${opportunity.project_name} ${opportunity.project_summary ?? ""} ${opportunity.primary_scope ?? ""}`.toLowerCase();
       return evidenceTerms.some((term) => haystack.includes(term));
@@ -473,6 +497,7 @@ export function getSimilarContractorOpportunities(seed: ContractorOpportunity, l
     .map((opportunity) => {
       let score = 0;
       if (seedTrade && opportunity.primary_contractor_trade?.toLowerCase() === seedTrade) score += 50;
+      if (fencingSeed) score += fencingPackageScale(opportunity) * 8;
       if (seedCity && opportunity.city?.toLowerCase() === seedCity) score += 30;
       else if (seedCounty && opportunity.county?.toLowerCase() === seedCounty) score += 12;
       const otherType = `${opportunity.project_type ?? ""} ${(opportunity.project_categories ?? []).join(" ")} ${opportunity.primary_scope ?? ""}`.toLowerCase();
@@ -560,14 +585,18 @@ function scoreContractorOpportunity(opportunity: ContractorOpportunity, queryTer
 
   let score = Math.round((adjusted.actionability_score ?? 0) * 0.55 + tradeScore.contractor_opportunity_score * 0.35);
   if (targetTrades.includes("Fencing") && isFencingOnlySearch(targetTrades)) {
+    const packageScale = fencingPackageScale(adjusted);
     score = Math.round(
-      fenceScopeRank(adjusted.fence_scope_confidence) * 14
-      + effectiveFenceSignalScore(adjusted) * 0.28
-      + tradeScore.contractor_opportunity_score * 0.22
-      + pursuit.pursuit_quality_score * 0.24
-      + (adjusted.actionability_score ?? 0) * 0.08
-      + contactQuality(adjusted) * 0.04
+      packageScale * 18
+      + fenceScopeRank(adjusted.fence_scope_confidence) * 10
+      + effectiveFenceSignalScore(adjusted) * 0.18
+      + tradeScore.contractor_opportunity_score * 0.16
+      + pursuit.pursuit_quality_score * 0.16
+      + contactQuality(adjusted) * 0.12
+      + (adjusted.actionability_score ?? 0) * 0.06
     );
+    if (!hasRequiredFencingContact(adjusted)) score = 0;
+    if (packageScale < 2) score = Math.min(score, 30);
   } else if (targetTrades.length) {
     // Trade evidence still matters, but pursuit quality decides who can call tomorrow.
     score = Math.round(
@@ -612,9 +641,11 @@ function scopeMatchesSearch(opportunity: ContractorOpportunity, targetTrades: st
   if (!targetTrades.length) return true;
 
   if (isFencingOnlySearch(targetTrades)) {
-    if (opportunity.fencing_bidable === false) return false;
-    if (["Weak Opportunity", "Weak Signal", "No Evidence", "No Meaningful Fence Opportunity"].includes(opportunity.fence_scope_confidence)) return false;
-    return positiveFenceEvidence(opportunity).length > 0;
+    const housingPackage = isHousingDevelopmentFencePackage(opportunity);
+    // Lot permits often have fencing_bidable=false (no fence line on that permit).
+    // Still allow development packages when a contact exists — that is the big-money chase.
+    if (opportunity.fencing_bidable === false && !housingPackage) return false;
+    return hasDirectFencePursuitSignal(opportunity) || housingPackage;
   }
 
   // Non-fencing (or mixed) trade searches must match the requested trade with direct evidence.
@@ -665,9 +696,185 @@ export function positiveFenceEvidence(opportunity: ContractorOpportunity) {
 
 function shouldSuppressFencingSearchResult(opportunity: ContractorOpportunity, targetTrades: string[]) {
   if (!targetTrades.includes("Fencing")) return false;
+  if (isFencingOnlySearch(targetTrades)) {
+    if (opportunity.fencing_bidable === false && !isHousingDevelopmentFencePackage(opportunity)) return true;
+    // Contact, package scale, and tiny-job filters are applied in qualifiesForFencingJobSearch.
+    return false;
+  }
   if (opportunity.fencing_bidable === false) return true;
   if (["No Evidence", "No Meaningful Fence Opportunity", "Weak Opportunity", "Weak Signal"].includes(opportunity.fence_scope_confidence)) return true;
   return positiveFenceEvidence(opportunity).length === 0;
+}
+
+/** Fencing job search: callable contact required + big/package work preferred. */
+function qualifiesForFencingJobSearch(opportunity: ContractorOpportunity, packageScale: number) {
+  if (!hasRequiredFencingContact(opportunity)) return false;
+  if (isTinyResidentialFenceNoise(opportunity)) return false;
+  if (isFenceSideScopeNoise(opportunity) && packageScale < 3) return false;
+  if (isNonFencePrimaryPermit(opportunity) && !hasDirectFencePursuitSignal(opportunity)) return false;
+  if (packageScale < 2) return false;
+
+  if (hasDirectFencePursuitSignal(opportunity)) return true;
+  if (isHousingDevelopmentFencePackage(opportunity) && packageScale >= 3) return true;
+  return false;
+}
+
+function hasRequiredFencingContact(opportunity: ContractorOpportunity) {
+  const human = humanContactsByOpportunity.get(opportunity.id)?.best_contact;
+  return Boolean(
+    knownValue(opportunity.decision_maker_phone)
+    || knownValue(opportunity.best_contact?.phone)
+    || knownValue(opportunity.second_contact_phone)
+    || knownValue(human?.phone)
+  );
+}
+
+function hasDirectFencePursuitSignal(opportunity: ContractorOpportunity) {
+  if (["Weak Opportunity", "Weak Signal", "No Evidence", "No Meaningful Fence Opportunity"].includes(opportunity.fence_scope_confidence)) {
+    return false;
+  }
+  return positiveFenceEvidence(opportunity).length > 0;
+}
+
+/**
+ * Package scale for fencing job search:
+ * 0 = noise / tiny residential
+ * 1 = small one-off gate
+ * 2 = commercial fence/gate package
+ * 3 = housing development / major package
+ * 4 = major multi-phase / very high dollar
+ */
+function fencingPackageScale(opportunity: ContractorOpportunity) {
+  if (isTinyResidentialFenceNoise(opportunity)) return 0;
+
+  const text = fencingSearchText(opportunity);
+  let scale = 1;
+
+  if (isHousingDevelopmentFencePackage(opportunity)) scale = Math.max(scale, 4);
+  if (/\b(perimeter|subdivision|detention basin|park fencing|school fencing|trail fencing|chain[-\s]?link|security fencing|security fence|fence package|fencing package)\b/i.test(text)) {
+    scale = Math.max(scale, 3);
+  }
+  if (/\b(\d{1,3}(?:,\d{3})+|\d{4,})\s*(?:lf|linear\s*feet|lin(?:ear)?\.?\s*ft\.?)\b/i.test(text)) {
+    scale = Math.max(scale, 3);
+  }
+  if (/\b(major|very high)\b/i.test(`${opportunity.scope_size} ${opportunity.opportunity_size}`)) {
+    scale = Math.max(scale, 4);
+  } else if (/\b(large|high)\b/i.test(`${opportunity.scope_size} ${opportunity.opportunity_size}`)) {
+    scale = Math.max(scale, 3);
+  } else if (/\b(medium)\b/i.test(`${opportunity.scope_size} ${opportunity.opportunity_size}`)) {
+    scale = Math.max(scale, 2);
+  }
+
+  // Lone residential/commercial gate without development cues stays small.
+  if (/^\s*(new\s*)?\(?gates?\)?\s*-/i.test(opportunity.project_name) && scale < 3 && !/\bfence|fencing|perimeter|security fence\b/i.test(text)) {
+    scale = Math.min(scale, 1);
+  }
+  if (isFenceSideScopeNoise(opportunity)) scale = Math.min(scale, 1);
+
+  // Direct primary fence opportunities with a contact are at least commercial-scale.
+  if (hasDirectFencePursuitSignal(opportunity) && /fence|fencing|security fence|chain[-\s]?link/i.test(text) && scale < 2) {
+    scale = 2;
+  }
+
+  return scale;
+}
+
+function isHousingDevelopmentFencePackage(opportunity: ContractorOpportunity) {
+  const text = fencingSearchText(opportunity);
+  const developer = `${opportunity.developer ?? ""} ${opportunity.populated_fields?.developer ?? ""} ${opportunity.decision_maker_company ?? ""}`.toLowerCase();
+  const productionBuilder = /\b(lennar|kb home|taylor morrison|meritage|dr horton|d\.?r\.? horton|pulte|century communities|tri pointe|shea homes|richmond american|toll brothers)\b/i.test(`${text} ${developer}`);
+  const subdivisionCue = /\b(villages?\s+at|unit\s+\d+|lot\s+\d+|subdivision|master\s*plan|production\s+housing|planned\s+development|tract\s+\d+)\b/i.test(text);
+  const housingCue = /\b(housing|residential development|single[-\s]?family|duplex|townhome|apartment|multifamily|community)\b/i.test(text);
+  return Boolean(productionBuilder || (subdivisionCue && (housingCue || productionBuilder || knownValue(opportunity.developer))));
+}
+
+function isNonFencePrimaryPermit(opportunity: ContractorOpportunity) {
+  const name = opportunity.project_name ?? "";
+  return (
+    /^\s*(solar|mech\b|hvac|pv\b|plumbing|electrical)\b/i.test(name)
+    || /\bsolar\s*:/i.test(name)
+    || /\bmech\s*\(/i.test(name)
+    || /\bhvac\s*c\/?o\b/i.test(name)
+  );
+}
+
+function isTinyResidentialFenceNoise(opportunity: ContractorOpportunity) {
+  const text = fencingSearchText(opportunity);
+  if (isHousingDevelopmentFencePackage(opportunity)) return false;
+  if (/\b(perimeter|subdivision|detention|park fencing|school fencing|chain[-\s]?link fence|security fencing|fence package)\b/i.test(text)) {
+    return false;
+  }
+  return (
+    /\b(raise\s+(?:existing\s+)?fence|re-?build(?:ing)?\s+the\s+front\s+section\s+of\s+my\s+fence|front\s+section\s+of\s+my\s+fence|side\s+yard|my\s+fence)\b/i.test(text)
+    || /\b(swimming\s+pool|pool\s+remodel|pool\s+safety\s+fencing)\b/i.test(text)
+    || (/^\s*(building\s+a\s+)?\d+\s*foot\s+steel\s+gate\b/i.test(opportunity.project_name) && !/\bfence|fencing\b/i.test(text))
+    || (/\barea:\s*r\d{2}:\s*fence\b/i.test(opportunity.project_name) && /\bmy\s+fence|side\s+yard|front\s+section\b/i.test(text))
+  );
+}
+
+function isFenceSideScopeNoise(opportunity: ContractorOpportunity) {
+  const text = fencingSearchText(opportunity);
+  const fencePrimary = /\b(new\s*\(?gates?\/?fence|new\s*\(?gates?\)?|install(?:ation)?\s+of\s+electric\s+sliding\s+gate|security\s+fence|chain[-\s]?link\s+fence|fence\s+package|raise\s+fence|new\s+fence)\b/i.test(text)
+    || /^[^:]*\b(fence|gates?)\b/i.test(opportunity.project_name);
+  if (fencePrimary && !/\b(swimming\s+pool|pool\s+remodel|pouring\s+driveway|tenant\s+improvement|interior\s+remodel|kitchen|bath\s+remodel)\b/i.test(opportunity.project_name)) {
+    return false;
+  }
+  return /\b(swimming\s+pool|pool\s+remodel|pouring\s+driveway|driveway\s+over\s+culvert|tenant\s+improvement|interior\s+remodel|kitchen-bath|hvac\s*c\/?o|mech\s*\()\b/i.test(text);
+}
+
+function fencingSearchText(opportunity: ContractorOpportunity) {
+  return [
+    opportunity.project_name,
+    opportunity.project_summary,
+    opportunity.scope_summary,
+    opportunity.primary_scope,
+    opportunity.likely_scope,
+    opportunity.evidence_likely_fence_scope,
+    ...(opportunity.fence_evidence ?? []),
+    ...(opportunity.potential_fencing_scope ?? []),
+    ...(opportunity.project_categories ?? []),
+    opportunity.document_intelligence?.what_is_being_built,
+    opportunity.document_intelligence?.scope_summary,
+  ].filter(Boolean).join(" ");
+}
+
+function dedupeFencingDevelopmentPackages<T extends { opportunity: ContractorOpportunity; packageScale: number; score: number }>(rows: T[]) {
+  const seen = new Set<string>();
+  const out: T[] = [];
+  for (const row of rows) {
+    if (row.packageScale < 3 && !isHousingDevelopmentFencePackage(row.opportunity)) {
+      out.push(row);
+      continue;
+    }
+    const key = housingPackageKey(row.opportunity);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(row);
+  }
+  return out;
+}
+
+function housingPackageKey(opportunity: ContractorOpportunity) {
+  const name = opportunity.project_name ?? "";
+  const village = name.match(/\bvillages?\s+at\s+([a-z0-9' ]+?)(?=\s*-?\s*unit\b|\s+lot\b|\s*$)/i);
+  const lakes = name.match(/\bthe\s+lakes\s+at\s+([a-z0-9' ]+?)(?=\s*-?\s*unit\b|\s+lot\b|\s*$)/i);
+  const gerber = name.match(/\bgerber\s+creek(?:\s+re-?alignment)?\b/i)?.[0];
+  const namedCommunity = village
+    ? `villages at ${village[1]}`
+    : lakes
+      ? `the lakes at ${lakes[1]}`
+      : gerber
+        || name
+          .replace(/\blot\s+\d+[a-z]?\b/gi, " ")
+          .replace(/\belevation\s+[a-z0-9-]+\b/gi, " ")
+          .replace(/\bplan\s+\d+[a-z]?\b/gi, " ")
+          .replace(/\bunit\s*\d+\b/gi, " ")
+          .replace(/\b\d{3,5}\b/g, " ")
+          .replace(/\s+/g, " ")
+          .trim()
+          .slice(0, 60);
+  const developer = opportunity.developer || opportunity.populated_fields?.developer || opportunity.decision_maker_company || "";
+  return normalizeKey(`${namedCommunity} ${developer} ${opportunity.city}`);
 }
 
 function fencingContractorScore(opportunity: ContractorOpportunity, tradeScore: TradeScore) {
@@ -697,6 +904,9 @@ function terms(query: string) {
 function likelyScopeForTrade(opportunity: ContractorOpportunity, trade: string) {
   const text = `${opportunity.project_name} ${opportunity.project_summary ?? ""} ${opportunity.scope_summary ?? ""} ${opportunity.trade ?? ""}`.toLowerCase();
   if (trade === "Fencing") {
+    if (isHousingDevelopmentFencePackage(opportunity) && !hasDirectFencePursuitSignal(opportunity)) {
+      return "Likely subdivision / housing-development fence package (contact developer or GC)";
+    }
     if (["Weak Signal", "Weak Opportunity"].includes(opportunity.fence_scope_confidence)) return "Insufficient evidence to determine likely fencing scope.";
     if (["No Meaningful Fence Opportunity", "No Evidence"].includes(opportunity.fence_scope_confidence)) return "No fencing scope generated.";
     if (opportunity.fencing_bidable === false) return "No bid-able fencing scope generated.";

@@ -8,3 +8,9 @@ export {
   createOpportunitySearchIndex,
   buildResearchIntelligenceSnapshot,
 } from "./breadcrumb-assembler";
+export {
+  classifyPlanningStage,
+  inferLikelyTradesFromPlanningText,
+  PLANNING_STAGE_LABELS,
+} from "./planning-signals";
+export type { PlanningSignal, PlanningStage } from "./planning-signals";

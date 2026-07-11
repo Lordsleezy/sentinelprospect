@@ -11,7 +11,7 @@ export type PursuitConfidence = "High Confidence" | "Medium Confidence" | "Resea
 
 export type PackageSizeFacet = "development" | "commercial" | "small";
 export type ContactFacet = "phone" | "research";
-export type JobTypeFacet = "subdivision" | "commercial_fence_gate" | "public_site" | "side_scope";
+export type JobTypeFacet = "subdivision" | "commercial_package" | "public_site" | "side_scope";
 
 export type SearchFacets = {
   package_size: PackageSizeFacet;
@@ -22,6 +22,7 @@ export type SearchFacets = {
   job_type_label: string;
   trade: string;
   location: string;
+  csi_divisions: string[];
 };
 
 export type SearchFacetFilters = {
@@ -433,9 +434,29 @@ const CONTACT_LABELS: Record<ContactFacet, string> = {
 
 const JOB_TYPE_LABELS: Record<JobTypeFacet, string> = {
   subdivision: "Subdivision / housing",
-  commercial_fence_gate: "Commercial fence/gate",
+  commercial_package: "Commercial / trade package",
   public_site: "Public / site",
   side_scope: "Side-scope add-on",
+};
+
+/** CSI MasterFormat-ish division tags for trade navigation. */
+const CSI_DIVISIONS_BY_TRADE: Record<string, string[]> = {
+  Concrete: ["03 - Concrete"],
+  Carpentry: ["06 - Wood, Plastics, Composites"],
+  Painting: ["09 - Finishes"],
+  Roofing: ["07 - Thermal & Moisture Protection"],
+  Plumbing: ["22 - Plumbing"],
+  HVAC: ["23 - HVAC"],
+  Electrical: ["26 - Electrical"],
+  Solar: ["26 - Electrical", "48 - Electrical Power Generation"],
+  Landscaping: ["32 - Exterior Improvements"],
+  Fencing: ["32 - Exterior Improvements"],
+  Asphalt: ["32 - Exterior Improvements"],
+  "Site work": ["31 - Earthwork", "32 - Exterior Improvements"],
+  Utility: ["33 - Utilities"],
+  Demolition: ["02 - Existing Conditions"],
+  Security: ["28 - Electronic Safety & Security"],
+  "General Contractor": ["01 - General Requirements"],
 };
 
 const humanContactsByOpportunity = new Map(
@@ -449,6 +470,17 @@ export function getDefaultFencingFacetFilters(): SearchFacetFilters {
   return { size: ["development"], contact: ["phone"] };
 }
 
+/** Big package + callable defaults for contractor trade searches. */
+export function getDefaultTradeFacetFilters(trade?: string | null): SearchFacetFilters | null {
+  if (!trade) return null;
+  const bigPackageTrades = new Set([
+    "Fencing", "Concrete", "HVAC", "Electrical", "Roofing", "Site work", "Utility",
+    "Landscaping", "Painting", "Carpentry", "Asphalt", "General Contractor",
+  ]);
+  if (!bigPackageTrades.has(trade)) return null;
+  return { size: ["development"], contact: ["phone"] };
+}
+
 export const SEARCH_FACET_LABELS = {
   size: PACKAGE_SIZE_LABELS,
   contact: CONTACT_LABELS,
@@ -459,14 +491,16 @@ export function parseSearchFacetParams(params: Record<string, string | undefined
   const parseList = <T extends string>(raw: string | undefined, allowed: readonly T[]): T[] | undefined => {
     if (!raw?.trim()) return undefined;
     const values = raw.split(",").map((part) => part.trim()).filter(Boolean) as T[];
-    const filtered = values.filter((value): value is T => (allowed as readonly string[]).includes(value));
+    // Back-compat: older URLs used commercial_fence_gate.
+    const normalized = values.map((value) => (value === "commercial_fence_gate" ? "commercial_package" : value)) as T[];
+    const filtered = normalized.filter((value): value is T => (allowed as readonly string[]).includes(value));
     return filtered.length ? filtered : undefined;
   };
 
   return {
     size: parseList(params.size, ["development", "commercial", "small"] as const),
     contact: parseList(params.contact, ["phone", "research"] as const),
-    type: parseList(params.type, ["subdivision", "commercial_fence_gate", "public_site", "side_scope"] as const),
+    type: parseList(params.type, ["subdivision", "commercial_package", "public_site", "side_scope"] as const),
     trade: params.trade
       ? params.trade.split(",").map((part) => part.trim()).filter(Boolean)
       : undefined,
@@ -501,6 +535,7 @@ export function classifyOpportunityFacets(opportunity: ContractorOpportunity, tr
     job_type_label: JOB_TYPE_LABELS[jobType],
     trade,
     location,
+    csi_divisions: CSI_DIVISIONS_BY_TRADE[trade] ?? [],
   };
 }
 
@@ -522,7 +557,7 @@ export function buildSearchFacetCounts(opportunities: ContractorOpportunity[]) {
   const contact: Record<ContactFacet, number> = { phone: 0, research: 0 };
   const type: Record<JobTypeFacet, number> = {
     subdivision: 0,
-    commercial_fence_gate: 0,
+    commercial_package: 0,
     public_site: 0,
     side_scope: 0,
   };
@@ -899,16 +934,25 @@ function isFencingInventoryMatch(opportunity: ContractorOpportunity, _packageSca
 }
 
 function classifyPackageSizeFacet(opportunity: ContractorOpportunity): PackageSizeFacet {
+  if (isHousingDevelopmentPackage(opportunity)) return "development";
   const scale = fencingPackageScale(opportunity);
-  if (scale >= 3 || isHousingDevelopmentFencePackage(opportunity)) return "development";
+  // For non-fence jobs, also treat Major/High opportunity size as development-scale.
+  const sizeBlob = `${opportunity.opportunity_size ?? ""} ${opportunity.scope_size ?? ""}`.toLowerCase();
+  if (/\b(major|very high|large|high)\b/.test(sizeBlob) && isHousingDevelopmentPackage(opportunity) === false) {
+    if (/\b(major|very high)\b/.test(sizeBlob)) return "development";
+    if (/\b(large|high)\b/.test(sizeBlob) && !/\b(tiny|small|low)\b/.test(sizeBlob)) return "commercial";
+  }
+  if (scale >= 3) return "development";
   if (scale >= 2) return "commercial";
+  if (/\b(commercial|industrial|warehouse|school|public works|tenant improvement|apartment)\b/i.test(
+    `${opportunity.project_name} ${opportunity.project_summary ?? ""} ${opportunity.scope_summary ?? ""}`,
+  )) return "commercial";
   return "small";
 }
 
 function classifyJobTypeFacet(opportunity: ContractorOpportunity): JobTypeFacet {
   if (isFenceSideScopeNoise(opportunity)) return "side_scope";
-  if (isHousingDevelopmentFencePackage(opportunity)) return "subdivision";
-  // Use name/summary only — project_categories often say "Public Works" for any county permit.
+  if (isHousingDevelopmentPackage(opportunity)) return "subdivision";
   const text = [
     opportunity.project_name,
     opportunity.project_summary,
@@ -919,7 +963,12 @@ function classifyJobTypeFacet(opportunity: ContractorOpportunity): JobTypeFacet 
   if (/\b(public\s+works|school\s+fencing|park\s+fencing|trail\s+fencing|detention\s+basin|municipal\s+(?:project|site|facility)|cell\s+tower)\b/i.test(text)) {
     return "public_site";
   }
-  return "commercial_fence_gate";
+  return "commercial_package";
+}
+
+/** Trade-agnostic housing / production development package detector. */
+export function isHousingDevelopmentPackage(opportunity: ContractorOpportunity) {
+  return isHousingDevelopmentFencePackage(opportunity);
 }
 
 function hasRequiredFencingContact(opportunity: ContractorOpportunity) {

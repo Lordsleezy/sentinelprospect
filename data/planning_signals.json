@@ -1,0 +1,225 @@
+{
+  "generated_at": "2026-07-11T08:23:03.266Z",
+  "source_count": 6,
+  "enabled_live_collectors": 0,
+  "signal_count": 9,
+  "signals": [
+    {
+      "id": "planning-seed-1",
+      "title": "Villages at Elder Creek — master plan / production housing package",
+      "jurisdiction": "Sacramento County",
+      "source_name": "Sacramento County Public Records",
+      "source_url": "https://actonline.saccounty.gov",
+      "stage": "unknown",
+      "project_type": "residential",
+      "developers": [
+        "Lennar"
+      ],
+      "location_text": "Elder Creek, Sacramento",
+      "city": "Sacramento",
+      "county": "Sacramento County",
+      "summary": "Housing development package with subdivision cues. Early pursuit window before trade contractors lock in.",
+      "trades_likely": [
+        "Fencing",
+        "Concrete",
+        "Site work",
+        "Landscaping"
+      ],
+      "package_hint": "development",
+      "captured_at": "2026-07-11T08:23:03.266Z",
+      "raw_excerpt": "Villages at Elder Creek Unit production housing subdivision master plan"
+    },
+    {
+      "id": "planning-seed-2",
+      "title": "Gerber Creek / Lelani Village subdivisions — site development",
+      "jurisdiction": "Sacramento County",
+      "source_name": "Sacramento County Public Records",
+      "source_url": "https://actonline.saccounty.gov",
+      "stage": "unknown",
+      "project_type": "residential",
+      "developers": [],
+      "location_text": "Sacramento County",
+      "city": null,
+      "county": "Sacramento County",
+      "summary": "Linked subdivision package. Strong candidate for fencing, concrete, site work, and landscaping before vertical trades saturate.",
+      "trades_likely": [
+        "Fencing",
+        "Concrete",
+        "Site work",
+        "Landscaping"
+      ],
+      "package_hint": "development",
+      "captured_at": "2026-07-11T08:23:03.266Z",
+      "raw_excerpt": "Gerber Creek and Lelani Village Subdivisions grading drainage fencing perimeter"
+    },
+    {
+      "id": "planning-seed-3",
+      "title": "Northlake 36 Homes — planned residential community",
+      "jurisdiction": "Sacramento",
+      "source_name": "Sacramento County Public Records",
+      "source_url": "https://actonline.saccounty.gov",
+      "stage": "unknown",
+      "project_type": "residential",
+      "developers": [],
+      "location_text": "North Natomas, Sacramento",
+      "city": "North Natomas",
+      "county": "Sacramento",
+      "summary": "Named housing community still producing lot/permit breadcrumbs. Chase developer for package awards.",
+      "trades_likely": [
+        "Fencing",
+        "Concrete",
+        "Site work",
+        "Landscaping"
+      ],
+      "package_hint": "development",
+      "captured_at": "2026-07-11T08:23:03.266Z",
+      "raw_excerpt": "Northlake 36 Homes subdivision residential community"
+    },
+    {
+      "id": "planning-stub-sacramento-county-public-records",
+      "title": "Sacramento County planning portal — adapter pending",
+      "jurisdiction": "Sacramento County",
+      "source_name": "Sacramento County Public Records",
+      "source_url": "https://actonline.saccounty.gov",
+      "stage": "unknown",
+      "project_type": "unknown",
+      "developers": [],
+      "location_text": "Sacramento County",
+      "city": null,
+      "county": "Sacramento County",
+      "summary": "Collector stub for Sacramento County Public Records. Target permits, parcel activity, planning applications, CEQA notices, and county project records.",
+      "trades_likely": [],
+      "package_hint": "unknown",
+      "captured_at": "2026-07-11T08:23:03.266Z",
+      "raw_excerpt": null
+    },
+    {
+      "id": "planning-stub-placer-county-public-records",
+      "title": "Placer County planning portal — adapter pending",
+      "jurisdiction": "Placer County",
+      "source_name": "Placer County Public Records",
+      "source_url": "https://aca-prod.accela.com/PLACER",
+      "stage": "unknown",
+      "project_type": "unknown",
+      "developers": [],
+      "location_text": "Placer County",
+      "city": null,
+      "county": "Placer County",
+      "summary": "Collector stub for Placer County Public Records. Target permits, subdivision activity, planning records, parcel splits, and utility-related signals.",
+      "trades_likely": [],
+      "package_hint": "unknown",
+      "captured_at": "2026-07-11T08:23:03.266Z",
+      "raw_excerpt": null
+    },
+    {
+      "id": "planning-stub-roseville-development-services",
+      "title": "Roseville planning portal — adapter pending",
+      "jurisdiction": "Roseville",
+      "source_name": "Roseville Development Services",
+      "source_url": "https://permitsonline.roseville.ca.us",
+      "stage": "unknown",
+      "project_type": "unknown",
+      "developers": [],
+      "location_text": "Roseville",
+      "city": null,
+      "county": null,
+      "summary": "Collector stub for Roseville Development Services. Target building permits, planning entitlements, design review, subdivision, and infrastructure records.",
+      "trades_likely": [],
+      "package_hint": "unknown",
+      "captured_at": "2026-07-11T08:23:03.266Z",
+      "raw_excerpt": null
+    },
+    {
+      "id": "planning-stub-rocklin-community-development",
+      "title": "Rocklin planning portal — adapter pending",
+      "jurisdiction": "Rocklin",
+      "source_name": "Rocklin Community Development",
+      "source_url": "https://www.rocklin.ca.us/community-development",
+      "stage": "unknown",
+      "project_type": "unknown",
+      "developers": [],
+      "location_text": "Rocklin",
+      "city": null,
+      "county": null,
+      "summary": "Collector stub for Rocklin Community Development. Target planning agendas, development applications, permits, and public works project references.",
+      "trades_likely": [],
+      "package_hint": "unknown",
+      "captured_at": "2026-07-11T08:23:03.266Z",
+      "raw_excerpt": null
+    },
+    {
+      "id": "planning-stub-folsom-community-development",
+      "title": "Folsom planning portal — adapter pending",
+      "jurisdiction": "Folsom",
+      "source_name": "Folsom Community Development",
+      "source_url": "https://www.folsom.ca.us/government/community-development",
+      "stage": "unknown",
+      "project_type": "unknown",
+      "developers": [],
+      "location_text": "Folsom",
+      "city": null,
+      "county": null,
+      "summary": "Collector stub for Folsom Community Development. Target planning applications, permits, CEQA documents, capital projects, and subdivision records.",
+      "trades_likely": [],
+      "package_hint": "unknown",
+      "captured_at": "2026-07-11T08:23:03.266Z",
+      "raw_excerpt": null
+    },
+    {
+      "id": "planning-stub-elk-grove-development-services",
+      "title": "Elk Grove planning portal — adapter pending",
+      "jurisdiction": "Elk Grove",
+      "source_name": "Elk Grove Development Services",
+      "source_url": "https://www.elkgrovecity.org/city_hall/departments_divisions/development_services",
+      "stage": "unknown",
+      "project_type": "unknown",
+      "developers": [],
+      "location_text": "Elk Grove",
+      "city": null,
+      "county": null,
+      "summary": "Collector stub for Elk Grove Development Services. Target permits, planning commission packets, development applications, CEQA, and developer activity.",
+      "trades_likely": [],
+      "package_hint": "unknown",
+      "captured_at": "2026-07-11T08:23:03.266Z",
+      "raw_excerpt": null
+    }
+  ],
+  "next_adapters": [
+    {
+      "source": "Sacramento County Public Records",
+      "url": "https://actonline.saccounty.gov",
+      "enabled": false,
+      "notes": "Target permits, parcel activity, planning applications, CEQA notices, and county project records."
+    },
+    {
+      "source": "Placer County Public Records",
+      "url": "https://aca-prod.accela.com/PLACER",
+      "enabled": false,
+      "notes": "Target permits, subdivision activity, planning records, parcel splits, and utility-related signals."
+    },
+    {
+      "source": "Roseville Development Services",
+      "url": "https://permitsonline.roseville.ca.us",
+      "enabled": false,
+      "notes": "Target building permits, planning entitlements, design review, subdivision, and infrastructure records."
+    },
+    {
+      "source": "Rocklin Community Development",
+      "url": "https://www.rocklin.ca.us/community-development",
+      "enabled": false,
+      "notes": "Target planning agendas, development applications, permits, and public works project references."
+    },
+    {
+      "source": "Folsom Community Development",
+      "url": "https://www.folsom.ca.us/government/community-development",
+      "enabled": false,
+      "notes": "Target planning applications, permits, CEQA documents, capital projects, and subdivision records."
+    },
+    {
+      "source": "Elk Grove Development Services",
+      "url": "https://www.elkgrovecity.org/city_hall/departments_divisions/development_services",
+      "enabled": false,
+      "notes": "Target permits, planning commission packets, development applications, CEQA, and developer activity."
+    }
+  ]
+}

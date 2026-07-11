@@ -32,6 +32,7 @@
     "intelligence:scope": "node scripts/build-scope-intelligence.mjs",
     "intelligence:documents": "node scripts/build-document-intelligence.mjs",
     "intelligence:research": "tsx scripts/build-research-intelligence.mjs",
+    "collect:planning": "tsx scripts/run-planning-signal-collector.mjs",
     "intelligence:contacts": "npm run extract:description-businesses && npm run enrich:contacts && npm run harvest:contacts && npm run intelligence:companies && npm run intelligence:qualify && npm run intelligence:access && npm run intelligence:human-contacts && npm run intelligence:opportunity && npm run intelligence:access-path && npm run intelligence:contractor-actions",
     "intelligence:rebuild": "npm run intelligence:qualify && npm run intelligence:access && npm run intelligence:human-contacts && npm run intelligence:opportunity && npm run intelligence:access-path && npm run intelligence:contractor-actions && npm run intelligence:scope && npm run intelligence:evidence && npm run intelligence:documents && npm run intelligence:research",
     "validate": "npm run lint && npm run build",

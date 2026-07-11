@@ -10,7 +10,7 @@ import {
   SEARCH_FACET_LABELS,
   buildSearchFacetCounts,
   getContractorOpportunitySearchResults,
-  getDefaultFencingFacetFilters,
+  getDefaultTradeFacetFilters,
   getSimilarContractorOpportunities,
   hasActiveSearchFacetFilters,
   inferSearchTrades,
@@ -38,7 +38,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const browseAll = params.browse === "all";
   const desiredTrades = inferSearchTrades(q);
   const desiredTrade = desiredTrades[0] ?? inferQueryTrade(q);
-  const fencingOnlySearch = desiredTrades.length === 1 && desiredTrades[0] === "Fencing";
+  const defaultTradeFilters = getDefaultTradeFacetFilters(desiredTrade);
   const parsedFilters = parseSearchFacetParams(params);
   const userTouchedFacets = browseAll
     || params.size !== undefined
@@ -46,10 +46,10 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
     || params.type !== undefined
     || params.trade !== undefined
     || params.location !== undefined;
-  const activeFilters: SearchFacetFilters = fencingOnlySearch && !userTouchedFacets
-    ? getDefaultFencingFacetFilters()
+  const activeFilters: SearchFacetFilters = defaultTradeFilters && !userTouchedFacets
+    ? defaultTradeFilters
     : parsedFilters;
-  const defaultsApplied = fencingOnlySearch && !userTouchedFacets;
+  const defaultsApplied = Boolean(defaultTradeFilters && !userTouchedFacets);
   const inventory = q ? getContractorOpportunitySearchResults(q) : [];
   const ranked = inventory.filter((opportunity) => matchesSearchFacetFilters(opportunity, activeFilters));
   const facetCounts = buildSearchFacetCounts(inventory);
@@ -59,27 +59,23 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const mediumConfidenceCount = ranked.filter((item) => item.pursuit_confidence === "Medium Confidence").length;
   const researchCount = ranked.filter((item) => item.pursuit_confidence === "Research Required" || item.opportunity_state === "Research Required").length;
   const tradeLabel = desiredTrade ? `${desiredTrade.toLowerCase()} ` : "";
-  const emptyTradeMessage = desiredTrade === "Fencing"
+  const emptyTradeMessage = desiredTrade
     ? filtersActive
-      ? "No fencing opportunities matched these filters. Clear filters to browse the full fencing inventory."
-      : "No fencing-related opportunities matched this search."
-    : desiredTrade
-      ? `No matching ${desiredTrade} opportunities were found for this search. Sentinel does not fall back to fencing results when another trade is requested.`
-      : "Sentinel found no results that clear the contractor opportunity threshold for this search.";
+      ? `No ${desiredTrade.toLowerCase()} opportunities matched these filters. Clear filters to browse the full inventory.`
+      : `No matching ${desiredTrade} opportunities were found for this search. Sentinel does not fall back to fencing results when another trade is requested.`
+    : "Sentinel found no results that clear the contractor opportunity threshold for this search.";
   const resultHeadline = top
-    ? desiredTrade === "Fencing"
-      ? filtersActive
-        ? `${inventory.length} fencing jobs · Filtered to ${ranked.length}`
-        : `${ranked.length} fencing jobs`
-      : `${ranked.length} ${tradeLabel}opportunities worth your time`
+    ? filtersActive
+      ? `${inventory.length} ${tradeLabel || ""}jobs · Filtered to ${ranked.length}`
+      : `${ranked.length} ${tradeLabel || ""}jobs`
     : "No matching contractor opportunities found yet.";
-  const resultSubcopy = top && desiredTrade === "Fencing"
-    ? defaultsApplied
-      ? "Showing development-scale packages with a phone by default. Clear filters to see commercial packages, smaller jobs, and research-only leads."
-      : filtersActive
-        ? "Filtered from the full fencing inventory for this search."
-        : "Browsing all fencing-related opportunities for this search."
-    : null;
+  const resultSubcopy = top && defaultsApplied
+    ? `Showing development-scale packages with a phone by default for ${desiredTrade}. Clear filters to see commercial packages, smaller jobs, and research-only leads.`
+    : top && filtersActive
+      ? `Filtered from the full ${desiredTrade ? desiredTrade.toLowerCase() + " " : ""}inventory for this search.`
+      : top
+        ? `Browsing all matching opportunities for this search.`
+        : null;
   const similarNearby = top ? getSimilarContractorOpportunities(top, 4) : [];
   const activeChips = buildActiveFacetChips(activeFilters);
 
@@ -119,9 +115,9 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                   ) : null}
                 </div>
                 <p className="mt-1 text-xs text-zinc-500">
-                  {fencingOnlySearch
-                    ? "Narrow by package size, contact readiness, and job type."
-                    : "Facet filters are optimized for fencing searches."}
+                  {defaultTradeFilters
+                    ? "Narrow by package size, contact readiness, and job type. Big callable packages are selected by default."
+                    : "Narrow results by package size, contact readiness, job type, and location."}
                 </p>
               </CardHeader>
               <CardContent className="space-y-5">

@@ -30,6 +30,15 @@ export type PlanningSignal = {
   package_hint: "development" | "commercial" | "small" | "unknown";
   captured_at: string;
   raw_excerpt?: string | null;
+  contact_name?: string | null;
+  contact_email?: string | null;
+  contact_phone?: string | null;
+  parcel?: string | null;
+  external_id?: string | null;
+  status?: string | null;
+  applicant?: string | null;
+  latitude?: number | null;
+  longitude?: number | null;
 };
 
 export const PLANNING_STAGE_LABELS: Record<PlanningStage, string> = {

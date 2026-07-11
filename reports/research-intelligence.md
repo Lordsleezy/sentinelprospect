@@ -1,12 +1,12 @@
 # Research Intelligence
 
-Generated: 2026-07-11T08:18:17.823Z
+Generated: 2026-07-11T08:27:18.693Z
 
 ## Summary
 
-- Atoms (breadcrumbs): 205
-- Assembled hypotheses: 73
-- Semantic index documents: 205
+- Atoms (breadcrumbs): 460
+- Assembled hypotheses: 287
+- Semantic index documents: 460
 
 ## Open-source patterns in use
 
@@ -19,162 +19,162 @@ Generated: 2026-07-11T08:18:17.823Z
 
 ## Top opportunity hypotheses
 
+### Lyubov Karpov
+
+- Confidence: 0.97
+- Package: commercial
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 30
+- Why: 30 linked public-record breadcrumbs reinforce the same package. Developer signal: Lyubov Karpov, Daryle Hassler. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping.
+
 ### Northlake 36 Homes Northlake 36 Homes — housing / development package
 
 - Confidence: 0.97
 - Package: development
 - Trades: Site work, Earthwork, Electrical, Fencing, Landscaping, Residential
 - Breadcrumbs: 17
-- Why: 17 linked public-record breadcrumbs reinforce the same package. Developer signal: Lennar Homes Of California, Lennar. Subdivision / community cue: Northlake 36 Homes Northlake 36 Homes, Northlake Lakelet Northlake Lakelet Construction Ne. Trade breadcrumbs: Site work, Earthwork, Electrical, Fencing. Looks like a housing / development package worth early pursuit.
+- Why: 17 linked public-record breadcrumbs reinforce the same package. Developer signal: Lennar Homes Of California, Lennar. Subdivision / community cue: Northlake 36 Homes Northlake 36 Homes, Northlake Lakelet Northlake Lakelet. Trade breadcrumbs: Site work, Earthwork, Electrical, Fencing. Looks like a housing / development package worth early pursuit.
 
-### Florin Vineyards I & Ii - Village — housing / development package
+### Lenhart Rd Sb1123 Subdivision — housing / development package
+
+- Confidence: 0.97
+- Package: development
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 5
+- Why: 5 linked public-record breadcrumbs reinforce the same package. Developer signal: Bahar Jalili, Melissa Keith. Subdivision / community cue: Lenhart Rd Sb1123 Subdivision. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping. Looks like a housing / development package worth early pursuit.
+
+### Winding Ranch Residential Temporary Subdivision — housing / development package
+
+- Confidence: 0.97
+- Package: development
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 2
+- Why: 2 linked public-record breadcrumbs reinforce the same package. Developer signal: Brady Tacdol. Subdivision / community cue: Winding Ranch Residential Temporary Subdivision. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping. Looks like a housing / development package worth early pursuit.
+
+### Heritage Palms Subdivision — housing / development package
+
+- Confidence: 0.97
+- Package: development
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 2
+- Why: 2 linked public-record breadcrumbs reinforce the same package. Developer signal: Mike Mendez. Subdivision / community cue: Heritage Palms Subdivision. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping. Looks like a housing / development package worth early pursuit.
+
+### Brookwood Estates Subdivision — housing / development package
+
+- Confidence: 0.97
+- Package: development
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 2
+- Why: 2 linked public-record breadcrumbs reinforce the same package. Developer signal: Todd Speece. Subdivision / community cue: Brookwood Estates Subdivision. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping. Looks like a housing / development package worth early pursuit.
+
+### The Ridge Tentative Subdivision — housing / development package
+
+- Confidence: 0.97
+- Package: development
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 2
+- Why: 2 linked public-record breadcrumbs reinforce the same package. Developer signal: Allen Johnson & Nick Alexander, Brian Holloway. Subdivision / community cue: The Ridge Tentative Subdivision, Tentative Subdivision. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping. Looks like a housing / development package worth early pursuit.
+
+### Newcastle Subdivision — housing / development package
+
+- Confidence: 0.97
+- Package: development
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 2
+- Why: 2 linked public-record breadcrumbs reinforce the same package. Developer signal: Jefferson Huliganga, Division Vist Inc.. Subdivision / community cue: Newcastle Subdivision. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping. Looks like a housing / development package worth early pursuit.
+
+### Arden Square Subdivision — housing / development package
+
+- Confidence: 0.92
+- Package: development
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 1
+- Why: Developer signal: Sanjiv Chopra. Subdivision / community cue: Arden Square Subdivision. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping. Looks like a housing / development package worth early pursuit.
+
+### Raj Subdivision — housing / development package
+
+- Confidence: 0.92
+- Package: development
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 1
+- Why: Developer signal: Raj Kumar Ram. Subdivision / community cue: Raj Subdivision. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping. Looks like a housing / development package worth early pursuit.
+
+### Villages At Elder Creek Unit 1c — housing / development package
+
+- Confidence: 0.92
+- Package: development
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 1
+- Why: Developer signal: Monique Reynolds. Subdivision / community cue: Villages At Elder Creek Unit 1c. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping. Looks like a housing / development package worth early pursuit.
+
+### Winchester Subdivision — housing / development package
+
+- Confidence: 0.92
+- Package: development
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 1
+- Why: Developer signal: Mike Ciric. Subdivision / community cue: Winchester Subdivision. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping. Looks like a housing / development package worth early pursuit.
+
+### Placer One - Village — housing / development package
+
+- Confidence: 0.92
+- Package: development
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 1
+- Why: Developer signal: Stephanie Llamas. Subdivision / community cue: Placer One - Village. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping. Looks like a housing / development package worth early pursuit.
+
+### Crossing Single Family Residential Major Subdivision — housing / development package
+
+- Confidence: 0.92
+- Package: development
+- Trades: Fencing, Concrete, Site work, Landscaping
+- Breadcrumbs: 1
+- Why: Developer signal: Tiffany Wilson. Subdivision / community cue: Crossing Single Family Residential Major Subdivision. Trade breadcrumbs: Fencing, Concrete, Site work, Landscaping. Looks like a housing / development package worth early pursuit.
+
+### Granite Bay Community — housing / development package
+
+- Confidence: 0.92
+- Package: development
+- Trades: Landscaping, Fencing, Concrete, Site work
+- Breadcrumbs: 1
+- Why: Developer signal: Brian Bergfalk. Subdivision / community cue: Granite Bay Community. Trade breadcrumbs: Landscaping, Fencing, Concrete, Site work. Looks like a housing / development package worth early pursuit.
+
+### Tim Stevens
 
 - Confidence: 0.91
-- Package: development
-- Trades: Fencing, Electrical
+- Package: commercial
+- Trades: Concrete
 - Breadcrumbs: 5
-- Why: 5 linked public-record breadcrumbs reinforce the same package. Subdivision / community cue: Florin Vineyards I & Ii - Village. Trade breadcrumbs: Fencing, Electrical. Looks like a housing / development package worth early pursuit.
+- Why: 5 linked public-record breadcrumbs reinforce the same package. Developer signal: Tim Stevens, Bj Drye. Trade breadcrumbs: Concrete.
 
 ### Hopkins Village — housing / development package
 
 - Confidence: 0.88
 - Package: development
-- Trades: Fencing, Concrete, Electrical
+- Trades: Electrical, Concrete, Fencing
 - Breadcrumbs: 4
-- Why: 4 linked public-record breadcrumbs reinforce the same package. Subdivision / community cue: Hopkins Village. Trade breadcrumbs: Fencing, Concrete, Electrical. Looks like a housing / development package worth early pursuit.
+- Why: 4 linked public-record breadcrumbs reinforce the same package. Subdivision / community cue: Hopkins Village. Trade breadcrumbs: Electrical, Concrete, Fencing. Looks like a housing / development package worth early pursuit.
 
-### NEW (GATES) - 5800 FAIR OAKS BLVD
+### Jania Braggs
 
-- Confidence: 0.71
+- Confidence: 0.88
 - Package: commercial
-- Trades: Fencing, Electrical, HVAC, Concrete
-- Breadcrumbs: 11
-- Why: 11 linked public-record breadcrumbs reinforce the same package. Trade breadcrumbs: Fencing, Electrical, HVAC, Concrete.
+- Trades: n/a
+- Breadcrumbs: 4
+- Why: 4 linked public-record breadcrumbs reinforce the same package. Developer signal: Jania Braggs, Tom Wheelock.
 
-### Woodside Homes
+### Larry  Farinha
 
-- Confidence: 0.7
+- Confidence: 0.88
 - Package: commercial
-- Trades: Fencing, Concrete, Site work
-- Breadcrumbs: 2
-- Why: 2 linked public-record breadcrumbs reinforce the same package. Developer signal: Woodside Homes. Trade breadcrumbs: Fencing, Concrete, Site work.
-
-### REPAIR (BALCONIES/LANDINGS) - 2801 MANLOVE RD BLDG 10
-
-- Confidence: 0.63
-- Package: commercial
-- Trades: Electrical
-- Breadcrumbs: 11
-- Why: 11 linked public-record breadcrumbs reinforce the same package. Trade breadcrumbs: Electrical.
-
-### SOLAR : AREA: R03:  Blossom Ridge-Plan 2230-Elevation C-Lot 8
-
-- Confidence: 0.6
-- Package: commercial
-- Trades: Electrical, Fencing
+- Trades: Electrical, Fencing, Concrete, Site work, Landscaping
 - Breadcrumbs: 3
-- Why: 3 linked public-record breadcrumbs reinforce the same package. Trade breadcrumbs: Electrical, Fencing.
+- Why: 3 linked public-record breadcrumbs reinforce the same package. Developer signal: Larry  Farinha. Trade breadcrumbs: Electrical, Fencing, Concrete, Site work.
 
-### REPAIR (DRY ROT) - 3131 EL CAMINO AVE
+### Javed Siddiqui
 
-- Confidence: 0.6
+- Confidence: 0.8
 - Package: commercial
-- Trades: Concrete, Roofing
+- Trades: n/a
 - Breadcrumbs: 3
-- Why: 3 linked public-record breadcrumbs reinforce the same package. Trade breadcrumbs: Concrete, Roofing.
-
-### REROOF (OVERLAY 326 SQ) - 3800 WATT AVE
-
-- Confidence: 0.52
-- Package: commercial
-- Trades: General Contractor, Roofing
-- Breadcrumbs: 2
-- Why: 2 linked public-record breadcrumbs reinforce the same package. Trade breadcrumbs: General Contractor, Roofing.
-
-### AREA: R01:  THE LAKES AT ANTELOPE UNIT 4 – 1850 D Lot 94
-
-- Confidence: 0.52
-- Package: small
-- Trades: Fencing, Electrical
-- Breadcrumbs: 2
-- Why: 2 linked public-record breadcrumbs reinforce the same package. Trade breadcrumbs: Fencing, Electrical.
-
-### AREA: R06:  Demolition of existing house to framing and stemwalls.
-
-- Confidence: 0.52
-- Package: small
-- Trades: Fencing, Concrete, Roofing, Site work, General
-- Breadcrumbs: 2
-- Why: 2 linked public-record breadcrumbs reinforce the same package. Trade breadcrumbs: Fencing, Concrete, Roofing, Site work.
-
-### NEW (GATES) - 3401 BALMORAL DR
-
-- Confidence: 0.52
-- Package: commercial
-- Trades: Electrical, Fencing
-- Breadcrumbs: 2
-- Why: 2 linked public-record breadcrumbs reinforce the same package. Trade breadcrumbs: Electrical, Fencing.
-
-### REPLACE MSP 100A WITH 100A: Electric Service Panel Replacement or Repair.
-
-- Confidence: 0.52
-- Package: small
-- Trades: Electrical, HVAC
-- Breadcrumbs: 2
-- Why: 2 linked public-record breadcrumbs reinforce the same package. Trade breadcrumbs: Electrical, HVAC.
-
-### AREA: R01:  installation of NEW PHOTOVOLTAIC SYSTEM 7.92 KW DC/11.50 KW
-
-- Confidence: 0.44
-- Package: commercial
-- Trades: Electrical
-- Breadcrumbs: 2
-- Why: 2 linked public-record breadcrumbs reinforce the same package. Trade breadcrumbs: Electrical.
-
-### AREA: R02:  SOLAR : HAKIM HUSSAINI
-
-- Confidence: 0.44
-- Package: unknown
-- Trades: Roofing, Electrical, Fencing
-- Breadcrumbs: 1
-- Why: Trade breadcrumbs: Roofing, Electrical, Fencing.
-
-### Change to SOLR2025-00308: AREA: R08:  AREA: R08:  PV + ESS
-
-- Confidence: 0.44
-- Package: unknown
-- Trades: Electrical, Fencing
-- Breadcrumbs: 1
-- Why: Trade breadcrumbs: Electrical, Fencing.
-
-### MECH (HVAC C/O) - 7460 PERSIMMON AVE
-
-- Confidence: 0.44
-- Package: unknown
-- Trades: Fencing, Electrical, HVAC
-- Breadcrumbs: 1
-- Why: Trade breadcrumbs: Fencing, Electrical, HVAC.
-
-### SOLAR : Rooftop Solar
-
-- Confidence: 0.44
-- Package: unknown
-- Trades: Roofing, Electrical, Fencing, HVAC
-- Breadcrumbs: 1
-- Why: Trade breadcrumbs: Roofing, Electrical, Fencing, HVAC.
-
-### AREA: R03:  Like-for-like replacement of tankless water heater and gas
-
-- Confidence: 0.44
-- Package: unknown
-- Trades: Fencing, Electrical, HVAC
-- Breadcrumbs: 1
-- Why: Trade breadcrumbs: Fencing, Electrical, HVAC.
-
-### AREA: R05:  Repipe house drain system
-
-- Confidence: 0.44
-- Package: unknown
-- Trades: Fencing, Electrical, HVAC
-- Breadcrumbs: 1
-- Why: Trade breadcrumbs: Fencing, Electrical, HVAC.
+- Why: 3 linked public-record breadcrumbs reinforce the same package. Developer signal: Javed Siddiqui.

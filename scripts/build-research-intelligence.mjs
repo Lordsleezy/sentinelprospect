@@ -3,7 +3,9 @@ import { resolve } from "node:path";
 import { buildResearchIntelligenceSnapshot } from "../src/lib/research/breadcrumb-assembler.ts";
 
 const opportunities = (await readJson("data/contractor_opportunities.json")) ?? [];
-const snapshot = buildResearchIntelligenceSnapshot(opportunities);
+const planningArtifact = await readJson("data/planning_signals.json");
+const planningSignals = Array.isArray(planningArtifact?.signals) ? planningArtifact.signals : [];
+const snapshot = buildResearchIntelligenceSnapshot(opportunities, planningSignals);
 
 await mkdir(resolve("data"), { recursive: true });
 await mkdir(resolve("reports"), { recursive: true });

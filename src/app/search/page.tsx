@@ -23,6 +23,7 @@ import {
   type SearchFacetFilters,
 } from "@/lib/contractor-opportunity-engine";
 import { formatHumanContact, getOpportunityHumanContact, type HumanContact } from "@/lib/human-contact-discovery";
+import { getPlanningSearchLeads, PLANNING_STAGE_LABELS } from "@/lib/research";
 
 const popularSearches = [
   "Fence opportunities in Sacramento",
@@ -52,6 +53,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
   const defaultsApplied = Boolean(defaultTradeFilters && !userTouchedFacets);
   const inventory = q ? getContractorOpportunitySearchResults(q) : [];
   const ranked = inventory.filter((opportunity) => matchesSearchFacetFilters(opportunity, activeFilters));
+  const planningLeads = q ? getPlanningSearchLeads(q, desiredTrade, 8) : [];
   const facetCounts = buildSearchFacetCounts(inventory);
   const filtersActive = hasActiveSearchFacetFilters(activeFilters);
   const top = ranked[0];
@@ -208,6 +210,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                   {resultSubcopy ? <p>{resultSubcopy}</p> : null}
                   <p>
                     {highConfidenceCount} ready to call · {mediumConfidenceCount} need a little research · {researchCount} research only
+                    {planningLeads.length ? ` · ${planningLeads.length} early planning leads` : ""}
                   </p>
                   <p>
                     Start with <span className="font-semibold text-zinc-950">{top.project_name}</span>
@@ -217,10 +220,29 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                       : " Open the card for who to call and when to act."}
                   </p>
                 </div>
+              ) : planningLeads.length ? (
+                <p className="mt-2 max-w-3xl text-sm leading-6 text-zinc-600">
+                  No permitted contractor jobs cleared the filter, but {planningLeads.length} early-stage planning leads matched this search.
+                </p>
               ) : (
                 <p className="mt-2 max-w-3xl text-sm leading-6 text-zinc-600">{emptyTradeMessage} Try a different trade, location, timing window, or project type.</p>
               )}
             </section>
+
+            {planningLeads.length ? (
+              <section className="space-y-3">
+                <div className="rounded-lg border border-sky-200 bg-sky-50 px-4 py-3">
+                  <h3 className="text-sm font-semibold text-sky-950">Early-stage planning leads</h3>
+                  <p className="mt-1 text-sm text-sky-800">
+                    Live Sacramento / Placer planning records — often before contractors are locked in.
+                  </p>
+                </div>
+                {planningLeads.map((lead) => (
+                  <PlanningLeadCard key={lead.id} lead={lead} searchedTrade={desiredTrade} searchQuery={q} />
+                ))}
+              </section>
+            ) : null}
+
             {ranked.length ? ranked.map((opportunity) => (
               <ContractorOpportunityCard
                 key={opportunity.id}
@@ -228,7 +250,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                 searchedTrade={desiredTrade}
                 searchQuery={q}
               />
-            )) : (
+            )) : !planningLeads.length ? (
               <Card>
                 <CardHeader><h2 className="font-semibold">{desiredTrade ? `No ${desiredTrade} opportunities found` : "No realistic contractor opportunities found"}</h2></CardHeader>
                 <CardContent className="space-y-2 text-sm text-zinc-600">
@@ -393,6 +415,130 @@ function buildActiveFacetChips(filters: SearchFacetFilters) {
     chips.push({ group: "location", value, label: value });
   }
   return chips;
+}
+
+function PlanningLeadCard({
+  lead,
+  searchedTrade,
+  searchQuery,
+}: {
+  lead: import("@/lib/research").PlanningSearchLead;
+  searchedTrade: string | null;
+  searchQuery: string;
+}) {
+  const stageLabel = PLANNING_STAGE_LABELS[lead.stage] ?? lead.stage;
+  const scopeLine = [
+    lead.package_hint === "development" ? "Development-scale package" : lead.package_hint === "commercial" ? "Commercial package" : "Planning package",
+    stageLabel,
+    lead.project_type !== "unknown" ? lead.project_type : null,
+  ].filter(Boolean).join(" · ");
+  const tradeHint = searchedTrade
+    ? `Likely ${searchedTrade.toLowerCase()} work once entitlements clear`
+    : (lead.trades_likely?.[0] ? `Likely ${lead.trades_likely[0].toLowerCase()} package later` : "Early public planning signal");
+  const place = [lead.city, lead.county || lead.jurisdiction].filter(Boolean).join(", ");
+  const summary = [
+    lead.summary || lead.raw_excerpt || lead.title,
+    place ? `(${place})` : null,
+    lead.why_it_matches,
+  ].filter(Boolean).join(" — ");
+  const phone = lead.contact_phone?.trim() || null;
+  const email = lead.contact_email?.trim() || null;
+
+  return (
+    <article className="rounded-lg border border-sky-200 bg-white p-5 shadow-sm hover:border-sky-300">
+      <div className="min-w-0">
+        <h3 className="text-xl font-semibold text-zinc-950">{lead.title}</h3>
+        <p className="mt-2 text-sm font-medium text-zinc-800">
+          <span className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Scope · </span>
+          {scopeLine}
+        </p>
+        <p className="mt-3 text-sm leading-6 text-zinc-700">
+          {tradeHint}. {summary.slice(0, 280)}{summary.length > 280 ? "…" : ""}
+        </p>
+
+        <div className="mt-4 flex flex-wrap items-center gap-3">
+          {phone ? (
+            <a
+              href={`tel:${phone.replace(/[^\d+]/g, "")}`}
+              className="inline-flex items-center gap-2 rounded-md border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm font-semibold text-emerald-950 hover:bg-emerald-100"
+            >
+              <Phone className="size-4" />
+              {phone}
+            </a>
+          ) : (
+            <span className="inline-flex items-center gap-2 rounded-md border border-zinc-200 bg-zinc-50 px-3 py-2 text-sm text-zinc-600">
+              <Phone className="size-4" />
+              No phone on file yet
+            </span>
+          )}
+          {lead.contact_name ? (
+            <span className="text-sm text-zinc-600">{lead.contact_name}{email ? ` · ${email}` : ""}</span>
+          ) : email ? (
+            <a href={`mailto:${email}`} className="inline-flex items-center gap-2 text-sm text-zinc-700 hover:underline">
+              <Mail className="size-4" />
+              {email}
+            </a>
+          ) : null}
+        </div>
+
+        <details className="mt-5 rounded-md border border-zinc-200 bg-zinc-50/70">
+          <summary className="cursor-pointer list-none px-4 py-3 text-sm font-semibold text-zinc-800 marker:content-none [&::-webkit-details-marker]:hidden">
+            <span className="inline-flex items-center gap-2">
+              Advanced details
+              <span className="text-xs font-medium text-zinc-500">jurisdiction, applicant, parcel, source</span>
+            </span>
+          </summary>
+          <div className="space-y-3 border-t border-zinc-200 px-4 py-4 text-sm text-zinc-700">
+            <dl className="grid gap-3 sm:grid-cols-2">
+              <div>
+                <dt className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Jurisdiction</dt>
+                <dd>{lead.jurisdiction}</dd>
+              </div>
+              <div>
+                <dt className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Stage</dt>
+                <dd>{stageLabel}{lead.status ? ` · ${lead.status}` : ""}</dd>
+              </div>
+              {lead.applicant ? (
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Applicant</dt>
+                  <dd>{lead.applicant}</dd>
+                </div>
+              ) : null}
+              {lead.developers?.length ? (
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Developers</dt>
+                  <dd>{lead.developers.join(", ")}</dd>
+                </div>
+              ) : null}
+              {lead.parcel ? (
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Parcel</dt>
+                  <dd>{lead.parcel}</dd>
+                </div>
+              ) : null}
+              {lead.trades_likely?.length ? (
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Likely trades</dt>
+                  <dd>{lead.trades_likely.join(", ")}</dd>
+                </div>
+              ) : null}
+              {searchQuery ? (
+                <div className="sm:col-span-2">
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Why it matched</dt>
+                  <dd>{lead.why_it_matches}</dd>
+                </div>
+              ) : null}
+            </dl>
+            {lead.source_url ? (
+              <a href={lead.source_url} target="_blank" rel="noreferrer" className="inline-flex text-sm font-medium text-sky-800 underline">
+                Open source record
+              </a>
+            ) : null}
+          </div>
+        </details>
+      </div>
+    </article>
+  );
 }
 
 function ContractorOpportunityCard({

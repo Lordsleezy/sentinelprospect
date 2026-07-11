@@ -40,9 +40,8 @@ GET /api/research/search?q=concrete+jobs+sacramento&trade=Concrete&has_phone=tru
 ## Next upgrades
 
 - Swap TF-IDF for embeddings (OpenAI / Sentence-BERT) behind the same ConstructIQIndex API
-- Turn on live ACT / Accela / city agenda adapters (`npm run collect:planning`)
+- Add city portal adapters (Roseville / Rocklin / Folsom / Elk Grove)
 - Persist hypotheses into Neo4j using `Signal` / `Breadcrumb` / `Hypothesis` node types
-- Merge planning signals into breadcrumb assembler as first-class atoms
 
 ## Planning stage discovery
 
@@ -50,4 +49,4 @@ GET /api/research/search?q=concrete+jobs+sacramento&trade=Concrete&has_phone=tru
 npm run collect:planning
 ```
 
-Writes `data/planning_signals.json` with seed housing packages + portal adapter stubs.
+Pulls live Sacramento County PLANNING_PROJECTS MapServer + Placer All_Active_Planning_Projects / Major Pre-Development layers into `data/planning_signals.json`. Those signals feed search (“Early-stage planning leads”) and research atoms via `npm run intelligence:research`.

@@ -2,6 +2,24 @@ import { clusterAtomsByLinkage, extractResearchEntities } from "./entity-linker"
 import type { OpportunityHypothesis, ResearchAtom, ResearchIntelligenceSnapshot } from "./types";
 import { ConstructIQIndex, type IndexedDocument } from "./semantic-index";
 
+type PlanningSignalLike = {
+  id: string;
+  title: string;
+  summary?: string | null;
+  raw_excerpt?: string | null;
+  location_text?: string | null;
+  city?: string | null;
+  county?: string | null;
+  stage?: string | null;
+  developers?: string[] | null;
+  trades_likely?: string[] | null;
+  applicant?: string | null;
+  parcel?: string | null;
+  package_hint?: string | null;
+  status?: string | null;
+  captured_at?: string | null;
+};
+
 type OpportunityLike = {
   id: string;
   project_name: string;
@@ -81,6 +99,58 @@ export function buildResearchAtoms(opportunities: OpportunityLike[]): ResearchAt
       entities,
       trade_hints: [...new Set(tradeHints)],
       captured_at: new Date().toISOString(),
+    };
+  });
+}
+
+export function buildPlanningAtoms(signals: PlanningSignalLike[]): ResearchAtom[] {
+  const knownNames = signals.flatMap((signal) => signal.developers ?? []).filter(Boolean);
+
+  return signals.map((signal) => {
+    const text = [
+      signal.title,
+      signal.summary,
+      signal.raw_excerpt,
+      signal.location_text,
+      signal.applicant,
+      signal.status,
+      ...(signal.developers ?? []),
+      ...(signal.trades_likely ?? []),
+    ].filter(Boolean).join(" ");
+
+    const entities = extractResearchEntities({
+      title: signal.title,
+      text,
+      developer: signal.developers?.[0] ?? signal.applicant ?? null,
+      general_contractor: null,
+      city: signal.city,
+      county: signal.county,
+      trade: signal.trades_likely?.[0] ?? null,
+      knownNames,
+    });
+
+    if (signal.parcel) {
+      entities.push({
+        type: "parcel",
+        value: signal.parcel,
+        canonical: signal.parcel.replace(/\s+/g, "").toUpperCase(),
+        confidence: 0.9,
+      });
+    }
+
+    return {
+      id: `atom:planning:${signal.id}`,
+      kind: "signal" as const,
+      source_id: signal.id,
+      title: signal.title,
+      text,
+      city: signal.city,
+      county: signal.county,
+      stage: signal.stage,
+      valuation: null,
+      entities,
+      trade_hints: [...new Set(signal.trades_likely ?? [])],
+      captured_at: signal.captured_at || new Date().toISOString(),
     };
   });
 }
@@ -169,14 +239,20 @@ export function createOpportunitySearchIndex(opportunities: OpportunityLike[]) {
   return new ConstructIQIndex(buildSemanticDocuments(opportunities));
 }
 
-export function buildResearchIntelligenceSnapshot(opportunities: OpportunityLike[]): ResearchIntelligenceSnapshot {
-  const atoms = buildResearchAtoms(opportunities);
+export function buildResearchIntelligenceSnapshot(
+  opportunities: OpportunityLike[],
+  planningSignals: PlanningSignalLike[] = [],
+): ResearchIntelligenceSnapshot {
+  const atoms = [
+    ...buildResearchAtoms(opportunities),
+    ...buildPlanningAtoms(planningSignals),
+  ];
   const hypotheses = assembleOpportunityHypotheses(atoms);
   return {
     generated_at: new Date().toISOString(),
     atom_count: atoms.length,
     hypothesis_count: hypotheses.length,
-    index_document_count: opportunities.length,
+    index_document_count: opportunities.length + planningSignals.length,
     atoms,
     hypotheses,
     open_source_patterns: [

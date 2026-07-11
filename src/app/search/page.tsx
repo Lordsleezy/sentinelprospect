@@ -51,7 +51,9 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
       : `${ranked.length} ${tradeLabel}opportunities worth your time`
     : "No matching contractor opportunities found yet.";
   const resultSubcopy = top && desiredTrade === "Fencing"
-    ? "Prioritized for housing developments and larger fence packages. Every result has a point of contact."
+    ? ranked.length <= 6
+      ? `Prioritized for housing developments and larger fence packages with a point of contact. Only ${ranked.length} cleared the bar — more results need better contact coverage on big projects.`
+      : "Prioritized for housing developments and larger fence packages. Every result has a point of contact."
     : null;
   const similarNearby = top ? getSimilarContractorOpportunities(top, 4) : [];
 

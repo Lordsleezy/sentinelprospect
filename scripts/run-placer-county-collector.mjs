@@ -141,16 +141,28 @@ function normalizeRecord(attributes, geometry, capturedAt) {
 function inferTrades(attributes) {
   const blob = `${text(attributes.ActiveBuilding_ExcelToTable_Sco)} ${text(attributes.ActiveBuilding_ExcelToTable_Pro)} ${text(attributes.ActiveBuilding_ExcelToTable_Des)}`.toLowerCase();
   const trades = new Set();
-  const strongFence = /\b(fence|fencing|chain[-\s]?link|ornamental iron|new\s*\(?gates?\)?|install(?:ation)? of .{0,40}gate|building a .{0,30}gate|slid(?:e|ing) gates?|automat(?:ic|ed) (?:slide )?gates?|steel gate|security gate|vehicle gate|pedestrian gate|ada ped|ped gates?|gates\/fence|fence height|pool safety fencing|fencing with gate)\b/i.test(blob);
-  if (strongFence) trades.add("Fencing");
-  if (blob.includes("roof")) trades.add("Roofing");
-  if (blob.includes("hvac") || blob.includes("mechanical")) trades.add("HVAC");
-  if (blob.includes("electric") || blob.includes("solar") || blob.includes("battery") || blob.includes("landscape lighting") || blob.includes("service pedestal")) trades.add("Electrical");
-  if (blob.includes("concrete") || blob.includes("pool") || blob.includes("spa")) trades.add("Concrete");
-  if (blob.includes("sewer") || blob.includes("grading") || blob.includes("site") || blob.includes("utility")) trades.add("Site work");
+  if (hasStrongFenceSignal(blob)) trades.add("Fencing");
+  if (/\b(roof|roofs|roofing|reroof)\b/i.test(blob)) trades.add("Roofing");
+  if (/\b(hvac|mechanical|mech\b|heat\s*pump)\b/i.test(blob)) trades.add("HVAC");
+  if (/\b(electric|electrical|solar|battery|landscape\s+lighting|service\s+pedestal)\b/i.test(blob)) trades.add("Electrical");
+  if (/\b(concrete|foundation|footing|stemwall|slab|flatwork)\b/i.test(blob)) trades.add("Concrete");
+  if (/\b(paint|painting)\b/i.test(blob)) trades.add("Painting");
+  if (/\b(carpenter|carpentry|framing|cabinets?)\b/i.test(blob)) trades.add("Carpentry");
+  if (/\b(landscape|landscaping|irrigation)\b/i.test(blob)) trades.add("Landscaping");
+  if (/\b(sewer|grading|site\s*work|utility|utilities)\b/i.test(blob)) trades.add("Site work");
   // Do not infer Fencing from residential/townhome alone — that created false positives.
   if (!trades.size) trades.add("General");
   return [...trades];
+}
+
+function hasStrongFenceSignal(blob) {
+  if (/\b(fence|fencing|chain[-\s]?link|ornamental\s+iron|fence\s+height|pool\s+safety\s+fencing|fencing\s+with\s+gate|gates?\/fence|security\s+fence)\b/i.test(blob)) {
+    return true;
+  }
+  if (/\b(new\s*\(?gates?\)?|install(?:ation)?\s+of\s+.{0,40}\bgates?\b|building\s+a\s+.{0,30}\bgate\b|slid(?:e|ing)\s+gates?|automat(?:ic|ed)\s+(?:slide\s+)?gates?|steel\s+gate|security\s+gate|vehicle\s+gate|pedestrian\s+gate|ada\s+ped|ped\s+gates?)\b/i.test(blob)) {
+    return true;
+  }
+  return false;
 }
 
 function inferStatus(status) {

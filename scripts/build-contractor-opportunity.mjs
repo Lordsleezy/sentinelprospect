@@ -13,9 +13,21 @@ const tradeModels = [
   },
   {
     trade: "Concrete",
-    terms: ["concrete", "slab", "foundation", "sidewalk", "curb", "gutter", "flatwork"],
+    terms: ["concrete", "slab", "foundation", "footing", "stemwall", "sidewalk", "curb", "gutter", "flatwork", "driveway"],
     adjacent: ["subdivision", "commercial", "industrial", "school", "park", "utility", "site work"],
     saturation: ["concrete", "cement", "flatwork"],
+  },
+  {
+    trade: "Painting",
+    terms: ["paint", "painting", "painter", "coating", "stain"],
+    adjacent: ["commercial", "apartment", "school", "tenant improvement", "residential"],
+    saturation: ["paint", "painting", "painter"],
+  },
+  {
+    trade: "Carpentry",
+    terms: ["carpenter", "carpentry", "framing", "rough frame", "finish carpentry", "cabinets", "millwork", "trim"],
+    adjacent: ["residential", "commercial", "apartment", "tenant improvement", "addition"],
+    saturation: ["carpenter", "carpentry", "framing", "cabinets"],
   },
   {
     trade: "Roofing",
@@ -125,7 +137,17 @@ function buildContractorOpportunity(opportunity) {
   const opportunitySize = classifyOpportunitySize(scope, text, opportunity);
   const saturation = classifySaturation(text, opportunity);
   const tradeScores = Object.fromEntries(tradeModels.map((model) => [model.trade, scoreTrade(model, text, opportunity, scope, subcontractor, opportunitySize, stage, saturation)]));
-  const bestTrade = Object.entries(tradeScores).sort((a, b) => b[1].contractor_opportunity_score - a[1].contractor_opportunity_score)[0];
+  // Prefer trades with direct evidence; never let Fencing win a pure tie.
+  const bestTrade = Object.entries(tradeScores).sort((a, b) => {
+    const aDirect = hasDirectTradeHit(a[0], text) ? 1 : 0;
+    const bDirect = hasDirectTradeHit(b[0], text) ? 1 : 0;
+    return (
+      b[1].contractor_opportunity_score - a[1].contractor_opportunity_score
+      || bDirect - aDirect
+      || (a[0] === "Fencing" ? 1 : 0) - (b[0] === "Fencing" ? 1 : 0)
+      || a[0].localeCompare(b[0])
+    );
+  })[0];
   const suppressReasons = suppressionReasons(scope, subcontractor, stage, saturation, bestTrade?.[1]);
   const score = bestTrade?.[1].contractor_opportunity_score ?? 0;
 
@@ -158,8 +180,16 @@ function scoreTrade(model, text, opportunity, scope, subcontractor, opportunityS
   let tradeRelevance = Math.min(100, directHits * 28 + adjacentHits * 8);
   if (model.trade === "Fencing" && opportunity.fencing_signal_presence) tradeRelevance = Math.max(tradeRelevance, 65);
   if (model.trade === "Fencing" && opportunity.fence_probability >= 50) tradeRelevance = Math.max(tradeRelevance, opportunity.fence_probability);
-  if (opportunity.trade?.toLowerCase().includes(model.trade.toLowerCase())) tradeRelevance = Math.max(tradeRelevance, 70);
-  if (!directHits && adjacentHits && ["Fencing", "Concrete", "Electrical", "Plumbing", "HVAC", "Landscaping", "Security", "Asphalt"].includes(model.trade)) {
+  if (opportunity.trade?.toLowerCase().includes(model.trade.toLowerCase())) {
+    // Multi-trade tags should not auto-boost every listed trade to 70.
+    const tradeTokens = String(opportunity.trade).toLowerCase().split(/[,/|]+/).map((part) => part.trim()).filter(Boolean);
+    if (tradeTokens.length === 1 || hasDirectTradeHit(model.trade, text)) {
+      tradeRelevance = Math.max(tradeRelevance, 70);
+    } else {
+      tradeRelevance = Math.max(tradeRelevance, 48);
+    }
+  }
+  if (!directHits && adjacentHits && ["Fencing", "Concrete", "Electrical", "Plumbing", "HVAC", "Landscaping", "Painting", "Carpentry", "Security", "Asphalt"].includes(model.trade)) {
     tradeRelevance = Math.min(tradeRelevance, 42);
   }
 
@@ -188,6 +218,11 @@ function scoreTrade(model, text, opportunity, scope, subcontractor, opportunityS
 function searchableText(opportunity) {
   return [
     opportunity.project_name,
+    opportunity.project_summary,
+    opportunity.project_description,
+    opportunity.scope_summary,
+    opportunity.primary_scope,
+    opportunity.likely_scope,
     opportunity.project_location,
     opportunity.city,
     opportunity.county,
@@ -203,8 +238,17 @@ function searchableText(opportunity) {
     opportunity.evidence_quality,
     opportunity.fast_money_potential,
     ...(opportunity.known_access_routes ?? []),
+    ...(opportunity.fence_evidence ?? []),
+    ...(opportunity.potential_fencing_scope ?? []),
+    ...(opportunity.project_categories ?? []),
     ...(opportunity.companies ?? []).map((company) => `${company.company_name} ${company.company_type}`),
-  ].join(" ").toLowerCase();
+  ].filter(Boolean).join(" ").toLowerCase();
+}
+
+function hasDirectTradeHit(trade, text) {
+  const model = tradeModels.find((item) => item.trade === trade);
+  if (!model) return text.includes(trade.toLowerCase());
+  return model.terms.some((term) => includesTerm(text, term));
 }
 
 function classifyScope(text, opportunity) {

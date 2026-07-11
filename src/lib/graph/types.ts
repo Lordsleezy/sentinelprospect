@@ -11,7 +11,10 @@ export type GraphNodeType =
   | "Trade"
   | "Bid"
   | "Document"
-  | "Agency";
+  | "Agency"
+  | "Signal"
+  | "Breadcrumb"
+  | "Hypothesis";
 
 export type GraphRelationshipType =
   | "OWNS"
@@ -23,7 +26,11 @@ export type GraphRelationshipType =
   | "DESIGNED"
   | "WORKS_FOR"
   | "ASSOCIATED_WITH"
-  | "DISCOVERED_FROM";
+  | "DISCOVERED_FROM"
+  | "SAME_AS"
+  | "PART_OF"
+  | "MENTIONS"
+  | "SUPPORTS";
 
 export type GraphNode = {
   id: string;

@@ -187,16 +187,30 @@ function normalizeRecord(attributes, geometry, sourceUrl, capturedAt) {
 function inferTrades(attributes) {
   const blob = `${text(attributes.Application_Type)} ${text(attributes.Application_Subtype)} ${text(attributes.ProjectName)} ${text(attributes.ActivityCode)} ${text(attributes.WorkDescription)}`.toLowerCase();
   const trades = new Set();
-  const strongFence = /\b(fence|fencing|chain[-\s]?link|ornamental iron|new\s*\(?gates?\)?|install(?:ation)? of .{0,40}gate|building a .{0,30}gate|slid(?:e|ing) gates?|automat(?:ic|ed) (?:slide )?gates?|steel gate|security gate|vehicle gate|pedestrian gate|ada ped|ped gates?|gates\/fence|fence height|pool safety fencing|fencing with gate)\b/i.test(blob);
-  if (strongFence) trades.add("Fencing");
-  if (blob.includes("roof") || blob.includes("tpo")) trades.add("Roofing");
-  if (blob.includes("hvac") || blob.includes("heat pump") || blob.includes("mechanical")) trades.add("HVAC");
-  if (blob.includes("electrical") || blob.includes("solar") || blob.includes("pv") || blob.includes("battery")) trades.add("Electrical");
-  if (blob.includes("concrete") || blob.includes("foundation") || blob.includes("slab")) trades.add("Concrete");
-  if (blob.includes("grading") || blob.includes("site") || blob.includes("utility")) trades.add("Site work");
+  // Word-boundary fence/gate only — never match place names like Southgate or product names like aGate.
+  if (hasStrongFenceSignal(blob)) trades.add("Fencing");
+  if (/\b(roof|roofs|roofing|reroof|tpo)\b/i.test(blob)) trades.add("Roofing");
+  if (/\b(hvac|heat\s*pump|mechanical|mech\b|furnace|air\s*handler)\b/i.test(blob)) trades.add("HVAC");
+  if (/\b(electrical|electric|solar|pv\b|battery|panel\s*upgrade)\b/i.test(blob)) trades.add("Electrical");
+  if (/\b(concrete|foundation|footing|stemwall|slab|flatwork)\b/i.test(blob)) trades.add("Concrete");
+  if (/\b(paint|painting|stucco\s*paint)\b/i.test(blob)) trades.add("Painting");
+  if (/\b(carpenter|carpentry|framing|rough\s*frame|finish\s*carpentry|cabinets?)\b/i.test(blob)) trades.add("Carpentry");
+  if (/\b(landscape|landscaping|irrigation|hardscape)\b/i.test(blob)) trades.add("Landscaping");
+  if (/\b(grading|site\s*work|utility|utilities|drainage)\b/i.test(blob)) trades.add("Site work");
   // Do not infer Fencing from production-home / subdivision alone.
   if (!trades.size) trades.add("General");
   return [...trades];
+}
+
+function hasStrongFenceSignal(blob) {
+  if (/\b(fence|fencing|chain[-\s]?link|ornamental\s+iron|fence\s+height|pool\s+safety\s+fencing|fencing\s+with\s+gate|gates?\/fence|security\s+fence)\b/i.test(blob)) {
+    return true;
+  }
+  // Gate phrases must be fence/gate work — exclude Southgate, aGate, Watergate, etc.
+  if (/\b(new\s*\(?gates?\)?|install(?:ation)?\s+of\s+.{0,40}\bgates?\b|building\s+a\s+.{0,30}\bgate\b|slid(?:e|ing)\s+gates?|automat(?:ic|ed)\s+(?:slide\s+)?gates?|steel\s+gate|security\s+gate|vehicle\s+gate|pedestrian\s+gate|ada\s+ped|ped\s+gates?)\b/i.test(blob)) {
+    return true;
+  }
+  return false;
 }
 
 function estimateRevenueWindow(valuation, trade) {

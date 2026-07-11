@@ -357,6 +357,16 @@ const aliases: Record<string, string[]> = {
   gate: ["Fencing", "Security"],
   gates: ["Fencing", "Security"],
   concrete: ["Concrete"],
+  footing: ["Concrete"],
+  footings: ["Concrete"],
+  paint: ["Painting"],
+  painting: ["Painting"],
+  painter: ["Painting"],
+  painters: ["Painting"],
+  carpenter: ["Carpentry"],
+  carpenters: ["Carpentry"],
+  carpentry: ["Carpentry"],
+  framing: ["Carpentry"],
   roofer: ["Roofing"],
   roofers: ["Roofing"],
   roofing: ["Roofing"],
@@ -389,8 +399,10 @@ const aliases: Record<string, string[]> = {
 
 /** Direct evidence terms used to hard-filter non-fencing trade searches. */
 const TRADE_EVIDENCE_TERMS: Record<string, string[]> = {
-  Fencing: ["fence", "fencing", "gate", "gates", "chain link", "perimeter fence", "security fence"],
-  Concrete: ["concrete", "slab", "foundation", "sidewalk", "curb", "gutter", "flatwork"],
+  Fencing: ["fence", "fencing", "chain link", "perimeter fence", "security fence", "new (gates", "sliding gate", "steel gate", "vehicle gate", "pedestrian gate"],
+  Concrete: ["concrete", "slab", "foundation", "footing", "stemwall", "sidewalk", "curb", "gutter", "flatwork", "driveway"],
+  Painting: ["paint", "painting", "painter", "coating", "stain"],
+  Carpentry: ["carpenter", "carpentry", "framing", "rough frame", "finish carpentry", "cabinets", "millwork", "trim"],
   Roofing: ["roofing", "reroof", "re-roof", "tpo", "membrane", "capsheet", "shingle", "roof geometry", "update roof"],
   Electrical: ["electrical", "electrician", "electric", "solar", "photovoltaic", "pv ", "pv+", "service panel", "lighting", "panel upgrade"],
   Plumbing: ["plumbing", "plumber", "sewer", "water line", "gas line", "backflow"],
@@ -831,7 +843,15 @@ function matchesRequestedTrade(opportunity: ContractorOpportunity, trade: string
 
 function hasDirectTradeEvidence(opportunity: ContractorOpportunity, trade: string) {
   const termsForTrade = TRADE_EVIDENCE_TERMS[trade] ?? [trade.toLowerCase()];
-  const nameSummary = `${opportunity.project_name} ${opportunity.project_summary ?? ""}`.toLowerCase();
+  const nameSummary = [
+    opportunity.project_name,
+    opportunity.project_summary,
+    opportunity.scope_summary,
+    opportunity.primary_scope,
+    opportunity.document_intelligence?.project_description,
+    opportunity.document_intelligence?.what_is_being_built,
+    opportunity.document_intelligence?.scope_summary,
+  ].filter(Boolean).join(" ").toLowerCase();
   // Permit boilerplate often says "no additional electrical, mechanical, plumbing" — ignore that.
   const cleaned = nameSummary.replace(/no additional[^.]{0,80}(electrical|mechanical|plumbing|structural)[^.]{0,80}/gi, " ");
   if (termsForTrade.some((term) => cleaned.includes(term))) return true;

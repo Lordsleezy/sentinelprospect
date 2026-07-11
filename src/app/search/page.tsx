@@ -225,7 +225,14 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                 <p className="mt-2 max-w-3xl text-sm leading-6 text-zinc-600">{emptyTradeMessage} Try a different trade, location, timing window, or project type.</p>
               )}
             </section>
-            {ranked.length ? ranked.map((opportunity) => <ContractorOpportunityCard key={opportunity.id} opportunity={opportunity} searchedTrade={desiredTrade} />) : (
+            {ranked.length ? ranked.map((opportunity) => (
+              <ContractorOpportunityCard
+                key={opportunity.id}
+                opportunity={opportunity}
+                searchedTrade={desiredTrade}
+                searchQuery={q}
+              />
+            )) : (
               <Card>
                 <CardHeader><h2 className="font-semibold">{desiredTrade ? `No ${desiredTrade} opportunities found` : "No realistic contractor opportunities found"}</h2></CardHeader>
                 <CardContent className="space-y-2 text-sm text-zinc-600">
@@ -392,7 +399,15 @@ function buildActiveFacetChips(filters: SearchFacetFilters) {
   return chips;
 }
 
-function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity: ContractorOpportunity; searchedTrade: string | null }) {
+function ContractorOpportunityCard({
+  opportunity,
+  searchedTrade,
+  searchQuery,
+}: {
+  opportunity: ContractorOpportunity;
+  searchedTrade: string | null;
+  searchQuery: string;
+}) {
   const humanContact = getOpportunityHumanContact(opportunity.id);
   const bestContact = humanContact?.best_contact ?? null;
   const displayContact = bestContact ?? opportunity.best_contact ?? null;
@@ -435,170 +450,201 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
   });
   const timeline = buildTimeline(opportunity);
   const recommendedAction = pickRecommendedAction(opportunity, tradeLabel, nextStep);
+  const scopeLine = buildSimpleScopeLine(opportunity, tradeLabel, likelyScopeCategories);
+  const humanSummary = buildSearchRelationSummary(opportunity, tradeLabel, searchQuery, scopeLine, whyBullets);
 
   return (
     <article className="rounded-lg border border-zinc-200 bg-white p-5 shadow-sm hover:border-zinc-300">
       <div className="min-w-0">
-        <div className="flex flex-wrap items-start justify-between gap-3">
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">{tradeLabel} · {location || "Location TBD"}</p>
-            <h3 className="mt-1 text-xl font-semibold text-zinc-950">{opportunity.project_name}</h3>
-            {opportunity.search_facets ? (
-              <div className="mt-2 flex flex-wrap gap-2">
-                <Badge className="border-zinc-200 bg-zinc-50 text-zinc-800">{opportunity.search_facets.package_size_label}</Badge>
-                <Badge className="border-zinc-200 bg-zinc-50 text-zinc-800">{opportunity.search_facets.contact_status_label}</Badge>
-                <Badge className="border-zinc-200 bg-zinc-50 text-zinc-800">{opportunity.search_facets.job_type_label}</Badge>
-              </div>
-            ) : null}
-          </div>
-          <Badge className={pursuitConfidenceBadgeClass(opportunity.pursuit_confidence)}>
-            {contractorReadinessLabel(opportunity.pursuit_confidence)}
-          </Badge>
+        <h3 className="text-xl font-semibold text-zinc-950">{opportunity.project_name}</h3>
+        <p className="mt-2 text-sm font-medium text-zinc-800">
+          <span className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Scope · </span>
+          {scopeLine}
+        </p>
+        <p className="mt-3 text-sm leading-6 text-zinc-700">{humanSummary}</p>
+
+        <div className="mt-4 flex flex-wrap items-center gap-3">
+          {decisionMakerPhone ? (
+            <a
+              href={`tel:${decisionMakerPhone.replace(/[^\d+]/g, "")}`}
+              className="inline-flex items-center gap-2 rounded-md border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm font-semibold text-emerald-950 hover:bg-emerald-100"
+            >
+              <Phone className="size-4" />
+              {decisionMakerPhone}
+            </a>
+          ) : (
+            <span className="inline-flex items-center gap-2 rounded-md border border-zinc-200 bg-zinc-50 px-3 py-2 text-sm text-zinc-600">
+              <Phone className="size-4" />
+              No phone on file yet
+            </span>
+          )}
+          {decisionMaker && decisionMaker !== decisionMakerPhone ? (
+            <span className="text-sm text-zinc-600">{decisionMaker}{decisionMakerCompany ? ` · ${decisionMakerCompany}` : ""}</span>
+          ) : null}
         </div>
 
-        <dl className="mt-4 grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-4">
-          <VisibleDatum label="Opportunity Size" value={friendlySize(opportunity)} />
-          <VisibleDatum label="Project Stage" value={friendlyStage(opportunity)} />
-          <VisibleDatum label="Subcontractor Likelihood" value={opportunity.subcontractor_likelihood || "Unknown"} />
-          <VisibleDatum label="Recommended Action" value={shortAction(recommendedAction)} />
-        </dl>
+        <details className="mt-5 rounded-md border border-zinc-200 bg-zinc-50/70">
+          <summary className="cursor-pointer list-none px-4 py-3 text-sm font-semibold text-zinc-800 marker:content-none [&::-webkit-details-marker]:hidden">
+            <span className="inline-flex items-center gap-2">
+              Advanced details
+              <span className="text-xs font-medium text-zinc-500">size, stage, dossier, evidence, contacts</span>
+            </span>
+          </summary>
 
-        <div className="mt-5 space-y-4">
-          <section>
-            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Project Summary</p>
-            <div className="mt-2 space-y-2 text-sm leading-6 text-zinc-700">
-              {projectSummary.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+          <div className="space-y-4 border-t border-zinc-200 px-4 py-4">
+            <div className="flex flex-wrap items-center gap-2">
+              <Badge className={pursuitConfidenceBadgeClass(opportunity.pursuit_confidence)}>
+                {contractorReadinessLabel(opportunity.pursuit_confidence)}
+              </Badge>
+              {opportunity.search_facets ? (
+                <>
+                  <Badge className="border-zinc-200 bg-white text-zinc-800">{opportunity.search_facets.package_size_label}</Badge>
+                  <Badge className="border-zinc-200 bg-white text-zinc-800">{opportunity.search_facets.contact_status_label}</Badge>
+                  <Badge className="border-zinc-200 bg-white text-zinc-800">{opportunity.search_facets.job_type_label}</Badge>
+                </>
+              ) : null}
+              <span className="text-xs text-zinc-500">{tradeLabel} · {location || "Location TBD"}</span>
             </div>
-            {(developer || generalContractor) ? (
-              <p className="mt-3 text-sm text-zinc-600">
-                {developer ? <>Developer: <span className="font-medium text-zinc-800">{developer}</span></> : null}
-                {developer && generalContractor ? " · " : null}
-                {generalContractor ? <>GC: <span className="font-medium text-zinc-800">{generalContractor}</span></> : null}
-              </p>
-            ) : null}
-          </section>
 
-          <section>
-            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Likely Scope</p>
-            {likelyScopeCategories.length ? (
-              <div className="mt-3 flex flex-wrap gap-2">
-                {likelyScopeCategories.map((category) => (
-                  <Badge key={category} className="border-zinc-200 bg-zinc-50 text-zinc-800">{category}</Badge>
-                ))}
+            <dl className="grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-4">
+              <VisibleDatum label="Opportunity Size" value={friendlySize(opportunity)} />
+              <VisibleDatum label="Project Stage" value={friendlyStage(opportunity)} />
+              <VisibleDatum label="Subcontractor Likelihood" value={opportunity.subcontractor_likelihood || "Unknown"} />
+              <VisibleDatum label="Recommended Action" value={shortAction(recommendedAction)} />
+            </dl>
+
+            <section>
+              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Project Summary</p>
+              <div className="mt-2 space-y-2 text-sm leading-6 text-zinc-700">
+                {projectSummary.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
               </div>
-            ) : (
-              <p className="mt-2 text-sm text-zinc-600">No specific work categories confirmed in the source records yet.</p>
-            )}
-          </section>
-
-          {whyBullets.length ? (
-            <section className="rounded-md border border-emerald-100 bg-emerald-50 p-3">
-              <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Why a {tradeLabel.toLowerCase()} contractor should care</p>
-              <ul className="mt-2 space-y-1 text-sm leading-6 text-emerald-950">
-                {whyBullets.map((bullet) => <li key={bullet}>- {bullet}</li>)}
-              </ul>
+              {(developer || generalContractor) ? (
+                <p className="mt-3 text-sm text-zinc-600">
+                  {developer ? <>Developer: <span className="font-medium text-zinc-800">{developer}</span></> : null}
+                  {developer && generalContractor ? " · " : null}
+                  {generalContractor ? <>GC: <span className="font-medium text-zinc-800">{generalContractor}</span></> : null}
+                </p>
+              ) : null}
             </section>
-          ) : null}
 
-          <section className="rounded-md border border-amber-100 bg-amber-50 p-3">
-            <p className="text-xs font-semibold uppercase tracking-wide text-amber-800">Who should I call?</p>
-            <p className="mt-2 text-base font-semibold leading-6 text-amber-950">{whoToCall}</p>
-            <dl className="mt-3 grid gap-2 text-sm sm:grid-cols-2">
-              <OptionalVisibleDatum label="Role" value={decisionMakerRole} />
-              <OptionalVisibleDatum label="Company" value={decisionMakerCompany} />
-              <OptionalVisibleDatum label="Phone" value={decisionMakerPhone} />
-              <OptionalVisibleDatum label="Email" value={decisionMakerEmail} />
-              <OptionalVisibleDatum label="Second contact" value={secondContact} />
-            </dl>
-            <div className="mt-3 rounded-md border border-amber-200/70 bg-white/70 p-3">
-              <p className="text-xs font-semibold uppercase tracking-wide text-amber-800">Why this contact?</p>
-              <p className="mt-2 text-sm leading-6 text-amber-950">{whyThisContact}</p>
-            </div>
-            {!decisionMakerPhone && !decisionMakerEmail ? (
-              <p className="mt-2 text-sm text-amber-900">
-                No direct phone yet. {tradeSafeText(nextStep, tradeLabel) || "Research the GC or developer before outreach."}
-              </p>
-            ) : null}
-          </section>
-
-          <section className="rounded-md border border-zinc-200 bg-zinc-50 p-3">
-            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Timeline</p>
-            <dl className="mt-3 grid gap-3 text-sm sm:grid-cols-2">
-              <VisibleDatum label="Current Stage" value={timeline.currentStage} />
-              <VisibleDatum label="Project Status" value={timeline.projectStatus} />
-              <VisibleDatum label="Bid Status" value={timeline.bidStatus} />
-              <VisibleDatum label="Recommended Outreach Timing" value={timeline.outreachTiming} />
-            </dl>
-          </section>
-
-          {opportunity.document_intelligence ? (
-            <section className="rounded-md border border-sky-200 bg-sky-50 p-3">
-              <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Project Dossier</p>
-              <dl className="mt-3 grid gap-3 text-sm sm:grid-cols-2">
-                <VisibleDatum label="What Is Being Built" value={opportunity.document_intelligence.what_is_being_built || "Not yet extracted"} />
-                <VisibleDatum label="Procurement Path" value={opportunity.document_intelligence.procurement_path || "Unknown"} />
-              </dl>
-              <div className="mt-3 space-y-3 text-sm leading-6 text-sky-950">
-                <div>
-                  <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Scope Summary</p>
-                  <p className="mt-1">{opportunity.document_intelligence.scope_summary}</p>
+            <section>
+              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Likely Scope</p>
+              {likelyScopeCategories.length ? (
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {likelyScopeCategories.map((category) => (
+                    <Badge key={category} className="border-zinc-200 bg-white text-zinc-800">{category}</Badge>
+                  ))}
                 </div>
-                {opportunity.document_intelligence.identified_quantities?.length ? (
+              ) : (
+                <p className="mt-2 text-sm text-zinc-600">No specific work categories confirmed in the source records yet.</p>
+              )}
+            </section>
+
+            {whyBullets.length ? (
+              <section className="rounded-md border border-emerald-100 bg-emerald-50 p-3">
+                <p className="text-xs font-semibold uppercase tracking-wide text-emerald-700">Why a {tradeLabel.toLowerCase()} contractor should care</p>
+                <ul className="mt-2 space-y-1 text-sm leading-6 text-emerald-950">
+                  {whyBullets.map((bullet) => <li key={bullet}>- {bullet}</li>)}
+                </ul>
+              </section>
+            ) : null}
+
+            <section className="rounded-md border border-amber-100 bg-amber-50 p-3">
+              <p className="text-xs font-semibold uppercase tracking-wide text-amber-800">Who should I call?</p>
+              <p className="mt-2 text-base font-semibold leading-6 text-amber-950">{whoToCall}</p>
+              <dl className="mt-3 grid gap-2 text-sm sm:grid-cols-2">
+                <OptionalVisibleDatum label="Role" value={decisionMakerRole} />
+                <OptionalVisibleDatum label="Company" value={decisionMakerCompany} />
+                <OptionalVisibleDatum label="Phone" value={decisionMakerPhone} />
+                <OptionalVisibleDatum label="Email" value={decisionMakerEmail} />
+                <OptionalVisibleDatum label="Second contact" value={secondContact} />
+              </dl>
+              <div className="mt-3 rounded-md border border-amber-200/70 bg-white/70 p-3">
+                <p className="text-xs font-semibold uppercase tracking-wide text-amber-800">Why this contact?</p>
+                <p className="mt-2 text-sm leading-6 text-amber-950">{whyThisContact}</p>
+              </div>
+              {!decisionMakerPhone && !decisionMakerEmail ? (
+                <p className="mt-2 text-sm text-amber-900">
+                  No direct phone yet. {tradeSafeText(nextStep, tradeLabel) || "Research the GC or developer before outreach."}
+                </p>
+              ) : null}
+            </section>
+
+            <section className="rounded-md border border-zinc-200 bg-white p-3">
+              <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">Timeline</p>
+              <dl className="mt-3 grid gap-3 text-sm sm:grid-cols-2">
+                <VisibleDatum label="Current Stage" value={timeline.currentStage} />
+                <VisibleDatum label="Project Status" value={timeline.projectStatus} />
+                <VisibleDatum label="Bid Status" value={timeline.bidStatus} />
+                <VisibleDatum label="Recommended Outreach Timing" value={timeline.outreachTiming} />
+              </dl>
+            </section>
+
+            {opportunity.document_intelligence ? (
+              <section className="rounded-md border border-sky-200 bg-sky-50 p-3">
+                <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Project Dossier</p>
+                <dl className="mt-3 grid gap-3 text-sm sm:grid-cols-2">
+                  <VisibleDatum label="What Is Being Built" value={opportunity.document_intelligence.what_is_being_built || "Not yet extracted"} />
+                  <VisibleDatum label="Procurement Path" value={opportunity.document_intelligence.procurement_path || "Unknown"} />
+                </dl>
+                <div className="mt-3 space-y-3 text-sm leading-6 text-sky-950">
                   <div>
-                    <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Identified Quantities</p>
-                    <ul className="mt-1 space-y-1">
-                      {opportunity.document_intelligence.identified_quantities.slice(0, 5).map((item) => (
-                        <li key={`${item.kind}-${item.quantity}`}>{item.quantity} — {item.context.slice(0, 120)}</li>
-                      ))}
-                    </ul>
-                  </div>
-                ) : null}
-                {opportunity.document_intelligence.timeline_summary ? (
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Timeline</p>
-                    <pre className="mt-1 whitespace-pre-wrap font-sans text-sm">{opportunity.document_intelligence.timeline_summary}</pre>
-                  </div>
-                ) : null}
-                {opportunity.document_intelligence.best_contact ? (
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Best Contact</p>
-                    <p className="mt-1 font-medium">
-                      {opportunity.document_intelligence.best_contact.name}
-                      {opportunity.document_intelligence.best_contact.role ? ` · ${opportunity.document_intelligence.best_contact.role}` : ""}
+                    <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Scope Summary</p>
+                    <p className="mt-1">
+                      {tradeSafeText(opportunity.document_intelligence.scope_summary, tradeLabel)
+                        || opportunity.document_intelligence.what_is_being_built
+                        || "Scope details not yet extracted for this trade."}
                     </p>
                   </div>
-                ) : null}
-                {opportunity.document_intelligence.evidence?.length ? (
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Supporting Evidence</p>
-                    <ul className="mt-2 space-y-3">
-                      {opportunity.document_intelligence.evidence.slice(0, 4).map((item) => (
-                        <li key={`${item.source}-${item.signal}-${item.text.slice(0, 40)}`}>
-                          <p className="font-medium">“{item.text}”</p>
-                          <p className="mt-1 text-xs text-sky-800">Source: {item.source}</p>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ) : null}
-                {opportunity.document_intelligence.why_this_trade_matters ? (
-                  <p className="text-xs text-sky-800">{opportunity.document_intelligence.why_this_trade_matters}</p>
-                ) : null}
-              </div>
-            </section>
-          ) : null}
-        </div>
+                  {opportunity.document_intelligence.identified_quantities?.length ? (
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Identified Quantities</p>
+                      <ul className="mt-1 space-y-1">
+                        {opportunity.document_intelligence.identified_quantities.slice(0, 5).map((item) => (
+                          <li key={`${item.kind}-${item.quantity}`}>{item.quantity} — {item.context.slice(0, 120)}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : null}
+                  {opportunity.document_intelligence.timeline_summary ? (
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Timeline</p>
+                      <pre className="mt-1 whitespace-pre-wrap font-sans text-sm">{opportunity.document_intelligence.timeline_summary}</pre>
+                    </div>
+                  ) : null}
+                  {opportunity.document_intelligence.best_contact ? (
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Best Contact</p>
+                      <p className="mt-1 font-medium">
+                        {opportunity.document_intelligence.best_contact.name}
+                        {opportunity.document_intelligence.best_contact.role ? ` · ${opportunity.document_intelligence.best_contact.role}` : ""}
+                      </p>
+                    </div>
+                  ) : null}
+                  {opportunity.document_intelligence.evidence?.length ? (
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Supporting Evidence</p>
+                      <ul className="mt-2 space-y-3">
+                        {opportunity.document_intelligence.evidence.slice(0, 4).map((item) => (
+                          <li key={`${item.source}-${item.signal}-${item.text.slice(0, 40)}`}>
+                            <p className="font-medium">“{item.text}”</p>
+                            <p className="mt-1 text-xs text-sky-800">Source: {item.source}</p>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : null}
+                </div>
+              </section>
+            ) : null}
 
-        <details className="mt-5 rounded-md border border-zinc-200 bg-white p-3">
-          <summary className="cursor-pointer text-sm font-semibold text-zinc-800">Project Evidence</summary>
-          <div className="mt-4 space-y-4">
             {evidenceSnippets.length ? (
               <div className="rounded-md border border-sky-100 bg-sky-50 p-3">
                 <p className="text-xs font-semibold uppercase tracking-wide text-sky-700">Source excerpts</p>
                 <ul className="mt-2 space-y-3 text-sm leading-6 text-sky-950">
                   {evidenceSnippets.slice(0, 4).map((item) => (
                     <li key={`${item.source_document_id ?? item.source}-${item.signal}-${item.snippet ?? item.text}`}>
-                      <p className="font-medium">â€œ{item.text ?? item.snippet}â€</p>
+                      <p className="font-medium">“{item.text ?? item.snippet}”</p>
                       <p className="mt-1 text-xs text-sky-800">Source: {item.source_document ?? item.source}</p>
                       <Link href={item.source_url} className="mt-1 inline-block text-xs font-medium underline">
                         Open source document
@@ -609,7 +655,7 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
               </div>
             ) : null}
 
-            <div className="rounded-md border border-zinc-100 bg-zinc-50 p-3">
+            <div className="rounded-md border border-zinc-100 bg-white p-3">
               <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">What the records show</p>
               <div className="mt-3 space-y-3 text-sm leading-6 text-zinc-700">
                 {opportunity.project_dossier ? (
@@ -648,14 +694,50 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
               </dl>
             ) : null}
 
-            <div className="mt-1">
-              <HumanContactPanel contact={bestContact} backupRoute={humanContact?.backup_access_route ?? opportunity.access_route} />
-            </div>
+            <HumanContactPanel contact={bestContact} backupRoute={humanContact?.backup_access_route ?? opportunity.access_route} />
           </div>
         </details>
       </div>
     </article>
   );
+}
+
+function buildSimpleScopeLine(opportunity: ContractorOpportunity, tradeLabel: string, categories: string[]) {
+  const scope = tradeSafeText(
+    opportunity.primary_scope
+      || opportunity.likely_scope
+      || opportunity.document_intelligence?.what_is_being_built
+      || opportunity.scope_summary,
+    tradeLabel,
+  );
+  if (scope && !isFencingContaminated(scope, tradeLabel)) return truncateSentence(scope, 110);
+  if (categories.length) return `${tradeLabel}: ${categories.slice(0, 3).join(", ")}`;
+  return `${tradeLabel} work indicated in source records`;
+}
+
+function buildSearchRelationSummary(
+  opportunity: ContractorOpportunity,
+  tradeLabel: string,
+  searchQuery: string,
+  scopeLine: string,
+  whyBullets: string[],
+) {
+  const location = [opportunity.city, opportunity.county].filter(Boolean).join(", ");
+  const size = friendlySize(opportunity);
+  const stage = friendlyStage(opportunity);
+  const trade = tradeLabel.toLowerCase();
+  const queryBit = searchQuery.trim()
+    ? `Matches your search for ${searchQuery.trim()}`
+    : `Relevant ${trade} opportunity`;
+  const placeBit = location ? ` in ${location}` : "";
+  const whyBit = whyBullets[0] ? ` ${whyBullets[0].replace(/\.$/, "")}.` : "";
+  return `${queryBit}${placeBit}. ${scopeLine}. Looks like a ${size.toLowerCase()} job at ${stage.toLowerCase()} stage.${whyBit}`;
+}
+
+function truncateSentence(value: string, max = 110) {
+  const clean = value.replace(/\s+/g, " ").trim();
+  if (clean.length <= max) return clean;
+  return `${clean.slice(0, max - 1).trim()}…`;
 }
 
 function VisibleDatum({ label, value, className = "text-zinc-800" }: { label: string; value: string; className?: string }) {
@@ -730,7 +812,8 @@ function shortAction(value: string) {
 
 function isFencingContaminated(text: string, tradeLabel: string) {
   if (/^fencing$/i.test(tradeLabel)) return false;
-  return /\bfenc(?:e|ing)\b|\bgates?\b|fence package|who awards fence/i.test(text);
+  // Require word boundaries — Southgate / aGate / garage must not poison non-fence cards.
+  return /\bfenc(?:e|ing)\b|\b(?:new\s+)?gates?\b|fence package|who awards fence|perimeter fencing|security fencing/i.test(text);
 }
 
 function tradeSafeText(value: string | undefined, tradeLabel: string) {
@@ -755,8 +838,10 @@ function pickRecommendedAction(opportunity: ContractorOpportunity, tradeLabel: s
 }
 
 const TRADE_EVIDENCE_TERMS: Record<string, string[]> = {
-  Fencing: ["fence", "fencing", "gate", "gates", "chain link", "perimeter fence"],
+  Fencing: ["fence", "fencing", "chain link", "perimeter fence", "security fence", "sliding gate", "steel gate"],
   Concrete: ["concrete", "stemwall", "stem wall", "foundation", "footing", "flatwork", "sidewalk", "curb", "gutter", "slab", "driveway"],
+  Painting: ["paint", "painting", "painter", "coating", "stain"],
+  Carpentry: ["carpenter", "carpentry", "framing", "cabinets", "millwork", "trim"],
   Roofing: ["roofing", "reroof", "re-roof", "shingle", "tpo", "membrane", "roof geometry", "capsheet"],
   HVAC: ["hvac", "heat pump", "package unit", "package units", "rtu", "air conditioning", "split system", "mech ("],
   Electrical: ["electrical", "electrician", "solar", "photovoltaic", "service panel", "panel upgrade", "lighting"],
@@ -1033,6 +1118,8 @@ function inferQueryTrade(query: string) {
   const q = query.toLowerCase();
   if (q.includes("fence") || q.includes("fencing")) return "Fencing";
   if (q.includes("concrete")) return "Concrete";
+  if (q.includes("paint")) return "Painting";
+  if (q.includes("carpenter") || q.includes("carpentry") || q.includes("framing")) return "Carpentry";
   if (q.includes("roof")) return "Roofing";
   if (q.includes("electrical") || q.includes("electric")) return "Electrical";
   if (q.includes("hvac") || q.includes("mechanical")) return "HVAC";

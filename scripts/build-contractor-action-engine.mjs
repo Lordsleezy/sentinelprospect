@@ -166,18 +166,18 @@ function accessPathFor(opportunity, contact) {
 }
 
 function likelyScopeFor(opportunity) {
-  const text = `${opportunity.project_name} ${opportunity.trade} ${opportunity.qualification_reason}`.toLowerCase();
-  const fenceRelevant = opportunity.primary_contractor_trade === "Fencing" || /fenc|gate|perimeter|security/.test(text);
-  if (!fenceRelevant) return `${opportunity.primary_contractor_trade} scope`;
-  if (/park/.test(text)) return "Park fencing";
-  if (/school/.test(text)) return "School perimeter fencing";
-  if (/utility|drainage|trunk|corridor/.test(text)) return "Utility corridor fencing";
-  if (/industrial|security|warehouse/.test(text)) return "Security fencing";
-  if (/subdivision|village|master plan|lot|unit|homes|residential/.test(text)) return "Residential perimeter fencing";
-  if (/gate/.test(text)) return "Gates";
-  if (/retaining|wall/.test(text)) return "Retaining wall interface";
-  if (opportunity.primary_contractor_trade === "Fencing") return "Construction fencing";
-  return "Unknown";
+  const trade = opportunity.primary_contractor_trade || "Trade";
+  const text = `${opportunity.project_name} ${opportunity.trade} ${opportunity.qualification_reason} ${opportunity.project_summary ?? ""}`.toLowerCase();
+  const fenceRelevant = trade === "Fencing" && /\b(fence|fencing|perimeter|security\s+fence|chain[-\s]?link)\b|\b(new\s*\(?gates?\)?|sliding\s+gate|steel\s+gate|security\s+gate|vehicle\s+gate|pedestrian\s+gate)\b/.test(text);
+  if (!fenceRelevant) return `${trade} scope`;
+  if (/\bpark\b/.test(text)) return "Park fencing";
+  if (/\bschool\b/.test(text)) return "School perimeter fencing";
+  if (/\butility|drainage|trunk|corridor\b/.test(text)) return "Utility corridor fencing";
+  if (/\bindustrial|security|warehouse\b/.test(text)) return "Security fencing";
+  if (/\bsubdivision|village|master plan|lot|unit|homes|residential\b/.test(text)) return "Residential perimeter fencing";
+  if (/\b(new\s*\(?gates?\)?|sliding\s+gate|steel\s+gate|security\s+gate)\b/.test(text)) return "Gates";
+  if (/\bretaining|wall\b/.test(text)) return "Retaining wall interface";
+  return "Construction fencing";
 }
 
 function recommendedActionFor(opportunity, contact, accessPath, likelyScope) {

@@ -1,5 +1,5 @@
 ﻿import Link from "next/link";
-import { Database, FileSearch, Mail, Phone, Radar } from "lucide-react";
+import { Database, FileSearch, Mail, Phone, Radar, X } from "lucide-react";
 import { AppShell } from "@/components/layout/app-shell";
 import { PageTitle } from "@/components/layout/page-title";
 import { Badge } from "@/components/ui/badge";
@@ -7,10 +7,20 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import {
+  SEARCH_FACET_LABELS,
+  buildSearchFacetCounts,
   getContractorOpportunitySearchResults,
+  getDefaultFencingFacetFilters,
   getSimilarContractorOpportunities,
+  hasActiveSearchFacetFilters,
   inferSearchTrades,
+  matchesSearchFacetFilters,
+  parseSearchFacetParams,
+  type ContactFacet,
   type ContractorOpportunity,
+  type JobTypeFacet,
+  type PackageSizeFacet,
+  type SearchFacetFilters,
 } from "@/lib/contractor-opportunity-engine";
 import { formatHumanContact, getOpportunityHumanContact, type HumanContact } from "@/lib/human-contact-discovery";
 
@@ -22,40 +32,56 @@ const popularSearches = [
   "Developer activity in Placer County",
 ];
 
-const searchFilters = [
-  { label: "Trade", values: ["Fence", "Concrete", "Electrical", "Roofing", "HVAC", "Site Work"] },
-  { label: "Location", values: ["Sacramento", "Roseville", "Rocklin", "Placer County"] },
-  { label: "Timeline", values: ["Fast Money", "0-6 Months", "6-18 Months", "18+ Months"] },
-  { label: "Project Type", values: ["Commercial", "Residential", "Industrial", "Public Works"] },
-];
-
 export default async function SearchPage({ searchParams }: { searchParams: Promise<Record<string, string | undefined>> }) {
   const params = await searchParams;
   const q = params.q ?? "";
-  const ranked = getContractorOpportunitySearchResults(q);
-  const top = ranked[0];
+  const browseAll = params.browse === "all";
   const desiredTrades = inferSearchTrades(q);
   const desiredTrade = desiredTrades[0] ?? inferQueryTrade(q);
+  const fencingOnlySearch = desiredTrades.length === 1 && desiredTrades[0] === "Fencing";
+  const parsedFilters = parseSearchFacetParams(params);
+  const userTouchedFacets = browseAll
+    || params.size !== undefined
+    || params.contact !== undefined
+    || params.type !== undefined
+    || params.trade !== undefined
+    || params.location !== undefined;
+  const activeFilters: SearchFacetFilters = fencingOnlySearch && !userTouchedFacets
+    ? getDefaultFencingFacetFilters()
+    : parsedFilters;
+  const defaultsApplied = fencingOnlySearch && !userTouchedFacets;
+  const inventory = q ? getContractorOpportunitySearchResults(q) : [];
+  const ranked = inventory.filter((opportunity) => matchesSearchFacetFilters(opportunity, activeFilters));
+  const facetCounts = buildSearchFacetCounts(inventory);
+  const filtersActive = hasActiveSearchFacetFilters(activeFilters);
+  const top = ranked[0];
   const highConfidenceCount = ranked.filter((item) => item.pursuit_confidence === "High Confidence").length;
   const mediumConfidenceCount = ranked.filter((item) => item.pursuit_confidence === "Medium Confidence").length;
   const researchCount = ranked.filter((item) => item.pursuit_confidence === "Research Required" || item.opportunity_state === "Research Required").length;
   const tradeLabel = desiredTrade ? `${desiredTrade.toLowerCase()} ` : "";
   const emptyTradeMessage = desiredTrade === "Fencing"
-    ? "No callable development-scale fencing opportunities matched this search. Sentinel only shows fencing jobs with a point of contact, and it hides tiny residential gate/repair permits."
+    ? filtersActive
+      ? "No fencing opportunities matched these filters. Clear filters to browse the full fencing inventory."
+      : "No fencing-related opportunities matched this search."
     : desiredTrade
       ? `No matching ${desiredTrade} opportunities were found for this search. Sentinel does not fall back to fencing results when another trade is requested.`
       : "Sentinel found no results that clear the contractor opportunity threshold for this search.";
   const resultHeadline = top
     ? desiredTrade === "Fencing"
-      ? `${ranked.length} fencing opportunities with contacts`
+      ? filtersActive
+        ? `${inventory.length} fencing jobs · Filtered to ${ranked.length}`
+        : `${ranked.length} fencing jobs`
       : `${ranked.length} ${tradeLabel}opportunities worth your time`
     : "No matching contractor opportunities found yet.";
   const resultSubcopy = top && desiredTrade === "Fencing"
-    ? ranked.length <= 6
-      ? `Prioritized for housing developments and larger fence packages with a point of contact. Only ${ranked.length} cleared the bar — more results need better contact coverage on big projects.`
-      : "Prioritized for housing developments and larger fence packages. Every result has a point of contact."
+    ? defaultsApplied
+      ? "Showing development-scale packages with a phone by default. Clear filters to see commercial packages, smaller jobs, and research-only leads."
+      : filtersActive
+        ? "Filtered from the full fencing inventory for this search."
+        : "Browsing all fencing-related opportunities for this search."
     : null;
   const similarNearby = top ? getSimilarContractorOpportunities(top, 4) : [];
+  const activeChips = buildActiveFacetChips(activeFilters);
 
   return (
     <AppShell>
@@ -78,23 +104,100 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
             </Link>
           ))}
         </div>
-        <div className="mt-4 grid gap-3 border-t border-zinc-100 pt-4">
-          {searchFilters.map((group) => (
-            <div key={group.label} className="flex flex-col gap-2 sm:flex-row sm:items-center">
-              <p className="w-24 text-xs font-semibold uppercase tracking-wide text-zinc-500">{group.label}</p>
-              <div className="flex flex-wrap gap-2">
-                {group.values.map((value) => (
-                  <Link key={value} href={`/search?q=${encodeURIComponent(value)}`} className="rounded-md border border-zinc-200 px-3 py-1.5 text-xs font-medium text-zinc-700 hover:border-zinc-400 hover:bg-zinc-50">
-                    {value}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
       </Card>
       {q ? (
-        <div className="grid gap-5 lg:grid-cols-[1fr_18rem]">
+        <div className="grid gap-5 lg:grid-cols-[16rem_1fr_18rem]">
+          <aside className="space-y-4">
+            <Card>
+              <CardHeader className="pb-2">
+                <div className="flex items-center justify-between gap-2">
+                  <h2 className="font-semibold">Filters</h2>
+                  {filtersActive ? (
+                    <Link href={buildSearchHref(q, {}, true)} className="text-xs font-medium text-zinc-600 hover:text-zinc-950">
+                      Clear all
+                    </Link>
+                  ) : null}
+                </div>
+                <p className="mt-1 text-xs text-zinc-500">
+                  {fencingOnlySearch
+                    ? "Narrow by package size, contact readiness, and job type."
+                    : "Facet filters are optimized for fencing searches."}
+                </p>
+              </CardHeader>
+              <CardContent className="space-y-5">
+                {activeChips.length ? (
+                  <div className="flex flex-wrap gap-2">
+                    {activeChips.map((chip) => (
+                      <Link
+                        key={`${chip.group}:${chip.value}`}
+                        href={buildSearchHref(q, removeFacetValue(activeFilters, chip.group, chip.value))}
+                        className="inline-flex items-center gap-1 rounded-md border border-zinc-300 bg-zinc-50 px-2 py-1 text-xs font-medium text-zinc-700 hover:bg-zinc-100"
+                      >
+                        {chip.label}
+                        <X className="size-3" />
+                      </Link>
+                    ))}
+                  </div>
+                ) : null}
+
+                <FacetGroup
+                  title="Package size"
+                  options={(Object.keys(SEARCH_FACET_LABELS.size) as PackageSizeFacet[]).map((value) => ({
+                    value,
+                    label: SEARCH_FACET_LABELS.size[value],
+                    count: facetCounts.size[value],
+                    active: activeFilters.size?.includes(value) ?? false,
+                    href: buildSearchHref(q, toggleFacetValue(activeFilters, "size", value)),
+                  }))}
+                />
+                <FacetGroup
+                  title="Contact"
+                  options={(Object.keys(SEARCH_FACET_LABELS.contact) as ContactFacet[]).map((value) => ({
+                    value,
+                    label: SEARCH_FACET_LABELS.contact[value],
+                    count: facetCounts.contact[value],
+                    active: activeFilters.contact?.includes(value) ?? false,
+                    href: buildSearchHref(q, toggleFacetValue(activeFilters, "contact", value)),
+                  }))}
+                />
+                <FacetGroup
+                  title="Job type"
+                  options={(Object.keys(SEARCH_FACET_LABELS.type) as JobTypeFacet[]).map((value) => ({
+                    value,
+                    label: SEARCH_FACET_LABELS.type[value],
+                    count: facetCounts.type[value],
+                    active: activeFilters.type?.includes(value) ?? false,
+                    href: buildSearchHref(q, toggleFacetValue(activeFilters, "type", value)),
+                  }))}
+                />
+                {facetCounts.trade.length > 1 ? (
+                  <FacetGroup
+                    title="Trade"
+                    options={facetCounts.trade.map((entry) => ({
+                      value: entry.value,
+                      label: entry.value,
+                      count: entry.count,
+                      active: activeFilters.trade?.includes(entry.value) ?? false,
+                      href: buildSearchHref(q, toggleTradeFacet(activeFilters, entry.value)),
+                    }))}
+                  />
+                ) : null}
+                {facetCounts.location.length ? (
+                  <FacetGroup
+                    title="Location"
+                    options={facetCounts.location.map((entry) => ({
+                      value: entry.value,
+                      label: entry.value,
+                      count: entry.count,
+                      active: activeFilters.location?.includes(entry.value) ?? false,
+                      href: buildSearchHref(q, toggleLocationFacet(activeFilters, entry.value)),
+                    }))}
+                  />
+                ) : null}
+              </CardContent>
+            </Card>
+          </aside>
+
           <section className="space-y-4">
             <section className="rounded-lg border border-zinc-200 bg-white p-5 shadow-sm">
               <div className="flex items-center gap-2 text-sm font-semibold text-emerald-700">
@@ -128,6 +231,11 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                 <CardContent className="space-y-2 text-sm text-zinc-600">
                   <p>{emptyTradeMessage}</p>
                   <p>Try broader terms such as subdivision work, public works, commercial development, utility expansion, or a different trade.</p>
+                  {filtersActive ? (
+                    <Link href={buildSearchHref(q, {}, true)} className="inline-flex text-sm font-medium text-zinc-900 underline">
+                      Clear filters and browse all matches
+                    </Link>
+                  ) : null}
                 </CardContent>
               </Card>
             )}
@@ -146,7 +254,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                     <p className="font-semibold">{opportunity.project_name}</p>
                     <p className="mt-1 text-sm text-zinc-600">
                       {[opportunity.city, opportunity.county].filter(Boolean).join(", ") || "Nearby"}
-                      {opportunity.primary_contractor_trade ? ` Â· ${opportunity.primary_contractor_trade}` : ""}
+                      {opportunity.primary_contractor_trade ? ` · ${opportunity.primary_contractor_trade}` : ""}
                     </p>
                     <p className="mt-2 text-sm text-zinc-700">
                       {opportunity.primary_scope
@@ -156,7 +264,7 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
                     </p>
                     <p className="mt-2 text-xs text-zinc-500">
                       {opportunity.opportunity_size && opportunity.opportunity_size !== "Unknown" ? `${opportunity.opportunity_size} job` : opportunity.scope_size}
-                      {opportunity.project_stage && opportunity.project_stage !== "Unknown" ? ` Â· ${opportunity.project_stage}` : ""}
+                      {opportunity.project_stage && opportunity.project_stage !== "Unknown" ? ` · ${opportunity.project_stage}` : ""}
                     </p>
                   </div>
                 )) : (
@@ -171,6 +279,117 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
       )}
     </AppShell>
   );
+}
+
+function FacetGroup({
+  title,
+  options,
+}: {
+  title: string;
+  options: Array<{ value: string; label: string; count: number; active: boolean; href: string }>;
+}) {
+  return (
+    <div>
+      <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">{title}</p>
+      <div className="mt-2 space-y-1">
+        {options.map((option) => (
+          <Link
+            key={option.value}
+            href={option.href}
+            className={`flex items-center justify-between gap-2 rounded-md px-2 py-1.5 text-sm ${
+              option.active
+                ? "bg-zinc-900 text-white"
+                : "text-zinc-700 hover:bg-zinc-50"
+            }`}
+          >
+            <span className="min-w-0 truncate">{option.label}</span>
+            <span className={`shrink-0 text-xs ${option.active ? "text-zinc-300" : "text-zinc-400"}`}>{option.count}</span>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function buildSearchHref(q: string, filters: SearchFacetFilters, browseAll = false) {
+  const params = new URLSearchParams();
+  if (q) params.set("q", q);
+  if (browseAll) {
+    params.set("browse", "all");
+    return `/search?${params.toString()}`;
+  }
+  if (filters.size?.length) params.set("size", filters.size.join(","));
+  if (filters.contact?.length) params.set("contact", filters.contact.join(","));
+  if (filters.type?.length) params.set("type", filters.type.join(","));
+  if (filters.trade?.length) params.set("trade", filters.trade.join(","));
+  if (filters.location?.length) params.set("location", filters.location.join("|"));
+  // Explicit empty facet state (user cleared defaults) — keep browse=all only when nothing selected.
+  if (!hasActiveSearchFacetFilters(filters)) params.set("browse", "all");
+  return `/search?${params.toString()}`;
+}
+
+function toggleFacetValue(
+  filters: SearchFacetFilters,
+  key: "size" | "contact" | "type",
+  value: string,
+): SearchFacetFilters {
+  const current = filters[key] ?? [];
+  const exists = (current as string[]).includes(value);
+  const next = exists ? current.filter((item) => item !== value) : [...current, value];
+  return {
+    ...filters,
+    [key]: next.length ? next : undefined,
+  };
+}
+
+function toggleLocationFacet(filters: SearchFacetFilters, value: string): SearchFacetFilters {
+  const current = filters.location ?? [];
+  const exists = current.includes(value);
+  const next = exists ? current.filter((item) => item !== value) : [...current, value];
+  return {
+    ...filters,
+    location: next.length ? next : undefined,
+  };
+}
+
+function toggleTradeFacet(filters: SearchFacetFilters, value: string): SearchFacetFilters {
+  const current = filters.trade ?? [];
+  const exists = current.includes(value);
+  const next = exists ? current.filter((item) => item !== value) : [...current, value];
+  return {
+    ...filters,
+    trade: next.length ? next : undefined,
+  };
+}
+
+function removeFacetValue(
+  filters: SearchFacetFilters,
+  group: "size" | "contact" | "type" | "trade" | "location",
+  value: string,
+): SearchFacetFilters {
+  if (group === "location") return toggleLocationFacet(filters, value);
+  if (group === "trade") return toggleTradeFacet(filters, value);
+  return toggleFacetValue(filters, group, value);
+}
+
+function buildActiveFacetChips(filters: SearchFacetFilters) {
+  const chips: Array<{ group: "size" | "contact" | "type" | "trade" | "location"; value: string; label: string }> = [];
+  for (const value of filters.size ?? []) {
+    chips.push({ group: "size", value, label: SEARCH_FACET_LABELS.size[value] });
+  }
+  for (const value of filters.contact ?? []) {
+    chips.push({ group: "contact", value, label: SEARCH_FACET_LABELS.contact[value] });
+  }
+  for (const value of filters.type ?? []) {
+    chips.push({ group: "type", value, label: SEARCH_FACET_LABELS.type[value] });
+  }
+  for (const value of filters.trade ?? []) {
+    chips.push({ group: "trade", value, label: value });
+  }
+  for (const value of filters.location ?? []) {
+    chips.push({ group: "location", value, label: value });
+  }
+  return chips;
 }
 
 function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity: ContractorOpportunity; searchedTrade: string | null }) {
@@ -194,7 +413,7 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
     ?? developer;
   const secondContact = realValue(
     opportunity.second_contact
-      ? `${opportunity.second_contact}${opportunity.second_contact_phone ? ` Â· ${opportunity.second_contact_phone}` : ""}`
+      ? `${opportunity.second_contact}${opportunity.second_contact_phone ? ` · ${opportunity.second_contact_phone}` : ""}`
       : null,
   );
   const whyBullets = buildEvidenceWhyTradeMatters(opportunity, tradeLabel).slice(0, 3);
@@ -222,8 +441,15 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
       <div className="min-w-0">
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">{tradeLabel} Â· {location || "Location TBD"}</p>
+            <p className="text-xs font-semibold uppercase tracking-wide text-zinc-500">{tradeLabel} · {location || "Location TBD"}</p>
             <h3 className="mt-1 text-xl font-semibold text-zinc-950">{opportunity.project_name}</h3>
+            {opportunity.search_facets ? (
+              <div className="mt-2 flex flex-wrap gap-2">
+                <Badge className="border-zinc-200 bg-zinc-50 text-zinc-800">{opportunity.search_facets.package_size_label}</Badge>
+                <Badge className="border-zinc-200 bg-zinc-50 text-zinc-800">{opportunity.search_facets.contact_status_label}</Badge>
+                <Badge className="border-zinc-200 bg-zinc-50 text-zinc-800">{opportunity.search_facets.job_type_label}</Badge>
+              </div>
+            ) : null}
           </div>
           <Badge className={pursuitConfidenceBadgeClass(opportunity.pursuit_confidence)}>
             {contractorReadinessLabel(opportunity.pursuit_confidence)}
@@ -246,7 +472,7 @@ function ContractorOpportunityCard({ opportunity, searchedTrade }: { opportunity
             {(developer || generalContractor) ? (
               <p className="mt-3 text-sm text-zinc-600">
                 {developer ? <>Developer: <span className="font-medium text-zinc-800">{developer}</span></> : null}
-                {developer && generalContractor ? " Â· " : null}
+                {developer && generalContractor ? " · " : null}
                 {generalContractor ? <>GC: <span className="font-medium text-zinc-800">{generalContractor}</span></> : null}
               </p>
             ) : null}
